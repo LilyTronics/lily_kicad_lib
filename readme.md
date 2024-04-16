@@ -12,6 +12,7 @@ The library is set up as follows:
 lily_kicad_lib/
   |- 3d_models
   |- footprints
+  |- lib_test
   |- symbols
 ```
 
@@ -35,6 +36,10 @@ All symbols are self created to ensure consistensy. All symbols have the followi
 * Extra values for voltage/current/power/tolerance etc.
 * Part ID field for the ERP system used in LilyTronics.
 * Part ID field for the part ID used by JLCPCB.
+
+### Lib test
+
+KiCad project for evaluating new symbols, footprints and 3D symbols.
 
 ## Usage
 
