@@ -4,6 +4,11 @@ This is a free to use KiCad library.
 
 Compatible KiCad version: 8
 
+Addintional information:
+
+* [Symbol naming convention](documents/symbol_naming.md)
+* [Part list](documents/part_list.md)
+
 ## Setup
 
 The library is set up as follows:
