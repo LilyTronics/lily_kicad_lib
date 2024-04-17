@@ -6,8 +6,8 @@ Compatible KiCad version: 8
 
 Addintional information:
 
-* [Symbol naming convention](documents/symbol_naming.md)
 * [Part list](documents/part_list.md)
+* [Symbol naming convention](documents/symbol_naming.md)
 
 ## Setup
 
