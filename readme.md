@@ -16,8 +16,10 @@ The library is set up as follows:
 ```
 lily_kicad_lib/
   |- 3d_models
-  |- footprints
+  |- documents
   |- lib_test
+  |- lily_footprints.pretty
+  |- scripts
   |- symbols
 ```
 
@@ -29,7 +31,7 @@ The 3D models are taken from three sources:
 * Manufacturer 3D models
 * Self created 3D models
 
-### footprints
+### Footprints
 
 Footprints are created using the specifications of the manufacturers.
 All footprints have a 3D model attached.
@@ -38,7 +40,6 @@ All footprints have a 3D model attached.
 
 All symbols are self created to ensure consistensy. All symbols have the following extra attributes:
 
-* Extra values for voltage/current/power/tolerance etc.
 * Part ID field for the ERP system used in LilyTronics.
 * Part ID field for the part ID used by JLCPCB.
 
