@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1913-{lily_id}"
+		(property "Manufacturer" "Uniroyal Electronics"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -54,8 +54,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "Manufacturer_ID" "0805W8F{manufacturer_id}T5E"
 			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "1913-{lily_id}"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "tdb"
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

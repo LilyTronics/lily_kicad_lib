@@ -40,6 +40,8 @@ All footprints have a 3D model attached.
 
 All symbols are self created to ensure consistensy. All symbols have the following extra attributes:
 
+* Manufacturer
+* Manufacturer part ID
 * Part ID field for the ERP system used in LilyTronics.
 * Part ID field for the part ID used by JLCPCB.
 

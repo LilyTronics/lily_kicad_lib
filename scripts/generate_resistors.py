@@ -18,15 +18,23 @@ values = [
 ]
 
 factors = [
-    {"unit": "R", "factor": 1,   "power_of_ten": "0"},
-    {"unit": "R", "factor": 10,  "power_of_ten": "1"},
-    {"unit": "R", "factor": 100, "power_of_ten": "2"},
-    {"unit": "k", "factor": 1,   "power_of_ten": "3"},
-    {"unit": "k", "factor": 10,  "power_of_ten": "4"},
-    {"unit": "k", "factor": 100, "power_of_ten": "5"},
-    {"unit": "M", "factor": 1,   "power_of_ten": "6"}
+    {"unit": "R", "factor": 1,   "lily_power": "0", "manufacturer_power": "K"},
+    {"unit": "R", "factor": 10,  "lily_power": "1", "manufacturer_power": "J"},
+    {"unit": "R", "factor": 100, "lily_power": "2", "manufacturer_power": "0"},
+    {"unit": "k", "factor": 1,   "lily_power": "3", "manufacturer_power": "1"},
+    {"unit": "k", "factor": 10,  "lily_power": "4", "manufacturer_power": "2"},
+    {"unit": "k", "factor": 100, "lily_power": "5", "manufacturer_power": "3"},
+    {"unit": "M", "factor": 1,   "lily_power": "6", "manufacturer_power": "4"}
 ]
 
+# manufacturer_id
+# 1R   => 100K
+# 10R  => 100J
+# 100R => 1000
+# 1k   => 1001
+# 10k  => 1002
+# 100k => 1003
+# 1M   => 1004
 
 with open(template_fie, "r") as fp:
     template = fp.read()
@@ -39,20 +47,22 @@ with open(output_file, "w") as fp:
             res_value = value.replace(".", "")[:3]
             if len(res_value) < 3:
                 res_value += "0"
-            lily_id = package_id + res_value + factor["power_of_ten"]
+            lily_id = package_id + res_value + factor["lily_power"]
+            manufacturer_id = res_value + factor["manufacturer_power"]
             if len(value) > 3:
                 value = value.replace(".0", "")
             if "." in value:
                 value = value.replace(".", factor["unit"])
             else:
                 value += factor["unit"]
-            print(f"Write: {value} {power} {package_name} {footprint} {lily_id}")
+            print(f"Write: {value} {power} {package_name} {footprint} {lily_id} {manufacturer_id}")
             output = template.format(
                 value=value,
                 power=power,
                 package=package_name,
                 footprint=footprint,
-                lily_id=lily_id
+                lily_id=lily_id,
+                manufacturer_id=manufacturer_id
             )
             fp.write(f"{output.rstrip()}\n")
             total += 1
