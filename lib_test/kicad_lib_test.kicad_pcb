@@ -39,6 +39,50 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Blue")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Blue")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -419,7 +463,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
-		(at 160 29)
+		(at 120 29)
 		(property "Reference" "R2044"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -656,7 +700,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "03acc364-87be-4d12-9e1a-70105eaf71f3")
-		(at 180 37)
+		(at 140 37)
 		(property "Reference" "R2096"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -893,7 +937,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "0550dd86-a694-491d-8f7e-de42b7f415e6")
-		(at 125 25)
+		(at 85 25)
 		(property "Reference" "R2013"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -1130,7 +1174,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "05af67a4-8a52-4431-a323-7616875ab485")
-		(at 65 29)
+		(at 25 29)
 		(property "Reference" "R2025"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -1367,7 +1411,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "07f5922f-c2e2-448c-897e-cea859b5bc6c")
-		(at 155 41)
+		(at 115 41)
 		(property "Reference" "R2115"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -1604,7 +1648,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "07f6531a-f8b9-4f5a-a0ac-d33b038b3887")
-		(at 90 29)
+		(at 50 29)
 		(property "Reference" "R2030"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -1841,7 +1885,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "09b286c1-b1bf-4a8e-bd62-0b54a7bac861")
-		(at 165 29)
+		(at 125 29)
 		(property "Reference" "R2045"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -2078,7 +2122,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "09f1f504-55f0-400c-9e78-0eb9993d7d42")
-		(at 135 33)
+		(at 95 33)
 		(property "Reference" "R2063"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -2315,7 +2359,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "11c4c027-cd2b-4509-816d-a7e3caeb9480")
-		(at 95 49)
+		(at 55 49)
 		(property "Reference" "R2151"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -2552,7 +2596,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "14269f56-e597-4852-b6d0-5b36e0eafca9")
-		(at 165 33)
+		(at 125 33)
 		(property "Reference" "R2069"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -2789,7 +2833,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "155a1839-3711-44b3-af74-585fe6a861f5")
-		(at 130 25)
+		(at 90 25)
 		(property "Reference" "R2014"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -3026,7 +3070,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "15943f05-2149-4052-8533-4c4228cfa509")
-		(at 110 49)
+		(at 70 49)
 		(property "Reference" "R2154"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -3263,7 +3307,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "186c7a13-de46-4c0d-ab22-625c1bfb1f82")
-		(at 150 49)
+		(at 110 49)
 		(property "Reference" "R2162"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -3500,7 +3544,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1b2962bb-869b-4ec1-a3a5-4925118c78e0")
-		(at 95 29)
+		(at 55 29)
 		(property "Reference" "R2031"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -3737,7 +3781,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1bb46f19-67fb-421c-99b9-bf5adbde6451")
-		(at 150 41)
+		(at 110 41)
 		(property "Reference" "R2114"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -3974,7 +4018,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1d748442-0916-4317-b2d0-5b2d93103d61")
-		(at 135 25)
+		(at 95 25)
 		(property "Reference" "R2015"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -4211,7 +4255,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1eaef26d-59ab-467d-8056-a552c00b03ee")
-		(at 135 37)
+		(at 95 37)
 		(property "Reference" "R2087"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -4448,7 +4492,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1eb887cf-a47b-4702-8698-80493f88619f")
-		(at 120 37)
+		(at 80 37)
 		(property "Reference" "R2084"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -4685,7 +4729,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "251aa133-22e3-480b-8a06-a073f6691b62")
-		(at 100 29)
+		(at 60 29)
 		(property "Reference" "R2032"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -4922,7 +4966,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "274b9b74-f76a-43d9-80e7-c18a039f7d4b")
-		(at 170 33)
+		(at 130 33)
 		(property "Reference" "R2070"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -5159,7 +5203,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "2ba7b374-b3bb-4830-95ba-1b8a0c67a148")
-		(at 170 49)
+		(at 130 49)
 		(property "Reference" "R2166"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -5396,9 +5440,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "2e85c524-3d55-4388-b79b-7994ebdfadc4")
-		(at 70 45)
+		(at 30 45)
 		(property "Reference" "R2122"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ee60cb2a-4b2b-41f4-ac64-36d246b99428")
 			(effects
@@ -5409,7 +5453,7 @@
 			)
 		)
 		(property "Value" "110k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67a13618-ecad-422f-be35-c6f9710e7ad2")
@@ -5588,7 +5632,7 @@
 			(uuid "30e5b1d7-ad33-4ce7-8ec2-7383f6db9163")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d5d42314-a168-4fb6-ac22-fcf1afa76693")
 			(effects
@@ -5633,7 +5677,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "30e7023f-8cd7-4f1c-b5cb-76b73be6d151")
-		(at 160 33)
+		(at 120 33)
 		(property "Reference" "R2068"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -5870,7 +5914,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "33dfa51d-443a-43eb-8491-63c49bc5e62e")
-		(at 160 37)
+		(at 120 37)
 		(property "Reference" "R2092"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -6107,7 +6151,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "34f4e7f9-c0ac-46fa-93a5-5e12f74776e3")
-		(at 85 33)
+		(at 45 33)
 		(property "Reference" "R2053"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -6344,7 +6388,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "350e756d-8a62-4ed4-8c04-727d18f0fe1d")
-		(at 125 29)
+		(at 85 29)
 		(property "Reference" "R2037"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -6581,7 +6625,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "356e6125-4d3e-4630-b751-cf4d6e6901d9")
-		(at 115 37)
+		(at 75 37)
 		(property "Reference" "R2083"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -6818,7 +6862,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "37b4fc5a-abd7-4a6f-bd15-bce8a52d9a3a")
-		(at 65 33)
+		(at 25 33)
 		(property "Reference" "R2049"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -7055,9 +7099,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "387e5a11-82b8-4ab8-a354-fb09f0f3a8f2")
-		(at 170 45)
+		(at 130 45)
 		(property "Reference" "R2142"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f5899490-d49b-46a2-81df-0c2526c5e8d0")
 			(effects
@@ -7068,7 +7112,7 @@
 			)
 		)
 		(property "Value" "750k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b0d54f6-bd45-4f3e-9583-a6b5463632a7")
@@ -7247,7 +7291,7 @@
 			(uuid "19dcb55c-372e-4223-acc0-8a158ff9c99b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f2c56063-e875-4b7f-a2e5-8e6f45f2d36e")
 			(effects
@@ -7292,7 +7336,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "3a2a75bf-d932-4237-a808-415c3d48f568")
-		(at 140 49)
+		(at 100 49)
 		(property "Reference" "R2160"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -7529,7 +7573,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "3b574a84-542a-4445-a2a0-1aa55182fa08")
-		(at 140 29)
+		(at 100 29)
 		(property "Reference" "R2040"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -7766,9 +7810,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "3d80a497-3eb1-42c3-92e4-7d6d397799e8")
-		(at 165 45)
+		(at 125 45)
 		(property "Reference" "R2141"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "84da7051-056b-4d95-83f6-de5f75e67e95")
 			(effects
@@ -7779,7 +7823,7 @@
 			)
 		)
 		(property "Value" "680k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e58ac27-f924-450a-aaa0-93c176981e38")
@@ -7958,7 +8002,7 @@
 			(uuid "cac50f89-57fb-4480-931d-e3c0a82d99cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3a88b364-de59-47f3-803d-4dee1ac4fd6e")
 			(effects
@@ -8003,7 +8047,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "414e040f-9c45-48d5-9287-9ec9e31ca4cd")
-		(at 80 37)
+		(at 40 37)
 		(property "Reference" "R2076"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -8240,7 +8284,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "427907ed-7e35-4098-9bc0-63154125e873")
-		(at 130 33)
+		(at 90 33)
 		(property "Reference" "R2062"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -8477,7 +8521,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "45101ca3-231a-4040-b309-43a5b2c79bb4")
-		(at 75 25)
+		(at 35 25)
 		(property "Reference" "R2003"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -8714,7 +8758,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "451c243c-bf63-4964-a424-0f7e7d782ab8")
-		(at 135 41)
+		(at 95 41)
 		(property "Reference" "R2111"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -8951,7 +8995,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4557bfd0-ef9c-4089-b157-72b62ef47a05")
-		(at 70 49)
+		(at 30 49)
 		(property "Reference" "R2146"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -9188,7 +9232,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "458e3d31-e046-48ac-a815-242e64b6e3c1")
-		(at 130 41)
+		(at 90 41)
 		(property "Reference" "R2110"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -9425,7 +9469,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4940093e-5e52-4d72-ac70-2945f0f6fe55")
-		(at 145 29)
+		(at 105 29)
 		(property "Reference" "R2041"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -9662,9 +9706,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4cbd980a-2984-4128-a18e-8cbcb7e9042c")
-		(at 90 45)
+		(at 50 45)
 		(property "Reference" "R2126"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1d1d1839-cf0a-4714-9868-aea9a11a120f")
 			(effects
@@ -9675,7 +9719,7 @@
 			)
 		)
 		(property "Value" "160k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6501dd49-53fd-4f0f-808b-9ccea85cbc3f")
@@ -9854,7 +9898,7 @@
 			(uuid "67f59ed9-6335-44d1-9eb2-b35acb408c09")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a76a5264-0a8d-4e2c-80d9-261efdeeaef9")
 			(effects
@@ -9899,7 +9943,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4d2b7efc-f7d7-41d8-b7a0-5f62b59af468")
-		(at 170 25)
+		(at 130 25)
 		(property "Reference" "R2022"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -10136,7 +10180,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4f799131-47b3-48d2-acf5-871c377695b3")
-		(at 70 25)
+		(at 30 25)
 		(property "Reference" "R2002"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -10373,9 +10417,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "51a12eb4-e82d-422c-b74d-dbd1a1f59317")
-		(at 85 45)
+		(at 45 45)
 		(property "Reference" "R2125"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "959df2a0-df21-407d-ae0b-4b69941a14b0")
 			(effects
@@ -10386,7 +10430,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6fd889e-0221-42bd-8431-50f986335879")
@@ -10565,7 +10609,7 @@
 			(uuid "0ea08645-1830-4734-b3d6-a8bcb7e37591")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f3323d08-3b79-4c8a-bef8-1f81bb16b499")
 			(effects
@@ -10610,7 +10654,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "525521eb-60d7-4d56-84e0-07af0220687a")
-		(at 100 37)
+		(at 60 37)
 		(property "Reference" "R2080"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -10847,7 +10891,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "533f65a7-5494-4910-9fac-6074f0cf5a6c")
-		(at 145 49)
+		(at 105 49)
 		(property "Reference" "R2161"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -11084,7 +11128,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "557e5c44-873c-4bad-9409-07c2798d9b47")
-		(at 105 49)
+		(at 65 49)
 		(property "Reference" "R2153"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -11321,7 +11365,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "558b0a85-59b4-4b50-90e0-441a1ceae7a7")
-		(at 65 41)
+		(at 25 41)
 		(property "Reference" "R2097"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -11558,7 +11602,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "561672ea-4820-4da4-8f61-15304a80b7d3")
-		(at 125 49)
+		(at 85 49)
 		(property "Reference" "R2157"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -11795,7 +11839,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "57dff925-554e-4f75-a8a4-e16a5a3d7d98")
-		(at 105 29)
+		(at 65 29)
 		(property "Reference" "R2033"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -12032,7 +12076,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "5a6c0de0-22e1-4a0e-b682-be6c2210e669")
-		(at 95 33)
+		(at 55 33)
 		(property "Reference" "R2055"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -12269,7 +12313,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "5c3df5c7-a89e-45b4-b9c0-700710ffb9e1")
-		(at 90 49)
+		(at 50 49)
 		(property "Reference" "R2150"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -12506,7 +12550,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "5d70ee64-8604-46fd-80d7-89b89c60c362")
-		(at 160 41)
+		(at 120 41)
 		(property "Reference" "R2116"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -12743,7 +12787,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "5e01749d-6247-4900-94ff-dab2bca9e2b7")
-		(at 105 25)
+		(at 65 25)
 		(property "Reference" "R2009"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -12980,9 +13024,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "602f87ac-b9a1-4e8f-aba2-3992e5e208f8")
-		(at 155 45)
+		(at 115 45)
 		(property "Reference" "R2139"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "57ea96c6-24f2-4fac-af2a-59b25c820fe1")
 			(effects
@@ -12993,7 +13037,7 @@
 			)
 		)
 		(property "Value" "560k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5338152d-23a1-468e-869f-26c328aad830")
@@ -13172,7 +13216,7 @@
 			(uuid "5eb3f048-2291-41b3-8fd3-9dd1082cdddb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "26d6e3c6-37e0-40ac-8667-f7788ca6a1e6")
 			(effects
@@ -13217,7 +13261,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "628d8d1a-ef74-458e-8562-564c0ed21f24")
-		(at 155 33)
+		(at 115 33)
 		(property "Reference" "R2067"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -13454,7 +13498,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "658d3280-11fc-4720-aeae-319e88eb8200")
-		(at 65 25)
+		(at 25 25)
 		(property "Reference" "R2001"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -13691,7 +13735,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "67b5ff5e-dc44-41a1-b026-c966653c7a31")
-		(at 170 37)
+		(at 130 37)
 		(property "Reference" "R2094"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -13928,7 +13972,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "682262af-cfd3-4479-b794-e485b33c4615")
-		(at 80 41)
+		(at 40 41)
 		(property "Reference" "R2100"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -14165,7 +14209,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "685fd8c7-59b0-43c4-a01d-0f8b1f335520")
-		(at 175 25)
+		(at 135 25)
 		(property "Reference" "R2023"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -14402,9 +14446,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "6887c923-0251-4f09-ae1f-beeec23584e6")
-		(at 135 45)
+		(at 95 45)
 		(property "Reference" "R2135"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1382c6cc-7903-4b65-a3d7-de23fa7b2f5d")
 			(effects
@@ -14415,7 +14459,7 @@
 			)
 		)
 		(property "Value" "390k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7974819-e71f-44e1-9fb3-653e4d39b339")
@@ -14594,7 +14638,7 @@
 			(uuid "18278d19-52d9-47a4-a194-9564f4564a34")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "944650ad-1b32-416a-86c9-5df015bf0f21")
 			(effects
@@ -14639,7 +14683,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "69b42e2d-633d-46f6-b609-0b4a99cea421")
-		(at 80 49)
+		(at 40 49)
 		(property "Reference" "R2148"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -14876,7 +14920,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "69e6671d-8230-40ce-a65c-a02d43091234")
-		(at 85 41)
+		(at 45 41)
 		(property "Reference" "R2101"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -15113,7 +15157,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "6eec4918-3ef7-4167-9bd9-f93270bd6b84")
-		(at 65 37)
+		(at 25 37)
 		(property "Reference" "R2073"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -15350,7 +15394,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "6f89fee5-a502-4edd-96dc-2208a5505d7a")
-		(at 110 29)
+		(at 70 29)
 		(property "Reference" "R2034"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -15587,7 +15631,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "70cfe619-abb6-4472-b90a-b416a82d6042")
-		(at 160 49)
+		(at 120 49)
 		(property "Reference" "R2164"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -15824,9 +15868,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "70d6ea02-2d4a-453c-a13e-1f7d9d7a4642")
-		(at 140 45)
+		(at 100 45)
 		(property "Reference" "R2136"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "fe282f8c-5a37-4631-9162-11c9f643407e")
 			(effects
@@ -15837,7 +15881,7 @@
 			)
 		)
 		(property "Value" "430k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d3cd9c5-0e8f-42b9-8e67-166cd2989c5c")
@@ -16016,7 +16060,7 @@
 			(uuid "520169b1-209d-4c4a-9ccf-e5f8d0fc0f06")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "253e71ff-eccf-4b2c-a5d3-f61772164865")
 			(effects
@@ -16061,7 +16105,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "72130669-464a-4347-9c29-606813b441f0")
-		(at 115 33)
+		(at 75 33)
 		(property "Reference" "R2059"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -16298,7 +16342,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "775e8d40-19fa-464c-bc20-ca0ed95d1864")
-		(at 145 37)
+		(at 105 37)
 		(property "Reference" "R2089"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -16535,9 +16579,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "7a44e647-b78f-4d51-952f-af68f6f34253")
-		(at 150 45)
+		(at 110 45)
 		(property "Reference" "R2138"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "392dea59-3fe4-4ea3-a8c7-46e0cea01e35")
 			(effects
@@ -16548,7 +16592,7 @@
 			)
 		)
 		(property "Value" "510k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f82ec0c5-2515-4a84-88e1-7f0fe5170163")
@@ -16727,7 +16771,7 @@
 			(uuid "0acf7fcf-c323-4b6c-aa0c-a98caf75cf23")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a1cda14e-fe64-476e-89be-5a6cd11f2fbe")
 			(effects
@@ -16772,7 +16816,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "7a62d81a-baf4-4a0d-8da1-4ead2c595c2b")
-		(at 75 29)
+		(at 35 29)
 		(property "Reference" "R2027"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -17009,7 +17053,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "7b63de23-13a2-4903-a1a3-f7b904d46bd5")
-		(at 175 37)
+		(at 135 37)
 		(property "Reference" "R2095"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -17246,7 +17290,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "7e3194b5-fe39-4a01-9486-23e65645ce4b")
-		(at 140 37)
+		(at 100 37)
 		(property "Reference" "R2088"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -17483,7 +17527,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "805912c7-94b3-40cf-b331-ed7b1d76917f")
-		(at 65 49)
+		(at 25 49)
 		(property "Reference" "R2145"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -17720,7 +17764,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "833fca06-217c-49cc-af33-d25007e14b14")
-		(at 115 41)
+		(at 75 41)
 		(property "Reference" "R2107"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -17957,9 +18001,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "849ede41-69bf-4e42-a8e7-258a9806148f")
-		(at 95 45)
+		(at 55 45)
 		(property "Reference" "R2127"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "89412a7d-920a-4437-ba55-0f99f50bf92b")
 			(effects
@@ -17970,7 +18014,7 @@
 			)
 		)
 		(property "Value" "180k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92bde490-a5ca-46dd-a928-348349b5db6e")
@@ -18149,7 +18193,7 @@
 			(uuid "8bbcfa3f-a4a4-4820-b61c-e03b01da1ca1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6237b11e-b8fd-4ca7-a38c-599395989162")
 			(effects
@@ -18194,7 +18238,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "87107573-ed79-4152-968e-e6d3f7fdd6eb")
-		(at 160 25)
+		(at 120 25)
 		(property "Reference" "R2020"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -18431,7 +18475,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8891e0b3-65f1-4fbe-98c1-03f27e47b0c1")
-		(at 75 49)
+		(at 35 49)
 		(property "Reference" "R2147"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -18668,7 +18712,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8904370e-3685-4665-9e3e-3c945f3ec0d5")
-		(at 85 29)
+		(at 45 29)
 		(property "Reference" "R2029"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -18905,7 +18949,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8b6db91c-fccd-4523-863f-134b6e5efb16")
-		(at 80 29)
+		(at 40 29)
 		(property "Reference" "R2028"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -19142,7 +19186,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8f1ea8d1-85bb-4a1e-9794-544e2877cd07")
-		(at 110 25)
+		(at 70 25)
 		(property "Reference" "R2010"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -19379,7 +19423,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8fe05987-03e7-4373-bde3-ceb58dac25a4")
-		(at 175 41)
+		(at 135 41)
 		(property "Reference" "R2119"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -19616,9 +19660,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "908cae39-896e-4450-a0e3-9c977fda45ae")
-		(at 105 45)
+		(at 65 45)
 		(property "Reference" "R2129"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "05529394-b83d-4efc-94c4-55139da4a22d")
 			(effects
@@ -19629,7 +19673,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63ae589f-0403-4e88-b13d-ca7d01ba8c7c")
@@ -19808,7 +19852,7 @@
 			(uuid "792b5cf2-b88c-49ee-bda0-4b71271385ea")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "89d15ca0-a814-4645-bdf9-d4a015a1196d")
 			(effects
@@ -19853,7 +19897,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "90ee5b41-a1a3-4087-a03d-c8793437f7b5")
-		(at 90 33)
+		(at 50 33)
 		(property "Reference" "R2054"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -20090,7 +20134,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "936ade7a-f138-41e4-9ed7-c13c3dcac63b")
-		(at 165 37)
+		(at 125 37)
 		(property "Reference" "R2093"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -20327,7 +20371,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "95821658-a2ec-49cd-b61f-8b7ecf1c345b")
-		(at 90 41)
+		(at 50 41)
 		(property "Reference" "R2102"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -20564,7 +20608,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9978d642-3b18-4f05-8b3a-b2f4e2e395a0")
-		(at 85 49)
+		(at 45 49)
 		(property "Reference" "R2149"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -20801,7 +20845,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9a98bdb9-bd5d-4caa-b67d-f6285b1e4230")
-		(at 120 25)
+		(at 80 25)
 		(property "Reference" "R2012"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -21038,7 +21082,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9b239dd8-a592-40f9-a51b-6f3063742852")
-		(at 165 49)
+		(at 125 49)
 		(property "Reference" "R2165"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -21275,7 +21319,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9b86a133-5e93-4962-bafb-b7a6b59b8090")
-		(at 75 33)
+		(at 35 33)
 		(property "Reference" "R2051"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -21512,7 +21556,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9e067923-2fe9-456e-a01f-1c3d173a8191")
-		(at 110 37)
+		(at 70 37)
 		(property "Reference" "R2082"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -21749,7 +21793,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9f96c3c0-9a74-46dd-b25a-37dc7762db2e")
-		(at 100 41)
+		(at 60 41)
 		(property "Reference" "R2104"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -21986,7 +22030,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a12786ef-4cf9-44de-ad2b-7877b0f84276")
-		(at 115 49)
+		(at 75 49)
 		(property "Reference" "R2155"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -22223,7 +22267,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a273038a-6424-40f9-84d3-c44c559783b6")
-		(at 180 33)
+		(at 140 33)
 		(property "Reference" "R2072"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -22460,9 +22504,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a2f2b048-acc5-42d1-aebd-558c83139a9e")
-		(at 175 45)
+		(at 135 45)
 		(property "Reference" "R2143"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b1ba60f3-dad2-4cd6-b107-c716d22697ea")
 			(effects
@@ -22473,7 +22517,7 @@
 			)
 		)
 		(property "Value" "820k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "790c91bd-55cb-4431-a1f8-6779e6e69064")
@@ -22652,7 +22696,7 @@
 			(uuid "dc0f616f-e8af-41f4-bc61-f67f4121296a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "dbf902d3-29a3-4bba-b660-da5b74633e68")
 			(effects
@@ -22697,7 +22741,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a564b160-083e-4f87-8aaf-e8b7950acb00")
-		(at 165 41)
+		(at 125 41)
 		(property "Reference" "R2117"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -22934,9 +22978,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a669f623-9d10-4117-abef-db2e2d99a2b9")
-		(at 75 45)
+		(at 35 45)
 		(property "Reference" "R2123"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e44984cb-f657-4e41-afaf-8ec808045936")
 			(effects
@@ -22947,7 +22991,7 @@
 			)
 		)
 		(property "Value" "120k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff4980ed-e471-4d2f-a2b9-bde70ef0a1d4")
@@ -23126,7 +23170,7 @@
 			(uuid "75eb132f-6888-47c3-bce3-267f89bc9b3c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "972edd36-9298-436e-affe-f4f708659581")
 			(effects
@@ -23171,7 +23215,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a6f27980-3f3d-4bf5-92f1-882e47003cd4")
-		(at 95 37)
+		(at 55 37)
 		(property "Reference" "R2079"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -23408,9 +23452,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a734c651-dac4-460d-9734-d4edac1b02d9")
-		(at 160 45)
+		(at 120 45)
 		(property "Reference" "R2140"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4b6ee06d-1154-432d-b831-7767cdcbd9ed")
 			(effects
@@ -23421,7 +23465,7 @@
 			)
 		)
 		(property "Value" "620k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca9dec2c-6d24-46d7-a988-6c0cb1adf3a7")
@@ -23600,7 +23644,7 @@
 			(uuid "a5e52e01-80d6-43d3-bf77-2263d43196ac")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "653359a3-4a3c-4c45-9411-04e56fb464d1")
 			(effects
@@ -23645,7 +23689,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a93e0726-4d1e-4177-a3a2-eb460dfdc491")
-		(at 120 33)
+		(at 80 33)
 		(property "Reference" "R2060"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -23882,7 +23926,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "abde9a91-2010-461b-bc0d-03555551097a")
-		(at 180 25)
+		(at 140 25)
 		(property "Reference" "R2024"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -24119,7 +24163,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "abec3c3c-f9c2-4df5-8b2b-88763d031b92")
-		(at 170 29)
+		(at 130 29)
 		(property "Reference" "R2046"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -24356,7 +24400,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "acdb272a-ad77-4e33-bd31-2e584496dd18")
-		(at 180 45)
+		(at 140 45)
 		(property "Reference" "R2144"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -24593,7 +24637,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "afb3b6f6-5428-43f1-93e5-72d13f62aa41")
-		(at 105 37)
+		(at 65 37)
 		(property "Reference" "R2081"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -24830,7 +24874,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b0b059df-028b-4df0-aa05-96a74e722dfd")
-		(at 180 49)
+		(at 140 49)
 		(property "Reference" "R2168"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -25067,7 +25111,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b0c12561-75ac-469b-be23-65a5addbaf61")
-		(at 175 33)
+		(at 135 33)
 		(property "Reference" "R2071"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -25304,7 +25348,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b6a14eb1-a50a-4647-b635-cb6754b94b00")
-		(at 165 25)
+		(at 125 25)
 		(property "Reference" "R2021"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -25541,7 +25585,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b8170d51-904f-4219-a987-1d6fa1ee750e")
-		(at 150 25)
+		(at 110 25)
 		(property "Reference" "R2018"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -25778,7 +25822,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b8dac95d-9ed3-4a3b-ab23-5f0de68e3df1")
-		(at 155 29)
+		(at 115 29)
 		(property "Reference" "R2043"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -26015,9 +26059,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "bb784d7c-e954-4b51-8ccc-d112ced2a635")
-		(at 120 45)
+		(at 80 45)
 		(property "Reference" "R2132"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "154e862d-19a3-4a55-8ded-d4d59f50478c")
 			(effects
@@ -26028,7 +26072,7 @@
 			)
 		)
 		(property "Value" "300k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2443372a-d6eb-43ed-a33a-cded4204e9b4")
@@ -26207,7 +26251,7 @@
 			(uuid "d3e0f36e-0752-4e76-9620-b7eb65ee8cca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b9619bd9-1afb-4ce8-a5b6-6a8afea8d8e2")
 			(effects
@@ -26252,7 +26296,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "bc458941-176b-4db3-a8c8-edfb1a0c5167")
-		(at 95 25)
+		(at 55 25)
 		(property "Reference" "R2007"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -26489,7 +26533,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "be5b83a8-a516-4ff4-91d1-002b57ca976e")
-		(at 125 37)
+		(at 85 37)
 		(property "Reference" "R2085"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -26726,7 +26770,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "bf5a3210-cf5e-465c-ad49-d86ca3357942")
-		(at 90 25)
+		(at 50 25)
 		(property "Reference" "R2006"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -26963,7 +27007,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "bf706b7b-500a-4a09-8410-39d6f1ea4b79")
-		(at 120 29)
+		(at 80 29)
 		(property "Reference" "R2036"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -27200,7 +27244,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c00c2fa9-cf38-486a-8cf2-66bfa019744f")
-		(at 85 25)
+		(at 45 25)
 		(property "Reference" "R2005"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -27437,9 +27481,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c08d57e7-7f25-4b4d-869d-db1b32ea455c")
-		(at 130 45)
+		(at 90 45)
 		(property "Reference" "R2134"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d01a9ecb-43fa-4797-87f2-29da8f0d14d6")
 			(effects
@@ -27450,7 +27494,7 @@
 			)
 		)
 		(property "Value" "360k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "665de657-e259-4ce5-be64-7542f7509024")
@@ -27629,7 +27673,7 @@
 			(uuid "cf115c3e-6b93-4339-80a9-95e3b4595352")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "abe24758-0470-43b2-a31b-14fd5024d36c")
 			(effects
@@ -27674,7 +27718,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c1aa8fe1-993c-4379-8101-da5424e0d4cb")
-		(at 130 29)
+		(at 90 29)
 		(property "Reference" "R2038"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -27911,9 +27955,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c1ed4bd8-7164-4ad6-a9f9-c4e13e2c2cbe")
-		(at 110 45)
+		(at 70 45)
 		(property "Reference" "R2130"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "377a213b-9276-4fd9-917d-bd8154ddf2ff")
 			(effects
@@ -27924,7 +27968,7 @@
 			)
 		)
 		(property "Value" "240k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38667980-96e8-41d4-b263-564da7bc4d86")
@@ -28103,7 +28147,7 @@
 			(uuid "0167a322-c3dc-430d-b80c-c038fefd1fa4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6782f45f-5774-4a4c-8fc8-c1b4f4bf1ea4")
 			(effects
@@ -28148,7 +28192,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c1f6f437-bacf-403d-a986-e503d8ea26a5")
-		(at 70 37)
+		(at 30 37)
 		(property "Reference" "R2074"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -28385,7 +28429,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c2063e89-d150-4e39-920d-c03d09a8b416")
-		(at 110 41)
+		(at 70 41)
 		(property "Reference" "R2106"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -28622,7 +28666,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c2a7b7fc-0566-4325-a4c7-7b7e7c5fcc86")
-		(at 130 37)
+		(at 90 37)
 		(property "Reference" "R2086"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -28859,7 +28903,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c43ecce5-d9fd-462d-93f0-22af8f0f006b")
-		(at 140 25)
+		(at 100 25)
 		(property "Reference" "R2016"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -29096,7 +29140,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c5ea5c78-fb99-44c2-83ed-d3accd647426")
-		(at 105 33)
+		(at 65 33)
 		(property "Reference" "R2057"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -29333,7 +29377,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c911a219-02c4-444e-aba0-ceb1cc91825a")
-		(at 145 33)
+		(at 105 33)
 		(property "Reference" "R2065"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -29570,7 +29614,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c9bc2f26-437e-44f7-9edc-619d0e1aa1f3")
-		(at 75 37)
+		(at 35 37)
 		(property "Reference" "R2075"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -29807,7 +29851,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "cd196eb7-02f1-47f0-8c75-66049796d33f")
-		(at 125 41)
+		(at 85 41)
 		(property "Reference" "R2109"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -30044,7 +30088,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d06d0a0e-d3ae-4f06-a4a6-2ace83bd76f7")
-		(at 115 29)
+		(at 75 29)
 		(property "Reference" "R2035"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -30281,7 +30325,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d157ca6f-33ca-493e-9ace-7135f48c97f5")
-		(at 65 45)
+		(at 25 45)
 		(property "Reference" "R2121"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -30518,7 +30562,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d1affdac-cd75-4705-b8ed-8284df311044")
-		(at 170 41)
+		(at 130 41)
 		(property "Reference" "R2118"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -30755,7 +30799,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d1ecc8dd-71ec-4bcc-acdb-98c531ded7a2")
-		(at 100 25)
+		(at 60 25)
 		(property "Reference" "R2008"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -30992,7 +31036,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d276ef3e-5bbb-4140-975e-e1fa66f99b6f")
-		(at 110 33)
+		(at 70 33)
 		(property "Reference" "R2058"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -31229,9 +31273,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d315fac3-f7df-4fa9-8bd1-a3a2a807b23b")
-		(at 115 45)
+		(at 75 45)
 		(property "Reference" "R2131"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "99c6cb88-5e63-4534-9f9f-edeeb5700d43")
 			(effects
@@ -31242,7 +31286,7 @@
 			)
 		)
 		(property "Value" "270k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "662f9523-9592-457b-861b-eccddce993e2")
@@ -31421,7 +31465,7 @@
 			(uuid "6cacb10e-140a-4ae3-ad87-c9e924dfc901")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a7208a01-5f37-42d3-90cf-7d93d2e0fa69")
 			(effects
@@ -31466,7 +31510,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d38f3c0a-69c6-4b7c-9f54-4709b07e5378")
-		(at 80 25)
+		(at 40 25)
 		(property "Reference" "R2004"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -31703,7 +31747,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d4185083-f49e-453f-a256-26472919d783")
-		(at 175 49)
+		(at 135 49)
 		(property "Reference" "R2167"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -31940,9 +31984,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d479c1a1-dce4-42ec-982a-42cbd7023d0b")
-		(at 145 45)
+		(at 105 45)
 		(property "Reference" "R2137"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "24cfe51e-c943-4a17-b5a4-0820742834f6")
 			(effects
@@ -31953,7 +31997,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "801c8a71-4e21-4a8a-8491-a3e3a06732fa")
@@ -32132,7 +32176,7 @@
 			(uuid "5e185714-98cf-444f-89cd-be85355c995b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "26540070-98bd-4bb6-abbc-96152930ac28")
 			(effects
@@ -32177,7 +32221,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d493ae8e-c663-42c0-9878-2769ba90f7fc")
-		(at 150 33)
+		(at 110 33)
 		(property "Reference" "R2066"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -32414,7 +32458,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d7a380a1-cb5b-4bbc-b4ac-9586e3d0cb5c")
-		(at 70 33)
+		(at 30 33)
 		(property "Reference" "R2050"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -32651,7 +32695,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d7b1f3ce-ab47-48f8-bc70-3c2479e042ce")
-		(at 120 49)
+		(at 80 49)
 		(property "Reference" "R2156"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -32888,7 +32932,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "da29ce4a-dac1-479d-8400-424466ddd919")
-		(at 150 29)
+		(at 110 29)
 		(property "Reference" "R2042"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -33125,7 +33169,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "dc6489d4-8abe-4042-8922-306ed0ef8602")
-		(at 90 37)
+		(at 50 37)
 		(property "Reference" "R2078"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -33362,7 +33406,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "df99b7f5-bd2b-4468-b174-3f2272a42dcd")
-		(at 130 49)
+		(at 90 49)
 		(property "Reference" "R2158"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -33599,7 +33643,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e06b48f3-47f5-4552-a4f2-228ff722711c")
-		(at 80 33)
+		(at 40 33)
 		(property "Reference" "R2052"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -33836,7 +33880,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e421ebe8-e48f-453f-96d1-f82be923fee6")
-		(at 155 37)
+		(at 115 37)
 		(property "Reference" "R2091"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -34073,7 +34117,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e4d5017c-0c13-4a92-b43a-7be91972337f")
-		(at 140 33)
+		(at 100 33)
 		(property "Reference" "R2064"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -34310,7 +34354,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e638eba8-ceef-4d07-af20-21ff4b205086")
-		(at 70 41)
+		(at 30 41)
 		(property "Reference" "R2098"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -34547,7 +34591,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e6727a46-a680-4d5d-aa45-c79c2dd73f38")
-		(at 150 37)
+		(at 110 37)
 		(property "Reference" "R2090"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -34784,7 +34828,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e99b4083-a78b-4e7b-be7f-b2b608c213af")
-		(at 100 33)
+		(at 60 33)
 		(property "Reference" "R2056"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -35021,7 +35065,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e9c79cba-9e00-4c08-b304-833a9ccc857b")
-		(at 95 41)
+		(at 55 41)
 		(property "Reference" "R2103"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -35258,7 +35302,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "ea7010b1-c4b9-44a9-a5e0-86b603252e13")
-		(at 180 29)
+		(at 140 29)
 		(property "Reference" "R2048"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -35495,9 +35539,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "ea9f3450-2e85-435f-b949-20676fa3fa59")
-		(at 125 45)
+		(at 85 45)
 		(property "Reference" "R2133"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1c4e5426-2c0b-48b6-a66a-7a0ac711f1c4")
 			(effects
@@ -35508,7 +35552,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6d5693c-84ca-48dc-81c3-381291d97d0f")
@@ -35687,7 +35731,7 @@
 			(uuid "44fca350-d276-4248-8363-2243d17534a8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "01af4566-199d-4357-beae-4a43c4c3bfb2")
 			(effects
@@ -35732,7 +35776,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "eb393582-95ff-47b7-b8dd-a586ecb88128")
-		(at 100 49)
+		(at 60 49)
 		(property "Reference" "R2152"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -35969,7 +36013,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "eba563d5-f277-4d8e-a1c7-726115842ee4")
-		(at 175 29)
+		(at 135 29)
 		(property "Reference" "R2047"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -36206,7 +36250,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f0894ca5-19c9-4ee4-85a4-e6f4f2f0beaa")
-		(at 180 41)
+		(at 140 41)
 		(property "Reference" "R2120"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -36443,9 +36487,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f10111d8-78ae-430b-b725-5c6095a4347e")
-		(at 100 45)
+		(at 60 45)
 		(property "Reference" "R2128"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "76e4df22-2f04-4e55-979f-b1916610b5e3")
 			(effects
@@ -36456,7 +36500,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad65ad6e-5068-4cd8-aedd-2c19e2c8bb09")
@@ -36635,7 +36679,7 @@
 			(uuid "4bad3c08-2810-4dbf-a7a0-0824a4893afc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "18e6ab85-c38d-4810-a7e2-15a9a1f6a797")
 			(effects
@@ -36680,7 +36724,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f15fbe62-120e-4927-a266-84e754f68cb5")
-		(at 140 41)
+		(at 100 41)
 		(property "Reference" "R2112"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -36917,7 +36961,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f1e6daf5-6a41-4d6b-a747-5bc1e80da272")
-		(at 145 25)
+		(at 105 25)
 		(property "Reference" "R2017"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -37154,7 +37198,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f24652eb-1a88-4cc8-b4f2-d6e7e98abaa8")
-		(at 155 25)
+		(at 115 25)
 		(property "Reference" "R2019"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -37391,9 +37435,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f2fbd9b2-62de-4ac4-95f2-c6c27313074d")
-		(at 80 45)
+		(at 40 45)
 		(property "Reference" "R2124"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e730fe11-9750-44dd-bffd-815df5aa5316")
 			(effects
@@ -37404,7 +37448,7 @@
 			)
 		)
 		(property "Value" "130k"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22b61081-3676-4727-92c2-45cd99239055")
@@ -37583,7 +37627,7 @@
 			(uuid "c07cf947-60e9-4314-b31f-00190797ee34")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ac6e58d8-0124-417d-bb99-1297a6b5b003")
 			(effects
@@ -37628,7 +37672,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f328105b-b4df-4791-b08a-88d993c1eee2")
-		(at 115 25)
+		(at 75 25)
 		(property "Reference" "R2011"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -37865,7 +37909,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f480922b-5d39-4b53-97e6-1521929a58b1")
-		(at 125 33)
+		(at 85 33)
 		(property "Reference" "R2061"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -38102,7 +38146,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f52978ba-4447-452f-885c-6316ef2a4d3e")
-		(at 85 37)
+		(at 45 37)
 		(property "Reference" "R2077"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -38339,7 +38383,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f57b0577-7a86-4dfd-af7f-99186ff59f0b")
-		(at 145 41)
+		(at 105 41)
 		(property "Reference" "R2113"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -38576,7 +38620,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f63b3fd0-464a-446f-8df7-383c24ed5e99")
-		(at 135 29)
+		(at 95 29)
 		(property "Reference" "R2039"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -38813,7 +38857,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f941a074-bf8d-4370-9c81-70e68e938a65")
-		(at 105 41)
+		(at 65 41)
 		(property "Reference" "R2105"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -39050,7 +39094,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f9d46899-300d-447e-a1ac-09eaf374d890")
-		(at 135 49)
+		(at 95 49)
 		(property "Reference" "R2159"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -39287,7 +39331,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "faca59e2-bc44-423c-8032-fc15d75abe4f")
-		(at 70 29)
+		(at 30 29)
 		(property "Reference" "R2026"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -39524,7 +39568,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "fea6d23b-48da-4e2f-b073-bf4c9565b3df")
-		(at 155 49)
+		(at 115 49)
 		(property "Reference" "R2163"
 			(at 0 -1.5 180)
 			(layer "F.SilkS")
@@ -39761,7 +39805,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "fed8e523-129c-4b9b-97b1-9acc9f754b14")
-		(at 120 41)
+		(at 80 41)
 		(property "Reference" "R2108"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -39998,7 +40042,7 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "ffa062d6-f26f-40a3-9021-7eb040fc9d33")
-		(at 75 41)
+		(at 35 41)
 		(property "Reference" "R2099"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -40233,8 +40277,8 @@
 		)
 	)
 	(gr_rect
-		(start 60 20)
-		(end 185 55)
+		(start 20 20)
+		(end 145 55)
 		(stroke
 			(width 0.05)
 			(type default)
