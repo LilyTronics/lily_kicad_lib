@@ -538,8 +538,26 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB_ID",
-          "name": "JLCPCB_ID",
+          "label": "Revision",
+          "name": "Revision",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_ID",
+          "name": "Manufacturer_ID",
           "show": true
         },
         {
@@ -556,20 +574,14 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer_ID",
-          "name": "Manufacturer_ID",
+          "label": "JLCPCB_ID",
+          "name": "JLCPCB_ID",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Revision",
-          "name": "Revision",
+          "label": "JLCPCB_STATUS",
+          "name": "JLCPCB_STATUS",
           "show": true
         }
       ],
