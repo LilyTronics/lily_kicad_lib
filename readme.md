@@ -4,9 +4,9 @@ This is a free to use KiCad library.
 
 Compatible KiCad version: 8
 
-Addintional information:
+Additional information:
 
-* [Part list](documents/part_list.md)
+* [Overview of all symbols](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/symbols.html)
 * [Symbol naming convention](documents/symbol_naming.md)
 
 ## Setup
