@@ -7,7 +7,7 @@ Compatible KiCad version: 8
 ## Latest revisions
 
 * 20240409: Revision 1
-  * Standard E24 0805 series, 1R0 up to 9M1, 1%, 125mW
+  * Standard resistor E24 0805 series, 1R0 up to 9M1, 1%, 125mW
 
 Additional information:
 
