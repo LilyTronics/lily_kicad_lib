@@ -4,6 +4,11 @@ This is a free to use KiCad library.
 
 Compatible KiCad version: 8
 
+## Latest revisions
+
+* 20240409: Revision 1
+  * Standard E24 0805 series, 1R0 up to 9M1, 1%, 125mW
+
 Additional information:
 
 * [Overview of all symbols](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/symbols_report.html)
