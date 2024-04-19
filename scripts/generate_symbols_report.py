@@ -5,6 +5,7 @@ Generates an HTML report with all symbols.
 import html
 
 from string import Template
+from datetime import datetime
 
 
 def generate_report():
@@ -66,7 +67,11 @@ def generate_report():
     with open("symbols_report_template.html", "r") as fp:
         template = Template(fp.read())
     with open("../documents/symbols_report.html", "w") as fp:
-        fp.write(template.substitute(total=len(symbols), content=output))
+        fp.write(template.substitute(
+            timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
+            total=len(symbols),
+            content=output
+        ))
 
 
 if __name__ == "__main__":
