@@ -43,12 +43,16 @@ All footprints have a 3D model attached.
 
 ### Symbols
 
-All symbols are self created to ensure consistensy. All symbols have the following extra attributes:
+All symbols are self created to ensure consistency.
+All symbols have the following extra attributes:
 
-* Manufacturer
-* Manufacturer part ID
+* Revision: numeric value for the revision of the symbol.
+* Status: Active, End of life, Obsolete
+* Manufacturer (original, alternatives are not added)
+* Manufacturer part ID (original, alternatives are not added)
 * Part ID field for the ERP system used in LilyTronics.
 * Part ID field for the part ID used by JLCPCB.
+* JLCPCB part status: Basic, Extended preferred, Extended
 
 ### Lib test
 
