@@ -17,13 +17,14 @@ def generate_report():
         "Footprint",
         "Description",
         "Datasheet",
-        "Revision"
+        "Revision",
+        "ki_fp_filters"
     ]
     with open("../symbols/lily_symbols.kicad_sym", "r") as fp:
         lines = fp.readlines()
     print(f"Read: {len(lines)} lines")
     symbols = []
-    property_names = set()
+    property_names = []
     i = 0
     while i < len(lines):
         symbol = {}
@@ -33,24 +34,26 @@ def generate_report():
                 i += 1
                 if lines[i].startswith("\t\t(extends "):
                     symbol["Extends"] = lines[i].strip().strip(")")[9:].strip('"')
-                if lines[i].startswith("\t\t(property "):
-                    parts = lines[i].split(" ")
-                    if len(parts) == 3:
-                        property_name = parts[1].strip('"')
-                        symbol[property_name] = parts[2].strip().strip('"')
-                        if property_name not in mandatory_properties:
-                            property_names.add(property_name)
-                if lines[i].startswith("\t)"):
+                elif lines[i].startswith("\t\t(property "):
+                    parts = lines[i].strip()[10:].split('" "')
+                    if len(parts) == 2:
+                        property_name = parts[0].strip('"')
+                        symbol[property_name] = parts[1].strip().strip('"')
+                        if property_name not in mandatory_properties and property_name not in property_names:
+                            property_names.append(property_name)
+                elif lines[i].startswith("\t)"):
                     break
             symbols.append(symbol)
         i += 1
     print(f"Found: {len(symbols)} symbols")
+    print(f"Extra properties: {property_names}")
     print("Generate report")
+
     output = "<tr>"
-    output = "<th>#</th>"
+    output += "<th>#</th>"
     for property_name in mandatory_properties:
         output += f"<th>{html.escape(property_name)}</th>"
-    for property_name in sorted(property_names):
+    for property_name in property_names:
         output += f"<th>{html.escape(property_name)}</th>"
     output += "</tr>\n"
     i = 1
@@ -73,6 +76,7 @@ def generate_report():
             total=len(symbols),
             content=output
         ))
+    print("Done")
 
 
 if __name__ == "__main__":
