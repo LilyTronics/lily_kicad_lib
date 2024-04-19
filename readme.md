@@ -6,7 +6,7 @@ Compatible KiCad version: 8
 
 Additional information:
 
-* [Overview of all symbols](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/symbols.html)
+* [Overview of all symbols](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/symbols_report.html)
 * [Symbol naming convention](documents/symbol_naming.md)
 
 ## Setup
