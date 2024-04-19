@@ -63,6 +63,15 @@
 				(hide yes)
 			)
 		)
+		(property "Status" "Do not use"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_fp_filters" "res_*"
 			(at 0 0 0)
 			(effects
