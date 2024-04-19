@@ -16,16 +16,17 @@ def generate_report():
         "Value",
         "Footprint",
         "Description",
-        "Datasheet"
+        "Datasheet",
+        "Revision"
     ]
     with open("../symbols/lily_symbols.kicad_sym", "r") as fp:
         lines = fp.readlines()
     print(f"Read: {len(lines)} lines")
     symbols = []
     property_names = set()
-    symbol = {}
     i = 0
     while i < len(lines):
+        symbol = {}
         if lines[i].startswith("\t(symbol "):
             symbol["Name"] = lines[i].strip()[8:].strip('"')
             while i < len(lines):
@@ -41,7 +42,7 @@ def generate_report():
                             property_names.add(property_name)
                 if lines[i].startswith("\t)"):
                     break
-            symbols.append(symbol.copy())
+            symbols.append(symbol)
         i += 1
     print(f"Found: {len(symbols)} symbols")
     print("Generate report")

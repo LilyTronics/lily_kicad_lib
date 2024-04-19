@@ -54,6 +54,15 @@
 				(hide yes)
 			)
 		)
+		(property "Revision" "1"
+			(at 0 -9.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_fp_filters" "res_*"
 			(at 0 0 0)
 			(effects
@@ -136,7 +145,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 -10.16 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,8 +171,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Electronics"
-			(at 0 -12.7 0)
+		(property "Revision" "1"
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,7 +180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805W8F0000T5E"
+		(property "Manufacturer" "Uniroyal Electronics"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -180,7 +189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1913-10000"
+		(property "Manufacturer_ID" "0805W8F0000T5E"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -189,8 +198,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C17477"
+		(property "Lily_ID" "1913-10000"
 			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C17477"
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +300,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17408"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -375,7 +393,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C149504"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -468,7 +486,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17415"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -561,7 +579,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17414"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -654,7 +672,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17423"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -747,7 +765,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17422"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -840,7 +858,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17430"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -933,7 +951,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17429"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1026,7 +1044,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17437"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1119,7 +1137,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17436"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1212,7 +1230,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17445"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1305,7 +1323,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17444"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1398,7 +1416,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17451"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1491,7 +1509,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17450"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1584,7 +1602,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C25268"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1677,7 +1695,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17455"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1770,7 +1788,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17471"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1863,7 +1881,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17470"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1956,7 +1974,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17480"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2049,7 +2067,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17475"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2142,7 +2160,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C25269"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2235,7 +2253,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17485"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2328,7 +2346,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17491"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2421,7 +2439,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17490"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2514,7 +2532,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C25270"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2607,7 +2625,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17501"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2700,7 +2718,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17507"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2793,7 +2811,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17506"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -5025,7 +5043,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17544"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -5118,7 +5136,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C4328"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -5397,7 +5415,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17561"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -5490,7 +5508,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17560"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -5769,7 +5787,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17576"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -5862,7 +5880,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17575"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -6141,7 +6159,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17594"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -6234,7 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17593"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -7629,7 +7647,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17622"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -7722,7 +7740,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17621"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8001,7 +8019,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17634"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8094,7 +8112,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17633"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8373,7 +8391,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C36524"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8466,7 +8484,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C4360"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8745,7 +8763,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17659"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8838,7 +8856,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C25826"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8931,7 +8949,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17662"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9024,7 +9042,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C34154"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9117,7 +9135,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C35710"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9210,7 +9228,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C35709"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9303,7 +9321,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17660"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9396,7 +9414,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C16257"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9489,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17610"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9582,7 +9600,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17615"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9675,7 +9693,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17661"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9768,7 +9786,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C26010"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9861,7 +9879,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C18359"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -9954,7 +9972,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17614"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -10233,7 +10251,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C4368"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -10326,7 +10344,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17695"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -10605,7 +10623,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17714"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -10698,7 +10716,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17713"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -10791,7 +10809,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17668"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -10884,7 +10902,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17674"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -10977,7 +10995,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17669"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -11070,7 +11088,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17675"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -11163,7 +11181,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17667"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -11256,7 +11274,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17673"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -11535,7 +11553,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17738"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -11628,7 +11646,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17737"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -11907,7 +11925,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17757"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12000,7 +12018,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17756"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12093,7 +12111,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C26114"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12186,7 +12204,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17728"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12279,7 +12297,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17724"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12372,7 +12390,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17729"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12465,7 +12483,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C27834"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12558,7 +12576,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C4382"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12837,7 +12855,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17784"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -12930,7 +12948,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17783"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -13209,7 +13227,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17802"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -13302,7 +13320,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17801"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -13395,7 +13413,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C407384"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -13488,7 +13506,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17773"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -13581,7 +13599,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17768"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -13674,7 +13692,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17774"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -13767,7 +13785,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17767"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -13860,7 +13878,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17772"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -14139,7 +14157,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17820"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -14232,7 +14250,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17819"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -14325,7 +14343,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17808"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -14418,7 +14436,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17809"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -14511,7 +14529,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17807"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -14790,7 +14808,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17841"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -14883,7 +14901,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17840"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -14976,7 +14994,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17829"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -15069,7 +15087,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17830"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -15162,7 +15180,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17828"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -15441,7 +15459,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C4407"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -15534,7 +15552,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17866"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -15627,7 +15645,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17856"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -15720,7 +15738,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17857"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -15813,7 +15831,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "tdb"
+		(property "JLCPCB_ID" "C17855"
 			(at 0 -20.32 0)
 			(effects
 				(font
