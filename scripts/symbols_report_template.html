@@ -15,6 +15,7 @@ table {
 th, td {
     padding: 4px 8px;
     border: 1px solid #666;
+    text-align: left;
 }
 th {
     background-color: #666;
@@ -23,14 +24,77 @@ th {
 tr:nth-child(odd) {
     background-color: #eee;
 }
+input {
+    font-size: 14px;
+}
 </style>
+<script>
+
+const fields = $fields;
+
+const symbols = [
+$symbols_data
+];
+
+function showData(e) {
+    let query = "";
+    if (e) {
+        query = e.target.value;
+    }
+    let output = "";
+    output += "<tr>";
+    output += "<th>#</th>";
+    for (const field of fields) {
+        output += "<th>" + escapeHtml(field) + "</th>";
+    }
+    output += "</tr>\n";
+    let i = 1;
+    for (const symbol of symbols) {
+        let add_symbol = true;
+        if (query != "") {
+            add_symbol = false;
+            for (const field of fields) {
+                if (symbol[field].includes(query)) {
+                    add_symbol = true;
+                    break;
+                }
+            }
+        }
+        if (add_symbol) {
+            output += "<tr>";
+            output += "<td>" + i + "</td>";
+            for (const field of fields) {
+                output += "<td>" + escapeHtml(symbol[field]) + "</td>";
+            }
+            output += "</tr>\n";
+            i++;
+        }
+    }
+    document.getElementById("symbol_table").innerHTML = output;
+}
+
+function escapeHtml(unsafe) {
+    return unsafe
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+</script>
 </head>
 <body>
 <h1>Lily KiCad library symbols</h1>
 <p>Last updated: $timestamp</p>
 <p>Total symbols: $total</p>
-<table>
-$content
+<p>Filter: <input type="text" id="query" style="width:300px;"/></p>
+<table id="symbol_table">
 </table>
+<script>
+showData();
+const input = document.getElementById("query");
+input.addEventListener("input", showData);
+</script>
 </body>
 </html>

@@ -49,32 +49,26 @@ def generate_report():
     print(f"Extra properties: {property_names}")
     print("Generate report")
 
-    output = "<tr>"
-    output += "<th>#</th>"
-    for property_name in mandatory_properties:
-        output += f"<th>{html.escape(property_name)}</th>"
-    for property_name in property_names:
-        output += f"<th>{html.escape(property_name)}</th>"
-    output += "</tr>\n"
-    i = 1
+    symbols_data = ""
     for symbol in sorted(symbols, key=lambda x: x["Name"]):
-        output += "<tr>"
-        output += f"<td>{i}</td>"
+        symbols_data += "    { "
         for property_name in mandatory_properties:
             value = html.escape(symbol.get(property_name, "not available"))
-            output += f"<td>{value}</td>"
+            symbols_data += f'{property_name}: "{value}", '
         for property_name in property_names:
             value = html.escape(symbol.get(property_name, "not available"))
-            output += f"<td>{value}</td>"
-        output += "</tr>\n"
-        i += 1
+            symbols_data += f'{property_name}: "{value}", '
+        symbols_data = symbols_data[:-2] + " },\n"
+    symbols_data = symbols_data[:-2]
+    fields = str(mandatory_properties + property_names).replace("'", '"')
     with open("symbols_report_template.html", "r") as fp:
         template = Template(fp.read())
     with open("../documents/symbols_report.html", "w") as fp:
         fp.write(template.substitute(
             timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
             total=len(symbols),
-            content=output
+            fields=fields,
+            symbols_data=symbols_data
         ))
     print("Done")
 
