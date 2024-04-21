@@ -37,7 +37,9 @@ $symbols_data
 ];
 
 function showData(e) {
+    document.getElementById("total_filtered").innerHTML = "";
     let query = "";
+    let total_filtered = 0;
     if (e) {
         query = e.target.value;
     }
@@ -54,7 +56,7 @@ function showData(e) {
         if (query != "") {
             add_symbol = false;
             for (const field of fields) {
-                if (symbol[field].includes(query)) {
+                if (symbol[field].toLowerCase().includes(query.toLowerCase())) {
                     add_symbol = true;
                     break;
                 }
@@ -68,7 +70,11 @@ function showData(e) {
             }
             output += "</tr>\n";
             i++;
+            total_filtered++;
         }
+    }
+    if (query != "") {
+        document.getElementById("total_filtered").innerHTML = total_filtered + " found";
     }
     document.getElementById("symbol_table").innerHTML = output;
 }
@@ -88,7 +94,7 @@ function escapeHtml(unsafe) {
 <h1>Lily KiCad library symbols</h1>
 <p>Last updated: $timestamp</p>
 <p>Total symbols: $total</p>
-<p>Filter: <input type="text" id="query" style="width:300px;"/></p>
+<p>Filter: <input type="text" id="query" style="width:300px;"/> <span id="total_filtered"></span></p>
 <table id="symbol_table">
 </table>
 <script>
