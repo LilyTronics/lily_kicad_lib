@@ -6,7 +6,7 @@ Compatible KiCad version: 8
 
 ## Latest revisions
 
-* 20240421: Revision 1
+* 20240421:
   * Standard resistor E24 0805 series, 1R0 up to 9M1, 1%, 125mW
 
 Additional information:
@@ -48,11 +48,11 @@ All symbols have the following extra attributes:
 
 * Revision: numeric value for the revision of the symbol.
 * Status: Active, End of life, Obsolete
-* Manufacturer (original, alternatives are not added)
-* Manufacturer part ID (original, alternatives are not added)
-* Part ID field for the ERP system used in LilyTronics.
-* Part ID field for the part ID used by JLCPCB.
-* JLCPCB part status: Basic, Extended preferred, Extended
+* Manufacturer: manufacturer name (original, alternatives are not added)
+* Manufacturer_ID: manufacturer part ID (original, alternatives are not added)
+* Lily_ID: part ID for the ERP system used in LilyTronics.
+* JLCPCB_ID: part ID used by JLCPCB.
+* JLCPCB_STATUS: Basic, Extended preferred, Extended
 
 ### Lib test
 
