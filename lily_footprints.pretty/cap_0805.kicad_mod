@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "c0805"
+	(property "Value" "cap_0805"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -190,7 +190,7 @@
 		(solder_paste_margin -0.05)
 		(uuid "c5e9c0c8-9d22-49e7-8f14-c8af8f2d914c")
 	)
-	(model "../3d_models/rcl/cap_0805.step"
+	(model "../3d_models/cap_0805.step"
 		(offset
 			(xyz 0 0 0)
 		)
