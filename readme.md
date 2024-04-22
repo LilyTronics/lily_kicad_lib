@@ -4,8 +4,12 @@ This is a free to use KiCad library.
 
 Compatible KiCad version: 8
 
-## Latest revisions
+More than 200 parts.
 
+## Latest updates
+
+* 20240422:
+  * Standard capacitor E12 0805 series, 1p0 up to 820n, C0G/X7R
 * 20240421:
   * Standard resistor E24 0805 series, 1R0 up to 9M1, 1%, 125mW
 
