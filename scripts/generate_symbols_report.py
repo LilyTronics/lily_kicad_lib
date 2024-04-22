@@ -53,10 +53,10 @@ def generate_report():
     for symbol in sorted(symbols, key=lambda x: x["Name"]):
         symbols_data += "    { "
         for property_name in mandatory_properties:
-            value = html.escape(symbol.get(property_name, "not available"))
+            value = html.escape(symbol.get(property_name, ""))
             symbols_data += f'{property_name}: "{value}", '
         for property_name in property_names:
-            value = html.escape(symbol.get(property_name, "not available"))
+            value = html.escape(symbol.get(property_name, ""))
             symbols_data += f'{property_name}: "{value}", '
         symbols_data = symbols_data[:-2] + " },\n"
     symbols_data = symbols_data[:-2]
