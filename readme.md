@@ -10,6 +10,7 @@ More than 200 parts.
 
 * 20240422:
   * Standard capacitor E12 0805 series, 1p0 up to 820n, C0G/X7R
+  * Inductor bead 600R@100MHz 1.5A 0.25R
 * 20240421:
   * Standard resistor E24 0805 series, 1R0 up to 9M1, 1%, 125mW
 
