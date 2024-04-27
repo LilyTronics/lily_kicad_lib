@@ -27,10 +27,9 @@ jobs:
     - name: Generate report
       run: |
         python scripts/generate_report.py
-    - name: commit and push changes
+    - name: commit and push report
       run: |
         git config user.email "danny@lilytronics.nl"
         git config user.name "Danny"
         git commit -am "Updated report"
-        git status
         git push
