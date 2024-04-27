@@ -609,12 +609,18 @@
 	(net 482 "unconnected-(C3072-Pad1)")
 	(net 483 "unconnected-(L4001-Pad1)")
 	(net 484 "unconnected-(L4001-Pad2)")
+	(net 485 "unconnected-(R2170-Pad2)")
+	(net 486 "unconnected-(R2170-Pad1)")
+	(net 487 "unconnected-(C3073-Pad1)")
+	(net 488 "unconnected-(C3073-Pad2)")
+	(net 489 "unconnected-(L4002-Pad2)")
+	(net 490 "unconnected-(L4002-Pad1)")
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
-		(at 120 29)
+		(at 120 31)
 		(property "Reference" "R2044"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "fc4d3b29-ae12-48da-a459-45412e961c52")
 			(effects
@@ -763,7 +769,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2f567a21-c31f-4d28-afa7-fcb2229f164d")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -911,9 +920,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "026e19a6-48ce-46d5-bb89-6cab681e496f")
-		(at 35 69)
+		(at 35 70)
 		(property "Reference" "C3015"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6f2e7e75-2ade-4fbb-b1f3-8f6beeaa1001")
 			(effects
@@ -1062,7 +1071,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2535fea7-e970-403f-8141-317d875de5e6")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -1210,9 +1222,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "03271e37-0a1e-4198-ac60-886597a0b3e3")
-		(at 70 73)
+		(at 70 74)
 		(property "Reference" "C3034"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b03c8b11-52d4-49c4-af48-8937364111ae")
 			(effects
@@ -1361,7 +1373,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/410f5590-e939-48c4-9362-8c8acf06a9a6")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -1509,9 +1524,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "03acc364-87be-4d12-9e1a-70105eaf71f3")
-		(at 140 37)
+		(at 140 39)
 		(property "Reference" "R2096"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1796dc92-18c2-4a63-bdce-15f2c1389e8f")
 			(effects
@@ -1660,7 +1675,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/75c1f490-4b26-4f8b-91fd-f70d4b2c489a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -1808,9 +1826,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "0550dd86-a694-491d-8f7e-de42b7f415e6")
-		(at 85 25)
+		(at 85 27)
 		(property "Reference" "R2013"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "93a540d6-75a1-43a8-b1c4-a5970f678246")
 			(effects
@@ -1959,7 +1977,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/59963c6c-db27-4fe1-a7d5-329ca036f268")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -2107,9 +2128,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "05af67a4-8a52-4431-a323-7616875ab485")
-		(at 25 29)
+		(at 25 31)
 		(property "Reference" "R2025"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e9ea4aae-46e2-4cb8-9896-911381cbbf1d")
 			(effects
@@ -2258,7 +2279,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7eee1bee-2150-4acc-9180-b3e8d69161da")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -2403,12 +2427,238 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:res_0805_dnp"
+		(layer "F.Cu")
+		(uuid "05ef37b5-0905-49ec-9a97-d376d2e3db6c")
+		(at 30 55)
+		(property "Reference" "R2170"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(uuid "edd201a1-b68b-4c95-9f84-6d29638c30bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "dnp"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7e8f367-c632-4f92-b462-645f222e20cc")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:res_0805_dnp"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "918b088c-d203-44af-949d-94adc7c89a94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ada6c994-89d0-4033-8b8f-0292a1b828eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b6d6bbb-7d73-46f0-835c-1806df2e8db4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffd1021c-2ff5-4c14-9e1d-35e1e8a325f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a4ad18f-3996-44b9-9dfc-3cb22496960c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "res_*")
+		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7e7c8c97-db1f-47e0-9843-eef2a33cb23e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
+		(attr smd exclude_from_pos_files)
+		(fp_line
+			(start -1.6 -0.85)
+			(end 1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "18405223-12b0-4e0f-b2f9-8bff98642f88")
+		)
+		(fp_line
+			(start -1.6 0.85)
+			(end -1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8e50f3a6-d7e9-49a6-8e26-6996e2c00493")
+		)
+		(fp_line
+			(start 1.6 -0.85)
+			(end 1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5f11f73b-c380-4efe-b8fa-b09a6ff2e099")
+		)
+		(fp_line
+			(start 1.6 0.85)
+			(end -1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c0a3d8c8-d475-46b1-bfb6-810b5039db5d")
+		)
+		(fp_line
+			(start -1 -0.6)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f7919053-cb55-4f04-958b-0c3b947a8c93")
+		)
+		(fp_line
+			(start -1 0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5fca89c6-7e9a-4c98-8e46-3b859e473e9e")
+		)
+		(fp_line
+			(start -0.6 -0.6)
+			(end -0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2cff63b5-b8e7-4c48-9b75-b8a5f86f28bd")
+		)
+		(fp_line
+			(start 0.6 -0.6)
+			(end 0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2d06de4-2d28-4147-ac9c-b2fa6fd5634c")
+		)
+		(fp_line
+			(start 1 -0.6)
+			(end -1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24e6b8b5-31dc-4371-bcba-32f82534cecf")
+		)
+		(fp_line
+			(start 1 0.6)
+			(end 1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5cd07f5e-de94-44c9-9624-59638f8a17b2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "64a278a4-1d31-4819-b0b4-34e9e0ea515c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 486 "unconnected-(R2170-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "ce586887-657d-40a4-8dd2-0e3780ef4b1f")
+		)
+		(pad "2" smd rect
+			(at 0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 485 "unconnected-(R2170-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "37f00645-9db0-4b25-966c-5c0161631dd6")
+		)
+	)
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "0712f5b0-2c04-4e24-9b1b-7ceb203fe823")
-		(at 50 81)
+		(at 50 82)
 		(property "Reference" "C3054"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "eb571bc4-2990-4ad3-8a59-0c899da332cc")
 			(effects
@@ -2557,7 +2807,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/367d05fe-facf-4027-95fa-c66bb6def4ea")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -2705,9 +2958,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "07f5922f-c2e2-448c-897e-cea859b5bc6c")
-		(at 115 41)
+		(at 115 43)
 		(property "Reference" "R2115"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "83d18e63-533c-4353-801c-7afc3d5d59e6")
 			(effects
@@ -2856,7 +3109,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3de34bfd-d873-4455-8a6c-15e758b2c7b5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -3004,9 +3260,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "07f6531a-f8b9-4f5a-a0ac-d33b038b3887")
-		(at 50 29)
+		(at 50 31)
 		(property "Reference" "R2030"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "3366e832-a5bc-40d9-8bb6-a0a400c1b8b4")
 			(effects
@@ -3155,7 +3411,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3c8ff45b-0ff7-417e-a15b-8fe08765c18d")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -3303,9 +3562,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "082dee93-bb12-428b-914a-a48e76f22363")
-		(at 50 77)
+		(at 50 78)
 		(property "Reference" "C3042"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e842396d-8345-4516-9177-2f182eb9d24e")
 			(effects
@@ -3454,7 +3713,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/44bb0ebd-f14b-4765-bb29-5a2d9eb29eec")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -3602,9 +3864,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "09b286c1-b1bf-4a8e-bd62-0b54a7bac861")
-		(at 125 29)
+		(at 125 31)
 		(property "Reference" "R2045"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "54a8996c-8b7b-422d-a4e4-6193b4ba3bcc")
 			(effects
@@ -3753,7 +4015,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a27c92c4-1c7a-44b2-a6f3-2fd8bc430f92")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -3901,9 +4166,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "09f1f504-55f0-400c-9e78-0eb9993d7d42")
-		(at 95 33)
+		(at 95 35)
 		(property "Reference" "R2063"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "bced2049-2ce7-4869-a73f-65aea367bb1c")
 			(effects
@@ -4052,7 +4317,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a9464315-f412-48f5-b0a8-68806a4ad04c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -4200,9 +4468,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "0d64908d-c342-4f78-ab88-bf5e4d95c693")
-		(at 40 69)
+		(at 40 70)
 		(property "Reference" "C3016"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f1c08d68-0d96-4959-bb08-75d1de534a36")
 			(effects
@@ -4351,7 +4619,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/f5987de2-4726-4b09-ae0c-efa8abcd56c0")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -4499,9 +4770,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "0e590299-ef67-43ee-8b30-f34c815c072d")
-		(at 55 85)
+		(at 55 86)
 		(property "Reference" "C3067"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "3aa881c2-9b46-4cb8-ab85-735c6aa6f944")
 			(effects
@@ -4650,7 +4921,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/58e1a7e5-6f23-449c-b83d-43d0439adb7a")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -4798,9 +5072,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "11c4c027-cd2b-4509-816d-a7e3caeb9480")
-		(at 55 49)
+		(at 55 51)
 		(property "Reference" "R2151"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f1624715-3182-45bf-acb5-ed1df10ec697")
 			(effects
@@ -4949,7 +5223,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/9243d20d-0b87-4fc5-a417-c9eb759be020")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -5097,9 +5374,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "123bcb8e-eec5-4ea8-8b32-a55f5832552f")
-		(at 80 85)
+		(at 80 86)
 		(property "Reference" "C3072"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "0fce32e0-11c1-4e33-b03d-7d4e63871925")
 			(effects
@@ -5261,7 +5538,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/f332591e-a3be-4a8b-96d8-541936870daf")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -5409,9 +5689,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "13b85b22-8f64-4131-acdc-aee82f22d742")
-		(at 75 65)
+		(at 75 66)
 		(property "Reference" "C3011"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "aedb2094-c648-4b5f-ba58-639dabc5ba5f")
 			(effects
@@ -5560,7 +5840,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/cf822bab-91b5-4583-958f-51e0cdefeeb7")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -5708,9 +5991,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "14269f56-e597-4852-b6d0-5b36e0eafca9")
-		(at 125 33)
+		(at 125 35)
 		(property "Reference" "R2069"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "88b8e42f-11b4-48f7-8cd5-bf92d2530752")
 			(effects
@@ -5859,7 +6142,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/9c6f9038-8254-4d72-a976-b5ccc6bfb497")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -6007,9 +6293,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "1529df1c-3a2b-404a-b7d9-b32dd21d3472")
-		(at 40 73)
+		(at 40 74)
 		(property "Reference" "C3028"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "a07a97cc-c3cd-4c65-9f37-20f0ed938999")
 			(effects
@@ -6158,7 +6444,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/265a2b15-aaa7-4449-8cdc-8a72c4ca1459")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -6306,9 +6595,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "155a1839-3711-44b3-af74-585fe6a861f5")
-		(at 90 25)
+		(at 90 27)
 		(property "Reference" "R2014"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ebccb9aa-2024-423c-8b41-d76d9162ddf7")
 			(effects
@@ -6457,7 +6746,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2d143665-8cf3-4a61-9e26-ced66a341431")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -6605,9 +6897,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "15943f05-2149-4052-8533-4c4228cfa509")
-		(at 70 49)
+		(at 70 51)
 		(property "Reference" "R2154"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "9ae20da4-d2dc-4edb-a677-60d2cbaa2e4c")
 			(effects
@@ -6756,7 +7048,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/1ecd8182-3c3e-4f81-8081-ad5aa93fe5d4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -6904,9 +7199,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "16fc20fd-0639-424c-9231-c0351ba83a10")
-		(at 65 65)
+		(at 65 66)
 		(property "Reference" "C3009"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b717a32d-3754-4b99-a2f6-6cd1f649e4e7")
 			(effects
@@ -7055,7 +7350,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2bedcc28-2ef7-4fa7-be54-5e82d201d2da")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -7203,9 +7501,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "186c7a13-de46-4c0d-ab22-625c1bfb1f82")
-		(at 110 49)
+		(at 110 51)
 		(property "Reference" "R2162"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f48a6ede-bc85-4df6-a4ed-95e084c1846e")
 			(effects
@@ -7354,7 +7652,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/26304eb6-a995-4db1-a589-6a7df0fb5a45")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -7502,9 +7803,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1b2962bb-869b-4ec1-a3a5-4925118c78e0")
-		(at 55 29)
+		(at 55 31)
 		(property "Reference" "R2031"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "97c64db1-6d84-4f06-a807-6a90c06d6dec")
 			(effects
@@ -7653,7 +7954,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/4e516d23-45a3-4f9f-8dbf-b5d27e70b81f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -7801,9 +8105,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1bb46f19-67fb-421c-99b9-bf5adbde6451")
-		(at 110 41)
+		(at 110 43)
 		(property "Reference" "R2114"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "95de83c0-155b-4ac9-948a-d99a264cea45")
 			(effects
@@ -7952,7 +8256,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a62f706f-dc11-4618-a6b8-c8de597a15c0")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -8100,9 +8407,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1d748442-0916-4317-b2d0-5b2d93103d61")
-		(at 95 25)
+		(at 95 27)
 		(property "Reference" "R2015"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e7af3996-184d-444e-84db-64e3aee0d471")
 			(effects
@@ -8251,7 +8558,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3f326a7a-2abd-485a-9794-5f04a2c3da57")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -8399,9 +8709,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "1d7c0576-5582-4c0a-8ce9-85a7cfbf1093")
-		(at 45 81)
+		(at 45 82)
 		(property "Reference" "C3053"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1ceada16-5ad7-4546-a293-4bf82b76c1ea")
 			(effects
@@ -8550,7 +8860,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/41623fe5-e156-4cf5-8f47-8983fb52f205")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -8698,9 +9011,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1eaef26d-59ab-467d-8056-a552c00b03ee")
-		(at 95 37)
+		(at 95 39)
 		(property "Reference" "R2087"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "a0378505-4a97-436c-bd01-c925b7e0e33e")
 			(effects
@@ -8849,7 +9162,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/431eb918-9b92-446f-a8e8-7f4b7a176b64")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -8997,9 +9313,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "1eb887cf-a47b-4702-8698-80493f88619f")
-		(at 80 37)
+		(at 80 39)
 		(property "Reference" "R2084"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "823a2641-84d2-47c2-848a-1f73f990f6f3")
 			(effects
@@ -9148,7 +9464,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8ea13329-7de2-4fe6-8940-02896fea9219")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -9296,9 +9615,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "21b7f7c0-a5a0-419f-a3b2-557b6121e2fd")
-		(at 70 77)
+		(at 70 78)
 		(property "Reference" "C3046"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ac678d59-fe98-41e0-9356-62eae5409fe5")
 			(effects
@@ -9447,7 +9766,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/ea39504a-e8a6-4071-b89d-a26bffd0c2d6")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -9595,9 +9917,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "232b5ea1-273f-499b-91cd-004185467c0e")
-		(at 30 77)
+		(at 30 78)
 		(property "Reference" "C3038"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "8ee05938-9402-4b57-899f-8bf0ba11193a")
 			(effects
@@ -9746,7 +10068,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/5d886dd1-2371-49fe-9b93-0cf9234b95c7")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -9894,9 +10219,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "251aa133-22e3-480b-8a06-a073f6691b62")
-		(at 60 29)
+		(at 60 31)
 		(property "Reference" "R2032"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1bb7022c-e060-4faf-893f-7c8eebb298f5")
 			(effects
@@ -10045,7 +10370,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/58a2d7e8-2b66-44dd-a8eb-08fecc4ddbfb")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -10193,9 +10521,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "251d8931-763a-41d9-a210-9b842220acdd")
-		(at 80 81)
+		(at 80 82)
 		(property "Reference" "C3060"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "9280c027-1c03-4157-9aaf-d2a8c8b283a6")
 			(effects
@@ -10344,7 +10672,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/6c77d15a-c691-4c7b-9b58-4de7a80f4f1a")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -10492,9 +10823,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "2668c0bf-51d9-4228-8c24-410d6291c981")
-		(at 60 73)
+		(at 60 74)
 		(property "Reference" "C3032"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5c9a6c28-0d3e-47dd-b672-6d60ed8ba586")
 			(effects
@@ -10643,7 +10974,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b6ed5fbf-8f52-49f4-a905-69f5d3b2394a")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -10791,9 +11125,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "274b9b74-f76a-43d9-80e7-c18a039f7d4b")
-		(at 130 33)
+		(at 130 35)
 		(property "Reference" "R2070"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7c5808d8-d3bb-4141-978f-e16418e65a35")
 			(effects
@@ -10942,7 +11276,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/52083941-b031-43a8-bca8-8e40edd31bb5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -11090,9 +11427,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "2ba7b374-b3bb-4830-95ba-1b8a0c67a148")
-		(at 130 49)
+		(at 130 51)
 		(property "Reference" "R2166"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "a564e995-c619-4fe7-ada5-3fd8616f402c")
 			(effects
@@ -11241,7 +11578,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a7cb8ca7-09cb-43da-adc8-94ded99b8755")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -11389,9 +11729,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "2e85c524-3d55-4388-b79b-7994ebdfadc4")
-		(at 30 45)
+		(at 30 47)
 		(property "Reference" "R2122"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "c65e974b-7da1-4051-80d1-d87ba9330466")
 			(effects
@@ -11540,7 +11880,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/03d504d8-5d72-4c46-a61b-5b35027d2c83")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -11688,9 +12031,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "2eacbacc-437b-4daa-aa5c-2d0beb0bb719")
-		(at 70 85)
+		(at 70 86)
 		(property "Reference" "C3070"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ab2d33b4-439f-47c6-8be7-3b114772ef3a")
 			(effects
@@ -11852,7 +12195,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/38c96454-7920-4f76-bacb-ee611d76c133")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -12000,9 +12346,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "2fa0f5c9-ac1e-4654-b6bc-4c916b13f384")
-		(at 75 77)
+		(at 75 78)
 		(property "Reference" "C3047"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "fb2f8238-e6a4-44cf-a0ab-8e1fc9caf7c9")
 			(effects
@@ -12151,7 +12497,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/bdeedea8-c063-4b18-b4ed-66662563ee37")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -12299,9 +12648,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "30e7023f-8cd7-4f1c-b5cb-76b73be6d151")
-		(at 120 33)
+		(at 120 35)
 		(property "Reference" "R2068"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "a0c3ee15-8ad2-44ce-bd61-09097b1d74ea")
 			(effects
@@ -12450,7 +12799,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e2f3d420-a505-4a8a-be5b-7eda5f85c54b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -12598,9 +12950,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "33dfa51d-443a-43eb-8491-63c49bc5e62e")
-		(at 120 37)
+		(at 120 39)
 		(property "Reference" "R2092"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "15370b32-2216-4d2d-bb85-e0cd531b7139")
 			(effects
@@ -12749,7 +13101,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7d15b45c-8fcb-4449-87d4-ab07e2bb05ad")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -12897,9 +13252,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "34372651-8a7a-4193-a291-033d3472eda3")
-		(at 30 81)
+		(at 30 82)
 		(property "Reference" "C3050"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e37380e5-b9b9-471b-ae04-d8aa5ac1e53a")
 			(effects
@@ -13048,7 +13403,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/de9bd84e-7cd4-4101-84f0-7cb5744ae750")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -13196,9 +13554,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "34f4e7f9-c0ac-46fa-93a5-5e12f74776e3")
-		(at 45 33)
+		(at 45 35)
 		(property "Reference" "R2053"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "75932218-de2b-494f-beb1-12c57cd4797d")
 			(effects
@@ -13347,7 +13705,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e6bc17c3-c1c1-45ff-a0aa-016cabce4342")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -13495,9 +13856,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "350e756d-8a62-4ed4-8c04-727d18f0fe1d")
-		(at 85 29)
+		(at 85 31)
 		(property "Reference" "R2037"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f621cadc-bc94-4282-ab9d-b5271e0360ef")
 			(effects
@@ -13646,7 +14007,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/31b5ad21-af7d-476a-bb5c-9a2d0066a3c2")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -13794,9 +14158,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "356e6125-4d3e-4630-b751-cf4d6e6901d9")
-		(at 75 37)
+		(at 75 39)
 		(property "Reference" "R2083"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "19e172b4-c1c9-40c0-8700-38bca73bc714")
 			(effects
@@ -13945,7 +14309,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/dbcf9da7-4951-45cf-9199-4fadaae3e578")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -14093,9 +14460,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "37b4fc5a-abd7-4a6f-bd15-bce8a52d9a3a")
-		(at 25 33)
+		(at 25 35)
 		(property "Reference" "R2049"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "da61a095-97c1-470d-aa90-9348e292c1ef")
 			(effects
@@ -14244,7 +14611,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d869b1b5-af6c-4ef3-9d5e-1dc8a78f07ee")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -14392,9 +14762,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "387e5a11-82b8-4ab8-a354-fb09f0f3a8f2")
-		(at 130 45)
+		(at 130 47)
 		(property "Reference" "R2142"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "91c37e98-04d6-4098-b468-de9e5bd8ceab")
 			(effects
@@ -14543,7 +14913,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ecb46099-c01b-4704-8b0a-07f7f50ad543")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -14691,9 +15064,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "39509772-4fbf-4335-b078-d59c1f4f740f")
-		(at 75 73)
+		(at 75 74)
 		(property "Reference" "C3035"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4483c739-1468-423d-86f6-c83c776aca71")
 			(effects
@@ -14842,7 +15215,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8360c34b-47d4-4581-80b5-a107734fa008")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -14990,9 +15366,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "3a2a75bf-d932-4237-a808-415c3d48f568")
-		(at 100 49)
+		(at 100 51)
 		(property "Reference" "R2160"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4868b097-c040-4025-8bb6-f04888f7895a")
 			(effects
@@ -15141,7 +15517,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/912ca461-48a7-414f-8e7a-45dd101576a3")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -15289,9 +15668,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "3b574a84-542a-4445-a2a0-1aa55182fa08")
-		(at 100 29)
+		(at 100 31)
 		(property "Reference" "R2040"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d29fec69-c1ac-4969-8ab1-7faec8ad355a")
 			(effects
@@ -15440,7 +15819,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/18072d11-c26b-4290-9448-a4de3105d17a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -15588,9 +15970,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "3ca6fe38-85bf-4f07-ba9d-819e5c641871")
-		(at 25 73)
+		(at 25 74)
 		(property "Reference" "C3025"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "19f7ec9c-5f6e-4a2d-870f-5be802c216a6")
 			(effects
@@ -15739,7 +16121,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/9c2dec6e-f393-4268-b7a8-6c9449479a71")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -15887,9 +16272,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "3d696064-7eb9-4ffd-b0a9-3d753da8c988")
-		(at 25 53)
+		(at 25 55)
 		(property "Reference" "R2169"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "48fb92d1-42a1-4b5c-8c0e-0dbe0632ed9c")
 			(effects
@@ -16038,7 +16423,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d937b049-ef8e-4449-9f26-5a744e75cfa8")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -16186,9 +16574,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "3d80a497-3eb1-42c3-92e4-7d6d397799e8")
-		(at 125 45)
+		(at 125 47)
 		(property "Reference" "R2141"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f00b55a5-72d1-4b79-9945-068f6b30b210")
 			(effects
@@ -16337,7 +16725,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b6e0a32d-40e3-4797-b804-a401860dd168")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -16485,9 +16876,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "3dda3060-7c11-4fcc-bcb1-cc8678cc9030")
-		(at 75 85)
+		(at 75 86)
 		(property "Reference" "C3071"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d8e58b74-55c5-4bb5-a28a-d510225a778e")
 			(effects
@@ -16636,7 +17027,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/7083c16e-b606-4d83-b5c2-35a9b8f9d3b3")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -16784,9 +17178,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "406ffa17-a2ae-46e6-bce5-a3467f1fcdd1")
-		(at 30 65)
+		(at 30 66)
 		(property "Reference" "C3002"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d0a5cfcc-d601-4146-a4f2-f2de61f2b01f")
 			(effects
@@ -16935,7 +17329,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/ed409f47-509e-4ef9-a63a-d5daddae6e5a")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -17083,9 +17480,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "414e040f-9c45-48d5-9287-9ec9e31ca4cd")
-		(at 40 37)
+		(at 40 39)
 		(property "Reference" "R2076"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "56e14dd8-ee2b-4db2-8d52-58b1a3b0fd3d")
 			(effects
@@ -17234,7 +17631,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b962377a-4fb0-4bdf-9724-c10e482a0585")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -17382,9 +17782,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "42213b98-89d7-4fc3-87c3-c262f3d0e195")
-		(at 45 69)
+		(at 45 70)
 		(property "Reference" "C3017"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "c62f62c7-74af-4abc-ae31-e73fa4220b63")
 			(effects
@@ -17533,7 +17933,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/c3d79a18-fe82-4bf5-8cc4-c9107a394a48")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -17681,9 +18084,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "427907ed-7e35-4098-9bc0-63154125e873")
-		(at 90 33)
+		(at 90 35)
 		(property "Reference" "R2062"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7ca97688-b02e-483d-ad7f-57d0ee621deb")
 			(effects
@@ -17832,7 +18235,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d666bab8-fc1a-4153-a2bb-5a7da0bd245b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -17980,9 +18386,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "42a944f1-9cee-4242-88be-8c8c15a86ff2")
-		(at 40 85)
+		(at 40 86)
 		(property "Reference" "C3064"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "30cec439-c14e-4070-ad42-bb62521c45e8")
 			(effects
@@ -18131,7 +18537,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/0f7467ce-9f9a-4349-b350-e1b77550726e")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -18279,9 +18688,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "45101ca3-231a-4040-b309-43a5b2c79bb4")
-		(at 35 25)
+		(at 35 27)
 		(property "Reference" "R2003"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "fd605883-d98f-499e-b766-f0a52efaebcb")
 			(effects
@@ -18430,7 +18839,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6b73d0a6-c23e-4c4a-a044-68f560d6d533")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -18578,9 +18990,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "451c243c-bf63-4964-a424-0f7e7d782ab8")
-		(at 95 41)
+		(at 95 43)
 		(property "Reference" "R2111"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "db1d135b-8368-4440-96c2-edc5ba501809")
 			(effects
@@ -18729,7 +19141,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/58106293-9e43-4a77-9376-d91bfeb0fa3f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -18877,9 +19292,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4557bfd0-ef9c-4089-b157-72b62ef47a05")
-		(at 30 49)
+		(at 30 51)
 		(property "Reference" "R2146"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f8921719-8cb8-499d-b9a8-34a049e03963")
 			(effects
@@ -19028,7 +19443,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/acae150d-b1ad-47f7-96f1-31b02d0f8db5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -19176,9 +19594,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "458e3d31-e046-48ac-a815-242e64b6e3c1")
-		(at 90 41)
+		(at 90 43)
 		(property "Reference" "R2110"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ab76a964-2855-41c7-b22e-8b683f4431ee")
 			(effects
@@ -19327,7 +19745,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a293f222-8236-4c09-a4c6-44bb17987841")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -19475,9 +19896,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "477d3020-3924-4a11-b876-391f92ac4728")
-		(at 60 81)
+		(at 60 82)
 		(property "Reference" "C3056"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "22e30192-e5d0-47cc-a5aa-eb040c2e9cb4")
 			(effects
@@ -19626,7 +20047,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8a320085-6b60-4d5b-b7d6-f7bb985be2c3")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -19774,9 +20198,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "47e882ef-edd8-439b-8d22-4879b1e75838")
-		(at 55 81)
+		(at 55 82)
 		(property "Reference" "C3055"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "17ef608e-6a21-4194-9c6e-b9c6f84f07b4")
 			(effects
@@ -19925,7 +20349,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/18cfe73c-f07b-4484-9059-b8fd8ce932e2")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -20073,9 +20500,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "4818383f-1f55-4498-8bd6-9d743051cff9")
-		(at 50 73)
+		(at 50 74)
 		(property "Reference" "C3030"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1a6aa7f2-0e39-4ec3-9f07-f87456cb9429")
 			(effects
@@ -20224,7 +20651,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/349cad1c-e2ac-449a-80d2-0f98ffeecba2")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -20372,9 +20802,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4940093e-5e52-4d72-ac70-2945f0f6fe55")
-		(at 105 29)
+		(at 105 31)
 		(property "Reference" "R2041"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "39d81bcb-39eb-4f75-a85f-7086ed0912d6")
 			(effects
@@ -20523,7 +20953,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/73793f02-4dc1-4999-b3a2-e9c740d1cdff")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -20671,9 +21104,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "49a2111f-0783-4bca-a668-41b014eb1f1f")
-		(at 45 73)
+		(at 45 74)
 		(property "Reference" "C3029"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f0a4f729-a6f5-46ab-b34c-7b56e9e398e0")
 			(effects
@@ -20822,7 +21255,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/128f7214-57c8-4acf-8c4a-47d0e1de5d4c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -20970,9 +21406,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4cbd980a-2984-4128-a18e-8cbcb7e9042c")
-		(at 50 45)
+		(at 50 47)
 		(property "Reference" "R2126"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "939fc7f8-d595-43aa-84d4-fe093fe52c6e")
 			(effects
@@ -21121,7 +21557,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/f86c9a42-f581-4022-8ac0-922e85cd8b20")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -21269,9 +21708,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4d2b7efc-f7d7-41d8-b7a0-5f62b59af468")
-		(at 130 25)
+		(at 130 27)
 		(property "Reference" "R2022"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "fc9ebe49-36c7-4c23-8f4e-dbf21c470d68")
 			(effects
@@ -21420,7 +21859,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6a47b55a-5422-4d73-a09f-bad1d87dd471")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -21568,9 +22010,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "4f6214fa-1f39-44a7-93a4-4548bf59ccdb")
-		(at 60 65)
+		(at 60 66)
 		(property "Reference" "C3008"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "8296f33e-db05-46cb-9d87-2d393e665150")
 			(effects
@@ -21719,7 +22161,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8cd7c184-c2c8-403e-a50e-131e0ce73af8")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -21867,9 +22312,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "4f799131-47b3-48d2-acf5-871c377695b3")
-		(at 30 25)
+		(at 30 27)
 		(property "Reference" "R2002"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "21be28e6-87f1-4cbe-b6f5-47f996848679")
 			(effects
@@ -22018,7 +22463,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/4444e584-d7cc-45f5-bd24-8e43dbc6407f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -22166,9 +22614,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "51a12eb4-e82d-422c-b74d-dbd1a1f59317")
-		(at 45 45)
+		(at 45 47)
 		(property "Reference" "R2125"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "57a22eb2-2aab-4363-9580-5c783a85e7c7")
 			(effects
@@ -22317,7 +22765,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/92870d39-df02-4854-9021-57e2edaf8561")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -22465,9 +22916,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "525521eb-60d7-4d56-84e0-07af0220687a")
-		(at 60 37)
+		(at 60 39)
 		(property "Reference" "R2080"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "75e4fc61-d5d5-4617-af65-2bf538031df2")
 			(effects
@@ -22616,7 +23067,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/baa81e07-7b11-4a64-aef0-caa3e3e004a4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -22764,9 +23218,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "5326ab5b-420d-4e20-ab6b-8b5f9cdba292")
-		(at 60 77)
+		(at 60 78)
 		(property "Reference" "C3044"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "a072e9c7-ec52-47a8-9ff2-7663fc4afb03")
 			(effects
@@ -22915,7 +23369,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/460ae35b-3279-4995-b29d-2410413491e0")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -23063,9 +23520,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "533f65a7-5494-4910-9fac-6074f0cf5a6c")
-		(at 105 49)
+		(at 105 51)
 		(property "Reference" "R2161"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4deacf4c-d44a-4e66-8718-26da7b986d41")
 			(effects
@@ -23214,7 +23671,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a3655952-3269-482a-8ffa-6b1628cb5d75")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -23362,9 +23822,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "54182d03-cfa0-4b3b-8091-b3699e3067c0")
-		(at 80 77)
+		(at 80 78)
 		(property "Reference" "C3048"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5eaea025-be65-4560-9c75-3443e3b4a7ba")
 			(effects
@@ -23513,7 +23973,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/1a63611f-0989-4392-9c25-f9af5ea21831")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -23661,9 +24124,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "557e5c44-873c-4bad-9409-07c2798d9b47")
-		(at 65 49)
+		(at 65 51)
 		(property "Reference" "R2153"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f501ea11-ee67-4b8e-ace6-75258c1b1323")
 			(effects
@@ -23812,7 +24275,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/89fba09c-f071-4a45-b7da-094528accc93")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -23960,9 +24426,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "558b0a85-59b4-4b50-90e0-441a1ceae7a7")
-		(at 25 41)
+		(at 25 43)
 		(property "Reference" "R2097"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b6478973-c4ba-4791-a9dd-bd70f0e6d2f4")
 			(effects
@@ -24111,7 +24577,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a4b36d8b-9677-48c1-9df4-3a556b5cf0ea")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -24259,9 +24728,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "561672ea-4820-4da4-8f61-15304a80b7d3")
-		(at 85 49)
+		(at 85 51)
 		(property "Reference" "R2157"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6e84219f-4093-42c8-97d5-658ca9e25c1c")
 			(effects
@@ -24410,7 +24879,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/08dacc68-648c-4d24-818a-1a8a35ba6969")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -24558,9 +25030,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "57dff925-554e-4f75-a8a4-e16a5a3d7d98")
-		(at 65 29)
+		(at 65 31)
 		(property "Reference" "R2033"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "0aece6ad-e83f-49c9-8151-096149ab21f0")
 			(effects
@@ -24709,7 +25181,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b316f5d6-324d-4673-a567-9030f3169903")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -24857,9 +25332,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "5a6c0de0-22e1-4a0e-b682-be6c2210e669")
-		(at 55 33)
+		(at 55 35)
 		(property "Reference" "R2055"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "38344de0-aa49-4638-80b3-008ce3a2039d")
 			(effects
@@ -25008,7 +25483,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d87fb890-e909-499d-a1db-126108bc6374")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -25156,9 +25634,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "5c3df5c7-a89e-45b4-b9c0-700710ffb9e1")
-		(at 50 49)
+		(at 50 51)
 		(property "Reference" "R2150"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "79ac108b-4cc2-4210-94da-4f054304a8be")
 			(effects
@@ -25307,7 +25785,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/4739568c-86fe-4c55-85d5-7598be153222")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -25455,9 +25936,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "5d70ee64-8604-46fd-80d7-89b89c60c362")
-		(at 120 41)
+		(at 120 43)
 		(property "Reference" "R2116"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1b96f00f-030a-449d-b5a9-60d551a5681c")
 			(effects
@@ -25606,7 +26087,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d7df0acc-0bab-432a-934c-e61c6bba16f0")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -25754,9 +26238,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "5e01749d-6247-4900-94ff-dab2bca9e2b7")
-		(at 65 25)
+		(at 65 27)
 		(property "Reference" "R2009"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d22057cb-5f15-4476-972f-8bb55affa185")
 			(effects
@@ -25905,7 +26389,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7e289695-d44b-4055-8bbb-879de86b24d9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -26053,9 +26540,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "5e39f771-75a9-45bd-8519-74fdb3bffbdb")
-		(at 65 81)
+		(at 65 82)
 		(property "Reference" "C3057"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6d818f81-d3e5-4e36-875b-45ea80ddfe94")
 			(effects
@@ -26204,7 +26691,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/d35baaf8-cc2d-46ce-b0c8-0f98b0095a2c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -26352,9 +26842,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "602f87ac-b9a1-4e8f-aba2-3992e5e208f8")
-		(at 115 45)
+		(at 115 47)
 		(property "Reference" "R2139"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ff0dba1c-d748-4fea-92ab-683d15925619")
 			(effects
@@ -26503,7 +26993,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/834f08c2-738e-43a4-adcb-97bf454f830e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -26651,9 +27144,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "628d8d1a-ef74-458e-8562-564c0ed21f24")
-		(at 115 33)
+		(at 115 35)
 		(property "Reference" "R2067"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5becc991-0363-4cbf-b258-eabc4b2f1331")
 			(effects
@@ -26802,7 +27295,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3d703930-691b-44e3-a52b-24182402ce3e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -26950,9 +27446,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "642717e4-adc0-4c7c-9008-4972511f2cba")
-		(at 30 69)
+		(at 30 70)
 		(property "Reference" "C3014"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "260d1c33-2264-4470-b554-5936d8e5bd90")
 			(effects
@@ -27101,7 +27597,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/5159e034-b040-45a6-b82a-ad3960f2886d")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -27249,9 +27748,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "652997d2-d1e1-468b-8e47-70cbd852f45f")
-		(at 80 69)
+		(at 80 70)
 		(property "Reference" "C3024"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "63f57810-e337-48a6-86db-ef60a6f31a89")
 			(effects
@@ -27400,7 +27899,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/e42d1751-dbaa-4ecf-95e0-a1107a7491c8")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -27548,9 +28050,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "658d3280-11fc-4720-aeae-319e88eb8200")
-		(at 25 25)
+		(at 25 27)
 		(property "Reference" "R2001"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "c6188779-abce-49ed-99eb-928860bc3933")
 			(effects
@@ -27699,7 +28201,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/21bfac28-98a3-42ab-81c6-faf6393d6b84")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -27847,9 +28352,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "67b5ff5e-dc44-41a1-b026-c966653c7a31")
-		(at 130 37)
+		(at 130 39)
 		(property "Reference" "R2094"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "3dbf6074-79b7-45fc-823a-b83420827aab")
 			(effects
@@ -27998,7 +28503,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/1da83ada-6a5f-4e96-9545-f406ea18d031")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -28146,9 +28654,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "682262af-cfd3-4479-b794-e485b33c4615")
-		(at 40 41)
+		(at 40 43)
 		(property "Reference" "R2100"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d4932d8b-d25e-428a-9b61-f7a031c6ef2c")
 			(effects
@@ -28297,7 +28805,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d5f70cbd-1ec0-4dc7-86e5-9aee21d9ee0c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -28445,9 +28956,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "685fd8c7-59b0-43c4-a01d-0f8b1f335520")
-		(at 135 25)
+		(at 135 27)
 		(property "Reference" "R2023"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "0f99ec2a-9250-4401-a88a-28117a6f998e")
 			(effects
@@ -28596,7 +29107,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/0dc28867-d5d6-414c-9054-aef385afbb94")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -28744,9 +29258,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "6887c923-0251-4f09-ae1f-beeec23584e6")
-		(at 95 45)
+		(at 95 47)
 		(property "Reference" "R2135"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "2ae42e65-5310-4df0-b1af-5a532150fbaa")
 			(effects
@@ -28895,7 +29409,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/54a7e379-de23-476e-9593-5fa9b8f18164")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -29043,9 +29560,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "69b42e2d-633d-46f6-b609-0b4a99cea421")
-		(at 40 49)
+		(at 40 51)
 		(property "Reference" "R2148"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "bf34719c-0869-437d-8229-8d0b43ec463a")
 			(effects
@@ -29194,7 +29711,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7d996fc6-9038-42d1-9d69-2caadce00d00")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -29342,9 +29862,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "69e6671d-8230-40ce-a65c-a02d43091234")
-		(at 45 41)
+		(at 45 43)
 		(property "Reference" "R2101"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "41a0c4a7-4867-4ea8-84f4-221d4ee4fd2d")
 			(effects
@@ -29493,7 +30013,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/10ac70dd-3cab-4fa4-adf6-5bcaf2917e16")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -29641,9 +30164,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "6a6111b3-ef14-4da7-9d10-f950b3471638")
-		(at 45 77)
+		(at 45 78)
 		(property "Reference" "C3041"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f853e8ae-bb71-492b-a571-d2c214aa1c05")
 			(effects
@@ -29792,7 +30315,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/e873473e-807f-4032-9af8-69960e1fa66c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -29940,9 +30466,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "6eec4918-3ef7-4167-9bd9-f93270bd6b84")
-		(at 25 37)
+		(at 25 39)
 		(property "Reference" "R2073"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "22330ded-7380-4678-b119-e886b0e99c3d")
 			(effects
@@ -30091,7 +30617,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/4b3c9f95-491b-4bc0-8096-8c3ec46eff9c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -30239,9 +30768,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "6f89fee5-a502-4edd-96dc-2208a5505d7a")
-		(at 70 29)
+		(at 70 31)
 		(property "Reference" "R2034"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "77ebbb72-5d55-41be-9fa5-cd1eb6128cf2")
 			(effects
@@ -30390,7 +30919,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/422435e4-028f-41d3-8f88-e5c5509fdb51")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -30538,9 +31070,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "70cfe619-abb6-4472-b90a-b416a82d6042")
-		(at 120 49)
+		(at 120 51)
 		(property "Reference" "R2164"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "528a1407-03e0-470d-9698-f817e06f6b17")
 			(effects
@@ -30689,7 +31221,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/55e0ed87-9a57-4891-aff3-8e345f942005")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -30837,9 +31372,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "70d6ea02-2d4a-453c-a13e-1f7d9d7a4642")
-		(at 100 45)
+		(at 100 47)
 		(property "Reference" "R2136"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "0da569c4-5510-4129-ac2b-775a2fe25ca1")
 			(effects
@@ -30988,7 +31523,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/f6b32e59-508a-4d98-b2c7-9b63b7e24c87")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -31136,9 +31674,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "7158d4ed-c635-4c87-b5ce-ec05d3a6b9a0")
-		(at 65 85)
+		(at 65 86)
 		(property "Reference" "C3069"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "de57437c-216c-4f33-90e4-ecf81fcb3f32")
 			(effects
@@ -31287,7 +31825,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/7756d4d0-8b4d-4ffe-8bf3-5bfe57bbd6db")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -31435,9 +31976,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "72130669-464a-4347-9c29-606813b441f0")
-		(at 75 33)
+		(at 75 35)
 		(property "Reference" "R2059"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "0c43e287-4aa3-4eaa-9086-3abd46785263")
 			(effects
@@ -31586,7 +32127,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/88752599-97fd-4cd1-8584-bb7cc454ff62")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -31734,9 +32278,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "760559e4-f9bc-4033-9f38-1cfd69789df8")
-		(at 75 69)
+		(at 75 70)
 		(property "Reference" "C3023"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "0ad2051d-7319-49fe-82f4-1b907a9ca16b")
 			(effects
@@ -31885,7 +32429,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/d5e4cec0-1c9f-48fc-b0df-dc53c0debebb")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -32033,9 +32580,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "761dd8c8-a708-4819-8188-59a625db0fbf")
-		(at 35 65)
+		(at 35 66)
 		(property "Reference" "C3003"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "06518675-3118-4d81-a68c-1a25b3e82212")
 			(effects
@@ -32184,7 +32731,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/24d3e5d6-9d2c-435b-8077-b46506ad8842")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -32332,9 +32882,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "775e8d40-19fa-464c-bc20-ca0ed95d1864")
-		(at 105 37)
+		(at 105 39)
 		(property "Reference" "R2089"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7eaee91f-c995-488f-a0a4-a1c72f136d0b")
 			(effects
@@ -32483,7 +33033,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8cc6bd89-89eb-40c4-9529-d05f6d6b967c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -32628,12 +33181,238 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:ind_0805_dnp"
+		(layer "F.Cu")
+		(uuid "79370781-a6e8-466c-ac71-9c163fb7bb92")
+		(at 94 66)
+		(property "Reference" "L4002"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(uuid "a4f04514-b8c0-4d7b-8167-6c17b3dcb09c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "dnp"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c05f7b2-1a6b-4fbf-8930-cab80b21fd8d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:ind_0805_dnp"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80281dfd-e040-413b-a809-e05eaa7e0aa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a88d32c-795a-45cc-a938-a536474308a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e1325b0-206a-4f1a-aa79-4ff2c47f40e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c5d5bc5-f167-444a-a381-c131cd58fd52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "999034b4-4b54-4f77-a617-9dd6c0a6394c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "ind_*")
+		(path "/ac804940-04be-4885-b738-67220611f5f6/bb53850e-02e3-4c9f-bcb7-18e19c7ccec0")
+		(sheetname "Inductors")
+		(sheetfile "inductors.kicad_sch")
+		(attr smd board_only exclude_from_pos_files)
+		(fp_line
+			(start -1.6 -0.85)
+			(end 1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7ee44ebc-ff7b-4e8b-bcb3-157fa1147e3c")
+		)
+		(fp_line
+			(start -1.6 0.85)
+			(end -1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "40e9a918-3160-4aff-a29b-2984251f6969")
+		)
+		(fp_line
+			(start 1.6 -0.85)
+			(end 1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5ec97e53-66b1-457f-aae4-1850c11ecef2")
+		)
+		(fp_line
+			(start 1.6 0.85)
+			(end -1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b90c9d6f-f108-497c-b35a-1130ffe9bba8")
+		)
+		(fp_line
+			(start -1 -0.6)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3454c090-401d-4cc2-945e-c3598b6ecd01")
+		)
+		(fp_line
+			(start -1 0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e6cc1bc-6f7f-431b-ba99-ec4a1279a00d")
+		)
+		(fp_line
+			(start -0.6 -0.6)
+			(end -0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95b2177a-bdb7-4952-846a-a13270778123")
+		)
+		(fp_line
+			(start 0.6 -0.6)
+			(end 0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2e5276d-185b-483c-8d88-7b68a57e5411")
+		)
+		(fp_line
+			(start 1 -0.6)
+			(end -1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db0ec7f5-2b98-4aeb-8a7a-7eefdc974c38")
+		)
+		(fp_line
+			(start 1 0.6)
+			(end 1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8bbc4d49-6bc2-4e70-a231-1f25191aea5a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "20518137-8612-4444-94a5-44f5782a47be")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 490 "unconnected-(L4002-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "dfcef017-da20-445f-8e3b-a3f81caaa76e")
+		)
+		(pad "2" smd rect
+			(at 0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 489 "unconnected-(L4002-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "6a304bfe-0b09-4652-9a2e-3400b16f86b9")
+		)
+	)
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "7a44e647-b78f-4d51-952f-af68f6f34253")
-		(at 110 45)
+		(at 110 47)
 		(property "Reference" "R2138"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "27c1d43d-8117-4841-b232-f7b01ce89234")
 			(effects
@@ -32782,7 +33561,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7ff571d7-23df-4bc2-8ebf-cd5cb6a8ecc9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -32930,9 +33712,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "7a62d81a-baf4-4a0d-8da1-4ead2c595c2b")
-		(at 35 29)
+		(at 35 31)
 		(property "Reference" "R2027"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4e28dce8-05a9-4784-b471-747c1248a13a")
 			(effects
@@ -33081,7 +33863,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/0bc16803-c255-474d-8089-42120b525f45")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -33226,12 +34011,238 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:cap_0805_dnp"
+		(layer "F.Cu")
+		(uuid "7b44f11d-a298-4c8f-9d11-2c8067513e3f")
+		(at 25.05 90)
+		(property "Reference" "C3073"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(uuid "0eef1762-1e75-4150-a8ac-0bdfb9fe21f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "dnp"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "346f74fd-7a6f-4cec-b606-5091164c48e3")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_0805_dnp"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d2a95a7-0ac6-4c76-b9cf-841d32b460c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f7e5e83-0e08-4a71-886a-895d9af59dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f732766-d4b8-4212-9e27-011474d66864")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca44f8f5-0192-456a-9db7-eb853cb773ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f8b063a-954f-487b-9dd0-7b5c969b091f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "cap_*")
+		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/0c7ec874-4dc1-4b9a-acf5-4f254eb9cfe9")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
+		(attr smd board_only exclude_from_pos_files)
+		(fp_line
+			(start -1.6 -0.85)
+			(end 1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f5be6748-fcd3-42aa-b451-bbffee524dca")
+		)
+		(fp_line
+			(start -1.6 0.85)
+			(end -1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "937275f3-180d-4fec-8c36-d745ca14d432")
+		)
+		(fp_line
+			(start 1.6 -0.85)
+			(end 1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e55a6fe0-2093-47b0-822b-56438e7178e1")
+		)
+		(fp_line
+			(start 1.6 0.85)
+			(end -1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9c3a03c0-009b-4db9-9f40-d978e09c5139")
+		)
+		(fp_line
+			(start -1 -0.6)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6231fa30-88b4-44f0-b593-3b9048b06f32")
+		)
+		(fp_line
+			(start -1 0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37436d63-687b-421c-804c-f99c45613a10")
+		)
+		(fp_line
+			(start -0.6 -0.6)
+			(end -0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca63e23a-0573-4c2b-9ef7-2f467b4fc0a5")
+		)
+		(fp_line
+			(start 0.6 -0.6)
+			(end 0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6349318f-8f52-41ce-a586-ba7eebacd992")
+		)
+		(fp_line
+			(start 1 -0.6)
+			(end -1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c9e3ac7b-c54e-413d-bb0b-40487271fe46")
+		)
+		(fp_line
+			(start 1 0.6)
+			(end 1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "898dea14-570a-4736-b3ba-0599668b4cc7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "28809c20-8954-403d-9e10-bb5d1fe19d88")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 487 "unconnected-(C3073-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "187f46ca-bffa-491c-b634-da1453ec0932")
+		)
+		(pad "2" smd rect
+			(at 0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 488 "unconnected-(C3073-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "453f465c-cd1a-4c3d-a660-f758bd682587")
+		)
+	)
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "7b63de23-13a2-4903-a1a3-f7b904d46bd5")
-		(at 135 37)
+		(at 135 39)
 		(property "Reference" "R2095"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7366efd3-fa7e-48d7-8f30-168b2fd4dcd5")
 			(effects
@@ -33380,7 +34391,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ca33f60e-5232-4c90-a249-21e05274b20a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -33528,9 +34542,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "7e3194b5-fe39-4a01-9486-23e65645ce4b")
-		(at 100 37)
+		(at 100 39)
 		(property "Reference" "R2088"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "bab6fbc7-dfd0-4d8e-9a3d-571e24535e51")
 			(effects
@@ -33679,7 +34693,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/32f83e41-4a2b-4aaf-9067-bec9fda76764")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -33827,9 +34844,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "7eab9866-37cd-4f7e-b575-a21258374d53")
-		(at 25 65)
+		(at 25 66)
 		(property "Reference" "C3001"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e5d886f5-a312-41f9-94a5-77cf33248ecd")
 			(effects
@@ -33978,7 +34995,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/5a4153dc-b420-474c-a7ae-b253a14f5f47")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -34126,9 +35146,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "7ff01956-23e9-4c05-9e6c-ed02be7b723f")
-		(at 35 81)
+		(at 35 82)
 		(property "Reference" "C3051"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4d6ed5aa-cbf1-4425-96da-6837192ff822")
 			(effects
@@ -34277,7 +35297,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2799d592-b8b8-4942-bfed-69dd07304a8e")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -34425,9 +35448,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "805912c7-94b3-40cf-b331-ed7b1d76917f")
-		(at 25 49)
+		(at 25 51)
 		(property "Reference" "R2145"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4b02011e-c297-49ac-9e14-2086ade913b1")
 			(effects
@@ -34576,7 +35599,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a2effc60-7b27-45db-8d72-421bda3fc485")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -34724,9 +35750,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "833fca06-217c-49cc-af33-d25007e14b14")
-		(at 75 41)
+		(at 75 43)
 		(property "Reference" "R2107"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7f49f952-43e7-4f51-8865-17b83866fda9")
 			(effects
@@ -34875,7 +35901,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/15ea8cf5-3ec0-44bc-841a-839fba5740b4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -35023,9 +36052,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "849ede41-69bf-4e42-a8e7-258a9806148f")
-		(at 55 45)
+		(at 55 47)
 		(property "Reference" "R2127"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1192ee87-a681-4f21-841a-cd956a3f69dd")
 			(effects
@@ -35174,7 +36203,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a056039f-6e6d-4ded-bc33-9d61ced6a9e2")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -35322,9 +36354,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "87107573-ed79-4152-968e-e6d3f7fdd6eb")
-		(at 120 25)
+		(at 120 27)
 		(property "Reference" "R2020"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5c884ade-bded-4850-a22f-42799c1d2a79")
 			(effects
@@ -35473,7 +36505,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/76db80ad-66c1-4ac0-bfbf-8ef2c8c8b3d8")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -35621,9 +36656,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8891e0b3-65f1-4fbe-98c1-03f27e47b0c1")
-		(at 35 49)
+		(at 35 51)
 		(property "Reference" "R2147"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "987f66ca-8679-4347-a3f0-55654e62ee43")
 			(effects
@@ -35772,7 +36807,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b2425b1d-c26c-401c-a3f1-e41b4665f6f6")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -35920,9 +36958,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8904370e-3685-4665-9e3e-3c945f3ec0d5")
-		(at 45 29)
+		(at 45 31)
 		(property "Reference" "R2029"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "646d6372-71d6-4ce5-87ef-45ec799c038a")
 			(effects
@@ -36071,7 +37109,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5a646a7e-2aa9-43b0-be3c-062555e1a857")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -36219,9 +37260,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8b6db91c-fccd-4523-863f-134b6e5efb16")
-		(at 40 29)
+		(at 40 31)
 		(property "Reference" "R2028"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "0eca7e84-659a-437b-89e5-16cd30b5b50a")
 			(effects
@@ -36370,7 +37411,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/79b24846-2a3c-4d53-a2b6-cc30b521afd4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -36518,9 +37562,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "8bd46304-5404-4a55-a809-1aac4a9499a6")
-		(at 45 85)
+		(at 45 86)
 		(property "Reference" "C3065"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "35f5db8d-7599-41b0-b72d-abf70a92d3a0")
 			(effects
@@ -36669,7 +37713,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/787d8f5e-084e-4569-bf5d-ac2716b73b52")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -36817,9 +37864,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8f1ea8d1-85bb-4a1e-9794-544e2877cd07")
-		(at 70 25)
+		(at 70 27)
 		(property "Reference" "R2010"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "cd2cba9c-9dc3-4f88-8f74-30ce5095a896")
 			(effects
@@ -36968,7 +38015,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/526a4b01-0743-4874-bffc-d9ee391569f7")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -37116,9 +38166,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "8fe05987-03e7-4373-bde3-ceb58dac25a4")
-		(at 135 41)
+		(at 135 43)
 		(property "Reference" "R2119"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5f6b5e7a-92ea-47c2-b567-f90cb903a161")
 			(effects
@@ -37267,7 +38317,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3611b092-bea9-47cf-a2d7-08927eadd1ee")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -37415,9 +38468,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "908cae39-896e-4450-a0e3-9c977fda45ae")
-		(at 65 45)
+		(at 65 47)
 		(property "Reference" "R2129"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "619d5343-4fbc-4951-a85a-fe39ef78223d")
 			(effects
@@ -37566,7 +38619,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/680d2228-cc31-47a0-9a10-30d0e306d753")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -37714,9 +38770,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "90ee5b41-a1a3-4087-a03d-c8793437f7b5")
-		(at 50 33)
+		(at 50 35)
 		(property "Reference" "R2054"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "02d3a944-430f-4700-b111-5aa861452ed4")
 			(effects
@@ -37865,7 +38921,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/349c6cf9-24e7-4b78-8e9e-510a769a999e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -38013,9 +39072,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "936ade7a-f138-41e4-9ed7-c13c3dcac63b")
-		(at 125 37)
+		(at 125 39)
 		(property "Reference" "R2093"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "69beaabe-f76b-4f94-a990-c72160e02497")
 			(effects
@@ -38164,7 +39223,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/61345c31-c738-4a2a-a012-15607378f5cf")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -38312,9 +39374,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "94f88ee5-a5fb-4be3-b8ac-185cc791fd6e")
-		(at 30 73)
+		(at 30 74)
 		(property "Reference" "C3026"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7e1e671d-4f3a-4452-8a79-89688ad7d4e1")
 			(effects
@@ -38463,7 +39525,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/f3a08f4f-c5df-46ef-b995-5d1edc04cb06")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -38611,9 +39676,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "95821658-a2ec-49cd-b61f-8b7ecf1c345b")
-		(at 50 41)
+		(at 50 43)
 		(property "Reference" "R2102"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "9f15a8e8-5e14-4948-b2b4-deb034b0e642")
 			(effects
@@ -38762,7 +39827,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/581a382c-5ad8-4ef6-b2ca-f7f929196087")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -38910,9 +39978,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9978d642-3b18-4f05-8b3a-b2f4e2e395a0")
-		(at 45 49)
+		(at 45 51)
 		(property "Reference" "R2149"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7a633fd7-d46a-4f0c-86b6-e901f5c7e5a7")
 			(effects
@@ -39061,7 +40129,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/1e98519a-9021-4041-80ba-1997ca5cf8e2")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -39209,9 +40280,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "9a2f2ed1-5daa-4829-b22a-b13b063a285a")
-		(at 30 85)
+		(at 30 86)
 		(property "Reference" "C3062"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "a6dac269-45fd-4f84-a2cf-a2f3e36b10fe")
 			(effects
@@ -39360,7 +40431,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/62cf2b4a-4595-459e-93a6-0231dc3c24b6")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -39508,9 +40582,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9a98bdb9-bd5d-4caa-b67d-f6285b1e4230")
-		(at 80 25)
+		(at 80 27)
 		(property "Reference" "R2012"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "3aa9e5b8-66e0-4f8f-b553-4bb91dab8847")
 			(effects
@@ -39659,7 +40733,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/28f2b4cb-e5fa-466c-b86a-76a88b84c78f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -39807,9 +40884,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9b239dd8-a592-40f9-a51b-6f3063742852")
-		(at 125 49)
+		(at 125 51)
 		(property "Reference" "R2165"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1da108c6-2672-4409-acf9-340d1c57368e")
 			(effects
@@ -39958,7 +41035,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/84ddf959-2e5e-42dc-8bcd-18231ea59b36")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -40106,9 +41186,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9b86a133-5e93-4962-bafb-b7a6b59b8090")
-		(at 35 33)
+		(at 35 35)
 		(property "Reference" "R2051"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b350cdb4-ccd9-4584-9fa8-003c0719c583")
 			(effects
@@ -40257,7 +41337,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d19504b6-6e23-4b47-a63a-6b723c5af943")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -40405,9 +41488,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9e067923-2fe9-456e-a01f-1c3d173a8191")
-		(at 70 37)
+		(at 70 39)
 		(property "Reference" "R2082"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f2ce2893-3d3f-452c-a8ca-a05a4ba8eb9c")
 			(effects
@@ -40556,7 +41639,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ac494535-2b8e-482e-b360-8f03b9370e5b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -40704,9 +41790,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "9eb77286-b443-407a-98c8-9d18f3797800")
-		(at 50 85)
+		(at 50 86)
 		(property "Reference" "C3066"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "2ef3b866-fbe8-4123-b9ae-3e03cd6195f3")
 			(effects
@@ -40855,7 +41941,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/be8f350a-2d45-4bd6-ab26-753e305c5c9c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -41003,9 +42092,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "9f96c3c0-9a74-46dd-b25a-37dc7762db2e")
-		(at 60 41)
+		(at 60 43)
 		(property "Reference" "R2104"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ce140ce2-e5c9-44ec-80e6-0c9492923f7f")
 			(effects
@@ -41154,7 +42243,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8acdd921-b69b-4ccb-a7e8-b6a47654503c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -41302,9 +42394,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a12786ef-4cf9-44de-ad2b-7877b0f84276")
-		(at 75 49)
+		(at 75 51)
 		(property "Reference" "R2155"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ae856795-8fb9-4829-be03-33190fe8725c")
 			(effects
@@ -41453,7 +42545,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/cab993e5-da33-47d5-a4fb-d130b483dcd5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -41601,9 +42696,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "a1965f46-e07f-4143-8a1f-92c6fd5f0995")
-		(at 60 85)
+		(at 60 86)
 		(property "Reference" "C3068"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "8ffe4f25-530a-4aae-98ea-cbfa79831c2b")
 			(effects
@@ -41765,7 +42860,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/aaa2e055-14dd-4041-90a6-3069b47c373d")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -41913,9 +43011,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a273038a-6424-40f9-84d3-c44c559783b6")
-		(at 140 33)
+		(at 140 35)
 		(property "Reference" "R2072"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "fdf047f1-3609-418c-8cdf-ea1c8cdde32f")
 			(effects
@@ -42064,7 +43162,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e529c74a-f555-4f05-9a09-bcfa7d2b5de3")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -42212,9 +43313,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a2f2b048-acc5-42d1-aebd-558c83139a9e")
-		(at 135 45)
+		(at 135 47)
 		(property "Reference" "R2143"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5286ba25-78e9-4d85-8d5e-2acb73b3f35c")
 			(effects
@@ -42363,7 +43464,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/58d61d2f-27f6-4420-95e1-bcf988387886")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -42511,9 +43615,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a564b160-083e-4f87-8aaf-e8b7950acb00")
-		(at 125 41)
+		(at 125 43)
 		(property "Reference" "R2117"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7a59ab30-05ea-4d99-8dc9-3293b5558386")
 			(effects
@@ -42662,7 +43766,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/207fde0a-9e72-4e25-8f6d-f69eb72a27c6")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -42810,9 +43917,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a669f623-9d10-4117-abef-db2e2d99a2b9")
-		(at 35 45)
+		(at 35 47)
 		(property "Reference" "R2123"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d14778f1-b508-49c9-9080-b201663a1d56")
 			(effects
@@ -42961,7 +44068,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/669d9be6-6983-4ff9-91c7-6f2d4b434734")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -43109,9 +44219,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a6f27980-3f3d-4bf5-92f1-882e47003cd4")
-		(at 55 37)
+		(at 55 39)
 		(property "Reference" "R2079"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "8d65a49f-b2a0-4537-bc07-4336915f9288")
 			(effects
@@ -43260,7 +44370,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/43e256a6-fbf9-4dbd-84fe-1a59aede94df")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -43408,9 +44521,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a734c651-dac4-460d-9734-d4edac1b02d9")
-		(at 120 45)
+		(at 120 47)
 		(property "Reference" "R2140"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5a6b0371-64c3-4479-b023-efbe210e4180")
 			(effects
@@ -43559,7 +44672,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/21653eba-e7a5-4a7a-ad03-7d18fa6fb7ee")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -43707,9 +44823,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "a93e0726-4d1e-4177-a3a2-eb460dfdc491")
-		(at 80 33)
+		(at 80 35)
 		(property "Reference" "R2060"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "87a1d764-b410-43c3-9128-0cf92f4b09d0")
 			(effects
@@ -43858,7 +44974,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ad2dafad-98c7-4c62-bc8d-05da54a7397d")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -44006,9 +45125,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "aa09be84-0982-4d4d-b058-72b79745378c")
-		(at 65 77)
+		(at 65 78)
 		(property "Reference" "C3045"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5291c404-c02a-4c7c-8060-5647fe669353")
 			(effects
@@ -44157,7 +45276,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/ecce35ae-81db-4622-9430-a0f1e997f757")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -44305,9 +45427,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "abde9a91-2010-461b-bc0d-03555551097a")
-		(at 140 25)
+		(at 140 27)
 		(property "Reference" "R2024"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "081af60d-609e-4524-a917-ea42b368183c")
 			(effects
@@ -44456,7 +45578,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5e35ccb1-fa5e-475b-8ffb-e69b9878681c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -44604,9 +45729,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "abec3c3c-f9c2-4df5-8b2b-88763d031b92")
-		(at 130 29)
+		(at 130 31)
 		(property "Reference" "R2046"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ab86c7d3-1af9-4b35-9bff-c2b441e9b2bc")
 			(effects
@@ -44755,7 +45880,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/cf6b6260-6c26-4860-b404-caa0131690ab")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -44903,9 +46031,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "acdb272a-ad77-4e33-bd31-2e584496dd18")
-		(at 140 45)
+		(at 140 47)
 		(property "Reference" "R2144"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6a82ecd4-b018-49fb-826d-f8294e38ac7e")
 			(effects
@@ -45054,7 +46182,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/594ac4d8-cd00-40cd-ab65-b4aae990c727")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -45202,9 +46333,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ae61b141-0568-4fdd-8dea-b1412fef5cf6")
-		(at 50 65)
+		(at 50 66)
 		(property "Reference" "C3006"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "c4ddedc7-65ad-432a-832d-d4a3953b6e10")
 			(effects
@@ -45353,7 +46484,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8c8a7c2f-2274-4d1d-b6cd-89263c483f21")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -45501,9 +46635,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "afb3b6f6-5428-43f1-93e5-72d13f62aa41")
-		(at 65 37)
+		(at 65 39)
 		(property "Reference" "R2081"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "824ca74c-464d-4214-9948-6668a1f4ce16")
 			(effects
@@ -45652,7 +46786,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e180e8e6-867d-447f-9e91-72e0fcccb700")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -45800,9 +46937,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b0b059df-028b-4df0-aa05-96a74e722dfd")
-		(at 140 49)
+		(at 140 51)
 		(property "Reference" "R2168"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "51bf9413-6fc0-496c-9b05-08944ee7aa32")
 			(effects
@@ -45951,7 +47088,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e28951a3-fc5c-4be6-91e0-7647e4820573")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -46099,9 +47239,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b0c12561-75ac-469b-be23-65a5addbaf61")
-		(at 135 33)
+		(at 135 35)
 		(property "Reference" "R2071"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "74ba8dcd-5e21-4af1-b927-d5a94a24d602")
 			(effects
@@ -46250,7 +47390,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ae4aca53-e402-40eb-aaf9-e44640802053")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -46398,9 +47541,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "b2941a27-a700-46e6-ac8b-8d5e55e89bc8")
-		(at 35 85)
+		(at 35 86)
 		(property "Reference" "C3063"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "811fd5bb-ce68-4038-91da-309f1361b428")
 			(effects
@@ -46549,7 +47692,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/da2a46c6-de3e-4942-b6d2-4f167d6aa79f")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -46697,9 +47843,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "b2fb89fb-cafc-4f7a-a4a0-1589f8cc55a4")
-		(at 75 81)
+		(at 75 82)
 		(property "Reference" "C3059"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4c3154c7-9618-4c95-ad15-05c2cc35e730")
 			(effects
@@ -46848,7 +47994,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/77e66562-3104-4a32-bf46-e6c70f5627f4")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -46996,9 +48145,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b6a14eb1-a50a-4647-b635-cb6754b94b00")
-		(at 125 25)
+		(at 125 27)
 		(property "Reference" "R2021"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6d14ab19-c742-420d-9009-8e04caedac4c")
 			(effects
@@ -47147,7 +48296,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3ec3475e-859c-4921-8e93-2b4e991e17dd")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -47295,9 +48447,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b8170d51-904f-4219-a987-1d6fa1ee750e")
-		(at 110 25)
+		(at 110 27)
 		(property "Reference" "R2018"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6a8edf4a-1b25-4bbf-b08b-49856ff926d6")
 			(effects
@@ -47446,7 +48598,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a19ba494-4df1-4039-9ebc-0c5dadda0288")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -47594,9 +48749,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "b8dac95d-9ed3-4a3b-ab23-5f0de68e3df1")
-		(at 115 29)
+		(at 115 31)
 		(property "Reference" "R2043"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7b88df04-1fc9-4539-81f2-8010e745e3f7")
 			(effects
@@ -47745,7 +48900,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6ea87c81-f0f6-402e-9f62-7ac0d0043f0d")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -47893,9 +49051,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "bab4857d-4d4d-43da-b82c-9853cd67b92b")
-		(at 80 73)
+		(at 80 74)
 		(property "Reference" "C3036"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7f9ad237-0b1f-4b7d-bcc8-7ebd90e8a377")
 			(effects
@@ -48044,7 +49202,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b9aff6ad-287b-4518-9f5e-620c9a859a63")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -48192,9 +49353,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "bb784d7c-e954-4b51-8ccc-d112ced2a635")
-		(at 80 45)
+		(at 80 47)
 		(property "Reference" "R2132"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "2265dd22-06ba-4f46-8128-1b994309ef30")
 			(effects
@@ -48343,7 +49504,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6ec1c0ee-a6d1-4ff2-9781-e69dd704cc16")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -48491,9 +49655,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "bc458941-176b-4db3-a8c8-edfb1a0c5167")
-		(at 55 25)
+		(at 55 27)
 		(property "Reference" "R2007"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4ff92ed5-a81b-45b3-9372-d4891cabcb5a")
 			(effects
@@ -48642,7 +49806,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3d99aad7-4727-4519-ac56-7a066ba1eba9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -48790,9 +49957,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "bd6b22f1-8084-4f46-baaa-ec1935246b4c")
-		(at 60 69)
+		(at 60 70)
 		(property "Reference" "C3020"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "3c736ec3-e691-4fb9-8d23-b1b7d89ff545")
 			(effects
@@ -48941,7 +50108,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b4051052-7771-4ec0-a66b-2002d76eb4ca")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -49089,9 +50259,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "be5b83a8-a516-4ff4-91d1-002b57ca976e")
-		(at 85 37)
+		(at 85 39)
 		(property "Reference" "R2085"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5078ab06-a1f6-47fa-b336-db5379ac131e")
 			(effects
@@ -49240,7 +50410,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/296cdd4a-0531-4d2a-9452-9b78cfcb8e65")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -49388,9 +50561,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "bf5a3210-cf5e-465c-ad49-d86ca3357942")
-		(at 50 25)
+		(at 50 27)
 		(property "Reference" "R2006"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "269d9f98-a2d4-4c3d-a366-5441e9d6616f")
 			(effects
@@ -49539,7 +50712,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/049d6e20-d782-4bca-8ae1-e98966a24dd9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -49687,9 +50863,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "bf706b7b-500a-4a09-8410-39d6f1ea4b79")
-		(at 80 29)
+		(at 80 31)
 		(property "Reference" "R2036"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "51df06b3-85f7-4d7d-93eb-a121e147f0ba")
 			(effects
@@ -49838,7 +51014,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a19fbed8-714c-476a-acb1-53ee9b6e53e4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -49986,9 +51165,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "c009da6e-389c-47d2-bc32-aea568466ee9")
-		(at 55 77)
+		(at 55 78)
 		(property "Reference" "C3043"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6406f6e6-7760-4e84-9eb6-ccbf46b1beac")
 			(effects
@@ -50137,7 +51316,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8fefd489-2371-4a88-8189-8eafc584b317")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -50285,9 +51467,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c00c2fa9-cf38-486a-8cf2-66bfa019744f")
-		(at 45 25)
+		(at 45 27)
 		(property "Reference" "R2005"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "951d9260-66c7-4b3a-90f6-04fca4a3f44e")
 			(effects
@@ -50436,7 +51618,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e564b0d8-a860-46ae-bf94-51824aba9701")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -50584,9 +51769,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c08d57e7-7f25-4b4d-869d-db1b32ea455c")
-		(at 90 45)
+		(at 90 47)
 		(property "Reference" "R2134"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "46fb997e-60d5-430d-a296-d32219dde151")
 			(effects
@@ -50735,7 +51920,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/96672228-c698-47e8-9124-e118db28d9d3")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -50883,9 +52071,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c1aa8fe1-993c-4379-8101-da5424e0d4cb")
-		(at 90 29)
+		(at 90 31)
 		(property "Reference" "R2038"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "92bb87cd-6ec0-4b89-afed-e95d7a340823")
 			(effects
@@ -51034,7 +52222,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/04f48254-e8b1-401f-92f8-e9c6d89f341a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -51182,9 +52373,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c1ed4bd8-7164-4ad6-a9f9-c4e13e2c2cbe")
-		(at 70 45)
+		(at 70 47)
 		(property "Reference" "R2130"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "45fde7d8-0b13-42cd-a305-23645c9696ac")
 			(effects
@@ -51333,7 +52524,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2d920c9b-4d11-4286-bbf3-2d6b725d5b48")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -51481,9 +52675,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c1f6f437-bacf-403d-a986-e503d8ea26a5")
-		(at 30 37)
+		(at 30 39)
 		(property "Reference" "R2074"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "74a0789f-409b-49da-8041-67d89537b70f")
 			(effects
@@ -51632,7 +52826,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d2fae660-d841-426b-bf2a-14b9ffbe8202")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -51780,9 +52977,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c2063e89-d150-4e39-920d-c03d09a8b416")
-		(at 70 41)
+		(at 70 43)
 		(property "Reference" "R2106"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f5e52521-b805-4e3e-9248-0605f9ecb757")
 			(effects
@@ -51931,7 +53128,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/61c82ad6-e645-4251-9b09-9581365e5300")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -52079,9 +53279,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c2a7b7fc-0566-4325-a4c7-7b7e7c5fcc86")
-		(at 90 37)
+		(at 90 39)
 		(property "Reference" "R2086"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f354eb51-6beb-4fbd-814d-77b8beac77b4")
 			(effects
@@ -52230,7 +53430,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/cd75c416-3a23-4a3c-8ffa-2870c3897005")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -52378,9 +53581,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "c393f8c7-b126-4eb2-9978-7fbeecb27549")
-		(at 55 73)
+		(at 55 74)
 		(property "Reference" "C3031"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b2a53b94-8bdf-442b-bb3c-913a602579f2")
 			(effects
@@ -52529,7 +53732,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/e9b66cd9-e509-411f-b435-5a18b83cb6c9")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -52677,9 +53883,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c43ecce5-d9fd-462d-93f0-22af8f0f006b")
-		(at 100 25)
+		(at 100 27)
 		(property "Reference" "R2016"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "3808a95f-1116-49a6-9158-227a7bfe4ba9")
 			(effects
@@ -52828,7 +54034,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/84a68a3c-f280-451f-bcd9-a5acf4cf2f30")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -52976,9 +54185,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c5ea5c78-fb99-44c2-83ed-d3accd647426")
-		(at 65 33)
+		(at 65 35)
 		(property "Reference" "R2057"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "10a2cd7a-3037-47e3-94a4-a44c933adb4c")
 			(effects
@@ -53127,7 +54336,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/fe529e51-9c27-4be6-989f-94d1ac574196")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -53275,9 +54487,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "c7e512f0-a33a-4a4d-a630-f6874412ce80")
-		(at 25 81)
+		(at 25 82)
 		(property "Reference" "C3049"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "cdccc79a-1f12-403e-b1e2-18378b0a647c")
 			(effects
@@ -53426,7 +54638,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/03ba85bf-4af9-4005-a577-d5cf06fbecab")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -53574,9 +54789,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c911a219-02c4-444e-aba0-ceb1cc91825a")
-		(at 105 33)
+		(at 105 35)
 		(property "Reference" "R2065"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "cc7cf465-941b-4cf1-9206-8c8c12a59a65")
 			(effects
@@ -53725,7 +54940,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a723ce9b-ef67-478e-9475-e83334309a37")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -53873,9 +55091,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "c9bc2f26-437e-44f7-9edc-619d0e1aa1f3")
-		(at 35 37)
+		(at 35 39)
 		(property "Reference" "R2075"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "937111d8-0f94-45bb-bd15-c368a1bc7ab8")
 			(effects
@@ -54024,7 +55242,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5f2dc17d-79b5-4daf-a8b4-a593a0ab3ba5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -54172,9 +55393,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "cd196eb7-02f1-47f0-8c75-66049796d33f")
-		(at 85 41)
+		(at 85 43)
 		(property "Reference" "R2109"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4b4953cc-6f7e-4e20-ab63-aa87029bdd21")
 			(effects
@@ -54323,7 +55544,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2ebe1f3c-d75e-4c10-a15b-0a6fd6287db4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -54471,9 +55695,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "cf30b6b3-9350-4e0c-902e-26104508b7d8")
-		(at 25 85)
+		(at 25 86)
 		(property "Reference" "C3061"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7e6b1e27-2a06-4e7f-8a44-cc39f34d9b9f")
 			(effects
@@ -54622,7 +55846,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/a41f5ee9-9d61-4a5c-8ef1-484d1d0856be")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -54770,9 +55997,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d06d0a0e-d3ae-4f06-a4a6-2ace83bd76f7")
-		(at 75 29)
+		(at 75 31)
 		(property "Reference" "R2035"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "508ad809-15ab-4271-830e-534e882739c2")
 			(effects
@@ -54921,7 +56148,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2581e1b6-db70-4c02-b065-c0ebea02c600")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -55069,9 +56299,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d157ca6f-33ca-493e-9ace-7135f48c97f5")
-		(at 25 45)
+		(at 25 47)
 		(property "Reference" "R2121"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "fc47c7da-3416-435b-9f04-65b7b2426a4b")
 			(effects
@@ -55220,7 +56450,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ce6d35b5-838a-44a6-93e8-642fa1fb4757")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -55368,9 +56601,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d1affdac-cd75-4705-b8ed-8284df311044")
-		(at 130 41)
+		(at 130 43)
 		(property "Reference" "R2118"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "211fad41-6386-49a2-9457-ed82f251cab7")
 			(effects
@@ -55519,7 +56752,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/c5f8bf2d-6e5a-423d-b56b-a49efb782cb2")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -55667,9 +56903,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d1ecc8dd-71ec-4bcc-acdb-98c531ded7a2")
-		(at 60 25)
+		(at 60 27)
 		(property "Reference" "R2008"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "521b8c33-9f13-45b3-a18d-a9112dba212d")
 			(effects
@@ -55818,7 +57054,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/9a5f609d-5502-48d2-859d-578c8129ca19")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -55966,9 +57205,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d276ef3e-5bbb-4140-975e-e1fa66f99b6f")
-		(at 70 33)
+		(at 70 35)
 		(property "Reference" "R2058"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "cd7f2fb5-e643-472c-b561-6fdca3dd5537")
 			(effects
@@ -56117,7 +57356,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a96c6c07-d7f2-483e-8202-5f43a5a60310")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -56265,9 +57507,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d315fac3-f7df-4fa9-8bd1-a3a2a807b23b")
-		(at 75 45)
+		(at 75 47)
 		(property "Reference" "R2131"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "8cc517c6-b520-4216-b182-9936c52f9211")
 			(effects
@@ -56416,7 +57658,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6721fbbc-83e1-4b3c-b01b-ca4ff66bf740")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -56564,9 +57809,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d38f3c0a-69c6-4b7c-9f54-4709b07e5378")
-		(at 40 25)
+		(at 40 27)
 		(property "Reference" "R2004"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d1546caa-b00b-4d27-afc2-90731b25a3cf")
 			(effects
@@ -56715,7 +57960,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b64220c8-1e5a-4528-b6f6-d317d788b2e5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -56863,9 +58111,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d4185083-f49e-453f-a256-26472919d783")
-		(at 135 49)
+		(at 135 51)
 		(property "Reference" "R2167"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d0c1c690-b8fb-4c24-a128-ec061b45a6dc")
 			(effects
@@ -57014,7 +58262,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8d840423-959f-4fc8-b97a-2ba4879c1556")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -57162,9 +58413,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d479c1a1-dce4-42ec-982a-42cbd7023d0b")
-		(at 105 45)
+		(at 105 47)
 		(property "Reference" "R2137"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "a5cf3e23-1000-4951-8f7e-c67ca5ac9c7e")
 			(effects
@@ -57313,7 +58564,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2a99eefb-df08-41a1-ac07-41c91ea0a5ab")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -57461,9 +58715,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d493ae8e-c663-42c0-9878-2769ba90f7fc")
-		(at 110 33)
+		(at 110 35)
 		(property "Reference" "R2066"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "8953ac1c-cc98-4fc8-ada2-4cb6d83cf4bd")
 			(effects
@@ -57612,7 +58866,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/597aea87-68b3-487d-b459-5314253d6fab")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -57760,9 +59017,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "d4ebfa55-5f5c-4559-b2f9-8ca727289472")
-		(at 40 65)
+		(at 40 66)
 		(property "Reference" "C3004"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "7f835f53-812b-4896-8d48-b16910d233d8")
 			(effects
@@ -57911,7 +59168,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/21a7ef2f-98c4-4697-8e19-0f1a21c58637")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -58059,9 +59319,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d7a380a1-cb5b-4bbc-b4ac-9586e3d0cb5c")
-		(at 30 33)
+		(at 30 35)
 		(property "Reference" "R2050"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "096d2665-6fcc-4825-b0fa-5c7e7cdcbf2b")
 			(effects
@@ -58210,7 +59470,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ee118e80-b435-4cdc-b1d4-bcc28db215d4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -58358,9 +59621,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "d7b1f3ce-ab47-48f8-bc70-3c2479e042ce")
-		(at 80 49)
+		(at 80 51)
 		(property "Reference" "R2156"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d3ec13a9-37d9-4b0f-99c7-bd6c0c1bf8dc")
 			(effects
@@ -58509,7 +59772,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/79cd97c9-bf5e-42ad-8918-b452d396d27a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -58657,9 +59923,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "d9094bfe-460a-4f13-ac0e-6054cde575ea")
-		(at 50 69)
+		(at 50 70)
 		(property "Reference" "C3018"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ba7bdb26-ad12-4382-9795-a035afd1a7d1")
 			(effects
@@ -58808,7 +60074,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8c2bf44d-0715-4dd1-a41b-c47b4db8a081")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -58956,9 +60225,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "da29ce4a-dac1-479d-8400-424466ddd919")
-		(at 110 29)
+		(at 110 31)
 		(property "Reference" "R2042"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "49969860-1005-4b8a-9289-e0108c354729")
 			(effects
@@ -59107,7 +60376,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/18d8aa0f-f6dd-42c1-b08d-4299f4b1660b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -59255,9 +60527,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "daa9e09d-e6fd-4c1f-a6ea-59c45cb127eb")
-		(at 25 77)
+		(at 25 78)
 		(property "Reference" "C3037"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "93ca7b32-7e26-4eb7-8d37-f544076540e9")
 			(effects
@@ -59406,7 +60678,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/62231070-dd29-45f0-a13e-d377ba2cd6da")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -59554,9 +60829,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "dc6489d4-8abe-4042-8922-306ed0ef8602")
-		(at 50 37)
+		(at 50 39)
 		(property "Reference" "R2078"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ba12957e-7338-4ce1-8a59-7e796ec87b99")
 			(effects
@@ -59705,7 +60980,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/720d8aa6-1a8f-4036-9791-2152ca8c700f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -59853,9 +61131,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ddb128b6-75cc-4921-93d1-9481d3cb1982")
-		(at 65 69)
+		(at 65 70)
 		(property "Reference" "C3021"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "34d9355d-623b-45c6-a9b2-9d3d8cefc0fb")
 			(effects
@@ -60004,7 +61282,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/c2c807eb-d28f-4a66-a1d4-fbcc56a14012")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -60152,9 +61433,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "dee766e9-f742-4918-8c79-08dbcc61b2a5")
-		(at 65 73)
+		(at 65 74)
 		(property "Reference" "C3033"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "93e408c2-7e94-404a-aa4c-b01e601f7cac")
 			(effects
@@ -60303,7 +61584,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/fc99949c-cf12-44e0-ae84-3a16b0f23be2")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -60451,9 +61735,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "df99b7f5-bd2b-4468-b174-3f2272a42dcd")
-		(at 90 49)
+		(at 90 51)
 		(property "Reference" "R2158"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "2aae937b-0e04-4a83-a383-c63fb657cb36")
 			(effects
@@ -60602,7 +61886,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8d9faa0b-b29a-49a3-b09d-2af18f31c88e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -60750,9 +62037,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e06b48f3-47f5-4552-a4f2-228ff722711c")
-		(at 40 33)
+		(at 40 35)
 		(property "Reference" "R2052"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4b2314bb-476c-414d-afe6-1faf2e72071a")
 			(effects
@@ -60901,7 +62188,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/900cfaf7-ac95-45d6-8582-76637d569d6c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -61049,9 +62339,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "e21252a1-314c-4b0d-a27e-6b7c113ec170")
-		(at 55 69)
+		(at 55 70)
 		(property "Reference" "C3019"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "975cd180-b506-47e7-b85b-88c40599d64f")
 			(effects
@@ -61200,7 +62490,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b7f9bc89-02af-464b-bc47-8f8e42e4d5b4")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -61348,9 +62641,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e421ebe8-e48f-453f-96d1-f82be923fee6")
-		(at 115 37)
+		(at 115 39)
 		(property "Reference" "R2091"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f56b3e73-0c20-45b9-ab8e-5b75fc1f7b60")
 			(effects
@@ -61499,7 +62792,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ee28047e-4135-4891-a956-15deb2915f69")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -61647,9 +62943,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "e46c8f8a-aebe-4b66-a2e4-bcf8ef98cc78")
-		(at 40 81)
+		(at 40 82)
 		(property "Reference" "C3052"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e4b2b391-2b72-4af1-aa9a-75dbd8374cac")
 			(effects
@@ -61798,7 +63094,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/d3e6c9bf-40ef-4b3a-b113-452df4f0e6f5")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -61946,9 +63245,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e4d5017c-0c13-4a92-b43a-7be91972337f")
-		(at 100 33)
+		(at 100 35)
 		(property "Reference" "R2064"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5ba7a980-c632-4dc4-a6bf-8415b495f65c")
 			(effects
@@ -62097,7 +63396,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2c4fdbbb-72a5-49cf-a8d8-7016227daccb")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -62245,9 +63547,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e638eba8-ceef-4d07-af20-21ff4b205086")
-		(at 30 41)
+		(at 30 43)
 		(property "Reference" "R2098"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "50e326fd-bd87-4100-8539-bb87375f9c6a")
 			(effects
@@ -62396,7 +63698,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5f4fdbea-2dd8-4115-8d6d-e7c4d65afca4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -62544,9 +63849,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e6727a46-a680-4d5d-aa45-c79c2dd73f38")
-		(at 110 37)
+		(at 110 39)
 		(property "Reference" "R2090"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6a7e0441-116b-4970-88bb-0b9b00081f74")
 			(effects
@@ -62695,7 +64000,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3c9f1721-0e85-4302-9889-c04a8f18de1b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -62843,9 +64151,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "e8ffd755-4da8-4cda-845a-cf0a5a865844")
-		(at 35 77)
+		(at 35 78)
 		(property "Reference" "C3039"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ec943c56-f285-454f-a90e-2b25d0c4e26e")
 			(effects
@@ -62994,7 +64302,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/47585840-cfc8-462b-bcd6-0fc8f94244d7")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -63142,9 +64453,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e99b4083-a78b-4e7b-be7f-b2b608c213af")
-		(at 60 33)
+		(at 60 35)
 		(property "Reference" "R2056"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "681b6284-0700-4a67-93be-5054104c01cc")
 			(effects
@@ -63293,7 +64604,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/62b8a9f1-e789-4efd-a769-0c7ddf8333fb")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -63441,9 +64755,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "e9c79cba-9e00-4c08-b304-833a9ccc857b")
-		(at 55 41)
+		(at 55 43)
 		(property "Reference" "R2103"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "2ce5f8f6-1d11-4da4-bd98-dd2313430312")
 			(effects
@@ -63592,7 +64906,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/c362f9ba-3f8f-4312-8d7b-342675fc312b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -63740,9 +65057,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "ea7010b1-c4b9-44a9-a5e0-86b603252e13")
-		(at 140 29)
+		(at 140 31)
 		(property "Reference" "R2048"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "27c2bd17-8e64-4b09-b1c2-a800f5b0cc16")
 			(effects
@@ -63891,7 +65208,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/989ee968-6ffc-4e70-862e-5ffa43d4b0d9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -64039,9 +65359,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "ea9f3450-2e85-435f-b949-20676fa3fa59")
-		(at 85 45)
+		(at 85 47)
 		(property "Reference" "R2133"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "adfbe88b-1178-482e-8479-39e8e9c03717")
 			(effects
@@ -64190,7 +65510,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/fd834156-8fd1-4ff4-a199-237ce86360ab")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -64338,9 +65661,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "eb393582-95ff-47b7-b8dd-a586ecb88128")
-		(at 60 49)
+		(at 60 51)
 		(property "Reference" "R2152"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4c827b1f-94eb-476e-9391-da5766dcb4e4")
 			(effects
@@ -64489,7 +65812,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2f36e477-e9da-4742-8167-1c30a477bc53")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -64637,9 +65963,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "eba563d5-f277-4d8e-a1c7-726115842ee4")
-		(at 135 29)
+		(at 135 31)
 		(property "Reference" "R2047"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "12487c1c-d908-4b30-84c2-2d88fcfed60b")
 			(effects
@@ -64788,7 +66114,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2d249b48-8316-4aa8-9dd6-765d93611b7f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -64936,9 +66265,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ec349734-c8db-4c7d-b37a-a22819b37439")
-		(at 35 73)
+		(at 35 74)
 		(property "Reference" "C3027"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b785dfc2-59c9-4328-9c6e-91e84f909499")
 			(effects
@@ -65087,7 +66416,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2fc7c828-35c8-4db4-bab7-c7c381a4c16f")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -65235,9 +66567,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ed703c32-4943-4fd4-994e-c1db3de62575")
-		(at 70 65)
+		(at 70 66)
 		(property "Reference" "C3010"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "a5fdca27-1f99-40ed-ad54-ece04fb84513")
 			(effects
@@ -65386,7 +66718,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/c87124a4-63a4-4e25-b813-3a392f2cf35c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -65534,9 +66869,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ef2c57a2-986b-465a-a73c-fcab0d3e4b50")
-		(at 80 65)
+		(at 80 66)
 		(property "Reference" "C3012"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b819688b-73b9-4373-8a40-27e9dc2d5a4f")
 			(effects
@@ -65685,7 +67020,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/a3102157-b4ce-40ed-9794-449a4b1d70fa")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -65833,9 +67171,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f0894ca5-19c9-4ee4-85a4-e6f4f2f0beaa")
-		(at 140 41)
+		(at 140 43)
 		(property "Reference" "R2120"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d8578f1c-6901-4b9b-b16e-4ab47a0d31e6")
 			(effects
@@ -65984,7 +67322,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5029a6ea-6a5c-4d46-b3a1-addcbf1161d1")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -66132,9 +67473,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "f0bdca8b-87fc-41cf-89fb-5e658d04c115")
-		(at 45 65)
+		(at 45 66)
 		(property "Reference" "C3005"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "2c13e381-61ca-4200-bdb1-3c41daa66a7d")
 			(effects
@@ -66283,7 +67624,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8fafdca8-bb7d-4466-833a-ab23c01a2bd8")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -66431,9 +67775,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f10111d8-78ae-430b-b725-5c6095a4347e")
-		(at 60 45)
+		(at 60 47)
 		(property "Reference" "R2128"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d3c2f799-e350-4bfa-9774-57e9476ee5f5")
 			(effects
@@ -66582,7 +67926,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/312c4a5a-a74f-477e-a07d-603a1ae8e602")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -66730,9 +68077,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f15fbe62-120e-4927-a266-84e754f68cb5")
-		(at 100 41)
+		(at 100 43)
 		(property "Reference" "R2112"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "57e4853a-0c65-4fa0-85d3-bddace9ea6eb")
 			(effects
@@ -66881,7 +68228,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b80a91ae-5ceb-4d26-906c-7b59e9abfdf3")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -67029,9 +68379,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "f17e5025-7860-4b0a-a36c-e6c67581f4c8")
-		(at 55 65)
+		(at 55 66)
 		(property "Reference" "C3007"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1c7a8619-81a3-4990-87f1-e5b1ec06264b")
 			(effects
@@ -67180,7 +68530,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/09ba2aa1-b9e6-4cd0-979b-65b3376bc5b7")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -67328,9 +68681,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f1e6daf5-6a41-4d6b-a747-5bc1e80da272")
-		(at 105 25)
+		(at 105 27)
 		(property "Reference" "R2017"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "92700571-e9ce-4273-b88c-1c6ecad8eecd")
 			(effects
@@ -67479,7 +68832,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3ec31eb2-f4c6-47e4-8e34-4b0e2d2f9ce8")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -67627,9 +68983,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f24652eb-1a88-4cc8-b4f2-d6e7e98abaa8")
-		(at 115 25)
+		(at 115 27)
 		(property "Reference" "R2019"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "1a3cab66-0896-42b2-9f17-d73eed92c7e4")
 			(effects
@@ -67778,7 +69134,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/09293a12-70fb-4803-a60b-1290b826abfb")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -67926,9 +69285,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "f285fe46-15e1-4346-b6a6-ea8decdb1c6f")
-		(at 70 81)
+		(at 70 82)
 		(property "Reference" "C3058"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d4c736e5-71bc-4e4b-99e5-0fff2d614582")
 			(effects
@@ -68077,7 +69436,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/e81427cc-7774-4eef-ae5a-58e330c5d5a5")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -68225,9 +69587,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f2fbd9b2-62de-4ac4-95f2-c6c27313074d")
-		(at 40 45)
+		(at 40 47)
 		(property "Reference" "R2124"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e0d16c8f-5501-4530-86b8-2694e1fa6a8d")
 			(effects
@@ -68376,7 +69738,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/0460a93f-b94d-40c9-a1b9-2f5189ccef7e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -68524,9 +69889,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f328105b-b4df-4791-b08a-88d993c1eee2")
-		(at 75 25)
+		(at 75 27)
 		(property "Reference" "R2011"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f66dfc58-c1af-4806-88af-5a6e29b1ee84")
 			(effects
@@ -68675,7 +70040,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/c7f641a4-e1c6-47ad-9d98-64bc1cb76e44")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -68823,9 +70191,9 @@
 	(footprint "lily_footprints:ind_0805"
 		(layer "F.Cu")
 		(uuid "f3d3ffbd-25d9-4f03-ba27-ea0839b15019")
-		(at 100 65)
+		(at 89 66)
 		(property "Reference" "L4001"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f30bf509-bb49-41fa-b770-6d361d6340d6")
 			(effects
@@ -68974,7 +70342,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "ind_*")
 		(path "/ac804940-04be-4885-b738-67220611f5f6/e8dfc40c-39c3-4aa3-a0de-068fc142f5e0")
+		(sheetname "Inductors")
+		(sheetfile "inductors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -69122,9 +70493,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "f43d3002-2f23-4393-b0e2-21bf4143ca07")
-		(at 25 69)
+		(at 25 70)
 		(property "Reference" "C3013"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "3342aa45-ba5d-483b-a317-d26d4d9f4bfb")
 			(effects
@@ -69273,7 +70644,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b76b6014-0538-462f-b25d-2e71584a2e0f")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -69421,9 +70795,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f480922b-5d39-4b53-97e6-1521929a58b1")
-		(at 85 33)
+		(at 85 35)
 		(property "Reference" "R2061"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "99c27343-9844-4794-b415-67066de8e8b1")
 			(effects
@@ -69572,7 +70946,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ce61b6e4-671c-44c1-a1a5-e7bf047f7756")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -69720,9 +71097,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f52978ba-4447-452f-885c-6316ef2a4d3e")
-		(at 45 37)
+		(at 45 39)
 		(property "Reference" "R2077"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "9d2283d6-04a9-4237-8338-878ae8fea595")
 			(effects
@@ -69871,7 +71248,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/65d0f5f1-6d9d-454a-8774-d4c61778d4fe")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -70019,9 +71399,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f57b0577-7a86-4dfd-af7f-99186ff59f0b")
-		(at 105 41)
+		(at 105 43)
 		(property "Reference" "R2113"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e81bfffa-02c1-40c0-9424-bf287ccdd05b")
 			(effects
@@ -70170,7 +71550,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a7219102-70d6-476e-afcb-ef0166c84324")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -70318,9 +71701,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f63b3fd0-464a-446f-8df7-383c24ed5e99")
-		(at 95 29)
+		(at 95 31)
 		(property "Reference" "R2039"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "5212f7f6-45e2-4b74-b8d8-b11e5803011f")
 			(effects
@@ -70469,7 +71852,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/c7966eb2-db2d-44f0-b563-04e5615a5a63")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -70617,9 +72003,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f941a074-bf8d-4370-9c81-70e68e938a65")
-		(at 65 41)
+		(at 65 43)
 		(property "Reference" "R2105"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "40b697a0-1418-4d22-a34e-bf7a412b0a87")
 			(effects
@@ -70768,7 +72154,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/0fca6f3f-72cb-40eb-bb48-fe0c2cd396bc")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -70916,9 +72305,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "f9d46899-300d-447e-a1ac-09eaf374d890")
-		(at 95 49)
+		(at 95 51)
 		(property "Reference" "R2159"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "9feb60c5-5468-4735-846d-9d7409d8bd33")
 			(effects
@@ -71067,7 +72456,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7e025adc-3454-4bf2-ac6c-7baac9161eea")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -71215,9 +72607,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "faca59e2-bc44-423c-8032-fc15d75abe4f")
-		(at 30 29)
+		(at 30 31)
 		(property "Reference" "R2026"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "8ae3263f-0fe6-451c-84a8-40c181f6ade2")
 			(effects
@@ -71366,7 +72758,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/9876e53a-c676-4fdc-b398-a4c222235981")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -71514,9 +72909,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "fd24dc7c-7967-4357-a73b-a4f3c73b15df")
-		(at 40 77)
+		(at 40 78)
 		(property "Reference" "C3040"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "bbbf90d5-c6c7-4469-8eda-7cb047efd5a1")
 			(effects
@@ -71665,7 +73060,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/c3dda6b3-6f2b-4a31-bb55-9239c55e82b9")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -71813,9 +73211,9 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "fd76b2f8-b799-4107-a333-99b2ee08bd20")
-		(at 70 69)
+		(at 70 70)
 		(property "Reference" "C3022"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "df39ecef-54f8-4ada-b049-691fc4dda88f")
 			(effects
@@ -71964,7 +73362,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "cap_*")
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/19d54080-e4b1-4ab7-baa6-849ba4409235")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -72112,9 +73513,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "fea6d23b-48da-4e2f-b073-bf4c9565b3df")
-		(at 115 49)
+		(at 115 51)
 		(property "Reference" "R2163"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "47ef0777-7095-4208-ac9a-627cd4f9c2db")
 			(effects
@@ -72263,7 +73664,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/736f5598-19d1-4844-a0ac-9f68fed581e9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -72411,9 +73815,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "fed8e523-129c-4b9b-97b1-9acc9f754b14")
-		(at 80 41)
+		(at 80 43)
 		(property "Reference" "R2108"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "e5b5cc23-1e31-4b3d-9ab7-9092e2ef34ec")
 			(effects
@@ -72562,7 +73966,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/1d56b6a4-9df4-4cbb-ba37-1e1e4d3f668b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -72710,9 +74117,9 @@
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "ffa062d6-f26f-40a3-9021-7eb040fc9d33")
-		(at 35 41)
+		(at 35 43)
 		(property "Reference" "R2099"
-			(at 0 0 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "ec8efd73-3e7e-47a3-afbd-77635a7e5c79")
 			(effects
@@ -72861,7 +74268,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "res_*")
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d2dcece4-6501-432b-888d-47209276bfa9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -73007,8 +74417,41 @@
 		)
 	)
 	(gr_rect
+		(start 22 61)
+		(end 84 94)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "25006249-2dcb-45de-af83-48a10a24f4c6")
+	)
+	(gr_rect
+		(start 22 22)
+		(end 144 59)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "30e3dc4c-2926-494b-9fb1-705a8427d26f")
+	)
+	(gr_rect
+		(start 86 61)
+		(end 144 94)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b0b48170-389a-4d35-9dc4-1290250550a5")
+	)
+	(gr_rect
 		(start 20 20)
-		(end 145 90)
+		(end 150 100)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -73016,5 +74459,41 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "631cd908-5db0-4cad-8a80-025deffd46e8")
+	)
+	(gr_text "CAPACITORS E-12 SERIES 0805"
+		(at 22.5 63 0)
+		(layer "F.SilkS")
+		(uuid "6c467fc1-4030-48b2-88c4-38475834c894")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "INDUCTORS"
+		(at 86.5 63 0)
+		(layer "F.SilkS")
+		(uuid "9924da14-a79a-45cf-bfcd-6101fb414665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RESISTORS E-24 SERIES 0805"
+		(at 22.5 24 0)
+		(layer "F.SilkS")
+		(uuid "d899ae23-c343-40f7-b42b-3f15980af1c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 )
