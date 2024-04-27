@@ -24,3 +24,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+    - name: Generate report
+      run: |
+        python scripts/generate_symbols_report.py
