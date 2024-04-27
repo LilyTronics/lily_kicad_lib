@@ -30,3 +30,4 @@ jobs:
     - name: commit and push changes
       run: |
         git status
+        git commit -am "Updated report"
