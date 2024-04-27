@@ -27,3 +27,6 @@ jobs:
     - name: Generate report
       run: |
         python scripts/generate_report.py
+    - name: commit and push changes
+      run: |
+        git status
