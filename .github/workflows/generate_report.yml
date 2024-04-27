@@ -33,3 +33,4 @@ jobs:
         git config user.name "Danny"
         git commit -am "Updated report"
         git status
+        git push
