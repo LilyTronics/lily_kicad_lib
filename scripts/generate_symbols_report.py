@@ -49,17 +49,22 @@ def generate_report():
     print(f"Extra properties: {property_names}")
     print("Generate report")
 
-    symbols_data = ""
+    generic_symbols_data = ""
+    parts_data = ""
     for symbol in sorted(symbols, key=lambda x: x["Name"]):
-        symbols_data += "    { "
+        symbol_data = "{ "
         for property_name in mandatory_properties:
             value = html.escape(symbol.get(property_name, ""))
-            symbols_data += f'{property_name}: "{value}", '
+            symbol_data += f'{property_name}: "{value}", '
         for property_name in property_names:
             value = html.escape(symbol.get(property_name, ""))
-            symbols_data += f'{property_name}: "{value}", '
-        symbols_data = symbols_data[:-2] + " },\n"
-    symbols_data = symbols_data[:-2]
+            symbol_data += f'{property_name}: "{value}", '
+        symbol_data = symbol_data[:-2] + " }"
+        if symbol.get("Extends", None) is None:
+            generic_symbols_data += f"    {symbol_data},\n"
+        else:
+            parts_data += f"    {symbol_data},\n"
+
     fields = str(mandatory_properties + property_names).replace("'", '"')
     with open("symbols_report_template.html", "r") as fp:
         template = Template(fp.read())
@@ -68,7 +73,8 @@ def generate_report():
             timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
             total=len(symbols),
             fields=fields,
-            symbols_data=symbols_data
+            generic_symbols_data=generic_symbols_data[:-2],
+            parts_data=parts_data[:-2]
         ))
     print("Done")
 

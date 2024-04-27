@@ -3,14 +3,32 @@
 <head>
 <meta charset="UTF-8" />
 <style>
+html {
+    margin: 0px;
+    padding: 0px;
+}
 body {
-    margin: 0;
+    margin: 0px;
     padding: 16px;
     font-family: sans-serif;
     font-size: 14px;
+    line-height: 1.3;
+}
+div {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 8px 0px 8px;
+    padding: 0px;
+}
+h1, h2 {
+    margin: 16px 0px 16px;
+    padding: 0px;
 }
 table {
     border-collapse: collapse;
+    width: auto;
 }
 th, td {
     padding: 4px 8px;
@@ -27,30 +45,42 @@ tr:nth-child(odd) {
 input {
     font-size: 14px;
 }
+.section {
+    margin: 32px 0px 32px;
+}
 </style>
 <script>
 
 const fields = $fields;
 
-const symbols = [
-$symbols_data
+const generic_symbols = [
+$generic_symbols_data
+];
+
+const parts = [
+$parts_data
 ];
 
 function showData(e) {
-    document.getElementById("total_filtered").innerHTML = "";
     let query = "";
-    let total_filtered = 0;
     if (e) {
         query = e.target.value;
     }
-    let output = "";
+    document.getElementById("generic_symbol_table").innerHTML = generateTable(generic_symbols, query);
+    document.getElementById("parts_table").innerHTML = generateTable(parts, query);
+}
+
+function generateTable(symbols, query) {
+    let output = "<table>\n";
+    // Create header
     output += "<tr>";
     output += "<th>#</th>";
     for (const field of fields) {
         output += "<th>" + escapeHtml(field) + "</th>";
     }
     output += "</tr>\n";
-    let i = 1;
+    // Add symbols
+    let i = 0;
     for (const symbol of symbols) {
         let add_symbol = true;
         if (query != "") {
@@ -63,20 +93,18 @@ function showData(e) {
             }
         }
         if (add_symbol) {
+            i++;
             output += "<tr>";
             output += "<td>" + i + "</td>";
             for (const field of fields) {
                 output += "<td>" + escapeHtml(symbol[field]) + "</td>";
             }
             output += "</tr>\n";
-            i++;
-            total_filtered++;
         }
     }
-    if (query != "") {
-        document.getElementById("total_filtered").innerHTML = total_filtered + " found";
-    }
-    document.getElementById("symbol_table").innerHTML = output;
+    output += "</table>\n";
+    output = "<p>Total symbols: " + i + "</p>\n" + output;
+    return output;
 }
 
 function escapeHtml(unsafe) {
@@ -92,11 +120,27 @@ function escapeHtml(unsafe) {
 </head>
 <body>
 <h1>Lily KiCad library symbols</h1>
+<div class="section">
 <p>Last updated: $timestamp</p>
 <p>Total symbols: $total</p>
-<p>Filter: <input type="text" id="query" style="width:300px;"/> <span id="total_filtered"></span></p>
-<table id="symbol_table">
-</table>
+</div>
+<div class="section">
+<p>The library contains generic symbols and parts (derived from generic symbols).</p>
+<p>It is preferred to use parts as much as possible.<p>
+<p>Generic symbols can be used if no part is available, but all properties must be added and
+a footprint must be connected manually in the schematics.</p>
+</div>
+<div class="section">
+<p>Filter: <input type="text" id="query" style="width:300px;"/></p>
+</div>
+<div class="section">
+<h2>Generic symbols</h2>
+<div id="generic_symbol_table"></div>
+</div>
+<div class="section">
+<h2>Parts</h2>
+<div id="parts_table"></div>
+</div>
 <script>
 showData();
 const input = document.getElementById("query");
