@@ -26,4 +26,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Generate report
       run: |
-        python scripts/generate_symbols_report.py
+        python scripts/generate_report.py

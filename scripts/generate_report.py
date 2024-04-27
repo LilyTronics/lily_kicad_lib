@@ -3,6 +3,7 @@ Generates an HTML report with all symbols.
 """
 
 import html
+import os
 
 from string import Template
 from datetime import datetime
@@ -20,9 +21,20 @@ def generate_report():
         "Revision",
         "ki_fp_filters"
     ]
-    with open("../symbols/lily_symbols.kicad_sym", "r") as fp:
+    script_path = os.path.dirname(__file__)
+    lib_filename = os.path.abspath(os.path.join(script_path, "..", "symbols", "lily_symbols.kicad_sym"))
+    template_filename = os.path.abspath(os.path.join(script_path, "templates", "report_template"))
+    output_filename = os.path.abspath(os.path.join(script_path, "..", "documents", "symbols_report.html"))
+    print("Library file :", lib_filename)
+    print("Template file:", template_filename)
+    print("Output file  :", output_filename)
+
+    print("\nRead library")
+    with open(lib_filename, "r") as fp:
         lines = fp.readlines()
     print(f"Read: {len(lines)} lines")
+
+    print("\nParsing symbols")
     symbols = []
     property_names = []
     i = 0
@@ -47,8 +59,8 @@ def generate_report():
         i += 1
     print(f"Found: {len(symbols)} symbols")
     print(f"Extra properties: {property_names}")
-    print("Generate report")
 
+    print("\nGenerate report")
     generic_symbols_data = ""
     parts_data = ""
     for symbol in sorted(symbols, key=lambda x: x["Name"]):
@@ -66,9 +78,10 @@ def generate_report():
             parts_data += f"    {symbol_data},\n"
 
     fields = str(mandatory_properties + property_names).replace("'", '"')
-    with open("symbols_report_template.html", "r") as fp:
+    with open(template_filename, "r") as fp:
         template = Template(fp.read())
-    with open("../documents/symbols_report.html", "w") as fp:
+
+    with open(output_filename, "w") as fp:
         fp.write(template.substitute(
             timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
             total=len(symbols),
@@ -76,7 +89,7 @@ def generate_report():
             generic_symbols_data=generic_symbols_data[:-2],
             parts_data=parts_data[:-2]
         ))
-    print("Done")
+    print("\nDone")
 
 
 if __name__ == "__main__":

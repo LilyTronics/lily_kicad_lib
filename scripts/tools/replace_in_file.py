@@ -7,7 +7,7 @@ search = ''''''
 
 replace = ''''''
 
-filename = "../symbols/lily_symbols.kicad_sym"
+filename = "../../symbols/lily_symbols.kicad_sym"
 
 with open(filename, "r") as fp:
     content = fp.read()
