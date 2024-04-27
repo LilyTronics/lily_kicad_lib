@@ -63,15 +63,6 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "Do not use"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_fp_filters" "cap_*"
 			(at 0 0 0)
 			(effects
@@ -154,21 +145,19 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0.635 2.54 0)
+			(at 3.81 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "ind_bead"
-			(at 5.08 2.54 0)
+			(at 3.81 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -192,6 +181,15 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 3.81 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,15 +337,6 @@
 		)
 		(property "Revision" "1"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Do not use"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
