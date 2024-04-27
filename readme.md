@@ -19,6 +19,8 @@ Additional information:
 * [Overview of all symbols](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/symbols_report.html)
 * [Symbol naming convention](documents/symbol_naming.md)
 
+[![Generate report](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/generate_report.yml/badge.svg)](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/generate_report.yml)
+
 ## Setup
 
 The library is set up as follows:
