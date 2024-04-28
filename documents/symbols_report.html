@@ -55,7 +55,8 @@ const fields = ["Name", "Extends", "Reference", "Value", "Footprint", "Descripti
 
 const generic_symbols = [
     { Name: "cap", Extends: "", Reference: "C", Value: "CAP", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "cap_*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
-    { Name: "dio_tvs_uni_2_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_2_channel", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "dio_schottky", Extends: "", Reference: "D", Value: "dio_schottky", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "dio_*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "dio_tvs_uni_2_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_2_channel", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "dio_* sot*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_bead", Extends: "", Reference: "L", Value: "ind_bead", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "ind_*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "res", Extends: "", Reference: "R", Value: "res", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "res_*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
 ];
@@ -136,7 +137,8 @@ const parts = [
     { Name: "cap_8p2_50V_5%_C0G_0805", Extends: "cap", Reference: "C", Value: "8p2", Footprint: "lily_footprints:cap_0805", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "cap_*", Status: "Active", Manufacturer: "Guangdong Fenghua Advanced Tech", Manufacturer_ID: "0805CG8R2C500NT", Lily_ID: "1912-38200", JLCPCB_ID: "C1840", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "cap_do_not_populate_0805", Extends: "cap", Reference: "C", Value: "dnp", Footprint: "lily_footprints:cap_0805_dnp", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "cap_*", Status: "Active", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "cap_do_not_populate_1206", Extends: "cap", Reference: "C", Value: "dnp", Footprint: "lily_footprints:cap_1206_dnp", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "cap_*", Status: "Active", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
-    { Name: "dio_tvs_uni_2_channel_15V_sot23", Extends: "dio_tvs_uni_2_channel", Reference: "D", Value: "dio_tvs_uni_2_channel", Footprint: "lily_footprints:sot23", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "", Status: "Active", Manufacturer: "ElecSuper", Manufacturer_ID: "PSOT12C-ES ", Lily_ID: "1911-10003", JLCPCB_ID: "C5180271", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "dio_schottky_SS14_do214ac_sma", Extends: "dio_schottky", Reference: "D", Value: "SS14", Footprint: "lily_footprints:dio_do214ac_sma", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "dio_*", Status: "Active", Manufacturer: "Microdiode Electronics", Manufacturer_ID: "SS14", Lily_ID: "1911-10002", JLCPCB_ID: "C2480", JLCPCB_STATUS: "Basic", Notes: "" },
+    { Name: "dio_tvs_uni_2_channel_15V_sot23", Extends: "dio_tvs_uni_2_channel", Reference: "D", Value: "15V", Footprint: "lily_footprints:sot23", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "dio_* sot*", Status: "Active", Manufacturer: "ElecSuper", Manufacturer_ID: "PSOT12C-ES ", Lily_ID: "1911-10003", JLCPCB_ID: "C5180271", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_600R@100MHz_1A5_0R25_0805", Extends: "ind_bead", Reference: "L", Value: "600R/0R25", Footprint: "lily_footprints:ind_0805", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "ind_*", Status: "Active", Manufacturer: "Guangdong Fenghua Advanced Tech", Manufacturer_ID: "CBW201209U601T", Lily_ID: "1916-xxxxx", JLCPCB_ID: "C21286", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_do_not_populate_0805", Extends: "ind_bead", Reference: "L", Value: "dnp", Footprint: "lily_footprints:ind_0805_dnp", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "ind_*", Status: "Active", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "res_0R_1%_125mW_0805", Extends: "res", Reference: "R", Value: "0R", Footprint: "lily_footprints:res_0805", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "res_*", Status: "Active", Manufacturer: "Uniroyal Electronics", Manufacturer_ID: "0805W8F0000T5E", Lily_ID: "1913-10000", JLCPCB_ID: "C17477", JLCPCB_STATUS: "Basic", Notes: "" },
@@ -371,8 +373,8 @@ function escapeHtml(unsafe) {
 <body>
 <h1>Lily KiCad library symbols</h1>
 <div class="section">
-<p>Last updated: 2024-04-28 19:04</p>
-<p>Total symbols: 252</p>
+<p>Last updated: 2024-04-28 19:38</p>
+<p>Total symbols: 254</p>
 </div>
 <div class="section">
 <p>The library contains generic symbols and parts (derived from generic symbols).</p>
