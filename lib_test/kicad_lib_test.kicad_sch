@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Lily KiCad Library test")
-		(date "2024-04-17")
+		(date "2024-04-28")
 		(rev "1")
 		(company "LilyTronics")
 	)
@@ -124,6 +124,45 @@
 			(project "kicad_lib_test"
 				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8e61c5d-b401-4177-96aa-be2ecb8375a7")
+		(property "Sheetname" "Diodes"
+			(at 139.7 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "diodes.kicad_sch"
+			(at 139.7 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
+					(page "5")
 				)
 			)
 		)
