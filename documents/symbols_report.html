@@ -58,6 +58,7 @@ const generic_symbols = [
     { Name: "dio_schottky", Extends: "", Reference: "D", Value: "dio_schottky", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "dio_*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "dio_tvs_uni_2_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_2_channel", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "dio_* sot*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_bead", Extends: "", Reference: "L", Value: "ind_bead", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "ind_*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "mosfet_n_3p", Extends: "", Reference: "Q", Value: "mosfet_n_3p", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "res", Extends: "", Reference: "R", Value: "res", Footprint: "", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "res_*", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
 ];
 
@@ -141,6 +142,7 @@ const parts = [
     { Name: "dio_tvs_uni_2_channel_15V_sot23", Extends: "dio_tvs_uni_2_channel", Reference: "D", Value: "15V", Footprint: "lily_footprints:sot23", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "dio_* sot*", Status: "Active", Manufacturer: "ElecSuper", Manufacturer_ID: "PSOT12C-ES ", Lily_ID: "1911-10003", JLCPCB_ID: "C5180271", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_600R@100MHz_1A5_0R25_0805", Extends: "ind_bead", Reference: "L", Value: "600R/0R25", Footprint: "lily_footprints:ind_0805", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "ind_*", Status: "Active", Manufacturer: "Guangdong Fenghua Advanced Tech", Manufacturer_ID: "CBW201209U601T", Lily_ID: "1916-xxxxx", JLCPCB_ID: "C21286", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_do_not_populate_0805", Extends: "ind_bead", Reference: "L", Value: "dnp", Footprint: "lily_footprints:ind_0805_dnp", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "ind_*", Status: "Active", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "mosfet_n_AO3400A_sot23", Extends: "mosfet_n_3p", Reference: "Q", Value: "AO3400A", Footprint: "lily_footprints:sot23", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "", Status: "Active", Manufacturer: "Alpha and Omega Semicon ", Manufacturer_ID: "AO3400A", Lily_ID: "1918-10001", JLCPCB_ID: "C20917", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "res_0R_1%_125mW_0805", Extends: "res", Reference: "R", Value: "0R", Footprint: "lily_footprints:res_0805", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "res_*", Status: "Active", Manufacturer: "Uniroyal Electronics", Manufacturer_ID: "0805W8F0000T5E", Lily_ID: "1913-10000", JLCPCB_ID: "C17477", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "res_100R_1%_125mW_0805", Extends: "res", Reference: "R", Value: "100R", Footprint: "lily_footprints:res_0805", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "res_*", Status: "Active", Manufacturer: "Uniroyal Electronics", Manufacturer_ID: "0805W8F1000T5E", Lily_ID: "1913-11002", JLCPCB_ID: "C17408", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "res_100k_1%_125mW_0805", Extends: "res", Reference: "R", Value: "100k", Footprint: "lily_footprints:res_0805", Description: "", Datasheet: "", Revision: "1", ki_fp_filters: "res_*", Status: "Active", Manufacturer: "Uniroyal Electronics", Manufacturer_ID: "0805W8F1003T5E", Lily_ID: "1913-11005", JLCPCB_ID: "C149504", JLCPCB_STATUS: "Basic", Notes: "" },
@@ -373,8 +375,8 @@ function escapeHtml(unsafe) {
 <body>
 <h1>Lily KiCad library symbols</h1>
 <div class="section">
-<p>Last updated: 2024-04-28 19:38</p>
-<p>Total symbols: 254</p>
+<p>Last updated: 2024-04-29 11:43</p>
+<p>Total symbols: 256</p>
 </div>
 <div class="section">
 <p>The library contains generic symbols and parts (derived from generic symbols).</p>
