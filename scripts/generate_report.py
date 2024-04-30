@@ -73,6 +73,9 @@ def generate_report():
         for property_name in mandatory_properties:
             value = html.escape(symbol.get(property_name, ""))
             symbol_data += f'{property_name}: "{value}", '
+            if (symbol.get("Extends", None) is not None and
+                    not symbol["Footprint"].startswith("lily_footprints:")):
+                error_messages.append(f"Footprint is not from the lily_footprints library")
         for property_name in property_names:
             value = html.escape(symbol.get(property_name, ""))
             symbol_data += f'{property_name}: "{value}", '
