@@ -20,6 +20,9 @@ def generate_report():
         "Footprint",
         "Revision"
     ]
+    ignore_fields = [
+        "ki_locked"
+    ]
     script_path = os.path.dirname(__file__)
     lib_filename = os.path.abspath(os.path.join(script_path, "..", "symbols", "lily_symbols.kicad_sym"))
     template_filename = os.path.abspath(os.path.join(script_path, "templates", "report_template.html"))
@@ -49,9 +52,10 @@ def generate_report():
                     parts = lines[i].strip()[10:].split('" "')
                     if len(parts) == 2:
                         property_name = parts[0].strip('"')
-                        symbol[property_name] = parts[1].strip().strip('"')
-                        if property_name not in mandatory_properties and property_name not in property_names:
-                            property_names.append(property_name)
+                        if property_name not in ignore_fields:
+                            symbol[property_name] = parts[1].strip().strip('"')
+                            if property_name not in mandatory_properties and property_name not in property_names:
+                                property_names.append(property_name)
                 elif lines[i].startswith("\t)"):
                     break
             symbols.append(symbol)
