@@ -12,6 +12,45 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 215.9 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26f45545-bf59-44cc-9d79-27838866cd23")
+		(property "Sheetname" "IC Opamp"
+			(at 215.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ic_opamp.kicad_sch"
+			(at 215.9 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
