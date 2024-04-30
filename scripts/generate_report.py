@@ -66,39 +66,19 @@ def generate_report():
     print("\nGenerate report")
     generic_symbols_data = ""
     parts_data = ""
-    error_parts = {}
     for symbol in sorted(symbols, key=lambda x: x["Name"]):
-        error_messages = []
         symbol_data = "{ "
         for property_name in mandatory_properties:
             value = html.escape(symbol.get(property_name, ""))
             symbol_data += f'{property_name}: "{value}", '
-            if (symbol.get("Extends", None) is not None and
-                    not symbol["Footprint"].startswith("lily_footprints:")):
-                error_messages.append(f"Footprint is not from the lily_footprints library")
         for property_name in property_names:
             value = html.escape(symbol.get(property_name, ""))
             symbol_data += f'{property_name}: "{value}", '
-            if (symbol.get("Extends", None) is not None and symbol["Value"] != "dnp" and
-                    property_name != "Notes" and value == ""):
-                error_messages.append(f"{property_name} is empty")
         symbol_data = symbol_data[:-2] + " }"
         if symbol.get("Extends", None) is None:
             generic_symbols_data += f"    {symbol_data},\n"
         else:
             parts_data += f"    {symbol_data},\n"
-        if len(error_messages):
-            error_parts[symbol["Name"]] = error_messages
-
-    errors = ""
-    if len(error_parts) > 0:
-        errors += "<h2>Parts with errors</h2>\n"
-        errors += "<table>\n"
-        for part_name in error_parts:
-            errors += f"<tr><td>{part_name}</td><td>"
-            errors += "<br />".join(error_parts[part_name])
-            errors += "</td></tr>\n"
-        errors += "</table>\n"
 
     with open(template_filename, "r") as fp:
         template = Template(fp.read())
@@ -109,8 +89,7 @@ def generate_report():
             total=len(symbols),
             fields=str(mandatory_properties + property_names).replace("'", '"'),
             generic_symbols_data=generic_symbols_data[:-2],
-            parts_data=parts_data[:-2],
-            errors=errors
+            parts_data=parts_data[:-2]
         ))
     print("\nDone")
 
