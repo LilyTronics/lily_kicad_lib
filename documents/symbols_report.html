@@ -57,6 +57,7 @@ const generic_symbols = [
     { Name: "cap", Extends: "", Reference: "C", Value: "CAP", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "dio_schottky", Extends: "", Reference: "D", Value: "dio_schottky", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "dio_tvs_uni_2_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_2_channel", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "ic_opamp_dual", Extends: "", Reference: "U", Value: "ic_opamp_dual", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_bead", Extends: "", Reference: "L", Value: "ind_bead", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_n_3p", Extends: "", Reference: "Q", Value: "mosfet_n_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "res", Extends: "", Reference: "R", Value: "res", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
@@ -140,6 +141,7 @@ const parts = [
     { Name: "cap_do_not_populate_1206", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_1206_dnp", Revision: "1", Status: "Active", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "dio_schottky_SS14_do214ac_sma", Extends: "dio_schottky", Reference: "D", Value: "SS14", Description: "", Datasheet: "", Footprint: "lily_footprints:dio_do214ac_sma", Revision: "1", Status: "Active", Manufacturer: "Microdiode Electronics", Manufacturer_ID: "SS14", Lily_ID: "1911-10002", JLCPCB_ID: "C2480", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "dio_tvs_uni_2_channel_15V_sot23", Extends: "dio_tvs_uni_2_channel", Reference: "D", Value: "15V", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "ElecSuper", Manufacturer_ID: "PSOT12C-ES ", Lily_ID: "1911-10003", JLCPCB_ID: "C5180271", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "ic_opamp_dual_TLV272CDR_soic8", Extends: "ic_opamp_dual", Reference: "U", Value: "TLV272", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "Texas Instruments", Manufacturer_ID: "TLV272CDR", Lily_ID: "1914-10006", JLCPCB_ID: "C2057291", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_600R@100MHz_1A5_0R25_0805", Extends: "ind_bead", Reference: "L", Value: "600R/0R25", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_0805", Revision: "1", Status: "Active", Manufacturer: "Guangdong Fenghua Advanced Tech", Manufacturer_ID: "CBW201209U601T", Lily_ID: "1916-xxxxx", JLCPCB_ID: "C21286", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_do_not_populate_0805", Extends: "ind_bead", Reference: "L", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_0805_dnp", Revision: "1", Status: "Active", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_n_AO3400A_sot23", Extends: "mosfet_n_3p", Reference: "Q", Value: "AO3400A", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "Alpha and Omega Semicon ", Manufacturer_ID: "AO3400A", Lily_ID: "1918-10001", JLCPCB_ID: "C20917", JLCPCB_STATUS: "Basic", Notes: "" },
@@ -375,8 +377,8 @@ function escapeHtml(unsafe) {
 <body>
 <h1>Lily KiCad library symbols</h1>
 <div class="section">
-<p>Last updated: 2024-04-29 12:15</p>
-<p>Total symbols: 256</p>
+<p>Last updated: 2024-04-30 11:54</p>
+<p>Total symbols: 258</p>
 </div>
 <div class="section">
 <p>The library contains generic symbols and parts (derived from generic symbols).</p>
