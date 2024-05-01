@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 215.9 25.4)
+		(at 248.92 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -22,9 +22,47 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
+		(uuid "19bb89d4-4435-499d-abf8-0eaf7b787d71")
+		(property "Sheetname" "IC Sensors"
+			(at 248.92 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ic_sensors.kicad_sch"
+			(at 248.92 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 25.4)
+		(size 25.4 25.4)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
 		(uuid "26f45545-bf59-44cc-9d79-27838866cd23")
-		(property "Sheetname" "IC Opamp"
-			(at 215.9 24.6884 0)
+		(property "Sheetname" "IC Opamps"
+			(at 210.82 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +71,7 @@
 			)
 		)
 		(property "Sheetfile" "ic_opamp.kicad_sch"
-			(at 215.9 51.3846 0)
+			(at 210.82 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +89,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 25.4)
+		(at 58.42 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -63,7 +101,7 @@
 		)
 		(uuid "2a2762fb-babb-4273-997b-c90d7edcec13")
 		(property "Sheetname" "Capacitors"
-			(at 63.5 24.6884 0)
+			(at 58.42 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +110,7 @@
 			)
 		)
 		(property "Sheetfile" "capacitors.kicad_sch"
-			(at 63.5 51.3846 0)
+			(at 58.42 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +128,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 25.4)
+		(at 172.72 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -102,7 +140,7 @@
 		)
 		(uuid "510e0627-29ea-444b-9808-b352b324c010")
 		(property "Sheetname" "Transistors"
-			(at 177.8 24.6884 0)
+			(at 172.72 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +149,7 @@
 			)
 		)
 		(property "Sheetfile" "transistors.kicad_sch"
-			(at 177.8 51.3846 0)
+			(at 172.72 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +167,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
+		(at 20.32 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -141,7 +179,7 @@
 		)
 		(uuid "83efcd59-a8bf-48a1-9c1b-e7448bc070d0")
 		(property "Sheetname" "Resistors"
-			(at 25.4 24.6884 0)
+			(at 20.32 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150,7 +188,7 @@
 			)
 		)
 		(property "Sheetfile" "resistors.kicad_sch"
-			(at 25.4 51.3846 0)
+			(at 20.32 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,7 +206,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 25.4)
+		(at 96.52 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -180,7 +218,7 @@
 		)
 		(uuid "ac804940-04be-4885-b738-67220611f5f6")
 		(property "Sheetname" "Inductors"
-			(at 101.6 24.6884 0)
+			(at 96.52 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,7 +227,7 @@
 			)
 		)
 		(property "Sheetfile" "inductors.kicad_sch"
-			(at 101.6 51.3846 0)
+			(at 96.52 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,7 +245,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 25.4)
+		(at 134.62 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -219,7 +257,7 @@
 		)
 		(uuid "f8e61c5d-b401-4177-96aa-be2ecb8375a7")
 		(property "Sheetname" "Diodes"
-			(at 139.7 24.6884 0)
+			(at 134.62 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +266,7 @@
 			)
 		)
 		(property "Sheetfile" "diodes.kicad_sch"
-			(at 139.7 51.3846 0)
+			(at 134.62 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

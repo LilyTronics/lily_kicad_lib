@@ -641,6 +641,9 @@
 	(net 508 "unconnected-(U7001-Pad7)")
 	(net 509 "unconnected-(U7001B---Pad6)")
 	(net 510 "unconnected-(U7001C-VSS-Pad4)")
+	(net 511 "unconnected-(U8001-Pad3)")
+	(net 512 "unconnected-(U8001-Pad2)")
+	(net 513 "unconnected-(U8001-Pad1)")
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
@@ -946,7 +949,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "026e19a6-48ce-46d5-bb89-6cab681e496f")
-		(at 35 70)
+		(at 35 68)
 		(property "Reference" "C3015"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -1248,7 +1251,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "03271e37-0a1e-4198-ac60-886597a0b3e3")
-		(at 70 74)
+		(at 70 72)
 		(property "Reference" "C3034"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -2682,7 +2685,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "0712f5b0-2c04-4e24-9b1b-7ceb203fe823")
-		(at 50 82)
+		(at 50 80)
 		(property "Reference" "C3054"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -3588,7 +3591,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "082dee93-bb12-428b-914a-a48e76f22363")
-		(at 50 78)
+		(at 50 76)
 		(property "Reference" "C3042"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -4494,7 +4497,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "0d44f8db-5e06-405d-a80f-55c3d5354909")
-		(at 89 68)
+		(at 25 109)
 		(property "Reference" "D5001"
 			(at 0 -3 0)
 			(layer "F.SilkS")
@@ -4898,7 +4901,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "0d64908d-c342-4f78-ab88-bf5e4d95c693")
-		(at 40 70)
+		(at 40 68)
 		(property "Reference" "C3016"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -5200,7 +5203,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "0e590299-ef67-43ee-8b30-f34c815c072d")
-		(at 55 86)
+		(at 55 84)
 		(property "Reference" "C3067"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -5804,7 +5807,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "123bcb8e-eec5-4ea8-8b32-a55f5832552f")
-		(at 80 86)
+		(at 80 84)
 		(property "Reference" "C3072"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -6119,7 +6122,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "13b85b22-8f64-4131-acdc-aee82f22d742")
-		(at 75 66)
+		(at 75 64)
 		(property "Reference" "C3011"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -6723,7 +6726,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "1529df1c-3a2b-404a-b7d9-b32dd21d3472")
-		(at 40 74)
+		(at 40 72)
 		(property "Reference" "C3028"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -7629,7 +7632,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "16fc20fd-0639-424c-9231-c0351ba83a10")
-		(at 65 66)
+		(at 65 64)
 		(property "Reference" "C3009"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -9139,7 +9142,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "1d7c0576-5582-4c0a-8ce9-85a7cfbf1093")
-		(at 45 82)
+		(at 45 80)
 		(property "Reference" "C3053"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -10045,7 +10048,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "21b7f7c0-a5a0-419f-a3b2-557b6121e2fd")
-		(at 70 78)
+		(at 70 76)
 		(property "Reference" "C3046"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -10347,7 +10350,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "232b5ea1-273f-499b-91cd-004185467c0e")
-		(at 30 78)
+		(at 30 76)
 		(property "Reference" "C3038"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -10951,7 +10954,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "251d8931-763a-41d9-a210-9b842220acdd")
-		(at 80 82)
+		(at 80 80)
 		(property "Reference" "C3060"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -11253,7 +11256,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "2668c0bf-51d9-4228-8c24-410d6291c981")
-		(at 60 74)
+		(at 60 72)
 		(property "Reference" "C3032"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -12461,7 +12464,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "2eacbacc-437b-4daa-aa5c-2d0beb0bb719")
-		(at 70 86)
+		(at 70 84)
 		(property "Reference" "C3070"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -12776,7 +12779,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "2fa0f5c9-ac1e-4654-b6bc-4c916b13f384")
-		(at 75 78)
+		(at 75 76)
 		(property "Reference" "C3047"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -13682,7 +13685,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "34372651-8a7a-4193-a291-033d3472eda3")
-		(at 30 82)
+		(at 30 80)
 		(property "Reference" "C3050"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -15494,7 +15497,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "39509772-4fbf-4335-b078-d59c1f4f740f")
-		(at 75 74)
+		(at 75 72)
 		(property "Reference" "C3035"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -16400,7 +16403,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "3ca6fe38-85bf-4f07-ba9d-819e5c641871")
-		(at 25 74)
+		(at 25 72)
 		(property "Reference" "C3025"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -17306,7 +17309,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "3dda3060-7c11-4fcc-bcb1-cc8678cc9030")
-		(at 75 86)
+		(at 75 84)
 		(property "Reference" "C3071"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -17608,7 +17611,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "406ffa17-a2ae-46e6-bce5-a3467f1fcdd1")
-		(at 30 66)
+		(at 30 64)
 		(property "Reference" "C3002"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -18212,7 +18215,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "42213b98-89d7-4fc3-87c3-c262f3d0e195")
-		(at 45 70)
+		(at 45 68)
 		(property "Reference" "C3017"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -18816,7 +18819,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "42a944f1-9cee-4242-88be-8c8c15a86ff2")
-		(at 40 86)
+		(at 40 84)
 		(property "Reference" "C3064"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -20326,7 +20329,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "477d3020-3924-4a11-b876-391f92ac4728")
-		(at 60 82)
+		(at 60 80)
 		(property "Reference" "C3056"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -20628,7 +20631,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "47e882ef-edd8-439b-8d22-4879b1e75838")
-		(at 55 82)
+		(at 55 80)
 		(property "Reference" "C3055"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -20930,7 +20933,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "4818383f-1f55-4498-8bd6-9d743051cff9")
-		(at 50 74)
+		(at 50 72)
 		(property "Reference" "C3030"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -21534,7 +21537,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "49a2111f-0783-4bca-a668-41b014eb1f1f")
-		(at 45 74)
+		(at 45 72)
 		(property "Reference" "C3029"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -22440,7 +22443,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "4f6214fa-1f39-44a7-93a4-4548bf59ccdb")
-		(at 60 66)
+		(at 60 64)
 		(property "Reference" "C3008"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -23648,7 +23651,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "5326ab5b-420d-4e20-ab6b-8b5f9cdba292")
-		(at 60 78)
+		(at 60 76)
 		(property "Reference" "C3044"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -24252,7 +24255,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "54182d03-cfa0-4b3b-8091-b3699e3067c0")
-		(at 80 78)
+		(at 80 76)
 		(property "Reference" "C3048"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -25762,7 +25765,7 @@
 	(footprint "lily_footprints:dio_do214ac_sma"
 		(layer "F.Cu")
 		(uuid "5a6b1ed2-7528-41f5-b539-82f57aad4b5f")
-		(at 96 68)
+		(at 32 109)
 		(property "Reference" "D5002"
 			(at 0 -2.5 0)
 			(unlocked yes)
@@ -27280,7 +27283,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "5e39f771-75a9-45bd-8519-74fdb3bffbdb")
-		(at 65 82)
+		(at 65 80)
 		(property "Reference" "C3057"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -28186,7 +28189,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "642717e4-adc0-4c7c-9008-4972511f2cba")
-		(at 30 70)
+		(at 30 68)
 		(property "Reference" "C3014"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -28488,7 +28491,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "652997d2-d1e1-468b-8e47-70cbd852f45f")
-		(at 80 70)
+		(at 80 68)
 		(property "Reference" "C3024"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -29394,7 +29397,7 @@
 	(footprint "lily_footprints:cap_1206_dnp"
 		(layer "F.Cu")
 		(uuid "67d0ad1c-9bb0-41f6-9998-5277b41bd410")
-		(at 31 102)
+		(at 31 98)
 		(property "Reference" "C3075"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -31130,7 +31133,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "6a6111b3-ef14-4da7-9d10-f950b3471638")
-		(at 45 78)
+		(at 45 76)
 		(property "Reference" "C3041"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -32640,7 +32643,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "7158d4ed-c635-4c87-b5ce-ec05d3a6b9a0")
-		(at 65 86)
+		(at 65 84)
 		(property "Reference" "C3069"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -33244,7 +33247,7 @@
 	(footprint "lily_footprints:cap_1206"
 		(layer "F.Cu")
 		(uuid "75fce8de-749e-4a9b-aa83-4f875d290ea8")
-		(at 25 102)
+		(at 25 98)
 		(property "Reference" "C3074"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -33546,7 +33549,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "760559e4-f9bc-4033-9f38-1cfd69789df8")
-		(at 75 70)
+		(at 75 68)
 		(property "Reference" "C3023"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -33848,7 +33851,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "761dd8c8-a708-4819-8188-59a625db0fbf")
-		(at 35 66)
+		(at 35 64)
 		(property "Reference" "C3003"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -34452,7 +34455,7 @@
 	(footprint "lily_footprints:ind_0805_dnp"
 		(layer "F.Cu")
 		(uuid "79370781-a6e8-466c-ac71-9c163fb7bb92")
-		(at 30 116)
+		(at 62 97)
 		(property "Reference" "L4002"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -35282,7 +35285,7 @@
 	(footprint "lily_footprints:cap_0805_dnp"
 		(layer "F.Cu")
 		(uuid "7b44f11d-a298-4c8f-9d11-2c8067513e3f")
-		(at 25.05 90)
+		(at 25.05 88)
 		(property "Reference" "C3073"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -36112,7 +36115,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "7eab9866-37cd-4f7e-b575-a21258374d53")
-		(at 25 66)
+		(at 25 64)
 		(property "Reference" "C3001"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -36414,7 +36417,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "7ff01956-23e9-4c05-9e6c-ed02be7b723f")
-		(at 35 82)
+		(at 35 80)
 		(property "Reference" "C3051"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -37018,7 +37021,7 @@
 	(footprint "lily_footprints:soic8"
 		(layer "F.Cu")
 		(uuid "827d3e6e-ceba-44b8-bb21-5a6d6805adf3")
-		(at 90 99)
+		(at 90 67)
 		(property "Reference" "U7001"
 			(at 0 -4.5 0)
 			(unlocked yes)
@@ -37171,8 +37174,8 @@
 				)
 			)
 		)
-		(path "/26f45545-bf59-44cc-9d79-27838866cd23/fa3cdb42-9c3f-4e4e-b13d-9384f650a7ae")
-		(sheetname "IC Opamp")
+		(path "/26f45545-bf59-44cc-9d79-27838866cd23/c6842388-6063-4abe-acb1-18cccca7b01c")
+		(sheetname "IC Opamps")
 		(sheetfile "ic_opamp.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -39414,7 +39417,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "8bd46304-5404-4a55-a809-1aac4a9499a6")
-		(at 45 86)
+		(at 45 84)
 		(property "Reference" "C3065"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -41226,7 +41229,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "94f88ee5-a5fb-4be3-b8ac-185cc791fd6e")
-		(at 30 74)
+		(at 30 72)
 		(property "Reference" "C3026"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -42132,7 +42135,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "9a2f2ed1-5daa-4829-b22a-b13b063a285a")
-		(at 30 86)
+		(at 30 84)
 		(property "Reference" "C3062"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -42434,7 +42437,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "9a379b71-4553-4b6f-a46e-3e6b5264a12e")
-		(at 89 83)
+		(at 57 109)
 		(property "Reference" "Q6001"
 			(at 0 -3 0)
 			(layer "F.SilkS")
@@ -44045,7 +44048,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "9eb77286-b443-407a-98c8-9d18f3797800")
-		(at 50 86)
+		(at 50 84)
 		(property "Reference" "C3066"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -44951,7 +44954,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "a1965f46-e07f-4143-8a1f-92c6fd5f0995")
-		(at 60 86)
+		(at 60 84)
 		(property "Reference" "C3068"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -47380,7 +47383,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "aa09be84-0982-4d4d-b058-72b79745378c")
-		(at 65 78)
+		(at 65 76)
 		(property "Reference" "C3045"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -48588,7 +48591,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ae61b141-0568-4fdd-8dea-b1412fef5cf6")
-		(at 50 66)
+		(at 50 64)
 		(property "Reference" "C3006"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -49796,7 +49799,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "b2941a27-a700-46e6-ac8b-8d5e55e89bc8")
-		(at 35 86)
+		(at 35 84)
 		(property "Reference" "C3063"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -50098,7 +50101,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "b2fb89fb-cafc-4f7a-a4a0-1589f8cc55a4")
-		(at 75 82)
+		(at 75 80)
 		(property "Reference" "C3059"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -50386,6 +50389,277 @@
 			(uuid "55f52858-4b09-4c26-a535-bd50f1994396")
 		)
 		(model "../3d_models/cap_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:to92"
+		(layer "F.Cu")
+		(uuid "b4715694-c63a-4e38-8d65-ebc8feaa9387")
+		(at 119 66)
+		(property "Reference" "U8001"
+			(at 1.27 -3.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "06209e07-14aa-4d65-a19c-4974d76d50c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LM335"
+			(at 1.27 0.01 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62b12dbf-5c0a-4db4-ab6b-f088e4cb30bb")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:to92"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21d4d8b5-7918-44cd-bd4a-0e966abb1e00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "032b84ed-994b-4deb-b52e-dfcd92ab2c8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b2ead3f-8dc7-40e9-8f0c-e96487390ceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca4f67db-19be-42c3-b1ce-2bdd84c270b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "105eea06-5d14-4dcb-bbc6-4f57a0a46592")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8d79f94-d128-481c-a447-ebbb5cba053d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "LM335Z"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b010b2c-e007-4043-97ca-bb4eebe2a00e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1914-10005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f700d7ea-ca75-4ac1-8b66-90b0d03c8b16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C10629"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01d9eaf6-d3df-4707-a65a-1af269aa5e1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc3adb31-7617-40d8-9e87-16ae19340801")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/19bb89d4-4435-499d-abf8-0eaf7b787d71/2a868f37-cd0a-488f-be0f-d4cc51aa69ea")
+		(sheetname "IC Sensors")
+		(sheetfile "ic_sensors.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
+		(fp_circle
+			(center 0 1.2)
+			(end 0.1 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "239849b8-9b95-4801-a9d1-a9b46fac093d")
+		)
+		(fp_line
+			(start -0.88 1.8)
+			(end 3.42 1.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9a16464a-cc33-4825-8f5a-368876466745")
+		)
+		(fp_arc
+			(start -0.879999 1.799999)
+			(mid 1.27 -2.80544)
+			(end 3.419999 1.799999)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b21a5845-95fd-4cac-b7ff-46b73f24ec70")
+		)
+		(fp_line
+			(start -0.78 1.6)
+			(end 3.32 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2d974904-604e-48bb-aa70-115df560960e")
+		)
+		(fp_arc
+			(start -0.779999 1.6)
+			(mid 1.27 -2.60048)
+			(end 3.319999 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d7595e1-da54-4342-9e78-8f407780d83d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 0.01 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "53f247c3-f51b-47a2-97b1-ba11a19d6e70")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.05 1.3)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 513 "unconnected-(U8001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.12)
+			(uuid "c80d5d21-b6d2-4ab2-8e5d-1c1e977f9c6a")
+		)
+		(pad "2" thru_hole oval
+			(at 1.27 0)
+			(size 1.05 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 512 "unconnected-(U8001-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.12)
+			(uuid "9b0625e4-a6bc-4e61-b35f-d8981d30e93b")
+		)
+		(pad "3" thru_hole oval
+			(at 2.54 0)
+			(size 1.05 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 511 "unconnected-(U8001-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.12)
+			(uuid "7699c884-6baf-449f-96ff-071d0eea09d4")
+		)
+		(model "../3d_models/to92.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51306,7 +51580,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "bab4857d-4d4d-43da-b82c-9853cd67b92b")
-		(at 80 74)
+		(at 80 72)
 		(property "Reference" "C3036"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -52212,7 +52486,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "bd6b22f1-8084-4f46-baaa-ec1935246b4c")
-		(at 60 70)
+		(at 60 68)
 		(property "Reference" "C3020"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -53420,7 +53694,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "c009da6e-389c-47d2-bc32-aea568466ee9")
-		(at 55 78)
+		(at 55 76)
 		(property "Reference" "C3043"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -55836,7 +56110,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "c393f8c7-b126-4eb2-9978-7fbeecb27549")
-		(at 55 74)
+		(at 55 72)
 		(property "Reference" "C3031"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -56742,7 +57016,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "c7e512f0-a33a-4a4d-a630-f6874412ce80")
-		(at 25 82)
+		(at 25 80)
 		(property "Reference" "C3049"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -57950,7 +58224,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "cf30b6b3-9350-4e0c-902e-26104508b7d8")
-		(at 25 86)
+		(at 25 84)
 		(property "Reference" "C3061"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -61272,7 +61546,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "d4ebfa55-5f5c-4559-b2f9-8ca727289472")
-		(at 40 66)
+		(at 40 64)
 		(property "Reference" "C3004"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -62178,7 +62452,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "d9094bfe-460a-4f13-ac0e-6054cde575ea")
-		(at 50 70)
+		(at 50 68)
 		(property "Reference" "C3018"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -62782,7 +63056,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "daa9e09d-e6fd-4c1f-a6ea-59c45cb127eb")
-		(at 25 78)
+		(at 25 76)
 		(property "Reference" "C3037"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -63386,7 +63660,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ddb128b6-75cc-4921-93d1-9481d3cb1982")
-		(at 65 70)
+		(at 65 68)
 		(property "Reference" "C3021"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -63688,7 +63962,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "dee766e9-f742-4918-8c79-08dbcc61b2a5")
-		(at 65 74)
+		(at 65 72)
 		(property "Reference" "C3033"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -64594,7 +64868,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "e21252a1-314c-4b0d-a27e-6b7c113ec170")
-		(at 55 70)
+		(at 55 68)
 		(property "Reference" "C3019"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -65198,7 +65472,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "e46c8f8a-aebe-4b66-a2e4-bcf8ef98cc78")
-		(at 40 82)
+		(at 40 80)
 		(property "Reference" "C3052"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -66406,7 +66680,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "e8ffd755-4da8-4cda-845a-cf0a5a865844")
-		(at 35 78)
+		(at 35 76)
 		(property "Reference" "C3039"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -68520,7 +68794,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ec349734-c8db-4c7d-b37a-a22819b37439")
-		(at 35 74)
+		(at 35 72)
 		(property "Reference" "C3027"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -68822,7 +69096,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ed703c32-4943-4fd4-994e-c1db3de62575")
-		(at 70 66)
+		(at 70 64)
 		(property "Reference" "C3010"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -69124,7 +69398,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "ef2c57a2-986b-465a-a73c-fcab0d3e4b50")
-		(at 80 66)
+		(at 80 64)
 		(property "Reference" "C3012"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -69728,7 +70002,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "f0bdca8b-87fc-41cf-89fb-5e658d04c115")
-		(at 45 66)
+		(at 45 64)
 		(property "Reference" "C3005"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -70634,7 +70908,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "f17e5025-7860-4b0a-a36c-e6c67581f4c8")
-		(at 55 66)
+		(at 55 64)
 		(property "Reference" "C3007"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -71540,7 +71814,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "f285fe46-15e1-4346-b6a6-ea8decdb1c6f")
-		(at 70 82)
+		(at 70 80)
 		(property "Reference" "C3058"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -72446,7 +72720,7 @@
 	(footprint "lily_footprints:ind_0805"
 		(layer "F.Cu")
 		(uuid "f3d3ffbd-25d9-4f03-ba27-ea0839b15019")
-		(at 25 116)
+		(at 57 97)
 		(property "Reference" "L4001"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -72748,7 +73022,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "f43d3002-2f23-4393-b0e2-21bf4143ca07")
-		(at 25 70)
+		(at 25 68)
 		(property "Reference" "C3013"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -75164,7 +75438,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "fd24dc7c-7967-4357-a73b-a4f3c73b15df")
-		(at 40 78)
+		(at 40 76)
 		(property "Reference" "C3040"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -75466,7 +75740,7 @@
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "fd76b2f8-b799-4107-a333-99b2ee08bd20")
-		(at 70 70)
+		(at 70 68)
 		(property "Reference" "C3022"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -76672,8 +76946,8 @@
 		)
 	)
 	(gr_rect
-		(start 22 61)
-		(end 84 94)
+		(start 22 59)
+		(end 84 90)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76684,7 +76958,7 @@
 	)
 	(gr_rect
 		(start 22 22)
-		(end 144 59)
+		(end 144 57)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76694,8 +76968,8 @@
 		(uuid "30e3dc4c-2926-494b-9fb1-705a8427d26f")
 	)
 	(gr_rect
-		(start 86 76)
-		(end 144 89)
+		(start 54 102)
+		(end 84 112)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76705,8 +76979,19 @@
 		(uuid "4815a38e-71b7-4014-bb40-9ad0fd89e737")
 	)
 	(gr_rect
-		(start 86 61)
-		(end 144 74)
+		(start 116 59)
+		(end 144 72)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5959e758-56cc-4c53-974a-b7a6df3503d0")
+	)
+	(gr_rect
+		(start 22 102)
+		(end 52 112)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76716,8 +77001,8 @@
 		(uuid "93a58efa-0d46-483e-b9ec-570e9e5a9774")
 	)
 	(gr_rect
-		(start 22 111)
-		(end 84 119)
+		(start 54 92)
+		(end 84 100)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76727,8 +77012,8 @@
 		(uuid "b0b48170-389a-4d35-9dc4-1290250550a5")
 	)
 	(gr_rect
-		(start 22 96)
-		(end 84 109)
+		(start 22 92)
+		(end 52 100)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76738,8 +77023,8 @@
 		(uuid "d4272575-b2d0-47ee-95c1-7b001ff82b85")
 	)
 	(gr_rect
-		(start 86 91)
-		(end 144 119)
+		(start 86 59)
+		(end 114 72)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76750,7 +77035,7 @@
 	)
 	(gr_rect
 		(start 20 20)
-		(end 146 150)
+		(end 146 114)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -76760,7 +77045,7 @@
 		(uuid "631cd908-5db0-4cad-8a80-025deffd46e8")
 	)
 	(gr_text "CAPACITORS"
-		(at 22.5 98 0)
+		(at 22.5 94 0)
 		(layer "F.SilkS")
 		(uuid "36f8c84d-7575-4439-a5e3-1d82c5e9629e")
 		(effects
@@ -76772,7 +77057,7 @@
 		)
 	)
 	(gr_text "IC OPAMPS"
-		(at 86.5 93 0)
+		(at 86.5 61 0)
 		(layer "F.SilkS")
 		(uuid "37621751-1a54-49fb-b63c-88602aa0caf7")
 		(effects
@@ -76784,7 +77069,7 @@
 		)
 	)
 	(gr_text "DIODES"
-		(at 86.5 63 0)
+		(at 22.5 104 0)
 		(layer "F.SilkS")
 		(uuid "564a3bde-10fb-469f-a958-2ce435d99026")
 		(effects
@@ -76795,8 +77080,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "IC SENSORS"
+		(at 116.5 61 0)
+		(layer "F.SilkS")
+		(uuid "6677bc52-9485-4019-9572-0356fbc32568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CAPACITORS E-12 SERIES 0805"
-		(at 22.5 63 0)
+		(at 22.5 61 0)
 		(layer "F.SilkS")
 		(uuid "6c467fc1-4030-48b2-88c4-38475834c894")
 		(effects
@@ -76808,7 +77105,7 @@
 		)
 	)
 	(gr_text "INDUCTORS"
-		(at 22.5 113 0)
+		(at 54.5 94 0)
 		(layer "F.SilkS")
 		(uuid "9924da14-a79a-45cf-bfcd-6101fb414665")
 		(effects
@@ -76832,7 +77129,7 @@
 		)
 	)
 	(gr_text "TRANSISTORS"
-		(at 86.5 78 0)
+		(at 54.5 104 0)
 		(layer "F.SilkS")
 		(uuid "d9e36a2a-2330-4a9f-a26a-0e1066a0a75b")
 		(effects
