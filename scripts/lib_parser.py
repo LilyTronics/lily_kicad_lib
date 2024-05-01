@@ -51,7 +51,8 @@ class LibParser:
                                 symbol[property_name] = parts[1].strip().strip('"')
                     elif lines[i].startswith("\t)"):
                         break
-                    if property_name != "" and property_name not in fields:
+                    if (property_name != "" and property_name not in fields and
+                            property_name not in cls.SYMBOL_IGNORE_FIELDS):
                         fields.append(property_name)
                 symbols.append(symbol)
             i += 1
