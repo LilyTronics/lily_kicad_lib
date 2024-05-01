@@ -18,7 +18,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CAP"
+		(property "Value" "cap"
 			(at 3.175 -5.08 0)
 			(effects
 				(font
@@ -9480,7 +9480,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805_dnp"
-			(at 0 -15.24 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,15 +9508,6 @@
 		)
 		(property "Revision" "1"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,7 +9537,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_1206_dnp"
-			(at 0 -15.24 0)
+			(at 0 -12.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,15 +9565,6 @@
 		)
 		(property "Revision" "1"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +10034,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:ind_0805_dnp"
-			(at 3.81 -10.16 0)
+			(at 3.81 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,15 +10062,6 @@
 		)
 		(property "Revision" "1"
 			(at 3.81 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 3.81 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28988,7 +28961,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805_dnp"
-			(at 0 -15.24 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29016,15 +28989,6 @@
 		)
 		(property "Revision" "1"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
