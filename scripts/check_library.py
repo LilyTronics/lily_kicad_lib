@@ -2,98 +2,99 @@
 Checks the library and report the errors
 """
 
-import html
 import os
 
-from string import Template
-from datetime import datetime
+from lib_parser import LibParser
 
 
-def generate_report():
-    mandatory_properties = [
-        "Name",
-        "Extends",
-        "Reference",
-        "Value",
-        "Description",
-        "Datasheet",
-        "Footprint",
-        "Revision"
-    ]
-    ignore_fields = [
-        "ki_locked"
-    ]
-    script_path = os.path.dirname(__file__)
-    lib_filename = os.path.abspath(os.path.join(script_path, "..", "symbols", "lily_symbols.kicad_sym"))
-    template_filename = os.path.abspath(os.path.join(script_path, "templates", "report_template.html"))
-    output_filename = os.path.abspath(os.path.join(script_path, "..", "documents", "symbols_report.html"))
-    print("Library file :", lib_filename)
-    print("Template file:", template_filename)
-    print("Output file  :", output_filename)
+def _log_error(identifier, message):
+    print(f"{identifier}: {message}")
 
-    print("\nRead library")
-    with open(lib_filename, "r") as fp:
-        lines = fp.readlines()
-    print(f"Read: {len(lines)} lines")
 
-    print("\nParsing symbols")
-    symbols = []
-    property_names = []
-    i = 0
-    while i < len(lines):
-        symbol = {}
-        if lines[i].startswith("\t(symbol "):
-            symbol["Name"] = lines[i].strip()[8:].strip('"')
-            while i < len(lines):
-                i += 1
-                if lines[i].startswith("\t\t(extends "):
-                    symbol["Extends"] = lines[i].strip().strip(")")[9:].strip('"')
-                elif lines[i].startswith("\t\t(property "):
-                    parts = lines[i].strip()[10:].split('" "')
-                    if len(parts) == 2:
-                        property_name = parts[0].strip('"')
-                        if property_name not in ignore_fields:
-                            symbol[property_name] = parts[1].strip().strip('"')
-                            if property_name not in mandatory_properties and property_name not in property_names:
-                                property_names.append(property_name)
-                elif lines[i].startswith("\t)"):
-                    break
-            symbols.append(symbol)
-        i += 1
-    print(f"Found: {len(symbols)} symbols")
-    print(f"Extra properties: {property_names}")
+def _check_reference(symbol_data):
+    is_correct = False
+    if ((symbol_data["Name"] == "cap" or symbol_data["Name"].startswith("cap_")) and
+            symbol_data["Reference"] == "C"):
+        is_correct = True
+    if ((symbol_data["Name"] == "dio" or symbol_data["Name"].startswith("dio_")) and
+            symbol_data["Reference"] == "D"):
+        is_correct = True
+    if ((symbol_data["Name"] == "ic" or symbol_data["Name"].startswith("ic_")) and
+            symbol_data["Reference"] == "U"):
+        is_correct = True
+    if ((symbol_data["Name"] == "ind" or symbol_data["Name"].startswith("ind_")) and
+            symbol_data["Reference"] == "L"):
+        is_correct = True
+    if ((symbol_data["Name"] == "mosfet" or symbol_data["Name"].startswith("mosfet_")) and
+            symbol_data["Reference"] == "Q"):
+        is_correct = True
+    if ((symbol_data["Name"] == "res" or symbol_data["Name"].startswith("res_")) and
+            symbol_data["Reference"] == "R"):
+        is_correct = True
+    if not is_correct:
+        _log_error(symbol_data["Name"], "incorrect reference")
 
-    print("\nGenerate report")
-    generic_symbols_data = ""
-    parts_data = ""
-    for symbol in sorted(symbols, key=lambda x: x["Name"]):
-        symbol_data = "{ "
-        for property_name in mandatory_properties:
-            value = html.escape(symbol.get(property_name, ""))
-            symbol_data += f'{property_name}: "{value}", '
-        for property_name in property_names:
-            value = html.escape(symbol.get(property_name, ""))
-            symbol_data += f'{property_name}: "{value}", '
-        symbol_data = symbol_data[:-2] + " }"
-        if symbol.get("Extends", None) is None:
-            generic_symbols_data += f"    {symbol_data},\n"
+
+def _check_empty_field(symbol_data, field_name):
+    # Ignore fields that are allowed to be empty or have already been checked
+    if field_name not in ["Name", "Datasheet", "Description", "Reference", "Revision", "Notes", "Extends"]:
+        field_checked = False
+        is_empty = False
+        is_not_empty = False
+        if field_name == "Value":
+            field_checked = True
+            is_empty = symbol_data[field_name] == ""
+        elif field_name in ["Footprint", "Status", "Manufacturer", "Manufacturer_ID",
+                          "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]:
+            field_checked = True
+            if symbol_data["Extends"] == "" or (symbol_data["Value"] == "dnp" and field_name != "Footprint"):
+                # Generic symbols
+                is_not_empty = symbol_data[field_name] != ""
+            else:
+                # Parts
+                is_empty = symbol_data[field_name] == ""
+        if not field_checked:
+            _log_error(symbol_data["Name"], f"no is empty check for this field '{field_name}'")
+        if is_empty:
+            _log_error(symbol_data["Name"], f"field '{field_name}' is empty")
+        if is_not_empty:
+            _log_error(symbol_data["Name"], f"field '{field_name}' is not empty")
+
+
+def _check_footprint(symbol_data):
+    parts = symbol_data["Footprint"].split(":")
+    if len(parts) != 2:
+        _log_error(symbol_data["Name"], f"footprint invalid")
+    else:
+        if parts[0] != "lily_footprints":
+            _log_error(symbol_data["Name"], f"invalid footprint library")
         else:
-            parts_data += f"    {symbol_data},\n"
+            script_path = os.path.dirname(__file__)
+            footprint_file = os.path.abspath(
+                os.path.join(script_path, "..", f"{parts[0]}.pretty", f"{parts[1]}.kicad_mod"))
+            if not os.path.isfile(footprint_file):
+                _log_error(symbol_data["Name"], f"footprint does not exist")
 
-    with open(template_filename, "r") as fp:
-        template = Template(fp.read())
 
-    with open(output_filename, "w") as fp:
-        fp.write(template.substitute(
-            timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
-            total=len(symbols),
-            fields=str(mandatory_properties + property_names).replace("'", '"'),
-            generic_symbols_data=generic_symbols_data[:-2],
-            parts_data=parts_data[:-2]
-        ))
-    print("\nDone")
+def check_symbols():
+    symbols = LibParser.get_symbols()
+    for symbol in symbols:
+        try:
+            revision = int(symbol["Revision"])
+            if revision < 1:
+                _log_error(symbol["Name"], "the revision must be greater than zero")
+        except ValueError:
+            _log_error(symbol["Name"], "the revision must be numeric")
+        if symbol["Extends"] == "":
+            if symbol["Name"] != symbol["Value"]:
+                _log_error(symbol["Name"], "the value is not the same as the name")
+        _check_reference(symbol)
+        for field in symbol:
+            _check_empty_field(symbol, field)
+        if symbol["Footprint"] != "":
+            _check_footprint(symbol)
 
 
 if __name__ == "__main__":
 
-    generate_report()
+    check_symbols()
