@@ -55,6 +55,7 @@ const fields = ["Name", "Extends", "Reference", "Value", "Description", "Datashe
 
 const generic_symbols = [
     { Name: "cap", Extends: "", Reference: "C", Value: "cap", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "con_64p_a+c", Extends: "", Reference: "X", Value: "con_64p_a+c", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "dio_schottky", Extends: "", Reference: "D", Value: "dio_schottky", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "dio_tvs_uni_2_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_2_channel", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_comparator_dual", Extends: "", Reference: "U", Value: "ic_comparator_dual", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -141,6 +142,7 @@ const parts = [
     { Name: "cap_8p2_50V_5%_C0G_0805", Extends: "cap", Reference: "C", Value: "8p2", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_0805", Revision: "1", Status: "Active", Manufacturer: "Guangdong Fenghua Advanced Tech", Manufacturer_ID: "0805CG8R2C500NT", Lily_ID: "1912-38200", JLCPCB_ID: "C1840", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "cap_do_not_populate_0805", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_0805_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "cap_do_not_populate_1206", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_1206_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "con_din41612_receptacle_64p_a+c_straight_th", Extends: "con_64p_a+c", Reference: "X", Value: "con_din41612_receptacle_64p_a+c_straight_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_din41612_receptacle_64p_a+c_straight_th", Revision: "1", Status: "Active", Manufacturer: "Amphenol ICC", Manufacturer_ID: "86094648114755V1LF", Lily_ID: "1910-10005", JLCPCB_ID: "C599080", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "dio_schottky_SS14_do214ac_sma", Extends: "dio_schottky", Reference: "D", Value: "SS14", Description: "", Datasheet: "", Footprint: "lily_footprints:dio_do214ac_sma", Revision: "1", Status: "Active", Manufacturer: "Microdiode Electronics", Manufacturer_ID: "SS14", Lily_ID: "1911-10002", JLCPCB_ID: "C2480", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "dio_tvs_uni_2_channel_15V_sot23", Extends: "dio_tvs_uni_2_channel", Reference: "D", Value: "15V", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "ElecSuper", Manufacturer_ID: "PSOT12C-ES ", Lily_ID: "1911-10003", JLCPCB_ID: "C5180271", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_comparator_dual_LM393_soic8", Extends: "ic_comparator_dual", Reference: "U", Value: "LM393", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "onsemi", Manufacturer_ID: "LM393DR2G", Lily_ID: "1914-10007", JLCPCB_ID: "C7955", JLCPCB_STATUS: "Basic", Notes: "Extended: C67470, is much cheaper" },
@@ -381,8 +383,8 @@ function escapeHtml(unsafe) {
 <body>
 <h1>Lily KiCad library symbols</h1>
 <div class="section">
-<p>Last updated: 2024-05-03 08:15</p>
-<p>Total symbols: 262</p>
+<p>Last updated: 2024-05-03 17:55</p>
+<p>Total symbols: 264</p>
 </div>
 <div class="section">
 <p>The library contains generic symbols and parts (derived from generic symbols).</p>
