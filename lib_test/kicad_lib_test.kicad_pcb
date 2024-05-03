@@ -716,6 +716,10 @@
 	(net 583 "unconnected-(X10001-Pada6)")
 	(net 584 "unconnected-(X10001-Pada1)")
 	(net 585 "unconnected-(X10001-Pada13)")
+	(net 586 "unconnected-(X10002-Pad3)")
+	(net 587 "unconnected-(X10002-Pad1)")
+	(net 588 "unconnected-(X10002-Pad4)")
+	(net 589 "unconnected-(X10002-Pad2)")
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
@@ -52249,7 +52253,7 @@
 	(footprint "lily_footprints:con_din41612_receptacle_64p_a+c_straight_th"
 		(layer "F.Cu")
 		(uuid "b8e05ae7-9190-4a0f-b584-ffade011379b")
-		(at 151 36 -90)
+		(at 168 36 -90)
 		(property "Reference" "X10001"
 			(at -10 -2.5 0)
 			(unlocked yes)
@@ -64822,6 +64826,405 @@
 			(uuid "1cccd60c-1035-433f-ac6f-727a7fc0d45c")
 		)
 		(model "../3d_models/res_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:con_terminal_screw_1x04p_3.5mm_th"
+		(layer "F.Cu")
+		(uuid "da8406dd-7e38-4dcf-a680-5e5e75b87a83")
+		(at 149 31)
+		(property "Reference" "X10002"
+			(at 5.25 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ddb0dda6-18ea-472a-9870-a0ff8d713a5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "con_1x04p"
+			(at 5.25 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15895659-1821-4369-9a46-3e7431d8be3f")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:con_terminal_screw_1x04p_3.5mm_th"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d73c86ae-deaa-429e-936c-0d05141e8e2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "803334e1-2129-4724-8ffd-3f00b042767e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af153a83-e250-414b-8e19-72c785d08b44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "935429bd-b4e1-46b0-994d-d6685a5fb57f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab865b4e-6952-41a9-a5ad-0f27f8db9936")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "DORABO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7a82c6-8a16-4fa6-85b3-e3959ba371b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "DB125-3.5-4P-GN-S "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01190c7d-3d9e-423f-8257-979296efde6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1910-10007"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e10545e8-cc9e-4c90-9927-ba1e8cf308ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C2757925"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c98ef844-819f-41a5-bb3f-11d54555f58d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "698c7b57-1490-4ea5-917f-af7a82b51b95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e9fd7d9e-5683-413c-8ecf-1243d43cca04/f3370d06-ca12-4ec3-8b9d-616d0df8a547")
+		(sheetname "Connectors")
+		(sheetfile "connectors.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
+		(fp_rect
+			(start -1.95 -4.1)
+			(end 12.45 3.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "40023bad-8d55-4569-9a64-061b4bc13f39")
+		)
+		(fp_line
+			(start -1.75 -2)
+			(end 12.23 -2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "3382050f-23f2-475c-90cf-513202dff871")
+		)
+		(fp_line
+			(start -1.75 2)
+			(end 12.25 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "8721ed0d-37d1-4ceb-a7c1-70aa1a476144")
+		)
+		(fp_line
+			(start -1.1 0.7)
+			(end 0.7 -1.1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "2ddbe4ea-4d3c-46bc-8b2d-98423faa1534")
+		)
+		(fp_line
+			(start -0.7 1.1)
+			(end 1.1 -0.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "b7496f6d-4f07-4ec3-8b91-cde9d616a2f5")
+		)
+		(fp_line
+			(start 2.4 0.7)
+			(end 4.2 -1.1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "07fdd9df-75ca-4f09-8ae8-dde629d3ec7b")
+		)
+		(fp_line
+			(start 2.8 1.1)
+			(end 4.6 -0.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "0e9bbcfb-4b3d-47d7-a1c3-a7cdd2d6dc8f")
+		)
+		(fp_line
+			(start 5.9 0.7)
+			(end 7.7 -1.1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "f34e1948-c50e-446e-b7bd-6bea2eba6bbc")
+		)
+		(fp_line
+			(start 6.3 1.1)
+			(end 8.1 -0.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "0337d2a5-186a-40ef-9e55-b69f2dc957da")
+		)
+		(fp_line
+			(start 9.4 0.7)
+			(end 11.2 -1.1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "69545460-3d81-4731-87d6-ba0ccd81e4da")
+		)
+		(fp_line
+			(start 9.8 1.1)
+			(end 11.6 -0.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "aa5a63d3-047d-43fd-b184-a77288b696ed")
+		)
+		(fp_rect
+			(start -1.75 -3.9)
+			(end 12.25 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "4d277ea2-5427-42f2-924d-4235fda17244")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.4 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "2c7cfbb2-ba67-46bb-8a02-ab89f3437a42")
+		)
+		(fp_circle
+			(center 3.5 0)
+			(end 4.9 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "5484f9d9-d7da-4697-82ce-0640717577e4")
+		)
+		(fp_circle
+			(center 7 0)
+			(end 8.4 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "b6ef4916-29e5-4864-b35e-05fdc12a2a4b")
+		)
+		(fp_circle
+			(center 10.5 0)
+			(end 11.9 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "24c330ad-ae05-43eb-945c-0e11e52a4de6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.25 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1cba0214-3817-4ebf-b0b5-e64e68ce0e02")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 587 "unconnected-(X10002-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(uuid "409ae266-f601-4c47-bbb5-0ee26bcb78b3")
+		)
+		(pad "2" thru_hole circle
+			(at 3.5 0)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 589 "unconnected-(X10002-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(uuid "ecd9f04b-4e10-4e7e-bca9-1d485879e9ec")
+		)
+		(pad "3" thru_hole circle
+			(at 7 0)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 586 "unconnected-(X10002-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(uuid "13bbd6dd-bf74-4c4b-a388-340d311096f4")
+		)
+		(pad "4" thru_hole circle
+			(at 10.5 0)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 588 "unconnected-(X10002-Pad4)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(uuid "7c3e5aae-cd02-4515-9206-bb1cb114ec42")
+		)
+		(model "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -78760,7 +79163,7 @@
 	)
 	(gr_rect
 		(start 146 22.5)
-		(end 163 126)
+		(end 180 126)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78837,7 +79240,7 @@
 	)
 	(gr_rect
 		(start 20.5 20)
-		(end 165 128)
+		(end 182 128)
 		(stroke
 			(width 0.05)
 			(type default)

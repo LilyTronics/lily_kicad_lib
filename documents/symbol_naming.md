@@ -7,6 +7,7 @@ Space must be replaced with underscores.
 |---------------------|----------------------------------------------------------------|-----|
 | Capacitors E-series | cap capacity voltage tolerance type package                    | C   |
 | Connector DIN41612  | con din41612 plug/receptacle pins rows straight/right angle th | X   |
+| Connector terminal  | con terminal screw/screwless rows x pins per row pitch th      | X   |
 | Diode schottky      | dio schottky type_number package                               | D   |
 | Diode TVS           | dio tvs uni/bi channels voltage package                        | D   |
 | IC opamp single     | ic opamp single type_number package                            | U   |
