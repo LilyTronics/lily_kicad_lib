@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Lily KiCad Library test")
-		(date "2024-04-28")
+		(date "2024-05-03")
 		(rev "1")
 		(company "LilyTronics")
 	)
@@ -70,7 +70,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ic_opamp.kicad_sch"
+		(property "Sheetfile" "ic_opamps.kicad_sch"
 			(at 210.82 51.3846 0)
 			(effects
 				(font
@@ -201,6 +201,45 @@
 			(project "kicad_lib_test"
 				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 63.5)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fb25efd-ab18-4e2b-b4bf-295198142123")
+		(property "Sheetname" "IC Comparators"
+			(at 20.32 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ic_comparators.kicad_sch"
+			(at 20.32 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
+					(page "9")
 				)
 			)
 		)
