@@ -31,6 +31,9 @@ def _check_reference(symbol_data):
     if ((symbol_data["Name"] == "res" or symbol_data["Name"].startswith("res_")) and
             symbol_data["Reference"] == "R"):
         is_correct = True
+    if ((symbol_data["Name"] == "con" or symbol_data["Name"].startswith("con_")) and
+            symbol_data["Reference"] == "X"):
+        is_correct = True
     if not is_correct:
         _log_error(symbol_data["Name"], "incorrect reference")
 
