@@ -1,4 +1,4 @@
-(footprint "con_terminal_screw_4p_3.5mm_th"
+(footprint "con_terminal_screw_1x04p_3.5mm_th"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "con_terminal_screw_4p_3.5mm_th"
+	(property "Value" "con_terminal_screw_1x04p_3.5mm_th"
 		(at 5.25 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -284,7 +284,7 @@
 		(solder_mask_margin 0.1)
 		(uuid "fc4c95ed-4c57-4334-9ec9-106ec6a95cd2")
 	)
-	(model "../3d_models/con_terminal_screw_4p_3.5mm_th.stp"
+	(model "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp"
 		(offset
 			(xyz 0 0 0)
 		)
