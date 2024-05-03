@@ -284,6 +284,45 @@
 		)
 	)
 	(sheet
+		(at 58.42 63.5)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9fd7d9e-5683-413c-8ecf-1243d43cca04")
+		(property "Sheetname" "Connectors"
+			(at 58.42 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 58.42 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 134.62 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
