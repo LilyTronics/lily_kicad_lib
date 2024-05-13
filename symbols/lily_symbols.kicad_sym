@@ -144,7 +144,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "#PWR"
-			(at 0 -7.62 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 0 -5.08 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,7 +189,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -2.54 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,18 +198,6 @@
 			)
 		)
 		(symbol "GND_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 0) (xy 0 -1.27)
@@ -224,6 +212,17 @@
 			)
 		)
 		(symbol "GND_1_1"
+			(rectangle
+				(start -1.27 -1.27)
+				(end 1.27 -1.778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)

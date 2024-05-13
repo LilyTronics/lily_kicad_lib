@@ -7,7 +7,6 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "e7f220bc-c109-4b0a-a92c-91a4353cc42d")
 		(effects
 			(font
@@ -20,7 +19,6 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "72f19423-08ba-47bb-ae3e-8bb66f55b479")
 		(effects
 			(font
@@ -94,7 +92,6 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "1cceb167-0b25-4c84-a97d-34ab49f42e6f")
 		(effects
 			(font
@@ -106,7 +103,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 1.7 1.7)
+		(size 1.5 1.5)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

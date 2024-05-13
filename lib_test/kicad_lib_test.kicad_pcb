@@ -720,6 +720,8 @@
 	(net 587 "unconnected-(X10002-Pad1)")
 	(net 588 "unconnected-(X10002-Pad4)")
 	(net 589 "unconnected-(X10002-Pad2)")
+	(net 590 "unconnected-(TP11001-Pad1)")
+	(net 591 "unconnected-(TP11002-Pad1)")
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
@@ -12852,6 +12854,122 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:test_point_1.1mm_th"
+		(layer "F.Cu")
+		(uuid "2eeaea58-b040-4af5-84f4-f4f64347d8b4")
+		(at 91 65)
+		(property "Reference" "TP11001"
+			(at 0 -2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f86ff486-4cf6-451e-8b0e-0b302132e50b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1.1mm TH"
+			(at 0 2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "15d571c4-a640-41f0-b2e4-a07db33e2f48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:test_point_1.1mm_th"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a768798-4d6d-4d0d-94ec-5b86695fb577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7beb7557-7ed9-46be-b71d-154f01e15d74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef51a1ae-5412-4ddd-9fda-0521f38370bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d36e85bf-48de-47dc-a077-c60d4ae8d76b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/3220288b-4393-426d-b584-d6d66a3ce392/e0a8be32-dcaa-4046-85cb-f572febe5dcc")
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "c0551e8f-6a79-411b-b8a0-76798c0c5437")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "57b16911-b775-41c0-ad13-fd66050c05d7")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 590 "unconnected-(TP11001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(thermal_bridge_angle 90)
+			(uuid "cb865fe2-ac52-4fbf-9058-7da2200fbc60")
+		)
+	)
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "2fa0f5c9-ac1e-4654-b6bc-4c916b13f384")
@@ -21910,6 +22028,121 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "lily_footprints:test_point_1mm"
+		(layer "F.Cu")
+		(uuid "4ca3fd1e-4370-4212-8dd1-23d3221119d4")
+		(at 100 65)
+		(property "Reference" "TP11002"
+			(at 0 -2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fd6173f0-0438-4d1e-896c-7c9298d80de8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1mm SMD"
+			(at 0 2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2f433e98-a25d-444b-91b9-3e24769a3d9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:test_point_1mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16f92569-b194-41d5-9cfc-60166b688386")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebfa078d-dbae-4167-87e2-dfd6c68546a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1da290e-3381-46aa-a539-bb04390a2557")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "904cf743-96b4-4781-b5ae-f768a99833c8")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/3220288b-4393-426d-b584-d6d66a3ce392/0bae70a3-1ca1-4074-afa8-006c09e3d193")
+		(sheetname "Power and test points")
+		(sheetfile "power_test_points.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4417e07e-f98d-48aa-8518-48422bf929ab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "46d00235-6684-439f-9d0e-a3da60a44adb")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 591 "unconnected-(TP11002-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(uuid "575b55c2-008d-46b6-83a1-034c2b85297d")
 		)
 	)
 	(footprint "lily_footprints:res_0805"
@@ -37694,7 +37927,7 @@
 	(footprint "lily_footprints:soic8"
 		(layer "F.Cu")
 		(uuid "827d3e6e-ceba-44b8-bb21-5a6d6805adf3")
-		(at 90 67)
+		(at 90 97)
 		(property "Reference" "U7001"
 			(at 0 -4.5 0)
 			(unlocked yes)
@@ -79217,6 +79450,17 @@
 		(uuid "b0b48170-389a-4d35-9dc4-1290250550a5")
 	)
 	(gr_rect
+		(start 86 59)
+		(end 114 72)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bcbfa8c3-b6c1-4f19-a452-9df79ae7116d")
+	)
+	(gr_rect
 		(start 22 92)
 		(end 52 100)
 		(stroke
@@ -79228,8 +79472,8 @@
 		(uuid "d4272575-b2d0-47ee-95c1-7b001ff82b85")
 	)
 	(gr_rect
-		(start 86 59)
-		(end 114 72)
+		(start 86 89)
+		(end 114 102)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -79262,9 +79506,21 @@
 		)
 	)
 	(gr_text "IC OPAMPS"
-		(at 86.5 61 0)
+		(at 86.5 91 0)
 		(layer "F.SilkS")
 		(uuid "37621751-1a54-49fb-b63c-88602aa0caf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TEST POINTS"
+		(at 86.5 61 0)
+		(layer "F.SilkS")
+		(uuid "42551b14-9c58-492e-b896-7bde1e8af7fa")
 		(effects
 			(font
 				(size 1 1)
