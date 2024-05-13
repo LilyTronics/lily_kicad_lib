@@ -2,6 +2,7 @@
 Parsing the library and returns the symbols/footprints.
 """
 
+import glob
 import os
 
 
@@ -25,11 +26,9 @@ class LibParser:
     def get_symbols(cls):
         script_path = os.path.dirname(__file__)
         lib_filename = os.path.abspath(os.path.join(script_path, "..", "symbols", "lily_symbols.kicad_sym"))
-        print(f"\nRead library: {lib_filename}")
+        print(f"\nRead symbols library: {lib_filename}")
         with open(lib_filename, "r") as fp:
             lines = fp.readlines()
-        print(f"Read: {len(lines)} lines")
-        print("Parsing symbols")
         symbols = []
         i = 0
         fields = []
@@ -61,9 +60,72 @@ class LibParser:
             for field in fields:
                 if field not in symbol:
                     symbol[field] = ""
-        print(f"Found: {len(symbols)} symbols")
-        print()
         return symbols
+
+    @classmethod
+    def get_footprints(cls):
+        script_path = os.path.dirname(__file__)
+        lib_path = os.path.abspath(os.path.join(script_path, "..", "lily_footprints.pretty"))
+        print(f"\nRead footprints library: {lib_path}")
+        footprints = []
+        fields = []
+        for item in glob.glob(os.path.join(lib_path, "*.kicad_mod")):
+            with open(item, "r") as fp:
+                lines = fp.readlines()
+            i = 0
+            footprint = {}
+            while i < len(lines):
+                property_name = ""
+                value = ""
+                property_data = {
+                    "Value": "",
+                    "Layer": "",
+                    "Size": "",
+                    "Thickness": ""
+                }
+                if lines[i].startswith("(footprint "):
+                    property_name = "Name"
+                    value = lines[i].strip()[11:].strip('"')
+                elif lines[i].startswith("\t(attr "):
+                    property_name = "Attributes"
+                    value = lines[i].strip().strip(")")[6:].split(" ")
+                elif lines[i].startswith("\t(model "):
+                    property_name = "Model"
+                    value = lines[i].strip()[8:].strip('"')
+                elif lines[i].startswith("\t(property "):
+                    parts = lines[i].strip()[10:].split('" "')
+                    if len(parts) == 2:
+                        property_name = parts[0].strip('"')
+                        property_data["Value"] = parts[1].strip().strip('"')
+                elif lines[i].startswith('\t(fp_text user "${REFERENCE}"'):
+                    property_name = "Reference_F.Fab"
+                    property_data["Value"] = "${REFERENCE}"
+                # Get extra properties
+                if property_data["Value"] != "":
+                    while i < len(lines):
+                        if lines[i].startswith("\t)"):
+                            break
+                        if lines[i].startswith("\t\t(layer "):
+                            property_data["Layer"] = lines[i].strip().strip(")")[7:].strip('"')
+                        elif lines[i].startswith("\t\t\t\t(size "):
+                            property_data["Size"] = lines[i].strip().strip(")")[6:].strip('"')
+                        elif lines[i].startswith("\t\t\t\t(thickness "):
+                            property_data["Thickness"] = lines[i].strip().strip(")")[11:].strip('"')
+                        i += 1
+                    value = property_data
+                # Add property if we found any
+                if property_name != "":
+                    footprint[property_name] = value
+                    if property_name not in fields:
+                        fields.append(property_name)
+                i += 1
+            footprints.append(footprint)
+        # Make sure all footprints have the same fields
+        for footprint in footprints:
+            for field in fields:
+                if field not in footprint:
+                    footprint[field] = ""
+        return footprints
 
 
 if __name__ == "__main__":
@@ -74,3 +136,10 @@ if __name__ == "__main__":
         print("Showing max 10 symbols:")
         for _symbol in _symbols[:10]:
             print(_symbol)
+
+    _footprints = LibParser.get_footprints()
+    print("\nFootprints:", len(_footprints))
+    if len(_footprints) > 0:
+        print("Showing max 10 footprints:")
+        for _footprint in _footprints[:10]:
+            print(_footprint)
