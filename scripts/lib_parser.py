@@ -81,7 +81,8 @@ class LibParser:
                     "Value": "",
                     "Layer": "",
                     "Size": "",
-                    "Thickness": ""
+                    "Thickness": "",
+                    "Visible": True
                 }
                 if lines[i].startswith("(footprint "):
                     property_name = "Name"
@@ -105,7 +106,9 @@ class LibParser:
                     while i < len(lines):
                         if lines[i].startswith("\t)"):
                             break
-                        if lines[i].startswith("\t\t(layer "):
+                        if lines[i].startswith("\t\t(hide yes)"):
+                            property_data["Visible"] = False
+                        elif lines[i].startswith("\t\t(layer "):
                             property_data["Layer"] = lines[i].strip().strip(")")[7:].strip('"')
                         elif lines[i].startswith("\t\t\t\t(size "):
                             property_data["Size"] = lines[i].strip().strip(")")[6:].strip('"')
