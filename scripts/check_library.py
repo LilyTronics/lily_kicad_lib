@@ -34,6 +34,11 @@ def _check_reference(symbol_data):
     if ((symbol_data["Name"] == "con" or symbol_data["Name"].startswith("con_")) and
             symbol_data["Reference"] == "X"):
         is_correct = True
+    if symbol_data["Name"] in ["GND", "Earth", "GNDA"] and symbol_data["Reference"] == "#PWR":
+        is_correct = True
+    if ((symbol_data["Name"] == "test_point" or symbol_data["Name"].startswith("test_point_")) and
+            symbol_data["Reference"] == "TP"):
+        is_correct = True
     if not is_correct:
         _log_error(symbol_data["Name"], "incorrect reference")
 
@@ -48,9 +53,11 @@ def _check_empty_field(symbol_data, field_name):
             field_checked = True
             is_empty = symbol_data[field_name] == ""
         elif field_name in ["Footprint", "Status", "Manufacturer", "Manufacturer_ID",
-                          "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]:
+                            "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]:
             field_checked = True
-            if symbol_data["Extends"] == "" or (symbol_data["Value"] == "dnp" and field_name != "Footprint"):
+            if (symbol_data["Extends"] == "" or
+                    (symbol_data["Value"] == "dnp" and field_name != "Footprint") or
+                    (symbol_data["Name"].startswith("test_point_") and field_name != "Footprint")):
                 # Generic symbols
                 is_not_empty = symbol_data[field_name] != ""
             else:
