@@ -22,8 +22,8 @@
 		(uuid "01cf837f-d505-4e21-b44e-adc22c01db06")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -66,11 +66,12 @@
 	(property "Revision" "1"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "F.Fab")
+		(hide yes)
 		(uuid "c8422e5b-44e1-4ece-8fec-c1a9fd45afa6")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 		)
@@ -94,8 +95,8 @@
 		(uuid "e9ec400c-9883-4370-b412-b39b51fc2530")
 		(effects
 			(font
-				(size 0.4 0.4)
-				(thickness 0.06)
+				(size 0.5 0.5)
+				(thickness 0.1)
 			)
 		)
 	)
