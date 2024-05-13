@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "dio_do214_sma"
+	(property "Value" "dio_do214ac_sma"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -61,6 +61,19 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Revision" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "078301f8-d4d1-49c0-bc6f-68fe481cd8e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

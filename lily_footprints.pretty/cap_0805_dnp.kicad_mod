@@ -62,6 +62,32 @@
 			)
 		)
 	)
+	(property "Revision" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1950a53d-5da9-459d-b57e-3cd11e2dcb18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Revision" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "020a68bc-3f79-4182-afd5-31e4fb5b13ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp)
 	(fp_line
 		(start -1.6 -0.85)

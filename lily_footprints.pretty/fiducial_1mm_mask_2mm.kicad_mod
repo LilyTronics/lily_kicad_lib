@@ -63,6 +63,18 @@
 			)
 		)
 	)
+	(property "Revision" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8422e5b-44e1-4ece-8fec-c1a9fd45afa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd board_only exclude_from_bom dnp)
 	(fp_circle
 		(center 0 0)
