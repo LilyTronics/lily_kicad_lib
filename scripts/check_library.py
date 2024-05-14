@@ -244,6 +244,22 @@ def _check_footprint_attributes(footprint_data):
             _log_error(footprint_data["Name"], f"attribute {expected_attributes[attribute][1]} should be enabled")
 
 
+def _check_3d_model(footprint_data):
+    expect_3d_model = (
+        not footprint_data["Name"].endswith("_dnp") and
+        not footprint_data["Name"].startswith("fiducial_") and
+        not footprint_data["Name"].startswith("logo_") and
+        not footprint_data["Name"].startswith("mec_") and
+        not footprint_data["Name"].startswith("test_point_")
+    )
+    if expect_3d_model and footprint_data["Model"] == "":
+        _log_error(footprint_data["Name"], f"no 3D model defined")
+    if not expect_3d_model and footprint_data["Model"] != "":
+        _log_error(footprint_data["Name"], f"3D model should not be defined")
+    if footprint_data["Model"] != "" and not os.path.isfile(footprint_data["Model"]):
+        _log_error(footprint_data["Name"], f"3D model file does not exists")
+
+
 def check_footprints():
     footprints = LibParser.get_footprints()
     print(f"Checking {len(footprints)} footprints")
@@ -266,6 +282,7 @@ def check_footprints():
             _log_error(footprint["Name"], "the reference value must be 'REF**'")
 
         _check_footprint_attributes(footprint)
+        _check_3d_model(footprint)
 
 
 if __name__ == "__main__":

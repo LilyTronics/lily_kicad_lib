@@ -124,15 +124,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "ind_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "ind_bead_600R@100MHz_1A5_0R25_0805_0_1"
 				(polyline
 					(pts
@@ -234,7 +225,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:ind_0805_dnp"
-				(at 3.81 -10.16 0)
+				(at 3.81 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -262,24 +253,6 @@
 			)
 			(property "Revision" "1"
 				(at 3.81 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 3.81 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "ind_*"
-				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -419,15 +392,6 @@
 		)
 		(property "Revision" "1"
 			(at 54.61 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 54.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

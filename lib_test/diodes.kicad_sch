@@ -125,15 +125,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "dio_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "dio_schottky_SS14_do214ac_sma_0_1"
 				(polyline
 					(pts
@@ -353,15 +344,6 @@
 			)
 			(property "JLCPCB_STATUS" "Extended"
 				(at 2.54 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "dio_* sot*"
-				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
