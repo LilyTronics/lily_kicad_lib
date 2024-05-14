@@ -75,7 +75,7 @@
 			)
 		)
 	)
-	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp)
+	(attr smd exclude_from_pos_files exclude_from_bom dnp)
 	(fp_line
 		(start -1.6 -0.85)
 		(end 1.6 -0.85)
