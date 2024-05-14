@@ -2,17 +2,9 @@
 
 This is a free to use KiCad library.
 
-Compatible KiCad version: 8
+Compatible KiCad version: 8 (and higher)
 
 More than 200 parts.
-
-## Latest updates
-
-* 20240422:
-  * Standard capacitor E12 0805 series, 1p0 up to 820n, C0G/X7R
-  * Inductor bead 600R@100MHz 1.5A 0.25R
-* 20240421:
-  * Standard resistor E24 0805 series, 1R0 up to 9M1, 1%, 125mW
 
 Additional information:
 
@@ -23,16 +15,16 @@ Additional information:
 
 ## Setup
 
-The library is set up as follows:
+The repo is set up as follows:
 
 ```
 lily_kicad_lib/
-  |- 3d_models
-  |- documents
-  |- lib_test
-  |- lily_footprints.pretty
-  |- scripts
-  |- symbols
+  |- 3d_models                 # 3D models for the footprints
+  |- documents                 # documentation (reports, naming conventions)
+  |- lib_test                  # KiCad project for testing library symbols and footprints
+  |- lily_footprints.pretty    # footprint library
+  |- scripts                   # script for generating reports, checking the library
+  |- symbols                   # symbols library
 ```
 
 ### 3D models
@@ -41,29 +33,27 @@ The 3D models are taken from three sources:
 
 * KiCad 3D models
 * Manufacturer 3D models
-* Self created 3D models
+* Self created 3D models (design is included in the repo)
 
 ### Footprints
 
 Footprints are created using the specifications of the manufacturers.
 All footprints have a 3D model attached.
+All footprints have the following extra attributes:
+
+* Revision: numeric value for the revision of the footprint.
 
 ### Symbols
 
-All symbols are self created to ensure consistency.
 All symbols have the following extra attributes:
 
 * Revision: numeric value for the revision of the symbol.
-* Status: Active, End of life, Obsolete
+* Status: Active or Obsolete
 * Manufacturer: manufacturer name (original, alternatives are not added)
 * Manufacturer_ID: manufacturer part ID (original, alternatives are not added)
 * Lily_ID: part ID for the ERP system used in LilyTronics.
 * JLCPCB_ID: part ID used by JLCPCB.
 * JLCPCB_STATUS: Basic, Extended preferred, Extended
-
-### Lib test
-
-KiCad project for evaluating new symbols, footprints and 3D symbols.
 
 ## Usage
 
@@ -73,12 +63,12 @@ There are two ways you can use the KiCad libraries:
 * As a global library
 
 Which one you choose is depending on your preferred way of working. See the KiCad documentation on how to add libraries.
-If your KiCad project is also in a git repository, you can clone this library as a sub module in your poject.
-See the Git documentatoion on how to add sub modules to your projects.
+If your KiCad project is also in a git repository, you can clone this library as a sub module in your git poject.
+See the Git documentation on how to add sub modules to your projects.
 
 ## Disclamer
 
-It is provided as is, without any support.
+This library is provided as is, without any support.
 We do not take any liability for damages when using this library.
 
 (c) LilyTronics (https://lilytronics.nl)
