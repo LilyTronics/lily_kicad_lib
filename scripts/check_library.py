@@ -204,8 +204,6 @@ def _check_footprint_field_properties(footprint_data, field_name):
 
 
 def _check_footprint_attributes(footprint_data):
-    #print(footprint_data["Name"], footprint_data["Attributes"])
-
     # Default we expect no attributes to be enabled
     expected_attributes = {
         "board_only": [False, "not in schematic"],
