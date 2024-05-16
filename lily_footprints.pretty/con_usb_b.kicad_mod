@@ -1,0 +1,181 @@
+(footprint "con_usb_b"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1 -1.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "938350f6-824b-40e6-baac-f0d8093e2d91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "con_usb_b"
+		(at -1 -1.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be77d48b-703f-4c48-8934-7ecb76f23729")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d38590a-2892-40e1-a315-f851a9a08857")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88f7021b-a8e8-497e-ada3-768e63012522")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "215635bf-b019-4c71-bd8d-5f1637a6f3ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Revision" "1"
+		(at -1 -1.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebcfd04e-b2e2-4d3e-a021-194af55b7c17")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_rect
+		(start -15 -9)
+		(end 1.7 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fc8ed2f1-7d03-4036-9dc0-266b7a233f5e")
+	)
+	(fp_rect
+		(start -14.99 -7.27)
+		(end 1.51 4.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "be6b31ef-9166-421a-a19b-27e460691ef6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1 -1.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f2898da-4f18-4610-a9df-8c43a0359f45")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "043ccfcd-a96b-4a8e-81ff-8b61bbc4b8e6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "32d63818-a611-49e2-b1d0-4161e62cfe0b")
+	)
+	(pad "3" thru_hole circle
+		(at -2 -2.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "26b66fbc-819e-4e4b-8641-d3b2bb7adf37")
+	)
+	(pad "4" thru_hole circle
+		(at -2 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "08d845db-98e0-490e-a286-bf1194bef420")
+	)
+	(pad "5" thru_hole circle
+		(at -4.71 4.77)
+		(size 3 3)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "cdf5557e-582f-4e3b-87f8-4e03de5b6a70")
+	)
+	(pad "6" thru_hole circle
+		(at -4.71 -7.27)
+		(size 3 3)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "c9ea4519-df8a-40f6-8c96-8021c5dee2a7")
+	)
+	(model "../3d_models/con_usb_b.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
