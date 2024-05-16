@@ -35,5 +35,5 @@ jobs:
       run: |
         git config user.email "danny@lilytronics.nl"
         git config user.name "Danny"
-        git commit -am "Updated report"
+        git commit -am "updated report"
         git push
