@@ -188,7 +188,6 @@ def _check_footprint_field_properties(footprint_data, field_name):
                 if footprint_data[field_name]["Layer"] != property_to_checks[field_name][0]:
                     _log_error(footprint_data["Name"],
                                f"field '{field_name}' should be on layer {property_to_checks[field_name][0]}")
-                    print(footprint_data)
                 # Size
                 if footprint_data[field_name]["Size"] != property_to_checks[field_name][1]:
                     _log_error(footprint_data["Name"],
@@ -200,7 +199,6 @@ def _check_footprint_field_properties(footprint_data, field_name):
 
             if False in field_checked:
                 _log_error(footprint_data["Name"], f"not all checks implemented for this field '{field_name}'")
-                print(footprint_data["Name"], field_name, footprint_data[field_name])
 
 
 def _check_footprint_attributes(footprint_data):
