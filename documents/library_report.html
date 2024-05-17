@@ -353,22 +353,39 @@ const footprints = [
     { Name: "con_header_1x08_2.54mm_th", Revision: "1", Model: "../3d_models/con_header_1x08_2.54mm_th.step" },
     { Name: "con_header_1x10_2.54mm_th", Revision: "1", Model: "../3d_models/con_header_1x10_2.54mm_th.step" },
     { Name: "con_header_2x03_2.54mm_th_idc_area", Revision: "1", Model: "../3d_models/con_header_2x03_2.54mm_th.step" },
+    { Name: "con_header_2x08_2.54mm", Revision: "1", Model: "../3d_models/con_header_2x08_2.54mm_th.step" },
     { Name: "con_terminal_screw_1x04p_3.5mm_th", Revision: "1", Model: "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp" },
+    { Name: "con_usb_a_plug", Revision: "1", Model: "../3d_models/con_usb_a_plug_480372100.stp" },
     { Name: "con_usb_b", Revision: "1", Model: "../3d_models/con_usb_b.step" },
+    { Name: "con_usb_micro_b", Revision: "1", Model: "../3d_models/con_usb_micro_b.step" },
     { Name: "crystal_3225", Revision: "1", Model: "../3d_models/crystal_3225.step" },
+    { Name: "crystal_hc49s", Revision: "1", Model: "../3d_models/crystal_hc49s.step" },
     { Name: "dio_do214aa_smb", Revision: "1", Model: "../3d_models/dio_do214aa_smb.step" },
     { Name: "dio_do214ac_sma", Revision: "1", Model: "../3d_models/dio_do214ac_sma.step" },
     { Name: "dio_sod323", Revision: "1", Model: "../3d_models/dio_sod323.step" },
+    { Name: "dip20_7.62mm", Revision: "1", Model: "../3d_models/dip20_7.62mm.step" },
     { Name: "fiducial_1mm_mask_2mm", Revision: "1", Model: "" },
     { Name: "ind_0805", Revision: "1", Model: "../3d_models/ind_0805.step" },
     { Name: "ind_0805_dnp", Revision: "1", Model: "" },
+    { Name: "ind_5x5mm", Revision: "1", Model: "../3d_models/ind_5x5mm_h2mm.step" },
     { Name: "ind_common_mode_acm90v", Revision: "1", Model: "../3d_models/ind_acm90v.step" },
+    { Name: "led_0805", Revision: "1", Model: "../3d_models/led_0805.step" },
+    { Name: "led_3mm_green_edge_mount", Revision: "1", Model: "../3d_models/led_3mm_green_edge_mount.step" },
+    { Name: "led_3mm_red_edge_mount", Revision: "1", Model: "../3d_models/led_3mm_red_edge_mount.step" },
     { Name: "logo_lilytronics", Revision: "1", Model: "" },
     { Name: "mec_hole_lily_system_backplane", Revision: "1", Model: "" },
+    { Name: "mec_hole_m3_npth", Revision: "1", Model: "" },
+    { Name: "mec_hole_m3_pth", Revision: "1", Model: "" },
+    { Name: "mec_lily_system_front_panel_7hp", Revision: "1", Model: "../3d_models/mec_front_panel_7hp_with_accessories.step" },
+    { Name: "mec_mouse_bytes", Revision: "1", Model: "" },
+    { Name: "mec_pcb_mouting_bracket", Revision: "1", Model: "../3d_models/mec_pcb_mounting_bracket_with_screw.step" },
+    { Name: "oscillator_smd_5.0x3.2_mm", Revision: "1", Model: "../3d_models/oscillator_smd_5.0X3.2_mm.step" },
     { Name: "pot_3313j", Revision: "1", Model: "../3d_models/pot_bourns_3313j.step" },
     { Name: "res_0805", Revision: "1", Model: "../3d_models/res_0805.step" },
     { Name: "res_0805_dnp", Revision: "1", Model: "" },
+    { Name: "res_1206", Revision: "1", Model: "../3d_models/res_1206.step" },
     { Name: "res_2512", Revision: "1", Model: "../3d_models/res_2512.step" },
+    { Name: "soic14", Revision: "1", Model: "../3d_models/soic14.step" },
     { Name: "soic8", Revision: "1", Model: "../3d_models/soic8.step" },
     { Name: "sot1220", Revision: "1", Model: "../3d_models/sot1220.step" },
     { Name: "sot223", Revision: "1", Model: "../3d_models/sot223.step" },
@@ -379,7 +396,9 @@ const footprints = [
     { Name: "test_point_1.1mm_th", Revision: "1", Model: "" },
     { Name: "test_point_1mm", Revision: "1", Model: "" },
     { Name: "to92", Revision: "1", Model: "../3d_models/to92.step" },
-    { Name: "tqfp32_pitch0.8_7x7mm", Revision: "1", Model: "../3d_models/tqfp32_pitch0.8_7x7mm.step" }
+    { Name: "tqfp32_pitch0.8_7x7mm", Revision: "1", Model: "../3d_models/tqfp32_pitch0.8_7x7mm.step" },
+    { Name: "tssop16_pitch0.65_5.0x4.4_mm", Revision: "1", Model: "../3d_models/tssop16_pitch0.65_5.0x4.4_mm.step" },
+    { Name: "tssop20_pitch0.65_6.5x4.4_mm", Revision: "1", Model: "../3d_models/tssop20_pitch0.65_6.5x4.4_mm.step" }
 ];
 
 function showData(e) {
@@ -444,9 +463,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2024-05-17 07:39</p>
+<p>Last updated: 2024-05-17 20:21</p>
 <p>Total symbols: 276</p>
-<p>Total footprints: 42</p>
+<p>Total footprints: 61</p>
 </div>
 
 <div class="section">
