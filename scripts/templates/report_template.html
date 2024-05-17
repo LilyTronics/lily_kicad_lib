@@ -47,11 +47,13 @@ input {
 }
 .section {
     margin: 32px 0px 32px;
+    padding-top: 8px;
 }
 </style>
 <script>
 
-const fields = $fields;
+const symbol_fields = $symbol_fields;
+const footprint_fields = $footprint_fields;
 
 const generic_symbols = [
 $generic_symbols_data
@@ -61,21 +63,26 @@ const parts = [
 $parts_data
 ];
 
+const footprints = [
+$footprints_data
+];
+
 function showData(e) {
     let query = "";
     if (e) {
         query = e.target.value;
     }
-    document.getElementById("generic_symbol_table").innerHTML = generateTable(generic_symbols, query);
-    document.getElementById("parts_table").innerHTML = generateTable(parts, query);
+    document.getElementById("generic_symbol_table").innerHTML = generateTable(generic_symbols, query, symbol_fields);
+    document.getElementById("parts_table").innerHTML = generateTable(parts, query, symbol_fields);
+    document.getElementById("footprints_table").innerHTML = generateTable(footprints, query, footprint_fields);
 }
 
-function generateTable(symbols, query) {
+function generateTable(symbols, query, field_names) {
     let output = "<table>\n";
     // Create header
     output += "<tr>";
     output += "<th>#</th>";
-    for (const field of fields) {
+    for (const field of field_names) {
         output += "<th>" + escapeHtml(field) + "</th>";
     }
     output += "</tr>\n";
@@ -85,7 +92,7 @@ function generateTable(symbols, query) {
         let add_symbol = true;
         if (query != "") {
             add_symbol = false;
-            for (const field of fields) {
+            for (const field of field_names) {
                 if (symbol[field].toLowerCase().includes(query.toLowerCase())) {
                     add_symbol = true;
                     break;
@@ -96,14 +103,14 @@ function generateTable(symbols, query) {
             i++;
             output += "<tr>";
             output += "<td>" + i + "</td>";
-            for (const field of fields) {
+            for (const field of field_names) {
                 output += "<td>" + escapeHtml(symbol[field]) + "</td>";
             }
             output += "</tr>\n";
         }
     }
     output += "</table>\n";
-    output = "<p>Total symbols: " + i + "</p>\n" + output;
+    output = "<p>Total items: " + i + "</p>\n" + output;
     return output;
 }
 
@@ -116,31 +123,52 @@ function escapeHtml(unsafe) {
         .replace(/'/g, "&#039;");
 }
 
+const index_section = `<p><a href="#generic-symbols">Generic symbols</a> |
+<a href="#parts">Parts</a> |
+<a href="#footprints">Footprints</a> |
+<a href="#top">Top</a>
+</p>`;
+
 </script>
 </head>
 <body>
-<h1>Lily KiCad library symbols</h1>
+<h1 id="top">Lily KiCad library</h1>
+
 <div class="section">
 <p>Last updated: $timestamp</p>
-<p>Total symbols: $total</p>
+<p>Total symbols: $total_symbols</p>
+<p>Total footprints: $total_footprints</p>
 </div>
+
 <div class="section">
 <p>The library contains generic symbols and parts (derived from generic symbols).</p>
 <p>It is preferred to use parts as much as possible.<p>
 <p>Generic symbols can be used if no part is available, but all properties must be added and
 a footprint must be connected manually in the schematics.</p>
 </div>
+
 <div class="section">
 <p>Filter: <input type="text" id="query" style="width:300px;"/></p>
 </div>
-<div class="section">
+
+<div id="generic-symbols" class="section">
+<script>document.write(index_section);</script>
 <h2>Generic symbols</h2>
 <div id="generic_symbol_table"></div>
 </div>
-<div class="section">
+
+<div id="parts" class="section">
+<script>document.write(index_section);</script>
 <h2>Parts</h2>
 <div id="parts_table"></div>
 </div>
+
+<div id="footprints" class="section">
+<script>document.write(index_section);</script>
+<h2>Footprints</h2>
+<div id="footprints_table"></div>
+</div>
+
 <script>
 showData();
 const input = document.getElementById("query");
