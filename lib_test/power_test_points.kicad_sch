@@ -766,7 +766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c46c1002-4f26-4639-bca9-f9be0b369e5a")
-		(property "Reference" "#PWR11002"
+		(property "Reference" "#PWR011002"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -826,7 +826,7 @@
 		(instances
 			(project "kicad_lib_test"
 				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/3220288b-4393-426d-b584-d6d66a3ce392"
-					(reference "#PWR11002")
+					(reference "#PWR011002")
 					(unit 1)
 				)
 			)

@@ -722,6 +722,12 @@
 	(net 589 "unconnected-(X10002-Pad2)")
 	(net 590 "unconnected-(TP11001-Pad1)")
 	(net 591 "unconnected-(TP11002-Pad1)")
+	(net 592 "unconnected-(C3076-Pad2)")
+	(net 593 "unconnected-(C3076-Pad1)")
+	(net 594 "unconnected-(C3077-Pad1)")
+	(net 595 "unconnected-(C3077-Pad2)")
+	(net 596 "unconnected-(D5003-Pad1)")
+	(net 597 "unconnected-(D5003-Pad2)")
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
@@ -877,6 +883,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2f567a21-c31f-4d28-afa7-fcb2229f164d")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -1176,6 +1184,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2535fea7-e970-403f-8141-317d875de5e6")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -1475,6 +1485,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/410f5590-e939-48c4-9362-8c8acf06a9a6")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -1774,6 +1786,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/75c1f490-4b26-4f8b-91fd-f70d4b2c489a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -2073,6 +2087,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/59963c6c-db27-4fe1-a7d5-329ca036f268")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -2372,6 +2388,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7eee1bee-2150-4acc-9180-b3e8d69161da")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -2606,7 +2624,9 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7e7c8c97-db1f-47e0-9843-eef2a33cb23e")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -2894,6 +2914,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/367d05fe-facf-4027-95fa-c66bb6def4ea")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -3193,6 +3215,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3de34bfd-d873-4455-8a6c-15e758b2c7b5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -3492,6 +3516,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3c8ff45b-0ff7-417e-a15b-8fe08765c18d")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -3791,6 +3817,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/44bb0ebd-f14b-4765-bb29-5a2d9eb29eec")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -4090,6 +4118,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a27c92c4-1c7a-44b2-a6f3-2fd8bc430f92")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -4389,6 +4419,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a9464315-f412-48f5-b0a8-68806a4ad04c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -4536,7 +4568,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "0d44f8db-5e06-405d-a80f-55c3d5354909")
-		(at 25 109)
+		(at 25 110)
 		(property "Reference" "D5001"
 			(at 0 -3 0)
 			(layer "F.SilkS")
@@ -4688,6 +4720,8 @@
 			)
 		)
 		(path "/f8e61c5d-b401-4177-96aa-be2ecb8375a7/a4e2f523-26a9-4d2c-a21e-2835609ff522")
+		(sheetname "Diodes")
+		(sheetfile "diodes.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.1 -1.8)
@@ -5089,6 +5123,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/f5987de2-4726-4b09-ae0c-efa8abcd56c0")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -5388,6 +5424,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/58e1a7e5-6f23-449c-b83d-43d0439adb7a")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -5687,6 +5725,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/9243d20d-0b87-4fc5-a417-c9eb759be020")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -5999,6 +6039,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/f332591e-a3be-4a8b-96d8-541936870daf")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -6298,6 +6340,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/cf822bab-91b5-4583-958f-51e0cdefeeb7")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -6597,6 +6641,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/9c6f9038-8254-4d72-a976-b5ccc6bfb497")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -6896,6 +6942,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/265a2b15-aaa7-4449-8cdc-8a72c4ca1459")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -7195,6 +7243,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2d143665-8cf3-4a61-9e26-ced66a341431")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -7494,6 +7544,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/1ecd8182-3c3e-4f81-8081-ad5aa93fe5d4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -7793,6 +7845,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2bedcc28-2ef7-4fa7-be54-5e82d201d2da")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -8092,6 +8146,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/26304eb6-a995-4db1-a589-6a7df0fb5a45")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -8391,6 +8447,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/4e516d23-45a3-4f9f-8dbf-b5d27e70b81f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -8690,6 +8748,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a62f706f-dc11-4618-a6b8-c8de597a15c0")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -8989,6 +9049,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3f326a7a-2abd-485a-9794-5f04a2c3da57")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -9288,6 +9350,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/41623fe5-e156-4cf5-8f47-8983fb52f205")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -9587,6 +9651,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/431eb918-9b92-446f-a8e8-7f4b7a176b64")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -9886,6 +9952,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8ea13329-7de2-4fe6-8940-02896fea9219")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -10185,6 +10253,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/ea39504a-e8a6-4071-b89d-a26bffd0c2d6")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -10484,6 +10554,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/5d886dd1-2371-49fe-9b93-0cf9234b95c7")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -10783,6 +10855,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/58a2d7e8-2b66-44dd-a8eb-08fecc4ddbfb")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -11082,6 +11156,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/6c77d15a-c691-4c7b-9b58-4de7a80f4f1a")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -11381,6 +11457,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b6ed5fbf-8f52-49f4-a905-69f5d3b2394a")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -11680,6 +11758,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/52083941-b031-43a8-bca8-8e40edd31bb5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -11979,6 +12059,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a7cb8ca7-09cb-43da-adc8-94ded99b8755")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -12278,6 +12360,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/03d504d8-5d72-4c46-a61b-5b35027d2c83")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -12590,6 +12674,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/38c96454-7920-4f76-bacb-ee611d76c133")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -12812,6 +12898,8 @@
 			)
 		)
 		(path "/3220288b-4393-426d-b584-d6d66a3ce392/e0a8be32-dcaa-4046-85cb-f572febe5dcc")
+		(sheetname "Power and test points")
+		(sheetfile "power_test_points.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -13005,6 +13093,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/bdeedea8-c063-4b18-b4ed-66662563ee37")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -13304,6 +13394,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e2f3d420-a505-4a8a-be5b-7eda5f85c54b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -13603,6 +13695,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7d15b45c-8fcb-4449-87d4-ab07e2bb05ad")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -13902,6 +13996,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/de9bd84e-7cd4-4101-84f0-7cb5744ae750")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -14201,6 +14297,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e6bc17c3-c1c1-45ff-a0aa-016cabce4342")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -14500,6 +14598,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/31b5ad21-af7d-476a-bb5c-9a2d0066a3c2")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -14799,6 +14899,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/dbcf9da7-4951-45cf-9199-4fadaae3e578")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -15098,6 +15200,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d869b1b5-af6c-4ef3-9d5e-1dc8a78f07ee")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -15397,6 +15501,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ecb46099-c01b-4704-8b0a-07f7f50ad543")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -15696,6 +15802,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8360c34b-47d4-4581-80b5-a107734fa008")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -15995,6 +16103,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/912ca461-48a7-414f-8e7a-45dd101576a3")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -16294,6 +16404,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/18072d11-c26b-4290-9448-a4de3105d17a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -16593,6 +16705,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/9c2dec6e-f393-4268-b7a8-6c9449479a71")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -16892,6 +17006,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d937b049-ef8e-4449-9f26-5a744e75cfa8")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -17191,6 +17307,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b6e0a32d-40e3-4797-b804-a401860dd168")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -17490,6 +17608,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/7083c16e-b606-4d83-b5c2-35a9b8f9d3b3")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -17789,6 +17909,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/ed409f47-509e-4ef9-a63a-d5daddae6e5a")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -18088,6 +18210,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b962377a-4fb0-4bdf-9724-c10e482a0585")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -18387,6 +18511,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/c3d79a18-fe82-4bf5-8cc4-c9107a394a48")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -18686,6 +18812,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d666bab8-fc1a-4153-a2bb-5a7da0bd245b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -18985,6 +19113,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/0f7467ce-9f9a-4349-b350-e1b77550726e")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -19284,6 +19414,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6b73d0a6-c23e-4c4a-a044-68f560d6d533")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -19583,6 +19715,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/58106293-9e43-4a77-9376-d91bfeb0fa3f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -19882,6 +20016,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/acae150d-b1ad-47f7-96f1-31b02d0f8db5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -20181,6 +20317,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a293f222-8236-4c09-a4c6-44bb17987841")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -20480,6 +20618,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8a320085-6b60-4d5b-b7d6-f7bb985be2c3")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -20779,6 +20919,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/18cfe73c-f07b-4484-9059-b8fd8ce932e2")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -21078,6 +21220,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/349cad1c-e2ac-449a-80d2-0f98ffeecba2")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -21377,6 +21521,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/73793f02-4dc1-4999-b3a2-e9c740d1cdff")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -21676,6 +21822,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/128f7214-57c8-4acf-8c4a-47d0e1de5d4c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -21898,6 +22046,8 @@
 			)
 		)
 		(path "/3220288b-4393-426d-b584-d6d66a3ce392/0bae70a3-1ca1-4074-afa8-006c09e3d193")
+		(sheetname "Power and test points")
+		(sheetfile "power_test_points.kicad_sch")
 		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -22088,6 +22238,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/f86c9a42-f581-4022-8ac0-922e85cd8b20")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -22387,6 +22539,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6a47b55a-5422-4d73-a09f-bad1d87dd471")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -22686,6 +22840,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8cd7c184-c2c8-403e-a50e-131e0ce73af8")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -22985,6 +23141,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/4444e584-d7cc-45f5-bd24-8e43dbc6407f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -23284,6 +23442,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/92870d39-df02-4854-9021-57e2edaf8561")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -23583,6 +23743,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/baa81e07-7b11-4a64-aef0-caa3e3e004a4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -23882,6 +24044,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/460ae35b-3279-4995-b29d-2410413491e0")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -24181,6 +24345,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a3655952-3269-482a-8ffa-6b1628cb5d75")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -24480,6 +24646,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/1a63611f-0989-4392-9c25-f9af5ea21831")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -24779,6 +24947,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/89fba09c-f071-4a45-b7da-094528accc93")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -25078,6 +25248,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a4b36d8b-9677-48c1-9df4-3a556b5cf0ea")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -25377,6 +25549,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/08dacc68-648c-4d24-818a-1a8a35ba6969")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -25676,6 +25850,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b316f5d6-324d-4673-a567-9030f3169903")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -25823,7 +25999,7 @@
 	(footprint "lily_footprints:dio_do214ac_sma"
 		(layer "F.Cu")
 		(uuid "5a6b1ed2-7528-41f5-b539-82f57aad4b5f")
-		(at 32 109)
+		(at 32 110)
 		(property "Reference" "D5002"
 			(at 0 -2.5 0)
 			(unlocked yes)
@@ -25977,6 +26153,8 @@
 			)
 		)
 		(path "/f8e61c5d-b401-4177-96aa-be2ecb8375a7/9b8fc85a-44e5-4323-a716-0dffb0780730")
+		(sheetname "Diodes")
+		(sheetfile "diodes.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -3.8 0)
@@ -26282,6 +26460,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d87fb890-e909-499d-a1db-126108bc6374")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -26596,6 +26776,8 @@
 			)
 		)
 		(path "/9fb25efd-ab18-4e2b-b4bf-295198142123/8b7c7875-2c5f-442c-8914-fee567a7157e")
+		(sheetname "IC Comparators")
+		(sheetfile "ic_comparators.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.7 2.5)
@@ -27176,6 +27358,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/4739568c-86fe-4c55-85d5-7598be153222")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -27475,6 +27659,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d7df0acc-0bab-432a-934c-e61c6bba16f0")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -27774,6 +27960,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7e289695-d44b-4055-8bbb-879de86b24d9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -27907,6 +28095,307 @@
 			(uuid "692afe1d-83eb-4a42-8ae3-cdf23b75ef46")
 		)
 		(model "../3d_models/res_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:cap_1210"
+		(layer "F.Cu")
+		(uuid "5e1ef4e4-5016-43d1-a8cd-28d3a9778eaa")
+		(at 37 98.5)
+		(property "Reference" "C3076"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "e9889c72-1cbb-4ad3-bf03-264d41dac4dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80c27ee0-576a-4098-82cf-deb1e32fb715")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_1210"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "487c16fd-5733-4ea2-af01-c64ac8d0b13e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e5550d4-8a39-4ce6-bcf5-b106c82515e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf2e6063-ded0-448d-8295-2649278517ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d72b7d7-25a7-4239-93eb-e8841634e7d5")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d96e500-cc43-414f-a97d-b180224a5c17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samwha Capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17de3b5a-9386-463d-9f8a-036ce87311c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CS3225X7R226K250NRL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8593560f-9986-4b03-a9fe-084592ddff10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1912-42207"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba75f3f8-e300-4714-bc98-9af99abb20dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C2918511"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "526b398e-ab14-4a77-a10f-894650554350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04bad5a0-8773-47b0-bd9c-6fe35eb61e29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/93a21fdd-7ef2-47b4-b39a-7b0a89a662b5")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.2 -1.6)
+			(end 2.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cf790668-487c-41f3-a3b7-42836655ce60")
+		)
+		(fp_line
+			(start -2.2 1.6)
+			(end -2.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3597577b-7825-4627-a229-5447d77c0d6e")
+		)
+		(fp_line
+			(start 2.2 -1.6)
+			(end 2.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "23c882a9-021c-4ddf-80b3-5aea8ff9a397")
+		)
+		(fp_line
+			(start 2.2 1.6)
+			(end -2.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9d0a8aa-49b1-4fae-858c-61404355d490")
+		)
+		(fp_line
+			(start -1.6 -1.25)
+			(end 1.6 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b9a6bbe6-52e4-4ff2-a8ee-ac3f6e68d5a3")
+		)
+		(fp_line
+			(start -1.6 1.25)
+			(end -1.6 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "90b2be46-6869-4cd8-8932-7aaa7b515ffe")
+		)
+		(fp_line
+			(start -1.2 -1.25)
+			(end -1.2 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f880209a-0792-498f-ae9e-0ef6561d0574")
+		)
+		(fp_line
+			(start 1.2 -1.25)
+			(end 1.2 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "388771fd-b009-4376-858b-2f7dae66dad1")
+		)
+		(fp_line
+			(start 1.6 -1.25)
+			(end 1.6 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d97b86dc-aa04-4d75-91e9-0b5c0cc3450e")
+		)
+		(fp_line
+			(start 1.6 1.25)
+			(end -1.6 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "45252217-64a4-4394-8bfb-49575b1f421d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b9167582-7dd7-4a10-9073-bf4535938a56")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.55 0)
+			(size 0.9 2.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 593 "unconnected-(C3076-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "8a15617d-5c12-4de3-843d-1c81e216c370")
+		)
+		(pad "2" smd rect
+			(at 1.55 0)
+			(size 0.9 2.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 592 "unconnected-(C3076-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "3501abbf-743a-4e17-bfd6-ab246cb32693")
+		)
+		(model "../3d_models/cap_1210.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28073,6 +28562,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/d35baaf8-cc2d-46ce-b0c8-0f98b0095a2c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -28372,6 +28863,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/834f08c2-738e-43a4-adcb-97bf454f830e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -28671,6 +29164,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3d703930-691b-44e3-a52b-24182402ce3e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -28970,6 +29465,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/5159e034-b040-45a6-b82a-ad3960f2886d")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -29269,6 +29766,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/e42d1751-dbaa-4ecf-95e0-a1107a7491c8")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -29568,6 +30067,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/21bfac28-98a3-42ab-81c6-faf6393d6b84")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -29867,6 +30368,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/1da83ada-6a5f-4e96-9545-f406ea18d031")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -30101,7 +30604,9 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b33d2f3d-6aaf-45b7-8198-c598742dfe1c")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -2.2 -1.05)
 			(end 2.2 -1.05)
@@ -30389,6 +30894,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d5f70cbd-1ec0-4dc7-86e5-9aee21d9ee0c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -30688,6 +31195,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/0dc28867-d5d6-414c-9054-aef385afbb94")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -30987,6 +31496,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/54a7e379-de23-476e-9593-5fa9b8f18164")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -31286,6 +31797,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7d996fc6-9038-42d1-9d69-2caadce00d00")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -31585,6 +32098,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/10ac70dd-3cab-4fa4-adf6-5bcaf2917e16")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -31884,6 +32399,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/e873473e-807f-4032-9af8-69960e1fa66c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -32183,6 +32700,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/4b3c9f95-491b-4bc0-8096-8c3ec46eff9c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -32482,6 +33001,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/422435e4-028f-41d3-8f88-e5c5509fdb51")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -32781,6 +33302,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/55e0ed87-9a57-4891-aff3-8e345f942005")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -33080,6 +33603,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/f6b32e59-508a-4d98-b2c7-9b63b7e24c87")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -33379,6 +33904,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/7756d4d0-8b4d-4ffe-8bf3-5bfe57bbd6db")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -33678,6 +34205,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/88752599-97fd-4cd1-8584-bb7cc454ff62")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -33977,6 +34506,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2d6b2de5-527a-47ea-a0f0-eba8833163e2")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.2 -1.05)
@@ -34276,6 +34807,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/d5e4cec0-1c9f-48fc-b0df-dc53c0debebb")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -34575,6 +35108,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/24d3e5d6-9d2c-435b-8077-b46506ad8842")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -34874,6 +35409,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8cc6bd89-89eb-40c4-9529-d05f6d6b967c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -35108,7 +35645,9 @@
 			)
 		)
 		(path "/ac804940-04be-4885-b738-67220611f5f6/bb53850e-02e3-4c9f-bcb7-18e19c7ccec0")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(sheetname "Inductors")
+		(sheetfile "inductors.kicad_sch")
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -35396,6 +35935,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7ff571d7-23df-4bc2-8ebf-cd5cb6a8ecc9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -35695,6 +36236,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/0bc16803-c255-474d-8089-42120b525f45")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -35929,7 +36472,9 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/0c7ec874-4dc1-4b9a-acf5-4f254eb9cfe9")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -36217,6 +36762,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ca33f60e-5232-4c90-a249-21e05274b20a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -36516,6 +37063,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/32f83e41-4a2b-4aaf-9067-bec9fda76764")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -36815,6 +37364,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/5a4153dc-b420-474c-a7ae-b253a14f5f47")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -37114,6 +37665,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2799d592-b8b8-4942-bfed-69dd07304a8e")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -37413,6 +37966,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a2effc60-7b27-45db-8d72-421bda3fc485")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -37714,6 +38269,8 @@
 			)
 		)
 		(path "/26f45545-bf59-44cc-9d79-27838866cd23/c6842388-6063-4abe-acb1-18cccca7b01c")
+		(sheetname "IC Opamps")
+		(sheetfile "ic_opamps.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.7 2.5)
@@ -38294,6 +38851,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/15ea8cf5-3ec0-44bc-841a-839fba5740b4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -38593,6 +39152,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a056039f-6e6d-4ded-bc33-9d61ced6a9e2")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -38892,6 +39453,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/76db80ad-66c1-4ac0-bfbf-8ef2c8c8b3d8")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -39191,6 +39754,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b2425b1d-c26c-401c-a3f1-e41b4665f6f6")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -39490,6 +40055,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5a646a7e-2aa9-43b0-be3c-062555e1a857")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -39789,6 +40356,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/79b24846-2a3c-4d53-a2b6-cc30b521afd4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -40088,6 +40657,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/787d8f5e-084e-4569-bf5d-ac2716b73b52")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -40387,6 +40958,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/526a4b01-0743-4874-bffc-d9ee391569f7")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -40686,6 +41259,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3611b092-bea9-47cf-a2d7-08927eadd1ee")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -40985,6 +41560,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/680d2228-cc31-47a0-9a10-30d0e306d753")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -41284,6 +41861,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/349c6cf9-24e7-4b78-8e9e-510a769a999e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -41583,6 +42162,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/61345c31-c738-4a2a-a012-15607378f5cf")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -41882,6 +42463,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/f3a08f4f-c5df-46ef-b995-5d1edc04cb06")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -42181,6 +42764,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/581a382c-5ad8-4ef6-b2ca-f7f929196087")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -42480,6 +43065,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/1e98519a-9021-4041-80ba-1997ca5cf8e2")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -42779,6 +43366,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/62cf2b4a-4595-459e-93a6-0231dc3c24b6")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -42926,7 +43515,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "9a379b71-4553-4b6f-a46e-3e6b5264a12e")
-		(at 57 109)
+		(at 57 110)
 		(property "Reference" "Q6001"
 			(at 0 -3 0)
 			(layer "F.SilkS")
@@ -43078,6 +43667,8 @@
 			)
 		)
 		(path "/510e0627-29ea-444b-9808-b352b324c010/135c98c4-6a87-4d2f-a9be-1313a5ed7543")
+		(sheetname "Transistors")
+		(sheetfile "transistors.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.1 -1.8)
@@ -43479,6 +44070,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/28f2b4cb-e5fa-466c-b86a-76a88b84c78f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -43778,6 +44371,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/84ddf959-2e5e-42dc-8bcd-18231ea59b36")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -44077,6 +44672,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d19504b6-6e23-4b47-a63a-6b723c5af943")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -44376,6 +44973,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ac494535-2b8e-482e-b360-8f03b9370e5b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -44675,6 +45274,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/be8f350a-2d45-4bd6-ab26-753e305c5c9c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -44974,6 +45575,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8acdd921-b69b-4ccb-a7e8-b6a47654503c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -45273,6 +45876,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/cab993e5-da33-47d5-a4fb-d130b483dcd5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -45585,6 +46190,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/aaa2e055-14dd-4041-90a6-3069b47c373d")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -45884,6 +46491,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e529c74a-f555-4f05-9a09-bcfa7d2b5de3")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -46183,6 +46792,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/58d61d2f-27f6-4420-95e1-bcf988387886")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -46482,6 +47093,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/207fde0a-9e72-4e25-8f6d-f69eb72a27c6")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -46781,6 +47394,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/669d9be6-6983-4ff9-91c7-6f2d4b434734")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -47080,6 +47695,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/43e256a6-fbf9-4dbd-84fe-1a59aede94df")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -47379,6 +47996,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/21653eba-e7a5-4a7a-ad03-7d18fa6fb7ee")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -47678,6 +48297,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ad2dafad-98c7-4c62-bc8d-05da54a7397d")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -47977,6 +48598,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/ecce35ae-81db-4622-9430-a0f1e997f757")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -48276,6 +48899,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5e35ccb1-fa5e-475b-8ffb-e69b9878681c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -48575,6 +49200,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/cf6b6260-6c26-4860-b404-caa0131690ab")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -48874,6 +49501,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/594ac4d8-cd00-40cd-ab65-b4aae990c727")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -49173,6 +49802,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8c8a7c2f-2274-4d1d-b6cd-89263c483f21")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -49472,6 +50103,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e180e8e6-867d-447f-9e91-72e0fcccb700")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -49771,6 +50404,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e28951a3-fc5c-4be6-91e0-7647e4820573")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -50070,6 +50705,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ae4aca53-e402-40eb-aaf9-e44640802053")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -50369,6 +51006,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/da2a46c6-de3e-4942-b6d2-4f167d6aa79f")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -50668,6 +51307,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/77e66562-3104-4a32-bf46-e6c70f5627f4")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -50969,6 +51610,8 @@
 			)
 		)
 		(path "/19bb89d4-4435-499d-abf8-0eaf7b787d71/2a868f37-cd0a-488f-be0f-d4cc51aa69ea")
+		(sheetname "IC Sensors")
+		(sheetfile "ic_sensors.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_circle
 			(center 0 1.2)
@@ -51236,6 +51879,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3ec3475e-859c-4921-8e93-2b4e991e17dd")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -51535,6 +52180,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a19ba494-4df1-4039-9ebc-0c5dadda0288")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -51834,6 +52481,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6ea87c81-f0f6-402e-9f62-7ac0d0043f0d")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -52135,6 +52784,8 @@
 			)
 		)
 		(path "/e9fd7d9e-5683-413c-8ecf-1243d43cca04/13093c11-00b9-4b81-a65e-249449e99137")
+		(sheetname "Connectors")
+		(sheetfile "connectors.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_rect
 			(start -9.13 3.76)
@@ -53242,6 +53893,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b9aff6ad-287b-4518-9f5e-620c9a859a63")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -53541,6 +54194,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6ec1c0ee-a6d1-4ff2-9781-e69dd704cc16")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -53840,6 +54495,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3d99aad7-4727-4519-ac56-7a066ba1eba9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -53982,6 +54639,218 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "lily_footprints:cap_1210_dnp"
+		(layer "F.Cu")
+		(uuid "bca7fb54-6ba8-4960-92af-34da5cabc177")
+		(at 43 98.5)
+		(property "Reference" "C3077"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "c129f7a6-8c0b-4128-99f4-b333a060960e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "dnp"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e42e7cf0-24b3-4dfd-9dbe-c930b06439e9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_1210_dnp"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55ee1296-ac93-4d64-b29f-2c02e2a59fd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdbf61aa-0929-4bb2-822e-f95f2789d41c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fca6123-04c7-44bc-9f99-c3b7ecc88b14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12f09137-c4dc-43c9-93e4-60a0afd883ad")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/3f5fad95-9583-41a4-890e-cde26b4e1f0e")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
+		(attr smd exclude_from_pos_files)
+		(fp_line
+			(start -2.2 -1.6)
+			(end 2.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "834cbfb9-6391-49d5-9763-a350deef68ae")
+		)
+		(fp_line
+			(start -2.2 1.6)
+			(end -2.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "03e1a426-72f2-4518-879b-f09807e4832d")
+		)
+		(fp_line
+			(start 2.2 -1.6)
+			(end 2.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e96a82fe-7251-4a67-98ab-582d04614092")
+		)
+		(fp_line
+			(start 2.2 1.6)
+			(end -2.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "da396c98-2e43-4a20-bcb2-7e9db6042a20")
+		)
+		(fp_line
+			(start -1.6 -1.25)
+			(end 1.6 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ea25f697-81a2-45b2-8ebf-d57b584d1c62")
+		)
+		(fp_line
+			(start -1.6 1.25)
+			(end -1.6 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dbf9d6fb-fa35-4f5a-bc5e-d1a42bbfa874")
+		)
+		(fp_line
+			(start -1.2 -1.25)
+			(end -1.2 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c21eb413-1698-4c23-8b89-9237c35a8e96")
+		)
+		(fp_line
+			(start 1.2 -1.25)
+			(end 1.2 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20e5f6cc-e171-4003-aa9c-964926c38470")
+		)
+		(fp_line
+			(start 1.6 -1.25)
+			(end 1.6 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f1ec5d14-b6db-4e2e-bf96-d3d7acb348eb")
+		)
+		(fp_line
+			(start 1.6 1.25)
+			(end -1.6 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1b541cf0-6fb0-4171-8255-d53515b98bdd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "980a5fcb-610f-4da4-95fb-38603b8cc39a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.55 0)
+			(size 0.9 2.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 594 "unconnected-(C3077-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "c9e81112-fb51-44e6-8de2-177276f7b7ce")
+		)
+		(pad "2" smd rect
+			(at 1.55 0)
+			(size 0.9 2.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 595 "unconnected-(C3077-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "e5b6a004-b055-4a4a-abed-88fff636d381")
 		)
 	)
 	(footprint "lily_footprints:cap_0805"
@@ -54139,6 +55008,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b4051052-7771-4ec0-a66b-2002d76eb4ca")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -54438,6 +55309,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/296cdd4a-0531-4d2a-9452-9b78cfcb8e65")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -54737,6 +55610,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/049d6e20-d782-4bca-8ae1-e98966a24dd9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -55036,6 +55911,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a19fbed8-714c-476a-acb1-53ee9b6e53e4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -55335,6 +56212,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8fefd489-2371-4a88-8189-8eafc584b317")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -55634,6 +56513,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/e564b0d8-a860-46ae-bf94-51824aba9701")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -55933,6 +56814,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/96672228-c698-47e8-9124-e118db28d9d3")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -56232,6 +57115,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/04f48254-e8b1-401f-92f8-e9c6d89f341a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -56531,6 +57416,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2d920c9b-4d11-4286-bbf3-2d6b725d5b48")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -56830,6 +57717,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d2fae660-d841-426b-bf2a-14b9ffbe8202")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -57129,6 +58018,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/61c82ad6-e645-4251-9b09-9581365e5300")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -57428,6 +58319,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/cd75c416-3a23-4a3c-8ffa-2870c3897005")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -57727,6 +58620,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/e9b66cd9-e509-411f-b435-5a18b83cb6c9")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -58026,6 +58921,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/84a68a3c-f280-451f-bcd9-a5acf4cf2f30")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -58325,6 +59222,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/fe529e51-9c27-4be6-989f-94d1ac574196")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -58624,6 +59523,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/03ba85bf-4af9-4005-a577-d5cf06fbecab")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -58923,6 +59824,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a723ce9b-ef67-478e-9475-e83334309a37")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -59222,6 +60125,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5f2dc17d-79b5-4daf-a8b4-a593a0ab3ba5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -59521,6 +60426,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2ebe1f3c-d75e-4c10-a15b-0a6fd6287db4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -59654,6 +60561,315 @@
 			(uuid "256381be-1763-46c4-80f2-cc11a2f1395d")
 		)
 		(model "../3d_models/res_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:dio_do214aa_smb"
+		(layer "F.Cu")
+		(uuid "ce568384-15db-4fdc-b444-571193ca66f3")
+		(at 40 110.5)
+		(property "Reference" "D5003"
+			(at 0 -3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "79d78e8b-3fd1-4c0b-bdf5-6ed87e8022eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "15V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "091fe1a2-0c45-4f31-ac22-0113ad24d7f5")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:dio_do214aa_smb"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb2b8b4f-01a1-433c-a588-c7f88606c0ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76b54a83-f896-4d1f-bf92-c279f24c45e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f5065e8-1658-49ee-ab10-7123b03c20f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9331da7-f22b-469f-904f-c9efb5912c4b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ef13ce4-6028-4446-b0bb-bfdc4afe3332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hongjiacheng"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd2afcfc-7548-4843-9fab-a83147310029")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "SMBJ15CA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad7c05dc-29ee-4320-9e2b-5fefc4627c0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1911-10004"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78e1396d-4938-474c-9816-c8c15918fd59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C19077570"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f863e3a5-582f-4cde-9158-741ddb50a0b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended preferred"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e648bb0-3d33-40f5-a2bc-b90819d6dffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f8e61c5d-b401-4177-96aa-be2ecb8375a7/be69e5af-1510-4ff3-9910-36e426c5bbcb")
+		(sheetname "Diodes")
+		(sheetfile "diodes.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center -3.8 0)
+			(end -3.7 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "72c1eaaf-fead-40cf-a05b-ff9a465515be")
+		)
+		(fp_rect
+			(start -3.5 -2.2)
+			(end 3.5 2.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4b28d836-c36b-4af6-ba2a-0943bf3942ac")
+		)
+		(fp_line
+			(start -2.8 -0.85)
+			(end -2.8 0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2e8e1fb-66b2-4820-bd42-efaa3396fb61")
+		)
+		(fp_line
+			(start -2.8 0.85)
+			(end -2.4 0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c209b6a-5d9b-46f7-be25-f50ab5d4616b")
+		)
+		(fp_line
+			(start -2.4 -0.85)
+			(end -2.8 -0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6c93c4d-4dff-466e-9ea1-d090d071c1a8")
+		)
+		(fp_line
+			(start 2.4 0.85)
+			(end 2.8 0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8dce3817-0487-4421-b074-77fa086704f2")
+		)
+		(fp_line
+			(start 2.8 -0.85)
+			(end 2.4 -0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "58afaacf-fed3-490a-b602-af4e475a9837")
+		)
+		(fp_line
+			(start 2.8 0.85)
+			(end 2.8 -0.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36683d1c-7dff-4d07-a44d-ead8335041e2")
+		)
+		(fp_rect
+			(start -2.4 -2)
+			(end 2.4 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "f0ccdb39-be1d-4921-b333-809ebbf520dd")
+		)
+		(fp_rect
+			(start -1.9 -2)
+			(end -1.4 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Fab")
+			(uuid "80a4e181-f658-4c4f-beeb-def913da235a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "393ecd66-7d70-42d0-ae8f-2287e495f9bf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.1 0)
+			(size 2.4 2.4)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 596 "unconnected-(D5003-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "923a96cd-77e2-44b9-b822-43c9884cd96f")
+		)
+		(pad "2" smd rect
+			(at 2.1 0)
+			(size 2.4 2.4)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 597 "unconnected-(D5003-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "c866a235-5510-448a-af81-c1fc74dce801")
+		)
+		(model "../3d_models/dio_do214aa_smb.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59820,6 +61036,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/a41f5ee9-9d61-4a5c-8ef1-484d1d0856be")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -60119,6 +61337,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2581e1b6-db70-4c02-b065-c0ebea02c600")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -60418,6 +61638,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ce6d35b5-838a-44a6-93e8-642fa1fb4757")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -60717,6 +61939,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/c5f8bf2d-6e5a-423d-b56b-a49efb782cb2")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -61016,6 +62240,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/9a5f609d-5502-48d2-859d-578c8129ca19")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -61315,6 +62541,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a96c6c07-d7f2-483e-8202-5f43a5a60310")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -61614,6 +62842,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/6721fbbc-83e1-4b3c-b01b-ca4ff66bf740")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -61913,6 +63143,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b64220c8-1e5a-4528-b6f6-d317d788b2e5")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -62212,6 +63444,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8d840423-959f-4fc8-b97a-2ba4879c1556")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -62511,6 +63745,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2a99eefb-df08-41a1-ac07-41c91ea0a5ab")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -62810,6 +64046,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/597aea87-68b3-487d-b459-5314253d6fab")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -63109,6 +64347,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/21a7ef2f-98c4-4697-8e19-0f1a21c58637")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -63408,6 +64648,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ee118e80-b435-4cdc-b1d4-bcc28db215d4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -63707,6 +64949,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/79cd97c9-bf5e-42ad-8918-b452d396d27a")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -64006,6 +65250,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8c2bf44d-0715-4dd1-a41b-c47b4db8a081")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -64305,6 +65551,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/18d8aa0f-f6dd-42c1-b08d-4299f4b1660b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -64610,6 +65858,8 @@
 			)
 		)
 		(path "/e9fd7d9e-5683-413c-8ecf-1243d43cca04/f3370d06-ca12-4ec3-8b9d-616d0df8a547")
+		(sheetname "Connectors")
+		(sheetfile "connectors.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_rect
 			(start -1.95 -4.1)
@@ -65001,6 +66251,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/62231070-dd29-45f0-a13e-d377ba2cd6da")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -65300,6 +66552,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/720d8aa6-1a8f-4036-9791-2152ca8c700f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -65599,6 +66853,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/c2c807eb-d28f-4a66-a1d4-fbcc56a14012")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -65898,6 +67154,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/fc99949c-cf12-44e0-ae84-3a16b0f23be2")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -66197,6 +67455,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/8d9faa0b-b29a-49a3-b09d-2af18f31c88e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -66496,6 +67756,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/900cfaf7-ac95-45d6-8582-76637d569d6c")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -66795,6 +68057,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b7f9bc89-02af-464b-bc47-8f8e42e4d5b4")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -67094,6 +68358,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ee28047e-4135-4891-a956-15deb2915f69")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -67393,6 +68659,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/d3e6c9bf-40ef-4b3a-b113-452df4f0e6f5")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -67692,6 +68960,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2c4fdbbb-72a5-49cf-a8d8-7016227daccb")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -67991,6 +69261,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5f4fdbea-2dd8-4115-8d6d-e7c4d65afca4")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -68290,6 +69562,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3c9f1721-0e85-4302-9889-c04a8f18de1b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -68589,6 +69863,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/47585840-cfc8-462b-bcd6-0fc8f94244d7")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -68888,6 +70164,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/62b8a9f1-e789-4efd-a769-0c7ddf8333fb")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -69187,6 +70465,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/c362f9ba-3f8f-4312-8d7b-342675fc312b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -69486,6 +70766,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/989ee968-6ffc-4e70-862e-5ffa43d4b0d9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -69785,6 +71067,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/fd834156-8fd1-4ff4-a199-237ce86360ab")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -70084,6 +71368,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2f36e477-e9da-4742-8167-1c30a477bc53")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -70383,6 +71669,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/2d249b48-8316-4aa8-9dd6-765d93611b7f")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -70682,6 +71970,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/2fc7c828-35c8-4db4-bab7-c7c381a4c16f")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -70981,6 +72271,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/c87124a4-63a4-4e25-b813-3a392f2cf35c")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -71280,6 +72572,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/a3102157-b4ce-40ed-9794-449a4b1d70fa")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -71579,6 +72873,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/5029a6ea-6a5c-4d46-b3a1-addcbf1161d1")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -71878,6 +73174,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/8fafdca8-bb7d-4466-833a-ab23c01a2bd8")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -72177,6 +73475,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/312c4a5a-a74f-477e-a07d-603a1ae8e602")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -72476,6 +73776,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/b80a91ae-5ceb-4d26-906c-7b59e9abfdf3")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -72775,6 +74077,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/09ba2aa1-b9e6-4cd0-979b-65b3376bc5b7")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -73074,6 +74378,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/3ec31eb2-f4c6-47e4-8e34-4b0e2d2f9ce8")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -73373,6 +74679,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/09293a12-70fb-4803-a60b-1290b826abfb")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -73672,6 +74980,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/e81427cc-7774-4eef-ae5a-58e330c5d5a5")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -73971,6 +75281,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/0460a93f-b94d-40c9-a1b9-2f5189ccef7e")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -74270,6 +75582,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/c7f641a4-e1c6-47ad-9d98-64bc1cb76e44")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -74569,6 +75883,8 @@
 			)
 		)
 		(path "/ac804940-04be-4885-b738-67220611f5f6/e8dfc40c-39c3-4aa3-a0de-068fc142f5e0")
+		(sheetname "Inductors")
+		(sheetfile "inductors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -74868,6 +76184,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/b76b6014-0538-462f-b25d-2e71584a2e0f")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -75167,6 +76485,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/ce61b6e4-671c-44c1-a1a5-e7bf047f7756")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -75466,6 +76786,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/65d0f5f1-6d9d-454a-8774-d4c61778d4fe")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -75765,6 +77087,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/a7219102-70d6-476e-afcb-ef0166c84324")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -76064,6 +77388,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/c7966eb2-db2d-44f0-b563-04e5615a5a63")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -76363,6 +77689,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/0fca6f3f-72cb-40eb-bb48-fe0c2cd396bc")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -76662,6 +77990,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7e025adc-3454-4bf2-ac6c-7baac9161eea")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -76961,6 +78291,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/9876e53a-c676-4fdc-b398-a4c222235981")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -77260,6 +78592,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/c3dda6b3-6f2b-4a31-bb55-9239c55e82b9")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -77559,6 +78893,8 @@
 			)
 		)
 		(path "/2a2762fb-babb-4273-997b-c90d7edcec13/19d54080-e4b1-4ab7-baa6-849ba4409235")
+		(sheetname "Capacitors")
+		(sheetfile "capacitors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -77858,6 +79194,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/736f5598-19d1-4844-a0ac-9f68fed581e9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -78157,6 +79495,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/1d56b6a4-9df4-4cbb-ba37-1e1e4d3f668b")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -78456,6 +79796,8 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/d2dcece4-6501-432b-888d-47209276bfa9")
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 -0.85)
@@ -78645,8 +79987,8 @@
 		(uuid "3dabc456-f776-4bb9-ad42-b3041d77d007")
 	)
 	(gr_rect
-		(start 54 102)
-		(end 84 112)
+		(start 54 103)
+		(end 84 113)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78667,8 +80009,8 @@
 		(uuid "5959e758-56cc-4c53-974a-b7a6df3503d0")
 	)
 	(gr_rect
-		(start 22 102)
-		(end 52 112)
+		(start 22 103)
+		(end 52 114)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78679,7 +80021,7 @@
 	)
 	(gr_rect
 		(start 54 92)
-		(end 84 100)
+		(end 84 101)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78701,7 +80043,7 @@
 	)
 	(gr_rect
 		(start 22 92)
-		(end 52 100)
+		(end 52 101)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78769,7 +80111,7 @@
 		)
 	)
 	(gr_text "DIODES"
-		(at 22.5 104 0)
+		(at 22.5 105 0)
 		(layer "F.SilkS")
 		(uuid "564a3bde-10fb-469f-a958-2ce435d99026")
 		(effects
@@ -78853,7 +80195,7 @@
 		)
 	)
 	(gr_text "TRANSISTORS"
-		(at 54.5 104 0)
+		(at 54.5 105 0)
 		(layer "F.SilkS")
 		(uuid "d9e36a2a-2330-4a9f-a26a-0e1066a0a75b")
 		(effects
