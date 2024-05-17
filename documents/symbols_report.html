@@ -47,11 +47,13 @@ input {
 }
 .section {
     margin: 32px 0px 32px;
+    padding-top: 8px;
 }
 </style>
 <script>
 
-const fields = ["Name", "Extends", "Reference", "Value", "Description", "Datasheet", "Footprint", "Revision", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS", "Notes"];
+const symbol_fields = ["Name", "Extends", "Reference", "Value", "Description", "Datasheet", "Footprint", "Revision", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS", "Notes"];
+const footprint_fields = ["Name", "Revision", "Model"];
 
 const generic_symbols = [
     { Name: "Earth", Extends: "", Reference: "#PWR", Value: "Earth", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -335,21 +337,67 @@ const parts = [
     { Name: "test_point_1mm_smd", Extends: "test_point", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "lily_footprints:test_point_1mm", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
 ];
 
+const footprints = [
+    { Name: "cap_0805", Revision: "1", Model: "../3d_models/cap_0805.step" },
+    { Name: "cap_0805_dnp", Revision: "1", Model: "" },
+    { Name: "cap_1206", Revision: "1", Model: "../3d_models/cap_1206.step" },
+    { Name: "cap_1206_dnp", Revision: "1", Model: "" },
+    { Name: "cap_1210", Revision: "1", Model: "../3d_models/cap_1210.step" },
+    { Name: "cap_1210_dnp", Revision: "1", Model: "" },
+    { Name: "con_dc_jack_dc_005_th", Revision: "1", Model: "../3d_models/con_dc-005-5a-2_0.step" },
+    { Name: "con_din41612_plug_64p_a+c_right_angle_th", Revision: "1", Model: "../3d_models/con_din41612_plug_64p_a+c_right_angle_th.step" },
+    { Name: "con_din41612_receptacle_64p_a+c_straight_th", Revision: "1", Model: "../3d_models/con_din41612_receptacle_64p_a+c_straight_th.step" },
+    { Name: "con_header_1x02_2.54mm_th", Revision: "1", Model: "../3d_models/con_header_1x02_2.54mm_th.step" },
+    { Name: "con_header_1x03_2.54mm_th", Revision: "1", Model: "../3d_models/con_header_1x03_2.54mm_th.step" },
+    { Name: "con_header_1x06_2.54mm_th", Revision: "1", Model: "../3d_models/con_header_1x06_2.54mm_th.step" },
+    { Name: "con_header_1x08_2.54mm_th", Revision: "1", Model: "../3d_models/con_header_1x08_2.54mm_th.step" },
+    { Name: "con_header_1x10_2.54mm_th", Revision: "1", Model: "../3d_models/con_header_1x10_2.54mm_th.step" },
+    { Name: "con_header_2x03_2.54mm_th_idc_area", Revision: "1", Model: "../3d_models/con_header_2x03_2.54mm_th.step" },
+    { Name: "con_terminal_screw_1x04p_3.5mm_th", Revision: "1", Model: "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp" },
+    { Name: "con_usb_b", Revision: "1", Model: "../3d_models/con_usb_b.step" },
+    { Name: "crystal_3225", Revision: "1", Model: "../3d_models/crystal_3225.step" },
+    { Name: "dio_do214aa_smb", Revision: "1", Model: "../3d_models/dio_do214aa_smb.step" },
+    { Name: "dio_do214ac_sma", Revision: "1", Model: "../3d_models/dio_do214ac_sma.step" },
+    { Name: "dio_sod323", Revision: "1", Model: "../3d_models/dio_sod323.step" },
+    { Name: "fiducial_1mm_mask_2mm", Revision: "1", Model: "" },
+    { Name: "ind_0805", Revision: "1", Model: "../3d_models/ind_0805.step" },
+    { Name: "ind_0805_dnp", Revision: "1", Model: "" },
+    { Name: "ind_common_mode_acm90v", Revision: "1", Model: "../3d_models/ind_acm90v.step" },
+    { Name: "logo_lilytronics", Revision: "1", Model: "" },
+    { Name: "mec_hole_lily_system_backplane", Revision: "1", Model: "" },
+    { Name: "pot_3313j", Revision: "1", Model: "../3d_models/pot_bourns_3313j.step" },
+    { Name: "res_0805", Revision: "1", Model: "../3d_models/res_0805.step" },
+    { Name: "res_0805_dnp", Revision: "1", Model: "" },
+    { Name: "res_2512", Revision: "1", Model: "../3d_models/res_2512.step" },
+    { Name: "soic8", Revision: "1", Model: "../3d_models/soic8.step" },
+    { Name: "sot1220", Revision: "1", Model: "../3d_models/sot1220.step" },
+    { Name: "sot223", Revision: "1", Model: "../3d_models/sot223.step" },
+    { Name: "sot23", Revision: "1", Model: "../3d_models/sot23.step" },
+    { Name: "sot23-5", Revision: "1", Model: "../3d_models/sot23-5.step" },
+    { Name: "sot23-6_sc74", Revision: "1", Model: "../3d_models/sot23-6.step" },
+    { Name: "ssop20_pitch25_341x154_mil", Revision: "1", Model: "../3d_models/ssop20_pitch25_341x154_mil.step" },
+    { Name: "test_point_1.1mm_th", Revision: "1", Model: "" },
+    { Name: "test_point_1mm", Revision: "1", Model: "" },
+    { Name: "to92", Revision: "1", Model: "../3d_models/to92.step" },
+    { Name: "tqfp32_pitch0.8_7x7mm", Revision: "1", Model: "../3d_models/tqfp32_pitch0.8_7x7mm.step" }
+];
+
 function showData(e) {
     let query = "";
     if (e) {
         query = e.target.value;
     }
-    document.getElementById("generic_symbol_table").innerHTML = generateTable(generic_symbols, query);
-    document.getElementById("parts_table").innerHTML = generateTable(parts, query);
+    document.getElementById("generic_symbol_table").innerHTML = generateTable(generic_symbols, query, symbol_fields);
+    document.getElementById("parts_table").innerHTML = generateTable(parts, query, symbol_fields);
+    document.getElementById("footprints_table").innerHTML = generateTable(footprints, query, footprint_fields);
 }
 
-function generateTable(symbols, query) {
+function generateTable(symbols, query, field_names) {
     let output = "<table>\n";
     // Create header
     output += "<tr>";
     output += "<th>#</th>";
-    for (const field of fields) {
+    for (const field of field_names) {
         output += "<th>" + escapeHtml(field) + "</th>";
     }
     output += "</tr>\n";
@@ -359,7 +407,7 @@ function generateTable(symbols, query) {
         let add_symbol = true;
         if (query != "") {
             add_symbol = false;
-            for (const field of fields) {
+            for (const field of field_names) {
                 if (symbol[field].toLowerCase().includes(query.toLowerCase())) {
                     add_symbol = true;
                     break;
@@ -370,14 +418,14 @@ function generateTable(symbols, query) {
             i++;
             output += "<tr>";
             output += "<td>" + i + "</td>";
-            for (const field of fields) {
+            for (const field of field_names) {
                 output += "<td>" + escapeHtml(symbol[field]) + "</td>";
             }
             output += "</tr>\n";
         }
     }
     output += "</table>\n";
-    output = "<p>Total symbols: " + i + "</p>\n" + output;
+    output = "<p>Total items: " + i + "</p>\n" + output;
     return output;
 }
 
@@ -390,31 +438,52 @@ function escapeHtml(unsafe) {
         .replace(/'/g, "&#039;");
 }
 
+const index_section = `<p><a href="#generic-symbols">Generic symbols</a> |
+<a href="#parts">Parts</a> |
+<a href="#footprints">Footprints</a> |
+<a href="#top">Top</a>
+</p>`;
+
 </script>
 </head>
 <body>
-<h1>Lily KiCad library symbols</h1>
+<h1 id="top">Lily KiCad library</h1>
+
 <div class="section">
-<p>Last updated: 2024-05-17 06:13</p>
+<p>Last updated: 2024-05-17 07:09</p>
 <p>Total symbols: 276</p>
+<p>Total footprints: 42</p>
 </div>
+
 <div class="section">
 <p>The library contains generic symbols and parts (derived from generic symbols).</p>
 <p>It is preferred to use parts as much as possible.<p>
 <p>Generic symbols can be used if no part is available, but all properties must be added and
 a footprint must be connected manually in the schematics.</p>
 </div>
+
 <div class="section">
 <p>Filter: <input type="text" id="query" style="width:300px;"/></p>
 </div>
-<div class="section">
+
+<div id="generic-symbols" class="section">
+<script>document.write(index_section);</script>
 <h2>Generic symbols</h2>
 <div id="generic_symbol_table"></div>
 </div>
-<div class="section">
+
+<div id="parts" class="section">
+<script>document.write(index_section);</script>
 <h2>Parts</h2>
 <div id="parts_table"></div>
 </div>
+
+<div id="footprints" class="section">
+<script>document.write(index_section);</script>
+<h2>Footprints</h2>
+<div id="footprints_table"></div>
+</div>
+
 <script>
 showData();
 const input = document.getElementById("query");
