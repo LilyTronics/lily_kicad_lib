@@ -171,10 +171,6 @@ const index_links = `<a href="` + uri + `#generic-symbols">Generic symbols</a> |
 <a href="` + uri + `#footprints">Footprints</a> |
 <a href="` + uri + `#top">Top</a>`;
 
-
-console.log(uri);
-console.log(index_links);
-    
 let elms = document.getElementsByName("index-links")
 for (let i = 0; i < elms.length; i++) {
     elms[i].innerHTML = index_links;
