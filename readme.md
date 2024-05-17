@@ -8,7 +8,7 @@ More than 200 parts.
 
 Additional information:
 
-* [Overview of all symbols](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/symbols_report.html)
+* [Overview of all symbols](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/library_report.html)
 * [Symbol naming convention](documents/symbol_naming.md)
 
 Do you have a request for a component? Submit a request using the [issue tracker](https://github.com/LilyTronics/lily_kicad_lib/issues).

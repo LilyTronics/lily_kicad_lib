@@ -123,12 +123,6 @@ function escapeHtml(unsafe) {
         .replace(/'/g, "&#039;");
 }
 
-const index_section = `<p><a href="#generic-symbols">Generic symbols</a> |
-<a href="#parts">Parts</a> |
-<a href="#footprints">Footprints</a> |
-<a href="#top">Top</a>
-</p>`;
-
 </script>
 </head>
 <body>
@@ -152,24 +146,34 @@ a footprint must be connected manually in the schematics.</p>
 </div>
 
 <div id="generic-symbols" class="section">
-<script>document.write(index_section);</script>
+<p name="index-links"></p>
 <h2>Generic symbols</h2>
 <div id="generic_symbol_table"></div>
 </div>
 
 <div id="parts" class="section">
-<script>document.write(index_section);</script>
+<p name="index-links"></p>
 <h2>Parts</h2>
 <div id="parts_table"></div>
 </div>
 
 <div id="footprints" class="section">
-<script>document.write(index_section);</script>
+<p name="index-links"></p>
 <h2>Footprints</h2>
 <div id="footprints_table"></div>
 </div>
 
 <script>
+const index_links = `<a href="#generic-symbols">Generic symbols</a> |
+<a href="#parts">Parts</a> |
+<a href="#footprints">Footprints</a> |
+<a href="#top">Top</a>`;
+
+let elms = document.getElementsByName("index-links")
+for (let i = 0; i < elms.length; i++) {
+    elms[i].innerHTML = index_links;
+}
+
 showData();
 const input = document.getElementById("query");
 input.addEventListener("input", showData);
