@@ -1,0 +1,235 @@
+(footprint "oscillator_smd_5.0x3.2_mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "34c32fb4-c592-4b78-b92c-1fdcf8e03ad5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "oscillator_smd_5.0x3.2_mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc6836bf-1f69-4920-acff-76be2f249635")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee5aa699-f381-4de9-8c7b-aabe52d91678")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3f97a81-29e3-4b5b-addb-5a298a6c75d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98b66a7e-bd34-412d-9245-7750239a49c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Revision" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a20085c0-4e91-459e-bd20-d75bbe3f15d9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.7 1.8)
+		(end -2.6 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6a8b5cf8-b2f3-4ce5-b44d-6c3d28bd87f8")
+	)
+	(fp_line
+		(start -2.75 -2.1)
+		(end -2.75 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9467bac-be95-4f6e-b437-791f6602ca44")
+	)
+	(fp_line
+		(start -2.75 2.1)
+		(end 2.75 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9de775a8-c84f-4737-8034-ec1759c49b23")
+	)
+	(fp_line
+		(start 2.75 -2.1)
+		(end -2.75 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "721417d3-00f3-42f5-a22e-8a225ab4eea7")
+	)
+	(fp_line
+		(start 2.75 2.1)
+		(end 2.75 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9087d00-1d98-48c5-ae64-af02cb5dd628")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8420519-7313-426b-b121-2ba60352cf20")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end -2.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ac05e36-009b-4463-8e3e-4ea3ae95d91d")
+	)
+	(fp_line
+		(start 2.5 -1.6)
+		(end 2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d04c33a2-2fbd-4f51-906e-aa615b311933")
+	)
+	(fp_line
+		(start 2.5 1.6)
+		(end -2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33e16dc2-154f-4b9b-bff8-e3820cc2a882")
+	)
+	(fp_circle
+		(center -1.85 0.95)
+		(end -1.75 0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "42b89158-03f6-4c6f-aa09-412931d77c40")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "176c0550-7627-4b1a-9672-43214e3518d5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 1.2)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.05)
+		(uuid "2a7c512e-eb83-4cfa-a1ff-526f607c4de1")
+	)
+	(pad "2" smd rect
+		(at 1.27 1.2)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.05)
+		(uuid "fd128663-40f6-49c0-a82c-7d9ecdee4291")
+	)
+	(pad "3" smd rect
+		(at 1.27 -1.2)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.05)
+		(uuid "24678cf2-e763-4d46-9b95-0e3c341e6035")
+	)
+	(pad "4" smd rect
+		(at -1.27 -1.2)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.05)
+		(uuid "98026def-1cbb-4a24-ba11-e4a746f9c7ae")
+	)
+	(model "../3d_models/oscillator_smd_5.0X3.2_mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
