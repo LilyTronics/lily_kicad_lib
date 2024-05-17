@@ -164,10 +164,15 @@ a footprint must be connected manually in the schematics.</p>
 </div>
 
 <script>
+console.log(' href => ' + window.location.href);
+console.log(' hashpathname => ' + window.location.hash);
+let uri = window.location.href.replace(window.location.hash, "");
+console.log(' uri => ' + uri);
+
 const index_links = `<a href="#generic-symbols">Generic symbols</a> |
-<a href="#parts">Parts</a> |
-<a href="#footprints">Footprints</a> |
-<a href="#top">Top</a>`;
+<a href="` + uri + `#parts">Parts</a> |
+<a href="` + uri + `#footprints">Footprints</a> |
+<a href="` + uri + `#top">Top</a>`;
 
 let elms = document.getElementsByName("index-links")
 for (let i = 0; i < elms.length; i++) {
