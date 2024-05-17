@@ -138,7 +138,8 @@ def _check_footprint_field_empty(footprint_data, field_name):
                     footprint_data["Name"].startswith("test_point_") or
                     footprint_data["Name"].startswith("fiducial_") or
                     footprint_data["Name"].startswith("logo_") or
-                    footprint_data["Name"].startswith("mec_")):
+                    footprint_data["Name"].startswith("mec_hole") or
+                    footprint_data["Name"].startswith("mec_mouse_bytes")):
                 is_not_empty = value != ""
             else:
                 is_empty = value == ""
@@ -245,7 +246,8 @@ def _check_3d_model(footprint_data):
         not footprint_data["Name"].endswith("_dnp") and
         not footprint_data["Name"].startswith("fiducial_") and
         not footprint_data["Name"].startswith("logo_") and
-        not footprint_data["Name"].startswith("mec_") and
+        not footprint_data["Name"].startswith("mec_hole") and
+        not footprint_data["Name"].startswith("mec_mouse_bytes") and
         not footprint_data["Name"].startswith("test_point_")
     )
     if expect_3d_model and footprint_data["Model"] == "":
