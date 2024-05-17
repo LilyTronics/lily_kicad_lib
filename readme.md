@@ -41,7 +41,7 @@ The 3D models are taken from three sources:
 ### Footprints
 
 Footprints are created using the specifications of the manufacturers.
-All footprints have a 3D model attached.
+All footprints have a 3D model attached if applicable.
 All footprints have the following extra attributes:
 
 * Revision: numeric value for the revision of the footprint.
