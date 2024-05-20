@@ -10,6 +10,7 @@ Space must be replaced with underscores.
 | Connector terminal  | con terminal screw/screwless rows x pins per row pitch th      | X   |
 | Diode schottky      | dio schottky type_number package                               | D   |
 | Diode TVS           | dio tvs uni/bi channels voltage package                        | D   |
+| Diode zener         | dio zener voltage power package                                | D   |
 | IC opamp single     | ic opamp single type_number package                            | U   |
 | IC opamp dual       | ic opamp dual type_number package                              | U   |
 | IC opamp quad       | ic opamp quad type_number package                              | U   |

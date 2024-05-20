@@ -734,6 +734,8 @@
 	(net 601 "unconnected-(D1-CH4-Pad6)")
 	(net 602 "unconnected-(D1-CH1-Pad1)")
 	(net 603 "unconnected-(D1-CH2-Pad3)")
+	(net 604 "unconnected-(D2-Pad1)")
+	(net 605 "unconnected-(D2-Pad2)")
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
@@ -15040,6 +15042,315 @@
 			(uuid "7f0c897f-d04c-4931-abbe-9e068f63f6e1")
 		)
 		(model "../3d_models/res_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:dio_sod323"
+		(layer "F.Cu")
+		(uuid "36e7fe60-18c6-4fdb-b6e6-0c453367754e")
+		(at 25 117)
+		(property "Reference" "D2"
+			(at 0 -2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fad2323c-938a-4da8-8057-8a5c069c2d79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "dio_zener"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07c4f784-fc13-45f0-a004-3876c8186ec4")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:dio_sod323"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed1a367f-a5c0-4fed-a160-9f3d160cd4c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3ec488a-8e19-4cf4-a79c-af49312582ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b452ef3-f1cf-45d9-87b1-8ee237b644f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e04a1196-9fbd-4172-9dee-eef90dec766d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c3b3f2-35a0-47a7-a7b2-5dec796515fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Guangdong Hottech"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63f84aac-8f5c-464c-af62-9508a3eb468e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "BZT52C4V7S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1a3f478-3c70-4631-bbee-004e3638ad43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1911-10005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e10dfb2-0f0e-4987-87aa-e3872bfe10c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C5190168"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b502d639-31c3-4450-bba6-a6dfd4ea81ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baba32ce-9226-4a61-a038-80069057b784")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f8e61c5d-b401-4177-96aa-be2ecb8375a7/692a9f8b-a194-4e83-bee8-2feab6d9cd91")
+		(sheetname "Diodes")
+		(sheetfile "diodes.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center -2 0)
+			(end -1.9 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "77503328-d7ad-4203-a95c-a3910b75e5fa")
+		)
+		(fp_rect
+			(start -1.7 -0.9)
+			(end 1.7 0.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "c75650dc-87dc-4fd6-a97f-46ab7723e70a")
+		)
+		(fp_line
+			(start -1.3 -0.2)
+			(end -1.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "996546c8-d89d-4e6f-b0a9-b5abd1481082")
+		)
+		(fp_line
+			(start -1.3 -0.2)
+			(end -0.9 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d4e6e11c-1144-4fa4-8947-f089db465ec4")
+		)
+		(fp_line
+			(start -1.3 0.2)
+			(end -0.9 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aadfdaad-8002-41aa-aa1d-876840ee09e3")
+		)
+		(fp_line
+			(start 1.3 -0.2)
+			(end 0.9 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0cd18515-dee3-40de-bd76-37b38ace6b58")
+		)
+		(fp_line
+			(start 1.3 -0.2)
+			(end 1.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2ab783b1-f16f-4ec6-9aac-291373b9a227")
+		)
+		(fp_line
+			(start 1.3 0.2)
+			(end 0.9 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e9a7265e-2263-40a8-b900-d52d6f17a61a")
+		)
+		(fp_rect
+			(start -0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "172aa9a8-bc0c-4d39-a410-77b860f7f7da")
+		)
+		(fp_rect
+			(start -0.6 -0.7)
+			(end -0.3 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Fab")
+			(uuid "d989dd75-3077-4835-8c5d-19fe210f7b9b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7285ceaa-f284-46b2-875b-d2e9c6b24420")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.1 0)
+			(size 0.8 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 604 "unconnected-(D2-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "c7b0736b-eb0a-451d-bcff-cdc0c676cd33")
+		)
+		(pad "2" smd rect
+			(at 1.1 0)
+			(size 0.8 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 605 "unconnected-(D2-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.05)
+			(uuid "f66f7c7a-9bb8-4433-b65c-f9e424f3419d")
+		)
+		(model "../3d_models/dio_sod323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -80545,7 +80856,7 @@
 	)
 	(gr_rect
 		(start 22 103)
-		(end 52 114)
+		(end 52 120)
 		(stroke
 			(width 0.1)
 			(type default)
