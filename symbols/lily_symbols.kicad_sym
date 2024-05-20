@@ -466,7 +466,165 @@
 			)
 		)
 	)
-	(symbol "con_1x04p"
+	(symbol "con_1x02"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at -7.62 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "con_1x02"
+			(at -7.62 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at -5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "con_1x02_0_1"
+			(rectangle
+				(start -6.35 1.27)
+				(end -3.81 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 0)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -4.318 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -4.318 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "con_1x02_1_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "con_1x04"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -481,7 +639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_1x04p"
+		(property "Value" "con_1x04"
 			(at -8.89 3.81 0)
 			(effects
 				(font
@@ -526,7 +684,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "con_1x04p_0_1"
+		(symbol "con_1x04_0_1"
 			(rectangle
 				(start -6.35 1.27)
 				(end -3.81 -8.89)
@@ -631,7 +789,7 @@
 				)
 			)
 		)
-		(symbol "con_1x04p_1_1"
+		(symbol "con_1x04_1_1"
 			(pin passive line
 				(at 0 0 180)
 				(length 3.81)
@@ -14285,8 +14443,8 @@
 			)
 		)
 	)
-	(symbol "con_terminal_screw_1x04p_3.5mm_th"
-		(extends "con_1x04p")
+	(symbol "con_terminal_screw_1x04_3.5mm_th"
+		(extends "con_1x04")
 		(property "Reference" "X"
 			(at -8.89 6.35 0)
 			(effects
@@ -14296,7 +14454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_1x04p"
+		(property "Value" "con_1x04"
 			(at -8.89 3.81 0)
 			(effects
 				(font
