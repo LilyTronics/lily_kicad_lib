@@ -21,7 +21,6 @@ def _log_error(identifier, message):
 
 def _check_reference(symbol_data):
     is_correct = False
-    # Regular stuff
     checks = (
         ("cap", "cap_", "C"),
         ("con", "con_", "X"),
@@ -33,12 +32,14 @@ def _check_reference(symbol_data):
         ("res", "res_", "R"),
         ("test_point", "test_point_", "TP")
     )
+    power_symbols = ("GND", "Earth", "GNDA")
+    # Regular stuff
     for check in checks:
         if ((symbol_data["Name"] == check[0] or symbol_data["Name"].startswith(check[1])) and
                 symbol_data["Reference"] == check[2]):
             is_correct = True
     # Special stuff
-    if symbol_data["Name"] in ["GND", "Earth", "GNDA"] and symbol_data["Reference"] == "#PWR":
+    if symbol_data["Name"] in power_symbols and symbol_data["Reference"] == "#PWR":
         is_correct = True
     if not is_correct:
         _log_error(symbol_data["Name"], "incorrect reference")
