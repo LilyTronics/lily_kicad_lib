@@ -150,13 +150,15 @@ def _check_footprint_field_empty(footprint_data, field_name):
 
 
 def _check_footprint_field_properties(footprint_data, field_name):
+    skip_fields = ("Name", "Model")
+    must_visible = ("Reference", "Reference_F.Fab")
     # Check layer, size, thickness of the field
-    if field_name not in ["Name", "Model"]:
+    if field_name not in skip_fields:
         if isinstance(footprint_data[field_name], dict):
             field_checked = [False, False]
 
             # field_checked[0]: visibility
-            expect_visible = field_name in ["Reference", "Reference_F.Fab"]
+            expect_visible = field_name in must_visible
             if (footprint_data["Name"].startswith("fiducial_") or
                     footprint_data["Name"].startswith("logo_") or
                     footprint_data["Name"].startswith("mec_")):
