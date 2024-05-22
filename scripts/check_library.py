@@ -21,31 +21,24 @@ def _log_error(identifier, message):
 
 def _check_reference(symbol_data):
     is_correct = False
-    if ((symbol_data["Name"] == "cap" or symbol_data["Name"].startswith("cap_")) and
-            symbol_data["Reference"] == "C"):
-        is_correct = True
-    if ((symbol_data["Name"] == "dio" or symbol_data["Name"].startswith("dio_")) and
-            symbol_data["Reference"] == "D"):
-        is_correct = True
-    if ((symbol_data["Name"] == "ic" or symbol_data["Name"].startswith("ic_")) and
-            symbol_data["Reference"] == "U"):
-        is_correct = True
-    if ((symbol_data["Name"] == "ind" or symbol_data["Name"].startswith("ind_")) and
-            symbol_data["Reference"] == "L"):
-        is_correct = True
-    if ((symbol_data["Name"] == "mosfet" or symbol_data["Name"].startswith("mosfet_")) and
-            symbol_data["Reference"] == "Q"):
-        is_correct = True
-    if ((symbol_data["Name"] == "res" or symbol_data["Name"].startswith("res_")) and
-            symbol_data["Reference"] == "R"):
-        is_correct = True
-    if ((symbol_data["Name"] == "con" or symbol_data["Name"].startswith("con_")) and
-            symbol_data["Reference"] == "X"):
-        is_correct = True
+    # Regular stuff
+    checks = (
+        ("cap", "cap_", "C"),
+        ("con", "con_", "X"),
+        ("crystal", "crystal_", "X"),
+        ("dio", "dio_", "D"),
+        ("ic", "ic_", "U"),
+        ("ind", "ind_", "L"),
+        ("mosfet", "mosfet_", "Q"),
+        ("res", "res_", "R"),
+        ("test_point", "test_point_", "TP")
+    )
+    for check in checks:
+        if ((symbol_data["Name"] == check[0] or symbol_data["Name"].startswith(check[1])) and
+                symbol_data["Reference"] == check[2]):
+            is_correct = True
+    # Special stuff
     if symbol_data["Name"] in ["GND", "Earth", "GNDA"] and symbol_data["Reference"] == "#PWR":
-        is_correct = True
-    if ((symbol_data["Name"] == "test_point" or symbol_data["Name"].startswith("test_point_")) and
-            symbol_data["Reference"] == "TP"):
         is_correct = True
     if not is_correct:
         _log_error(symbol_data["Name"], "incorrect reference")
