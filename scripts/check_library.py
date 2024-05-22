@@ -114,8 +114,10 @@ def check_symbols():
 ####################
 
 def _check_footprint_field_empty(footprint_data, field_name):
+    skip_fields = ("Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab")
+    value_fields = ("Reference", "Value")
     # Ignore fields that are allowed to be empty or have already been checked
-    if field_name not in ["Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab"]:
+    if field_name not in skip_fields:
         field_checked = False
         is_empty = False
         is_not_empty = False
@@ -123,9 +125,10 @@ def _check_footprint_field_empty(footprint_data, field_name):
         if isinstance(value, dict):
             value = value["Value"]
         # Always must contain a value
-        if field_name in ["Reference", "Value"]:
+        if field_name in value_fields:
             field_checked = True
             is_empty = value == ""
+        # 3D model depends on the footprint type
         elif field_name == "Model":
             field_checked = True
             # Some footprints must not have a 3D model
