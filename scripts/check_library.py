@@ -22,14 +22,14 @@ def _log_error(identifier, message):
 def _check_reference(symbol_data):
     is_correct = False
     checks = (
-        ("cap", "cap_", "C"),
-        ("con", "con_", "X"),
-        ("crystal", "crystal_", "X"),
-        ("dio", "dio_", "D"),
-        ("ic", "ic_", "U"),
-        ("ind", "ind_", "L"),
-        ("mosfet", "mosfet_", "Q"),
-        ("res", "res_", "R"),
+        ("cap",        "cap_",        "C"),
+        ("con",        "con_",        "X"),
+        ("crystal",    "crystal_",    "X"),
+        ("dio",        "dio_",        "D"),
+        ("ic",         "ic_",         "U"),
+        ("ind",        "ind_",        "L"),
+        ("mosfet",     "mosfet_",     "Q"),
+        ("res",        "res_",        "R"),
         ("test_point", "test_point_", "TP")
     )
     power_symbols = ("GND", "Earth", "GNDA")
