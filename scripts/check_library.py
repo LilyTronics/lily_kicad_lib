@@ -46,16 +46,17 @@ def _check_reference(symbol_data):
 
 
 def _check_symbol_field_empty(symbol_data, field_name):
+    skip_fields = ("Name", "Datasheet", "Description", "Reference", "Revision", "Notes", "Extends")
+    value_fields = ("Footprint", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS")
     # Ignore fields that are allowed to be empty or have already been checked
-    if field_name not in ["Name", "Datasheet", "Description", "Reference", "Revision", "Notes", "Extends"]:
+    if field_name not in skip_fields:
         field_checked = False
         is_empty = False
         is_not_empty = False
         if field_name == "Value":
             field_checked = True
             is_empty = symbol_data[field_name] == ""
-        elif field_name in ["Footprint", "Status", "Manufacturer", "Manufacturer_ID",
-                            "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]:
+        elif field_name in value_fields:
             field_checked = True
             if (symbol_data["Extends"] == "" or
                     (symbol_data["Value"] == "dnp" and field_name != "Footprint") or
