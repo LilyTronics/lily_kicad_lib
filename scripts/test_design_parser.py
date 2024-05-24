@@ -39,7 +39,29 @@ class TestDesignParser:
 
     @classmethod
     def get_footprints(cls):
+        pcb_filename = os.path.join(cls.TEST_DESIGN_PATH, "kicad_lib_test.kicad_pcb")
+        print(f"\nRead layout from: {pcb_filename}")
+        with open(pcb_filename, "r") as fp:
+            lines = fp.readlines()
         footprints = []
+        i = 0
+        while i < len(lines):
+            if lines[i].startswith("\t(footprint "):
+                footprint = {
+                    "Footprint": lines[i].strip()[11:].strip(")").strip('"')
+                }
+                while i < len(lines):
+                    i += 1
+                    if lines[i].startswith("\t)"):
+                        break
+                    if lines[i].startswith("\t\t(property "):
+                        parts = lines[i].strip().strip("(").split(" ")
+                        if len(parts) == 3:
+                            footprint[parts[1].strip('"')] = parts[2].strip('"')
+                    if lines[i].startswith("\t\t(model "):
+                        footprint["Model"] = lines[i].strip()[7:].strip(")").strip('"')
+                footprints.append(footprint)
+            i += 1
         return footprints
 
 
