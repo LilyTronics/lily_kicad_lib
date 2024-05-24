@@ -4,7 +4,7 @@ Checks the library and report the errors
 
 import os
 
-from lib_parser import LibParser
+from parsers.lib_parser import LibParser
 
 
 #############
