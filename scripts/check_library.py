@@ -21,22 +21,26 @@ def _log_error(identifier, message):
 
 def _check_reference(symbol_data):
     is_correct = False
-    checks = (
-        ("cap",        "cap_",        "C"),
-        ("con",        "con_",        "X"),
-        ("crystal",    "crystal_",    "X"),
-        ("dio",        "dio_",        "D"),
-        ("ic",         "ic_",         "U"),
-        ("ind",        "ind_",        "L"),
-        ("mosfet",     "mosfet_",     "Q"),
-        ("res",        "res_",        "R"),
-        ("test_point", "test_point_", "TP")
-    )
+    checks = {
+        "cap":        "C",
+        "con":        "X",
+        "crystal":    "X",
+        "dio":        "D",
+        "ic":         "U",
+        "ind":        "L",
+        "logo":       "DOC",
+        "mosfet":     "Q",
+        "pot":        "P",
+        "pptc":       "F",
+        "relay":      "K",
+        "res":        "R",
+        "test_point": "TP"
+    }
     power_symbols = ("GND", "Earth", "GNDA")
     # Regular stuff
     for check in checks:
-        if ((symbol_data["Name"] == check[0] or symbol_data["Name"].startswith(check[1])) and
-                symbol_data["Reference"] == check[2]):
+        if ((symbol_data["Name"] == check or symbol_data["Name"].startswith(f"{check}_")) and
+                symbol_data["Reference"] == checks[check]):
             is_correct = True
     # Special stuff
     if symbol_data["Name"] in power_symbols and symbol_data["Reference"] == "#PWR":
@@ -48,7 +52,7 @@ def _check_reference(symbol_data):
 def _check_symbol_field_empty(symbol_data, field_name):
     skip_fields = ("Name", "Datasheet", "Description", "Reference", "Revision", "Notes", "Extends")
     value_fields = ("Footprint", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS")
-    # Ignore fields that are allowed to be empty or have already been checked
+    # Ignore fields that are allowed to be empty or already have been checked
     if field_name not in skip_fields:
         field_checked = False
         is_empty = False
@@ -58,7 +62,9 @@ def _check_symbol_field_empty(symbol_data, field_name):
             is_empty = symbol_data[field_name] == ""
         elif field_name in value_fields:
             field_checked = True
-            if (symbol_data["Extends"] == "" or
+            if symbol_data["Name"].startswith("logo_") and field_name == "Footprint":
+                is_empty = symbol_data[field_name] == ""
+            elif (symbol_data["Extends"] == "" or
                     (symbol_data["Value"] == "dnp" and field_name != "Footprint") or
                     (symbol_data["Name"].startswith("test_point_") and field_name != "Footprint")):
                 # Generic symbols
@@ -80,7 +86,7 @@ def _check_footprint(symbol_data):
         _log_error(symbol_data["Name"], f"footprint invalid")
     else:
         if parts[0] != "lily_footprints":
-            _log_error(symbol_data["Name"], f"invalid footprint library")
+            _log_error(symbol_data["Name"], f"invalid footprint library '{parts[0]}'")
         else:
             script_path = os.path.dirname(__file__)
             footprint_file = os.path.abspath(
