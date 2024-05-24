@@ -7,7 +7,7 @@ import os
 
 from string import Template
 from datetime import datetime
-from scripts.lib_check.lib_parser import LibParser
+from parsers.lib_parser import LibParser
 
 
 def generate_report():
