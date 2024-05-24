@@ -8,6 +8,8 @@ import os
 
 class LibParser:
 
+    SCRIPT_PATH = os.path.dirname(__file__)
+
     SYMBOL_MANDATORY_FIELDS = [
         "Name",
         "Extends",
@@ -24,8 +26,7 @@ class LibParser:
 
     @classmethod
     def get_symbols(cls):
-        script_path = os.path.dirname(__file__)
-        lib_filename = os.path.abspath(os.path.join(script_path, "..", "symbols", "lily_symbols.kicad_sym"))
+        lib_filename = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", "symbols", "lily_symbols.kicad_sym"))
         print(f"\nRead symbols library: {lib_filename}")
         with open(lib_filename, "r") as fp:
             lines = fp.readlines()
@@ -64,8 +65,7 @@ class LibParser:
 
     @classmethod
     def get_footprints(cls):
-        script_path = os.path.dirname(__file__)
-        lib_path = os.path.abspath(os.path.join(script_path, "..", "lily_footprints.pretty"))
+        lib_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", "lily_footprints.pretty"))
         print(f"\nRead footprints library: {lib_path}")
         footprints = []
         fields = []
