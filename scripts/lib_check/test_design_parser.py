@@ -9,7 +9,7 @@ import os
 class TestDesignParser:
 
     SCRIPT_PATH = os.path.dirname(__file__)
-    TEST_DESIGN_PATH = os.path.abspath(os.path.join(SCRIPT_PATH, "..", "lib_test"))
+    TEST_DESIGN_PATH = os.path.abspath(os.path.join(SCRIPT_PATH, "..", "..", "lib_test"))
 
     @classmethod
     def get_symbols(cls):
