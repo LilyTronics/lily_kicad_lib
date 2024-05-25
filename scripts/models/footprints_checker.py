@@ -5,7 +5,7 @@ Class that checks the footprints.
 import copy
 import os
 
-from lib_parser import LibParser
+from scripts.models.lib_parser import LibParser
 
 
 class FootprintsChecker:

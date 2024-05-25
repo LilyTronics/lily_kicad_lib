@@ -3,7 +3,7 @@ Class that checks the symbols
 """
 
 import os
-from lib_parser import LibParser
+from scripts.models.lib_parser import LibParser
 
 
 class SymbolsChecker:
