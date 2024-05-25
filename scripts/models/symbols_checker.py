@@ -6,7 +6,7 @@ import os
 from lib_parser import LibParser
 
 
-class SymbolChecker:
+class SymbolsChecker:
 
     REFERENCES = {
         "cap":        "C",
@@ -139,7 +139,7 @@ class SymbolChecker:
 if __name__ == "__main__":
 
     messages = []
-    SymbolChecker.run(messages)
+    SymbolsChecker.run(messages)
     print(f"{len(messages)} messages")
     for message in messages:
         print(message)
