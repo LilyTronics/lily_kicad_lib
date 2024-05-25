@@ -10,6 +10,7 @@ from scripts.models.lib_parser import LibParser
 
 class FootprintsChecker:
 
+    SCRIPT_PATH = os.path.dirname(__file__)
     SKIP_FIELDS = ("Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab")
     VALUE_FIELDS = ("Reference", "Value")
     SKIP_FIELDS_VISIBLE = ("Name", "Model")
@@ -224,7 +225,7 @@ class FootprintsChecker:
                 "message": f"3D model should not be defined"
             })
         if footprint_data["Model"] != "":
-            full_path = os.path.abspath(os.path.join("..", footprint_data["Model"]))
+            full_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", footprint_data["Model"]))
             if not os.path.isfile(full_path):
                 report_messages.append({
                     "item": footprint_data["Name"],
