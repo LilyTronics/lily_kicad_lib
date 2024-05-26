@@ -19579,6 +19579,154 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:logo_lilytronics"
+		(layer "F.Cu")
+		(uuid "43fa6fd1-51a3-450a-84d7-98160f69260a")
+		(at 138 122.5)
+		(property "Reference" "DOC1001"
+			(at 0 -0.000002 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "963c33c7-6c6e-4363-b310-8cfdd09df5bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "logo_lilytronics"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a616e7ae-4989-4465-9f0a-e7d83820249c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:logo_lilytronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e7186d4-3474-41d5-bc00-b0b89cf40050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24c578d3-01dc-461d-abf3-c0d54ac43e08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d257639-ed30-43cc-b8b9-b39b0210174a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecd86e79-4b2b-49e0-9ac2-d9c395015991")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/2da9c4cc-9375-423f-9b5e-5d94096d3782")
+		(sheetname "Root")
+		(sheetfile "kicad_lib_test.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_arc
+			(start -1.999999 -2.000001)
+			(mid -0.585785 -1.414215)
+			(end 0.000001 -0.000001)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c547ef3f-d4c9-486e-a95c-0b05366d9a0e")
+		)
+		(fp_arc
+			(start 0 0)
+			(mid 0.585786 -1.414214)
+			(end 2 -2)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1b2c4f1a-f6d0-481a-bc4b-dfb32aab8264")
+		)
+		(fp_arc
+			(start 0.000001 -2.999999)
+			(mid 0.621321 -1.5)
+			(end 0.000001 -0.000001)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "edc4fb2e-a932-4dfe-8b55-d5f93240dc59")
+		)
+		(fp_arc
+			(start 0.000001 -0.000001)
+			(mid -0.621319 -1.5)
+			(end 0.000001 -2.999999)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f59d5e4-562a-48d6-84fe-2d7d77dbcaa2")
+		)
+		(fp_arc
+			(start 2 -2)
+			(mid 0 0)
+			(end -2 -2)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "47af12c0-be51-4a25-9b68-e63abb0cd662")
+		)
+		(fp_text user "LilyTronics"
+			(at 0 1.5 0)
+			(layer "F.SilkS")
+			(uuid "0616fe93-344a-469f-8590-d5d46c61e8a5")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+	)
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "45101ca3-231a-4040-b309-43a5b2c79bb4")
@@ -48546,6 +48694,8 @@
 			)
 		)
 		(path "/e9fd7d9e-5683-413c-8ecf-1243d43cca04/d37714d7-6cdc-40d2-9323-b381674298cb")
+		(sheetname "Connectors")
+		(sheetfile "connectors.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_rect
 			(start -0.2 -4.7)
