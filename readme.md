@@ -4,7 +4,7 @@ This is a free to use KiCad library.
 
 Compatible KiCad version: 8 (and higher)
 
-More than 200 parts.
+More than 300 symbols and 60 footprints.
 
 Additional information:
 
