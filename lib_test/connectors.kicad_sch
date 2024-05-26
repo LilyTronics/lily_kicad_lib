@@ -11,6 +11,261 @@
 		(company "LilyTronics")
 	)
 	(lib_symbols
+		(symbol "lily_symbols:con_dc_jack_dc_005_th"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "con_dc_jack_3p"
+				(at -10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:con_dc_jack_dc_005_th"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XKB Connection"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "DC-005-5A-2.0"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "1910-10008"
+				(at -0.635 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C381116"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_STATUS" "Extended"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "con_dc_jack_dc_005_th_0_1"
+				(arc
+					(start -12.065 0)
+					(mid -11.879 -0.449)
+					(end -11.43 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -11.43 0.635)
+					(mid -11.879 0.449)
+					(end -12.065 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 0.635) (xy -3.81 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -5.08) (xy -6.35 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.635) (xy -3.81 -0.635) (xy -11.43 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 -5.08) (xy -10.16 -3.81) (xy -8.89 -5.08) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -6.985 -2.54) (xy -6.985 -5.08) (xy -7.62 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "con_dc_jack_dc_005_th_1_1"
+				(pin passive line
+					(at 0 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "lily_symbols:con_din41612_receptacle_64p_a+c_straight_th"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3377,16 +3632,16 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:con_terminal_screw_1x04p_3.5mm_th")
-		(at 91.44 33.02 0)
+		(lib_id "lily_symbols:con_dc_jack_dc_005_th")
+		(at 101.6 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3370d06-ca12-4ec3-8b9d-616d0df8a547")
+		(uuid "d37714d7-6cdc-40d2-9323-b381674298cb")
 		(property "Reference" "X10002"
-			(at 82.55 26.67 0)
+			(at 91.44 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,8 +3649,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_1x04p"
-			(at 82.55 29.21 0)
+		(property "Value" "con_dc_jack_3p"
+			(at 91.44 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,8 +3658,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:con_terminal_screw_1x04p_3.5mm_th"
-			(at 86.36 48.26 0)
+		(property "Footprint" "lily_footprints:con_dc_jack_dc_005_th"
+			(at 101.6 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 33.02 0)
+			(at 101.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3677,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 33.02 0)
+			(at 101.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3686,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 86.36 43.18 0)
+			(at 101.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3695,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 86.36 45.72 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,8 +3703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DORABO"
-			(at 86.36 50.8 0)
+		(property "Manufacturer" "XKB Connection"
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,8 +3712,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "DB125-3.5-4P-GN-S "
-			(at 86.36 53.34 0)
+		(property "Manufacturer_ID" "DC-005-5A-2.0"
+			(at 101.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,8 +3721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1910-10007"
-			(at 86.36 55.88 0)
+		(property "Lily_ID" "1910-10008"
+			(at 100.965 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,8 +3730,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C2757925"
-			(at 86.36 58.42 0)
+		(property "JLCPCB_ID" "C381116"
+			(at 101.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3740,142 @@
 			)
 		)
 		(property "JLCPCB_STATUS" "Extended"
-			(at 86.36 60.96 0)
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbdfbef7-1de1-4f0d-83e9-cdcad549108e")
+		)
+		(pin "3"
+			(uuid "598036a6-7863-41b2-9ed6-f4ae1737c91f")
+		)
+		(pin "1"
+			(uuid "e1c722a5-e1f2-4fee-8241-c4061172e634")
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/e9fd7d9e-5683-413c-8ecf-1243d43cca04"
+					(reference "X10002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:con_terminal_screw_1x04p_3.5mm_th")
+		(at 152.4 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3370d06-ca12-4ec3-8b9d-616d0df8a547")
+		(property "Reference" "X10003"
+			(at 143.51 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "con_1x04p"
+			(at 143.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:con_terminal_screw_1x04p_3.5mm_th"
+			(at 147.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 147.32 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DORABO"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "DB125-3.5-4P-GN-S "
+			(at 147.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "1910-10007"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C2757925"
+			(at 147.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3898,7 @@
 		(instances
 			(project "kicad_lib_test"
 				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/e9fd7d9e-5683-413c-8ecf-1243d43cca04"
-					(reference "X10002")
+					(reference "X10003")
 					(unit 1)
 				)
 			)
