@@ -181,7 +181,6 @@ class FootprintsChecker:
             attributes["board_only"][0] = True
             attributes["exclude_from_bom"][0] = True
         if footprint_data["Name"].startswith("logo_"):
-            attributes["board_only"][0] = True
             attributes["exclude_from_pos_files"][0] = True
             attributes["exclude_from_bom"][0] = True
             attributes["allow_missing_courtyard"][0] = True

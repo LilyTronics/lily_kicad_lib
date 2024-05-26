@@ -2,17 +2,8 @@
 Checks the library and report the errors
 """
 
-from models.symbols_checker import SymbolsChecker
-from models.footprints_checker import FootprintsChecker
-
-
-def check_library(messages):
-    SymbolsChecker.run(messages)
-    FootprintsChecker.run(messages)
-
 
 def _show_report(messages):
-    print("")
     column_widths = [0, 0]
     if len(messages) > 0:
         for message in messages:
@@ -33,6 +24,12 @@ def _show_report(messages):
 
 if __name__ == "__main__":
 
+    from models.symbols_checker import SymbolsChecker
+    from models.footprints_checker import FootprintsChecker
+
     report_messages = []
-    check_library(report_messages)
+    SymbolsChecker.run(report_messages)
+    _show_report(report_messages)
+    del report_messages[:]
+    FootprintsChecker.run(report_messages)
     _show_report(report_messages)
