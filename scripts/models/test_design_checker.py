@@ -8,6 +8,9 @@ from scripts.models.test_design_parser import TestDesignParser
 
 class TestDesignChecker:
 
+    PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]
+    SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
+
     @classmethod
     def run(cls):
         report_messages = []
@@ -74,7 +77,7 @@ class TestDesignChecker:
             matches = list(filter(lambda x: x["Name"] == lib_name, lib_footprints))
             if len(matches) == 0:
                 report_messages.append({
-                    "item": design_footprint["Reference"],
+                    "item": f"{design_footprint["Reference"]} ({lib_name})",
                     "message": f"footprint is not in the library {lib_name}"
                 })
 
@@ -91,19 +94,60 @@ class TestDesignChecker:
                 diff.remove("lib_id")
                 if len(diff) > 0:
                     report_messages.append({
-                        "item": design_symbol["Reference"],
+                        "item": f"{design_symbol["Reference"]} ({lib_name})",
                         "message": f"symbol has extra fields that are not in the library: {", ".join(diff)}"
                     })
                 # Fields missing in the design symbol
                 diff = list(set(lib_symbol.keys()) - set(design_symbol.keys()))
                 diff.remove("Name")
                 diff.remove("Extends")
-                diff.remove("Notes")
+                if "Notes" in diff:
+                    diff.remove("Notes")
+                # Special parts
+                if ("_do_not_populate_" in lib_name or lib_name.startswith("logo_") or
+                        design_symbol["Reference"].startswith("#PWR") or lib_name.startswith("test_point_")):
+                    i = 0
+                    while i < len(diff):
+                        if diff[i] in cls.PART_MANDATORY_FIELDS:
+                            diff.pop(i)
+                            i = 0
+                        else:
+                            i += 1
                 if len(diff) > 0:
                     report_messages.append({
-                        "item": design_symbol["Reference"],
+                        "item": f"{design_symbol["Reference"]} ({lib_name})",
                         "message": f"symbol has missing fields: {", ".join(diff)}"
                     })
+                # Check property values
+                for field in filter(lambda x: x not in cls.SKIP_SYMBOL_FIELDS, lib_symbol):
+                    lib_value = lib_symbol[field]
+                    design_value = design_symbol.get(field, None)
+                    if field in cls.PART_MANDATORY_FIELDS and design_value is None:
+                        design_value = lib_value
+                    elif field == "Notes" and lib_value == "":
+                        design_value = lib_value
+                    elif field == "Reference":
+                        reference = design_value[:len(lib_value)]
+                        number = design_value[len(lib_value):]
+                        if lib_value != reference:
+                            report_messages.append({
+                                "item": f"{design_symbol["Reference"]} ({lib_name})",
+                                "message": f"reference field does not start with '{lib_value}'"
+                            })
+                        try:
+                            int(number)
+                        except ValueError:
+                            report_messages.append({
+                                "item": f"{design_symbol["Reference"]} ({lib_name})",
+                                "message": f"numeric part of reference field is not numeric '{number}'"
+                            })
+                        # Prevent other messages for reference field
+                        design_value = lib_value
+                    if lib_value != design_value:
+                        report_messages.append({
+                            "item": f"{design_symbol["Reference"]} ({lib_name})",
+                            "message": f"field value for field {field} not correct: '{design_value}'"
+                        })
 
 
 if __name__ == "__main__":
