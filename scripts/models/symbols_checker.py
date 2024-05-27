@@ -27,7 +27,8 @@ class SymbolsChecker:
     VALUE_FIELDS = ("Footprint", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS")
 
     @classmethod
-    def run(cls, report_messages):
+    def run(cls):
+        report_messages = []
         symbols = LibParser.get_symbols()
         print(f"Checking {len(symbols)} symbols")
         for symbol in symbols:
@@ -54,6 +55,7 @@ class SymbolsChecker:
                 cls._check_symbol_field_empty(symbol, field, report_messages)
             if symbol["Footprint"] != "":
                 cls._check_footprint(symbol, report_messages)
+        return report_messages
 
     @classmethod
     def _check_reference(cls, symbol_data, report_messages):
@@ -138,8 +140,7 @@ class SymbolsChecker:
 
 if __name__ == "__main__":
 
-    messages = []
-    SymbolsChecker.run(messages)
+    messages = SymbolsChecker.run()
     print(f"{len(messages)} messages")
     for message in messages:
         print(message)

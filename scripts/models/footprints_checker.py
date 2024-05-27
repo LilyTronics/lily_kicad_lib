@@ -35,7 +35,8 @@ class FootprintsChecker:
     NO_3D_MODEL = ("_dnp", "fiducial_", "logo_", "mec_hole_", "mec_mouse_bytes", "test_point_")
 
     @classmethod
-    def run(cls, report_messages):
+    def run(cls):
+        report_messages = []
         footprints = LibParser.get_footprints()
         print(f"Checking {len(footprints)} footprints")
         for footprint in footprints:
@@ -67,6 +68,7 @@ class FootprintsChecker:
                 })
             cls._check_footprint_attributes(footprint, report_messages)
             cls._check_3d_model(footprint, report_messages)
+        return report_messages
 
     @classmethod
     def _check_footprint_field_empty(cls, footprint_data, field_name, report_messages):
@@ -234,8 +236,7 @@ class FootprintsChecker:
 
 if __name__ == "__main__":
 
-    messages = []
-    FootprintsChecker.run(messages)
+    messages = FootprintsChecker.run()
     print(f"{len(messages)} messages")
     for message in messages:
         print(message)

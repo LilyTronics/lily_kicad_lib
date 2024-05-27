@@ -9,13 +9,15 @@ from scripts.models.test_design_parser import TestDesignParser
 class TestDesignChecker:
 
     @classmethod
-    def run(cls, report_messages):
+    def run(cls):
+        report_messages = []
         lib_symbols = LibParser.get_symbols()
         lib_footprints = LibParser.get_footprints()
         design_symbols = TestDesignParser.get_symbols()
         design_footprints = TestDesignParser.get_footprints()
         cls._check_if_symbols_in_design(lib_symbols, design_symbols, report_messages)
         cls._check_if_footprints_in_design(design_symbols, lib_footprints, design_footprints, report_messages)
+        return report_messages
 
     @classmethod
     def _check_if_symbols_in_design(cls, lib_symbols, design_symbols, report_messages):
@@ -78,8 +80,7 @@ class TestDesignChecker:
 
 if __name__ == "__main__":
 
-    messages = []
-    TestDesignChecker.run(messages)
+    messages = TestDesignChecker.run()
     print(f"{len(messages)} messages")
     for message in messages:
         print(message)

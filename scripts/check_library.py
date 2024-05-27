@@ -28,12 +28,6 @@ if __name__ == "__main__":
     from models.symbols_checker import SymbolsChecker
     from models.test_design_checker import TestDesignChecker
 
-    report_messages = []
-    SymbolsChecker.run(report_messages)
-    _show_report(report_messages)
-    del report_messages[:]
-    FootprintsChecker.run(report_messages)
-    _show_report(report_messages)
-    del report_messages[:]
-    TestDesignChecker.run(report_messages)
-    _show_report(report_messages)
+    _show_report(SymbolsChecker.run())
+    _show_report(FootprintsChecker.run())
+    _show_report(TestDesignChecker.run())
