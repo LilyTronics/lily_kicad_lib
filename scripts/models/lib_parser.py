@@ -27,7 +27,7 @@ class LibParser:
     @classmethod
     def get_symbols(cls):
         lib_filename = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", "..", "symbols", "lily_symbols.kicad_sym"))
-        print(f"\nRead symbols library: {lib_filename}")
+        print(f"Read symbols library: {lib_filename}")
         with open(lib_filename, "r") as fp:
             lines = fp.readlines()
         symbols = []
@@ -66,7 +66,7 @@ class LibParser:
     @classmethod
     def get_footprints(cls):
         lib_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", "..", "lily_footprints.pretty"))
-        print(f"\nRead footprints library: {lib_path}")
+        print(f"Read footprints library: {lib_path}")
         footprints = []
         fields = []
         for item in glob.glob(os.path.join(lib_path, "*.kicad_mod")):

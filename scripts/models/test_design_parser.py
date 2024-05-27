@@ -13,7 +13,7 @@ class TestDesignParser:
 
     @classmethod
     def get_symbols(cls):
-        print(f"\nRead schematics from: {cls.TEST_DESIGN_PATH}")
+        print(f"Read schematics from: {cls.TEST_DESIGN_PATH}")
         lines = []
         for item in glob.glob(os.path.join(cls.TEST_DESIGN_PATH, "*.kicad_sch")):
             with open(item, "r") as fp:
@@ -40,7 +40,7 @@ class TestDesignParser:
     @classmethod
     def get_footprints(cls):
         pcb_filename = os.path.join(cls.TEST_DESIGN_PATH, "kicad_lib_test.kicad_pcb")
-        print(f"\nRead layout from: {pcb_filename}")
+        print(f"Read layout from: {pcb_filename}")
         with open(pcb_filename, "r") as fp:
             lines = fp.readlines()
         footprints = []
