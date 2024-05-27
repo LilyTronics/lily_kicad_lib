@@ -11,7 +11,7 @@
 		(company "LilyTronics")
 	)
 	(lib_symbols
-		(symbol "lily_symbols:ic_opamp_dual_TLV272CDR_soic8"
+		(symbol "lily_symbols:ic_opamp_dual_TLV272_soic8"
 			(pin_names
 				(offset 1.016)
 			)
@@ -134,7 +134,7 @@
 					)
 				)
 			)
-			(symbol "ic_opamp_dual_TLV272CDR_soic8_1_1"
+			(symbol "ic_opamp_dual_TLV272_soic8_1_1"
 				(polyline
 					(pts
 						(xy 3.81 2.54) (xy 3.81 -7.62) (xy 13.97 -2.54) (xy 3.81 2.54)
@@ -202,7 +202,7 @@
 					)
 				)
 			)
-			(symbol "ic_opamp_dual_TLV272CDR_soic8_2_1"
+			(symbol "ic_opamp_dual_TLV272_soic8_2_1"
 				(polyline
 					(pts
 						(xy 3.81 2.54) (xy 3.81 -7.62) (xy 13.97 -2.54) (xy 3.81 2.54)
@@ -270,7 +270,7 @@
 					)
 				)
 			)
-			(symbol "ic_opamp_dual_TLV272CDR_soic8_3_1"
+			(symbol "ic_opamp_dual_TLV272_soic8_3_1"
 				(rectangle
 					(start -2.54 -3.81)
 					(end 2.54 -16.51)
@@ -322,7 +322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_opamp_dual_TLV272CDR_soic8")
+		(lib_id "lily_symbols:ic_opamp_dual_TLV272_soic8")
 		(at 25.4 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -472,7 +472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_opamp_dual_TLV272CDR_soic8")
+		(lib_id "lily_symbols:ic_opamp_dual_TLV272_soic8")
 		(at 50.8 33.02 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -622,7 +622,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_opamp_dual_TLV272CDR_soic8")
+		(lib_id "lily_symbols:ic_opamp_dual_TLV272_soic8")
 		(at 76.2 25.4 0)
 		(unit 3)
 		(exclude_from_sim no)

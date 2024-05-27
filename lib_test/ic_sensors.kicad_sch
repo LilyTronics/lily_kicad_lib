@@ -11,7 +11,7 @@
 		(company "LilyTronics")
 	)
 	(lib_symbols
-		(symbol "lily_symbols:ic_sensor_temperature_LM335Z_to92"
+		(symbol "lily_symbols:ic_sensor_temperature_LM335_to92"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -125,7 +125,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ic_sensor_temperature_LM335Z_to92_0_1"
+			(symbol "ic_sensor_temperature_LM335_to92_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -3.81) (xy -1.905 -3.175)
@@ -211,7 +211,7 @@
 					)
 				)
 			)
-			(symbol "ic_sensor_temperature_LM335Z_to92_1_1"
+			(symbol "ic_sensor_temperature_LM335_to92_1_1"
 				(pin passive line
 					(at 5.08 -5.08 180)
 					(length 2.54)
@@ -270,7 +270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_sensor_temperature_LM335Z_to92")
+		(lib_id "lily_symbols:ic_sensor_temperature_LM335_to92")
 		(at 30.48 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
