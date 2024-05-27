@@ -30,7 +30,7 @@ class TestDesignParser:
                     if lines[i].startswith("\t\t(lib_id "):
                         symbol["lib_id"] = lines[i].strip()[8:].strip(")").strip('"')
                     if lines[i].startswith("\t\t(property "):
-                        parts = lines[i].strip().strip("(").split(" ")
+                        parts = lines[i].strip().strip("(").split(' "')
                         if len(parts) == 3:
                             symbol[parts[1].strip('"')] = parts[2].strip('"')
                 symbols.append(symbol)
@@ -55,7 +55,7 @@ class TestDesignParser:
                     if lines[i].startswith("\t)"):
                         break
                     if lines[i].startswith("\t\t(property "):
-                        parts = lines[i].strip().strip("(").split(" ")
+                        parts = lines[i].strip().strip("(").split(' "')
                         if len(parts) == 3:
                             footprint[parts[1].strip('"')] = parts[2].strip('"')
                     if lines[i].startswith("\t\t(model "):
