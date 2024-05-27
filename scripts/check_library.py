@@ -19,17 +19,21 @@ def _show_report(messages):
         for message in messages:
             print(format_string.format(item=message["item"], message=message["message"]))
         print(row_line)
-    print(f"{len(messages)} messages")
+    print(f"{len(messages)} messages\n")
 
 
 if __name__ == "__main__":
 
-    from models.symbols_checker import SymbolsChecker
     from models.footprints_checker import FootprintsChecker
+    from models.symbols_checker import SymbolsChecker
+    from models.test_design_checker import TestDesignChecker
 
     report_messages = []
     SymbolsChecker.run(report_messages)
     _show_report(report_messages)
     del report_messages[:]
     FootprintsChecker.run(report_messages)
+    _show_report(report_messages)
+    del report_messages[:]
+    TestDesignChecker.run(report_messages)
     _show_report(report_messages)
