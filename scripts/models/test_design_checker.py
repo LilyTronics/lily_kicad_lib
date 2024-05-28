@@ -21,6 +21,7 @@ class TestDesignChecker:
         cls._check_if_symbols_in_design(lib_symbols, design_symbols, report_messages)
         cls._check_if_footprints_in_design(design_symbols, lib_footprints, design_footprints, report_messages)
         cls._check_symbols_properties(design_symbols, lib_symbols, report_messages)
+        cls._check_symbols_vs_footprints(design_symbols, design_footprints, report_messages)
         return report_messages
 
     @classmethod
@@ -148,6 +149,55 @@ class TestDesignChecker:
                             "item": f"{design_symbol["Reference"]} ({lib_name})",
                             "message": f"field value for field {field} not correct: '{design_value}'"
                         })
+
+    @classmethod
+    def _check_symbols_vs_footprints(cls, design_symbols, design_footprints, report_messages):
+        for design_symbol in design_symbols:
+            if design_symbol["Reference"].startswith("#PWR"):
+                continue
+            matches = list(filter(lambda x: x["Reference"] == design_symbol["Reference"], design_footprints))
+            if len(matches) == 0:
+                report_messages.append({
+                    "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
+                    "message": f"symbol has no matching footprint in the PCB design"
+                })
+            else:
+                design_footprint = matches[0]
+                # print(design_symbol)
+                # print(design_footprint)
+                # Fields in the symbol but not in the footprint
+                diff = list(set(design_symbol.keys()) - set(design_footprint.keys()))
+                diff.remove("lib_id")
+                if len(diff) > 0:
+                    report_messages.append({
+                        "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
+                        "message": f"symbol has extra fields that are not in the footprint: {", ".join(diff)}"
+                    })
+                # Fields in the footprint but not in the symbol
+                diff = list(set(design_footprint.keys()) - set(design_symbol.keys()))
+                if "Model" in diff:
+                    diff.remove("Model")
+                if len(diff) > 0:
+                    report_messages.append({
+                        "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
+                        "message": f"footprint has extra fields that are not in the symbol: {", ".join(diff)}"
+                    })
+                for field in filter(lambda x: x != "lib_id", design_symbol):
+                    symbol_value = design_symbol[field]
+                    footprint_value = design_footprint.get(field, None)
+                    if symbol_value != footprint_value:
+                        report_messages.append({
+                            "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
+                            "message": f"value for field {field} in symbol is not matching with footprint"
+                        })
+
+        for design_footprint in design_footprints:
+            matches = list(filter(lambda x: x["Reference"] == design_footprint["Reference"], design_symbols))
+            if len(matches) == 0:
+                report_messages.append({
+                    "item": f"{design_footprint["Reference"]} ({design_footprint["Footprint"]})",
+                    "message": f"footprint has no matching symbol in the schematics design"
+                })
 
 
 if __name__ == "__main__":
