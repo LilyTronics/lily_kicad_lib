@@ -809,6 +809,12 @@
 	(net 676 "unconnected-(X10005-Pad1)")
 	(net 677 "unconnected-(X10005-Pad2)")
 	(net 678 "unconnected-(X10005-Pad3)")
+	(net 679 "unconnected-(X10006-Pad6)")
+	(net 680 "unconnected-(X10006-D--Pad2)")
+	(net 681 "unconnected-(X10006-GND-Pad4)")
+	(net 682 "unconnected-(X10006-D+-Pad3)")
+	(net 683 "unconnected-(X10006-Pad5)")
+	(net 684 "unconnected-(X10006-VBUS-Pad1)")
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
@@ -2692,7 +2698,9 @@
 			)
 		)
 		(path "/83efcd59-a8bf-48a1-9c1b-e7448bc070d0/7e7c8c97-db1f-47e0-9843-eef2a33cb23e")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(sheetname "Resistors")
+		(sheetfile "resistors.kicad_sch")
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -24454,6 +24462,283 @@
 			(uuid "8eb420dd-ea30-41ab-b0b5-68ebd5744655")
 		)
 		(model "../3d_models/res_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:con_usb_b_receptacle_th"
+		(layer "F.Cu")
+		(uuid "4fb245d5-23bc-44d5-9d4a-3e63ec060eba")
+		(at 243 70)
+		(property "Reference" "X10006"
+			(at -6.5 -10 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9fcd834d-965d-4a03-bb0a-a9f6959ccff0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "con_usb_b_receptacle_th"
+			(at -1 -1.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "375c8ebd-416b-4e11-ab70-c1376c7e9a4a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:con_usb_b_receptacle_th"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "920c8577-fd06-4112-aab4-0bb36153977f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a43a1e9-4a64-4628-bfdc-fbbc516d9bdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d00a86e3-9093-45a3-b3b5-3e1ed8a6df57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at -1 -1.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "939b1cc2-ec97-4963-b85a-a60d82ff50b8")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09da5214-9d29-403d-8470-8fcc31fc2cc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Jing Extension of the Electronic Co."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08981ded-1d03-4165-a29a-e69f8f7b724d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "921-111A1010D10200 "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b67ac04-83d1-410c-8e26-37107172cced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1910-10009"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "607a36a0-ee8b-41db-86f8-161b584d3bf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C46392"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc2e2e68-949d-4529-b0fd-7d0c73d85e42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95462ac9-56fe-43c9-bd71-4bcecb5f22bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e9fd7d9e-5683-413c-8ecf-1243d43cca04/eda309be-68ea-45fc-9456-1f682a941862")
+		(sheetname "Connectors")
+		(sheetfile "connectors.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
+		(fp_rect
+			(start -15 -9)
+			(end 1.7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "727d591d-4dc7-4384-aa8c-e4624ce4b976")
+		)
+		(fp_rect
+			(start -14.99 -7.27)
+			(end 1.51 4.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "fef7dfc5-43c3-4eef-8e2d-42d22a7d28e3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -1 -1.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2ce2ff18-d4db-45b6-864f-2fabb88f0db3")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 684 "unconnected-(X10006-VBUS-Pad1)")
+			(pinfunction "VBUS")
+			(pintype "power_out")
+			(solder_mask_margin 0.1)
+			(uuid "c8ba3307-13ee-4a9b-a9dd-414f40df6554")
+		)
+		(pad "2" thru_hole circle
+			(at 0 -2.5)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 680 "unconnected-(X10006-D--Pad2)")
+			(pinfunction "D-")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.1)
+			(uuid "2b72f8cc-07df-461a-bed5-bbae42efbedb")
+		)
+		(pad "3" thru_hole circle
+			(at -2 -2.5)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 682 "unconnected-(X10006-D+-Pad3)")
+			(pinfunction "D+")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.1)
+			(uuid "a9539b2a-4066-491f-8876-98b22d892bb4")
+		)
+		(pad "4" thru_hole circle
+			(at -2 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 681 "unconnected-(X10006-GND-Pad4)")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(solder_mask_margin 0.1)
+			(uuid "8a3a7bb1-d19c-4da0-974e-2e6eafe21a40")
+		)
+		(pad "5" thru_hole circle
+			(at -4.71 4.77)
+			(size 3 3)
+			(drill 2.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 683 "unconnected-(X10006-Pad5)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(uuid "ac494267-edab-46aa-a52d-4dd532839472")
+		)
+		(pad "6" thru_hole circle
+			(at -4.71 -7.27)
+			(size 3 3)
+			(drill 2.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 679 "unconnected-(X10006-Pad6)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(uuid "00d96f4f-fc67-4aaa-b8c1-6c4693518151")
+		)
+		(model "../3d_models/con_usb_b.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -84037,7 +84322,7 @@
 		(uuid "30e3dc4c-2926-494b-9fb1-705a8427d26f")
 	)
 	(gr_rect
-		(start 228 22.5)
+		(start 227 22.5)
 		(end 273 126)
 		(stroke
 			(width 0.1)
