@@ -3,6 +3,7 @@ Class that checks the symbols
 """
 
 import os
+
 from scripts.models.lib_parser import LibParser
 
 
@@ -53,6 +54,7 @@ class SymbolsChecker:
             cls._check_reference(symbol, report_messages)
             for field in symbol:
                 cls._check_symbol_field_empty(symbol, field, report_messages)
+            cls._check_value(symbol, report_messages)
             if symbol["Footprint"] != "":
                 cls._check_footprint(symbol, report_messages)
         return report_messages
@@ -112,6 +114,25 @@ class SymbolsChecker:
                     "item": symbol_data["Name"],
                     "message": f"field '{field_name}' is not empty"
                 })
+
+    @classmethod
+    def _check_value(cls, symbol_data, report_messages):
+        expected_value = symbol_data["Name"]
+        if "_do_not_populate" in symbol_data["Name"]:
+            expected_value = "dnp"
+        else:
+            for query in ("cap_", "dio_", "ic_", "ind_", "mosfet_", "res_"):
+                if symbol_data["Name"].startswith(query):
+                    value = f"_{symbol_data["Value"].replace("/", "_")}_"
+                    if value in symbol_data["Name"]:
+                        expected_value = symbol_data["Value"]
+                    break
+
+        if symbol_data["Value"] != expected_value:
+            report_messages.append({
+                "item": symbol_data["Name"],
+                "message": f"value '{symbol_data["Value"]}' is not correct, expected '{expected_value}'"
+            })
 
     @classmethod
     def _check_footprint(cls, symbol_data, report_messages):
