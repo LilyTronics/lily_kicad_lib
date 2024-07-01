@@ -382,6 +382,45 @@
 		)
 	)
 	(sheet
+		(at 210.82 63.5)
+		(size 22.86 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c08fe01-daf1-439c-ad77-d3845ab91d99")
+		(property "Sheetname" "IC Micro controllers"
+			(at 210.82 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ic_micro_controllers.kicad_sch"
+			(at 210.82 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 172.72 25.4)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
