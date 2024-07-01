@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Lily KiCad Library test")
-		(date "2024-05-03")
+		(date "2024-07-01")
 		(rev "1")
 		(company "LilyTronics")
 	)
@@ -494,6 +494,45 @@
 			(project "kicad_lib_test"
 				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 63.5)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a36be8d0-bc3d-4973-a559-35501cde04f1")
+		(property "Sheetname" "Crystals and oscillators"
+			(at 134.62 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "crystals_oscillators.kicad_sch"
+			(at 134.62 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
+					(page "12")
 				)
 			)
 		)

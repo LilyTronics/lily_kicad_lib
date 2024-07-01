@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "d343cfc9-c583-407b-9ec3-f7a0fac95932")
+	(uuid "37796a09-ab15-4b91-8a83-76c83bb932e6")
 	(paper "A4")
 	(title_block
 		(title "Lily KiCad Library test")
@@ -11,32 +11,28 @@
 		(company "LilyTronics")
 	)
 	(lib_symbols
-		(symbol "lily_symbols:ic_sensor_temperature_LM335_to92"
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "lily_symbols:crystal_16MHz_20ppm_8pF_3225"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 -3.81 0)
+			(property "Reference" "X"
+				(at 3.81 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LM335"
-				(at -10.16 -6.35 0)
+			(property "Value" "16MHz"
+				(at 3.81 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "lily_footprints:to92"
-				(at 0 -22.86 0)
+			(property "Footprint" "lily_footprints:crystal_3225"
+				(at 3.81 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +41,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -5.08 90)
+				(at -5.08 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -63,7 +59,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -17.78 0)
+				(at 3.81 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -72,7 +68,7 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -20.32 0)
+				(at 3.81 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -80,8 +76,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 0 -25.4 0)
+			(property "Manufacturer" "NDK"
+				(at 3.81 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -89,8 +85,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "LM335Z"
-				(at 0 -27.94 0)
+			(property "Manufacturer_ID" "NX3225GA-16MHZ-STD-CRG-2"
+				(at 3.81 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -98,8 +94,8 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1914-10005"
-				(at 0 -30.48 0)
+			(property "Lily_ID" "1917-10002"
+				(at 3.175 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -107,8 +103,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C10629"
-				(at 0 -33.02 0)
+			(property "JLCPCB_ID" "C156247"
+				(at 3.81 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -117,7 +113,7 @@
 				)
 			)
 			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -35.56 0)
+				(at 3.81 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -125,13 +121,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "ic_sensor_temperature_LM335_to92_0_1"
+			(symbol "crystal_16MHz_20ppm_8pF_3225_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -3.81) (xy -1.905 -3.175)
+						(xy 2.54 1.27) (xy 2.54 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.381)
 						(type default)
 					)
 					(fill
@@ -140,70 +136,21 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -7.62) (xy 0 -6.35)
+						(xy 5.08 1.27) (xy 5.08 -1.27)
 					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.302 2.286)
+					(end 4.318 -2.286)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.905 -4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 0.762 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -6.35) (xy 1.27 -6.35) (xy 0 -3.81) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -211,9 +158,9 @@
 					)
 				)
 			)
-			(symbol "ic_sensor_temperature_LM335_to92_1_1"
+			(symbol "crystal_16MHz_20ppm_8pF_3225_1_1"
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 0 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -230,9 +177,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
+				(pin no_connect line
+					(at 0 -2.54 0)
+					(length 2.54) hide
 					(name ""
 						(effects
 							(font
@@ -249,7 +196,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -266,38 +213,54 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_sensor_temperature_LM335_to92")
-		(at 30.48 25.4 0)
+		(lib_id "lily_symbols:crystal_16MHz_20ppm_8pF_3225")
+		(at 25.4 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2a868f37-cd0a-488f-be0f-d4cc51aa69ea")
-		(property "Reference" "U8001"
-			(at 20.32 29.21 0)
+		(uuid "5ad85552-646b-4f0f-8826-374f1a51a6e7")
+		(property "Reference" "X12001"
+			(at 29.21 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LM335"
-			(at 20.32 31.75 0)
+		(property "Value" "16MHz"
+			(at 29.21 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:to92"
-			(at 30.48 48.26 0)
+		(property "Footprint" "lily_footprints:crystal_3225"
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -306,7 +269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 30.48 90)
+			(at 20.32 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +278,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 25.4 0)
+			(at 25.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -324,7 +287,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 30.48 43.18 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +296,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 30.48 45.72 0)
+			(at 29.21 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,8 +304,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 30.48 50.8 0)
+		(property "Manufacturer" "NDK"
+			(at 29.21 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,8 +313,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "LM335Z"
-			(at 30.48 53.34 0)
+		(property "Manufacturer_ID" "NX3225GA-16MHZ-STD-CRG-2"
+			(at 29.21 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -359,8 +322,8 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1914-10005"
-			(at 30.48 55.88 0)
+		(property "Lily_ID" "1917-10002"
+			(at 28.575 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,8 +331,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C10629"
-			(at 30.48 58.42 0)
+		(property "JLCPCB_ID" "C156247"
+			(at 29.21 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +341,7 @@
 			)
 		)
 		(property "JLCPCB_STATUS" "Extended"
-			(at 30.48 60.96 0)
+			(at 29.21 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,19 +349,22 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "9aa16bfd-0d93-43d7-a300-8bdd763a733f")
+		)
 		(pin "1"
-			(uuid "175dcfe5-52ce-4278-aec4-3c13db7266f6")
+			(uuid "95917815-4b9e-4aba-84f4-d4a69a3cf71e")
+		)
+		(pin "4"
+			(uuid "65bde729-b13f-4365-966e-31d3892bf2a5")
 		)
 		(pin "3"
-			(uuid "91f69843-9ab0-4abe-b708-f4a1c8055448")
-		)
-		(pin "2"
-			(uuid "e446215f-949e-402b-9769-9e22551a7863")
+			(uuid "1bc49ad6-dbca-4664-81f9-03dcb51f9a74")
 		)
 		(instances
 			(project "kicad_lib_test"
-				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/19bb89d4-4435-499d-abf8-0eaf7b787d71"
-					(reference "U8001")
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/a36be8d0-bc3d-4973-a559-35501cde04f1"
+					(reference "X12001")
 					(unit 1)
 				)
 			)
