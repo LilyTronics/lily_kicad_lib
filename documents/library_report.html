@@ -216,6 +216,7 @@ const parts = [
     { Name: "ic_volt_reg_AZ1117_sot223", Extends: "ic_volt_reg_linear_adjustable_3p", Reference: "U", Value: "AZ1117", Description: "", Datasheet: "", Footprint: "lily_footprints:sot223", Revision: "1", Status: "Active", Manufacturer: "Diodes Incorporated", Manufacturer_ID: "AZ1117CH-ADJTRG1", Lily_ID: "1914-10010", JLCPCB_ID: "C95398", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_600R@100MHz_1A5_0R25_0805", Extends: "ind_bead", Reference: "L", Value: "600R/0R25", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_0805", Revision: "1", Status: "Active", Manufacturer: "Guangdong Fenghua Advanced Tech", Manufacturer_ID: "CBW201209U601T", Lily_ID: "1916-xxxxx", JLCPCB_ID: "C21286", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_do_not_populate_0805", Extends: "ind_bead", Reference: "L", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_0805_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "ind_common_mode_700R@100MHz_5A_10mR_9x7mm", Extends: "ind_common_mode", Reference: "L", Value: "700R / 10mR", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_common_mode_9x7mm", Revision: "1", Status: "Active", Manufacturer: "TDK", Manufacturer_ID: "ACM90V-701-2PL-TL00", Lily_ID: "1916-10003", JLCPCB_ID: "C87510", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "mosfet_n_AO3400A_sot23", Extends: "mosfet_n_3p", Reference: "Q", Value: "AO3400A", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "Alpha and Omega Semicon ", Manufacturer_ID: "AO3400A", Lily_ID: "1918-10001", JLCPCB_ID: "C20917", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "res_0R_1%_125mW_0805", Extends: "res", Reference: "R", Value: "0R", Description: "", Datasheet: "", Footprint: "lily_footprints:res_0805", Revision: "1", Status: "Active", Manufacturer: "Uniroyal Electronics", Manufacturer_ID: "0805W8F0000T5E", Lily_ID: "1913-10000", JLCPCB_ID: "C17477", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "res_100R_1%_125mW_0805", Extends: "res", Reference: "R", Value: "100R", Description: "", Datasheet: "", Footprint: "lily_footprints:res_0805", Revision: "1", Status: "Active", Manufacturer: "Uniroyal Electronics", Manufacturer_ID: "0805W8F1000T5E", Lily_ID: "1913-11002", JLCPCB_ID: "C17408", JLCPCB_STATUS: "Basic", Notes: "" },
@@ -422,7 +423,7 @@ const footprints = [
     { Name: "ind_0805", Revision: "1", Model: "../3d_models/ind_0805.step" },
     { Name: "ind_0805_dnp", Revision: "1", Model: "" },
     { Name: "ind_5x5mm", Revision: "1", Model: "../3d_models/ind_5x5mm_h2mm.step" },
-    { Name: "ind_common_mode_acm90v", Revision: "1", Model: "../3d_models/ind_acm90v.step" },
+    { Name: "ind_common_mode_9x7mm", Revision: "1", Model: "../3d_models/ind_acm90v.step" },
     { Name: "led_0805", Revision: "1", Model: "../3d_models/led_0805.step" },
     { Name: "led_3mm_green_edge_mount", Revision: "1", Model: "../3d_models/led_3mm_green_edge_mount.step" },
     { Name: "led_3mm_red_edge_mount", Revision: "1", Model: "../3d_models/led_3mm_red_edge_mount.step" },
@@ -517,8 +518,8 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2024-07-03 18:24</p>
-<p>Total symbols: 330</p>
+<p>Last updated: 2024-07-03 18:37</p>
+<p>Total symbols: 331</p>
 <p>Total footprints: 61</p>
 </div>
 
