@@ -655,6 +655,45 @@
 		)
 	)
 	(sheet
+		(at 20.32 101.6)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c655c5f4-19ef-4ced-af22-6c43d681af5e")
+		(property "Sheetname" "IC Voltage regulators"
+			(at 20.32 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ic_volt_reg.kicad_sch"
+			(at 20.32 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kicad_lib_test"
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 172.72 63.5)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)

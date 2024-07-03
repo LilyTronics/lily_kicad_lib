@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "94210627-5f2a-4e02-9e5f-85650610e90e")
+	(uuid "f3b773cd-faee-4832-aa2c-80d6d072d024")
 	(paper "A4")
 	(title_block
 		(title "Lily KiCad Library test")
@@ -11,12 +11,15 @@
 		(company "LilyTronics")
 	)
 	(lib_symbols
-		(symbol "lily_symbols:ic_timer_NE555_soic8"
+		(symbol "lily_symbols:ic_volt_reg_AZ1117_sot223"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 17.78 11.43 0)
+				(at 5.08 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,8 +27,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NE555"
-				(at 17.78 8.89 0)
+			(property "Value" "AZ1117"
+				(at 5.08 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,8 +36,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "lily_footprints:soic8"
-				(at 12.7 -38.1 0)
+			(property "Footprint" "lily_footprints:sot223"
+				(at 10.16 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -61,7 +64,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 12.7 -33.02 0)
+				(at 10.16 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -70,7 +73,7 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 12.7 -35.56 0)
+				(at 10.16 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -78,8 +81,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "IDCHIP"
-				(at 12.7 -40.64 0)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 10.16 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -87,8 +90,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "NE555"
-				(at 12.7 -43.18 0)
+			(property "Manufacturer_ID" "AZ1117CH-ADJTRG1"
+				(at 10.16 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -96,8 +99,8 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1914-10012"
-				(at 12.7 -45.72 0)
+			(property "Lily_ID" "1914-10010"
+				(at 10.16 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -105,8 +108,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C5125085"
-				(at 12.7 -48.26 0)
+			(property "JLCPCB_ID" "C95398"
+				(at 10.16 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -115,7 +118,7 @@
 				)
 			)
 			(property "JLCPCB_STATUS" "Extended"
-				(at 12.7 -50.8 0)
+				(at 10.16 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -123,10 +126,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ic_timer_NE555_soic8_0_1"
+			(symbol "ic_volt_reg_AZ1117_sot223_0_1"
 				(rectangle
-					(start 3.81 6.35)
-					(end 21.59 -16.51)
+					(start 3.81 2.54)
+					(end 16.51 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -136,11 +139,11 @@
 					)
 				)
 			)
-			(symbol "ic_timer_NE555_soic8_1_1"
-				(pin power_in line
-					(at 12.7 -20.32 90)
+			(symbol "ic_volt_reg_AZ1117_sot223_1_1"
+				(pin input line
+					(at 0 0 0)
 					(length 3.81)
-					(name "GND"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,10 +158,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -10.16 0)
+				(pin passive line
+					(at 10.16 -10.16 90)
 					(length 3.81)
-					(name "TRIG"
+					(name "ADJ"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -174,7 +177,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 0 180)
+					(at 20.32 0 180)
 					(length 3.81)
 					(name "OUT"
 						(effects
@@ -191,110 +194,20 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 10.16 270)
-					(length 3.81)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 3.81)
-					(name "CONT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 3.81)
-					(name "THR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 25.4 -10.16 180)
-					(length 3.81)
-					(name "~{DIS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 10.16 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_timer_NE555_soic8")
-		(at 25.4 35.56 0)
+		(lib_id "lily_symbols:ic_volt_reg_AZ1117_sot223")
+		(at 25.4 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "79d34989-ae96-4ad1-a6aa-65e435779f42")
-		(property "Reference" "U15001"
-			(at 43.18 24.13 0)
+		(uuid "2a0e1d09-3a5d-4897-a76b-1b88d41bbf08")
+		(property "Reference" "U16001"
+			(at 30.48 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,8 +215,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NE555"
-			(at 43.18 26.67 0)
+		(property "Value" "AZ1117"
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -311,8 +224,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:soic8"
-			(at 38.1 73.66 0)
+		(property "Footprint" "lily_footprints:sot223"
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,7 +234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 35.56 0)
+			(at 25.4 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +243,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 35.56 0)
+			(at 25.4 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,7 +252,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 38.1 68.58 0)
+			(at 35.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +261,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 38.1 71.12 0)
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,8 +269,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "IDCHIP"
-			(at 38.1 76.2 0)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 35.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,8 +278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "NE555"
-			(at 38.1 78.74 0)
+		(property "Manufacturer_ID" "AZ1117CH-ADJTRG1"
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374,8 +287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1914-10012"
-			(at 38.1 81.28 0)
+		(property "Lily_ID" "1914-10010"
+			(at 35.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,8 +296,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C5125085"
-			(at 38.1 83.82 0)
+		(property "JLCPCB_ID" "C95398"
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +306,7 @@
 			)
 		)
 		(property "JLCPCB_STATUS" "Extended"
-			(at 38.1 86.36 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,34 +314,19 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "39668a1f-9084-4c57-891e-2df6207255bb")
-		)
-		(pin "5"
-			(uuid "10ac9090-2dce-40bf-ad20-34e368691e72")
-		)
-		(pin "7"
-			(uuid "a4bda6e3-08f2-429f-bd53-837b33ef9d64")
-		)
 		(pin "2"
-			(uuid "4c4ade20-2813-4772-bb3e-4515ea7ad5c2")
-		)
-		(pin "1"
-			(uuid "55659ca3-d1e1-45fd-8c21-43ffaf68d76c")
+			(uuid "a6f2abc1-6c38-4dc4-925a-8c61aebba622")
 		)
 		(pin "3"
-			(uuid "94d7f1f2-639b-43f7-abd7-26bffc58b509")
+			(uuid "2e7914d6-82f2-4f32-81c9-654555bc4b09")
 		)
-		(pin "4"
-			(uuid "5dbc181a-274c-4545-9b37-3ba566fe8ed0")
-		)
-		(pin "8"
-			(uuid "b8ac44fe-e538-4379-bb8e-4c131aabf97f")
+		(pin "1"
+			(uuid "6da89210-83f3-435e-b99a-8e27cc1b8b96")
 		)
 		(instances
 			(project "kicad_lib_test"
-				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/a89ded65-6ba0-47b6-baaa-9b3f23dcb92f"
-					(reference "U15001")
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/c655c5f4-19ef-4ced-af22-6c43d681af5e"
+					(reference "U16001")
 					(unit 1)
 				)
 			)
