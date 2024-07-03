@@ -895,6 +895,10 @@
 	(net 762 "unconnected-(U8002-GND-Pad2)")
 	(net 763 "unconnected-(U8002-NC-Pad1)")
 	(net 764 "unconnected-(U8002-IOUT-Pad3)")
+	(net 765 "unconnected-(L4003-Pad3)")
+	(net 766 "unconnected-(L4003-Pad2)")
+	(net 767 "unconnected-(L4003-Pad4)")
+	(net 768 "unconnected-(L4003-Pad1)")
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
 		(uuid "00627893-e126-4ddb-ae74-9001fa9ba9b6")
@@ -51347,7 +51351,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "9a379b71-4553-4b6f-a46e-3e6b5264a12e")
-		(at 57 110)
+		(at 57 118)
 		(property "Reference" "Q6001"
 			(at 0 -3 0)
 			(layer "F.SilkS")
@@ -64181,6 +64185,253 @@
 			(uuid "f867ae77-1a5e-4de0-928a-167221d4adc9")
 		)
 		(model "../3d_models/res_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:ind_common_mode_9x7mm"
+		(layer "F.Cu")
+		(uuid "bee7f42c-3d21-43ef-8bae-304d7165a765")
+		(at 61 104)
+		(property "Reference" "L4003"
+			(at 0 -4.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3dda1594-7d57-4c1d-998d-d9b60d081474")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "700R / 10mR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0942351-b2ce-496e-9971-6faebcbd5dcf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Footprint" "lily_footprints:ind_common_mode_9x7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1362c454-1431-47c5-bb4b-596ca59aad8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03925798-6360-4eac-b2fb-d69dbab6b6d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cd31f74-42ab-4fdd-8112-015db0d25a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0763ed52-0738-4579-8b1c-2008630ac8f6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ea538f1-ea43-4fa1-8827-06a5362a592c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26aed9b4-1aa4-4cfc-a166-866fb3232f29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "ACM90V-701-2PL-TL00"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dfe35fb-962e-4437-b667-e90195fab09d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1916-10003"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf50e573-0477-41d7-98db-16631299c984")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C87510"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecce018c-7be8-4982-bc6e-37c0e7cfc971")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b13d319-0a49-4330-8af2-f7f0c25e880b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ac804940-04be-4885-b738-67220611f5f6/365f9bd0-0c59-4880-bde2-c89d350ecdc2")
+		(sheetname "Inductors")
+		(sheetfile "inductors.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -5.45 -3.7)
+			(end 5.45 3.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "69f5ddc8-a43a-4cdd-92e1-72b5cbf372b0")
+		)
+		(fp_rect
+			(start -4.5 -3.5)
+			(end 4.5 3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "c1cea232-1b39-412d-b2b3-5337ca3d8b93")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3dfeb92c-9ff6-4ab3-9ce0-999f44ad7536")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -4 -1.75)
+			(size 2.5 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 768 "unconnected-(L4003-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.1)
+			(uuid "af7dfb5e-7f26-4403-8cad-de33d3c861d8")
+		)
+		(pad "2" smd rect
+			(at -4 1.75)
+			(size 2.5 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 766 "unconnected-(L4003-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.1)
+			(uuid "650ad16c-1fa4-4173-96a3-963f13e320b1")
+		)
+		(pad "3" smd rect
+			(at 4 1.75)
+			(size 2.5 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 765 "unconnected-(L4003-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.1)
+			(uuid "2ae8c971-13ac-474b-b3d2-e790a01b5a46")
+		)
+		(pad "4" smd rect
+			(at 4 -1.75)
+			(size 2.5 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 767 "unconnected-(L4003-Pad4)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.1)
+			(uuid "9526cdb1-2ed2-49b3-a49d-1400055d638b")
+		)
+		(model "../3d_models/ind_acm90v.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -88824,8 +89075,8 @@
 		(uuid "3dabc456-f776-4bb9-ad42-b3041d77d007")
 	)
 	(gr_rect
-		(start 54 103)
-		(end 84 113)
+		(start 54 111)
+		(end 84 121)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -88880,7 +89131,7 @@
 	)
 	(gr_rect
 		(start 54 92)
-		(end 84 101)
+		(end 84 109)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -89124,7 +89375,7 @@
 		)
 	)
 	(gr_text "TRANSISTORS"
-		(at 54.5 105 0)
+		(at 54.5 113 0)
 		(layer "F.SilkS")
 		(uuid "d9e36a2a-2330-4a9f-a26a-0e1066a0a75b")
 		(effects
