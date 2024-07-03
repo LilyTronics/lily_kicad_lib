@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "37796a09-ab15-4b91-8a83-76c83bb932e6")
+	(uuid "da5f29a9-df52-470b-bc8a-c9ca65bf4adf")
 	(paper "A4")
 	(title_block
 		(title "Lily KiCad Library test")
@@ -11,28 +11,30 @@
 		(company "LilyTronics")
 	)
 	(lib_symbols
-		(symbol "lily_symbols:crystal_16MHz_20ppm_8pF_3225"
+		(symbol "lily_symbols:ic_timer_NE555_soic8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X"
-				(at 3.81 6.35 0)
+			(property "Reference" "U"
+				(at 17.78 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "16MHz"
-				(at 3.81 3.81 0)
+			(property "Value" "NE555"
+				(at 17.78 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "lily_footprints:crystal_3225"
-				(at 3.81 -10.16 0)
+			(property "Footprint" "lily_footprints:soic8"
+				(at 12.7 -38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -41,7 +43,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -5.08 7.62 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -59,7 +61,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 3.81 -5.08 0)
+				(at 12.7 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -68,7 +70,7 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 3.81 -7.62 0)
+				(at 12.7 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -76,8 +78,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "NDK"
-				(at 3.81 -12.7 0)
+			(property "Manufacturer" "IDCHIP"
+				(at 12.7 -40.64 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -85,8 +87,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "NX3225GA-16MHZ-STD-CRG-2"
-				(at 3.81 -15.24 0)
+			(property "Manufacturer_ID" "NE555"
+				(at 12.7 -43.18 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -94,8 +96,8 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1917-10002"
-				(at 3.175 -17.78 0)
+			(property "Lily_ID" "1914-10012"
+				(at 12.7 -45.72 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -103,8 +105,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C156247"
-				(at 3.81 -20.32 0)
+			(property "JLCPCB_ID" "C5125085"
+				(at 12.7 -48.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -113,7 +115,7 @@
 				)
 			)
 			(property "JLCPCB_STATUS" "Extended"
-				(at 3.81 -22.86 0)
+				(at 12.7 -50.8 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -121,48 +123,24 @@
 					(hide yes)
 				)
 			)
-			(symbol "crystal_16MHz_20ppm_8pF_3225_0_1"
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "ic_timer_NE555_soic8_0_1"
 				(rectangle
-					(start 3.302 2.286)
-					(end 4.318 -2.286)
+					(start 3.81 6.35)
+					(end 21.59 -16.51)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
-			(symbol "crystal_16MHz_20ppm_8pF_3225_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
+			(symbol "ic_timer_NE555_soic8_1_1"
+				(pin power_in line
+					(at 12.7 -20.32 90)
+					(length 3.81)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -177,10 +155,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -2.54 0)
-					(length 2.54) hide
-					(name ""
+				(pin input line
+					(at 0 -10.16 0)
+					(length 3.81)
+					(name "TRIG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -195,10 +173,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
+				(pin output line
+					(at 25.4 0 180)
+					(length 3.81)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -213,10 +191,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 -2.54 180)
-					(length 2.54) hide
-					(name ""
+				(pin input line
+					(at 10.16 10.16 270)
+					(length 3.81)
+					(name "~{RST}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -231,36 +209,110 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 3.81)
+					(name "CONT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 3.81)
+					(name "THR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 25.4 -10.16 180)
+					(length 3.81)
+					(name "~{DIS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 10.16 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:crystal_16MHz_20ppm_8pF_3225")
-		(at 25.4 25.4 0)
+		(lib_id "lily_symbols:ic_timer_NE555_soic8")
+		(at 25.4 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5ad85552-646b-4f0f-8826-374f1a51a6e7")
-		(property "Reference" "X12001"
-			(at 29.21 19.05 0)
+		(uuid "79d34989-ae96-4ad1-a6aa-65e435779f42")
+		(property "Reference" "U15001"
+			(at 43.18 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "16MHz"
-			(at 29.21 21.59 0)
+		(property "Value" "NE555"
+			(at 43.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:crystal_3225"
-			(at 29.21 35.56 0)
+		(property "Footprint" "lily_footprints:soic8"
+			(at 38.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 17.78 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,7 +330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 25.4 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +339,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 29.21 30.48 0)
+			(at 38.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +348,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 29.21 33.02 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -304,8 +356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "NDK"
-			(at 29.21 38.1 0)
+		(property "Manufacturer" "IDCHIP"
+			(at 38.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -313,8 +365,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "NX3225GA-16MHZ-STD-CRG-2"
-			(at 29.21 40.64 0)
+		(property "Manufacturer_ID" "NE555"
+			(at 38.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -322,8 +374,8 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1917-10002"
-			(at 28.575 43.18 0)
+		(property "Lily_ID" "1914-10012"
+			(at 38.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,8 +383,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C156247"
-			(at 29.21 45.72 0)
+		(property "JLCPCB_ID" "C5125085"
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +393,7 @@
 			)
 		)
 		(property "JLCPCB_STATUS" "Extended"
-			(at 29.21 48.26 0)
+			(at 38.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -349,22 +401,34 @@
 				(hide yes)
 			)
 		)
+		(pin "6"
+			(uuid "39668a1f-9084-4c57-891e-2df6207255bb")
+		)
+		(pin "5"
+			(uuid "10ac9090-2dce-40bf-ad20-34e368691e72")
+		)
+		(pin "7"
+			(uuid "a4bda6e3-08f2-429f-bd53-837b33ef9d64")
+		)
 		(pin "2"
-			(uuid "9aa16bfd-0d93-43d7-a300-8bdd763a733f")
+			(uuid "4c4ade20-2813-4772-bb3e-4515ea7ad5c2")
 		)
 		(pin "1"
-			(uuid "95917815-4b9e-4aba-84f4-d4a69a3cf71e")
-		)
-		(pin "4"
-			(uuid "65bde729-b13f-4365-966e-31d3892bf2a5")
+			(uuid "55659ca3-d1e1-45fd-8c21-43ffaf68d76c")
 		)
 		(pin "3"
-			(uuid "1bc49ad6-dbca-4664-81f9-03dcb51f9a74")
+			(uuid "94d7f1f2-639b-43f7-abd7-26bffc58b509")
+		)
+		(pin "4"
+			(uuid "5dbc181a-274c-4545-9b37-3ba566fe8ed0")
+		)
+		(pin "8"
+			(uuid "b8ac44fe-e538-4379-bb8e-4c131aabf97f")
 		)
 		(instances
 			(project "kicad_lib_test"
-				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/a36be8d0-bc3d-4973-a559-35501cde04f1"
-					(reference "X12001")
+				(path "/032b8f2d-5c08-4381-9e3a-c197ca84e3c5/a89ded65-6ba0-47b6-baaa-9b3f23dcb92f"
+					(reference "U15001")
 					(unit 1)
 				)
 			)
