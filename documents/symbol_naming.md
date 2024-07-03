@@ -12,10 +12,9 @@ Space must be replaced with underscores.
 | Diode schottky      | dio schottky type_number package                               | D   |
 | Diode TVS           | dio tvs uni/bi channels voltage package                        | D   |
 | Diode zener         | dio zener voltage power package                                | D   |
-| IC opamp single     | ic opamp single type_number package                            | U   |
-| IC opamp dual       | ic opamp dual type_number package                              | U   |
-| IC opamp quad       | ic opamp quad type_number package                              | U   |
-| IC sensor           | ic sensor function type number package                         | U   |
+| IC                  | ic function type_number package                                | U   |
+| IC with channels    | ic function channels type_number package                       | U   |
+| IC logic gate       | ic logic gate channels gate_type package                       | U   |
 | Inductor bead       | ind bead resistance@frequency current dc_resistance package    | L   |
 | MOSFETs             | mosfet n/p type_number package                                 | Q   |
 | Resistors E-series  | res resistance tolerance power package                         | R   |
