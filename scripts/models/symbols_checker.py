@@ -120,13 +120,22 @@ class SymbolsChecker:
         expected_value = symbol_data["Name"]
         if "_do_not_populate" in symbol_data["Name"]:
             expected_value = "dnp"
+        elif symbol_data["Name"].startswith("test_point_"):
+            expected_value = "test_point"
         else:
-            for query in ("cap_", "dio_", "ic_", "ind_", "mosfet_", "res_"):
+            for query in ("cap_", "crystal_", "dio_", "ic_", "ind_", "mosfet_", "res_"):
                 if symbol_data["Name"].startswith(query):
                     value = f"_{symbol_data["Value"].replace("/", "_")}_"
                     if value in symbol_data["Name"]:
                         expected_value = symbol_data["Value"]
                     break
+            for query in ("ind_bead_", "ind_common_mode_"):
+                if symbol_data["Name"].startswith(query):
+                    parts = symbol_data["Value"].split("/")
+                    for part in parts:
+                        if f"_{part}@100MHz_" in symbol_data["Name"] or f"_{part}_" in symbol_data["Name"]:
+                            expected_value = symbol_data["Value"]
+                            break
 
         if symbol_data["Value"] != expected_value:
             report_messages.append({
