@@ -13522,10 +13522,10 @@
 			)
 		)
 		(symbol "ic_volt_reg_linear_adjustable_3p_1_1"
-			(pin input line
-				(at 0 0 0)
+			(pin passive line
+				(at 10.16 -10.16 90)
 				(length 3.81)
-				(name "IN"
+				(name "ADJ"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13540,10 +13540,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 10.16 -10.16 90)
+			(pin output line
+				(at 20.32 0 180)
 				(length 3.81)
-				(name "ADJ"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13558,10 +13558,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 20.32 0 180)
+			(pin input line
+				(at 0 0 0)
 				(length 3.81)
-				(name "OUT"
+				(name "IN"
 					(effects
 						(font
 							(size 1.27 1.27)
