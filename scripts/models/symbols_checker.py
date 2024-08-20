@@ -123,7 +123,7 @@ class SymbolsChecker:
         elif symbol_data["Name"].startswith("test_point_"):
             expected_value = "test_point"
         else:
-            for query in ("cap_", "crystal_", "dio_", "ic_", "ind_", "mosfet_", "res_"):
+            for query in ("cap_", "crystal_", "dio_", "ic_", "ind_", "mosfet_", "res_", "pot_"):
                 if symbol_data["Name"].startswith(query):
                     value = f"_{symbol_data["Value"].replace("/", "_")}_"
                     if value in symbol_data["Name"]:
