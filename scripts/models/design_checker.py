@@ -3,21 +3,21 @@ Class that checks the test design.
 """
 
 from scripts.models.lib_parser import LibParser
-from scripts.models.test_design_parser import TestDesignParser
+from scripts.models.design_parser import DesignParser
 
 
-class TestDesignChecker:
+class DesignChecker:
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]
     SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
 
     @classmethod
-    def run(cls):
+    def run(cls, project_folder):
         report_messages = []
         lib_symbols = LibParser.get_symbols()
         lib_footprints = LibParser.get_footprints()
-        design_symbols = TestDesignParser.get_symbols()
-        design_footprints = TestDesignParser.get_footprints()
+        design_symbols = DesignParser.get_symbols(project_folder)
+        design_footprints = DesignParser.get_footprints(project_folder)
         cls._check_if_symbols_in_design(lib_symbols, design_symbols, report_messages)
         cls._check_if_footprints_in_design(design_symbols, lib_footprints, design_footprints, report_messages)
         cls._check_symbols_properties(design_symbols, lib_symbols, report_messages)
@@ -202,7 +202,9 @@ class TestDesignChecker:
 
 if __name__ == "__main__":
 
-    messages = TestDesignChecker.run()
+    _test_project_folder = "..\\..\\projects\\lib_test"
+
+    messages = DesignChecker.run(_test_project_folder)
     print(f"{len(messages)} messages")
     for message in messages:
         print(message)

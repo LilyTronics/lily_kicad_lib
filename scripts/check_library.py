@@ -26,8 +26,8 @@ if __name__ == "__main__":
 
     from models.footprints_checker import FootprintsChecker
     from models.symbols_checker import SymbolsChecker
-    from models.test_design_checker import TestDesignChecker
+    from models.projects_checker import ProjectsChecker
 
     _show_report(SymbolsChecker.run())
     _show_report(FootprintsChecker.run())
-    _show_report(TestDesignChecker.run())
+    _show_report(ProjectsChecker.run())

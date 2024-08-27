@@ -6,16 +6,16 @@ import glob
 import os
 
 
-class TestDesignParser:
+class DesignParser:
 
     SCRIPT_PATH = os.path.dirname(__file__)
     TEST_DESIGN_PATH = os.path.abspath(os.path.join(SCRIPT_PATH, "..", "..", "lib_test"))
 
     @classmethod
-    def get_symbols(cls):
-        print(f"Read schematics from: {cls.TEST_DESIGN_PATH}")
+    def get_symbols(cls, project_folder):
+        print(f"Read schematics from: {project_folder}")
         lines = []
-        for item in glob.glob(os.path.join(cls.TEST_DESIGN_PATH, "*.kicad_sch")):
+        for item in glob.glob(os.path.join(project_folder, "*.kicad_sch")):
             with open(item, "r") as fp:
                 lines.extend(fp.readlines())
         symbols = []
@@ -38,8 +38,8 @@ class TestDesignParser:
         return symbols
 
     @classmethod
-    def get_footprints(cls):
-        pcb_filename = os.path.join(cls.TEST_DESIGN_PATH, "kicad_lib_test.kicad_pcb")
+    def get_footprints(cls, project_folder):
+        pcb_filename = os.path.join(project_folder, "kicad_lib_test.kicad_pcb")
         print(f"Read layout from: {pcb_filename}")
         with open(pcb_filename, "r") as fp:
             lines = fp.readlines()
@@ -67,14 +67,15 @@ class TestDesignParser:
 
 if __name__ == "__main__":
 
-    _symbols = TestDesignParser.get_symbols()
+    _test_project_folder = "..\\..\\projects\\lib_test"
+    _symbols = DesignParser.get_symbols(_test_project_folder)
     print("Symbols:", len(_symbols))
     if len(_symbols) > 0:
         print("Showing max 10 symbols:")
         for _symbol in _symbols[:10]:
             print(_symbol)
 
-    _footprints = TestDesignParser.get_footprints()
+    _footprints = DesignParser.get_footprints(_test_project_folder)
     print("\nFootprints:", len(_footprints))
     if len(_footprints) > 0:
         print("Showing max 10 footprints:")
