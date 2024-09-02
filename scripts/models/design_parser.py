@@ -39,29 +39,31 @@ class DesignParser:
 
     @classmethod
     def get_footprints(cls, project_folder):
-        pcb_filename = os.path.join(project_folder, "kicad_lib_test.kicad_pcb")
-        print(f"Read layout from: {pcb_filename}")
-        with open(pcb_filename, "r") as fp:
-            lines = fp.readlines()
         footprints = []
-        i = 0
-        while i < len(lines):
-            if lines[i].startswith("\t(footprint "):
-                footprint = {
-                    "Footprint": lines[i].strip()[11:].strip(")").strip('"')
-                }
-                while i < len(lines):
-                    i += 1
-                    if lines[i].startswith("\t)"):
-                        break
-                    if lines[i].startswith("\t\t(property "):
-                        parts = lines[i].strip()[10:].split('" "')
-                        if len(parts) == 2:
-                            footprint[parts[0].strip('"')] = parts[1].strip().strip('"')
-                    if lines[i].startswith("\t\t(model "):
-                        footprint["Model"] = lines[i].strip()[7:].strip(")").strip('"')
-                footprints.append(footprint)
-            i += 1
+        items = glob.glob(os.path.join(project_folder, "*.kicad_pcb"))
+        if len(items) == 1:
+            pcb_filename = items[0]
+            print(f"Read layout from: {pcb_filename}")
+            with open(pcb_filename, "r") as fp:
+                lines = fp.readlines()
+            i = 0
+            while i < len(lines):
+                if lines[i].startswith("\t(footprint "):
+                    footprint = {
+                        "Footprint": lines[i].strip()[11:].strip(")").strip('"')
+                    }
+                    while i < len(lines):
+                        i += 1
+                        if lines[i].startswith("\t)"):
+                            break
+                        if lines[i].startswith("\t\t(property "):
+                            parts = lines[i].strip()[10:].split('" "')
+                            if len(parts) == 2:
+                                footprint[parts[0].strip('"')] = parts[1].strip().strip('"')
+                        if lines[i].startswith("\t\t(model "):
+                            footprint["Model"] = lines[i].strip()[7:].strip(")").strip('"')
+                    footprints.append(footprint)
+                i += 1
         return footprints
 
 
