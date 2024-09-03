@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4f8714f0-7638-4881-9a2e-de7fdf0683a2")
+	(paper "A4")
+	(title_block
+		(title "Arduino Base")
+		(date "2024-08-28")
+		(rev "1")
+	)
+	(lib_symbols)
+	(text "This project can be used as a start for your own Arduino compatible board."
+		(exclude_from_sim no)
+		(at 15.875 15.875 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "025b6be4-11c4-487c-8509-ef538ab68d72")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
