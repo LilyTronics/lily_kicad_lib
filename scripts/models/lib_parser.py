@@ -98,9 +98,9 @@ class LibParser:
                     if len(parts) == 2:
                         property_name = parts[0].strip('"')
                         property_data["Value"] = parts[1].strip().strip('"')
-                elif lines[i].startswith('\t(fp_text user "${REFERENCE}"'):
+                elif lines[i].startswith("\t(fp_text user "):
                     property_name = "Reference_F.Fab"
-                    property_data["Value"] = "${REFERENCE}"
+                    property_data["Value"] = lines[i].strip()[14:].strip('"')
                 # Get extra properties
                 if property_data["Value"] != "":
                     while i < len(lines):

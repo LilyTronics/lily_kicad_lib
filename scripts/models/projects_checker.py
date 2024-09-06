@@ -15,6 +15,7 @@ class ProjectsChecker:
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]
     SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
+    SKIP_LAYOUT_FIELDS = ["Name", "Reference", "Value"]
 
     @classmethod
     def run(cls):
@@ -32,11 +33,11 @@ class ProjectsChecker:
 
         report_messages = []
         cls._check_if_symbols_in_designs(lib_symbols, designs, report_messages)
-        # cls._check_if_symbols_not_in_library()
-        cls._check_if_footprints_in_designs(lib_footprints, designs, report_messages)
-        # cls._check_if_footprints_not_in_library()
+        cls._check_if_symbols_not_in_library(designs, lib_symbols, report_messages)
         cls._check_symbols_properties(designs, lib_symbols, report_messages)
-        # cls._check_footprint_properties(designs, lib_footprints, report_messages)
+        cls._check_if_footprints_in_designs(lib_footprints, designs, report_messages)
+        cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
+        cls._check_footprint_properties(designs, lib_footprints, report_messages)
         cls._check_symbols_vs_footprints(designs, report_messages)
 
         return report_messages
@@ -68,6 +69,18 @@ class ProjectsChecker:
                     "item": lib_symbol["Name"],
                     "message": "symbol is not in one of the projects"
                 })
+
+    @classmethod
+    def _check_if_symbols_not_in_library(cls, designs, lib_symbols, report_messages):
+        for design in designs:
+            for design_symbol in designs[design]["symbols"]:
+                lib_name = design_symbol["lib_id"].split(":")[1]
+                matches = list(filter(lambda x: x["Name"] == lib_name, lib_symbols))
+                if len(matches) == 0:
+                    report_messages.append({
+                        "item": lib_name,
+                        "message": f"symbol in project {design} is not in the library"
+                    })
 
     @classmethod
     def _check_symbols_properties(cls, designs, lib_symbols, report_messages):
@@ -153,6 +166,40 @@ class ProjectsChecker:
                 })
 
     @classmethod
+    def _check_if_footprints_not_in_library(cls, designs, lib_footprints, report_messages):
+        for design in designs:
+            for design_footprint in designs[design]["footprints"]:
+                lib_name = design_footprint["Footprint"].split(":")[1]
+                matches = list(filter(lambda x: x["Name"] == lib_name, lib_footprints))
+                if len(matches) == 0:
+                    report_messages.append({
+                        "item": lib_name,
+                        "message": f"footprint in project {design} is not in the library"
+                    })
+
+    @classmethod
+    def _check_footprint_properties(cls, designs, lib_footprints, report_messages):
+        for design in designs:
+            for design_footprint in designs[design]["footprints"]:
+                lib_name = design_footprint["Footprint"].split(":")[1]
+                matches = list(filter(lambda x: x["Name"] == lib_name, lib_footprints))
+                if len(matches) > 0:
+                    for key in matches[0]:
+                        if key in cls.SKIP_LAYOUT_FIELDS:
+                            continue
+                        lib_value = matches[0].get(key, "invalid lib key")
+                        if isinstance(lib_value, dict):
+                            lib_value = lib_value.get("Value", "no value key")
+                        design_value = design_footprint.get(key, "invalid design key")
+                        if lib_value != design_value:
+                            report_messages.append({
+                                "item": lib_name,
+                                "message": f"footprint in project {design} has invalid property: "
+                                           f"{key}: '{design_value}' expected '{lib_value}'"
+                            })
+                break
+
+    @classmethod
     def _check_symbols_vs_footprints(cls, designs, report_messages):
         for design in designs:
             for design_symbol in designs[design]["symbols"]:
@@ -167,8 +214,6 @@ class ProjectsChecker:
                     })
                 else:
                     design_footprint = matches[0]
-                    # print(design_symbol)
-                    # print(design_footprint)
                     # Fields in the symbol but not in the footprint
                     diff = list(set(design_symbol.keys()) - set(design_footprint.keys()))
                     diff.remove("lib_id")
