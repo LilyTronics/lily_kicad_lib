@@ -1,0 +1,228 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "rect1:Rect")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "segm1:Line")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "text1:Text")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "segm2:Line")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "text2:Text")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "segm3:Line")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "text3:Text")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "segm4:Line")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "text4:Text")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "segm5:Line")
+		(start 45 10)
+		(end 45 2)
+	)
+	(tbtext "Date:"
+		(name "text5:Text")
+		(pos 164 8)
+	)
+	(line
+		(name "segm7:Line")
+		(start 67 10)
+		(end 67 2)
+	)
+	(tbtext "Size:"
+		(name "text6:Text")
+		(pos 66 8)
+	)
+	(tbtext "Sheet:"
+		(name "text7:Text")
+		(pos 66 4)
+	)
+	(tbtext "${TITLE}"
+		(name "text8:Text")
+		(pos 257 8)
+	)
+	(tbtext "${FILENAME}"
+		(name "text9:Text")
+		(pos 257 4)
+	)
+	(tbtext "${COMMENT1}"
+		(name "text10:Text")
+		(pos 88 8)
+	)
+	(tbtext "${COMMENT2}"
+		(name "text11:Text")
+		(pos 88 4)
+	)
+	(tbtext "${SHEETNAME}"
+		(name "text12:Text")
+		(pos 149 4)
+	)
+	(tbtext "info@lilytronics.nl"
+		(name "text13:Text")
+		(pos 21 4)
+		(font
+			(size 1.1 1.1)
+		)
+	)
+	(tbtext "Electronics Engineering"
+		(name "text14:Text")
+		(pos 42.8 4)
+		(font
+			(size 1.1 1.1)
+		)
+	)
+	(tbtext "LilyTronics"
+		(name "text15:Text")
+		(pos 43 7)
+		(font
+			(size 2.5 2.5)
+		)
+	)
+	(tbtext "https://lilytronics.nl"
+		(name "text16:Text")
+		(pos 21 6.5)
+		(font
+			(size 1.1 1.1)
+		)
+	)
+	(line
+		(name "segm11:Line")
+		(start 45 6)
+		(end 275 6)
+	)
+	(tbtext "Sheet name:"
+		(name "text17:Text")
+		(pos 164 4)
+	)
+	(tbtext "PCB number:"
+		(name "text18:Text")
+		(pos 104 4)
+	)
+	(tbtext "PCA number:"
+		(name "text19:Text")
+		(pos 104 8)
+	)
+	(tbtext "Filename:"
+		(name "text20:Text")
+		(pos 274 4)
+	)
+	(tbtext "Project name:"
+		(name "text21:Text")
+		(pos 274 8)
+	)
+	(line
+		(name "segm11:Line")
+		(start 2 10)
+		(end 275 10)
+	)
+	(tbtext "${PAPER}"
+		(name "")
+		(pos 58 8)
+	)
+	(tbtext "${#}/${##}"
+		(name "")
+		(pos 58 4)
+	)
+	(line
+		(name "segm7:Line")
+		(start 105 10)
+		(end 105 2)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "")
+		(pos 149 8)
+	)
+	(line
+		(name "segm7:Line")
+		(start 165 10)
+		(end 165 2)
+	)
+	(line
+		(name "segm7:Line")
+		(start 275 10)
+		(end 275 2)
+	)
+	(tbtext "Rev:"
+		(name "")
+		(pos 125 8)
+	)
+	(tbtext "${REVISION}"
+		(name "")
+		(pos 119 8)
+	)
+	(line
+		(name "segm7:Line")
+		(start 126 10)
+		(end 126 6)
+	)
+)
