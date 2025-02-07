@@ -10,9 +10,10 @@ Additional information:
 
 * [Overview of all symbols and footprints](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/library_report.html)
 * [Symbol naming convention](documents/symbol_naming.md)
+* [Setup KiCad using this repo](documents/setup_kicad.md)
 
 Do you have a request for a component? Submit a request using the [issue tracker](https://github.com/LilyTronics/lily_kicad_lib/issues).
-Please specify a specific manufacturer/manufacturer part ID/JLCPCB part ID if possible.
+Please specify a specific manufacturer, manufacturer part ID and/or JLCPCB part ID if possible.
 
 [![Generate report](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/generate_report.yml/badge.svg)](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/generate_report.yml)
 
@@ -22,12 +23,13 @@ The repo is set up as follows:
 
 ```
 lily_kicad_lib/
-  |- 3d_models                 # 3D models for the footprints
-  |- documents                 # documentation (reports, naming conventions)
-  |- lib_test                  # KiCad project for testing library symbols and footprints
-  |- lily_footprints.pretty    # footprint library
-  |- scripts                   # script for generating reports, checking the library
-  |- symbols                   # symbols library
+  |- 3d_models                  # 3D models for the footprints
+  |- documents                  # documentation (reports, naming conventions, etc)
+  |- lily_footprints.pretty     # footprint library
+  |- projects                   # example projects
+  |- scripts                    # script for generating reports, checking the library
+  |- symbols                    # symbols library
+  |- templates                  # design templates, page borders, etc
 ```
 
 ### 3D models
