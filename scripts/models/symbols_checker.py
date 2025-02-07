@@ -26,6 +26,7 @@ class SymbolsChecker:
     }
     SKIP_FIELDS = ("Name", "Datasheet", "Description", "Reference", "Revision", "Notes", "Extends")
     VALUE_FIELDS = ("Footprint", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS")
+    POWER_SYMBOLS = ("GND", "Earth", "GNDA", "Vxx")
 
     @classmethod
     def run(cls):
@@ -62,14 +63,13 @@ class SymbolsChecker:
     @classmethod
     def _check_reference(cls, symbol_data, report_messages):
         is_correct = False
-        power_symbols = ("GND", "Earth", "GNDA")
         # Regular stuff
         for check in cls.REFERENCES:
             if ((symbol_data["Name"] == check or symbol_data["Name"].startswith(f"{check}_")) and
                     symbol_data["Reference"] == cls.REFERENCES[check]):
                 is_correct = True
         # Special stuff
-        if symbol_data["Name"] in power_symbols and symbol_data["Reference"] == "#PWR":
+        if symbol_data["Name"] in cls.POWER_SYMBOLS and symbol_data["Reference"] == "#PWR":
             is_correct = True
         if not is_correct:
             report_messages.append({
