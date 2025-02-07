@@ -4,7 +4,7 @@ Checks the library and report the errors
 
 
 def _show_report(messages):
-    column_widths = [0, 0]
+    column_widths = [4, 7]
     if len(messages) > 0:
         for message in messages:
             if len(message["item"]) > column_widths[0]:
