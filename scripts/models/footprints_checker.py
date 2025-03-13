@@ -36,6 +36,7 @@ class FootprintsChecker:
 
     @classmethod
     def run(cls):
+        caller = f"({cls.__name__}.run)"
         report_messages = []
         footprints = LibParser.get_footprints()
         print(f"Checking {len(footprints)} footprints")
@@ -45,12 +46,12 @@ class FootprintsChecker:
                 if revision < 1:
                     report_messages.append({
                         "item": footprint["Name"],
-                        "message": "the revision must be greater than zero"
+                        "message": f"the revision must be greater than zero {caller}"
                     })
             except (TypeError, ValueError):
                 report_messages.append({
                     "item": footprint["Name"],
-                    "message": "the revision must be numeric"
+                    "message": f"the revision must be numeric {caller}"
                 })
             for field in footprint:
                 cls._check_footprint_field_empty(footprint, field, report_messages)
@@ -59,12 +60,12 @@ class FootprintsChecker:
             if footprint["Name"] != footprint["Value"]["Value"]:
                 report_messages.append({
                     "item": footprint["Name"],
-                    "message": "the name is not the same as the value"
+                    "message": f"the name is not the same as the value{caller}"
                 })
             if footprint["Reference"]["Value"] != "REF**":
                 report_messages.append({
                     "item": footprint["Name"],
-                    "message": "the reference value must be 'REF**'"
+                    "message": f"the reference value must be 'REF**' {caller}"
                 })
             cls._check_footprint_attributes(footprint, report_messages)
             cls._check_3d_model(footprint, report_messages)
@@ -72,6 +73,7 @@ class FootprintsChecker:
 
     @classmethod
     def _check_footprint_field_empty(cls, footprint_data, field_name, report_messages):
+        caller = f"({cls.__name__}._check_footprint_field_empty)"
         # Ignore fields that are allowed to be empty or have already been checked
         if field_name not in cls.SKIP_FIELDS:
             field_checked = False
@@ -100,21 +102,22 @@ class FootprintsChecker:
             if not field_checked:
                 report_messages.append({
                     "item": footprint_data["Name"],
-                    "message": f"no empty check for this field '{field_name}'"
+                    "message": f"no empty check for this field '{field_name}' {caller}"
                 })
             if is_empty:
                 report_messages.append({
                     "item": footprint_data["Name"],
-                    "message": f"field '{field_name}' is empty"
+                    "message": f"field '{field_name}' is empty {caller}"
                 })
             if is_not_empty:
                 report_messages.append({
                     "item": footprint_data["Name"],
-                    "message": f"field '{field_name}' is not empty"
+                    "message": f"field '{field_name}' is not empty {caller}"
                 })
 
     @classmethod
     def _check_footprint_field_properties(cls, footprint_data, field_name, report_messages):
+        caller = f"({cls.__name__}._check_footprint_field_properties)"
         # Check layer, size, thickness of the field
         if field_name not in cls.SKIP_FIELDS_VISIBLE:
             if isinstance(footprint_data[field_name], dict):
@@ -132,12 +135,12 @@ class FootprintsChecker:
                 if not footprint_data[field_name]["Visible"] and expect_visible:
                     report_messages.append({
                         "item": footprint_data["Name"],
-                        "message": f"field '{field_name}' is not visible"
+                        "message": f"field '{field_name}' is not visible {caller}"
                     })
                 if footprint_data[field_name]["Visible"] and not expect_visible:
                     report_messages.append({
                         "item": footprint_data["Name"],
-                        "message": f"field '{field_name}' should not be visible"
+                        "message": f"field '{field_name}' should not be visible {caller}"
                     })
 
                 properties = copy.deepcopy(cls.FIELD_PROPERTIES)
@@ -149,29 +152,30 @@ class FootprintsChecker:
                     if footprint_data[field_name]["Layer"] != properties[field_name][0]:
                         report_messages.append({
                             "item": footprint_data["Name"],
-                            "message": f"field '{field_name}' should be on layer {properties[field_name][0]}"
+                            "message": f"field '{field_name}' should be on layer {properties[field_name][0]} {caller}"
                         })
                     # Size
                     if footprint_data[field_name]["Size"] != properties[field_name][1]:
                         report_messages.append({
                             "item": footprint_data["Name"],
-                            "message": f"field '{field_name}' size should be {properties[field_name][1]}"
+                            "message": f"field '{field_name}' size should be {properties[field_name][1]} {caller}"
                         })
                     # Thickness
                     if footprint_data[field_name]["Thickness"] != properties[field_name][2]:
                         report_messages.append({
                             "item": footprint_data["Name"],
-                            "message": f"field '{field_name}' thickness should be {properties[field_name][2]}"
+                            "message": f"field '{field_name}' thickness should be {properties[field_name][2]} {caller}"
                         })
 
                 if False in field_checked:
                     report_messages.append({
                         "item": footprint_data["Name"],
-                        "message": f"not all checks implemented for this field '{field_name}'"
+                        "message": f"not all checks implemented for this field '{field_name}' {caller}"
                     })
 
     @classmethod
     def _check_footprint_attributes(cls, footprint_data, report_messages):
+        caller = f"({cls.__name__}._check_footprint_attributes)"
         attributes = copy.deepcopy(cls.ATTRIBUTES)
         if "through_hole" in footprint_data["Attributes"]:
             attributes["exclude_from_pos_files"][0] = True
@@ -198,16 +202,17 @@ class FootprintsChecker:
             if attribute in footprint_data["Attributes"] and not attributes[attribute][0]:
                 report_messages.append({
                     "item": footprint_data["Name"],
-                    "message": f"attribute {attributes[attribute][1]} should not be enabled"
+                    "message": f"attribute {attributes[attribute][1]} should not be enabled {caller}"
                 })
             elif attribute not in footprint_data["Attributes"] and attributes[attribute][0]:
                 report_messages.append({
                     "item": footprint_data["Name"],
-                    "message": f"attribute {attributes[attribute][1]} should be enabled"
+                    "message": f"attribute {attributes[attribute][1]} should be enabled {caller}"
                 })
 
     @classmethod
     def _check_3d_model(cls, footprint_data, report_messages):
+        caller = f"({cls.__name__}._check_3d_model)"
         expect_3d_model = True
         for query in cls.NO_3D_MODEL:
             if ((query.startswith("_") and footprint_data["Name"].endswith(query)) or
@@ -218,19 +223,19 @@ class FootprintsChecker:
         if expect_3d_model and footprint_data["Model"] == "":
             report_messages.append({
                 "item": footprint_data["Name"],
-                "message": f"no 3D model defined"
+                "message": f"no 3D model defined {caller}"
             })
         if not expect_3d_model and footprint_data["Model"] != "":
             report_messages.append({
                 "item": footprint_data["Name"],
-                "message": f"3D model should not be defined"
+                "message": f"3D model should not be defined {caller}"
             })
         if footprint_data["Model"] != "":
             full_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", footprint_data["Model"]))
             if not os.path.isfile(full_path):
                 report_messages.append({
                     "item": footprint_data["Name"],
-                    "message": f"3D model file does not exists {footprint_data["Model"]}"
+                    "message": f"3D model file does not exists {footprint_data["Model"]} {caller}"
                 })
 
 

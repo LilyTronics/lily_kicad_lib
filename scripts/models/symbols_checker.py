@@ -30,6 +30,7 @@ class SymbolsChecker:
 
     @classmethod
     def run(cls):
+        caller = f"({cls.__name__}.run)"
         report_messages = []
         symbols = LibParser.get_symbols()
         print(f"Checking {len(symbols)} symbols")
@@ -39,7 +40,7 @@ class SymbolsChecker:
                 if revision < 1:
                     report_messages.append({
                         "item":    symbol["Name"],
-                        "message": "the revision must be greater than zero"
+                        "message": f"the revision must be greater than zero {caller}"
                     })
             except (TypeError, ValueError):
                 report_messages.append({
@@ -50,7 +51,7 @@ class SymbolsChecker:
                 if symbol["Name"] != symbol["Value"]:
                     report_messages.append({
                         "item":    symbol["Name"],
-                        "message": "the value is not the same as the name"
+                        "message": f"the value is not the same as the name {caller}"
                     })
             cls._check_reference(symbol, report_messages)
             for field in symbol:
@@ -62,6 +63,7 @@ class SymbolsChecker:
 
     @classmethod
     def _check_reference(cls, symbol_data, report_messages):
+        caller = f"({cls.__name__}._check_reference)"
         is_correct = False
         # Regular stuff
         for check in cls.REFERENCES:
@@ -74,11 +76,12 @@ class SymbolsChecker:
         if not is_correct:
             report_messages.append({
                 "item": symbol_data["Name"],
-                "message": "incorrect reference"
+                "message": f"incorrect reference {caller}"
             })
 
     @classmethod
     def _check_symbol_field_empty(cls, symbol_data, field_name, report_messages):
+        caller = f"({cls.__name__}._check_reference)"
         # Ignore fields that are allowed to be empty or already have been checked
         if field_name not in cls.SKIP_FIELDS:
             field_checked = False
@@ -102,21 +105,22 @@ class SymbolsChecker:
             if not field_checked:
                 report_messages.append({
                     "item":    symbol_data["Name"],
-                    "message": f"no empty check for this field '{field_name}'"
+                    "message": f"no empty check for this field '{field_name}' {caller}"
                 })
             if is_empty:
                 report_messages.append({
                     "item": symbol_data["Name"],
-                    "message": f"field '{field_name}' is empty"
+                    "message": f"field '{field_name}' is empty {caller}"
                 })
             if is_not_empty:
                 report_messages.append({
                     "item": symbol_data["Name"],
-                    "message": f"field '{field_name}' is not empty"
+                    "message": f"field '{field_name}' is not empty {caller}"
                 })
 
     @classmethod
     def _check_value(cls, symbol_data, report_messages):
+        caller = f"({cls.__name__}._check_value)"
         expected_value = symbol_data["Name"]
         if "_do_not_populate" in symbol_data["Name"]:
             expected_value = "dnp"
@@ -140,11 +144,12 @@ class SymbolsChecker:
         if symbol_data["Value"] != expected_value:
             report_messages.append({
                 "item": symbol_data["Name"],
-                "message": f"value '{symbol_data["Value"]}' is not correct, expected '{expected_value}'"
+                "message": f"value '{symbol_data["Value"]}' is not correct, expected '{expected_value}' {caller}"
             })
 
     @classmethod
     def _check_footprint(cls, symbol_data, report_messages):
+        caller = f"({cls.__name__}._check_footprint)"
         parts = symbol_data["Footprint"].split(":")
         if len(parts) != 2:
             report_messages.append({
@@ -155,7 +160,7 @@ class SymbolsChecker:
             if parts[0] != "lily_footprints":
                 report_messages.append({
                     "item": symbol_data["Name"],
-                    "message": f"invalid footprint library '{parts[0]}'"
+                    "message": f"invalid footprint library '{parts[0]}' {caller}"
                 })
             else:
                 script_path = os.path.dirname(__file__)
@@ -164,7 +169,7 @@ class SymbolsChecker:
                 if not os.path.isfile(footprint_file):
                     report_messages.append({
                         "item": symbol_data["Name"],
-                        "message": f"footprint does not exist"
+                        "message": f"footprint does not exist {caller}"
                     })
 
 

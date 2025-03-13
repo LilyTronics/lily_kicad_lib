@@ -15,18 +15,21 @@ class ProjectsChecker:
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]
     SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
-    SKIP_LAYOUT_FIELDS = ["Name", "Reference", "Value"]
+    SKIP_LAYOUT_FIELDS = ["Name", "Reference", "Value", "Footprint"]
 
     @classmethod
     def run(cls):
         designs = {}
-        # Get symbols and footprints for the projects
-        for project_folder in os.listdir(cls.PROJECTS_PATH):
-            full_path = os.path.join(cls.PROJECTS_PATH, project_folder)
-            if os.path.isdir(full_path):
-                designs[project_folder] = {
-                    "symbols": DesignParser.get_symbols(full_path),
-                    "footprints": DesignParser.get_footprints(full_path)
+        for current_folder, sub_folders, filenames in os.walk(cls.PROJECTS_PATH):
+            sub_folders.sort()
+            matches = list(filter(lambda x: x.endswith(".kicad_pro"), filenames))
+            if len(matches) == 1:
+                # Get symbols and footprints from the project
+                rel_path = current_folder.replace(cls.PROJECTS_PATH, "").strip("\\")
+                print(rel_path)
+                designs[rel_path] = {
+                    "symbols": DesignParser.get_symbols(current_folder),
+                    "footprints": DesignParser.get_footprints(current_folder)
                 }
         lib_symbols = LibParser.get_symbols()
         lib_footprints = LibParser.get_footprints()
@@ -44,6 +47,7 @@ class ProjectsChecker:
 
     @classmethod
     def _check_if_symbols_in_designs(cls, lib_symbols, designs, report_messages):
+        caller = f"({cls.__name__}._check_if_symbols_in_designs)"
         for lib_symbol in lib_symbols:
             should_be_used = (
                 lib_symbol["Extends"] != "" or  # Parts should be used in designs
@@ -61,17 +65,18 @@ class ProjectsChecker:
                 if len(matches) > 0 and not should_be_used:
                     report_messages.append({
                         "item": lib_symbol["Name"],
-                        "message": f"symbol should not be in the project {design}"
+                        "message": f"symbol should not be in the project {design} {caller}"
                     })
 
             if should_be_used and not is_used:
                 report_messages.append({
                     "item": lib_symbol["Name"],
-                    "message": "symbol is not in one of the projects"
+                    "message": f"symbol is not in one of the projects {caller}"
                 })
 
     @classmethod
     def _check_if_symbols_not_in_library(cls, designs, lib_symbols, report_messages):
+        caller = f"({cls.__name__}._check_if_symbols_not_in_library)"
         for design in designs:
             for design_symbol in designs[design]["symbols"]:
                 lib_name = design_symbol["lib_id"].split(":")[1]
@@ -79,11 +84,12 @@ class ProjectsChecker:
                 if len(matches) == 0:
                     report_messages.append({
                         "item": lib_name,
-                        "message": f"symbol in project {design} is not in the library"
+                        "message": f"symbol in project {design} is not in the library {caller}"
                     })
 
     @classmethod
     def _check_symbols_properties(cls, designs, lib_symbols, report_messages):
+        caller = f"({cls.__name__}._check_symbols_properties)"
         for design in designs:
             for design_symbol in designs[design]["symbols"]:
                 lib_name = design_symbol["lib_id"].split(":")[1]
@@ -97,7 +103,7 @@ class ProjectsChecker:
                     if len(diff) > 0:
                         report_messages.append({
                             "item": f"{design_symbol["Reference"]} ({design}, {lib_name})",
-                            "message": f"symbol has extra fields that are not in the library: {", ".join(diff)}"
+                            "message": f"symbol has fields that are not in the library: {", ".join(diff)} {caller}"
                         })
                     # Fields missing in the design symbol
                     diff = list(set(lib_symbol.keys()) - set(design_symbol.keys()))
@@ -118,7 +124,7 @@ class ProjectsChecker:
                     if len(diff) > 0:
                         report_messages.append({
                             "item": f"{design_symbol["Reference"]} ({design}, {lib_name})",
-                            "message": f"symbol has missing fields: {", ".join(diff)}"
+                            "message": f"symbol has missing fields: {", ".join(diff)} {caller}"
                         })
                     # Check property values
                     for field in filter(lambda x: x not in cls.SKIP_SYMBOL_FIELDS, lib_symbol):
@@ -134,25 +140,26 @@ class ProjectsChecker:
                             if lib_value != reference:
                                 report_messages.append({
                                     "item": f"{design_symbol["Reference"]} ({design}, {lib_name})",
-                                    "message": f"reference field does not start with '{lib_value}'"
+                                    "message": f"reference field does not start with '{lib_value}' {caller}"
                                 })
                             try:
                                 int(number)
                             except ValueError:
                                 report_messages.append({
                                     "item": f"{design_symbol["Reference"]} ({design}, {lib_name})",
-                                    "message": f"numeric part of reference field is not numeric '{number}'"
+                                    "message": f"numeric part of reference field is not numeric '{number}' {caller}"
                                 })
                             # Prevent other messages for reference field
                             design_value = lib_value
                         if lib_value != design_value:
                             report_messages.append({
                                 "item": f"{design_symbol["Reference"]} ({design}, {lib_name})",
-                                "message": f"field value for field {field} not correct: '{design_value}'"
+                                "message": f"field value for field {field} not correct: '{design_value}' {caller}"
                             })
 
     @classmethod
     def _check_if_footprints_in_designs(cls, lib_footprints, designs, report_messages):
+        caller = f"({cls.__name__}._check_if_footprints_in_designs)"
         for lib_footprint in lib_footprints:
             for design in designs:
                 matches = list(filter(lambda x: x["Footprint"] == f"lily_footprints:{lib_footprint["Name"]}",
@@ -162,11 +169,12 @@ class ProjectsChecker:
             else:
                 report_messages.append({
                     "item": lib_footprint["Name"],
-                    "message": "footprint is not in one of the projects"
+                    "message": f"footprint is not in one of the projects {caller}"
                 })
 
     @classmethod
     def _check_if_footprints_not_in_library(cls, designs, lib_footprints, report_messages):
+        caller = f"({cls.__name__}._check_if_footprints_not_in_library)"
         for design in designs:
             for design_footprint in designs[design]["footprints"]:
                 lib_name = design_footprint["Footprint"].split(":")[1]
@@ -174,11 +182,12 @@ class ProjectsChecker:
                 if len(matches) == 0:
                     report_messages.append({
                         "item": lib_name,
-                        "message": f"footprint in project {design} is not in the library"
+                        "message": f"footprint in project {design} is not in the library {caller}"
                     })
 
     @classmethod
     def _check_footprint_properties(cls, designs, lib_footprints, report_messages):
+        caller = f"({cls.__name__}._check_footprint_properties)"
         for design in designs:
             for design_footprint in designs[design]["footprints"]:
                 lib_name = design_footprint["Footprint"].split(":")[1]
@@ -191,16 +200,19 @@ class ProjectsChecker:
                         if isinstance(lib_value, dict):
                             lib_value = lib_value.get("Value", "no value key")
                         design_value = design_footprint.get(key, "invalid design key")
+                        if design_footprint["Value"].startswith("logo_") and key == "Model":
+                            design_value = lib_value
                         if lib_value != design_value:
                             report_messages.append({
                                 "item": lib_name,
                                 "message": f"footprint in project {design} has invalid property: "
-                                           f"{key}: '{design_value}' expected '{lib_value}'"
+                                           f"{key}: '{design_value}' expected '{lib_value}' {caller}"
                             })
                 break
 
     @classmethod
     def _check_symbols_vs_footprints(cls, designs, report_messages):
+        caller = f"({cls.__name__}._check_symbols_vs_footprints)"
         for design in designs:
             for design_symbol in designs[design]["symbols"]:
                 if design_symbol["Reference"].startswith("#PWR"):
@@ -210,7 +222,7 @@ class ProjectsChecker:
                 if len(matches) == 0:
                     report_messages.append({
                         "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
-                        "message": f"symbol has no matching footprint in the PCB design"
+                        "message": f"symbol has no matching footprint in the PCB design {caller}"
                     })
                 else:
                     design_footprint = matches[0]
@@ -220,16 +232,20 @@ class ProjectsChecker:
                     if len(diff) > 0:
                         report_messages.append({
                             "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
-                            "message": f"symbol has extra fields that are not in the footprint: {", ".join(diff)}"
+                            "message": f"symbol has fields that are not in the footprint: {", ".join(diff)} {caller}"
                         })
                     # Fields in the footprint but not in the symbol
                     diff = list(set(design_footprint.keys()) - set(design_symbol.keys()))
                     if "Model" in diff:
                         diff.remove("Model")
+                    if "Reference_F.Fab" in diff:
+                        diff.remove("Reference_F.Fab")
+                    if "Attributes" in diff:
+                        diff.remove("Attributes")
                     if len(diff) > 0:
                         report_messages.append({
                             "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
-                            "message": f"footprint has extra fields that are not in the symbol: {", ".join(diff)}"
+                            "message": f"footprint has fields that are not in the symbol: {", ".join(diff)} {caller}"
                         })
                     for field in filter(lambda x: x != "lib_id", design_symbol):
                         symbol_value = design_symbol[field]
@@ -237,7 +253,7 @@ class ProjectsChecker:
                         if symbol_value != footprint_value:
                             report_messages.append({
                                 "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
-                                "message": f"value for field {field} in symbol is not matching with footprint"
+                                "message": f"value for field {field} in symbol is not matching with footprint {caller}"
                             })
 
             for design_footprint in designs[design]["footprints"]:
@@ -246,7 +262,7 @@ class ProjectsChecker:
                 if len(matches) == 0:
                     report_messages.append({
                         "item": f"{design_footprint["Reference"]} ({design_footprint["Footprint"]})",
-                        "message": f"footprint has no matching symbol in the schematics design"
+                        "message": f"footprint has no matching symbol in the schematics design {caller}"
                     })
 
 
