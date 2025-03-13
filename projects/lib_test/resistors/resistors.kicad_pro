@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.05,
+        "board_outline_line_width": 0.1,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -41,17 +41,24 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "45_degree_only": false,
+          "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -70,9 +77,10 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -86,14 +94,14 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -105,25 +113,30 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.2,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.16,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.2,
+        "min_via_diameter": 0.7,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -170,7 +183,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -197,8 +212,14 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
-      "zones_allow_external_fillets": false
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
     },
     "ipc2581": {
       "dist": "",
@@ -392,6 +413,7 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -426,15 +448,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "lily_footprints"
-    ],
-    "pinned_symbol_libs": [
-      "lily_symbols"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "kicad_lib_test.kicad_pro",
+    "filename": "resistors.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -451,8 +469,8 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.3,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -472,14 +490,15 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "kicad_lib_test.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/lilytronics_page_layout_pcb.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -496,18 +515,12 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -516,19 +529,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -538,38 +539,20 @@
         },
         {
           "group_by": false,
-          "label": "Revision",
-          "name": "Revision",
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Status",
-          "name": "Status",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_ID",
-          "name": "Manufacturer_ID",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Lily_ID",
-          "name": "Lily_ID",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
@@ -586,8 +569,38 @@
         },
         {
           "group_by": false,
-          "label": "Notes",
-          "name": "Notes",
+          "label": "Lily_ID",
+          "name": "Lily_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_ID",
+          "name": "Manufacturer_ID",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Revision",
+          "name": "Revision",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": false
         }
       ],
@@ -595,7 +608,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -625,8 +638,18 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/lilytronics_page_layout_sch.kicad_wks",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -638,72 +661,12 @@
   },
   "sheets": [
     [
-      "032b8f2d-5c08-4381-9e3a-c197ca84e3c5",
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
     ],
     [
-      "83efcd59-a8bf-48a1-9c1b-e7448bc070d0",
-      "Resistors"
-    ],
-    [
-      "2a2762fb-babb-4273-997b-c90d7edcec13",
-      "Capacitors"
-    ],
-    [
-      "ac804940-04be-4885-b738-67220611f5f6",
-      "Inductors"
-    ],
-    [
-      "f8e61c5d-b401-4177-96aa-be2ecb8375a7",
-      "Diodes"
-    ],
-    [
-      "510e0627-29ea-444b-9808-b352b324c010",
-      "Transistors"
-    ],
-    [
-      "26f45545-bf59-44cc-9d79-27838866cd23",
-      "IC Opamps"
-    ],
-    [
-      "19bb89d4-4435-499d-abf8-0eaf7b787d71",
-      "IC Sensors"
-    ],
-    [
-      "9fb25efd-ab18-4e2b-b4bf-295198142123",
-      "IC Comparators"
-    ],
-    [
-      "e9fd7d9e-5683-413c-8ecf-1243d43cca04",
-      "Connectors"
-    ],
-    [
-      "3220288b-4393-426d-b584-d6d66a3ce392",
-      "Power and test points"
-    ],
-    [
-      "a36be8d0-bc3d-4973-a559-35501cde04f1",
-      "Crystals and oscillators"
-    ],
-    [
-      "e12ad61a-1df8-4431-b529-c2075b837a06",
-      "IC interfaces"
-    ],
-    [
-      "3c08fe01-daf1-439c-ad77-d3845ab91d99",
-      "IC Micro controllers"
-    ],
-    [
-      "a89ded65-6ba0-47b6-baaa-9b3f23dcb92f",
-      "IC Timers"
-    ],
-    [
-      "c655c5f4-19ef-4ced-af22-6c43d681af5e",
-      "IC Voltage regulators"
-    ],
-    [
-      "df5553eb-bf24-4c44-9313-960a3e66f61a",
-      "Potentiometers"
+      "16b46d56-deb3-433b-b5fd-7751d9a978d9",
+      "E24 0805"
     ]
   ],
   "text_variables": {}
