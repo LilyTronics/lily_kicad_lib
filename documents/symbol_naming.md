@@ -17,6 +17,7 @@ Space must be replaced with underscores.
 | IC logic gate        | ic logic gate channels gate_type package                           | U   |
 | Inductor bead        | ind bead resistance@frequency current dc_resistance package        | L   |
 | Inductor common mode | ind common mode resistance@frequency current dc_resistance package | L   |
+| Mechanical           | mec type size                                                      | M   |
 | MOSFETs              | mosfet n/p type_number package                                     | Q   |
 | Potentiometer        | pot type resistance tolerance power package                        | R   |
 | Resistors E-series   | res resistance tolerance power package                             | R   |
