@@ -106,7 +106,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -2919,7 +2918,7 @@
 	(footprint "lily_footprints:cap_1210_dnp"
 		(layer "F.Cu")
 		(uuid "2dfada81-e8e6-4c6a-9690-27dc058a387a")
-		(at 175 75)
+		(at 174 75)
 		(property "Reference" "C3004"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
@@ -6347,7 +6346,7 @@
 	(footprint "lily_footprints:cap_1206_dnp"
 		(layer "F.Cu")
 		(uuid "5867f561-b1ce-4217-aa1f-27f635a53e3f")
-		(at 175 55)
+		(at 174 55)
 		(property "Reference" "C3002"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -11819,7 +11818,7 @@
 	(footprint "lily_footprints:cap_1210"
 		(layer "F.Cu")
 		(uuid "96073ac4-000a-4760-ba58-f1ae91a668be")
-		(at 170 75)
+		(at 169 75)
 		(property "Reference" "C3003"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
@@ -14155,7 +14154,7 @@
 	(footprint "lily_footprints:cap_1206"
 		(layer "F.Cu")
 		(uuid "a06d0d8d-b488-4a96-bd59-30304cd24b1e")
-		(at 170 55)
+		(at 169 55)
 		(property "Reference" "C3001"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -22532,8 +22531,8 @@
 		)
 	)
 	(gr_rect
-		(start 165 49)
-		(end 180 67)
+		(start 164 49)
+		(end 179 67)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22554,8 +22553,8 @@
 		(uuid "b1a4d60b-a833-406b-a8d0-bf964fcdf21d")
 	)
 	(gr_rect
-		(start 165 69)
-		(end 180 87)
+		(start 164 69)
+		(end 179 87)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22566,7 +22565,7 @@
 	)
 	(gr_rect
 		(start 101 48)
-		(end 181 88)
+		(end 180 88)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -22588,7 +22587,7 @@
 		)
 	)
 	(gr_text "CAPACITORS 1206"
-		(at 165.5 51 0)
+		(at 164.5 51 0)
 		(layer "F.SilkS")
 		(uuid "a48be86c-8444-473d-a114-48548d2a2674")
 		(effects
@@ -22600,7 +22599,7 @@
 		)
 	)
 	(gr_text "CAPACITORS 1210"
-		(at 165.5 71 0)
+		(at 164.5 71 0)
 		(layer "F.SilkS")
 		(uuid "f27eba6f-7ac0-4eb5-b4a7-5d87504d5bd2")
 		(effects
