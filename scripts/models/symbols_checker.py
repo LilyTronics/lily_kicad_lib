@@ -17,6 +17,7 @@ class SymbolsChecker:
         "ic":         "U",
         "ind":        "L",
         "logo":       "DOC",
+        "mec":        "M",
         "mosfet":     "Q",
         "pot":        "P",
         "pptc":       "F",
