@@ -21,3 +21,13 @@ Space must be replaced with underscores.
 | MOSFETs              | mosfet n/p type_number package                                     | Q   |
 | Potentiometer        | pot type resistance tolerance power package                        | R   |
 | Resistors E-series   | res resistance tolerance power package                             | R   |
+
+The following attributes should be added (if applicable):
+
+* Revision
+* Status
+* Manufacturer
+* Manufacturer_ID
+* Lily_ID
+* JLCPCB_ID
+* JLCPCB_STATUS
