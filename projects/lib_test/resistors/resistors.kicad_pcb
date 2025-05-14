@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -16,21 +16,21 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
+		(2 "B.Cu" signal)
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
 	)
 	(setup
 		(stackup
@@ -78,9 +78,10 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -90,7 +91,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 6)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -98,16 +98,19 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
-			(plotinvisibletext no)
+			(plot_black_and_white yes)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -484,19 +487,6 @@
 				)
 			)
 		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b878e7be-a7de-4049-93bd-9a8228a33217")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -732,7 +722,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 163 "unconnected-(R2082-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -742,13 +732,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 164 "unconnected-(R2082-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "905bffc7-0845-4a0f-a5c0-d866c33b1109")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -785,19 +776,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ba7c213-35fe-4b77-b415-fc4473616d12")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1036,7 +1014,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 112 "unconnected-(R2056-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -1046,13 +1024,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 111 "unconnected-(R2056-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "5491e4ad-f24b-4e13-8d68-bc67a43045a5")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -1089,19 +1068,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "edf39143-8b67-4ce6-a7a1-591e1907017b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1340,7 +1306,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 77 "unconnected-(R2039-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -1350,13 +1316,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 78 "unconnected-(R2039-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "f3397763-a7c3-46b8-83d2-6227a3dfbb32")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -1393,19 +1360,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2721fbcf-964f-4910-a1ec-cd040b6192bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1644,7 +1598,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "unconnected-(R2007-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -1654,13 +1608,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "unconnected-(R2007-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "358e8e50-9e3a-4187-ab67-3aa618e7733c")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -1697,19 +1652,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79c2fba2-ceb6-4a6f-8621-e06b711a75e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1948,7 +1890,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 323 "unconnected-(R2162-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -1958,13 +1900,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 324 "unconnected-(R2162-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "7ccee5d0-47de-4f43-a6e9-3502fef699a9")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -2001,19 +1944,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4e74e70-af2d-4e9d-ac38-cc7286361096")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2252,7 +2182,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 191 "unconnected-(R2096-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -2262,13 +2192,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 192 "unconnected-(R2096-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "fec56205-e679-4774-90d7-fca9f56846d1")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -2305,19 +2236,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "258c783c-d3b6-4671-bee8-7ab0f95e3964")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2556,7 +2474,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 168 "unconnected-(R2084-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -2566,13 +2484,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 167 "unconnected-(R2084-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "255ecd8a-59e3-4442-84f4-c0bd7ef9e744")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -2609,19 +2528,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1eca5c07-2936-4454-9d34-b09707ce88b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2860,7 +2766,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 265 "unconnected-(R2133-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -2870,13 +2776,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 266 "unconnected-(R2133-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b5a03a56-c17a-4f3d-a7fd-a2cad97109c2")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -2913,19 +2820,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8c401b95-b319-4f17-94c7-7a9fa099aeed")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -3164,7 +3058,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 57 "unconnected-(R2029-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -3174,13 +3068,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 58 "unconnected-(R2029-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ba3a5a87-0838-4cd9-bf9b-0bf3d403e0df")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -3217,19 +3112,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c25e541-033d-4342-8738-2702bb7a465a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -3468,7 +3350,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 319 "unconnected-(R2160-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -3478,13 +3360,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 320 "unconnected-(R2160-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "c91ce753-91e9-46fa-a9e6-e7633e186897")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -3521,19 +3404,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8f6b204-4fdc-46a8-82e1-d0e8ec03a44a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -3772,7 +3642,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "unconnected-(R2017-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -3782,13 +3652,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "unconnected-(R2017-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "61698d02-8492-4ad6-8745-709c279c7e34")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -3825,19 +3696,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff524e69-24a5-47e3-b2a7-e769687022c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4076,7 +3934,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 267 "unconnected-(R2134-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4086,13 +3944,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 268 "unconnected-(R2134-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "22402b9d-a709-4675-9dfb-4e4edda82002")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -4129,19 +3988,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "102211fb-539b-4af0-843a-d825820b2aa9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4380,7 +4226,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 148 "unconnected-(R2074-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4390,13 +4236,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 147 "unconnected-(R2074-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "990765a6-b31c-4223-a314-fba28ba698fb")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -4433,19 +4280,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0a97c8f-bf87-45fb-bc6a-158475c20ca2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4684,7 +4518,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "unconnected-(R2013-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4694,13 +4528,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "unconnected-(R2013-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "e4dc51d6-df45-4281-ac82-f4d6e548a79e")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -4737,19 +4572,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ed8346e-b6b0-445f-905c-1b9e25186bb9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4988,7 +4810,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 125 "unconnected-(R2063-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -4998,13 +4820,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 126 "unconnected-(R2063-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "67e80471-a2b8-44f3-99c8-a9481f2591df")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -5041,19 +4864,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14c10220-3f01-4e71-93fd-68b7c19c9d53")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5292,7 +5102,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 295 "unconnected-(R2148-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -5302,13 +5112,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 296 "unconnected-(R2148-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "cd30a5c4-e654-4067-8bc7-ae145769c4a9")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -5345,19 +5156,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8b6eb99-0a5e-4a33-b17a-cd37f4a47633")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5596,7 +5394,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 272 "unconnected-(R2136-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -5606,13 +5404,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 271 "unconnected-(R2136-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "6a8fd68b-d63b-44ad-a218-31d2ef2f2e73")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -5649,19 +5448,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e346870-cd09-440d-8b0d-5e2887dacec7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5900,7 +5686,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 331 "unconnected-(R2166-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -5910,13 +5696,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 332 "unconnected-(R2166-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "c50bfbc7-93df-4611-a001-9f35d6c55420")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -5953,19 +5740,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0988187-7ea2-4e09-a48b-2a372bdf2a08")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -6204,7 +5978,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 263 "unconnected-(R2132-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -6214,13 +5988,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 264 "unconnected-(R2132-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "a321347b-42e8-4a55-8dd7-6085b4530162")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -6257,19 +6032,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6fa2122-e388-492f-b7de-4c43d48def42")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -6508,7 +6270,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 291 "unconnected-(R2146-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -6518,13 +6280,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 292 "unconnected-(R2146-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "dc76e37c-c5dd-41e6-a603-c6c199503103")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -6561,19 +6324,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "658eefe8-badc-47f0-9270-11569ea0815e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -6812,7 +6562,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 232 "unconnected-(R2116-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -6822,13 +6572,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 231 "unconnected-(R2116-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "1eecffc1-2399-4ac2-b445-d0d3f3e98bac")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -6865,19 +6616,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "455254fc-f764-494c-aabe-29c177b288d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7116,7 +6854,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 310 "unconnected-(R2155-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7126,13 +6864,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 309 "unconnected-(R2155-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "41d7c6ad-b898-4972-839f-a5ff67c09c00")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -7169,19 +6908,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4384f96f-a653-4daf-979a-138f4a2cc72f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7420,7 +7146,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 113 "unconnected-(R2057-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7430,13 +7156,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 114 "unconnected-(R2057-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "bc81983f-c361-4a98-aef4-4954d77032fc")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -7473,19 +7200,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee650025-9832-4785-a02e-d68b2aacd88e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7724,7 +7438,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 218 "unconnected-(R2109-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -7734,13 +7448,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 217 "unconnected-(R2109-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "603c9109-196b-453e-916f-26de0d70497a")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -7777,19 +7492,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba45630c-d409-4ec2-9199-b1816cad88c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -8028,7 +7730,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 240 "unconnected-(R2120-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -8038,13 +7740,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 239 "unconnected-(R2120-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b0f2e4b1-2e0c-4a18-bc72-3dd03a60f17a")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -8081,19 +7784,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb5d8990-2eae-41e8-864d-cd4d6e8f7a78")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -8332,7 +8022,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 59 "unconnected-(R2030-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -8342,13 +8032,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 60 "unconnected-(R2030-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "97f34745-70f7-4e2c-8bd4-28c1dfb257ea")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -8385,19 +8076,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6d41dac-f0ec-455b-9413-3f02266c798a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -8636,7 +8314,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 131 "unconnected-(R2066-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -8646,13 +8324,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 132 "unconnected-(R2066-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "f4e79ed9-5517-48d1-a678-4abdf123741d")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -8689,19 +8368,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdc56152-6a5f-4f29-ac35-6a787b718530")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -8940,7 +8606,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 74 "unconnected-(R2037-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -8950,13 +8616,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 73 "unconnected-(R2037-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "24934cfc-b0d6-4c58-8bd0-1ca3ee07dbf8")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -8993,19 +8660,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36550208-de23-4ece-9328-3983d952f1d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -9244,7 +8898,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 209 "unconnected-(R2105-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -9254,13 +8908,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 210 "unconnected-(R2105-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "76756f59-d42d-442b-af68-1223a33bb117")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -9297,19 +8952,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9402fc0-1292-4e70-aac3-ac9beb60596d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -9548,7 +9190,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 260 "unconnected-(R2130-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -9558,13 +9200,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 259 "unconnected-(R2130-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "043078cd-f6b5-4d5b-826f-010614c459c3")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -9601,19 +9244,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cee38972-0268-4a20-bdba-cc2c49c3f540")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -9852,7 +9482,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 322 "unconnected-(R2161-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -9862,13 +9492,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 321 "unconnected-(R2161-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "76168281-20ea-4fa1-91cd-a60822118015")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -9905,19 +9536,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88650e24-6460-4dac-9103-9c3f17a562f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -10156,7 +9774,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 101 "unconnected-(R2051-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -10166,13 +9784,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 102 "unconnected-(R2051-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "7bfcadfd-9f90-4669-8b92-73601b89acfa")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -10209,19 +9828,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef81353a-8326-405f-8b88-24589b68e4f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -10460,7 +10066,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 224 "unconnected-(R2112-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -10470,13 +10076,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 223 "unconnected-(R2112-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "318f0ee9-db54-44fc-b456-1db65746f942")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -10513,19 +10120,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3f6ba80-abba-4f96-a396-cd782463231b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -10764,7 +10358,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "unconnected-(R2002-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -10774,13 +10368,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "unconnected-(R2002-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "fb90022a-f287-4236-b36e-9babeab0cffd")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -10817,19 +10412,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c30efb5a-4ff3-4437-9268-dbd39070596a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11068,7 +10650,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 91 "unconnected-(R2046-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -11078,13 +10660,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 92 "unconnected-(R2046-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "257f9b5b-9d06-4ee1-8b12-c93002afc802")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -11121,19 +10704,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c213adc-22ae-4abf-a43c-c9521e6ff665")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11372,7 +10942,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 169 "unconnected-(R2085-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -11382,13 +10952,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 170 "unconnected-(R2085-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ca9678ac-ee02-41c8-9c04-9b83b2c589cf")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -11425,19 +10996,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d02a516-55df-46d8-a786-1ef2db1828a5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11676,7 +11234,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 69 "unconnected-(R2035-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -11686,13 +11244,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 70 "unconnected-(R2035-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "c2fa68eb-0e96-4dc4-b2b2-71b74387d94c")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -11729,19 +11288,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c77359b7-11f9-4a16-b0fd-4b18c7aa71bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11980,7 +11526,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 117 "unconnected-(R2059-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -11990,13 +11536,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 118 "unconnected-(R2059-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "62a06990-02f5-482c-9d2c-f171ade92dec")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -12033,19 +11580,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f9b2f60-6d4c-4340-bd44-f4868c8c26e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -12284,7 +11818,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 130 "unconnected-(R2065-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -12294,13 +11828,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 129 "unconnected-(R2065-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0ff95e35-c019-46e3-8d99-526147bb10eb")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -12337,19 +11872,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d91a5a6-2cec-4fed-95c4-992c514bcfec")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -12588,7 +12110,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 93 "unconnected-(R2047-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -12598,13 +12120,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 94 "unconnected-(R2047-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "d9e59900-bbe9-4671-af98-459d210d1794")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -12641,19 +12164,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b110c39c-1e5f-41fc-b5aa-b6d9a5423756")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -12892,7 +12402,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 140 "unconnected-(R2070-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -12902,13 +12412,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 139 "unconnected-(R2070-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "5effc6e9-cb51-48e4-9fc7-eb503c90a4be")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -12945,19 +12456,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ed1aee7-3005-472b-85cd-ddbb290ae982")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13196,7 +12694,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 172 "unconnected-(R2086-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -13206,13 +12704,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 171 "unconnected-(R2086-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "5d3b5270-4f19-4322-bc7f-c6ee7b6c3cc6")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -13249,19 +12748,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60a618b5-70df-422c-bc94-937cefeb7323")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13500,7 +12986,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 207 "unconnected-(R2104-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -13510,13 +12996,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 208 "unconnected-(R2104-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "72296b7e-43b4-4fef-ba82-78d68d7f97e2")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -13553,19 +13040,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3fb8565a-bab0-4687-9ba1-131907a4290e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13804,7 +13278,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 327 "unconnected-(R2164-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -13814,13 +13288,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 328 "unconnected-(R2164-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "cb9a4768-841b-41da-b7da-b8943050ab97")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -13857,19 +13332,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14cd99b2-9c00-486c-89c9-bfa86ff8fc66")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -14108,7 +13570,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 279 "unconnected-(R2140-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -14118,13 +13580,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 280 "unconnected-(R2140-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "4671bff2-e76a-49e8-aaa2-07b9e7920dc3")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -14161,19 +13624,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e82c448-80cb-44c4-b315-e72d7e63681d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -14412,7 +13862,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 48 "unconnected-(R2024-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -14422,13 +13872,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 47 "unconnected-(R2024-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "8cc98c1b-9285-4b7e-809a-4c4aa8005dbb")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -14465,19 +13916,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "427c4b5a-6405-40a3-a459-f76e3c861e30")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -14716,7 +14154,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 285 "unconnected-(R2143-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -14726,13 +14164,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 286 "unconnected-(R2143-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "a525a012-a878-4bd3-891e-0276e55787d1")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -14769,19 +14208,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70472b8b-8007-4246-ba20-49c0d1bc4e17")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -15020,7 +14446,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 85 "unconnected-(R2043-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -15030,13 +14456,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 86 "unconnected-(R2043-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ca4af785-89d9-4fb3-b7f4-432eebdf3b7b")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -15073,19 +14500,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65ee3427-b075-426f-b532-859859de295b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -15324,7 +14738,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 242 "unconnected-(R2121-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -15334,13 +14748,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 241 "unconnected-(R2121-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0c9e4df9-45af-4ae2-85ff-069ac2a0b44b")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -15377,19 +14792,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e263d954-3c8b-4811-a45f-b3ff6f61e074")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -15628,7 +15030,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 185 "unconnected-(R2093-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -15638,13 +15040,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 186 "unconnected-(R2093-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "5ff75be6-71e3-426f-a0ac-b0d5adf96179")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -15681,19 +15084,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96d5a252-0751-452d-b10a-f1cee1208b5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -15932,7 +15322,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 257 "unconnected-(R2129-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -15942,13 +15332,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 258 "unconnected-(R2129-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "81b77511-0ad8-499d-aad2-eb8c37942dde")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -15985,19 +15376,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff84c21b-129b-4f54-9961-d297bc27761d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -16236,7 +15614,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 115 "unconnected-(R2058-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -16246,13 +15624,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 116 "unconnected-(R2058-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b79c2172-ecb0-41f0-bbe1-5144f1a808b7")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -16289,19 +15668,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f376042b-1d82-47e4-bc06-e009eef4a6ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -16540,7 +15906,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 282 "unconnected-(R2141-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -16550,13 +15916,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 281 "unconnected-(R2141-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "a233c0ba-7493-4d68-a002-a473092f0889")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -16593,19 +15960,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "69e1c5b9-7c08-4efb-a2b5-8a1b1991da4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -16844,7 +16198,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 189 "unconnected-(R2095-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -16854,13 +16208,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 190 "unconnected-(R2095-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "daa30cc7-7642-4146-a258-cd6911b258af")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -16897,19 +16252,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ac38080-eb55-405d-8452-32f388ed5250")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -17148,7 +16490,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 53 "unconnected-(R2027-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -17158,13 +16500,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 54 "unconnected-(R2027-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ebb34edd-ca57-4b64-a6d6-f3c748d0bee0")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -17201,19 +16544,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d02567bf-cfa6-47b4-bb8f-6f8ce3ce8371")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -17452,7 +16782,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 325 "unconnected-(R2163-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -17462,13 +16792,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 326 "unconnected-(R2163-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "a5b30fa2-abd6-4460-b8b4-9f993a68a74b")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -17505,19 +16836,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9708303-db49-4da3-a7bd-39cab4da088f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -17756,7 +17074,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 42 "unconnected-(R2021-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -17766,13 +17084,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 41 "unconnected-(R2021-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "40319350-78eb-4482-8800-470282506200")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -17809,19 +17128,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70d24f0c-06ab-48b9-a995-508a5606c573")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -18060,7 +17366,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 141 "unconnected-(R2071-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18070,13 +17376,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 142 "unconnected-(R2071-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ea7a0d78-0a83-41dd-bf93-edf3efe9aa2c")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -18113,19 +17420,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5065bcf-5a78-428b-9ca3-ae44c74f4b6b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -18364,7 +17658,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "unconnected-(R2004-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18374,13 +17668,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "unconnected-(R2004-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "2e1fe5eb-36bd-4a9c-bb95-c289f95137f1")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -18417,19 +17712,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a42aa3ad-7db2-4bdd-8031-6efc4495e853")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -18668,7 +17950,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 88 "unconnected-(R2044-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18678,13 +17960,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 87 "unconnected-(R2044-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "023e042a-5725-479d-95c0-afd92178a2ea")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -18721,19 +18004,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ebd50a2-8d67-4f2e-a07f-c3bafe800027")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -18972,7 +18242,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 37 "unconnected-(R2019-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -18982,13 +18252,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 38 "unconnected-(R2019-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "8954154d-522a-47a2-9589-e32be5eef359")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -19025,19 +18296,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "281b1189-315a-40a3-a052-9f1c456873a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -19276,7 +18534,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "unconnected-(R2018-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -19286,13 +18544,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "unconnected-(R2018-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "f5269eb1-18c1-4003-bbc0-6913424eb6c5")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -19329,19 +18588,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd69abc6-4a44-4f32-b185-cfdb1fb9ec1e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -19580,7 +18826,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "unconnected-(R2015-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -19590,13 +18836,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "unconnected-(R2015-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "1534ad3e-c2ad-4b38-9eaa-16d1fea7f050")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -19633,19 +18880,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee5d120e-0884-4768-9576-4c9f73c563b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -19884,7 +19118,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "unconnected-(R2003-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -19894,13 +19128,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "unconnected-(R2003-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "6cca2f91-640f-432d-b401-b113b05c4dec")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -19937,19 +19172,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e30e8876-b92f-49ff-9ff4-724ac2a164ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -20188,7 +19410,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 318 "unconnected-(R2159-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -20198,13 +19420,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 317 "unconnected-(R2159-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "195d1f26-5b91-43f2-9a36-e43e0c4022e2")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -20241,19 +19464,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e969f03-9784-418b-9ac0-8770e24c0bd3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -20492,7 +19702,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 51 "unconnected-(R2026-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -20502,13 +19712,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 52 "unconnected-(R2026-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "c7296c44-451a-4b2b-9080-07b80407719d")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -20545,19 +19756,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e349019d-de05-4059-906b-b8443dd23b63")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -20796,7 +19994,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 83 "unconnected-(R2042-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -20806,13 +20004,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 84 "unconnected-(R2042-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "de572f3d-b0b6-4655-9ea3-217a4213b492")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -20849,19 +20048,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30accbf8-ff92-4338-81b6-2fad656fe571")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -21100,7 +20286,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 288 "unconnected-(R2144-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -21110,13 +20296,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 287 "unconnected-(R2144-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "2ced8b1f-7258-4eeb-862b-fa3b6c6995cf")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -21153,19 +20340,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd108250-d280-48b6-90f2-f4a18843ae1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -21404,7 +20578,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 176 "unconnected-(R2088-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -21414,13 +20588,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 175 "unconnected-(R2088-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "14d30c21-d7b2-4106-a112-1e10a9186243")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -21457,19 +20632,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0142844-86b9-46e4-be6b-f8e30ee6a1e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -21708,7 +20870,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 40 "unconnected-(R2020-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -21718,13 +20880,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 39 "unconnected-(R2020-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "6c55425a-5440-4160-9b9b-59d7ca417d90")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -21761,19 +20924,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa185275-e7df-42bb-88a1-dda9519a387f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -22012,7 +21162,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 174 "unconnected-(R2087-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -22022,13 +21172,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 173 "unconnected-(R2087-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "306767c1-d75b-4bd4-aa7d-690650df23e9")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -22065,19 +21216,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81867901-be97-40b7-8132-1c8b273e2fc6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -22316,7 +21454,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 121 "unconnected-(R2061-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -22326,13 +21464,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 122 "unconnected-(R2061-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "c29d70e4-007a-410a-b426-abc8a5536065")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -22369,19 +21508,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79e4df4f-c7bf-4961-a89c-a6449bac25ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -22620,7 +21746,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 254 "unconnected-(R2127-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -22630,13 +21756,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 253 "unconnected-(R2127-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b669f8ec-0784-4a14-b088-d2bf8e42116e")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -22673,19 +21800,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2da4cc3-478a-4bcf-bd47-ac378e52f437")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -22924,7 +22038,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 67 "unconnected-(R2034-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -22934,13 +22048,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 68 "unconnected-(R2034-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "910f65f8-eacf-49bb-84bb-2d6d3b82d526")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -22977,19 +22092,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe88ddd9-96b8-4153-9ca4-b126fb37cec3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -23228,7 +22330,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 336 "unconnected-(R2168-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23238,13 +22340,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 335 "unconnected-(R2168-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ac2ed454-dd52-4214-803e-3c9641652450")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -23281,19 +22384,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f0de0e1-0e06-44fa-bc59-4ee2c2e96c84")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -23532,7 +22622,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 213 "unconnected-(R2107-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23542,13 +22632,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 214 "unconnected-(R2107-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "cb3575ae-aae2-48db-ba0f-baf6dbcf5bfb")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -23585,19 +22676,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6581c51a-a993-4b37-94f0-a99f5781113d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -23836,7 +22914,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 159 "unconnected-(R2080-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -23846,13 +22924,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 160 "unconnected-(R2080-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "950d35d9-2425-4221-b4b1-e62349d11130")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -23889,19 +22968,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c1b91c8-b63f-4fe7-b27f-138b3cccedf7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -24140,7 +23206,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 178 "unconnected-(R2089-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -24150,13 +23216,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 177 "unconnected-(R2089-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "afa718d7-a69d-4319-b314-7072ce8b03f8")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -24193,19 +23260,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "139cd235-e6d3-4682-a71a-c0fbda770068")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -24444,7 +23498,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 152 "unconnected-(R2076-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -24454,13 +23508,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 151 "unconnected-(R2076-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "5bc7bbf6-e990-4a52-bd29-3011015996d2")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -24497,19 +23552,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ad0fddad-d97c-4c05-8f26-60e07b33e95c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -24748,7 +23790,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 290 "unconnected-(R2145-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -24758,13 +23800,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 289 "unconnected-(R2145-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "76e3ac5d-8125-4c52-821a-039619503b7a")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -24801,19 +23844,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b4787b9c-4ebd-4895-ba4b-630d71e7e1f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -25052,7 +24082,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "unconnected-(R2008-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -25062,13 +24092,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "unconnected-(R2008-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "8ed7c359-8f4f-494d-80a3-aa7ac302de0e")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -25105,19 +24136,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "167ddff6-d9b8-4b76-895b-4e67e2ac7e55")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -25356,7 +24374,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 222 "unconnected-(R2111-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -25366,13 +24384,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 221 "unconnected-(R2111-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "131792b8-f374-4376-9ab8-e54eccc7df2b")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -25409,19 +24428,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f38fd74f-31da-40a0-abc7-90b86e95e1e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -25660,7 +24666,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 334 "unconnected-(R2167-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -25670,13 +24676,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 333 "unconnected-(R2167-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "43de3c35-0edf-4372-9748-94d4729dc483")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -25713,19 +24720,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7175bf0a-dff0-47da-a1d4-e22370fbc005")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -25964,7 +24958,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 274 "unconnected-(R2137-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -25974,13 +24968,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 273 "unconnected-(R2137-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "2add7bcb-ff63-4339-a399-5214b86f6101")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -26017,19 +25012,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ec1279c-d7f6-43c0-b8e8-c8609ce44583")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -26268,7 +25250,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 248 "unconnected-(R2124-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -26278,13 +25260,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 247 "unconnected-(R2124-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "340e52b8-2352-41d7-b4c1-080fbcc04b09")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -26321,19 +25304,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a69e7e3-cdd8-4616-9142-0512e1773aa9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -26572,7 +25542,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 262 "unconnected-(R2131-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -26582,13 +25552,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 261 "unconnected-(R2131-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "8538a030-6d25-4052-a041-b4412c49ab3e")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -26625,19 +25596,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "478f0551-5001-4e15-b916-88853a614903")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -26876,7 +25834,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 202 "unconnected-(R2101-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -26886,13 +25844,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 201 "unconnected-(R2101-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "470a6346-19e0-42b2-84f7-864653d533f6")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -26929,19 +25888,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2fb3c6a3-8474-4a9b-ad0e-950e2664fdf7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -27180,7 +26126,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 135 "unconnected-(R2068-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -27190,13 +26136,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 136 "unconnected-(R2068-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "d5500a65-968c-43c8-b5a5-66758613736d")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -27233,19 +26180,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805_dnp"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf674879-9855-4416-a91b-5b3c6e382fdd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -27406,7 +26340,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 339 "unconnected-(R2170-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -27416,13 +26350,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 340 "unconnected-(R2170-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b714773a-3e4d-49cb-b887-f811911687a4")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "lily_footprints:res_0805"
 		(layer "F.Cu")
@@ -27448,19 +26383,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03f45b6f-232f-4b4c-a401-bd1cd36fe1cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -27699,7 +26621,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 43 "unconnected-(R2022-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -27709,13 +26631,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 44 "unconnected-(R2022-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ac05e895-e4c1-4892-ad59-36d311600145")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -27752,19 +26675,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e83eeceb-42e8-4e11-b37a-76a72f118b13")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -28003,7 +26913,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 225 "unconnected-(R2113-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -28013,13 +26923,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 226 "unconnected-(R2113-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "78eef551-4795-402d-8aea-8c8e7a86ca70")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -28056,19 +26967,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32a2b69c-2800-4e52-8ee5-24aa2156d804")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -28307,7 +27205,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 220 "unconnected-(R2110-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -28317,13 +27215,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 219 "unconnected-(R2110-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "5953f8c8-8bae-4cf6-bdb6-cbc38100a364")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -28360,19 +27259,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c29c28e-388e-421e-8467-16b915640218")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -28611,7 +27497,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 82 "unconnected-(R2041-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -28621,13 +27507,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 81 "unconnected-(R2041-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0d040377-08ce-4f31-8973-d321be1a7b48")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -28664,19 +27551,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9e81c4d-5fcb-49b5-afd3-47800a46c70a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -28915,7 +27789,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 119 "unconnected-(R2060-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -28925,13 +27799,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 120 "unconnected-(R2060-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "cfdf6acf-0e81-40b9-b98f-473a3af64aeb")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -28968,19 +27843,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c067784-ef31-4d93-9d26-51964130362c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -29219,7 +28081,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 278 "unconnected-(R2139-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -29229,13 +28091,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 277 "unconnected-(R2139-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b9fd0b33-de4f-4b27-81c2-d13db47432ab")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -29272,19 +28135,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc38cf71-ee88-4f4f-89f6-f838cff18912")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -29523,7 +28373,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 200 "unconnected-(R2100-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -29533,13 +28383,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 199 "unconnected-(R2100-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "26cdbeaa-4308-4c1a-93da-2a53e1c754c6")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -29576,19 +28427,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7eb8e7af-e3fd-4c36-81ba-148d8eb42d5e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -29827,7 +28665,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 275 "unconnected-(R2138-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -29837,13 +28675,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 276 "unconnected-(R2138-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b5bb15de-7eac-4b92-b8b7-93a26fbeb0ab")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -29880,19 +28719,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4357b5de-3321-4cc1-8f35-c9eb38aa25ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -30131,7 +28957,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 243 "unconnected-(R2122-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -30141,13 +28967,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 244 "unconnected-(R2122-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b5457ab4-5b0a-4af4-a4e7-46fb832b9b49")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -30184,19 +29011,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ae7b20f-404b-4442-8004-2bbc6f7efbd9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -30435,7 +29249,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "unconnected-(R2032-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -30445,13 +29259,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 63 "unconnected-(R2032-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "9707f66b-817e-471d-9d3b-ec082f206fc4")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -30488,19 +29303,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1204e4ac-32a2-4f6b-ac8f-2fe166106a07")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -30739,7 +29541,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 337 "unconnected-(R2169-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -30749,13 +29551,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 338 "unconnected-(R2169-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "7feabc27-8f29-4649-b9ca-7167ce887a7d")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -30792,19 +29595,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18c8728f-fafe-4dd1-ab96-1d3dd6aa08cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -31043,7 +29833,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 196 "unconnected-(R2098-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31053,13 +29843,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 195 "unconnected-(R2098-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "3cff4548-0790-45f6-b6d4-ef285745399f")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -31096,19 +29887,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "58cf389e-a60b-4d12-93b4-122d03a2951b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -31347,7 +30125,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 46 "unconnected-(R2023-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31357,13 +30135,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 45 "unconnected-(R2023-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "37ba721d-33e5-44ea-8a71-83dea56388da")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -31400,19 +30179,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e8199d9-4bf5-4dbf-aa31-90a55ef0bd71")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -31651,7 +30417,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 89 "unconnected-(R2045-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31661,13 +30427,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 90 "unconnected-(R2045-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "d3f30e0b-fcb5-4c1e-ad0f-b7ed027b3dbe")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -31704,19 +30471,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "229dde10-40a1-426d-bb8d-b8cb1555ad09")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -31955,7 +30709,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "unconnected-(R2016-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -31965,13 +30719,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 31 "unconnected-(R2016-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "1feec4a1-8655-4987-aeab-d73859b40964")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -32008,19 +30763,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70ce54cb-456c-458f-947c-7ac369b51194")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -32259,7 +31001,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 302 "unconnected-(R2151-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -32269,13 +31011,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 301 "unconnected-(R2151-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0ac87a91-3aa4-48d9-a988-a7748b7f6d10")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -32312,19 +31055,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00d3fcd7-9252-40af-84ff-150bb10c27d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -32563,7 +31293,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 181 "unconnected-(R2091-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -32573,13 +31303,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 182 "unconnected-(R2091-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ffb95e55-c384-4864-ad3c-15ef3c85e8d3")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -32616,19 +31347,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11bebafa-1de0-45a5-8fdf-d4e36e987e65")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -32867,7 +31585,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 229 "unconnected-(R2115-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -32877,13 +31595,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 230 "unconnected-(R2115-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "f3adde00-fe71-4038-a261-e0038c852cba")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -32920,19 +31639,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4cfa81f-3e8c-48aa-9041-cdcee29f5a35")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -33171,7 +31877,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "unconnected-(R2010-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -33181,13 +31887,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "unconnected-(R2010-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ecaee427-0262-4ce7-a299-45f85e208db4")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -33224,19 +31931,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1cdd540-76e4-4acb-a2f9-97a2567331fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -33475,7 +32169,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 96 "unconnected-(R2048-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -33485,13 +32179,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 95 "unconnected-(R2048-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "607d9ecf-896f-43ce-884a-522e0ac9c2ba")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -33528,19 +32223,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3476e4a-f3eb-422a-8762-b57d4040de15")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -33779,7 +32461,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 255 "unconnected-(R2128-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -33789,13 +32471,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 256 "unconnected-(R2128-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "f1b3140d-54a8-4991-844f-22da6c39cacc")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -33832,19 +32515,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90ebc73b-c114-4883-b4f7-8ea6857ec830")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -34083,7 +32753,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 137 "unconnected-(R2069-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -34093,13 +32763,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 138 "unconnected-(R2069-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ee68a918-60ae-4e1b-a680-016296ca7b34")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -34136,19 +32807,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74e68180-349b-4cbe-b025-de16e8f53ed9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -34387,7 +33045,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 227 "unconnected-(R2114-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -34397,13 +33055,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 228 "unconnected-(R2114-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "f7f92c24-647a-4a17-b846-cec11100b573")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -34440,19 +33099,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c6e408e-8a9e-49cf-b765-6b87cee112d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -34691,7 +33337,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 66 "unconnected-(R2033-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -34701,13 +33347,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 65 "unconnected-(R2033-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "174319d4-539a-47e8-af92-e43b7ec148a6")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -34744,19 +33391,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ab0009a-239b-4d7a-a391-940815d55a16")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -34995,7 +33629,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 297 "unconnected-(R2149-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -35005,13 +33639,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 298 "unconnected-(R2149-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "5e66a034-bcfe-43e6-ad2b-e076508b0da1")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -35048,19 +33683,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5df4835-fe9a-4ce7-b1a1-21cecba95a61")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -35299,7 +33921,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 270 "unconnected-(R2135-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -35309,13 +33931,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 269 "unconnected-(R2135-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "50cceb0c-5386-4b93-88fe-e336dd9ca57b")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -35352,19 +33975,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ea6482d-1465-43b3-8837-f367030e2017")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -35603,7 +34213,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 236 "unconnected-(R2118-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -35613,13 +34223,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 235 "unconnected-(R2118-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "b0340bc2-9d93-46d5-a988-f6fcba7413b1")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -35656,19 +34267,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e60682b5-5244-425f-a790-8133549489bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -35907,7 +34505,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 100 "unconnected-(R2050-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -35917,13 +34515,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 99 "unconnected-(R2050-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0928ab0a-3c84-435d-9eeb-c48e9794b747")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -35960,19 +34559,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a25543f-37c9-41d3-8f57-2d19448606ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -36211,7 +34797,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "unconnected-(R2012-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -36221,13 +34807,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "unconnected-(R2012-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "57d31738-56e7-40cd-b029-adca58430158")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -36264,19 +34851,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45bd683c-c71f-45eb-bc7d-48ba9632138e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -36515,7 +35089,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 245 "unconnected-(R2123-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -36525,13 +35099,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 246 "unconnected-(R2123-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0839bf1e-142c-4111-952f-7af468feb626")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -36568,19 +35143,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b83d759-58bd-4f1b-986c-8618201d779e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -36819,7 +35381,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 50 "unconnected-(R2025-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -36829,13 +35391,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 49 "unconnected-(R2025-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "3dedcade-1c95-45a6-9607-e7ac2153cbee")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -36872,19 +35435,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03a89af6-1390-4e06-91f7-b5f8b7b61353")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -37123,7 +35673,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 75 "unconnected-(R2038-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -37133,13 +35683,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 76 "unconnected-(R2038-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "c7fb208f-2450-4a46-ad20-cafb161c24fd")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -37176,19 +35727,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "decdff02-8c40-4676-bfc2-f30fac309ef7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -37427,7 +35965,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 56 "unconnected-(R2028-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -37437,13 +35975,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 55 "unconnected-(R2028-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0745d7f2-0136-49e5-bbe6-37aad6cbfe27")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -37480,19 +36019,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ffa432a-80bf-4c71-8890-085b8be26cd5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -37731,7 +36257,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "unconnected-(R2005-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -37741,13 +36267,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "unconnected-(R2005-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "f0ad059f-f817-4fdb-b60f-98c6a4e7b9a6")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -37784,19 +36311,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ffb507a-958f-4106-91f6-6cf86aa32ade")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -38035,7 +36549,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 216 "unconnected-(R2108-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -38045,13 +36559,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 215 "unconnected-(R2108-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "125caa80-e981-4b14-9be9-a4fa7e180f05")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -38088,19 +36603,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbcf140d-da56-42bb-b8a0-69b1e59400c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -38339,7 +36841,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 110 "unconnected-(R2055-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -38349,13 +36851,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 109 "unconnected-(R2055-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "6d1ea914-7dd2-4449-aab6-edf52675dcc1")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -38392,19 +36895,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d48248bd-6820-4d2f-abe6-a5e8c276f67f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -38643,7 +37133,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "unconnected-(R2009-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -38653,13 +37143,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "unconnected-(R2009-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "3a8760fa-e513-46a1-9fe3-5bb430848587")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -38696,19 +37187,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3e82646-284c-4101-b6ce-b4306f56857b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -38947,7 +37425,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 61 "unconnected-(R2031-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -38957,13 +37435,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 62 "unconnected-(R2031-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "79ca5069-6ee6-4433-a236-849c676746e7")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -39000,19 +37479,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5792f6a-ded8-471f-8d97-5fd38f3a1747")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -39251,7 +37717,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 150 "unconnected-(R2075-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -39261,13 +37727,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 149 "unconnected-(R2075-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "49b90a62-e32d-4070-9296-bf3d562c2312")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -39304,19 +37771,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b5323f80-4002-4fb8-9e07-23877c66cbeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -39555,7 +38009,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 284 "unconnected-(R2142-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -39565,13 +38019,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 283 "unconnected-(R2142-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "bf0f9e91-d4d2-4bcb-ade2-deaca3036d2a")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -39608,19 +38063,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "287f2324-730a-40ca-83f0-d6ff98f57f43")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -39859,7 +38301,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "unconnected-(R2011-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -39869,13 +38311,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "unconnected-(R2011-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "bd72cc41-c40a-40f4-8e18-6a648a560d9c")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -39912,19 +38355,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a978905-ed57-481d-9c71-6580058ff550")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -40163,7 +38593,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 238 "unconnected-(R2119-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -40173,13 +38603,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 237 "unconnected-(R2119-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "3deac035-f5f2-44da-9522-9588d27788e5")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -40216,19 +38647,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b28d3d6a-a84b-4f15-bc77-e577d173e888")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -40467,7 +38885,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "unconnected-(R2006-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -40477,13 +38895,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "unconnected-(R2006-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "fa873c09-d4fd-4da8-896b-9b6d6b37a7e9")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -40520,19 +38939,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "965ab31d-eb84-45c6-b986-d8c5c6d45fef")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -40771,7 +39177,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 205 "unconnected-(R2103-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -40781,13 +39187,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 206 "unconnected-(R2103-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "d9287227-8a78-4df4-89b7-96d3340e9211")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -40824,19 +39231,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e04088e-d797-4cb3-902e-a86064891e3d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -41075,7 +39469,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 193 "unconnected-(R2097-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -41085,13 +39479,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 194 "unconnected-(R2097-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "80cc8275-ae6e-4905-b3ae-3a8fdb4c52f2")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -41128,19 +39523,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "467c6711-404f-4b1b-a307-a3d74edf8f01")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -41379,7 +39761,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 312 "unconnected-(R2156-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -41389,13 +39771,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 311 "unconnected-(R2156-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "11056972-bc84-4145-87c0-0fc92519aa1e")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -41432,19 +39815,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd169712-2c72-46e6-b55d-e47b1b72a952")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -41683,7 +40053,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 308 "unconnected-(R2154-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -41693,13 +40063,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 307 "unconnected-(R2154-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "56eaab8e-c0cb-4183-8017-1cfc1761167b")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -41736,19 +40107,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b23606a8-09cc-45e7-83f7-0933f2ffb5c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -41987,7 +40345,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 250 "unconnected-(R2125-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -41997,13 +40355,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 249 "unconnected-(R2125-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "63b3c0c0-9179-4610-aad4-d324f2544530")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -42040,19 +40399,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20c24fee-61ba-46fd-8ec3-af17a48dc410")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -42291,7 +40637,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 156 "unconnected-(R2078-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -42301,13 +40647,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 155 "unconnected-(R2078-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "1afbfee4-f1ae-4d06-85f5-69a15ec45c09")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -42344,19 +40691,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ad1354d-2825-4115-b32a-e43650f68482")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -42595,7 +40929,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 127 "unconnected-(R2064-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -42605,13 +40939,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 128 "unconnected-(R2064-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "cf1012da-40fc-4573-8140-e708eaa7c938")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -42648,19 +40983,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99ea4926-a084-43a6-9df8-af985bd921fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -42899,7 +41221,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 103 "unconnected-(R2052-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -42909,13 +41231,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 104 "unconnected-(R2052-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "ae763900-85ee-4689-b2c0-c575c06332c6")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -42952,19 +41275,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53935fdb-b6dd-4011-b1f5-5b475c852630")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -43203,7 +41513,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 234 "unconnected-(R2117-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -43213,13 +41523,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 233 "unconnected-(R2117-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "e8ce3d71-6487-4704-b517-0300f5d791c9")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -43256,19 +41567,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2737857b-9162-4db3-b67a-49bcc45a711b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -43507,7 +41805,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 330 "unconnected-(R2165-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -43517,13 +41815,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 329 "unconnected-(R2165-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "159833f8-9cd6-4c67-b748-1272d582ebab")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -43560,19 +41859,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f179ca2-459b-4dec-a9dd-42ae4215d65f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -43811,7 +42097,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 316 "unconnected-(R2158-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -43821,13 +42107,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 315 "unconnected-(R2158-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "28757031-19ae-4073-b2b3-5b9d691352a1")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -43864,19 +42151,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c79875b-8de2-4c80-b9f9-eddab4d04f2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -44115,7 +42389,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 203 "unconnected-(R2102-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -44125,13 +42399,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 204 "unconnected-(R2102-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "c8b5f15a-2a65-45aa-9049-5c698f54bff8")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -44168,19 +42443,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "33264c72-159d-4790-9e11-6a409061076a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -44419,7 +42681,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 166 "unconnected-(R2083-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -44429,13 +42691,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 165 "unconnected-(R2083-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "253ca098-ed27-45b2-b4a9-dd4269fb12ec")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -44472,19 +42735,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b173d7d9-8978-44e9-bd97-04a1d01b09c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -44723,7 +42973,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 300 "unconnected-(R2150-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -44733,13 +42983,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 299 "unconnected-(R2150-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "040ed05f-0178-4b3c-a068-a0d2fc66f456")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -44776,19 +43027,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "132233f1-00a5-4fec-9117-2aa40aeca07b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -45027,7 +43265,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 187 "unconnected-(R2094-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -45037,13 +43275,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 188 "unconnected-(R2094-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "f800d655-ca1f-40fa-bfc0-6559ee29fdf8")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -45080,19 +43319,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3eac315c-11f2-45b9-b1df-9d7f3625ed62")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -45331,7 +43557,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 146 "unconnected-(R2073-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -45341,13 +43567,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 145 "unconnected-(R2073-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "1944466b-34b6-4ec0-ae13-27e948a7936b")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -45384,19 +43611,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4745ff1-9f77-4331-ad81-e37854af2483")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -45635,7 +43849,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 314 "unconnected-(R2157-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -45645,13 +43859,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 313 "unconnected-(R2157-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "16447dc0-b8e6-4c9a-ab02-6816d5e092a4")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -45688,19 +43903,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b5ef2a0-cd4c-4b29-b591-232b2f042849")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -45939,7 +44141,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 304 "unconnected-(R2152-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -45949,13 +44151,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 303 "unconnected-(R2152-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "41a446b2-4506-49c5-80c3-baaa91ebc55a")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -45992,19 +44195,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c72ce17-86f3-4184-9032-ce8967ebf5fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -46243,7 +44433,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 133 "unconnected-(R2067-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -46253,13 +44443,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 134 "unconnected-(R2067-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "276d0a74-5c7f-430c-a04e-931b0667c7d0")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -46296,19 +44487,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "161de7dd-e078-4429-84ad-ab4442bfc3ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -46547,7 +44725,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 106 "unconnected-(R2053-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -46557,13 +44735,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 105 "unconnected-(R2053-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "1b855ab5-91ee-48dc-b28c-58221083cd42")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -46600,19 +44779,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee564483-b7e6-4f50-9be0-7362aaaa75e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -46851,7 +45017,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 180 "unconnected-(R2090-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -46861,13 +45027,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 179 "unconnected-(R2090-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "2fa8fe52-6074-4781-987c-60f10fb637aa")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -46904,19 +45071,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "030f11fa-77be-4450-b158-10bc6703742d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -47155,7 +45309,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 252 "unconnected-(R2126-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -47165,13 +45319,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 251 "unconnected-(R2126-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "6a269f95-8594-4a60-8372-a8529c282ae0")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -47208,19 +45363,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a156bdb9-1b77-496e-a482-ed530d930a95")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -47459,7 +45601,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 107 "unconnected-(R2054-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -47469,13 +45611,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 108 "unconnected-(R2054-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "bea0fffd-45bf-403c-89bb-c46643b7ff99")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -47512,19 +45655,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e3c2a3f-e1b8-44cd-b226-8690262b4e54")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -47763,7 +45893,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 144 "unconnected-(R2072-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -47773,13 +45903,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 143 "unconnected-(R2072-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "8de4e95e-42a7-4546-ad1e-cef44560120d")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -47816,19 +45947,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2b2cda9-d43e-485a-b289-9237669b0a9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -48067,7 +46185,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 71 "unconnected-(R2036-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -48077,13 +46195,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 72 "unconnected-(R2036-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "af4c72b3-17ed-4861-9a0c-1f7ca031d956")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -48120,19 +46239,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a736c05b-ef6d-43e2-a30b-575d368dc4a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -48371,7 +46477,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 80 "unconnected-(R2040-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -48381,13 +46487,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 79 "unconnected-(R2040-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "54bd3798-214f-4041-bb45-9077ab79fa79")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -48424,19 +46531,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d27154f-09cd-4246-9c28-7cc90dd4baaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -48675,7 +46769,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 158 "unconnected-(R2079-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -48685,13 +46779,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 157 "unconnected-(R2079-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "820a38cb-831f-4504-b720-35a488b48dad")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -48728,19 +46823,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13364167-98d8-44d5-9920-ed1713ec52c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -48979,7 +47061,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 306 "unconnected-(R2153-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -48989,13 +47071,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 305 "unconnected-(R2153-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "01d33f93-ba11-46f7-a0c1-528d9107aa8f")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -49032,19 +47115,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5affa38b-15f0-47fc-bcba-4077c34b6c7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -49283,7 +47353,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 153 "unconnected-(R2077-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -49293,13 +47363,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 154 "unconnected-(R2077-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "174552f3-dca0-4e13-af06-a08dcdb80fc4")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -49336,19 +47407,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83d7b4ea-3864-442b-99d9-09d2328fbe1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -49587,7 +47645,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 211 "unconnected-(R2106-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -49597,13 +47655,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 212 "unconnected-(R2106-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "c6750db6-2a8b-494a-a40e-68e608de8945")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -49640,19 +47699,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "edd21639-eea6-4be4-8b5f-8bb62902ffbe")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -49891,7 +47937,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 124 "unconnected-(R2062-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -49901,13 +47947,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 123 "unconnected-(R2062-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "41c94686-1b59-442f-b626-89e6e81ea7f9")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -49944,19 +47991,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3e9409d-016c-453f-a08b-ff2a64176d98")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -50195,7 +48229,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 161 "unconnected-(R2081-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -50205,13 +48239,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 162 "unconnected-(R2081-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "2d287fbb-a45e-49ea-9ecd-8acf7959ce99")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -50248,19 +48283,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7d7a1388-cc68-4905-a334-6b8336ef28d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -50499,7 +48521,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 198 "unconnected-(R2099-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -50509,13 +48531,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 197 "unconnected-(R2099-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "a033fc21-c726-4843-853e-7769a0dac715")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -50552,19 +48575,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "128449f7-ad31-423f-a0ce-8518717a776c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -50803,7 +48813,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 184 "unconnected-(R2092-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -50813,13 +48823,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 183 "unconnected-(R2092-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "6a821677-0af9-45cd-a708-2e8f81378f9d")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -50856,19 +48867,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e453851-63d7-4e76-92ad-b664dc1e9f4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -51107,7 +49105,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "unconnected-(R2001-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -51117,13 +49115,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "unconnected-(R2001-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0f360888-0afe-4466-8625-f24ec30334af")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -51160,19 +49159,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2249d1ef-55a0-4ac1-86e4-537a417f229f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -51411,7 +49397,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 28 "unconnected-(R2014-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -51421,13 +49407,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "unconnected-(R2014-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "9a2ad81a-89ec-4d3f-ba18-7e94f2cec716")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -51464,19 +49451,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "485d09db-18de-4f0f-9acc-a1e0abdac343")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -51715,7 +49689,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 97 "unconnected-(R2049-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -51725,13 +49699,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 98 "unconnected-(R2049-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "652adcd8-512e-4109-814c-e2a2a4367ade")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -51768,19 +49743,6 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
-				)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "46217e2c-0552-4f73-8e57-7590e9534c78")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -52019,7 +49981,7 @@
 		(pad "1" smd rect
 			(at -0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 294 "unconnected-(R2147-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
@@ -52029,13 +49991,14 @@
 		(pad "2" smd rect
 			(at 0.95 0)
 			(size 0.9 1.3)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 293 "unconnected-(R2147-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin -0.05)
 			(uuid "0aa578e6-0485-4eae-a5f2-c66b0a719ace")
 		)
+		(embedded_fonts no)
 		(model "../3d_models/res_0805.step"
 			(offset
 				(xyz 0 0 0)
@@ -52055,8 +50018,9 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f82b03c1-c8bb-4132-8e19-b28958c9f4a5")
 	)
+	(embedded_fonts no)
 )
