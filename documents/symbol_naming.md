@@ -21,6 +21,7 @@ Space must be replaced with underscores.
 | MOSFETs              | mosfet n/p type_number package                                     | Q   |
 | Potentiometer        | pot type resistance tolerance power package                        | R   |
 | Resistors E-series   | res resistance tolerance power package                             | R   |
+| Switches             | switch type package                                                | S   |
 
 The following attributes should be added (if applicable):
 

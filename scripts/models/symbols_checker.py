@@ -23,6 +23,7 @@ class SymbolsChecker:
         "pptc":       "F",
         "relay":      "K",
         "res":        "R",
+        "switch":     "S",
         "test_point": "TP"
     }
     SKIP_FIELDS = ("Name", "Datasheet", "Description", "Reference", "Revision", "Notes", "Extends")
