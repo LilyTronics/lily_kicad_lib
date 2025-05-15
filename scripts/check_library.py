@@ -20,6 +20,7 @@ def _show_report(messages):
             print(format_string.format(item=message["item"], message=message["message"]))
         print(row_line)
     print(f"{len(messages)} messages\n")
+    return len(messages) == 0
 
 
 if __name__ == "__main__":
@@ -28,6 +29,8 @@ if __name__ == "__main__":
     from models.symbols_checker import SymbolsChecker
     from models.projects_checker import ProjectsChecker
 
-    _show_report(SymbolsChecker.run())
-    _show_report(FootprintsChecker.run())
-    _show_report(ProjectsChecker.run())
+    do_continue = _show_report(SymbolsChecker.run())
+    if do_continue:
+        do_continue = _show_report(FootprintsChecker.run())
+    if do_continue:
+        _show_report(ProjectsChecker.run())
