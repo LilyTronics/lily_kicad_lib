@@ -32,7 +32,8 @@ class FootprintsChecker:
         "allow_missing_courtyard": [False, "exempt from courtyard requirement"],
         "dnp": [False, "do not populate"]
     }
-    NO_3D_MODEL = ("_dnp", "fiducial_", "logo_", "mec_hole_", "mec_mouse_bytes", "test_point_")
+    NO_3D_MODEL = ("_dnp", "fiducial_", "logo_", "mec_hole_", "mec_mouse_bytes", "test_point_",
+                   "to_be_done")
 
     @classmethod
     def run(cls):
@@ -95,7 +96,8 @@ class FootprintsChecker:
                         footprint_data["Name"].startswith("fiducial_") or
                         footprint_data["Name"].startswith("logo_") or
                         footprint_data["Name"].startswith("mec_hole") or
-                        footprint_data["Name"].startswith("mec_mouse_bytes")):
+                        footprint_data["Name"].startswith("mec_mouse_bytes") or
+                        footprint_data["Name"] == "to_be_done"):
                     is_not_empty = value != ""
                 else:
                     is_empty = value == ""
@@ -198,6 +200,9 @@ class FootprintsChecker:
             attributes["exclude_from_pos_files"][0] = True
             attributes["exclude_from_bom"][0] = True
         if footprint_data["Name"].startswith("con_") and "cable_to_pcb" in footprint_data["Name"]:
+            attributes["exclude_from_bom"][0] = True
+        if footprint_data["Name"] == "to_be_done":
+            attributes["exclude_from_pos_files"][0] = True
             attributes["exclude_from_bom"][0] = True
 
         for attribute in attributes:
