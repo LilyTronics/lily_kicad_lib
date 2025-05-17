@@ -61,17 +61,21 @@ const generic_symbols = [
     { Name: "GNDA", Extends: "", Reference: "#PWR", Value: "GNDA", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "Vxx", Extends: "", Reference: "#PWR", Value: "Vxx", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "cap", Extends: "", Reference: "C", Value: "cap", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "cap_trimmer", Extends: "", Reference: "C", Value: "cap_trimmer", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_1x02", Extends: "", Reference: "X", Value: "con_1x02", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_1x03", Extends: "", Reference: "X", Value: "con_1x03", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_1x04", Extends: "", Reference: "X", Value: "con_1x04", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_1x06", Extends: "", Reference: "X", Value: "con_1x06", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_1x08", Extends: "", Reference: "X", Value: "con_1x08", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_1x10", Extends: "", Reference: "X", Value: "con_1x10", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "con_1x15", Extends: "", Reference: "X", Value: "con_1x15", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_2x03", Extends: "", Reference: "X", Value: "con_2x03", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_2x05", Extends: "", Reference: "X", Value: "con_2x05", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_2x08", Extends: "", Reference: "X", Value: "con_2x08", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_64p_a+c", Extends: "", Reference: "X", Value: "con_64p_a+c", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "con_coax_2_gnd", Extends: "", Reference: "X", Value: "con_coax_2_gnd", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_dc_jack_3p", Extends: "", Reference: "X", Value: "con_dc_jack_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "con_spring_probe", Extends: "", Reference: "X", Value: "con_spring_probe", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_usb_a_plug", Extends: "", Reference: "X", Value: "con_usb_a_plug", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_usb_b", Extends: "", Reference: "X", Value: "con_usb_b", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_usb_micro_b", Extends: "", Reference: "X", Value: "con_usb_micro_b", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -108,13 +112,14 @@ const generic_symbols = [
     { Name: "ind_bead", Extends: "", Reference: "L", Value: "ind_bead", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_common_mode", Extends: "", Reference: "L", Value: "ind_common_mode", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "logo_lilytronics", Extends: "", Reference: "DOC", Value: "logo_lilytronics", Description: "", Datasheet: "", Footprint: "lily_footprints:logo_lilytronics", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
-    { Name: "mec_hole", Extends: "", Reference: "M", Value: "", Description: "", Datasheet: "", Footprint: "", Revision: "", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "mec_hole", Extends: "", Reference: "M", Value: "mec_hole", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_n_3p", Extends: "", Reference: "Q", Value: "mosfet_n_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_p_8p", Extends: "", Reference: "Q", Value: "mosfet_p_8p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "pot", Extends: "", Reference: "P", Value: "pot", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "pptc", Extends: "", Reference: "F", Value: "pptc", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "relay_spdt", Extends: "", Reference: "K", Value: "relay_spdt", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "res", Extends: "", Reference: "R", Value: "res", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "switch_spdt", Extends: "", Reference: "S", Value: "switch_spdt", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "test_point", Extends: "", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
 ];
 
@@ -196,10 +201,14 @@ const parts = [
     { Name: "cap_do_not_populate_0805", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_0805_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "cap_do_not_populate_1206", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_1206_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "cap_do_not_populate_1210", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_1210_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "cap_trimmer_20p_100V_500ppm_JZ", Extends: "cap_trimmer", Reference: "C", Value: "20p", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_trimmer_jz_series", Revision: "1", Status: "Active", Manufacturer: "Knowles Voltronics", Manufacturer_ID: "JZ100", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C22468122", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "con_coax_rg_174_cable_to_pcb_th", Extends: "con_coax_2_gnd", Reference: "X", Value: "con_coax_rg_174_cable_to_pcb_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_coax_rg_174_cable_to_pcb_th", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_dc_jack_dc_005_th", Extends: "con_dc_jack_3p", Reference: "X", Value: "con_dc_jack_dc_005_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_dc_jack_dc_005_th", Revision: "1", Status: "Active", Manufacturer: "XKB Connection", Manufacturer_ID: "DC-005-5A-2.0", Lily_ID: "1910-10008", JLCPCB_ID: "C381116", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "con_din41612_plug_64p_a+c_right_angle_th", Extends: "con_64p_a+c", Reference: "X", Value: "con_din41612_plug_64p_a+c_right_angle_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_din41612_plug_64p_a+c_right_angle_th", Revision: "1", Status: "Active", Manufacturer: "Harting", Manufacturer_ID: "09031646921", Lily_ID: "1910-10006", JLCPCB_ID: "C698356", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "con_din41612_receptacle_64p_a+c_straight_th", Extends: "con_64p_a+c", Reference: "X", Value: "con_din41612_receptacle_64p_a+c_straight_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_din41612_receptacle_64p_a+c_straight_th", Revision: "1", Status: "Active", Manufacturer: "Amphenol ICC", Manufacturer_ID: "86094648114755V1LF", Lily_ID: "1910-10005", JLCPCB_ID: "C599080", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "con_header_2x03_2.54mm_th_idc_area", Extends: "con_1x06", Reference: "X", Value: "con_header_2x03_2.54mm_th_idc_area", Description: "", Datasheet: "", Footprint: "lily_footprints:con_header_2x03_2.54mm_th_idc_area", Revision: "1", Status: "Active", Manufacturer: "XFCN", Manufacturer_ID: "PZ254V-12-6P", Lily_ID: "1910-10004", JLCPCB_ID: "C492420", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "con_jst_1x04_ph_2.00mm_straight_th", Extends: "con_1x04", Reference: "X", Value: "con_jst_1x04_ph_2.00mm_straight_th", Description: "", Datasheet: "", Footprint: "lily_footprints:to_be_done", Revision: "1", Status: "Active", Manufacturer: "TBD", Manufacturer_ID: "TBD", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "TBD", JLCPCB_STATUS: "TBD", Notes: "" },
+    { Name: "con_socket_1x15_2.54mm_straight_th", Extends: "con_1x15", Reference: "X", Value: "con_socket_1x15_2.54mm_straight_th", Description: "", Datasheet: "", Footprint: "lily_footprints:to_be_done", Revision: "1", Status: "Active", Manufacturer: "TBD", Manufacturer_ID: "TBD", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "TBD", JLCPCB_STATUS: "TBD", Notes: "" },
     { Name: "con_terminal_screw_1x04_3.5mm_th", Extends: "con_1x04", Reference: "X", Value: "con_terminal_screw_1x04_3.5mm_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_terminal_screw_1x04p_3.5mm_th", Revision: "1", Status: "Active", Manufacturer: "DORABO", Manufacturer_ID: "DB125-3.5-4P-GN-S ", Lily_ID: "1910-10007", JLCPCB_ID: "C2757925", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "con_usb_b_receptacle_th", Extends: "con_usb_b", Reference: "X", Value: "con_usb_b_receptacle_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_usb_b_receptacle_th", Revision: "1", Status: "Active", Manufacturer: "Jing Extension of the Electronic Co.", Manufacturer_ID: "921-111A1010D10200 ", Lily_ID: "1910-10009", JLCPCB_ID: "C46392", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "crystal_16MHz_20ppm_8pF_3225", Extends: "crystal_4p", Reference: "X", Value: "16MHz", Description: "", Datasheet: "", Footprint: "lily_footprints:crystal_3225", Revision: "1", Status: "Active", Manufacturer: "NDK", Manufacturer_ID: "NX3225GA-16MHZ-STD-CRG-2", Lily_ID: "1917-10002", JLCPCB_ID: "C156247", JLCPCB_STATUS: "Extended", Notes: "" },
@@ -395,6 +404,7 @@ const parts = [
     { Name: "res_9R1_1%_125mW_0805", Extends: "res", Reference: "R", Value: "9R1", Description: "", Datasheet: "", Footprint: "lily_footprints:res_0805", Revision: "1", Status: "Active", Manufacturer: "Uniroyal Electronics", Manufacturer_ID: "0805W8F910KT5E", Lily_ID: "1913-19100", JLCPCB_ID: "C17857", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "res_9k1_1%_125mW_0805", Extends: "res", Reference: "R", Value: "9k1", Description: "", Datasheet: "", Footprint: "lily_footprints:res_0805", Revision: "1", Status: "Active", Manufacturer: "Uniroyal Electronics", Manufacturer_ID: "0805W8F9101T5E", Lily_ID: "1913-19103", JLCPCB_ID: "C17855", JLCPCB_STATUS: "Extended preferred", Notes: "" },
     { Name: "res_do_not_populate_0805", Extends: "res", Reference: "R", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:res_0805_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "switch_spdt_xxx_smd", Extends: "switch_spdt", Reference: "S", Value: "switch_spdt_xxx_smd", Description: "", Datasheet: "", Footprint: "lily_footprints:to_be_done", Revision: "1", Status: "Active", Manufacturer: "TBD", Manufacturer_ID: "TBD", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "TBD", JLCPCB_STATUS: "TBD", Notes: "" },
     { Name: "test_point_1.1mm_th", Extends: "test_point", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "lily_footprints:test_point_1.1mm_th", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "test_point_1mm_smd", Extends: "test_point", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "lily_footprints:test_point_1mm", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
 ];
@@ -406,6 +416,8 @@ const footprints = [
     { Name: "cap_1206_dnp", Revision: "1", Model: "" },
     { Name: "cap_1210", Revision: "1", Model: "../3d_models/cap_1210.step" },
     { Name: "cap_1210_dnp", Revision: "1", Model: "" },
+    { Name: "cap_trimmer_jz_series", Revision: "1", Model: "../3d_models/cap_trimmer_jz_series.step" },
+    { Name: "con_coax_rg_174_cable_to_pcb_th", Revision: "1", Model: "../3d_models/coax_rg_174_to_pcb.step" },
     { Name: "con_dc_jack_dc_005_th", Revision: "1", Model: "../3d_models/con_dc-005-5a-2_0.step" },
     { Name: "con_din41612_plug_64p_a+c_right_angle_th", Revision: "1", Model: "../3d_models/con_din41612_plug_64p_a+c_right_angle_th.step" },
     { Name: "con_din41612_receptacle_64p_a+c_straight_th", Revision: "1", Model: "../3d_models/con_din41612_receptacle_64p_a+c_straight_th.step" },
@@ -416,6 +428,7 @@ const footprints = [
     { Name: "con_header_1x10_2.54mm_th", Revision: "1", Model: "../3d_models/con_header_1x10_2.54mm_th.step" },
     { Name: "con_header_2x03_2.54mm_th_idc_area", Revision: "1", Model: "../3d_models/con_header_2x03_2.54mm_th.step" },
     { Name: "con_header_2x08_2.54mm", Revision: "1", Model: "../3d_models/con_header_2x08_2.54mm_th.step" },
+    { Name: "con_spring_probe_pad_15x2.4mm", Revision: "1", Model: "../3d_models/spring_probe_ptr_1025_bst.step" },
     { Name: "con_terminal_screw_1x04p_3.5mm_th", Revision: "1", Model: "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp" },
     { Name: "con_usb_a_plug_smd", Revision: "1", Model: "../3d_models/con_usb_a_plug_480372100.stp" },
     { Name: "con_usb_b_receptacle_th", Revision: "1", Model: "../3d_models/con_usb_b.step" },
@@ -458,6 +471,7 @@ const footprints = [
     { Name: "test_point_1.1mm_th", Revision: "1", Model: "" },
     { Name: "test_point_1mm", Revision: "1", Model: "" },
     { Name: "to92", Revision: "1", Model: "../3d_models/to92.step" },
+    { Name: "to_be_done", Revision: "1", Model: "" },
     { Name: "tqfp32_pitch0.8_7x7mm", Revision: "1", Model: "../3d_models/tqfp32_pitch0.8_7x7mm.step" },
     { Name: "tssop16_pitch0.65_5.0x4.4_mm", Revision: "1", Model: "../3d_models/tssop16_pitch0.65_5.0x4.4_mm.step" },
     { Name: "tssop20_pitch0.65_6.5x4.4_mm", Revision: "1", Model: "../3d_models/tssop20_pitch0.65_6.5x4.4_mm.step" }
@@ -525,9 +539,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-03-14 18:49</p>
-<p>Total symbols: 338</p>
-<p>Total footprints: 61</p>
+<p>Last updated: 2025-05-17 19:13</p>
+<p>Total symbols: 348</p>
+<p>Total footprints: 65</p>
 </div>
 
 <div class="section">
