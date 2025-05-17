@@ -197,6 +197,8 @@ class FootprintsChecker:
         if footprint_data["Name"].startswith("test_point_"):
             attributes["exclude_from_pos_files"][0] = True
             attributes["exclude_from_bom"][0] = True
+        if footprint_data["Name"].startswith("con_") and "cable_to_pcb" in footprint_data["Name"]:
+            attributes["exclude_from_bom"][0] = True
 
         for attribute in attributes:
             if attribute in footprint_data["Attributes"] and not attributes[attribute][0]:
