@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
 		(title "Documentation symbols")
-		(date "2025-02-08")
+		(date "2025-05-24")
 		(rev "1")
 		(comment 1 "-")
 		(comment 2 "-")
@@ -76,32 +76,8 @@
 			(symbol "logo_lilytronics_0_0"
 				(arc
 					(start -4.318 4.318)
-					(mid 0 0.0188)
-					(end 4.318 4.318)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
 					(mid -1.2647 3.0533)
-					(end -4.318 4.318)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.2625 3.048)
-					(end 0 6.096)
+					(end 0 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -112,7 +88,7 @@
 				)
 				(arc
 					(start 0 6.096)
-					(mid -1.2625 3.048)
+					(mid 1.2625 3.048)
 					(end 0 0)
 					(stroke
 						(width 0.254)
@@ -124,8 +100,8 @@
 				)
 				(arc
 					(start 4.318 4.318)
-					(mid 1.2647 3.0533)
-					(end 0 0)
+					(mid 0 0.0188)
+					(end -4.318 4.318)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -134,13 +110,28 @@
 						(type none)
 					)
 				)
-				(text "Electronics Engineering"
-					(at 5.842 0.254 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify left bottom)
+				(arc
+					(start 0 0)
+					(mid -1.2625 3.048)
+					(end 0 6.096)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.2647 3.0533)
+					(end 4.318 4.318)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(text "LilyTronics"
@@ -152,7 +143,17 @@
 						(justify left bottom)
 					)
 				)
+				(text "Electronics Engineering"
+					(at 5.842 0.254 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left bottom)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(symbol
@@ -232,4 +233,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
 		(title "Resistors")
-		(date "2025-02-07")
+		(date "2025-05-24")
 		(rev "1")
 		(comment 1 "-")
 		(comment 2 "-")
@@ -15,6 +15,10 @@
 	(sheet
 		(at 25.4 25.4)
 		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,4 +60,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

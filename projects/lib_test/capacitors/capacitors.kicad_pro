@@ -109,6 +109,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -515,7 +516,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/lilytronics_page_layout_pcb.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,

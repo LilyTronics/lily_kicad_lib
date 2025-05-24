@@ -1,14 +1,25 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7f64a317-1011-43d2-a562-e49242ddf3be")
 	(paper "A4")
+	(title_block
+		(title "Resistors")
+		(date "2025-05-24")
+		(rev "1")
+		(comment 1 "-")
+		(comment 2 "-")
+	)
 	(lib_symbols
 		(symbol "lily_symbols:res_0R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -171,11 +182,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_100R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -338,11 +354,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_100k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -505,11 +526,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_10R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -672,11 +698,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_10k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -839,11 +870,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_110R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1006,11 +1042,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_110k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1173,11 +1214,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_11R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1340,11 +1386,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_11k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1507,11 +1558,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_120R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1674,11 +1730,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_120k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1841,11 +1902,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_12R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2008,11 +2074,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_12k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2175,11 +2246,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_130R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2342,11 +2418,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_130k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2509,11 +2590,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_13R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2676,11 +2762,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_13k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2843,11 +2934,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_150R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3010,11 +3106,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_150k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3177,11 +3278,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_15R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3344,11 +3450,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_15k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3511,11 +3622,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_160R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3678,11 +3794,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_160k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3845,11 +3966,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_16R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4012,11 +4138,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_16k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4179,11 +4310,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_180R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4346,11 +4482,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_180k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4513,11 +4654,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_18R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4680,11 +4826,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_18k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4847,11 +4998,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1M0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5014,11 +5170,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1M1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5181,11 +5342,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1M2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5348,11 +5514,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1M3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5515,11 +5686,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1M5_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5682,11 +5858,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1M6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5849,11 +6030,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1M8_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6016,11 +6202,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1R0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6183,11 +6374,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1R1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6350,11 +6546,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1R2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6517,11 +6718,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1R3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6684,11 +6890,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1R5_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6851,11 +7062,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1R6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7018,11 +7234,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1R8_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7185,11 +7406,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1k0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7352,11 +7578,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1k1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7519,11 +7750,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1k2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7686,11 +7922,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1k3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7853,11 +8094,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1k5_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8020,11 +8266,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1k6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8187,11 +8438,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_1k8_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8354,11 +8610,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_200R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8521,11 +8782,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_200k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8688,11 +8954,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_20R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8855,11 +9126,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_20k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9022,11 +9298,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_220R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9189,11 +9470,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_220k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9356,11 +9642,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_22R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9523,11 +9814,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_22k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9690,11 +9986,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_240R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9857,11 +10158,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_240k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10024,11 +10330,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_24R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10191,11 +10502,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_24k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10358,11 +10674,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_270R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10525,11 +10846,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_270k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10692,11 +11018,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_27R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10859,11 +11190,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_27k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11026,11 +11362,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2M0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11193,11 +11534,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2M2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11360,11 +11706,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2M4_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11527,11 +11878,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2M7_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11694,11 +12050,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2R0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11861,11 +12222,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2R2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12028,11 +12394,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2R4_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12195,11 +12566,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2R7_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12362,11 +12738,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2k0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12529,11 +12910,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2k2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12696,11 +13082,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2k4_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12863,11 +13254,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_2k7_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13030,11 +13426,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_300R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13197,11 +13598,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_300k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13364,11 +13770,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_30R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13531,11 +13942,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_30k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13698,11 +14114,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_330R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13865,11 +14286,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_330k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -14032,11 +14458,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_33R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -14199,11 +14630,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_33k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -14366,11 +14802,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_360R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -14533,11 +14974,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_360k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -14700,11 +15146,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_36R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -14867,11 +15318,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_36k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -15034,11 +15490,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_390R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -15201,11 +15662,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_390k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -15368,11 +15834,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_39R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -15535,11 +16006,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_39k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -15702,11 +16178,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3M0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -15869,11 +16350,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3M3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -16036,11 +16522,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3M6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -16203,11 +16694,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3M9_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -16370,11 +16866,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3R0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -16537,11 +17038,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3R3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -16704,11 +17210,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3R6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -16871,11 +17382,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3R9_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17038,11 +17554,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3k0_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17205,11 +17726,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3k3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17372,11 +17898,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3k6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17539,11 +18070,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_3k9_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17706,11 +18242,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_430R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17873,11 +18414,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_430k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18040,11 +18586,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_43R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18207,11 +18758,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_43k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18374,11 +18930,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_470R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18541,11 +19102,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_470k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18708,11 +19274,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_47R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18875,11 +19446,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_47k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -19042,11 +19618,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_4M3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -19209,11 +19790,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_4M7_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -19376,11 +19962,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_4R3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -19543,11 +20134,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_4R7_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -19710,11 +20306,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_4k3_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -19877,11 +20478,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_4k7_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -20044,11 +20650,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_510R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -20211,11 +20822,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_510k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -20378,11 +20994,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_51R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -20545,11 +21166,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_51k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -20712,11 +21338,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_560R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -20879,11 +21510,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_560k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -21046,11 +21682,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_56R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -21213,11 +21854,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_56k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -21380,11 +22026,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_5M1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -21547,11 +22198,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_5M6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -21714,11 +22370,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_5R1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -21881,11 +22542,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_5R6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22048,11 +22714,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_5k1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22215,11 +22886,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_5k6_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22382,11 +23058,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_620R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22549,11 +23230,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_620k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22716,11 +23402,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_62R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22883,11 +23574,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_62k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23050,11 +23746,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_680R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23217,11 +23918,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_680k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23384,11 +24090,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_68R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23551,11 +24262,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_68k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23718,11 +24434,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_6M2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23885,11 +24606,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_6M8_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24052,11 +24778,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_6R2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24219,11 +24950,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_6R8_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24386,11 +25122,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_6k2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24553,11 +25294,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_6k8_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24720,11 +25466,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_750R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24887,11 +25638,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_750k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25054,11 +25810,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_75R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25221,11 +25982,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_75k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25388,11 +26154,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_7M5_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25555,11 +26326,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_7R5_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25722,11 +26498,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_7k5_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25889,11 +26670,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_820R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26056,11 +26842,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_820k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26223,11 +27014,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_82R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26390,11 +27186,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_82k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26557,11 +27358,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_8M2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26724,11 +27530,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_8R2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26891,11 +27702,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_8k2_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27058,11 +27874,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_910R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27225,11 +28046,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_910k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27392,11 +28218,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_91R_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27559,11 +28390,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_91k_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27726,11 +28562,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_9M1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27893,11 +28734,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_9R1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -28060,11 +28906,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_9k1_1%_125mW_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -28227,11 +29078,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:res_do_not_populate_0805"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -28340,6 +29196,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(symbol

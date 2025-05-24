@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
 		(title "Power symbols")
-		(date "2025-02-08")
+		(date "2025-05-24")
 		(rev "1")
 		(comment 1 "-")
 		(comment 2 "-")
@@ -14,9 +14,13 @@
 	(lib_symbols
 		(symbol "lily_symbols:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -132,12 +136,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -226,12 +235,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:GNDA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -323,12 +337,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "lily_symbols:Vxx"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -419,6 +438,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(symbol
@@ -725,4 +745,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
