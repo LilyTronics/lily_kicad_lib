@@ -200,7 +200,7 @@ class ProjectsChecker:
                         if isinstance(lib_value, dict):
                             lib_value = lib_value.get("Value", "no value key")
                         design_value = design_footprint.get(key, "invalid design key")
-                        if design_footprint["Value"].startswith("logo_") and key == "Model":
+                        if design_footprint["Value"].startswith("logo_") and key in ["Model", "Reference_F.Fab"]:
                             design_value = lib_value
                         if lib_value != design_value:
                             report_messages.append({
