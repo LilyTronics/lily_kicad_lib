@@ -64,7 +64,7 @@ class DesignParser:
                             footprint["Attributes"] = lines[i].strip()[6:].strip(")").split(" ")
                         if lines[i].startswith("\t\t(model "):
                             footprint["Model"] = lines[i].strip()[7:].strip(")").strip('"')
-                        if lines[i].startswith("\t\t(fp_text user "):
+                        if lines[i].startswith('\t\t(fp_text user "${REFERENCE}"'):
                             footprint["Reference_F.Fab"] = lines[i].strip()[14:].strip('"')
                     footprints.append(footprint)
                 i += 1
