@@ -178,7 +178,7 @@ class SymbolsChecker:
                 if not os.path.isfile(footprint_file):
                     report_messages.append({
                         "item": symbol_data["Name"],
-                        "message": f"footprint does not exist {caller}"
+                        "message": f"footprint '{symbol_data["Footprint"]}' does not exist {caller}"
                     })
 
 
