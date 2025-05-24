@@ -49076,7 +49076,7 @@
 			)
 		)
 	)
-	(symbol "switch_spdt_xxx_smd"
+	(symbol "switch_spdt_slide_right_angle_8x2.8mm_smd"
 		(extends "switch_spdt")
 		(property "Reference" "S"
 			(at 0 7.62 0)
@@ -49087,7 +49087,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "switch_spdt_xxx_smd"
+		(property "Value" "switch_spdt_slide_right_angle_8x2.8mm_smd"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -49096,7 +49096,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "lily_footprints:to_be_done"
+		(property "Footprint" "lily_footprints:switch_spdt_msk12c02_8x2.8mm_smd"
 			(at 5.08 -10.16 0)
 			(effects
 				(font
@@ -49141,7 +49141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TBD"
+		(property "Manufacturer" "Shou Han"
 			(at 5.08 -12.7 0)
 			(effects
 				(font
@@ -49150,7 +49150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TBD"
+		(property "Manufacturer_ID" "MSK12C02-HB"
 			(at 5.08 -15.24 0)
 			(effects
 				(font
@@ -49168,7 +49168,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "TBD"
+		(property "JLCPCB_ID" "C431541"
 			(at 5.08 -20.32 0)
 			(effects
 				(font
@@ -49177,7 +49177,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "TBD"
+		(property "JLCPCB_STATUS" "Extended"
 			(at 5.08 -22.86 0)
 			(effects
 				(font
