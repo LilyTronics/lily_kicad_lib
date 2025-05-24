@@ -274,6 +274,8 @@
 	(net 152 "unconnected-(C3003-Pad2)")
 	(net 153 "unconnected-(C3004-Pad1)")
 	(net 154 "unconnected-(C3004-Pad2)")
+	(net 155 "unconnected-(C3005-Pad2)")
+	(net 156 "unconnected-(C3005-Pad1)")
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "01a30dd3-4225-4a63-b07d-3d9c564d5792")
@@ -432,7 +434,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/55c2d11c-4bfa-4956-861f-6e06c92f6a64")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -724,7 +726,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/dc899dfb-05a3-42e3-9ff2-db0ab0bc2318")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1016,7 +1018,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/1f8b4114-e771-495c-96be-248dafaab816")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1308,7 +1310,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/c8a99346-bcdd-4070-bc03-c6b5c1dfeeba")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1600,7 +1602,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/6959b037-0578-4b61-ab61-b9fddfe5eca2")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1892,7 +1894,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/6097e05a-5125-4eb6-95d7-1d244ef380eb")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2184,7 +2186,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/9b7ccd02-9261-4d60-844b-3f02832260ff")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2328,6 +2330,373 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:cap_trimmer_jz_series"
+		(layer "F.Cu")
+		(uuid "14f70f39-6fd2-45b0-9770-da11893b7060")
+		(at 168 55)
+		(property "Reference" "C3005"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "a2a92532-5fe0-43e1-800d-c712e71c432e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "20p"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1aec2e1-a884-4156-af6c-a3310640687a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2b643e0-fcb8-4a7d-9051-b0231a9973a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84c900f9-fe9b-4dca-becf-0f50592cace1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1bc71d8-ca91-4d34-ac4f-1a7ffe2a61cc")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1740bc6-d82e-43d1-a2df-21379c0980a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Knowles Voltronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d703f075-3d3e-4303-9a51-100ac7d29384")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "JZ100"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "601d1f10-5df0-40d3-9acd-4bc176b2a1fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "xxxx-yyyyy"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "450df0c8-2ad8-4f20-9d15-02da4579b4c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C22468122"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b61046b-f873-4224-b971-a127d0be0513")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10325f5a-f4d2-48bb-804d-9b7b0f3c8b8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1d164094-f4c1-44db-89b1-f501c3d63dea/9d9c8b3d-2c43-4d02-9b26-5020cd555a4e")
+		(sheetname "/various_smd/")
+		(sheetfile "various_smd.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.8 -1.8)
+			(end 2.8 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a17308cc-adb0-4213-8869-5d718e0783dc")
+		)
+		(fp_line
+			(start -2.8 1.8)
+			(end -2.8 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f6f59eb-efad-406d-a864-1245b7934238")
+		)
+		(fp_line
+			(start 2.8 -1.8)
+			(end 2.8 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "05646da3-c57a-47b0-a89f-cd31f566ac0c")
+		)
+		(fp_line
+			(start 2.8 1.8)
+			(end -2.8 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6bab105f-9a3e-4520-8752-3d167ea77dfd")
+		)
+		(fp_line
+			(start -2.25 -1.6)
+			(end -2.25 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2a9bed0d-e008-4dab-b885-bd1290f1b6ac")
+		)
+		(fp_line
+			(start -2.25 1.6)
+			(end 1.65 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20877df8-1e0d-4478-8412-408bcd8c44de")
+		)
+		(fp_line
+			(start -0.2 0.75)
+			(end -0.2 -0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "7d23c443-db7e-4fc9-a99e-28f0ddeb5733")
+		)
+		(fp_line
+			(start 0.2 0.75)
+			(end 0.2 -0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "2a04bbd9-f763-4920-93d2-7ceac637f53a")
+		)
+		(fp_line
+			(start 1.65 -1.6)
+			(end -2.25 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "feadfd8a-822d-48f2-b749-42a3e24bf658")
+		)
+		(fp_line
+			(start 2.25 -1)
+			(end 1.65 -1.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "c5f6337c-4e62-4aa8-9571-eaa0e1279f75")
+		)
+		(fp_line
+			(start 2.25 1)
+			(end 1.65 1.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "4b66d844-aac6-420f-a5f2-751b868665e1")
+		)
+		(fp_line
+			(start 2.25 1)
+			(end 2.25 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67573386-d696-4b2e-bafc-0e4218135354")
+		)
+		(fp_rect
+			(start -2.25 -0.5)
+			(end -1.75 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0228b936-eafe-494b-943f-9eb8e4366d74")
+		)
+		(fp_rect
+			(start 1.75 -0.5)
+			(end 2.25 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "200c2570-dd62-429f-b78a-9e0c476638a6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end -1.6 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "dbcdbdc4-ea2b-4790-8908-fef57f3899bc")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.8 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "da1a2ebc-aff5-4a17-b689-5e01935bde27")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.2 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0a28ed9e-5245-494c-8569-11eb76560dfe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1938f0b6-b397-40b7-8c23-3ca3f768b115")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 156 "unconnected-(C3005-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.1)
+			(uuid "91252643-69ed-4629-a3b1-d124b0a62dd8")
+		)
+		(pad "2" smd rect
+			(at 2 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 155 "unconnected-(C3005-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(solder_paste_margin -0.1)
+			(uuid "49db0870-f464-4a2a-9e31-dbf4738c8734")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/cap_trimmer_jz_series.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -2476,7 +2845,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/fe1c6900-00ed-4cff-b343-e1c987944261")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2768,7 +3137,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/691639f1-6d49-4455-8777-dc8fde201a57")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2918,7 +3287,7 @@
 	(footprint "lily_footprints:cap_1210_dnp"
 		(layer "F.Cu")
 		(uuid "2dfada81-e8e6-4c6a-9690-27dc058a387a")
-		(at 174 75)
+		(at 172 79)
 		(property "Reference" "C3004"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
@@ -2982,7 +3351,7 @@
 			)
 		)
 		(path "/1d164094-f4c1-44db-89b1-f501c3d63dea/c9f930e8-7cae-4ca6-916b-934b2268d60a")
-		(sheetname "various_smd")
+		(sheetname "/various_smd/")
 		(sheetfile "various_smd.kicad_sch")
 		(attr smd exclude_from_pos_files)
 		(fp_line
@@ -3276,7 +3645,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/d793007f-b93a-41f1-a3ee-948262705839")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3568,7 +3937,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/872bf685-23eb-4b8e-98b9-47969f296819")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3860,7 +4229,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/ebcc6950-1946-48ab-a9d8-cde2809d5235")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4152,7 +4521,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/717e2194-0018-4cfc-8667-7904c9517007")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4444,7 +4813,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/913e3904-45ab-4c55-b8bd-cea87a174d41")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4736,7 +5105,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/960232b8-6843-4ef0-bd6a-1bc24197c8fb")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5028,7 +5397,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/991583b5-03e7-446e-8a39-eef7e63b5401")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5320,7 +5689,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/6b0ff110-5d55-491c-81d0-3a476c0f0072")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5612,7 +5981,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/a6cac37e-b477-475d-a21d-55baaa496b46")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5904,7 +6273,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/0730ac04-812e-4f6b-b53e-cf64779f0b16")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6196,7 +6565,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/013866f7-beec-4025-9cf1-91b0a78cbdd6")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6346,7 +6715,7 @@
 	(footprint "lily_footprints:cap_1206_dnp"
 		(layer "F.Cu")
 		(uuid "5867f561-b1ce-4217-aa1f-27f635a53e3f")
-		(at 174 55)
+		(at 172 65)
 		(property "Reference" "C3002"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -6410,7 +6779,7 @@
 			)
 		)
 		(path "/1d164094-f4c1-44db-89b1-f501c3d63dea/1a60f3b4-9ee8-438c-97b7-840f00da9007")
-		(sheetname "various_smd")
+		(sheetname "/various_smd/")
 		(sheetfile "various_smd.kicad_sch")
 		(attr smd exclude_from_pos_files)
 		(fp_line
@@ -6691,7 +7060,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/6199c69d-b57b-407f-92bb-aa7e393bc20a")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6983,7 +7352,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/6c4051ff-5a31-4dfa-966b-db52e990ef08")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7275,7 +7644,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/5fe90755-662d-4ce6-a55d-8df5ce81c6f4")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7567,7 +7936,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/288c7897-8efd-441b-8673-41681bb5ebd1")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7859,7 +8228,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/4708caf0-9652-4962-a0bb-7d9595a680ab")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8151,7 +8520,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/a9b97719-4ced-41a9-a247-75358177a039")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8443,7 +8812,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/5800d898-1490-4e14-827a-355692dbb4e3")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8735,7 +9104,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/8ff5a740-7bc1-477d-a532-8ce6323a8c8a")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9027,7 +9396,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/9427a66e-2ac0-4cd6-b476-365dbb4b0ad5")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9319,7 +9688,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/728f70cd-af28-4564-87c2-5f7d6813a22c")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9611,7 +9980,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/33c69df5-9184-4632-ad70-08209602fc17")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9903,7 +10272,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/d744df4a-d61e-4e47-aedc-d0285029bb27")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10195,7 +10564,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/aa581cca-8abd-40e0-9970-4cc45807f67e")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10500,7 +10869,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/e64f980f-fc13-48ee-af89-018e9f810c99")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10792,7 +11161,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/0fe1f1ca-aa5e-4a4c-9b88-4dc317e06ef4")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11084,7 +11453,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/364a28dc-8699-4273-b5df-0641c710b67e")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11376,7 +11745,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/72ace784-e48d-41e2-b7f7-8795f05300ff")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11668,7 +12037,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/acf27a9a-c825-4b63-b553-ea865230684a")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11818,7 +12187,7 @@
 	(footprint "lily_footprints:cap_1210"
 		(layer "F.Cu")
 		(uuid "96073ac4-000a-4760-ba58-f1ae91a668be")
-		(at 169 75)
+		(at 167 79)
 		(property "Reference" "C3003"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
@@ -11960,7 +12329,7 @@
 			)
 		)
 		(path "/1d164094-f4c1-44db-89b1-f501c3d63dea/089b8c34-55d4-4b02-81eb-00e738f24f9d")
-		(sheetname "various_smd")
+		(sheetname "/various_smd/")
 		(sheetfile "various_smd.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12252,7 +12621,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/5fb37d87-c3b7-48d1-8b09-aa194bb10919")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12544,7 +12913,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/9be2efe2-7fbd-498d-bf99-28ff5341237c")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12836,7 +13205,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/cd1db876-eaff-4ad4-8d57-3268762deb19")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13128,7 +13497,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/fdca8fff-03c0-498f-bdc5-26c437318ed5")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13420,7 +13789,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/8f50a022-d40b-40dd-ad88-d060eb8c31e0")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13712,7 +14081,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/3dedd89f-ba58-4285-9a26-7e69bfebd2b9")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14004,7 +14373,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/525ce012-fabe-4899-8439-a9346197875b")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14154,7 +14523,7 @@
 	(footprint "lily_footprints:cap_1206"
 		(layer "F.Cu")
 		(uuid "a06d0d8d-b488-4a96-bd59-30304cd24b1e")
-		(at 169 55)
+		(at 167 65)
 		(property "Reference" "C3001"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -14296,7 +14665,7 @@
 			)
 		)
 		(path "/1d164094-f4c1-44db-89b1-f501c3d63dea/0565e81c-d241-435d-9e99-910ef5e3c416")
-		(sheetname "various_smd")
+		(sheetname "/various_smd/")
 		(sheetfile "various_smd.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14588,7 +14957,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/e53ae025-affc-4d34-9b23-f1f03cae1f34")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14880,7 +15249,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/3e8cb0b2-57b4-4b51-a8ac-cdd7bc6d8017")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15172,7 +15541,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/6dcc7f29-d940-4ca7-a887-d8742635d984")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15464,7 +15833,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/aec49b23-70b5-4076-aab2-d0cbecf57dd5")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15756,7 +16125,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/b5d93444-77ff-4a46-9c24-ac69abcee017")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16048,7 +16417,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/11c502bb-59de-4cd4-8e82-5abf06a0c25f")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16340,7 +16709,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/3c98ef84-9bfa-4f4c-9d84-46a7951c3225")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16632,7 +17001,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/55831dd5-9176-4bb2-8fb1-94eded0553c9")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16924,7 +17293,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/672ddf4d-b888-4f80-9f7e-cbaf2af476e7")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17216,7 +17585,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/798ed5e7-f5b1-4862-a712-7d424471043b")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17508,7 +17877,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/22151447-1f93-44b6-b2a3-7797f2f71322")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17800,7 +18169,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/69e43b5d-12b3-447b-9c50-fec54b95802e")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18092,7 +18461,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/48450981-42aa-493b-af7c-9386feb35f24")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18384,7 +18753,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/b2806cd0-f3d6-4eac-ac82-90989dec4909")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18676,7 +19045,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/e01d7ae5-16ed-43b3-8889-8431b9193d7d")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18968,7 +19337,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/740a9751-9981-4dd4-a85e-7220d587668f")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19260,7 +19629,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/e69baae9-6cef-4253-a972-d5cd736588f9")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19552,7 +19921,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/8c60c5f9-3468-4cb4-b896-d6c42625ea42")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19844,7 +20213,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/5db680aa-8ab1-4df8-8763-20bfa617c169")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20136,7 +20505,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/4476163d-8e0b-4da9-9ba7-8ea371844889")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20428,7 +20797,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/597324cd-8e75-4ba6-b14e-04811044860b")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20720,7 +21089,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/74d15c60-bf33-4e3f-b27e-8bfcada43e72")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21012,7 +21381,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/c5b4057c-0796-4f11-a856-9cddd91a5ba5")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21304,7 +21673,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/baa24bc4-d009-4e48-b8f3-8cf4ebc043e5")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21596,7 +21965,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/257d8dd8-2b82-46d9-8934-6674f9abdb6f")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21888,7 +22257,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/d7930a78-9953-4ebe-aaa9-af5459d19979")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22102,7 +22471,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/97d0172b-1323-4ebc-8371-44d7fde51363")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd exclude_from_pos_files)
 		(fp_line
@@ -22383,7 +22752,7 @@
 			)
 		)
 		(path "/402e1021-9edd-4e42-b618-3ac055d59a67/8ed61cae-2785-43af-8e0c-39c169947672")
-		(sheetname "e12_0805")
+		(sheetname "/e12_0805/")
 		(sheetfile "e12_0805.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22531,8 +22900,8 @@
 		)
 	)
 	(gr_rect
-		(start 164 49)
-		(end 179 67)
+		(start 164 59)
+		(end 182 72)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22553,8 +22922,8 @@
 		(uuid "b1a4d60b-a833-406b-a8d0-bf964fcdf21d")
 	)
 	(gr_rect
-		(start 164 69)
-		(end 179 87)
+		(start 164 73)
+		(end 182 87)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22564,8 +22933,19 @@
 		(uuid "babb451f-06c1-4dd6-bc81-0e6055fb60f8")
 	)
 	(gr_rect
+		(start 164 49)
+		(end 182 58)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f13cf984-2208-4bbb-87f0-508bed3e665f")
+	)
+	(gr_rect
 		(start 101 48)
-		(end 180 88)
+		(end 183 88)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -22586,8 +22966,20 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CAPACITORS 1206"
+	(gr_text "CAPACITORS VARIABLE"
 		(at 164.5 51 0)
+		(layer "F.SilkS")
+		(uuid "7e23f3b8-540a-4034-aa75-a550efbb0b7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CAPACITORS 1206"
+		(at 164.5 61 0)
 		(layer "F.SilkS")
 		(uuid "a48be86c-8444-473d-a114-48548d2a2674")
 		(effects
@@ -22599,7 +22991,7 @@
 		)
 	)
 	(gr_text "CAPACITORS 1210"
-		(at 164.5 71 0)
+		(at 164.5 75 0)
 		(layer "F.SilkS")
 		(uuid "f27eba6f-7ac0-4eb5-b4a7-5d87504d5bd2")
 		(effects
