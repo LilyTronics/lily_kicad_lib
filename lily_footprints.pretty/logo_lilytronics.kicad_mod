@@ -1,7 +1,7 @@
 (footprint "logo_lilytronics"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.000002 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7aa307b3-ec9b-4150-bd6e-315045bc493d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -82,7 +72,7 @@
 		(mid -0.585785 -1.414215)
 		(end 0.000001 -0.000001)
 		(stroke
-			(width 0.15)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -93,7 +83,7 @@
 		(mid 0.585786 -1.414213)
 		(end 2 -2)
 		(stroke
-			(width 0.15)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -104,7 +94,7 @@
 		(mid 0.621321 -1.5)
 		(end 0.000001 -0.000001)
 		(stroke
-			(width 0.15)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -115,7 +105,7 @@
 		(mid -0.621319 -1.5)
 		(end 0.000001 -2.999999)
 		(stroke
-			(width 0.15)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -126,7 +116,7 @@
 		(mid 0 0)
 		(end -2 -2)
 		(stroke
-			(width 0.15)
+			(width 0.16)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -143,16 +133,5 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0.000001 -0.000001 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2bcb2b41-0307-43a8-9a36-b3a623dd6e57")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-			)
-		)
-	)
+	(embedded_fonts no)
 )
