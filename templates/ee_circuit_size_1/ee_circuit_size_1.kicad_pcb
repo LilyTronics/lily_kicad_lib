@@ -37,6 +37,7 @@
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
 				(color "White")
+				(material "Liquid Photo")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
@@ -45,6 +46,9 @@
 				(type "Top Solder Mask")
 				(color "Green")
 				(thickness 0.01)
+				(material "Liquid Ink")
+				(epsilon_r 3.3)
+				(loss_tangent 0)
 			)
 			(layer "F.Cu"
 				(type "copper")
@@ -65,6 +69,9 @@
 				(type "Bottom Solder Mask")
 				(color "Green")
 				(thickness 0.01)
+				(material "Liquid Ink")
+				(epsilon_r 3.3)
+				(loss_tangent 0)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
@@ -72,8 +79,9 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 				(color "White")
+				(material "Liquid Photo")
 			)
-			(copper_finish "None")
+			(copper_finish "HAL lead-free")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)

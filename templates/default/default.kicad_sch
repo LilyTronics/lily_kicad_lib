@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
 		(title "Project name")
-		(date "2025-02-04")
+		(date "2025-05-26")
 		(rev "1")
 		(comment 1 "PCA number")
 		(comment 2 "PCB number")
@@ -17,4 +17,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
