@@ -3,6 +3,7 @@ Class that checks the symbols
 """
 
 import os
+import re
 
 from scripts.models.lib_parser import LibParser
 
@@ -14,6 +15,7 @@ class SymbolsChecker:
         "con":        "X",
         "crystal":    "X",
         "dio":        "D",
+        "doc":        "DOC",
         "ic":         "U",
         "ind":        "L",
         "logo":       "DOC",
@@ -101,7 +103,8 @@ class SymbolsChecker:
                 is_empty = symbol_data[field_name] == ""
             elif field_name in cls.VALUE_FIELDS:
                 field_checked = True
-                if symbol_data["Name"].startswith("logo_") and field_name == "Footprint":
+                if ((symbol_data["Name"].startswith("logo_") or symbol_data["Name"].startswith("doc_")) and
+                        field_name == "Footprint"):
                     is_empty = symbol_data[field_name] == ""
                 elif (symbol_data["Extends"] == "" or
                         (symbol_data["Value"] == "dnp" and field_name != "Footprint") or
@@ -136,9 +139,10 @@ class SymbolsChecker:
         elif symbol_data["Name"].startswith("test_point_"):
             expected_value = "test_point"
         else:
-            for query in ("cap_", "crystal_", "dio_", "ic_", "ind_", "mosfet_", "res_", "pot_"):
+            for query in ("cap_", "crystal_", "dio_", "ic_", "ind_", "mosfet_", "res_", "pot_", "mec_"):
                 if symbol_data["Name"].startswith(query):
-                    value = f"_{symbol_data["Value"].replace("/", "_")}_"
+                    # Replace spaces and '/' by underscore
+                    value = f"_{re.sub(r'[ /]', '_', symbol_data["Value"])}_"
                     if value in symbol_data["Name"]:
                         expected_value = symbol_data["Value"]
                     break
