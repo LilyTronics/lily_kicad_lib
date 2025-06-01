@@ -4,12 +4,13 @@ Only parts with a valid Lily ID can be used for import.
 """
 
 import csv
+import os
 import re
 
 from scripts.models.lib_parser import LibParser
 
 
-_OUTPUT_FILE = "import_to_erp.csv"
+_OUTPUT_FILE = os.path.join(os.path.expanduser("~"), "import_to_erp.csv")
 
 
 def _get_symbols():
