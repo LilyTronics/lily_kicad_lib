@@ -30,7 +30,8 @@ def generate_erp_import():
             "Internal Reference": symbol["Lily_ID"],
             "Barcode": symbol["Lily_ID"],
             "Product Type": "Goods",
-            "Product Category": "Electronic components"
+            "Product Category": "Electronic components",
+            "Sales": False
         }
         for symbol in _get_symbols()
     ]
