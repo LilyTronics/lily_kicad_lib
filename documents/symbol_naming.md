@@ -11,6 +11,7 @@ Space must be replaced with underscores.
 | Connector DIN41612          | con din41612 plug/receptacle pins rows straight/right angle th/package | X   |
 | Connector terminal          | con terminal screw/screwless rows x pins per row pitch th              | X   |
 | Crystal                     | crystal frequency tolerance capacity package                           | X   |
+| Diode LED                   | dio led color type number package                                      | D   |
 | Diode schottky              | dio schottky type_number package                                       | D   |
 | Diode TVS                   | dio tvs uni/bi channels voltage package                                | D   |
 | Diode zener                 | dio zener voltage power package                                        | D   |
