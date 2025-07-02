@@ -30793,8 +30793,8 @@
 			)
 		)
 	)
-	(symbol "ic_micro_controller_ATMEGA328_tqfp32"
-		(extends "ic_micro_controller_ATMEGA168PB_32p")
+	(symbol "ic_micro_controller_ATMEGA328P_tqfp32"
+		(extends "ic_micro_controller_ATMEGA328P_32p")
 		(property "Reference" "U"
 			(at 20.32 11.43 0)
 			(effects
@@ -30804,7 +30804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ATMEGA328"
+		(property "Value" "ATMEGA328P"
 			(at 20.32 8.89 0)
 			(effects
 				(font
@@ -30814,7 +30814,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:tqfp32_pitch0.8_7x7mm"
-			(at 15.24 -66.04 0)
+			(at 15.24 -68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30841,15 +30841,6 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 15.24 -60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
 			(at 15.24 -63.5 0)
 			(effects
 				(font
@@ -30858,8 +30849,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Microchip"
-			(at 15.24 -68.58 0)
+		(property "Status" "Active"
+			(at 15.24 -66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30867,7 +30858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "ATMEGA328P-AU"
+		(property "Manufacturer" "Microchip"
 			(at 15.24 -71.12 0)
 			(effects
 				(font
@@ -30876,7 +30867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1914-xxxxx"
+		(property "Manufacturer_ID" "ATMEGA328P-AU"
 			(at 15.24 -73.66 0)
 			(effects
 				(font
@@ -30885,8 +30876,17 @@
 				(hide yes)
 			)
 		)
+		(property "Lily_ID" "1914-xxxxx"
+			(at 15.24 -76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "JLCPCB_ID" "C14877"
-			(at 14.605 -76.2 0)
+			(at 14.605 -78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30895,7 +30895,7 @@
 			)
 		)
 		(property "JLCPCB_STATUS" "Extended"
-			(at 15.24 -78.74 0)
+			(at 15.24 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
