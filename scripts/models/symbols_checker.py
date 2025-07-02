@@ -11,6 +11,7 @@ from scripts.models.lib_parser import LibParser
 class SymbolsChecker:
 
     REFERENCES = {
+        "bjt":        "Q",
         "cap":        "C",
         "con":        "X",
         "crystal":    "X",
@@ -139,7 +140,7 @@ class SymbolsChecker:
         elif symbol_data["Name"].startswith("test_point_"):
             expected_value = "test_point"
         else:
-            for query in ("cap_", "crystal_", "dio_", "ic_", "ind_", "mosfet_", "res_", "pot_", "mec_"):
+            for query in ("bjt_", "cap_", "crystal_", "dio_", "ic_", "ind_", "mosfet_", "res_", "pot_", "mec_"):
                 if symbol_data["Name"].startswith(query):
                     # Replace spaces and '/' by underscore
                     value = f"_{re.sub(r'[ /]', '_', symbol_data["Value"])}_"

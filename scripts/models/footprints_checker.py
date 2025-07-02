@@ -17,7 +17,7 @@ class FootprintsChecker:
     MUST_VISIBLE = ("Reference", "Reference_F.Fab")
     FIELD_PROPERTIES = {
         # Field name: (layer, size, thickness)
-        "Reference": ("F.SilkS", "1 1", "0.15"),
+        "Reference": ("F.SilkS", "1 1", "0.16"),
         "Value": ("F.Fab", "0.5 0.5", "0.1"),
         "Footprint": ("F.Fab", "1.27 1.27", ""),
         "Datasheet": ("F.Fab", "1.27 1.27", ""),
@@ -129,7 +129,8 @@ class FootprintsChecker:
                 expect_visible = field_name in cls.MUST_VISIBLE
                 if (footprint_data["Name"].startswith("fiducial_") or
                         footprint_data["Name"].startswith("logo_") or
-                        footprint_data["Name"].startswith("mec_")):
+                        footprint_data["Name"].startswith("mec_") or
+                        footprint_data["Name"].startswith("doc_")):
                     expect_visible = False
                 if footprint_data["Name"].startswith("test_point") and field_name == "Value":
                     expect_visible = True
@@ -147,7 +148,7 @@ class FootprintsChecker:
 
                 properties = copy.deepcopy(cls.FIELD_PROPERTIES)
                 if footprint_data["Name"].startswith("test_point_"):
-                    properties["Value"] = ("F.SilkS", "1 1", "0.15")
+                    properties["Value"] = ("F.SilkS", "1 1", "0.16")
                 if field_name in properties:
                     field_checked[1] = True
                     # Layer
@@ -185,6 +186,10 @@ class FootprintsChecker:
             attributes["exclude_from_pos_files"][0] = True
             attributes["exclude_from_bom"][0] = True
             attributes["dnp"][0] = True
+        if footprint_data["Name"].startswith("doc_"):
+            attributes["exclude_from_pos_files"][0] = True
+            attributes["exclude_from_bom"][0] = True
+            attributes["allow_missing_courtyard"][0] = True
         if footprint_data["Name"].startswith("fiducial_"):
             attributes["board_only"][0] = True
             attributes["exclude_from_bom"][0] = True

@@ -430,6 +430,187 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "bjt_npn_3p"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 6.35 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "bjt_npn_3p"
+			(at 6.35 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 5.08 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "bjt_npn_3p_0_1"
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.318 -2.159) (xy 3.2004 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.318 -2.159) (xy 3.6576 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "bjt_npn_3p_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 5.08 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -5.08 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "cap"
 		(pin_numbers
 			(hide yes)
@@ -18797,7 +18978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "switch_spdt"
+		(property "Value" "switch_spst_button"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -19042,6 +19223,117 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "bjt_npn_MMBT2222A_sot23"
+		(extends "bjt_npn_3p")
+		(property "Reference" "Q"
+			(at 6.35 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 6.35 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:sot23"
+			(at 5.08 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 5.08 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 5.08 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Jiangsu Changjing Electronics Technology"
+			(at 5.08 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "MMBT2222A"
+			(at 5.08 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "xxxx-yyyyy"
+			(at 5.08 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C8512"
+			(at 5.08 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_STATUS" "Basic"
+			(at 5.08 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "cap_100n_50V_10%_X7R_0805"
 		(extends "cap")
@@ -29739,7 +30031,7 @@
 			)
 		)
 	)
-	(symbol "ic_micro_controller_ATMEGA168_tqfp32"
+	(symbol "ic_micro_controller_ATMEGA168PB_tqfp32"
 		(extends "ic_micro_controller_ATMEGA168_328_32p")
 		(property "Reference" "U"
 			(at 20.32 11.43 0)
@@ -29750,7 +30042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ATMEGA168"
+		(property "Value" "ATMEGA168PB"
 			(at 20.32 8.89 0)
 			(effects
 				(font
@@ -29832,6 +30124,117 @@
 			)
 		)
 		(property "JLCPCB_ID" "C194438"
+			(at 14.605 -76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 15.24 -78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "ic_micro_controller_ATMEGA328_tqfp32"
+		(extends "ic_micro_controller_ATMEGA168_328_32p")
+		(property "Reference" "U"
+			(at 20.32 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ATMEGA328"
+			(at 20.32 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:tqfp32_pitch0.8_7x7mm"
+			(at 15.24 -66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -11.43 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 15.24 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 15.24 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 15.24 -68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "ATMEGA328P-AU"
+			(at 15.24 -71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "1914-xxxxx"
+			(at 15.24 -73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C14877"
 			(at 14.605 -76.2 0)
 			(effects
 				(font
@@ -30789,7 +31192,7 @@
 			)
 		)
 	)
-	(symbol "mec_hole_2.5mm_spacer_snap_in_4.6x4mm_npth"
+	(symbol "mec_hole_2.5mm_spacer_snap_in_4.6_npth"
 		(extends "mec_hole_npth")
 		(property "Reference" "M"
 			(at 0 5.08 0)
@@ -30799,7 +31202,7 @@
 				)
 			)
 		)
-		(property "Value" "spacer snap in 4.6x4mm"
+		(property "Value" "mec_hole_2.5mm_spacer_snap_in_4.6_npth"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -30807,7 +31210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lily_footprints:mec_hole_2.5mm_spacer_snap_in_4.6x4mm_npth"
+		(property "Footprint" "lily_footprints:mec_hole_2.5mm_spacer_snap_in_4.6_npth"
 			(at 0 -5.08 0)
 			(effects
 				(font
