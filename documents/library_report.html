@@ -240,7 +240,7 @@ const parts = [
     { Name: "ic_timer_NE555_soic8", Extends: "ic_timer_NE555", Reference: "U", Value: "NE555", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "IDCHIP", Manufacturer_ID: "NE555", Lily_ID: "1914-10012", JLCPCB_ID: "C5125085", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_transceiver_rs485_half_duplex_SN75176_soic8", Extends: "ic_transceiver_rs485_half_duplex", Reference: "U", Value: "SN75176", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "Texas Instruments", Manufacturer_ID: "SN75176BDR", Lily_ID: "1914-10008", JLCPCB_ID: "C7063", JLCPCB_STATUS: "Extended preferred", Notes: "" },
     { Name: "ic_usb_hub_4port_TUSB4041I_htqfp64", Extends: "ic_usb_hub_4port_TUSB4041_64p", Reference: "U", Value: "TUSB4041I", Description: "", Datasheet: "", Footprint: "lily_footprints:htqfp64_pitch0.5_10x10mm", Revision: "1", Status: "Active", Manufacturer: "Texas Instruments", Manufacturer_ID: "TUSB4041IPAP", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C192089", JLCPCB_STATUS: "Extended", Notes: "" },
-    { Name: "ic_usb_to_serial_FT231_ssop20", Extends: "ic_usb_to_serial_FT231", Reference: "U", Value: "FT231", Description: "", Datasheet: "", Footprint: "lily_footprints:ssop20_pitch25_341x154_mil", Revision: "1", Status: "Active", Manufacturer: "FTDI", Manufacturer_ID: "FT231XS-R", Lily_ID: "1914-10002", JLCPCB_ID: "C132160", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "ic_usb_to_serial_FT231_ssop20", Extends: "ic_usb_to_serial_FT231", Reference: "U", Value: "FT231", Description: "", Datasheet: "", Footprint: "lily_footprints:ssop20_pitch25_341x154mil", Revision: "1", Status: "Active", Manufacturer: "FTDI", Manufacturer_ID: "FT231XS-R", Lily_ID: "1914-10002", JLCPCB_ID: "C132160", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_volt_reference_RS3112-4.096X_sot23", Extends: "ic_volt_reference_3p", Reference: "U", Value: "RS3112-4.096X", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "Jiangsu RUNIC Tech", Manufacturer_ID: "RS3112-4.096XSF3", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C19269198", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_volt_reg_AZ1117_sot223", Extends: "ic_volt_reg_linear_adjustable_3p", Reference: "U", Value: "AZ1117", Description: "", Datasheet: "", Footprint: "lily_footprints:sot223", Revision: "1", Status: "Active", Manufacturer: "Diodes Incorporated", Manufacturer_ID: "AZ1117CH-ADJTRG1", Lily_ID: "1914-10010", JLCPCB_ID: "C95398", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_600R@100MHz_1A5_0R25_0805", Extends: "ind_bead", Reference: "L", Value: "600R/0R25", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_0805", Revision: "1", Status: "Active", Manufacturer: "Guangdong Fenghua Advanced Tech", Manufacturer_ID: "CBW201209U601T", Lily_ID: "1916-xxxxx", JLCPCB_ID: "C21286", JLCPCB_STATUS: "Extended", Notes: "" },
@@ -493,14 +493,14 @@ const footprints = [
     { Name: "sot23", Revision: "1", Model: "../3d_models/sot23.step" },
     { Name: "sot23-5", Revision: "1", Model: "../3d_models/sot23-5.step" },
     { Name: "sot23-6_sc74", Revision: "1", Model: "../3d_models/sot23-6.step" },
-    { Name: "ssop20_pitch25_341x154_mil", Revision: "1", Model: "../3d_models/ssop20_pitch25_341x154_mil.step" },
+    { Name: "ssop20_pitch25_341x154mil", Revision: "1", Model: "../3d_models/ssop20_pitch25_341x154_mil.step" },
     { Name: "switch_spdt_msk12c02_8x2.8mm_smd", Revision: "1", Model: "../3d_models/switch_msk12c02.step" },
     { Name: "test_point_1.1mm_th", Revision: "1", Model: "" },
     { Name: "test_point_1mm", Revision: "1", Model: "" },
     { Name: "to92", Revision: "1", Model: "../3d_models/to92.step" },
     { Name: "tqfp32_pitch0.8_7x7mm", Revision: "1", Model: "../3d_models/tqfp32_pitch0.8_7x7mm.step" },
-    { Name: "tssop16_pitch0.65_5.0x4.4_mm", Revision: "1", Model: "../3d_models/tssop16_pitch0.65_5.0x4.4_mm.step" },
-    { Name: "tssop20_pitch0.65_6.5x4.4_mm", Revision: "1", Model: "../3d_models/tssop20_pitch0.65_6.5x4.4_mm.step" }
+    { Name: "tssop16_pitch0.65_5.0x4.4mm", Revision: "1", Model: "../3d_models/tssop16_pitch0.65_5.0x4.4_mm.step" },
+    { Name: "tssop20_pitch0.65_6.5x4.4mm", Revision: "1", Model: "../3d_models/tssop20_pitch0.65_6.5x4.4_mm.step" }
 ];
 
 function showData(e) {
@@ -565,7 +565,7 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-07-05 15:22</p>
+<p>Last updated: 2025-07-05 15:25</p>
 <p>Total symbols: 366</p>
 <p>Total footprints: 73</p>
 </div>
