@@ -33,7 +33,7 @@ class FootprintsChecker:
         "dnp": [False, "do not populate"]
     }
     NO_3D_MODEL = ("_dnp", "fiducial_", "logo_", "mec_hole_", "mec_mouse_bytes", "test_point_",
-                   "to_be_done")
+                   "0_new_footprint")
 
     @classmethod
     def run(cls):
@@ -90,17 +90,14 @@ class FootprintsChecker:
             # 3D model depends on the footprint type
             elif field_name == "Model":
                 field_checked = True
+                is_empty = value == ""
                 # Some footprints must not have a 3D model
-                if (footprint_data["Name"].endswith("_dnp") or
-                        footprint_data["Name"].startswith("test_point_") or
-                        footprint_data["Name"].startswith("fiducial_") or
-                        footprint_data["Name"].startswith("logo_") or
-                        footprint_data["Name"].startswith("mec_hole") or
-                        footprint_data["Name"].startswith("mec_mouse_bytes") or
-                        footprint_data["Name"] == "to_be_done"):
-                    is_not_empty = value != ""
-                else:
-                    is_empty = value == ""
+                for query in cls.NO_3D_MODEL:
+                    if ((query.startswith("_") and footprint_data["Name"].endswith(query)) or
+                            footprint_data["Name"].startswith(query)):
+                        is_empty = False
+                        is_not_empty = False
+                        break
             if not field_checked:
                 report_messages.append({
                     "item": footprint_data["Name"],
