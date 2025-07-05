@@ -243,12 +243,18 @@ class FootprintsChecker:
                 "message": f"3D model should not be defined {caller}"
             })
         if footprint_data["Model"] != "":
-            full_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", footprint_data["Model"]))
-            if not os.path.isfile(full_path):
+            if not footprint_data["Model"].startswith("../3d_models/"):
                 report_messages.append({
                     "item": footprint_data["Name"],
-                    "message": f"3D model file does not exists {footprint_data["Model"]} {caller}"
+                    "message": f"3D model folder must start with '../3d_models/' {caller}"
                 })
+            else:
+                full_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", footprint_data["Model"]))
+                if not os.path.isfile(full_path):
+                    report_messages.append({
+                        "item": footprint_data["Name"],
+                        "message": f"3D model file does not exists {footprint_data["Model"]} {caller}"
+                    })
 
 
 if __name__ == "__main__":
