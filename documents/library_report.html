@@ -80,6 +80,7 @@ const generic_symbols = [
     { Name: "con_spring_probe", Extends: "", Reference: "X", Value: "con_spring_probe", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_usb_a_plug", Extends: "", Reference: "X", Value: "con_usb_a_plug", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_usb_b", Extends: "", Reference: "X", Value: "con_usb_b", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "con_usb_c_16p", Extends: "", Reference: "X", Value: "con_usb_c_16p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_usb_micro_b", Extends: "", Reference: "X", Value: "con_usb_micro_b", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "crystal", Extends: "", Reference: "X", Value: "crystal", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "crystal_4p", Extends: "", Reference: "X", Value: "crystal_4p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -223,6 +224,7 @@ const parts = [
     { Name: "con_socket_1x15_2.54mm_straight_th", Extends: "con_1x15", Reference: "X", Value: "con_socket_1x15_2.54mm_straight_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_socket_1x15_2.54mm_straight_th", Revision: "1", Status: "Active", Manufacturer: "Connfly", Manufacturer_ID: "DS1023-1x15SF11", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C7509525", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "con_terminal_screw_1x04_3.5mm_th", Extends: "con_1x04", Reference: "X", Value: "con_terminal_screw_1x04_3.5mm_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_terminal_screw_1x04p_3.5mm_th", Revision: "1", Status: "Active", Manufacturer: "DORABO", Manufacturer_ID: "DB125-3.5-4P-GN-S ", Lily_ID: "1910-10007", JLCPCB_ID: "C2757925", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "con_usb_b_receptacle_th", Extends: "con_usb_b", Reference: "X", Value: "con_usb_b_receptacle_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_usb_b_receptacle_th", Revision: "1", Status: "Active", Manufacturer: "Jing Extension of the Electronic Co.", Manufacturer_ID: "921-111A1010D10200 ", Lily_ID: "1910-10009", JLCPCB_ID: "C46392", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "con_usb_c_receptacle_16p", Extends: "con_usb_c_16p", Reference: "X", Value: "con_usb_c_receptacle_16p", Description: "", Datasheet: "", Footprint: "lily_footprints:con_usb_c_receptacle_16p", Revision: "1", Status: "Active", Manufacturer: "Shou Han", Manufacturer_ID: "TYPE-C 16PIN 2MD(073)", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C2765186", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "crystal_16MHz_20ppm_8pF_3225", Extends: "crystal_4p", Reference: "X", Value: "16MHz", Description: "", Datasheet: "", Footprint: "lily_footprints:crystal_3225", Revision: "1", Status: "Active", Manufacturer: "NDK", Manufacturer_ID: "NX3225GA-16MHZ-STD-CRG-2", Lily_ID: "1917-10002", JLCPCB_ID: "C156247", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "dio_led_green_KT-0805G_0805", Extends: "dio_led", Reference: "D", Value: "KT-0805G", Description: "", Datasheet: "", Footprint: "lily_footprints:led_0805", Revision: "1", Status: "Active", Manufacturer: "Hubei KENTO Elec", Manufacturer_ID: "KT-0805G", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C2297", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "dio_led_red_KT-0805R_0805", Extends: "dio_led", Reference: "D", Value: "KT-0805R", Description: "", Datasheet: "", Footprint: "lily_footprints:led_0805", Revision: "1", Status: "Active", Manufacturer: "Hubei KENTO Elec", Manufacturer_ID: "KT-0805R", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C2295", JLCPCB_STATUS: "Extended", Notes: "" },
@@ -428,6 +430,7 @@ const parts = [
 ];
 
 const footprints = [
+    { Name: "0_new_footprint", Revision: "1", Model: "" },
     { Name: "cap_0805", Revision: "1", Model: "../3d_models/cap_0805.step" },
     { Name: "cap_0805_dnp", Revision: "1", Model: "" },
     { Name: "cap_1206", Revision: "1", Model: "../3d_models/cap_1206.step" },
@@ -455,6 +458,7 @@ const footprints = [
     { Name: "con_terminal_screw_1x04p_3.5mm_th", Revision: "1", Model: "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp" },
     { Name: "con_usb_a_plug_smd", Revision: "1", Model: "../3d_models/con_usb_a_plug_480372100.stp" },
     { Name: "con_usb_b_receptacle_th", Revision: "1", Model: "../3d_models/con_usb_b.step" },
+    { Name: "con_usb_c_receptacle_16p", Revision: "1", Model: "../3d_models/con_usb_c_16p.step" },
     { Name: "con_usb_micro_b_smd", Revision: "1", Model: "../3d_models/con_usb_micro_b.step" },
     { Name: "crystal_3225", Revision: "1", Model: "../3d_models/crystal_3225.step" },
     { Name: "crystal_hc49s", Revision: "1", Model: "../3d_models/crystal_hc49s.step" },
@@ -565,9 +569,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-07-05 15:30</p>
-<p>Total symbols: 366</p>
-<p>Total footprints: 73</p>
+<p>Last updated: 2025-07-05 19:52</p>
+<p>Total symbols: 368</p>
+<p>Total footprints: 75</p>
 </div>
 
 <div class="section">
