@@ -113,8 +113,6 @@ const generic_symbols = [
     { Name: "ic_usb_to_serial_FT231", Extends: "", Reference: "U", Value: "ic_usb_to_serial_FT231", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_volt_reference_3p", Extends: "", Reference: "U", Value: "ic_volt_reference_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_volt_reg_linear_adjustable_3p", Extends: "", Reference: "U", Value: "ic_volt_reg_linear_adjustable_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
-    { Name: "ic_volt_reg_linear_fixed_3p", Extends: "", Reference: "U", Value: "ic_volt_reg_linear_fixed_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
-    { Name: "ic_volt_reg_switching_6p", Extends: "", Reference: "U", Value: "ic_volt_reg_switching_6p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_volt_reg_switching_8p", Extends: "", Reference: "U", Value: "ic_volt_reg_switching_8p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_bead", Extends: "", Reference: "L", Value: "ind_bead", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_common_mode", Extends: "", Reference: "L", Value: "ind_common_mode", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -247,13 +245,14 @@ const parts = [
     { Name: "ic_usb_to_serial_FT231_ssop20", Extends: "ic_usb_to_serial_FT231", Reference: "U", Value: "FT231", Description: "", Datasheet: "", Footprint: "lily_footprints:ssop20_pitch25_341x154mil", Revision: "1", Status: "Active", Manufacturer: "FTDI", Manufacturer_ID: "FT231XS-R", Lily_ID: "1914-10002", JLCPCB_ID: "C132160", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_volt_reference_RS3112-4.096X_sot23", Extends: "ic_volt_reference_3p", Reference: "U", Value: "RS3112-4.096X", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "Jiangsu RUNIC Tech", Manufacturer_ID: "RS3112-4.096XSF3", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C19269198", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_volt_reg_AZ1117_sot223", Extends: "ic_volt_reg_linear_adjustable_3p", Reference: "U", Value: "AZ1117", Description: "", Datasheet: "", Footprint: "lily_footprints:sot223", Revision: "1", Status: "Active", Manufacturer: "Diodes Incorporated", Manufacturer_ID: "AZ1117CH-ADJTRG1", Lily_ID: "1914-10010", JLCPCB_ID: "C95398", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "ic_volt_reg_switching_TPS5430_hsoic8", Extends: "ic_volt_reg_switching_8p", Reference: "U", Value: "TPS5430", Description: "", Datasheet: "", Footprint: "lily_footprints:hsoic8", Revision: "1", Status: "Active", Manufacturer: "Texas Instruments", Manufacturer_ID: "TPS5430DDA", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C9864", JLCPCB_STATUS: "Basic", Notes: "" },
     { Name: "ind_bead_600R@100MHz_1A5_0R25_0805", Extends: "ind_bead", Reference: "L", Value: "600R/0R25", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_0805", Revision: "1", Status: "Active", Manufacturer: "Guangdong Fenghua Advanced Tech", Manufacturer_ID: "CBW201209U601T", Lily_ID: "1916-xxxxx", JLCPCB_ID: "C21286", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ind_bead_do_not_populate_0805", Extends: "ind_bead", Reference: "L", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_0805_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_common_mode_700R@100MHz_5A_10mR_9x7mm", Extends: "ind_common_mode", Reference: "L", Value: "700R/10mR", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_common_mode_9x7mm", Revision: "1", Status: "Active", Manufacturer: "TDK", Manufacturer_ID: "ACM90V-701-2PL-TL00", Lily_ID: "1916-10003", JLCPCB_ID: "C87510", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "mec_hole_2.5mm_spacer_snap_in_4.6_npth", Extends: "mec_hole_npth", Reference: "M", Value: "mec_hole_2.5mm_spacer_snap_in_4.6_npth", Description: "", Datasheet: "", Footprint: "lily_footprints:mec_hole_2.5mm_spacer_snap_in_4.6_npth", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mec_hole_m3_pth", Extends: "mec_hole_pth", Reference: "M", Value: "mec_hole_m3_pth", Description: "", Datasheet: "", Footprint: "lily_footprints:mec_hole_m3_pth", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_n_AO3400A_sot23", Extends: "mosfet_n_3p", Reference: "Q", Value: "AO3400A", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "Alpha and Omega Semicon ", Manufacturer_ID: "AO3400A", Lily_ID: "1918-10001", JLCPCB_ID: "C20917", JLCPCB_STATUS: "Basic", Notes: "" },
-    { Name: "mosfet_n_VBZA4800_soic8", Extends: "mosfet_n_8p_soic8", Reference: "Q", Value: "mosfet_n_8p_soic8", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "VBsemi", Manufacturer_ID: "VBZA4800", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C700593", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "mosfet_n_VBZA4800_soic8", Extends: "mosfet_n_8p_soic8", Reference: "Q", Value: "VBZA4800", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "VBsemi", Manufacturer_ID: "VBZA4800", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C700593", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "mosfet_p_CEM3083_soic8", Extends: "mosfet_p_8p_soic8", Reference: "Q", Value: "CEM3083", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "CET", Manufacturer_ID: "CEM3083", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C83039", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "mosfet_p_DMP3028LFDE_sot1220", Extends: "mosfet_p_8p", Reference: "Q", Value: "DMP3028LFDE", Description: "", Datasheet: "", Footprint: "lily_footprints:sot1220_dnf2020md-6_type_e", Revision: "1", Status: "Active", Manufacturer: "Diodes Incorporated", Manufacturer_ID: "DMP3028LFDE", Lily_ID: "1918-10002", JLCPCB_ID: "C150441", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "pot_trim_2k_20%_125mW_3313j", Extends: "pot", Reference: "P", Value: "2k", Description: "", Datasheet: "", Footprint: "lily_footprints:pot_3313j", Revision: "1", Status: "Active", Manufacturer: "BOURNS", Manufacturer_ID: "3313J-1-202E", Lily_ID: "1919-10001", JLCPCB_ID: "C124620", JLCPCB_STATUS: "Extended", Notes: "" },
@@ -472,6 +471,7 @@ const footprints = [
     { Name: "dip20_7.62mm", Revision: "1", Model: "../3d_models/dip20_7.62mm.step" },
     { Name: "doc_module_arduino_nano_every", Revision: "1", Model: "../3d_models/arduino_nano_every.step" },
     { Name: "fiducial_1mm_mask_2mm", Revision: "1", Model: "" },
+    { Name: "hsoic8", Revision: "1", Model: "../3d_models/hsoic8.step" },
     { Name: "htqfp64_pitch0.5_10x10mm", Revision: "1", Model: "../3d_models/pap0064.step" },
     { Name: "ind_0805", Revision: "1", Model: "../3d_models/ind_0805.step" },
     { Name: "ind_0805_dnp", Revision: "1", Model: "" },
@@ -573,9 +573,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-07-06 16:11</p>
-<p>Total symbols: 372</p>
-<p>Total footprints: 75</p>
+<p>Last updated: 2025-07-06 18:21</p>
+<p>Total symbols: 371</p>
+<p>Total footprints: 76</p>
 </div>
 
 <div class="section">
