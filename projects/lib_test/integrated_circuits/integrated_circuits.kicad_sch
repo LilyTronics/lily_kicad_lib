@@ -517,6 +517,297 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lily_symbols:ic_volt_reg_switching_TPS5430_hsoic8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS5430"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:hsoic8"
+				(at 12.7 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at 12.7 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 12.7 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 12.7 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "TPS5430DDA"
+				(at 12.7 -48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "xxxx-yyyyy"
+				(at 12.7 -50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C9864"
+				(at 12.7 -53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_STATUS" "Basic"
+				(at 12.7 -55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ic_volt_reg_switching_TPS5430_hsoic8_0_1"
+				(rectangle
+					(start 3.81 2.54)
+					(end 21.59 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ic_volt_reg_switching_TPS5430_hsoic8_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 3.81)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 3.81)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -12.7 0)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -25.4 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -25.4 90)
+					(length 3.81)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 3.81)
+					(name "PH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -5.08 180)
+					(length 3.81)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -15.24 180)
+					(length 3.81)
+					(name "VSENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(symbol
 		(lib_id "lily_symbols:ic_comparator_dual_LM393_soic8")
@@ -939,34 +1230,187 @@
 			)
 		)
 		(pin "3"
-			(uuid "cde6bea0-8a6c-42b5-a30f-6ad709db7236")
+			(uuid "cde6bea0-8a6c-42b5-a30f-6ad709db7237")
 		)
 		(pin "2"
-			(uuid "6827a76c-adb2-4d7f-95a4-b8023cfc7993")
+			(uuid "6827a76c-adb2-4d7f-95a4-b8023cfc7994")
 		)
 		(pin "1"
-			(uuid "5b4f3f89-6225-4631-a331-60bb866ae89a")
+			(uuid "5b4f3f89-6225-4631-a331-60bb866ae89b")
 		)
 		(pin "5"
-			(uuid "79238dab-af6a-4e1d-a9c8-a4480b919abc")
+			(uuid "79238dab-af6a-4e1d-a9c8-a4480b919abd")
 		)
 		(pin "8"
-			(uuid "10859a26-a28c-45a4-8bea-d8e1b6409f84")
+			(uuid "10859a26-a28c-45a4-8bea-d8e1b6409f85")
 		)
 		(pin "4"
-			(uuid "a3a12a3c-0e68-4712-9f29-5b91e4d43931")
+			(uuid "a3a12a3c-0e68-4712-9f29-5b91e4d43932")
 		)
 		(pin "6"
-			(uuid "ba698956-c83c-4820-9426-04c4afb6ca9b")
+			(uuid "ba698956-c83c-4820-9426-04c4afb6ca9c")
 		)
 		(pin "7"
-			(uuid "7edaa230-503f-4c4a-bf84-dc0c72d5e8e3")
+			(uuid "7edaa230-503f-4c4a-bf84-dc0c72d5e8e4")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1001")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:ic_volt_reg_switching_TPS5430_hsoic8")
+		(at 147.32 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1508c4c-33e6-488b-8dff-a75369733ea3")
+		(property "Reference" "U1003"
+			(at 152.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS5430"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:hsoic8"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "TPS5430DDA"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "xxxx-yyyyy"
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C9864"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_STATUS" "Basic"
+			(at 160.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c4d34e79-3b3a-4e33-82d6-609036e9e7ba")
+		)
+		(pin "7"
+			(uuid "a8ff2251-96e0-49a1-b2e0-27d87ee622a5")
+		)
+		(pin "5"
+			(uuid "9a6e3399-dc8c-4bd8-b101-95025d1c0dfe")
+		)
+		(pin "2"
+			(uuid "a52b7e76-1242-416a-be99-150e337ba161")
+		)
+		(pin "8"
+			(uuid "3eb8767b-f22f-4e75-904e-4a1a9d112636")
+		)
+		(pin "6"
+			(uuid "53a69f6d-5029-4a44-8de3-1f22a3fdff1f")
+		)
+		(pin "1"
+			(uuid "29ce2248-3c3f-4b19-9bff-9053d950bc0f")
+		)
+		(pin "9"
+			(uuid "ea83d8de-b3ad-4016-81f7-7a33a6e40c03")
+		)
+		(pin "4"
+			(uuid "01037429-84a2-4ede-a4ab-96e5321e13f6")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U1003")
+					(unit 1)
 				)
 			)
 		)
@@ -1098,28 +1542,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "cde6bea0-8a6c-42b5-a30f-6ad709db7236")
+			(uuid "cde6bea0-8a6c-42b5-a30f-6ad709db7238")
 		)
 		(pin "2"
-			(uuid "6827a76c-adb2-4d7f-95a4-b8023cfc7993")
+			(uuid "6827a76c-adb2-4d7f-95a4-b8023cfc7995")
 		)
 		(pin "1"
-			(uuid "5b4f3f89-6225-4631-a331-60bb866ae89a")
+			(uuid "5b4f3f89-6225-4631-a331-60bb866ae89c")
 		)
 		(pin "5"
-			(uuid "79238dab-af6a-4e1d-a9c8-a4480b919abc")
+			(uuid "79238dab-af6a-4e1d-a9c8-a4480b919abe")
 		)
 		(pin "8"
-			(uuid "10859a26-a28c-45a4-8bea-d8e1b6409f84")
+			(uuid "10859a26-a28c-45a4-8bea-d8e1b6409f86")
 		)
 		(pin "4"
-			(uuid "a3a12a3c-0e68-4712-9f29-5b91e4d43931")
+			(uuid "a3a12a3c-0e68-4712-9f29-5b91e4d43933")
 		)
 		(pin "6"
-			(uuid "ba698956-c83c-4820-9426-04c4afb6ca9b")
+			(uuid "ba698956-c83c-4820-9426-04c4afb6ca9d")
 		)
 		(pin "7"
-			(uuid "7edaa230-503f-4c4a-bf84-dc0c72d5e8e3")
+			(uuid "7edaa230-503f-4c4a-bf84-dc0c72d5e8e5")
 		)
 		(instances
 			(project ""
