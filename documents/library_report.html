@@ -123,6 +123,7 @@ const generic_symbols = [
     { Name: "mec_hole_pth", Extends: "", Reference: "M", Value: "mec_hole_pth", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_n_3p", Extends: "", Reference: "Q", Value: "mosfet_n_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_p_8p", Extends: "", Reference: "Q", Value: "mosfet_p_8p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "mosfet_p_8p_soic8", Extends: "", Reference: "Q", Value: "mosfet_p_8p_soic8", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "pot", Extends: "", Reference: "P", Value: "pot", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "pptc", Extends: "", Reference: "F", Value: "pptc", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "relay_spdt", Extends: "", Reference: "K", Value: "relay_spdt", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -251,6 +252,7 @@ const parts = [
     { Name: "mec_hole_2.5mm_spacer_snap_in_4.6_npth", Extends: "mec_hole_npth", Reference: "M", Value: "mec_hole_2.5mm_spacer_snap_in_4.6_npth", Description: "", Datasheet: "", Footprint: "lily_footprints:mec_hole_2.5mm_spacer_snap_in_4.6_npth", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mec_hole_m3_pth", Extends: "mec_hole_pth", Reference: "M", Value: "mec_hole_m3_pth", Description: "", Datasheet: "", Footprint: "lily_footprints:mec_hole_m3_pth", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_n_AO3400A_sot23", Extends: "mosfet_n_3p", Reference: "Q", Value: "AO3400A", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "Alpha and Omega Semicon ", Manufacturer_ID: "AO3400A", Lily_ID: "1918-10001", JLCPCB_ID: "C20917", JLCPCB_STATUS: "Basic", Notes: "" },
+    { Name: "mosfet_p_CEM3083_soic8", Extends: "mosfet_p_8p_soic8", Reference: "Q", Value: "CEM3083", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "CET", Manufacturer_ID: "CEM3083", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C83039", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "mosfet_p_DMP3028LFDE_sot1220", Extends: "mosfet_p_8p", Reference: "Q", Value: "DMP3028LFDE", Description: "", Datasheet: "", Footprint: "lily_footprints:sot1220_dnf2020md-6_type_e", Revision: "1", Status: "Active", Manufacturer: "Diodes Incorporated", Manufacturer_ID: "DMP3028LFDE", Lily_ID: "1918-10002", JLCPCB_ID: "C150441", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "pot_trim_2k_20%_125mW_3313j", Extends: "pot", Reference: "P", Value: "2k", Description: "", Datasheet: "", Footprint: "lily_footprints:pot_3313j", Revision: "1", Status: "Active", Manufacturer: "BOURNS", Manufacturer_ID: "3313J-1-202E", Lily_ID: "1919-10001", JLCPCB_ID: "C124620", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "res_0R075_1%_3W_2512", Extends: "res", Reference: "R", Value: "0R075", Description: "", Datasheet: "", Footprint: "lily_footprints:res_2512", Revision: "1", Status: "Active", Manufacturer: "SANYEAR", Manufacturer_ID: "SY2512CFR075", Lily_ID: "1913-90001", JLCPCB_ID: "C457142", JLCPCB_STATUS: "Extended", Notes: "" },
@@ -569,8 +571,8 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-07-06 15:31</p>
-<p>Total symbols: 368</p>
+<p>Last updated: 2025-07-06 15:50</p>
+<p>Total symbols: 370</p>
 <p>Total footprints: 75</p>
 </div>
 
