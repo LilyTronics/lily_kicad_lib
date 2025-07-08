@@ -25,12 +25,15 @@ def _show_report(messages):
 
 if __name__ == "__main__":
 
+    from models.erp_checker import ErpChecker
     from models.footprints_checker import FootprintsChecker
-    from models.symbols_checker import SymbolsChecker
     from models.projects_checker import ProjectsChecker
+    from models.symbols_checker import SymbolsChecker
 
     do_continue = _show_report(SymbolsChecker.run())
     if do_continue:
         do_continue = _show_report(FootprintsChecker.run())
+    if do_continue:
+        do_continue = _show_report(ErpChecker.run())
     if do_continue:
         _show_report(ProjectsChecker.run())
