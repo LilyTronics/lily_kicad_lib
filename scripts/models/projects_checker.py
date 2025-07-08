@@ -19,6 +19,7 @@ class ProjectsChecker:
 
     @classmethod
     def run(cls):
+        print("Check projects against library")
         designs = {}
         for current_folder, sub_folders, filenames in os.walk(cls.PROJECTS_PATH):
             sub_folders.sort()

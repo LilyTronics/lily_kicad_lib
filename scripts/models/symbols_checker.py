@@ -35,6 +35,7 @@ class SymbolsChecker:
 
     @classmethod
     def run(cls):
+        print("Check library symbols")
         caller = f"({cls.__name__}.run)"
         report_messages = []
         symbols = LibParser.get_symbols()

@@ -37,6 +37,7 @@ class FootprintsChecker:
 
     @classmethod
     def run(cls):
+        print("Check library footprints")
         caller = f"({cls.__name__}.run)"
         report_messages = []
         footprints = LibParser.get_footprints()
