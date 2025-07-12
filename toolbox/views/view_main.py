@@ -15,13 +15,23 @@ class ViewMain(wx.Dialog):
     def __init__(self):
         super().__init__(None, title=self._WINDOW_TITLE)
 
-        notebook = wx.Notebook(self)
+        self._notebook = wx.Notebook(self)
 
         sizer = wx.BoxSizer(wx.VERTICAL)
-        sizer.Add(notebook, 1, wx.EXPAND | wx.ALL, self._GAP)
+        sizer.Add(self._notebook, 1, wx.EXPAND | wx.ALL, self._GAP)
         self.SetSizer(sizer)
 
         self.SetInitialSize(wx.Size(self._WINDOW_SIZE))
+
+    ##########
+    # Public #
+    ##########
+
+    def get_notebook(self):
+        return self._notebook
+
+    def add_page(self, page_name, page_view):
+        self._notebook.AddPage(page_view, page_name)
 
 
 if __name__ == "__main__":
