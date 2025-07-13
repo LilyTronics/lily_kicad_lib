@@ -5,6 +5,9 @@ Check library controller.
 import wx
 
 from toolbox.models.id_manager import IdManager
+from toolbox.models.erp_checker import ErpChecker
+from toolbox.models.footprints_checker import FootprintsChecker
+from toolbox.models.projects_checker import ProjectsChecker
 from toolbox.models.symbols_checker import SymbolsChecker
 from toolbox.views.view_check_library import ViewCheckLibrary
 
@@ -14,7 +17,10 @@ class ControllerCheckLibrary:
     name = "Check Libraries"
 
     _checkers = {
-        "Check symbols": SymbolsChecker
+        "Check symbols": SymbolsChecker,
+        "Check footprints": FootprintsChecker,
+        "Check ERP data": ErpChecker,
+        "Check projects": ProjectsChecker
     }
 
     def __init__(self, parent):
