@@ -7,7 +7,7 @@ import csv
 import os
 import re
 
-from scripts.models.lib_parser import LibParser
+from toolbox.models.lib_parser import LibParser
 
 
 _OUTPUT_FILE = os.path.join(os.path.expanduser("~"), "import_to_erp.csv")

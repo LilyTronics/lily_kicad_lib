@@ -7,7 +7,7 @@ import os
 
 from string import Template
 from datetime import datetime
-from models.lib_parser import LibParser
+from toolbox.models.lib_parser import LibParser
 
 
 def generate_report():

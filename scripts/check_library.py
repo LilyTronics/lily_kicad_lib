@@ -28,7 +28,7 @@ if __name__ == "__main__":
     from models.erp_checker import ErpChecker
     from models.footprints_checker import FootprintsChecker
     from models.projects_checker import ProjectsChecker
-    from models.symbols_checker import SymbolsChecker
+    from toolbox.models.symbols_checker import SymbolsChecker
 
     do_continue = _show_report(SymbolsChecker.run())
     if do_continue:

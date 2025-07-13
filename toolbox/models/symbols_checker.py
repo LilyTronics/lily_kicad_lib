@@ -5,7 +5,7 @@ Class that checks the symbols
 import os
 import re
 
-from scripts.models.lib_parser import LibParser
+from toolbox.models.lib_parser import LibParser
 
 
 class SymbolsChecker:
