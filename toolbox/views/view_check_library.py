@@ -10,13 +10,14 @@ from toolbox.models.id_manager import IdManager
 
 class ViewCheckLibrary(wx.Panel):
 
+    _FIRST_COL_WIDTH = 400
     _GAP = 5
 
     def __init__(self, parent):
         super().__init__(parent)
 
         self._tree = wx.dataview.TreeListCtrl(self)
-        self._tree.AppendColumn("Checks")
+        self._tree.AppendColumn("Checks", self._FIRST_COL_WIDTH)
         self._tree.AppendColumn("Result")
 
         btn_run_checks = wx.Button(self, IdManager.ID_BTN_CHECK, "Run checks")

@@ -9,7 +9,7 @@ import wx.dataview
 class ViewMain(wx.Dialog):
 
     _WINDOW_TITLE = "KiCad Toolbox"
-    _WINDOW_SIZE = (1000, 800)
+    _WINDOW_SIZE = (1200, 800)
     _GAP = 5
 
     def __init__(self):
