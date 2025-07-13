@@ -4,7 +4,7 @@ Checks the projects to the library.
 
 import os
 
-from scripts.models.design_parser import DesignParser
+from toolbox.models.design_parser import DesignParser
 from toolbox.models.lib_parser import LibParser
 
 

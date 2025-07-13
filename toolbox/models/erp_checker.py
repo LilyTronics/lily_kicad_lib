@@ -2,7 +2,7 @@
 Class that checks the library against the ERP database
 """
 
-from scripts.models.erp_connect import get_components_from_erp
+from toolbox.models.erp_connect import get_components_from_erp
 from toolbox.models.lib_parser import LibParser
 
 
