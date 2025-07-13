@@ -22,6 +22,6 @@ class ControllerCheckLibrary:
 
 if __name__ == "__main__":
 
-    from toolbox.toolbox import run_toolbox
+    from toolbox.run_toolbox import run_toolbox
 
     run_toolbox()
