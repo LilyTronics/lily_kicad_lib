@@ -31,15 +31,23 @@ class ViewCheckLibrary(wx.Panel):
     # Public #
     ##########
 
-    def initialize_tree(self, checks):
+    def initialize_tree(self, checker_names):
         self._tree.DeleteAllItems()
         root = self._tree.GetRootItem()
-        for check in checks:
-            self._tree.AppendItem(root, check)
-            # self._tree.SetItemText(child, 1, "2 messages")
-            # for i in range(2):
-            #     msg = self._tree.AppendItem(child, f"Line {i}")
-            #     self._tree.SetItemText(msg, 1, f"This is message {i}")
+        for name in checker_names:
+            self._tree.AppendItem(root, name)
+
+    def add_messages(self, name, messages):
+        # Find item with the given name
+        item = self._tree.GetFirstItem()
+        while item.IsOk():
+            if self._tree.GetItemText(item) == name:
+                self._tree.SetItemText(item, 1, f"{len(messages)} messages")
+                for message in messages:
+                    child = self._tree.AppendItem(item, f"{message["item"]}")
+                    self._tree.SetItemText(child, 1, f"{message["message"]}")
+                break
+            item = self._tree.GetNextItem(item)
 
 
 if __name__ == "__main__":

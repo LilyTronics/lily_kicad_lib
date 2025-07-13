@@ -13,21 +13,25 @@ class ControllerCheckLibrary:
 
     name = "Check Libraries"
 
-    _checks = {
-        "Check symbols" : SymbolsChecker
+    _checkers = {
+        "Check symbols": SymbolsChecker
     }
 
     def __init__(self, parent):
         self._view = ViewCheckLibrary(parent)
-        self._view.initialize_tree(list(self._checks.keys()))
+        self._view.initialize_tree(list(self._checkers.keys()))
         self._view.Bind(wx.EVT_BUTTON, self._on_check_click, id=IdManager.ID_BTN_CHECK)
 
     ##################
     # Event handlers #
     ##################
 
-    def _on_check_click(self, event):
+    def _on_check_click(self, _event):
         print("Run checks")
+        self._view.initialize_tree(list(self._checkers.keys()))
+        for checker in self._checkers:
+            messages = self._checkers[checker].run()
+            self._view.add_messages(checker, messages)
 
     ##########
     # Public #
