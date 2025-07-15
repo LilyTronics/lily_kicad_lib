@@ -5,12 +5,12 @@ Parsing the library and returns the symbols/footprints.
 import glob
 import os
 
+from toolbox.app_data import AppData
+
 
 class LibParser:
 
     stdout = print
-
-    SCRIPT_PATH = os.path.dirname(__file__)
 
     SYMBOL_MANDATORY_FIELDS = [
         "Name",
@@ -28,7 +28,7 @@ class LibParser:
 
     @classmethod
     def get_symbols(cls):
-        lib_filename = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", "..", "symbols", "lily_symbols.kicad_sym"))
+        lib_filename = os.path.join(AppData.APP_PATH, "symbols", "lily_symbols.kicad_sym")
         cls.stdout(f"Read symbols library: {lib_filename}")
         with open(lib_filename, "r") as fp:
             lines = fp.readlines()
@@ -67,7 +67,7 @@ class LibParser:
 
     @classmethod
     def get_footprints(cls):
-        lib_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", "..", "lily_footprints.pretty"))
+        lib_path = os.path.join(AppData.APP_PATH, "lily_footprints.pretty")
         cls.stdout(f"Read footprints library: {lib_path}")
         footprints = []
         fields = []

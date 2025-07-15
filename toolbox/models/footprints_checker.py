@@ -249,7 +249,7 @@ class FootprintsChecker:
                     "message": f"3D model folder must start with '../3d_models/' {caller}"
                 })
             else:
-                full_path = os.path.abspath(os.path.join(AppData.APP_PATH, "3d_models", footprint_data["Model"]))
+                full_path = os.path.join(AppData.APP_PATH, "3d_models", footprint_data["Model"])
                 if not os.path.isfile(full_path):
                     report_messages.append({
                         "item": footprint_data["Name"],
