@@ -7,10 +7,12 @@ import wx.dataview
 
 from datetime import datetime
 
+from toolbox.app_data import AppData
+
 
 class ViewMain(wx.Dialog):
 
-    _WINDOW_TITLE = "KiCad Toolbox"
+    _WINDOW_TITLE = f"{AppData.APP_NAME} V{AppData.VERSION}"
     _WINDOW_SIZE = (1200, 800)
     _GAP = 5
 
