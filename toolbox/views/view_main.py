@@ -5,6 +5,8 @@ Main view for the toolbox
 import wx
 import wx.dataview
 
+from datetime import datetime
+
 
 class ViewMain(wx.Dialog):
 
@@ -36,7 +38,14 @@ class ViewMain(wx.Dialog):
         self._notebook.AddPage(page_view, page_name)
 
     def add_to_console(self, message):
-        self._txt_console.AppendText(f"{message}\n")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        for line in message.split("\n"):
+            if line.strip() != "":
+                line = f"{timestamp} - {line}"
+            self._txt_console.AppendText(f"{line}\n")
+
+    def clear_console(self):
+        self._txt_console.Clear()
 
 
 if __name__ == "__main__":

@@ -14,7 +14,7 @@ class ControllerMain:
         self._view = ViewMain()
 
         for controller in self._controllers:
-            c = controller(self._view.add_to_console, self._view.get_notebook())
+            c = controller(self._view, self._view.get_notebook())
             self._view.add_page(c.name, c.get_view())
 
         self._view.ShowModal()

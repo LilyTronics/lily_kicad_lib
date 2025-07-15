@@ -23,8 +23,8 @@ class ControllerCheckLibrary:
         "Check projects": ProjectsChecker
     }
 
-    def __init__(self, stdout, notebook):
-        self._stdout = stdout
+    def __init__(self, main_view, notebook):
+        self._main_view = main_view
         self._view = ViewCheckLibrary(notebook)
         self._view.initialize_tree(list(self._checkers.keys()))
         self._view.Bind(wx.EVT_BUTTON, self._on_check_click, id=IdManager.ID_BTN_CHECK)
@@ -34,8 +34,8 @@ class ControllerCheckLibrary:
     ###########
 
     def _run_checker(self, checker):
-        self._stdout(f"\nRun checker: {checker}")
-        self._checkers[checker].stdout = self._stdout
+        self._main_view.add_to_console(f"\nRun checker: {checker}")
+        self._checkers[checker].stdout = self._main_view.add_to_console
         messages = self._checkers[checker].run()
         self._view.add_messages(checker, messages)
 
@@ -45,6 +45,7 @@ class ControllerCheckLibrary:
 
     def _on_check_click(self, _event):
         self._view.initialize_tree(list(self._checkers.keys()))
+        self._main_view.clear_console()
         for checker in self._checkers:
             wx.CallAfter(self._run_checker, checker)
 
