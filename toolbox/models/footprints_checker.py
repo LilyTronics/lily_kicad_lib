@@ -5,6 +5,7 @@ Class that checks the footprints.
 import copy
 import os
 
+from toolbox.app_data import AppData
 from toolbox.models.lib_parser import LibParser
 
 
@@ -12,7 +13,6 @@ class FootprintsChecker:
 
     stdout = print
 
-    SCRIPT_PATH = os.path.dirname(__file__)
     SKIP_FIELDS = ("Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab")
     VALUE_FIELDS = ("Reference", "Value")
     SKIP_FIELDS_VISIBLE = ("Name", "Model")
@@ -249,7 +249,7 @@ class FootprintsChecker:
                     "message": f"3D model folder must start with '../3d_models/' {caller}"
                 })
             else:
-                full_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", footprint_data["Model"]))
+                full_path = os.path.abspath(os.path.join(AppData.APP_PATH, "3d_models", footprint_data["Model"]))
                 if not os.path.isfile(full_path):
                     report_messages.append({
                         "item": footprint_data["Name"],
