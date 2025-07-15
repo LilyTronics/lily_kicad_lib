@@ -8,9 +8,6 @@ import os
 
 class DesignParser:
 
-    SCRIPT_PATH = os.path.dirname(__file__)
-    TEST_DESIGN_PATH = os.path.abspath(os.path.join(SCRIPT_PATH, "..", "..", "lib_test"))
-
     stdout = print
 
     @classmethod
@@ -75,7 +72,7 @@ class DesignParser:
 
 if __name__ == "__main__":
 
-    _test_project_folder = "..\\..\\projects\\lib_test"
+    _test_project_folder = "..\\..\\projects\\lib_test\\capacitors"
     _symbols = DesignParser.get_symbols(_test_project_folder)
     print("Symbols:", len(_symbols))
     if len(_symbols) > 0:
