@@ -8,6 +8,8 @@ import os
 
 class LibParser:
 
+    stdout = print
+
     SCRIPT_PATH = os.path.dirname(__file__)
 
     SYMBOL_MANDATORY_FIELDS = [
@@ -27,7 +29,7 @@ class LibParser:
     @classmethod
     def get_symbols(cls):
         lib_filename = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", "..", "symbols", "lily_symbols.kicad_sym"))
-        print(f"Read symbols library: {lib_filename}")
+        cls.stdout(f"Read symbols library: {lib_filename}")
         with open(lib_filename, "r") as fp:
             lines = fp.readlines()
         symbols = []
@@ -66,7 +68,7 @@ class LibParser:
     @classmethod
     def get_footprints(cls):
         lib_path = os.path.abspath(os.path.join(cls.SCRIPT_PATH, "..", "..", "lily_footprints.pretty"))
-        print(f"Read footprints library: {lib_path}")
+        cls.stdout(f"Read footprints library: {lib_path}")
         footprints = []
         fields = []
         for item in glob.glob(os.path.join(lib_path, "*.kicad_mod")):

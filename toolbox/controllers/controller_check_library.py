@@ -23,21 +23,30 @@ class ControllerCheckLibrary:
         "Check projects": ProjectsChecker
     }
 
-    def __init__(self, parent):
-        self._view = ViewCheckLibrary(parent)
+    def __init__(self, stdout, notebook):
+        self._stdout = stdout
+        self._view = ViewCheckLibrary(notebook)
         self._view.initialize_tree(list(self._checkers.keys()))
         self._view.Bind(wx.EVT_BUTTON, self._on_check_click, id=IdManager.ID_BTN_CHECK)
+
+    ###########
+    # Private #
+    ###########
+
+    def _run_checker(self, checker):
+        self._stdout(f"\nRun checker: {checker}")
+        self._checkers[checker].stdout = self._stdout
+        messages = self._checkers[checker].run()
+        self._view.add_messages(checker, messages)
 
     ##################
     # Event handlers #
     ##################
 
     def _on_check_click(self, _event):
-        print("Run checks")
         self._view.initialize_tree(list(self._checkers.keys()))
         for checker in self._checkers:
-            messages = self._checkers[checker].run()
-            self._view.add_messages(checker, messages)
+            wx.CallAfter(self._run_checker, checker)
 
     ##########
     # Public #

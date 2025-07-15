@@ -24,18 +24,18 @@ _FIELDS = [
 ]
 
 
-def get_components_from_erp():
-    print("Reading components from ERP database")
+def get_components_from_erp(stdout):
+    stdout("Reading components from ERP database")
     json_filename = os.path.join(os.path.expanduser("~"), "erp_connect.json")
     if not os.path.isfile(json_filename):
-        print("No configuration file present")
+        stdout("No configuration file present")
         return False, []
 
     try:
         config = json.load(open(json_filename, "r"))
     except Exception as e:
-        print("Error reading configuration file")
-        print(str(e))
+        stdout("Error reading configuration file")
+        stdout(str(e))
         return False, []
 
     try:
@@ -45,8 +45,8 @@ def get_components_from_erp():
         records = models.execute_kw(config["database"], uid, config["password"], 'product.template',
                                     'search_read', [[["categ_id", "=", "Electronic components"]]], {'fields': _FIELDS})
     except Exception as e:
-        print("Error reading records")
-        print(str(e))
+        stdout("Error reading records")
+        stdout(str(e))
         return False, []
 
     return True, records
@@ -54,7 +54,7 @@ def get_components_from_erp():
 
 if __name__ == "__main__":
 
-    result = get_components_from_erp()
+    result = get_components_from_erp(print)
     if result[0]:
         for record in result[1]:
             print(record)

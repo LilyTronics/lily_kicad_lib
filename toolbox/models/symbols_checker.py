@@ -10,6 +10,8 @@ from toolbox.models.lib_parser import LibParser
 
 class SymbolsChecker:
 
+    stdout = print
+
     REFERENCES = {
         "bjt":        "Q",
         "cap":        "C",
@@ -35,11 +37,12 @@ class SymbolsChecker:
 
     @classmethod
     def run(cls):
-        print("Check library symbols")
+        LibParser.stdout = cls.stdout
+        cls.stdout("Check library symbols")
         caller = f"({cls.__name__}.run)"
         report_messages = []
         symbols = LibParser.get_symbols()
-        print(f"Checking {len(symbols)} symbols")
+        cls.stdout(f"Checking {len(symbols)} symbols")
         for symbol in symbols:
             try:
                 revision = int(symbol["Revision"])

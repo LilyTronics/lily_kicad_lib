@@ -10,6 +10,8 @@ from toolbox.models.lib_parser import LibParser
 
 class FootprintsChecker:
 
+    stdout = print
+
     SCRIPT_PATH = os.path.dirname(__file__)
     SKIP_FIELDS = ("Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab")
     VALUE_FIELDS = ("Reference", "Value")
@@ -37,11 +39,11 @@ class FootprintsChecker:
 
     @classmethod
     def run(cls):
-        print("Check library footprints")
+        cls.stdout("Check library footprints")
         caller = f"({cls.__name__}.run)"
         report_messages = []
         footprints = LibParser.get_footprints()
-        print(f"Checking {len(footprints)} footprints")
+        cls.stdout(f"Checking {len(footprints)} footprints")
         for footprint in footprints:
             try:
                 revision = int(footprint["Revision"]["Value"])

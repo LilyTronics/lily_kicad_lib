@@ -8,6 +8,8 @@ from toolbox.models.lib_parser import LibParser
 
 class ErpChecker:
 
+    stdout = print
+
     @staticmethod
     def lib_filter(comp):
         return (
@@ -20,17 +22,17 @@ class ErpChecker:
 
     @classmethod
     def run(cls):
-        print("Check ERP components against library components")
+        cls.stdout("Check ERP components against library components")
         report_messages = []
         erp_components = []
-        result = get_components_from_erp()
+        result = get_components_from_erp(cls.stdout)
         if result[0]:
             erp_components = result[1]
         lib_components = list(filter(lambda c: cls.lib_filter(c), LibParser.get_symbols()))
         # Make name format in library components same as the name in the ERP database
         lib_components = [{**c, "Name": c["Name"].replace("_", " ")} for c in lib_components]
-        print(f"Checking {len(erp_components)} ERP components")
-        print(f"Checking {len(lib_components)} library components")
+        cls.stdout(f"Checking {len(erp_components)} ERP components")
+        cls.stdout(f"Checking {len(lib_components)} library components")
         cls._check_lib_to_erp(lib_components, erp_components, report_messages)
         cls._check_erp_to_lib(erp_components, lib_components, report_messages)
         return report_messages

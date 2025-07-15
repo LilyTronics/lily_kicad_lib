@@ -10,6 +10,8 @@ from toolbox.models.lib_parser import LibParser
 
 class ProjectsChecker:
 
+    stdout = print
+
     SCRIPT_PATH = os.path.dirname(__file__)
     PROJECTS_PATH = os.path.abspath(os.path.join(SCRIPT_PATH, "..", "..", "projects"))
 
@@ -19,7 +21,9 @@ class ProjectsChecker:
 
     @classmethod
     def run(cls):
-        print("Check projects against library")
+        DesignParser.stdout = cls.stdout
+        LibParser.stdout = cls.stdout
+        cls.stdout("Check projects against library")
         designs = {}
         for current_folder, sub_folders, filenames in os.walk(cls.PROJECTS_PATH):
             sub_folders.sort()
@@ -27,7 +31,7 @@ class ProjectsChecker:
             if len(matches) == 1:
                 # Get symbols and footprints from the project
                 rel_path = current_folder.replace(cls.PROJECTS_PATH, "").strip("\\")
-                print(rel_path)
+                cls.stdout(rel_path)
                 designs[rel_path] = {
                     "symbols": DesignParser.get_symbols(current_folder),
                     "footprints": DesignParser.get_footprints(current_folder)

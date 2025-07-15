@@ -11,9 +11,11 @@ class DesignParser:
     SCRIPT_PATH = os.path.dirname(__file__)
     TEST_DESIGN_PATH = os.path.abspath(os.path.join(SCRIPT_PATH, "..", "..", "lib_test"))
 
+    stdout = print
+
     @classmethod
     def get_symbols(cls, project_folder):
-        print(f"Read schematics from: {project_folder}")
+        cls.stdout(f"Read schematics from: {project_folder}")
         lines = []
         for item in glob.glob(os.path.join(project_folder, "*.kicad_sch")):
             with open(item, "r") as fp:
@@ -43,7 +45,7 @@ class DesignParser:
         items = glob.glob(os.path.join(project_folder, "*.kicad_pcb"))
         if len(items) == 1:
             pcb_filename = items[0]
-            print(f"Read layout from: {pcb_filename}")
+            cls.stdout(f"Read layout from: {pcb_filename}")
             with open(pcb_filename, "r") as fp:
                 lines = fp.readlines()
             i = 0
