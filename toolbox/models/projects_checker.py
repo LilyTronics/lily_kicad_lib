@@ -4,6 +4,7 @@ Checks the projects to the library.
 
 import os
 
+from toolbox.app_data import AppData
 from toolbox.models.design_parser import DesignParser
 from toolbox.models.lib_parser import LibParser
 
@@ -12,8 +13,7 @@ class ProjectsChecker:
 
     stdout = print
 
-    SCRIPT_PATH = os.path.dirname(__file__)
-    PROJECTS_PATH = os.path.abspath(os.path.join(SCRIPT_PATH, "..", "..", "projects"))
+    PROJECTS_PATH = os.path.join(AppData.APP_PATH, "projects")
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]
     SKIP_SYMBOL_FIELDS = ["Name", "Extends"]

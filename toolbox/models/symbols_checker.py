@@ -5,6 +5,7 @@ Class that checks the symbols
 import os
 import re
 
+from toolbox.app_data import AppData
 from toolbox.models.lib_parser import LibParser
 
 
@@ -181,9 +182,7 @@ class SymbolsChecker:
                     "message": f"invalid footprint library '{parts[0]}' {caller}"
                 })
             else:
-                script_path = os.path.dirname(__file__)
-                footprint_file = os.path.abspath(
-                    os.path.join(script_path, "..", "..", f"{parts[0]}.pretty", f"{parts[1]}.kicad_mod"))
+                footprint_file = os.path.join(AppData.APP_PATH, f"{parts[0]}.pretty", f"{parts[1]}.kicad_mod")
                 if not os.path.isfile(footprint_file):
                     report_messages.append({
                         "item": symbol_data["Name"],
