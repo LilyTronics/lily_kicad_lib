@@ -12,7 +12,7 @@ class ControllerMain:
 
     _controllers = [ControllerCheckLibrary, ControllerGenerateProductId]
 
-    def __init__(self):
+    def __init__(self, active_tab):
         self._view = ViewMain()
         self._view.add_to_console(f"Path: {AppData.APP_PATH}")
 
@@ -20,6 +20,7 @@ class ControllerMain:
             c = controller(self._view, self._view.get_notebook())
             self._view.add_page(c.name, c.get_view())
 
+        self._view.get_notebook().SetSelection(active_tab)
         self._view.ShowModal()
         self._view.Destroy()
 

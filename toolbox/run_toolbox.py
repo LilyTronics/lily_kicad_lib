@@ -7,9 +7,9 @@ import wx
 from toolbox.controllers.controller_main import ControllerMain
 
 
-def run_toolbox():
+def run_toolbox(active_tab=0):
     app = wx.App(redirect=False)
-    ControllerMain()
+    ControllerMain(active_tab)
     app.MainLoop()
 
 

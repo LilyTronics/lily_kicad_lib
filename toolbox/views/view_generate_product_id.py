@@ -23,4 +23,4 @@ if __name__ == "__main__":
 
     from toolbox.run_toolbox import run_toolbox
 
-    run_toolbox()
+    run_toolbox(1)
