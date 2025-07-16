@@ -5,6 +5,7 @@ Generate product ID controller.
 import wx
 
 from toolbox.models.id_manager import IdManager
+from toolbox.models.product_categories import ProductCategories
 from toolbox.views.view_generate_product_id import ViewGenerateProductId
 
 
@@ -14,7 +15,13 @@ class ControllerGenerateProductId:
 
     def __init__(self, main_view, notebook):
         self._main_view = main_view
-        self._view = ViewGenerateProductId(notebook)
+        categories = []
+        try:
+            self._product_categories = ProductCategories()
+            categories = self._product_categories.get_categories()
+        except Exception as e:
+            self._main_view.add_to_console(f"Error loading categories: {e}")
+        self._view = ViewGenerateProductId(notebook, categories)
 
     ##########
     # Public #
