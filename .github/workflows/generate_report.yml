@@ -29,7 +29,7 @@ jobs:
 
     - name: Generate report
       run: |
-        export PYTHONPATH=/home/runner/work/lily_kicad_lib
+        export PYTHONPATH=/home/runner/work/lily_kicad_lib/lily_kicad_lib
         python toolbox/generate_report.py
 
     - name: commit and push report
