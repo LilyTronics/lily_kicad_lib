@@ -4,12 +4,13 @@ Main controller
 
 from toolbox.app_data import AppData
 from toolbox.controllers.controller_check_library import ControllerCheckLibrary
+from toolbox.controllers.controller_generate_product_id import ControllerGenerateProductId
 from toolbox.views.view_main import ViewMain
 
 
 class ControllerMain:
 
-    _controllers = [ControllerCheckLibrary]
+    _controllers = [ControllerCheckLibrary, ControllerGenerateProductId]
 
     def __init__(self):
         self._view = ViewMain()
