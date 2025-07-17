@@ -24,7 +24,12 @@ _FIELDS = [
 ]
 
 
-def get_components_from_erp(stdout):
+def get_components_from_erp(stdout, filter_value=""):
+    filters = [
+        ["categ_id", "=", "Electronic components"]
+    ]
+    if filter_value != "":
+        filters.append(["default_code", "like", filter_value])
     stdout("Reading components from ERP database")
     json_filename = os.path.join(os.path.expanduser("~"), "erp_connect.json")
     if not os.path.isfile(json_filename):
@@ -43,7 +48,7 @@ def get_components_from_erp(stdout):
         uid = common.authenticate(config["database"], config["username"], config["password"], {})
         models = xmlrpc.client.ServerProxy('{}/xmlrpc/2/object'.format(config["url"]))
         records = models.execute_kw(config["database"], uid, config["password"], 'product.template',
-                                    'search_read', [[["categ_id", "=", "Electronic components"]]], {'fields': _FIELDS})
+                                    'search_read', [filters], {'fields': _FIELDS})
     except Exception as e:
         stdout("Error reading records")
         stdout(str(e))
@@ -54,7 +59,7 @@ def get_components_from_erp(stdout):
 
 if __name__ == "__main__":
 
-    result = get_components_from_erp(print)
+    result = get_components_from_erp(print, "1910-%")
     if result[0]:
         for record in result[1]:
             print(record)
