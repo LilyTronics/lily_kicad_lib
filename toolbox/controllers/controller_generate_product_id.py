@@ -15,14 +15,29 @@ class ControllerGenerateProductId:
 
     def __init__(self, main_view, notebook):
         self._main_view = main_view
+        self._view = ViewGenerateProductId(notebook)
+        self._view.Bind(wx.EVT_BUTTON, self._on_reload_click, id=IdManager.ID_BTN_RELOAD)
+        self._load_categories()
+
+    ###########
+    # Private #
+    ###########
+
+    def _load_categories(self):
         categories = []
         try:
             self._product_categories = ProductCategories()
             categories = self._product_categories.get_categories()
         except Exception as e:
             self._main_view.add_to_console(f"Error loading categories: {e}")
-        self._view = ViewGenerateProductId(notebook)
         self._view.set_categories(categories)
+
+    ##################
+    # Event handlers #
+    ##################
+
+    def _on_reload_click(self, _event):
+        self._load_categories()
 
     ##########
     # Public #

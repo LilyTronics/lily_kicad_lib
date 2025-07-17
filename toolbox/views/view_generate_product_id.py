@@ -4,6 +4,8 @@ View for the generate product ID tab
 
 import wx
 
+from toolbox.models.id_manager import IdManager
+
 
 class ViewGenerateProductId(wx.Panel):
 
@@ -23,7 +25,8 @@ class ViewGenerateProductId(wx.Panel):
     def _create_controls(self):
         lbl_category = wx.StaticText(self, wx.ID_ANY, "Category:")
         self._cmb_categories = wx.Choice(self)
-        btn_reload = wx.Button(self, wx.ID_ANY, "Reload")
+
+        btn_reload = wx.Button(self, IdManager.ID_BTN_RELOAD, "Reload")
 
         lbl_placeholder = wx.StaticText(self, wx.ID_ANY, size=wx.Size(0, 0))
 
@@ -36,7 +39,7 @@ class ViewGenerateProductId(wx.Panel):
         txt_version = wx.TextCtrl(self)
         txt_version.Hide()
 
-        btn_generate = wx.Button(self, wx.ID_ANY, "Generate product ID")
+        btn_generate = wx.Button(self, IdManager.ID_BTN_GENERATE, "Generate product ID")
 
         lbl_low = wx.StaticText(self, wx.ID_ANY, "Lowest existing ID:")
         lbl_high = wx.StaticText(self, wx.ID_ANY, "Highest existing ID:")
