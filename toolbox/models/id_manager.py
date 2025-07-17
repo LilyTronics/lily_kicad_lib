@@ -11,3 +11,4 @@ class IdManager:
     # generate product ID (200 - 299)
     ID_BTN_RELOAD = 200
     ID_BTN_GENERATE = 201
+    ID_CMB_CATEGORIES = 202

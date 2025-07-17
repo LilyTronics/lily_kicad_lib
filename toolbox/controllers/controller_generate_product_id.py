@@ -17,6 +17,7 @@ class ControllerGenerateProductId:
         self._main_view = main_view
         self._view = ViewGenerateProductId(notebook)
         self._view.Bind(wx.EVT_BUTTON, self._on_reload_click, id=IdManager.ID_BTN_RELOAD)
+        self._view.Bind(wx.EVT_CHOICE, self._on_category_select, id=IdManager.ID_CMB_CATEGORIES)
         self._load_categories()
 
     ###########
@@ -38,6 +39,10 @@ class ControllerGenerateProductId:
 
     def _on_reload_click(self, _event):
         self._load_categories()
+
+    def _on_category_select(self, event):
+        properties = self._product_categories.get_properties(event.GetString())
+        self._view.enable_controls(properties)
 
     ##########
     # Public #
