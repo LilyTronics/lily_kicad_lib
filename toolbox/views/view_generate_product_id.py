@@ -42,9 +42,9 @@ class ViewGenerateProductId(wx.Panel):
         lbl_low = wx.StaticText(self, wx.ID_ANY, "Lowest existing ID:")
         lbl_high = wx.StaticText(self, wx.ID_ANY, "Highest existing ID:")
         lbl_next = wx.StaticText(self, wx.ID_ANY, "Next available ID:")
-        txt_low = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
-        txt_high = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
-        txt_next = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
+        self._txt_low = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
+        self._txt_high = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
+        self._txt_next = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
 
         grid = wx.GridBagSizer(self._GAP, self._GAP)
         grid.Add(lbl_category, (0, 0), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
@@ -57,11 +57,11 @@ class ViewGenerateProductId(wx.Panel):
 
         grid.Add(btn_generate, (4, 0), (1, 2), wx.ALIGN_CENTER_VERTICAL)
         grid.Add(lbl_low, (5, 0), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
-        grid.Add(txt_low, (5, 1), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
+        grid.Add(self._txt_low, (5, 1), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
         grid.Add(lbl_high, (6, 0), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
-        grid.Add(txt_high, (6, 1), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
+        grid.Add(self._txt_high, (6, 1), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
         grid.Add(lbl_next, (7, 0), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
-        grid.Add(txt_next, (7, 1), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
+        grid.Add(self._txt_next, (7, 1), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
 
         return grid
 
@@ -74,6 +74,9 @@ class ViewGenerateProductId(wx.Panel):
         self._cmb_series.Disable()
         self._lbl_value.Disable()
         self._txt_value.Disable()
+        self._txt_low.Clear()
+        self._txt_high.Clear()
+        self._txt_next.Clear()
 
     ##########
     # Public #
@@ -95,6 +98,20 @@ class ViewGenerateProductId(wx.Panel):
             self._cmb_series.Enable()
             self._cmb_series.Set(series)
         self.Layout()
+
+    def get_input(self):
+        cat_index = self._cmb_categories.GetSelection()
+        ser_index = self._cmb_series.GetSelection()
+        return {
+            "category": "" if cat_index < 0 else self._cmb_categories.GetString(cat_index),
+            "series": "" if ser_index < 0 else self._cmb_series.GetString(ser_index),
+            "value": self._txt_value.GetValue().strip()
+        }
+
+    def set_product_ids(self, product_ids):
+        self._txt_low.SetValue(product_ids["low"])
+        self._txt_high.SetValue(product_ids["high"])
+        self._txt_next.SetValue(product_ids["next"])
 
 
 if __name__ == "__main__":
