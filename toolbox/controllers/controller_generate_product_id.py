@@ -21,7 +21,8 @@ class ControllerGenerateProductId:
             categories = self._product_categories.get_categories()
         except Exception as e:
             self._main_view.add_to_console(f"Error loading categories: {e}")
-        self._view = ViewGenerateProductId(notebook, categories)
+        self._view = ViewGenerateProductId(notebook)
+        self._view.set_categories(categories)
 
     ##########
     # Public #
