@@ -57,7 +57,7 @@ class SymbolsChecker:
                     "item": symbol["Name"],
                     "message": "the revision must be numeric"
                 })
-            if symbol["Extends"] == "":
+            if symbol["Extends"] == "" and not symbol["Name"].startswith("test_point"):
                 if symbol["Name"] != symbol["Value"]:
                     report_messages.append({
                         "item":    symbol["Name"],
