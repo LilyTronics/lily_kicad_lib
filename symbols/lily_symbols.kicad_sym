@@ -23463,7 +23463,7 @@
 		)
 		(symbol "test_point_0_1"
 			(circle
-				(center 3.175 0)
+				(center 1.905 0)
 				(radius 0.635)
 				(stroke
 					(width 0.254)
@@ -23477,7 +23477,135 @@
 		(symbol "test_point_1_1"
 			(pin passive line
 				(at 0 0 0)
-				(length 2.54)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "test_point_2p"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "test_point"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "test_point_2p_0_1"
+			(circle
+				(center 0 -1.651)
+				(radius 0.5236)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 -3.429)
+				(radius 0.5236)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "test_point_2p_1_1"
+			(pin passive line
+				(at 0 0 270)
+				(length 1.016)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 1.016)
 				(name ""
 					(effects
 						(font
@@ -56273,6 +56401,63 @@
 		)
 		(property "Revision" "1"
 			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "test_point_2p_1.1mm_th"
+		(extends "test_point_2p")
+		(property "Reference" "TP"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "test_point"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:test_point_2p_1.1mm_th"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
