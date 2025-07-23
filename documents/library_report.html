@@ -132,7 +132,8 @@ const generic_symbols = [
     { Name: "res", Extends: "", Reference: "R", Value: "res", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "switch_spdt", Extends: "", Reference: "S", Value: "switch_spdt", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "switch_spst_button", Extends: "", Reference: "S", Value: "switch_spst_button", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
-    { Name: "test_point", Extends: "", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
+    { Name: "test_point", Extends: "", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "test_point_2p", Extends: "", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
 ];
 
 const parts = [
@@ -435,7 +436,8 @@ const parts = [
     { Name: "res_do_not_populate_0805", Extends: "res", Reference: "R", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:res_0805_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "switch_spdt_slide_right_angle_8x2.8mm_smd", Extends: "switch_spdt", Reference: "S", Value: "switch_spdt_slide_right_angle_8x2.8mm_smd", Description: "", Datasheet: "", Footprint: "lily_footprints:switch_spdt_msk12c02_8x2.8mm_smd", Revision: "1", Status: "Active", Manufacturer: "Shou Han", Manufacturer_ID: "MSK12C02-HB", Lily_ID: "xxxx-yyyyy", JLCPCB_ID: "C431541", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "test_point_1.1mm_th", Extends: "test_point", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "lily_footprints:test_point_1.1mm_th", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
-    { Name: "test_point_1mm_smd", Extends: "test_point", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "lily_footprints:test_point_1mm", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
+    { Name: "test_point_1mm_smd", Extends: "test_point", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "lily_footprints:test_point_1mm", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "test_point_2p_1.1mm_th", Extends: "test_point_2p", Reference: "TP", Value: "test_point", Description: "", Datasheet: "", Footprint: "lily_footprints:test_point_2p_1.1mm_th", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" }
 ];
 
 const footprints = [
@@ -512,6 +514,7 @@ const footprints = [
     { Name: "switch_spdt_msk12c02_8x2.8mm_smd", Revision: "1", Model: "../3d_models/switch_msk12c02.step" },
     { Name: "test_point_1.1mm_th", Revision: "1", Model: "" },
     { Name: "test_point_1mm", Revision: "1", Model: "" },
+    { Name: "test_point_2p_1.1mm_th", Revision: "1", Model: "" },
     { Name: "to92", Revision: "1", Model: "../3d_models/to92.step" },
     { Name: "tqfp32_pitch0.8_7x7mm", Revision: "1", Model: "../3d_models/tqfp32_pitch0.8_7x7mm.step" },
     { Name: "tqfp44_pitch0.8_10x10mm", Revision: "1", Model: "../3d_models/tqfp44_pitch0.8_10x10mm.step" },
@@ -581,9 +584,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-07-23 17:04</p>
-<p>Total symbols: 377</p>
-<p>Total footprints: 78</p>
+<p>Last updated: 2025-07-23 18:21</p>
+<p>Total symbols: 379</p>
+<p>Total footprints: 79</p>
 </div>
 
 <div class="section">
