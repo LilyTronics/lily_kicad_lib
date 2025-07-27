@@ -1,7 +1,7 @@
 (footprint "oscillator_smd_5.0x3.2_mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ee5aa699-f381-4de9-8c7b-aabe52d91678")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -77,19 +67,19 @@
 	)
 	(attr smd)
 	(fp_circle
-		(center -2.7 1.8)
-		(end -2.6 1.8)
+		(center -2.5 1.9)
+		(end -2.4 1.9)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "6a8b5cf8-b2f3-4ce5-b44d-6c3d28bd87f8")
 	)
 	(fp_line
-		(start -2.75 -2.1)
-		(end -2.75 2.1)
+		(start -2.7 -1.99)
+		(end -2.7 2.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -98,8 +88,8 @@
 		(uuid "d9467bac-be95-4f6e-b437-791f6602ca44")
 	)
 	(fp_line
-		(start -2.75 2.1)
-		(end 2.75 2.1)
+		(start -2.7 2.1)
+		(end 2.7 2.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -108,8 +98,8 @@
 		(uuid "9de775a8-c84f-4737-8034-ec1759c49b23")
 	)
 	(fp_line
-		(start 2.75 -2.1)
-		(end -2.75 -2.1)
+		(start 2.7 -2)
+		(end -2.7 -2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -118,8 +108,8 @@
 		(uuid "721417d3-00f3-42f5-a22e-8a225ab4eea7")
 	)
 	(fp_line
-		(start 2.75 2.1)
-		(end 2.75 -2.1)
+		(start 2.7 2.1)
+		(end 2.7 -2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -174,7 +164,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "42b89158-03f6-4c6f-aa09-412931d77c40")
 	)
@@ -192,7 +182,7 @@
 	(pad "1" smd rect
 		(at -1.27 1.2)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "2a7c512e-eb83-4cfa-a1ff-526f607c4de1")
@@ -200,7 +190,7 @@
 	(pad "2" smd rect
 		(at 1.27 1.2)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "fd128663-40f6-49c0-a82c-7d9ecdee4291")
@@ -208,7 +198,7 @@
 	(pad "3" smd rect
 		(at 1.27 -1.2)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "24678cf2-e763-4d46-9b95-0e3c341e6035")
@@ -216,11 +206,44 @@
 	(pad "4" smd rect
 		(at -1.27 -1.2)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "98026def-1cbb-4a24-ba11-e4a746f9c7ae")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "5ecaf7ef-feb4-4a31-b91f-66f2de138266")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.17 -2) (xy 2.17 -2) (xy 2.17 2.1) (xy -2.17 2.1)
+			)
+		)
+	)
+	(embedded_fonts no)
 	(model "../3d_models/oscillator_smd_5.0X3.2_mm.step"
 		(offset
 			(xyz 0 0 0)

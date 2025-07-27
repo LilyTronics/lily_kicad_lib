@@ -1,7 +1,7 @@
 (footprint "con_terminal_screw_1x04p_3.5mm_th"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 5.25 0 0)
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "afa68090-469e-4cfa-b636-cdf82b4bf282")
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -86,7 +76,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9678c741-7e81-4fcd-9cf3-98c4145ec422")
 	)
@@ -197,7 +187,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ff68aa21-aa14-45ba-b109-9b4ce770d71b")
 	)
@@ -208,7 +198,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7ac20995-b05e-428c-a864-5efd74e6dee1")
 	)
@@ -219,7 +209,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c8712f9b-36d9-4cb1-907b-15742816491f")
 	)
@@ -230,7 +220,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "58fef5bb-458f-4e7d-9fa4-5238d4511f84")
 	)
@@ -241,7 +231,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "eb8cbfe6-95a9-4935-8846-34a0316af440")
 	)
@@ -294,6 +284,39 @@
 		(solder_mask_margin 0.1)
 		(uuid "fc4c95ed-4c57-4334-9ec9-106ec6a95cd2")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu")
+		(uuid "e6ce36b1-03ca-43bf-8c65-7afcace35213")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.4 -1.4) (xy 11.9 -1.4) (xy 11.9 1.4) (xy -1.4 1.4)
+			)
+		)
+	)
+	(embedded_fonts no)
 	(model "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp"
 		(offset
 			(xyz 0 0 0)

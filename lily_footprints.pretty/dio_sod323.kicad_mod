@@ -1,7 +1,7 @@
 (footprint "dio_sod323"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ed2d4f07-92b1-4604-ab15-c817981c49a0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -85,7 +75,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "3c1ffc5c-665b-4fd2-bcd6-7760e8f000d5")
 	)
@@ -96,7 +86,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "6f2d24f7-ad92-48c4-acf3-fa47d8165bf8")
 	)
@@ -167,7 +157,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "afc218b4-6ce8-4742-9485-86399056c336")
 	)
@@ -178,7 +168,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "5a81c55e-ac9f-41e3-b747-46a9bd8d0814")
 	)
@@ -198,7 +188,7 @@
 	(pad "1" smd rect
 		(at -1.1 0)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "f01efdb1-881c-40a2-bc25-404d9fd4e172")
@@ -206,11 +196,44 @@
 	(pad "2" smd rect
 		(at 1.1 0)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "04e7ba59-3bd7-4a62-a1c4-ba759fe84e42")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "e58d2c78-b610-4e66-bf31-d37eedb7979e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.7 -0.6) (xy 1.7 -0.6) (xy 1.7 0.6) (xy -1.7 0.6)
+			)
+		)
+	)
+	(embedded_fonts no)
 	(model "../3d_models/dio_sod323.step"
 		(offset
 			(xyz 0 0 0)

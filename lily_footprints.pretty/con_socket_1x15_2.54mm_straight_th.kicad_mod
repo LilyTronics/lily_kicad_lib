@@ -35,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -47,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -242,6 +244,38 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
 		(uuid "4ab07331-e048-4ab0-8f6e-b659e9f7b6ce")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu")
+		(uuid "f7f40eb0-1775-46e5-9f7e-32436cf121be")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.1 -1.1) (xy 36.66 -1.1) (xy 36.66 1.1) (xy -1.1 1.1)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "../3d_models/con_socket_1x15_2.54mm_straight_th.step"
