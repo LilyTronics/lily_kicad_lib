@@ -73,6 +73,7 @@ class FootprintsChecker:
                 })
             cls._check_footprint_attributes(footprint, report_messages)
             cls._check_3d_model(footprint, report_messages)
+            cls._check_image(footprint, report_messages)
         return report_messages
 
     @classmethod
@@ -249,12 +250,22 @@ class FootprintsChecker:
                     "message": f"3D model folder must start with '../3d_models/' {caller}"
                 })
             else:
-                full_path = os.path.join(AppData.APP_PATH, "3d_models", footprint_data["Model"])
+                full_path = os.path.abspath(os.path.join(AppData.APP_PATH, "3d_models", footprint_data["Model"]))
                 if not os.path.isfile(full_path):
                     report_messages.append({
                         "item": footprint_data["Name"],
                         "message": f"3D model file does not exists {footprint_data["Model"]} {caller}"
                     })
+
+    @classmethod
+    def _check_image(cls, footprint_data, report_messages):
+        caller = f"({cls.__name__}._check_image)"
+        full_path = f"{os.path.join(AppData.APP_PATH, "lily_footprints.pretty", footprint_data["Name"])}.png"
+        if not os.path.isfile(full_path):
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"Image file for footprint does not exists {os.path.basename(full_path)} {caller}"
+            })
 
 
 if __name__ == "__main__":
