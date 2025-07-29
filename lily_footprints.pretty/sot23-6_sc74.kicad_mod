@@ -407,38 +407,6 @@
 		(solder_paste_margin -0.05)
 		(uuid "e2536a95-5a7a-45c4-bd52-fa5020f3930d")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "42bb1dc5-669f-47a3-9a98-dbc616846517")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -1.5 -1.95) (xy 1.5 -1.95) (xy 1.5 1.95) (xy -1.5 1.95)
-			)
-		)
-	)
 	(embedded_fonts no)
 	(model "../3d_models/sot23-6.step"
 		(offset
