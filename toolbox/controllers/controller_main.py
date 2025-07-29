@@ -21,8 +21,7 @@ class ControllerMain:
             self._view.add_page(c.name, c.get_view())
 
         self._view.get_notebook().SetSelection(active_tab)
-        self._view.ShowModal()
-        self._view.Destroy()
+        self._view.Show()
 
 
 if __name__ == "__main__":

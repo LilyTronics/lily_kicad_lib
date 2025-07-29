@@ -10,7 +10,7 @@ from datetime import datetime
 from toolbox.app_data import AppData
 
 
-class ViewMain(wx.Dialog):
+class ViewMain(wx.Frame):
 
     _WINDOW_TITLE = f"{AppData.APP_NAME} V{AppData.VERSION}"
     _WINDOW_SIZE = (1200, 800)
@@ -18,14 +18,15 @@ class ViewMain(wx.Dialog):
 
     def __init__(self):
         super().__init__(None, title=self._WINDOW_TITLE)
+        panel = wx.Panel(self)
 
-        self._notebook = wx.Notebook(self)
-        self._txt_console = wx.TextCtrl(self, style=wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_READONLY)
+        self._notebook = wx.Notebook(panel)
+        self._txt_console = wx.TextCtrl(panel, style=wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_READONLY)
         self._txt_console.SetFont(wx.Font(9, wx.FONTFAMILY_TELETYPE, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False))
         sizer = wx.BoxSizer(wx.VERTICAL)
         sizer.Add(self._notebook, 2, wx.EXPAND | wx.ALL, self._GAP)
         sizer.Add(self._txt_console, 1, wx.EXPAND | wx.ALL, self._GAP)
-        self.SetSizer(sizer)
+        panel.SetSizer(sizer)
 
         self.SetInitialSize(wx.Size(self._WINDOW_SIZE))
 
