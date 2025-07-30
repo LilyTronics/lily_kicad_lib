@@ -260,12 +260,22 @@ class FootprintsChecker:
     @classmethod
     def _check_image(cls, footprint_data, report_messages):
         caller = f"({cls.__name__}._check_image)"
-        full_path = f"{os.path.join(AppData.APP_PATH, "lily_footprints.pretty", footprint_data["Name"])}.png"
-        if not os.path.isfile(full_path):
-            report_messages.append({
-                "item": footprint_data["Name"],
-                "message": f"Image file for footprint does not exists {os.path.basename(full_path)} {caller}"
-            })
+        if (not footprint_data["Name"].startswith("0_new_footprint") and
+                not footprint_data["Name"].endswith("_dnp") and
+                not footprint_data["Name"].startswith("con_coax") and
+                not footprint_data["Name"].startswith("con_spring_probe_") and
+                not footprint_data["Name"].startswith("doc_") and
+                not footprint_data["Name"].startswith("fiducial_") and
+                not footprint_data["Name"].startswith("logo_") and
+                not footprint_data["Name"].startswith("mec_hole_") and
+                not footprint_data["Name"].startswith("mec_mouse_") and
+                not footprint_data["Name"].startswith("test_point_")):
+            full_path = f"{os.path.join(AppData.APP_PATH, "lily_footprints.pretty", footprint_data["Name"])}.png"
+            if not os.path.isfile(full_path):
+                report_messages.append({
+                    "item": footprint_data["Name"],
+                    "message": f"Image file for footprint does not exists {os.path.basename(full_path)} {caller}"
+                })
 
 
 if __name__ == "__main__":
