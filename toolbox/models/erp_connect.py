@@ -26,7 +26,7 @@ _FIELDS = [
 
 def get_components_from_erp(stdout, filter_value=""):
     filters = [
-        ["categ_id", "=", "Electronic components"]
+        "|", ["categ_id", "=", "Electronic components"], ["categ_id", "=", "Draft"]
     ]
     if filter_value != "":
         filters.append(["default_code", "like", filter_value])
@@ -59,7 +59,8 @@ def get_components_from_erp(stdout, filter_value=""):
 
 if __name__ == "__main__":
 
-    result = get_components_from_erp(print, "1910-%")
+    result = get_components_from_erp(print, "")
     if result[0]:
+        print("Records:", len(result[1]))
         for record in result[1]:
             print(record)
