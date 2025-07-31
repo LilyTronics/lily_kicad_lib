@@ -8,7 +8,7 @@ import sys
 
 class AppData:
     APP_NAME = "Lily KiCad Toolbox"
-    VERSION = "2.4"
+    VERSION = "2.5"
     EXE_NAME = "LilyKiCadToolbox"
     COMPANY = "LilyTronics"
     # Application path depends on if run from script or from the executable
