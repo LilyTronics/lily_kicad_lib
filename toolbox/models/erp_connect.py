@@ -20,7 +20,8 @@ import xmlrpc.client
 _FIELDS = [
     "id",
     "name",
-    "default_code"
+    "default_code",
+    "categ_id"
 ]
 
 
@@ -29,7 +30,7 @@ def get_components_from_erp(stdout, filter_value=""):
         "|", ["categ_id", "=", "Electronic components"], ["categ_id", "=", "Draft"]
     ]
     if filter_value != "":
-        filters.append(["default_code", "like", filter_value])
+        filters = [["default_code", "like", filter_value]]
     stdout("Reading components from ERP database")
     json_filename = os.path.join(os.path.expanduser("~"), "erp_connect.json")
     if not os.path.isfile(json_filename):
@@ -59,7 +60,13 @@ def get_components_from_erp(stdout, filter_value=""):
 
 if __name__ == "__main__":
 
-    result = get_components_from_erp(print, "")
+    result = get_components_from_erp(print)
+    if result[0]:
+        print("Records:", len(result[1]))
+        for record in result[1]:
+            print(record)
+
+    result = get_components_from_erp(print, "1910-%")
     if result[0]:
         print("Records:", len(result[1]))
         for record in result[1]:
