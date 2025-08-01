@@ -13,7 +13,8 @@ class FootprintsChecker:
 
     stdout = print
 
-    SKIP_FIELDS = ("Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab")
+    SKIP_FIELDS = ("Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab",
+                   "Model")
     VALUE_FIELDS = ("Reference", "Value")
     SKIP_FIELDS_VISIBLE = ("Name", "Model")
     MUST_VISIBLE = ("Reference", "Reference_F.Fab")
@@ -91,17 +92,6 @@ class FootprintsChecker:
             if field_name in cls.VALUE_FIELDS:
                 field_checked = True
                 is_empty = value == ""
-            # 3D model depends on the footprint type
-            elif field_name == "Model":
-                field_checked = True
-                is_empty = value == ""
-                # Some footprints must not have a 3D model
-                for query in cls.NO_3D_MODEL:
-                    if ((query.startswith("_") and footprint_data["Name"].endswith(query)) or
-                            footprint_data["Name"].startswith(query)):
-                        is_empty = False
-                        is_not_empty = False
-                        break
             if not field_checked:
                 report_messages.append({
                     "item": footprint_data["Name"],
@@ -188,6 +178,7 @@ class FootprintsChecker:
             attributes["exclude_from_bom"][0] = True
             attributes["dnp"][0] = True
         if footprint_data["Name"].startswith("doc_"):
+            attributes["board_only"][0] = True
             attributes["exclude_from_pos_files"][0] = True
             attributes["exclude_from_bom"][0] = True
             attributes["allow_missing_courtyard"][0] = True
@@ -232,6 +223,9 @@ class FootprintsChecker:
                     footprint_data["Name"].startswith(query)):
                 expect_3d_model = False
                 break
+        # Doc footprints can have model (optional)
+        if footprint_data["Name"].startswith("doc_"):
+            expect_3d_model = footprint_data["Model"] != ""
 
         if expect_3d_model and footprint_data["Model"] == "":
             report_messages.append({
