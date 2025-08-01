@@ -13,6 +13,7 @@ class ErpChecker:
     @staticmethod
     def lib_filter(comp):
         return (
+            comp["Lily_ID"] != "NO_ID" and
             comp["Reference"] != "#PWR" and
             comp["Extends"] != "" and
             comp["Value"] not in ["dnp", "test_point"] and
