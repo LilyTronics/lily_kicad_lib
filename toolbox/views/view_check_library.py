@@ -44,9 +44,13 @@ class ViewCheckLibrary(wx.Panel):
         while item.IsOk():
             if self._tree.GetItemText(item) == name:
                 self._tree.SetItemText(item, 1, f"{len(messages)} messages")
-                for message in messages:
-                    child = self._tree.AppendItem(item, f"{message["item"]}")
-                    self._tree.SetItemText(child, 1, f"{message["message"]}")
+                if len(messages) > 0:
+                    for message in messages:
+                        child = self._tree.AppendItem(item, f"{message["item"]}")
+                        self._tree.SetItemText(child, 1, f"{message["message"]}")
+                    self._tree.Expand(item)
+                else:
+                    self._tree.Collapse(item)
                 break
             item = self._tree.GetNextItem(item)
 
