@@ -94,10 +94,12 @@ class SymbolsChecker:
         caller = f"({cls.__name__}._check_symbol_field_empty)"
         # Skip special symbols
         no_check = (
-            # Cable to PCB connectors (footprint only, no physical component)
+            # Cable to PCB connectors, footprint only, no physical component
             (symbol_data["Name"].startswith("con_") and "cable_to_pcb" in symbol_data["Name"]) or
+            # Programming cable TC2030, footprint only no physical component
+            symbol_data["Name"].startswith("con_TC2030") or
             # Mechanical holes
-            (symbol_data["Name"].startswith("mec_hole_"))
+            symbol_data["Name"].startswith("mec_hole_")
         )
         # Ignore fields that are allowed to be empty or already have been checked
         if field_name not in cls.SKIP_FIELDS and not no_check:
