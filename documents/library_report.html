@@ -75,6 +75,7 @@ const generic_symbols = [
     { Name: "con_2x05", Extends: "", Reference: "X", Value: "con_2x05", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_2x08", Extends: "", Reference: "X", Value: "con_2x08", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_64p_a+c", Extends: "", Reference: "X", Value: "con_64p_a+c", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "con_TC2030-IDC_lock", Extends: "", Reference: "X", Value: "con_TC2030-IDC_lock", Description: "", Datasheet: "", Footprint: "lily_footprints:con_tc2030_idc_lock", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_coax_2_gnd", Extends: "", Reference: "X", Value: "con_coax_2_gnd", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_dc_jack_3p", Extends: "", Reference: "X", Value: "con_dc_jack_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "con_spring_probe", Extends: "", Reference: "X", Value: "con_spring_probe", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -441,6 +442,7 @@ const parts = [
 
 const footprints = [
     { Name: "0_new_footprint", Revision: "1", Model: "" },
+    { Name: "bga324_pitch0.8_15.0x15.0mm", Revision: "1", Model: "../3d_models/bga324_pitch0.8_15.0x15.0mm.step" },
     { Name: "cap_0805", Revision: "1", Model: "../3d_models/cap_0805.step" },
     { Name: "cap_0805_dnp", Revision: "1", Model: "" },
     { Name: "cap_1206", Revision: "1", Model: "../3d_models/cap_1206.step" },
@@ -465,6 +467,7 @@ const footprints = [
     { Name: "con_jst_1x08_ph_2.00mm_straight_smd", Revision: "1", Model: "../3d_models/con_b8b-ph-sm4-tb.step" },
     { Name: "con_socket_1x15_2.54mm_straight_th", Revision: "1", Model: "../3d_models/con_socket_1x15_2.54mm_straight_th.step" },
     { Name: "con_spring_probe_pad_15x2.4mm", Revision: "1", Model: "../3d_models/spring_probe_ptr_1025_bst.step" },
+    { Name: "con_tc2030_idc_lock", Revision: "1", Model: "../3d_models/con_tc2030_idc_lock.step" },
     { Name: "con_terminal_screw_1x04p_3.5mm_th", Revision: "1", Model: "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp" },
     { Name: "con_usb_a_plug_smd", Revision: "1", Model: "../3d_models/con_usb_a_plug_480372100.stp" },
     { Name: "con_usb_b_receptacle_th", Revision: "1", Model: "../3d_models/con_usb_b.step" },
@@ -584,9 +587,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-08-01 15:35</p>
-<p>Total symbols: 378</p>
-<p>Total footprints: 80</p>
+<p>Last updated: 2025-08-04 18:12</p>
+<p>Total symbols: 379</p>
+<p>Total footprints: 82</p>
 </div>
 
 <div class="section">
