@@ -113,6 +113,7 @@ const generic_symbols = [
     { Name: "ic_timer_NE555", Extends: "", Reference: "U", Value: "ic_timer_NE555", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_transceiver_rs485_half_duplex", Extends: "", Reference: "U", Value: "ic_transceiver_rs485_half_duplex", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_usb_hub_4port_TUSB4041_64p", Extends: "", Reference: "U", Value: "ic_usb_hub_4port_TUSB4041_64p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "ic_usb_to_dual_mpuf_FT2232H_64p", Extends: "", Reference: "U", Value: "ic_usb_to_dual_mpuf_FT2232H_64p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_usb_to_serial_FT231", Extends: "", Reference: "U", Value: "ic_usb_to_serial_FT231", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_volt_reference_3p", Extends: "", Reference: "U", Value: "ic_volt_reference_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_volt_reg_linear_adjustable_3p", Extends: "", Reference: "U", Value: "ic_volt_reg_linear_adjustable_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -253,6 +254,7 @@ const parts = [
     { Name: "ic_timer_NE555_soic8", Extends: "ic_timer_NE555", Reference: "U", Value: "NE555", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "IDCHIP", Manufacturer_ID: "NE555", Lily_ID: "1914-10006", JLCPCB_ID: "C5125085", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_transceiver_rs485_half_duplex_SN75176_soic8", Extends: "ic_transceiver_rs485_half_duplex", Reference: "U", Value: "SN75176", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "Texas Instruments", Manufacturer_ID: "SN75176BDR", Lily_ID: "1914-10007", JLCPCB_ID: "C7063", JLCPCB_STATUS: "Extended preferred", Notes: "" },
     { Name: "ic_usb_hub_4port_TUSB4041I_htqfp64", Extends: "ic_usb_hub_4port_TUSB4041_64p", Reference: "U", Value: "TUSB4041I", Description: "", Datasheet: "", Footprint: "lily_footprints:htqfp64_pitch0.5_10x10mm", Revision: "1", Status: "Active", Manufacturer: "Texas Instruments", Manufacturer_ID: "TUSB4041IPAP", Lily_ID: "NO_ID", JLCPCB_ID: "C192089", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "ic_usb_to_dual_mpuf_FT2232H_lqfp64", Extends: "ic_usb_to_dual_mpuf_FT2232H_64p", Reference: "U", Value: "ic_usb_to_dual_mpuf_FT2232H_lqfp64", Description: "", Datasheet: "", Footprint: "lily_footprints:lqfp64_pitch0.5_10x10mm", Revision: "1", Status: "Active", Manufacturer: "FDTI", Manufacturer_ID: "FT2232HL", Lily_ID: "NO_ID", JLCPCB_ID: "C27882", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_usb_to_serial_FT231_ssop20", Extends: "ic_usb_to_serial_FT231", Reference: "U", Value: "FT231", Description: "", Datasheet: "", Footprint: "lily_footprints:ssop20_pitch25_341x154mil", Revision: "1", Status: "Active", Manufacturer: "FTDI", Manufacturer_ID: "FT231XS-R", Lily_ID: "1914-10008", JLCPCB_ID: "C132160", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_volt_reference_RS3112-4.096X_sot23", Extends: "ic_volt_reference_3p", Reference: "U", Value: "RS3112-4.096X", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "Jiangsu RUNIC Tech", Manufacturer_ID: "RS3112-4.096XSF3", Lily_ID: "NO_ID", JLCPCB_ID: "C19269198", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_volt_reg_AP62200_sot23-6", Extends: "ic_volt_reg_switching_6p", Reference: "U", Value: "AP62200", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23-6_sc74", Revision: "1", Status: "Active", Manufacturer: "Diodes Incorporated", Manufacturer_ID: "AP62200WU-7", Lily_ID: "NO_ID", JLCPCB_ID: "C1323282", JLCPCB_STATUS: "Extended", Notes: "" },
@@ -502,6 +504,7 @@ const footprints = [
     { Name: "led_3mm_green_edge_mount", Revision: "1", Model: "../3d_models/led_3mm_green_edge_mount.step" },
     { Name: "led_3mm_red_edge_mount", Revision: "1", Model: "../3d_models/led_3mm_red_edge_mount.step" },
     { Name: "logo_lilytronics", Revision: "1", Model: "" },
+    { Name: "lqfp64_pitch0.5_10x10mm", Revision: "1", Model: "../3d_models/lqfp64_pitch0.5_10x10mm.step" },
     { Name: "mec_hole_2.5mm_spacer_snap_in_4.6_npth", Revision: "1", Model: "" },
     { Name: "mec_hole_lily_system_backplane", Revision: "1", Model: "" },
     { Name: "mec_hole_m3_npth", Revision: "1", Model: "" },
@@ -596,9 +599,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-09-03 08:48</p>
-<p>Total symbols: 385</p>
-<p>Total footprints: 85</p>
+<p>Last updated: 2025-09-03 09:44</p>
+<p>Total symbols: 387</p>
+<p>Total footprints: 86</p>
 </div>
 
 <div class="section">
