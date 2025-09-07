@@ -78,8 +78,8 @@
 		(uuid "114d08b3-b9b2-4432-b9f3-d1064f783234")
 	)
 	(fp_rect
-		(start -1.4 -1.5)
-		(end 1.4 1.5)
+		(start -1.6 -1.7)
+		(end 1.6 1.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,8 +175,8 @@
 		(uuid "7ee6bbd0-f361-4821-b5ed-f5852d8d7ac7")
 	)
 	(pad "9" thru_hole circle
-		(at 0 -0.7)
-		(size 0.4 0.4)
+		(at 0 -0.6)
+		(size 0.6 0.6)
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -185,7 +185,7 @@
 	)
 	(pad "9" thru_hole circle
 		(at 0 0)
-		(size 0.4 0.4)
+		(size 0.6 0.6)
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -201,8 +201,8 @@
 		(uuid "7b8f7c53-923f-42d0-8e21-6c4e849692ac")
 	)
 	(pad "9" thru_hole circle
-		(at 0 0.7)
-		(size 0.4 0.4)
+		(at 0 0.6)
+		(size 0.6 0.6)
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
