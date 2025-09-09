@@ -100,6 +100,7 @@ const generic_symbols = [
     { Name: "ic_dds_AD5932", Extends: "", Reference: "U", Value: "ic_dds_AD5932", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_dds_AD9834", Extends: "", Reference: "U", Value: "ic_dds_AD9834", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_eeprom_serial_6p", Extends: "", Reference: "U", Value: "ic_eeprom_serial_6p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "ic_flash_serial_8p", Extends: "", Reference: "U", Value: "ic_flash_serial_8p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_fpga_XC735T-XCSG325_324p", Extends: "", Reference: "U", Value: "ic_fpga_XC735T-XCSG325_324p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_level_shifter_4_channel_12p", Extends: "", Reference: "U", Value: "ic_level_shifter_4_channel_12p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_logic_4051", Extends: "", Reference: "U", Value: "ic_logic_4051", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -251,6 +252,7 @@ const parts = [
     { Name: "ic_comparator_dual_LM393_soic8", Extends: "ic_comparator_dual", Reference: "U", Value: "LM393", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8", Revision: "1", Status: "Active", Manufacturer: "onsemi", Manufacturer_ID: "LM393DR2G", Lily_ID: "1914-10001", JLCPCB_ID: "C7955", JLCPCB_STATUS: "Basic", Notes: "Extended: C67470, is much cheaper" },
     { Name: "ic_current_sense_high_side_ZXCT1010_sot23-5", Extends: "ic_current_sense_high_side_5p", Reference: "U", Value: "ZXCT1010", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23-5", Revision: "1", Status: "Active", Manufacturer: "Diodes Incorporated", Manufacturer_ID: "ZXCT1010E5TA", Lily_ID: "1914-10002", JLCPCB_ID: "C14151", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_eeprom_93LC56B_sot23-6", Extends: "ic_eeprom_serial_6p", Reference: "U", Value: "93LC56B", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23-6_sc74", Revision: "1", Status: "Active", Manufacturer: "Microchip", Manufacturer_ID: "93LC56BT-I/OT", Lily_ID: "NO_ID", JLCPCB_ID: "C190271", JLCPCB_STATUS: "Extended", Notes: "" },
+    { Name: "ic_flash_serial_MX25L3233F_soic8_5.3x5.3mm", Extends: "ic_flash_serial_8p", Reference: "U", Value: "MX25L3233F", Description: "", Datasheet: "", Footprint: "lily_footprints:soic8_5.3x5.3mm", Revision: "1", Status: "Active", Manufacturer: "Macronix", Manufacturer_ID: "MX25L3233FM2I-08G", Lily_ID: "NO_ID", JLCPCB_ID: "C190802", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_fpga_XC735T-XCSG325_CSG324", Extends: "ic_fpga_XC735T-XCSG325_324p", Reference: "U", Value: "XC735T-XCSG325", Description: "", Datasheet: "", Footprint: "lily_footprints:bga324_pitch0.8_15.0x15.0mm", Revision: "1", Status: "Active", Manufacturer: "AMD / Xilinx", Manufacturer_ID: "XC7A35T-2CSG325C", Lily_ID: "NO_ID", JLCPCB_ID: "C1521720", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_level_shifter_TXB0104_uqfn12", Extends: "ic_level_shifter_4_channel_12p", Reference: "U", Value: "TXB0104", Description: "", Datasheet: "", Footprint: "lily_footprints:uqfn12_pitch0.4_1.7x2.0mm", Revision: "1", Status: "Active", Manufacturer: "Texas Instruments", Manufacturer_ID: "TXB0104RUT", Lily_ID: "NO_ID", JLCPCB_ID: "C105266", JLCPCB_STATUS: "Extended", Notes: "" },
     { Name: "ic_micro_controller_ATMEGA168PB_tqfp32", Extends: "ic_micro_controller_ATMEGA168PB_32p", Reference: "U", Value: "ATMEGA168PB", Description: "", Datasheet: "", Footprint: "lily_footprints:tqfp32_pitch0.8_7x7mm", Revision: "1", Status: "Active", Manufacturer: "Microchip", Manufacturer_ID: "ATMEGA168PB-AU", Lily_ID: "1914-10003", JLCPCB_ID: "C194438", JLCPCB_STATUS: "Extended", Notes: "" },
@@ -528,6 +530,7 @@ const footprints = [
     { Name: "res_2512", Revision: "1", Model: "../3d_models/res_2512.step" },
     { Name: "soic14", Revision: "1", Model: "../3d_models/soic14.step" },
     { Name: "soic8", Revision: "1", Model: "../3d_models/soic8.step" },
+    { Name: "soic8_5.3x5.3mm", Revision: "1", Model: "../3d_models/soic8_5.3x5.3mm.step" },
     { Name: "sot1220_dnf2020md-6_type_e", Revision: "1", Model: "../3d_models/sot1220.step" },
     { Name: "sot223", Revision: "1", Model: "../3d_models/sot223.step" },
     { Name: "sot23", Revision: "1", Model: "../3d_models/sot23.step" },
@@ -609,9 +612,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-09-07 19:32</p>
-<p>Total symbols: 395</p>
-<p>Total footprints: 88</p>
+<p>Last updated: 2025-09-09 19:48</p>
+<p>Total symbols: 397</p>
+<p>Total footprints: 89</p>
 </div>
 
 <div class="section">
