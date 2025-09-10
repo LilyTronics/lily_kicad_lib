@@ -5895,6 +5895,12 @@
 		(uuid "353eb667-68a7-41fa-8f00-e797e918ed0e")
 	)
 	(junction
+		(at 259.08 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36674562-434a-47f9-ab16-f671dcc2f4a9")
+	)
+	(junction
 		(at 203.2 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5979,6 +5985,12 @@
 		(uuid "93c6e790-f0ad-4218-8884-8cb7982d0cd0")
 	)
 	(junction
+		(at 246.38 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3670450-8da0-4df4-aa9e-b951a7bc8b0f")
+	)
+	(junction
 		(at 96.52 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5989,6 +6001,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b57c2d2e-d503-407a-974d-943f1a72c406")
+	)
+	(junction
+		(at 246.38 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5bcc42d-886b-489d-b19e-31e155267280")
 	)
 	(junction
 		(at 116.84 60.96)
@@ -6037,12 +6055,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd4f8fb9-3812-4620-8d47-56f6088699dc")
-	)
-	(junction
-		(at 246.38 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de17d342-4a69-4258-9e30-60edc2231199")
 	)
 	(junction
 		(at 210.82 109.22)
@@ -6235,6 +6247,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 45.72) (xy 266.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16386c5f-0fad-44f2-92ed-13fcc2ccf5dc")
+	)
+	(wire
+		(pts
 			(xy 96.52 30.48) (xy 96.52 33.02)
 		)
 		(stroke
@@ -6273,16 +6295,6 @@
 			(color 132 132 132 1)
 		)
 		(uuid "18bfeeaf-adfd-4511-9040-80d9e19539e4")
-	)
-	(wire
-		(pts
-			(xy 246.38 55.88) (xy 254 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a827699-2e57-42c5-ad44-6e8ead7201ab")
 	)
 	(wire
 		(pts
@@ -6406,7 +6418,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 55.88) (xy 220.98 55.88)
+			(xy 218.44 55.88) (xy 231.14 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6617,16 +6629,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 45.72) (xy 254 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4943b0ec-2381-463c-ac4f-ac840d27042b")
-	)
-	(wire
-		(pts
 			(xy 190.5 134.62) (xy 198.12 134.62)
 		)
 		(stroke
@@ -6694,6 +6696,16 @@
 			(type default)
 		)
 		(uuid "50cb684b-9a45-484e-b92f-3a8f484e9e4c")
+	)
+	(wire
+		(pts
+			(xy 259.08 35.56) (xy 259.08 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521b97e1-72fd-4fcf-96f6-528412554d00")
 	)
 	(wire
 		(pts
@@ -6895,16 +6907,6 @@
 			(type default)
 		)
 		(uuid "71b05b58-6e55-4201-8ef2-b6e914135c82")
-	)
-	(wire
-		(pts
-			(xy 228.6 55.88) (xy 231.14 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7268522a-18b9-4453-a6d5-e7045a5cc679")
 	)
 	(wire
 		(pts
@@ -7128,6 +7130,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 30.48) (xy 246.38 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a0e598-ad06-4d00-94f4-c3d01c46fbca")
+	)
+	(wire
+		(pts
 			(xy 116.84 60.96) (xy 119.38 60.96)
 		)
 		(stroke
@@ -7309,6 +7321,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 43.18) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5449a02-480e-4f2d-a222-a3b6b08fef9e")
+	)
+	(wire
+		(pts
 			(xy 190.5 127) (xy 198.12 127)
 		)
 		(stroke
@@ -7336,16 +7358,6 @@
 			(type default)
 		)
 		(uuid "b63f003b-f917-4b42-889c-b0ab76fe5a1e")
-	)
-	(wire
-		(pts
-			(xy 231.14 48.26) (xy 254 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6bbde85-adcf-49a1-abd7-2bb84555a2dc")
 	)
 	(wire
 		(pts
@@ -7496,6 +7508,16 @@
 			(type default)
 		)
 		(uuid "c5cb57fb-e312-42d1-b65e-a67a6c1412d5")
+	)
+	(wire
+		(pts
+			(xy 259.08 55.88) (xy 266.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd163da3-3747-471a-ab6b-880cb16364cf")
 	)
 	(wire
 		(pts
@@ -7689,6 +7711,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 55.88) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0c4d4b-e08f-494c-9b68-847d26597c11")
+	)
+	(wire
+		(pts
+			(xy 246.38 55.88) (xy 248.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1e9f7c-d88c-4a31-8374-f709a8923ffb")
+	)
+	(wire
+		(pts
 			(xy 43.18 124.46) (xy 48.26 124.46)
 		)
 		(stroke
@@ -7756,6 +7798,16 @@
 			(type default)
 		)
 		(uuid "fad371a4-9088-4af3-9727-c92c73778a9e")
+	)
+	(wire
+		(pts
+			(xy 231.14 48.26) (xy 266.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3f3cc9-42c8-444b-b117-f3bbbec06a53")
 	)
 	(global_label "AVCC"
 		(shape output)
@@ -7957,7 +8009,7 @@
 	)
 	(global_label "D1{slash}TX"
 		(shape input)
-		(at 254 48.26 0)
+		(at 266.7 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7967,7 +8019,7 @@
 		)
 		(uuid "3aa24661-90ca-4c92-9587-c0efb4b21737")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.9723 48.26 0)
+			(at 275.6723 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8185,7 @@
 	)
 	(global_label "D0{slash}RX"
 		(shape output)
-		(at 254 45.72 0)
+		(at 266.7 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8143,7 +8195,7 @@
 		)
 		(uuid "7c839c33-26e0-4135-8600-93611666ad03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2747 45.72 0)
+			(at 275.9747 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8229,7 @@
 	)
 	(global_label "RST"
 		(shape output)
-		(at 254 55.88 0)
+		(at 266.7 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8187,7 +8239,7 @@
 		)
 		(uuid "8db5db30-6355-4845-b715-147bed1aed00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.4323 55.88 0)
+			(at 273.1323 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11489,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_100n_50V_10%_X7R_0805")
-		(at 228.6 55.88 270)
+		(at 256.54 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11445,7 +11497,7 @@
 		(dnp no)
 		(uuid "47c24d4b-bb88-4f02-b6a1-51764aebea78")
 		(property "Reference" "C7"
-			(at 222.25 59.69 90)
+			(at 250.19 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +11506,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 222.25 62.23 90)
+			(at 250.19 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11463,7 +11515,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 213.36 55.88 0)
+			(at 241.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11472,7 +11524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 55.88 0)
+			(at 252.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,7 +11533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 55.88 0)
+			(at 256.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,7 +11542,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 218.44 55.88 0)
+			(at 246.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11551,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 215.9 55.88 0)
+			(at 243.84 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,7 +11560,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 210.82 55.88 0)
+			(at 238.76 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +11569,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
-			(at 208.28 55.88 0)
+			(at 236.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11526,7 +11578,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 205.74 55.88 0)
+			(at 233.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +11587,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C49678"
-			(at 203.2 55.88 0)
+			(at 231.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11596,7 @@
 			)
 		)
 		(property "JLCPCB_STATUS" "Basic"
-			(at 200.66 55.88 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,6 +15553,138 @@
 			(project "arduino_base"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:res_4k7_1%_125mW_0805")
+		(at 259.08 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e528dcb6-01a8-4f55-9f0b-192263353b2d")
+		(property "Reference" "R15"
+			(at 260.985 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 260.985 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:res_0805"
+			(at 259.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Electronics"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "0805W8F4701T5E"
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 259.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C17673"
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_STATUS" "Basic"
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34c36ce7-3bd8-46d7-a596-e79a2ecc14ee")
+		)
+		(pin "2"
+			(uuid "53b588fb-7789-4313-8610-265105fad3b5")
+		)
+		(instances
+			(project "arduino_base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R15")
 					(unit 1)
 				)
 			)
