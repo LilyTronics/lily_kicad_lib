@@ -4,22 +4,22 @@ Generate product ID controller.
 
 import wx
 
+from toolbox.controllers.controller_base import ControllerBase
 from toolbox.models.erp_connect import get_components_from_erp
 from toolbox.models.id_manager import IdManager
 from toolbox.models.product_categories import ProductCategories
 from toolbox.views.view_generate_product_id import ViewGenerateProductId
 
 
-class ControllerGenerateProductId:
+class ControllerGenerateProductId(ControllerBase):
 
     name = "Generate product ID"
 
     def __init__(self, main_view, notebook):
-        self._main_view = main_view
-        self._view = ViewGenerateProductId(notebook)
-        self._view.Bind(wx.EVT_BUTTON, self._on_reload_click, id=IdManager.ID_BTN_RELOAD)
-        self._view.Bind(wx.EVT_CHOICE, self._on_category_select, id=IdManager.ID_CMB_CATEGORIES)
-        self._view.Bind(wx.EVT_BUTTON, self._on_generate_click, id=IdManager.ID_BTN_GENERATE)
+        super().__init__(main_view, ViewGenerateProductId(notebook))
+        self.bind(wx.EVT_BUTTON, self._on_reload_click, IdManager.ID_BTN_RELOAD)
+        self.bind(wx.EVT_CHOICE, self._on_category_select, IdManager.ID_CMB_CATEGORIES)
+        self.bind(wx.EVT_BUTTON, self._on_generate_click, IdManager.ID_BTN_GENERATE)
         self._load_categories()
 
     ###########
@@ -83,13 +83,6 @@ class ControllerGenerateProductId:
             dlg = wx.MessageDialog(self._view, error, "Generate product ID", style=wx.OK | wx.ICON_EXCLAMATION)
             dlg.ShowModal()
             dlg.Destroy()
-
-    ##########
-    # Public #
-    ##########
-
-    def get_view(self):
-        return self._view
 
 
 if __name__ == "__main__":

@@ -4,6 +4,7 @@ Check library controller.
 
 import wx
 
+from toolbox.controllers.controller_base import ControllerBase
 from toolbox.models.id_manager import IdManager
 from toolbox.models.erp_checker import ErpChecker
 from toolbox.models.footprints_checker import FootprintsChecker
@@ -12,7 +13,7 @@ from toolbox.models.symbols_checker import SymbolsChecker
 from toolbox.views.view_check_library import ViewCheckLibrary
 
 
-class ControllerCheckLibrary:
+class ControllerCheckLibrary(ControllerBase):
 
     name = "Check Libraries"
 
@@ -24,10 +25,9 @@ class ControllerCheckLibrary:
     }
 
     def __init__(self, main_view, notebook):
-        self._main_view = main_view
-        self._view = ViewCheckLibrary(notebook)
+        super().__init__(main_view, ViewCheckLibrary(notebook))
         self._view.initialize_tree(list(self._checkers.keys()))
-        self._view.Bind(wx.EVT_BUTTON, self._on_check_click, id=IdManager.ID_BTN_CHECK)
+        self.bind(wx.EVT_BUTTON, self._on_check_click, IdManager.ID_BTN_CHECK)
 
     ###########
     # Private #
@@ -48,13 +48,6 @@ class ControllerCheckLibrary:
         self._main_view.clear_console()
         for checker in self._checkers:
             wx.CallAfter(self._run_checker, checker)
-
-    ##########
-    # Public #
-    ##########
-
-    def get_view(self):
-        return self._view
 
 
 if __name__ == "__main__":
