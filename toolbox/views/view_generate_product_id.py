@@ -65,10 +65,6 @@ class ViewGenerateProductId(wx.Panel):
 
         return grid
 
-    ###########
-    # Private #
-    ###########
-
     def _restore_controls(self):
         self._lbl_series.Disable()
         self._cmb_series.Disable()
