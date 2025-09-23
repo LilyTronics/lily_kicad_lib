@@ -1,0 +1,137 @@
+(footprint "doc_logo_lilytronics"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.000002 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ef1012a9-1643-4851-8470-e99c4c7031ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "doc_logo_lilytronics"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c79aca49-0ebc-4e68-bab6-fdeda040eedd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e505dcf5-61fd-4e34-9ed6-1cb8f495d138")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5095f8e8-d0d0-4c18-8cf0-b392fc62300d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Revision" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ad3686f-3993-4f80-bdcc-c21d6cbcd6bd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_arc
+		(start -1.999999 -2.000001)
+		(mid -0.585785 -1.414215)
+		(end 0.000001 -0.000001)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c07aea70-6106-44bf-96ff-8e775e4243b1")
+	)
+	(fp_arc
+		(start 0 0)
+		(mid 0.585786 -1.414213)
+		(end 2 -2)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c68a205-d096-4ecd-bb23-f3fb8e7672b0")
+	)
+	(fp_arc
+		(start 0.000001 -2.999999)
+		(mid 0.621321 -1.5)
+		(end 0.000001 -0.000001)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6613902d-850f-4102-9d7b-cc5a5ef20ea0")
+	)
+	(fp_arc
+		(start 0.000001 -0.000001)
+		(mid -0.621319 -1.5)
+		(end 0.000001 -2.999999)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13820d10-f06c-4f71-abc7-86bb64e5d84f")
+	)
+	(fp_arc
+		(start 2 -2)
+		(mid 0 0)
+		(end -2 -2)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bc96957-08b6-4e9b-ab47-1729a5f17583")
+	)
+	(fp_text user "LilyTronics"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(uuid "380b6ed7-828c-410b-a6bd-519e55c4beff")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
