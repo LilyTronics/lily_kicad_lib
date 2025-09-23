@@ -284,38 +284,6 @@
 		(solder_mask_margin 0.1)
 		(uuid "fc4c95ed-4c57-4334-9ec9-106ec6a95cd2")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu" "In1.Cu")
-		(uuid "e6ce36b1-03ca-43bf-8c65-7afcace35213")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -1.4 -1.4) (xy 11.9 -1.4) (xy 11.9 1.4) (xy -1.4 1.4)
-			)
-		)
-	)
 	(embedded_fonts no)
 	(model "../3d_models/con_terminal_screw_1x04p_3.5mm_th.stp"
 		(offset

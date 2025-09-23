@@ -66,17 +66,6 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files)
-	(fp_circle
-		(center -1.4732 1.4732)
-		(end -1.3732 1.4732)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "f1f92fa1-9718-497d-9d24-658ca9b4b098")
-	)
 	(fp_line
 		(start -1.27 -1.27)
 		(end -1.27 1.27)
@@ -355,43 +344,6 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
 		(uuid "067a8447-08df-4670-99de-420fe4dc66aa")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(uuid "940a307c-7a6d-4628-a63f-159d9066b1a7")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -1.1 -1.1) (xy 6.18 -1.1) (xy 6.18 1.1) (xy -1.1 1.1)
-			)
-		)
 	)
 	(embedded_fonts no)
 	(model "../3d_models/con_header_1x03_2.54mm_th.step"

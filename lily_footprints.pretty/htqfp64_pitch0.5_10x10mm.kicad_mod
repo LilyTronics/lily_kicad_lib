@@ -66,17 +66,6 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -5.5 -4.4)
-		(end -5.4 -4.4)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "ef82987f-02df-4dc4-a0f2-3ae7af8ad887")
-	)
 	(fp_rect
 		(start -6.7 -6.7)
 		(end 6.7 6.7)
@@ -2914,7 +2903,7 @@
 		(at 0 0)
 		(size 8 8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin -1.85)
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -2)
 		(uuid "2cacfe70-c9f3-4c16-b39b-ae3db2df33e9")
 	)

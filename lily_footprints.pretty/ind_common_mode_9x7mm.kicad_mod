@@ -1,7 +1,7 @@
 (footprint "ind_common_mode_9x7mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9d770010-138c-467a-ad21-d24a916e0f7e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -85,7 +75,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1c6ad0d5-8b92-4522-989f-e29130ea69dd")
 	)
@@ -96,7 +86,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "519539fc-1275-4b28-b847-735bc14647f1")
 	)
@@ -116,35 +106,36 @@
 	(pad "1" smd rect
 		(at -4 -1.75)
 		(size 2.5 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.1)
 		(uuid "4ca90aa8-efd5-4fd7-ab31-e92928cb4f6e")
 	)
 	(pad "2" smd rect
 		(at -4 1.75)
 		(size 2.5 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.1)
 		(uuid "ae24d547-e406-4079-b890-66acabe36dc1")
 	)
 	(pad "3" smd rect
 		(at 4 1.75)
 		(size 2.5 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.1)
 		(uuid "337d96ea-470a-4ba0-9922-03c402b43480")
 	)
 	(pad "4" smd rect
 		(at 4 -1.75)
 		(size 2.5 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.1)
 		(uuid "331bdd48-61e3-4c86-a9ef-2dd1398675e0")
 	)
+	(embedded_fonts no)
 	(model "../3d_models/ind_acm90v.step"
 		(offset
 			(xyz 0 0 0)

@@ -66,16 +66,27 @@
 		)
 	)
 	(attr smd allow_soldermask_bridges)
-	(fp_circle
-		(center -1.8 1.1)
-		(end -1.7 1.1)
+	(fp_rect
+		(start -1.4 -1.85)
+		(end 1.4 -0.65)
 		(stroke
-			(width 0.2)
+			(width 0)
 			(type solid)
 		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "52ee3961-c220-4af1-b278-2d5f6f77cefb")
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "4f0c42dd-56ee-4341-834c-0a1f5856900d")
+	)
+	(fp_rect
+		(start -1.4 0.65)
+		(end 1.4 1.85)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "f6a02822-3802-4eba-9e21-750e0ed67ac1")
 	)
 	(fp_line
 		(start -1.7 -1.95)
@@ -362,7 +373,7 @@
 	(pad "1" smd rect
 		(at -0.95 1.25)
 		(size 0.7 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(solder_mask_margin 0.13)
 		(solder_paste_margin -0.05)
 		(uuid "afb108d6-80a6-47c8-a391-b708a97ac1c1")
@@ -370,7 +381,7 @@
 	(pad "2" smd rect
 		(at 0 1.25)
 		(size 0.7 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(solder_mask_margin 0.13)
 		(solder_paste_margin -0.05)
 		(uuid "322f1cc8-4c02-4383-a052-42ffb4923626")
@@ -378,7 +389,7 @@
 	(pad "3" smd rect
 		(at 0.95 1.25)
 		(size 0.7 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(solder_mask_margin 0.13)
 		(solder_paste_margin -0.05)
 		(uuid "e5d0ba27-575a-446c-963d-3052f5bb6977")
@@ -386,7 +397,7 @@
 	(pad "4" smd rect
 		(at 0.95 -1.25)
 		(size 0.7 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(solder_mask_margin 0.13)
 		(solder_paste_margin -0.05)
 		(uuid "78a7d9bb-1ca6-477b-9c65-1164f1238b06")
@@ -394,7 +405,7 @@
 	(pad "5" smd rect
 		(at 0 -1.25)
 		(size 0.7 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(solder_mask_margin 0.13)
 		(solder_paste_margin -0.05)
 		(uuid "4141ce3c-f219-4866-a427-8b695f668513")
@@ -402,7 +413,7 @@
 	(pad "6" smd rect
 		(at -0.95 -1.25)
 		(size 0.7 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste")
 		(solder_mask_margin 0.13)
 		(solder_paste_margin -0.05)
 		(uuid "e2536a95-5a7a-45c4-bd52-fa5020f3930d")

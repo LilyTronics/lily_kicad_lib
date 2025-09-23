@@ -66,17 +66,6 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -1.8 0)
-		(end -1.7 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "ec63287c-65e8-4aaa-b188-589fc684dced")
-	)
 	(fp_line
 		(start -1.6 -0.85)
 		(end 1.6 -0.85)
@@ -232,7 +221,7 @@
 		(at -0.95 0)
 		(size 0.9 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "5816c565-f345-4a7a-8396-14b2982819c2")
 	)
@@ -240,41 +229,9 @@
 		(at 0.95 0)
 		(size 0.9 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "c5e9c0c8-9d22-49e7-8f14-c8af8f2d914c")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "ff54b9f2-bed9-4003-b642-f88bc51d2e0b")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -0.5 -0.85) (xy 0.5 -0.85) (xy 0.5 0.85) (xy -0.5 0.85)
-			)
-		)
 	)
 	(embedded_fonts no)
 	(model "../3d_models/led_0805.step"

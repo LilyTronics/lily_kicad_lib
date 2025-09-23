@@ -1,7 +1,7 @@
 (footprint "crystal_hc49s"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 2.4 0 0)
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a0811690-e6c7-46c5-b237-6e3166c0eb4d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -78,17 +68,6 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files)
-	(fp_circle
-		(center -2.1 1.7)
-		(end -2 1.7)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "7db3f4d3-ccdb-4ce1-9e11-391022530176")
-	)
 	(fp_rect
 		(start -3.44 -2.7)
 		(end 8.36 2.7)
@@ -96,7 +75,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "892a4029-5936-4393-b8ec-1a4a75c379a8")
 	)
@@ -160,6 +139,7 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
 		(uuid "6d71b3f2-2f75-4ca7-a639-f45ad8ef37a3")
 	)
 	(pad "2" thru_hole circle
@@ -168,8 +148,10 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
 		(uuid "f1e875dc-41e0-4b84-857c-f1cb6b4c82a0")
 	)
+	(embedded_fonts no)
 	(model "../3d_models/crystal_hc49s.step"
 		(offset
 			(xyz 0 0 0)

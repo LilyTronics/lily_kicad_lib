@@ -66,17 +66,6 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -7.9 -6.8)
-		(end -7.8 -6.8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "114d08b3-b9b2-4432-b9f3-d1064f783234")
-	)
 	(fp_rect
 		(start -7.7 -7.7)
 		(end 7.7 7.7)
@@ -2701,6 +2690,38 @@
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.02)
 		(uuid "5816c565-f345-4a7a-8396-14b2982819c2")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "5c7a058b-fb3f-4a0e-b1d1-976e3cd967cf")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7.1 -7.1) (xy 7.1 -7.1) (xy 7.1 7.1) (xy -7.1 7.1)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "../3d_models/bga324_pitch0.8_15.0x15.0mm.step"

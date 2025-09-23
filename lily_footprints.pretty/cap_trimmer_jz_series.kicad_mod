@@ -256,7 +256,7 @@
 		(at -2 0)
 		(size 1.2 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.1)
 		(uuid "5816c565-f345-4a7a-8396-14b2982819c2")
 	)
@@ -264,41 +264,9 @@
 		(at 2 0)
 		(size 1.2 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.1)
 		(uuid "c5e9c0c8-9d22-49e7-8f14-c8af8f2d914c")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "1b420295-05a2-467e-b895-6dd42c9787ef")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -2.8 -0.9) (xy 2.8 -0.9) (xy 2.8 0.9) (xy -2.8 0.9)
-			)
-		)
 	)
 	(embedded_fonts no)
 	(model "../3d_models/cap_trimmer_jz_series.step"

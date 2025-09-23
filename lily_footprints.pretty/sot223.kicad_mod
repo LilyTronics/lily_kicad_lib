@@ -1,7 +1,7 @@
 (footprint "sot223"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "da5d38ef-a575-4510-b022-fb8042625dba")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -76,17 +66,6 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -3.55 2.05)
-		(end -3.45 2.05)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "96ea6be7-a60b-4a12-97ee-e1f0df62c188")
-	)
 	(fp_line
 		(start -3.5 -4.55)
 		(end 3.5 -4.55)
@@ -294,7 +273,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ca9242d5-aadb-4be8-a7cf-205d4cfee81e")
 	)
@@ -312,35 +291,36 @@
 	(pad "1" smd rect
 		(at -2.3 3.15)
 		(size 1.4 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "ccbdb085-6539-423c-9636-38d549017304")
 	)
 	(pad "2" smd rect
 		(at 0 -3.15)
 		(size 4 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "2e6370b2-9310-4f01-9b53-aaafa276fa47")
 	)
 	(pad "2" smd rect
 		(at 0 3.15)
 		(size 1.4 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "1dc3e3fc-2197-4592-99b1-bfe3d5b02678")
 	)
 	(pad "3" smd rect
 		(at 2.3 3.15)
 		(size 1.4 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "45198f37-f0f7-48d8-92ce-7085142c8563")
 	)
+	(embedded_fonts no)
 	(model "../3d_models/sot223.step"
 		(offset
 			(xyz 0 0 0)

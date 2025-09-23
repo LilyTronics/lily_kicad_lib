@@ -66,17 +66,6 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files)
-	(fp_circle
-		(center -1.2 1.2)
-		(end -1.1 1.2)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "a03023d9-b571-4254-8975-2d7e283f78ff")
-	)
 	(fp_line
 		(start -1.27 -1.27)
 		(end -1.27 1.27)
@@ -764,6 +753,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "58e715ff-f409-41e0-8e39-8819609d5f3e")
 	)
 	(pad "3" thru_hole circle
@@ -773,6 +763,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "80743d75-40d5-4e8e-af65-17bbd541149c")
 	)
 	(pad "4" thru_hole circle
@@ -782,6 +773,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "361d3933-62fa-489a-a959-a15d866a5150")
 	)
 	(pad "5" thru_hole circle
@@ -791,6 +783,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "3b2cdb2b-291c-4e99-89da-2ef8ed5cee43")
 	)
 	(pad "6" thru_hole circle
@@ -800,6 +793,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "d8349527-6991-471a-9add-3247cea72907")
 	)
 	(pad "7" thru_hole circle
@@ -809,6 +803,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "16d70fcc-d105-42a0-addb-456ab22c449d")
 	)
 	(pad "8" thru_hole circle
@@ -818,6 +813,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "615b533c-4c11-453f-b0e5-1b4c19824c00")
 	)
 	(pad "9" thru_hole circle
@@ -827,6 +823,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "7d4283a0-f144-42cb-9238-ee1b41b0cd54")
 	)
 	(pad "10" thru_hole circle
@@ -836,44 +833,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "138b8962-568b-4ba2-a7a2-2691da266ba5")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(uuid "ded8a3b7-e602-4f3d-b68c-b69b656bf703")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -1.1 -1.1) (xy 23.96 -1.1) (xy 23.96 1.1) (xy -1.1 1.1)
-			)
-		)
 	)
 	(embedded_fonts no)
 	(model "../3d_models/con_header_1x10_2.54mm_th.step"
