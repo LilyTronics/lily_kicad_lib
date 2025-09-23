@@ -94,6 +94,7 @@ const generic_symbols = [
     { Name: "dio_tvs_uni_2_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_2_channel", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "dio_tvs_uni_4_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_4_channel", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "dio_zener", Extends: "", Reference: "D", Value: "dio_zener", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
+    { Name: "doc_logo_lilytronics", Extends: "", Reference: "DOC", Value: "doc_logo_lilytronics", Description: "", Datasheet: "", Footprint: "lily_footprints:doc_logo_lilytronics", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_comparator_dual", Extends: "", Reference: "U", Value: "ic_comparator_dual", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_current_limit_single_high_side_6p", Extends: "", Reference: "U", Value: "ic_current_limit_single_high_side_6p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ic_current_sense_high_side_5p", Extends: "", Reference: "U", Value: "ic_current_sense_high_side_5p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -127,7 +128,6 @@ const generic_symbols = [
     { Name: "ind", Extends: "", Reference: "L", Value: "ind", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_bead", Extends: "", Reference: "L", Value: "ind_bead", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "ind_common_mode", Extends: "", Reference: "L", Value: "ind_common_mode", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
-    { Name: "logo_lilytronics", Extends: "", Reference: "DOC", Value: "logo_lilytronics", Description: "", Datasheet: "", Footprint: "lily_footprints:logo_lilytronics", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mec_hole_npth", Extends: "", Reference: "M", Value: "mec_hole_npth", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mec_hole_pth", Extends: "", Reference: "M", Value: "mec_hole_pth", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
     { Name: "mosfet_n_3p", Extends: "", Reference: "Q", Value: "mosfet_n_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", JLCPCB_STATUS: "", Notes: "" },
@@ -508,6 +508,7 @@ const footprints = [
     { Name: "dip20_7.62mm", Revision: "1", Model: "../3d_models/dip20_7.62mm.step" },
     { Name: "doc_breadboard_830", Revision: "1", Model: "../3d_models/breadboard_830.step" },
     { Name: "doc_idc_area_2x03_2.54mm", Revision: "1", Model: "" },
+    { Name: "doc_logo_lilytronics", Revision: "1", Model: "" },
     { Name: "doc_module_arduino_nano_every", Revision: "1", Model: "../3d_models/arduino_nano_every.step" },
     { Name: "fiducial_1mm_mask_2mm", Revision: "1", Model: "" },
     { Name: "hsoic8", Revision: "1", Model: "../3d_models/hsoic8.step" },
@@ -520,7 +521,6 @@ const footprints = [
     { Name: "led_0805", Revision: "1", Model: "../3d_models/led_0805.step" },
     { Name: "led_3mm_green_edge_mount", Revision: "1", Model: "../3d_models/led_3mm_green_edge_mount.step" },
     { Name: "led_3mm_red_edge_mount", Revision: "1", Model: "../3d_models/led_3mm_red_edge_mount.step" },
-    { Name: "logo_lilytronics", Revision: "1", Model: "" },
     { Name: "lqfp64_pitch0.5_10x10mm", Revision: "1", Model: "../3d_models/lqfp64_pitch0.5_10x10mm.step" },
     { Name: "mec_hole_2.5mm_spacer_snap_in_4.6_npth", Revision: "1", Model: "" },
     { Name: "mec_hole_lily_system_backplane", Revision: "1", Model: "" },
@@ -619,7 +619,7 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-09-18 18:47</p>
+<p>Last updated: 2025-09-23 18:59</p>
 <p>Total symbols: 403</p>
 <p>Total footprints: 90</p>
 </div>
