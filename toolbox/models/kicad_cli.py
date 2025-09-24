@@ -51,7 +51,7 @@ class KiCadCli:
         if option == "lily_erp":
             cmd.extend(["--fields", "Lily_ID,${QUANTITY},Reference"])
             cmd.extend(["--group-by", "Lily_ID"])
-        elif option == "jlc":
+        elif option == "jlcpcb":
             cmd.extend(["--fields", "Reference,Value,Footprint,${QUANTITY},JLCPCB_ID"])
             cmd.extend(["--group-by", "JLCPCB_ID"])
         else:
