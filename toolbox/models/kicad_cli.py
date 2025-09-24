@@ -62,7 +62,7 @@ class KiCadCli:
         cmd.append(input_file)
         return self._run_command(cmd)
 
-    def generate_gerbers(self, input_file, output_folder, n_layers=2):
+    def generate_gerbers(self, input_file, output_folder, zip_filename, n_layers=2):
         # Generate gerbers
         cmd = ["pcb", "export", "gerbers"]
         cmd.extend(["--output", output_folder])
@@ -83,8 +83,6 @@ class KiCadCli:
         cmd.append(input_file)
         result += "\n" + self._run_command(cmd)
         # Generate ZIP file
-        zip_filename = str(os.path.join(os.path.dirname(output_folder),
-                                        os.path.basename(input_file)).replace(".kicad_pcb", "_gerbers.zip"))
         with zipfile.ZipFile(zip_filename, "w", compression=zipfile.ZIP_DEFLATED) as fp:
             for item in os.listdir(output_folder):
                 fp.write(os.path.join(output_folder, item), item)
@@ -102,20 +100,22 @@ class KiCadCli:
         cmd.append(input_file)
         return self._run_command(cmd)
 
-    def generate_pcb_pdf(self, input_file, output_folder, bottom=False):
-        common = ["--include-border-title", "--crossout-DNP-footprints-on-fab-layers", "--drill-shape-opt", "0"]
-        filename = os.path.basename(input_file).replace(".kicad_pcb", "_pcb")
+    def generate_pcb_pdf(self, input_file, output_file, bottom=False):
+        common = ["--include-border-title", "--crossout-DNP-footprints-on-fab-layers",
+                  "--drill-shape-opt", "0", "--mode-single"]
         # Generate top placement
+        output_file = output_file.replace(".pdf", "_top.pdf")
         cmd = ["pcb", "export", "pdf"]
-        cmd.extend(["--output", os.path.join(output_folder, f"{filename}_top.pdf")])
+        cmd.extend(["--output", output_file])
         cmd.extend(["--layers", "Edge.Cuts,F.Fab,F.Silkscreen"])
         cmd.extend(common)
         cmd.append(input_file)
         result = self._run_command(cmd)
         if bottom:
             # Generate bottom
+            output_file = output_file.replace("_top.pdf", "_bot.pdf")
             cmd = ["pcb", "export", "pdf"]
-            cmd.extend(["--output", os.path.join(output_folder, f"{filename}_bot.pdf")])
+            cmd.extend(["--output", output_file])
             cmd.extend(["--layers", "Edge.Cuts,B.Fab,B.Silkscreen"])
             cmd.extend(common)
             cmd.append("--mirror")
@@ -177,11 +177,12 @@ if __name__ == "__main__":
     print(cli.generate_bill_of_materials(sch_path, os.path.join(output_path, "bom_jlc.csv"), "jlc"))
 
     print("\nPCB to Gerbers")
-    print(cli.generate_gerbers(pcb_path, os.path.join(output_path, "gerbers")))
+    zip_fname = os.path.join(output_path, os.path.basename(pcb_path).replace(".kicad_pcb", "_gerbers.zip"))
+    print(cli.generate_gerbers(pcb_path, os.path.join(output_path, "gerbers"), zip_fname))
     print("\nPCB to position file")
     print(cli.generate_position_file(pcb_path, os.path.join(output_path, "position.csv")))
     print("\nPCB to PDF")
-    print(cli.generate_pcb_pdf(pcb_path, output_path))
+    print(cli.generate_pcb_pdf(pcb_path, os.path.join(output_path, "pcb_placement.pdf"), True))
     print("\nPCB to ODB+")
     print(cli.generate_odb(pcb_path, os.path.join(output_path, "odb.zip")))
     print("\nPCB to step")

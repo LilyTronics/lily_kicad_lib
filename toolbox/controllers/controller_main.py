@@ -5,12 +5,13 @@ Main controller
 from toolbox.app_data import AppData
 from toolbox.controllers.controller_check_library import ControllerCheckLibrary
 from toolbox.controllers.controller_generate_product_id import ControllerGenerateProductId
+from toolbox.controllers.controller_process_design import ControllerProcessDesign
 from toolbox.views.view_main import ViewMain
 
 
 class ControllerMain:
 
-    _controllers = [ControllerCheckLibrary, ControllerGenerateProductId]
+    _controllers = [ControllerCheckLibrary, ControllerGenerateProductId, ControllerProcessDesign]
 
     def __init__(self, active_tab):
         self._view = ViewMain()
