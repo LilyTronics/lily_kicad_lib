@@ -178,7 +178,7 @@ class FootprintsChecker:
             attributes["exclude_from_bom"][0] = True
             attributes["dnp"][0] = True
         if footprint_data["Name"].startswith("doc_"):
-            attributes["board_only"][0] = True
+            attributes["board_only"][0] = None
             attributes["exclude_from_pos_files"][0] = True
             attributes["exclude_from_bom"][0] = True
             attributes["allow_missing_courtyard"][0] = True
@@ -203,16 +203,17 @@ class FootprintsChecker:
             attributes["exclude_from_bom"][0] = True
 
         for attribute in attributes:
-            if attribute in footprint_data["Attributes"] and not attributes[attribute][0]:
-                report_messages.append({
-                    "item": footprint_data["Name"],
-                    "message": f"attribute {attributes[attribute][1]} should not be enabled {caller}"
-                })
-            elif attribute not in footprint_data["Attributes"] and attributes[attribute][0]:
-                report_messages.append({
-                    "item": footprint_data["Name"],
-                    "message": f"attribute {attributes[attribute][1]} should be enabled {caller}"
-                })
+            if attributes[attribute][0] is not None:
+                if attribute in footprint_data["Attributes"] and not attributes[attribute][0]:
+                    report_messages.append({
+                        "item": footprint_data["Name"],
+                        "message": f"attribute {attributes[attribute][1]} should not be enabled {caller}"
+                    })
+                elif attribute not in footprint_data["Attributes"] and attributes[attribute][0]:
+                    report_messages.append({
+                        "item": footprint_data["Name"],
+                        "message": f"attribute {attributes[attribute][1]} should be enabled {caller}"
+                    })
 
     @classmethod
     def _check_3d_model(cls, footprint_data, report_messages):
