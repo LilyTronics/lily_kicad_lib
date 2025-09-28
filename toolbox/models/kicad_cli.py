@@ -49,7 +49,7 @@ class KiCadCli:
         cmd = ["sch", "export", "bom"]
         cmd.extend(["--output", output_file])
         if option == "lily_erp":
-            cmd.extend(["--fields", "Lily_ID,${QUANTITY},Reference"])
+            cmd.extend(["--fields", "Lily_ID,${QUANTITY}"])
             cmd.extend(["--group-by", "Lily_ID"])
         elif option == "jlcpcb":
             cmd.extend(["--fields", "Reference,Value,Footprint,${QUANTITY},JLCPCB_ID"])
