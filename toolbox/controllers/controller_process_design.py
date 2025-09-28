@@ -10,7 +10,7 @@ from datetime import datetime
 
 from toolbox.controllers.controller_base import ControllerBase
 from toolbox.models.id_manager import IdManager
-from toolbox.models.kicad_cli import KiCadCli
+from toolbox.models.process_design import ProcessDesign
 from toolbox.views.view_process_design import ViewProcessDesign
 
 
@@ -71,13 +71,13 @@ class ControllerProcessDesign(ControllerBase):
         except Exception as e:
             error = str(e)
 
-        cli = None
+        process = None
         report = ""
         timestamp = datetime.now().strftime("%Y%m%d")
         if error == "":
             try:
-                cli = KiCadCli()
-                version = "KiCad version: %s" % cli.get_version()
+                process = ProcessDesign(timestamp, design_name, output_folder)
+                version = "KiCad version: %s" % process.get_kicad_version()
                 self._main_view.add_to_console(version)
                 report += f"{version}\n"
             except Exception as e:
@@ -90,66 +90,35 @@ class ControllerProcessDesign(ControllerBase):
                 report += f"\n{message}\n"
                 try:
                     if output == "Schematics to PDF":
-                        output_filename = f"{timestamp}_{design_name}_schematics.pdf"
-                        output_filename = os.path.join(output_folder, output_filename)
-                        message = cli.generate_schematics_pdf(sch_filename, output_filename)
+                        message = process.schematics_to_pdf(sch_filename)
 
                     elif output == "Bill of materials (BOM)":
                         options = self._view.get_bom_options()
-                        for option in options:
-                            report += f"Generate BOM: {option}\n"
-                            if option == "General":
-                                output_filename = f"{timestamp}_{design_name}_bom_general.tsv"
-                                output_filename = os.path.join(output_folder, output_filename)
-                                message = cli.generate_bill_of_materials(sch_filename, output_filename)
-                                report += f"{message}\n"
-                            elif option == "LilyTronics ERP":
-                                output_filename = f"{timestamp}_{design_name}_bom_lily_erp.csv"
-                                output_filename = os.path.join(output_folder, output_filename)
-                                message = cli.generate_bill_of_materials(sch_filename, output_filename, "lily_erp")
-                                report += f"{message}\n"
-                            elif option == "JLCPCB":
-                                output_filename = f"{timestamp}_{design_name}_bom_jlcpcb.csv"
-                                output_filename = os.path.join(output_folder, output_filename)
-                                message = cli.generate_bill_of_materials(sch_filename, output_filename, "jlcpcb")
-                                report += f"{message}\n"
-                            else:
-                                raise Exception(f"BOM option '{option}' is not defined")
-                        message = ""
+                        pca_id = self._view.get_pca_id()
+                        message = process.create_bom(sch_filename, options, pca_id)
 
                     elif output == "Gerbers and drill data":
-                        gerber_output_folder = os.path.join(output_folder, f"{timestamp}_gerbers")
-                        zip_filename = os.path.join(output_folder, f"{timestamp}_{design_name}_gerbers.zip")
                         n_layers = self._view.get_layers()
-                        message = f"Number of copper layers: {n_layers}\n"
-                        message += cli.generate_gerbers(pcb_filename, gerber_output_folder, zip_filename, n_layers)
+                        message = process.create_gerbers_and_drill(pcb_filename, n_layers)
 
                     elif output == "Position data":
-                        output_filename = f"{timestamp}_{design_name}_position.csv"
-                        output_filename = os.path.join(output_folder, output_filename)
-                        message = cli.generate_position_file(pcb_filename, output_filename)
+                        message = process.create_position_file(pcb_filename)
 
                     elif output == "PCB placement to PDF":
                         has_comp_bot = self._view.get_option_comp_bot()
-                        output_filename = f"{timestamp}_{design_name}_pcb_placement.pdf"
-                        output_filename = os.path.join(output_folder, output_filename)
-                        message = cli.generate_pcb_pdf(pcb_filename, output_filename, has_comp_bot)
+                        message = process.pcb_to_pdf(pcb_filename, has_comp_bot)
 
                     elif output == "ODB+":
-                        output_filename = f"{timestamp}_{design_name}_odb.zip"
-                        output_filename = os.path.join(output_folder, output_filename)
-                        message = cli.generate_odb(pcb_filename, output_filename)
+                        message = process.create_odb(pcb_filename)
 
                     elif output == "PCB 3D model (step)":
-                        output_filename = f"{timestamp}_{design_name}_pcb.step"
-                        output_filename = os.path.join(output_folder, output_filename)
-                        message = cli.generate_step(pcb_filename, output_filename)
+                        message = process.create_3d_model(pcb_filename)
 
                     else:
                         raise Exception(f"Output '{output}' is not defined")
 
                 except Exception as e:
-                    message = e
+                    message = f"WARNING: {e}"
                 report += f"{message}\n"
 
             report_filename = os.path.join(output_folder, f"{timestamp}_process_report.txt")
@@ -157,8 +126,11 @@ class ControllerProcessDesign(ControllerBase):
                 fp.write(report)
             self._main_view.add_to_console(f"Result are written to: {report_filename}")
 
+        if error == "" and "WARNING" in report:
+            error = "The report contains warnings."
+
         if error != "":
-            dlg = wx.MessageDialog(self._view, error, "Generate product ID", style=wx.OK | wx.ICON_EXCLAMATION)
+            dlg = wx.MessageDialog(self._view, error, "Process design", style=wx.OK | wx.ICON_EXCLAMATION)
             dlg.ShowModal()
             dlg.Destroy()
 
