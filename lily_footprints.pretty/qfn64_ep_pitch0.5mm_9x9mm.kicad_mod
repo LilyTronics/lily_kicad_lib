@@ -628,6 +628,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "06de68e6-16b9-4ab5-8224-7f5f13a3afab")
 	)
 	(pad "65" thru_hole circle
@@ -636,6 +637,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "42aceb2b-37d2-47c9-8cad-a50cc323b4a2")
 	)
 	(pad "65" smd rect
@@ -652,6 +654,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "405b7302-dff2-49ca-bd91-6a376ef0a501")
 	)
 	(pad "65" thru_hole circle
@@ -660,6 +663,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
 		(uuid "1b8fe844-d3ad-419d-9701-71ee2a8f6c85")
 	)
 	(embedded_fonts no)
