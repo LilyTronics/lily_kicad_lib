@@ -46,9 +46,11 @@ class ViewMain(wx.Frame):
             if line.strip() != "":
                 line = f"{timestamp} - {line}"
             self._txt_console.AppendText(f"{line}\n")
+        wx.YieldIfNeeded()
 
     def clear_console(self):
         self._txt_console.Clear()
+        wx.YieldIfNeeded()
 
 
 if __name__ == "__main__":
