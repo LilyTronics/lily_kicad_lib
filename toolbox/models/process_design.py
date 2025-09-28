@@ -4,6 +4,7 @@ Model for processing a design using the KiCad cli
 
 import csv
 import os
+import re
 
 from toolbox.models.kicad_cli import KiCadCli
 
@@ -53,6 +54,7 @@ class ProcessDesign:
                 output_filename = os.path.join(self._output_folder, output_filename)
                 message = self._cli.generate_bill_of_materials(sch_filename, output_filename)
                 report += f"{message}\n"
+
             elif option == "LilyTronics ERP":
                 output_filename = f"{self._timestamp}_{self._design_name}_bom_lily_erp.csv"
                 output_filename = os.path.join(self._output_folder, output_filename)
@@ -88,11 +90,36 @@ class ProcessDesign:
                 report += f"{message}\n"
                 if convert_message != "":
                     report += f"{convert_message}\n"
+
             elif option == "JLCPCB":
                 output_filename = f"{self._timestamp}_{self._design_name}_bom_jlcpcb.csv"
                 output_filename = os.path.join(self._output_folder, output_filename)
                 message = self._cli.generate_bill_of_materials(sch_filename, output_filename, "jlcpcb")
+                # JLCPCB cannot handle ranges of designators like R1-R3 must be R1, R2, R3
+                # We need to convert that
+                if os.path.isfile(output_filename):
+                    data_in = self._read_csv(output_filename)
+                    for record in data_in:
+                        if "-" in record["Reference"]:
+                            new_range = []
+                            parts = record["Reference"].split(",")
+                            for i in range(len(parts)):
+                                if "-" in parts[i]:
+                                    start, end = parts[i].split("-")
+                                    match = re.match(r"([A-Za-z]+)(\d+)", start)
+                                    i = int(match.group(2))
+                                    ref = f"{match.group(1)}{i}"
+                                    while ref != end:
+                                        new_range.append(ref)
+                                        i += 1
+                                        ref = f"{match.group(1)}{i}"
+                                    new_range.append(end)
+                                else:
+                                    new_range.append(parts[i])
+                            record["Reference"] = ",".join(new_range)
+                    self._write_csv(output_filename, data_in[0].keys(), data_in)
                 report += f"{message}\n"
+
             else:
                 raise Exception(f"BOM option '{option}' is not defined")
         return report
