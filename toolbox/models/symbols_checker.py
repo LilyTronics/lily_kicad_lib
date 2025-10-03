@@ -33,7 +33,7 @@ class SymbolsChecker:
         "test_point": "TP"
     }
     SKIP_FIELDS = ("Name", "Datasheet", "Description", "Reference", "Revision", "Notes", "Extends")
-    VALUE_FIELDS = ("Footprint", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS")
+    VALUE_FIELDS = ("Footprint", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID")
     POWER_SYMBOLS = ("GND", "Earth", "GNDA", "Vxx")
 
     @classmethod

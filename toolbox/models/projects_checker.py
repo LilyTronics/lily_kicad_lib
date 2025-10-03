@@ -15,7 +15,7 @@ class ProjectsChecker:
 
     PROJECTS_PATH = os.path.join(AppData.APP_PATH, "projects")
 
-    PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID", "JLCPCB_STATUS"]
+    PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID"]
     SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
     SKIP_LAYOUT_FIELDS = ["Name", "Reference", "Value", "Footprint"]
 
