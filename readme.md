@@ -58,7 +58,6 @@ All symbols have the following extra attributes:
 * Manufacturer_ID: manufacturer part ID (original, alternatives are not added)
 * Lily_ID: part ID for the ERP system used in LilyTronics.
 * JLCPCB_ID: part ID used by JLCPCB.
-* JLCPCB_STATUS: Basic, Extended preferred, Extended
 
 ## Usage
 

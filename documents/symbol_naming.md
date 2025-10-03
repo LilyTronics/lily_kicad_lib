@@ -35,4 +35,3 @@ The following attributes should be added (if applicable):
 * Manufacturer_ID
 * Lily_ID
 * JLCPCB_ID
-* JLCPCB_STATUS
