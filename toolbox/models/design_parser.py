@@ -22,6 +22,7 @@ class DesignParser:
         while i < len(lines):
             if lines[i].startswith("\t(symbol"):
                 symbol = {}
+                references = []
                 while i < len(lines):
                     i += 1
                     if lines[i].startswith("\t)"):
@@ -32,7 +33,24 @@ class DesignParser:
                         parts = lines[i].strip()[10:].split('" "')
                         if len(parts) == 2:
                             symbol[parts[0].strip('"')] = parts[1].strip().strip('"')
+                    if lines[i] == "\t\t(instances\n":
+                        # Sheet is used multiple times.
+                        while i < len(lines):
+                            i += 1
+                            if lines[i].startswith("\t\t\t\t\t(reference "):
+                                references.append(lines[i].strip()[11:].strip(")").strip('"'))
+                            if lines[i] == "\t\t)\n":
+                                break
+
                 symbols.append(symbol)
+                if len(references) > 1:
+                    # Add extra symbols
+                    for reference in references:
+                        if reference != symbol["Reference"]:
+                            extra_symbol = symbol.copy()
+                            extra_symbol["Reference"] = reference
+                            symbols.append(extra_symbol)
+
             i += 1
         return symbols
 
