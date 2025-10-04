@@ -51,6 +51,30 @@ class ProjectsChecker:
         return report_messages
 
     @classmethod
+    def check_project(cls, project_folder):
+        DesignParser.stdout = cls.stdout
+        LibParser.stdout = cls.stdout
+        cls.stdout("Check project against library")
+        designs = {
+            os.path.basename(project_folder): {
+                "symbols": DesignParser.get_symbols(project_folder),
+                "footprints": DesignParser.get_footprints(project_folder)
+            }
+        }
+
+        lib_symbols = LibParser.get_symbols()
+        lib_footprints = LibParser.get_footprints()
+
+        report_messages = []
+        cls._check_if_symbols_not_in_library(designs, lib_symbols, report_messages)
+        cls._check_symbols_properties(designs, lib_symbols, report_messages)
+        cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
+        cls._check_footprint_properties(designs, lib_footprints, report_messages)
+        cls._check_symbols_vs_footprints(designs, report_messages)
+
+        return report_messages
+
+    @classmethod
     def _check_if_symbols_in_designs(cls, lib_symbols, designs, report_messages):
         caller = f"({cls.__name__}._check_if_symbols_in_designs)"
         for lib_symbol in lib_symbols:
@@ -156,6 +180,10 @@ class ProjectsChecker:
                                 })
                             # Prevent other messages for reference field
                             design_value = lib_value
+                        elif field == "Value":
+                            # Values can be different in some cases
+                            if lib_value == "Vxx" or lib_value.startswith("con_"):
+                                lib_value = design_value
                         if lib_value != design_value:
                             report_messages.append({
                                 "item": f"{design_symbol["Reference"]} ({design}, {lib_name})",
@@ -274,6 +302,13 @@ class ProjectsChecker:
 if __name__ == "__main__":
 
     _messages = ProjectsChecker.run()
+    print(f"{len(_messages)} messages")
+    for _message in _messages:
+        print(_message)
+
+    _project = "../../projects/arduino_base"
+    print(f"\nCheck single project: {_project}")
+    _messages = ProjectsChecker.check_project(_project)
     print(f"{len(_messages)} messages")
     for _message in _messages:
         print(_message)
