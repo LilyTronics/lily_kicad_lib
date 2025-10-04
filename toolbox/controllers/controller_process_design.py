@@ -11,6 +11,7 @@ from datetime import datetime
 from toolbox.controllers.controller_base import ControllerBase
 from toolbox.models.id_manager import IdManager
 from toolbox.models.process_design import ProcessDesign
+from toolbox.models.projects_checker import ProjectsChecker
 from toolbox.views.view_process_design import ViewProcessDesign
 
 
@@ -62,18 +63,29 @@ class ControllerProcessDesign(ControllerBase):
         self._main_view.add_to_console(pcb_filename)
         self._main_view.add_to_console(f"Using design name: {design_name}")
 
-        output_folder = os.path.join(os.path.dirname(design_filename), "output")
-        self._main_view.add_to_console(f"Create output folder: {output_folder}")
-        try:
-            if os.path.exists(output_folder):
-                shutil.rmtree(output_folder)
-            os.makedirs(output_folder)
-        except Exception as e:
-            error = str(e)
-
+        project_folder = os.path.dirname(design_filename)
+        output_folder = os.path.join(project_folder, "output")
+        timestamp = datetime.now().strftime("%Y%m%d")
         process = None
         report = ""
-        timestamp = datetime.now().strftime("%Y%m%d")
+
+        self._main_view.add_to_console("Check design to library:")
+        ProjectsChecker.stdout = self._main_view.add_to_console
+        messages = ProjectsChecker.check_project(project_folder)
+        if len(messages) > 0:
+            for message in messages:
+                self._main_view.add_to_console(f"{message["item"]}: {message["message"]}")
+            error = "The project checker reported errors"
+
+        if error == "":
+            self._main_view.add_to_console(f"Create output folder: {output_folder}")
+            try:
+                if os.path.exists(output_folder):
+                    shutil.rmtree(output_folder)
+                os.makedirs(output_folder)
+            except Exception as e:
+                error = str(e)
+
         if error == "":
             try:
                 process = ProcessDesign(timestamp, design_name, output_folder)
