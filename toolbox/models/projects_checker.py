@@ -142,7 +142,13 @@ class ProjectsChecker:
                         diff.remove("Notes")
                     # Special parts
                     if ("_do_not_populate_" in lib_name or lib_name.startswith("logo_") or
-                            design_symbol["Reference"].startswith("#PWR") or lib_name.startswith("test_point_")):
+                            design_symbol["Reference"].startswith("#PWR") or lib_name.startswith("test_point_") or
+                            # Cable to PCB connectors, footprint only, no physical component
+                            (lib_name.startswith("con_") and "cable_to_pcb" in lib_name) or
+                            # Programming cable TC2030, footprint only no physical component
+                            lib_name.startswith("con_TC2030") or
+                            # Mechanical holes
+                            lib_name.startswith("mec_hole_")):
                         i = 0
                         while i < len(diff):
                             if diff[i] in cls.PART_MANDATORY_FIELDS:
