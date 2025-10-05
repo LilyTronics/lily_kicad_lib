@@ -13653,6 +13653,156 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "fuse_ptc"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "fuse_ptc"
+			(at 1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "fuse_ptc_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -1.905) (xy 1.905 -1.905) (xy 5.715 1.905) (xy 6.35 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 6.35 -1.016)
+				(end 1.27 1.016)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "fuse_ptc_1_1"
+			(text "+"
+				(at 2.54 -1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ic_comparator_dual"
 		(pin_names
 			(offset 1.016)
@@ -23371,7 +23521,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ic_micro_controller_ATMEGA328P_32p"
+	(symbol "ic_micro_controller_ATMEGA328PB_32p"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -23384,7 +23534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ic_micro_controller_ATMEGA328P_32p"
+		(property "Value" "ic_micro_controller_ATMEGA328PB_32p"
 			(at 20.32 8.89 0)
 			(effects
 				(font
@@ -23421,7 +23571,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 15.24 -58.42 0)
+			(at 15.24 -63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23429,7 +23579,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ic_micro_controller_ATMEGA328P_32p_0_1"
+		(symbol "ic_micro_controller_ATMEGA328PB_32p_0_1"
 			(rectangle
 				(start 3.81 6.35)
 				(end 26.67 -49.53)
@@ -23442,7 +23592,7 @@
 				)
 			)
 		)
-		(symbol "ic_micro_controller_ATMEGA328P_32p_1_1"
+		(symbol "ic_micro_controller_ATMEGA328PB_32p_1_1"
 			(pin bidirectional line
 				(at 0 0 0)
 				(length 3.81)
@@ -23713,42 +23863,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -40.64 0)
-				(length 3.81)
-				(name "ADC6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -43.18 0)
-				(length 3.81)
-				(name "ADC7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 12.7 10.16 270)
 				(length 3.81)
@@ -23769,42 +23883,6 @@
 			)
 			(pin power_in line
 				(at 12.7 -53.34 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 10.16 270)
-				(length 3.81)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -53.34 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -23994,6 +24072,78 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -22.86 180)
+				(length 3.81)
+				(name "PE0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -25.4 180)
+				(length 3.81)
+				(name "PE1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -27.94 180)
+				(length 3.81)
+				(name "PE2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -30.48 180)
+				(length 3.81)
+				(name "PE3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -32111,20 +32261,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 3.81 2.54 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "ind_bead"
-			(at 3.81 -2.54 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -32155,7 +32306,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 3.81 -5.08 0)
+			(at 3.81 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35837,7 +35988,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35864,7 +36015,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35873,15 +36024,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -35890,16 +36032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -35908,8 +36041,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1710"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C83170"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38489,7 +38640,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38516,7 +38667,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38525,15 +38676,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -38542,16 +38684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805KRX7R9BB223"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -38560,8 +38693,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB223"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38591,7 +38742,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38618,7 +38769,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38627,15 +38778,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -38644,16 +38786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805JRNPO9BN220"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -38662,8 +38795,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1804"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN220"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C105623"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41039,7 +41190,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41066,7 +41217,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41075,15 +41226,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -41092,16 +41234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805KRX7R9BB473"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -41110,8 +41243,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB473"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41212,7 +41363,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C14857"
+		(property "JLCPCB_ID" "C107118"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -41447,7 +41598,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41474,7 +41625,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41483,15 +41634,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -41500,16 +41642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21A475KAQNNNE"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -41518,8 +41651,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1779"
+		(property "Manufacturer_ID" "CL21A475KAQNNNE"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C1779"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45187,7 +45338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Phoenix Contact"
 			(at -5.08 -35.56 0)
 			(effects
 				(font
@@ -45196,7 +45347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "MC 1,5/10-G-3,81"
 			(at -5.08 -38.1 0)
 			(effects
 				(font
@@ -45214,7 +45365,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C26895"
 			(at -5.08 -43.18 0)
 			(effects
 				(font
@@ -45391,7 +45542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "SHOU HAN"
 			(at -12.7 -68.58 0)
 			(effects
 				(font
@@ -45400,7 +45551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "TYPE-C 16PIN 2MD(073)"
 			(at -12.7 -71.12 0)
 			(effects
 				(font
@@ -45418,7 +45569,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C2765186"
 			(at -12.7 -76.2 0)
 			(effects
 				(font
@@ -45528,7 +45679,7 @@
 			)
 		)
 	)
-	(symbol "crystal_16MHz_20ppm_8pF_3225"
+	(symbol "crystal_16MHz_12pF_10ppm_20ppm_3225"
 		(extends "crystal_4p")
 		(property "Reference" "X"
 			(at 3.81 6.35 0)
@@ -45591,7 +45742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Seiko Epson"
 			(at 3.81 -12.7 0)
 			(effects
 				(font
@@ -45600,7 +45751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "X1E0000210119"
 			(at 3.81 -15.24 0)
 			(effects
 				(font
@@ -45618,7 +45769,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C89371"
 			(at 3.81 -20.32 0)
 			(effects
 				(font
@@ -46750,6 +46901,210 @@
 			)
 		)
 	)
+	(symbol "fuse_ptc_0.1A/0.3A_15V_1R0_0805"
+		(extends "fuse_ptc")
+		(property "Reference" "F"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1A/0.3A"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:fuse_ptc_0805"
+			(at 3.81 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 3.81 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 3.81 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "0805L010YR"
+			(at 3.81 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 3.81 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C207020"
+			(at 3.81 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "fuse_ptc_0.35A/0.75A_6V_0R25_0805"
+		(extends "fuse_ptc")
+		(property "Reference" "F"
+			(at 1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.35A/0.75A"
+			(at 1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:fuse_ptc_0805"
+			(at 3.81 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 3.81 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 3.81 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "0805L035YR"
+			(at 3.81 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 3.81 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C207021"
+			(at 3.81 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "ic_comparator_dual_LM393_soic8"
 		(extends "ic_comparator_dual")
 		(property "Reference" "U"
@@ -46974,7 +47329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DAC7311IDCK"
+		(property "Value" "DAC7311"
 			(at 15.24 8.89 0)
 			(effects
 				(font
@@ -47055,7 +47410,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C128601"
 			(at 12.7 -43.18 0)
 			(effects
 				(font
@@ -47575,8 +47930,8 @@
 			)
 		)
 	)
-	(symbol "ic_micro_controller_ATMEGA328P_tqfp32"
-		(extends "ic_micro_controller_ATMEGA328P_32p")
+	(symbol "ic_micro_controller_ATMEGA328PB_tqfp32"
+		(extends "ic_micro_controller_ATMEGA328PB_32p")
 		(property "Reference" "U"
 			(at 20.32 11.43 0)
 			(effects
@@ -47586,7 +47941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ATMEGA328P"
+		(property "Value" "ATMEGA328PB"
 			(at 20.32 8.89 0)
 			(effects
 				(font
@@ -47640,7 +47995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Microchip Tech"
 			(at 15.24 -71.12 0)
 			(effects
 				(font
@@ -47649,7 +48004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "ATMEGA328PB-AU"
 			(at 15.24 -73.66 0)
 			(effects
 				(font
@@ -47667,7 +48022,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C132230"
 			(at 14.605 -78.74 0)
 			(effects
 				(font
@@ -47844,7 +48199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Texas Instruments"
 			(at 7.62 -17.78 0)
 			(effects
 				(font
@@ -47853,7 +48208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "TLV272IDR"
 			(at 7.62 -20.32 0)
 			(effects
 				(font
@@ -47871,7 +48226,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C398914"
 			(at 7.62 -25.4 0)
 			(effects
 				(font
@@ -48489,7 +48844,7 @@
 			)
 		)
 	)
-	(symbol "ic_usb_to_serial_FT231_ssop20"
+	(symbol "ic_usb_to_serial_FT231XS_ssop20"
 		(extends "ic_usb_to_serial_FT231")
 		(property "Reference" "U"
 			(at 17.78 -5.08 0)
@@ -48499,7 +48854,7 @@
 				)
 			)
 		)
-		(property "Value" "FT231"
+		(property "Value" "FT231XS"
 			(at 17.78 -7.62 0)
 			(effects
 				(font
@@ -48552,7 +48907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "FTDI"
 			(at 17.78 -63.5 0)
 			(effects
 				(font
@@ -48561,7 +48916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "FT231XS"
 			(at 17.78 -66.04 0)
 			(effects
 				(font
@@ -48579,7 +48934,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C132160"
 			(at 17.78 -71.12 0)
 			(effects
 				(font
@@ -48589,10 +48944,10 @@
 			)
 		)
 	)
-	(symbol "ic_volt_reference_RS3112-4.096X_sot23"
+	(symbol "ic_volt_reference_REF30340_4.096V_sot23"
 		(extends "ic_volt_reference_3p")
 		(property "Reference" "U"
-			(at 2.54 7.62 0)
+			(at 5.08 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48600,8 +48955,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RS3112-4.096X"
-			(at 2.54 5.08 0)
+		(property "Value" "REF3040"
+			(at 5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48654,7 +49009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Texas Instruments"
 			(at 10.16 -27.94 0)
 			(effects
 				(font
@@ -48663,7 +49018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "REF3040AIDBZR"
 			(at 10.16 -30.48 0)
 			(effects
 				(font
@@ -48681,7 +49036,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C19415"
 			(at 10.16 -35.56 0)
 			(effects
 				(font
@@ -49102,23 +49457,25 @@
 	(symbol "ind_bead_600R@100MHz_2A_0R1_0805"
 		(extends "ind_bead")
 		(property "Reference" "L"
-			(at 3.81 2.54 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "600R/0R1"
-			(at 3.81 -2.54 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "lily_footprints:ind_0805"
-			(at 3.81 -10.16 0)
+			(at 3.81 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49145,7 +49502,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 3.81 -5.08 0)
+			(at 3.81 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49154,7 +49511,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 3.81 -7.62 0)
+			(at 3.81 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49163,7 +49520,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 3.81 -12.7 0)
+			(at 3.81 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49172,7 +49529,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "MPZ2012S601AT000"
-			(at 3.81 -15.24 0)
+			(at 3.81 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49181,7 +49538,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 3.81 -17.78 0)
+			(at 3.81 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49190,7 +49547,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C21519"
-			(at 3.81 -20.32 0)
+			(at 3.81 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50375,7 +50732,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C105577"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -50406,7 +50763,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50433,7 +50790,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50442,15 +50799,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -50459,16 +50807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "RC0805FR-07100KL"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -50477,8 +50816,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-07100KL"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C96346"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55404,7 +55761,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55431,7 +55788,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55440,15 +55797,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -55457,16 +55805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "RC0805FR-07200KL"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -55475,8 +55814,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-07200KL"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C114562"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64482,7 +64839,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64509,7 +64866,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64518,15 +64875,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -64535,16 +64883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "RC0805FR-0768RL"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -64553,8 +64892,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-0768RL"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C137498"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
