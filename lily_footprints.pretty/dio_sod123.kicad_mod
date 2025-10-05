@@ -86,7 +86,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "eda8575f-a98a-4ea2-bb0b-0c372b4fac3d")
+		(uuid "4cdc806e-3f9e-4859-b4cf-0ab3597b6228")
 	)
 	(fp_rect
 		(start -1.35 -0.8)
@@ -100,8 +100,8 @@
 		(uuid "ae7bf37e-a88b-40b5-b5ca-3e8199f626f3")
 	)
 	(fp_rect
-		(start 0.7 -0.8)
-		(end 0.9 0.8)
+		(start -0.9 -0.8)
+		(end -0.7 0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -119,7 +119,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "4cdc806e-3f9e-4859-b4cf-0ab3597b6228")
+		(uuid "eda8575f-a98a-4ea2-bb0b-0c372b4fac3d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -133,7 +133,7 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 1.7 0)
+		(at -1.7 0 180)
 		(size 0.9 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
@@ -141,7 +141,7 @@
 		(uuid "1d7ea40d-7bea-4505-a16a-eb08bb0f4ba1")
 	)
 	(pad "2" smd rect
-		(at -1.7 0)
+		(at 1.7 0 180)
 		(size 0.9 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
@@ -157,7 +157,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
