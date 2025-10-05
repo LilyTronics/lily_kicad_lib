@@ -50079,7 +50079,7 @@
 			)
 		)
 	)
-	(symbol "res_0R075_1%_3W_2512"
+	(symbol "res_0R075_1%_2W_2512"
 		(extends "res")
 		(property "Reference" "R"
 			(at 1.905 -2.54 0)
@@ -50100,7 +50100,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_2512"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50127,7 +50127,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50136,15 +50136,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -50153,16 +50144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -50171,8 +50153,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "PE2512FKE7W0R075L"
 			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C5824579"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
