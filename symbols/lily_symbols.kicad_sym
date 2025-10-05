@@ -39998,7 +39998,7 @@
 			)
 		)
 	)
-	(symbol "cap_390n_16V_10%_X7R_0805"
+	(symbol "cap_390n_50V_10%_X7R_0805"
 		(extends "cap")
 		(property "Reference" "C"
 			(at 3.175 -2.54 0)
@@ -40019,7 +40019,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40046,7 +40046,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40055,15 +40055,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -40072,16 +40063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -40090,7 +40072,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB394"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -40099,8 +40081,17 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-			(at 0 10.16 0)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41537,7 +41528,7 @@
 			)
 		)
 	)
-	(symbol "cap_560n_25V_10%_X7R_0805"
+	(symbol "cap_560n_50V_10%_X7R_0805"
 		(extends "cap")
 		(property "Reference" "C"
 			(at 3.175 -2.54 0)
@@ -41558,7 +41549,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41585,7 +41576,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41594,15 +41585,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -41611,16 +41593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -41629,7 +41602,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB564"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -41638,8 +41611,17 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-			(at 0 10.16 0)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42770,7 +42752,7 @@
 			)
 		)
 	)
-	(symbol "cap_820n_16V_10%_X7R_0805"
+	(symbol "cap_820n_50V_10%_X7R_0805"
 		(extends "cap")
 		(property "Reference" "C"
 			(at 3.175 -2.54 0)
@@ -42791,7 +42773,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42818,7 +42800,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -10.16 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42827,15 +42809,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -42844,16 +42817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -42862,7 +42826,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB824"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -42871,8 +42835,17 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-			(at 0 10.16 0)
+		(property "Lily_ID" "NO_ID"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
