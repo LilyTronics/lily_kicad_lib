@@ -131,6 +131,7 @@ const generic_symbols = [
     { Name: "ind", Extends: "", Reference: "L", Value: "ind", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "ind_bead", Extends: "", Reference: "L", Value: "ind_bead", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "ind_common_mode", Extends: "", Reference: "L", Value: "ind_common_mode", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
+    { Name: "mec_fiducial", Extends: "", Reference: "M", Value: "mec_fiducial", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "mec_hole_npth", Extends: "", Reference: "M", Value: "mec_hole_npth", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "mec_hole_pth", Extends: "", Reference: "M", Value: "mec_hole_pth", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "mosfet_n_3p", Extends: "", Reference: "Q", Value: "mosfet_n_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
@@ -289,6 +290,7 @@ const parts = [
     { Name: "ind_bead_do_not_populate_0805", Extends: "ind_bead", Reference: "L", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_0805_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "ind_common_mode_700R@100MHz_5A_10mR_9x7mm", Extends: "ind_common_mode", Reference: "L", Value: "700R/10mR", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_common_mode_9x7mm", Revision: "1", Status: "Active", Manufacturer: "TODO", Manufacturer_ID: "TODO", Lily_ID: "NO_ID", JLCPCB_ID: "NO_ID", Notes: "" },
     { Name: "ind_power_4u7_2A5_0R075_fnr4020", Extends: "ind", Reference: "L", Value: "4u7", Description: "", Datasheet: "", Footprint: "lily_footprints:ind_power_fnr4020", Revision: "1", Status: "Active", Manufacturer: "TODO", Manufacturer_ID: "TODO", Lily_ID: "NO_ID", JLCPCB_ID: "NO_ID", Notes: "" },
+    { Name: "mec_fiducial_1mm_mask_2mm", Extends: "mec_fiducial", Reference: "M", Value: "mec_fiducial_1mm_mask_2mm", Description: "", Datasheet: "", Footprint: "lily_footprints:fiducial_1mm_mask_2mm", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "mec_hole_2.5mm_spacer_snap_in_4.6_npth", Extends: "mec_hole_npth", Reference: "M", Value: "mec_hole_2.5mm_spacer_snap_in_4.6_npth", Description: "", Datasheet: "", Footprint: "lily_footprints:mec_hole_2.5mm_spacer_snap_in_4.6_npth", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "mec_hole_m3_pth", Extends: "mec_hole_pth", Reference: "M", Value: "mec_hole_m3_pth", Description: "", Datasheet: "", Footprint: "lily_footprints:mec_hole_m3_pth", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "mosfet_n_DMG3406L_sot23", Extends: "mosfet_n_3p", Reference: "Q", Value: "DMG3406L", Description: "", Datasheet: "", Footprint: "lily_footprints:sot23", Revision: "1", Status: "Active", Manufacturer: "Diodes Incorporated", Manufacturer_ID: "DMG3406L", Lily_ID: "NO_ID", JLCPCB_ID: "C481695", Notes: "" },
@@ -633,8 +635,8 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-10-05 19:48</p>
-<p>Total symbols: 412</p>
+<p>Last updated: 2025-10-08 12:05</p>
+<p>Total symbols: 414</p>
 <p>Total footprints: 95</p>
 </div>
 
