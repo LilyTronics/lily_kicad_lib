@@ -8,7 +8,7 @@ More than 300 symbols and 60 footprints.
 
 Additional information:
 
-* [Overview of all symbols and footprints](https://htmlpreview.github.io/?https://github.com/LilyTronics/lily-kicad-lib/blob/main/documents/library_report.html)
+* [Overview of all symbols and footprints](https://lilytronics.github.io/lily-kicad-lib/library_report.html)
 * [Symbol naming convention](documents/symbol_naming.md)
 * [Setup KiCad using this repo](documents/setup_kicad.md)
 
