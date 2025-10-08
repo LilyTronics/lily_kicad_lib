@@ -8,7 +8,7 @@ import sys
 
 class AppData:
     APP_NAME = "Lily KiCad Toolbox"
-    VERSION = "3.6"
+    VERSION = "3.7"
     EXE_NAME = "LilyKiCadToolbox"
     COMPANY = "LilyTronics"
     # Application path depends on if run from script or from the executable
@@ -16,6 +16,7 @@ class AppData:
         APP_PATH = os.path.dirname(sys.executable)
     else:
         APP_PATH = os.path.dirname(__file__)
+        VERSION += " development"
     APP_PATH = os.path.dirname(APP_PATH)
 
 
