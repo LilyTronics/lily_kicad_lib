@@ -46994,7 +46994,7 @@
 			)
 		)
 	)
-	(symbol "fuse_ptc_0.1A/0.3A_15V_1R0_0805"
+	(symbol "fuse_ptc_0.1A_0.3A_15V_1R0_0805"
 		(extends "fuse_ptc")
 		(property "Reference" "F"
 			(at 0 6.35 0)
@@ -47096,10 +47096,10 @@
 			)
 		)
 	)
-	(symbol "fuse_ptc_0.35A/0.75A_6V_0R25_0805"
+	(symbol "fuse_ptc_0.35A_0.75A_6V_0R25_0805"
 		(extends "fuse_ptc")
 		(property "Reference" "F"
-			(at 1.27 6.35 0)
+			(at -1.27 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47108,7 +47108,7 @@
 			)
 		)
 		(property "Value" "0.35A/0.75A"
-			(at 1.27 3.81 0)
+			(at -1.27 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47411,7 +47411,7 @@
 			)
 		)
 	)
-	(symbol "ic_dac_single_DAC7311IDCK_sot363-6_sc70-6"
+	(symbol "ic_dac_single_DAC7311_sot363-6_sc70-6"
 		(extends "ic_dac_single_spi_6p")
 		(property "Reference" "U"
 			(at 15.24 11.43 0)
@@ -49037,7 +49037,7 @@
 			)
 		)
 	)
-	(symbol "ic_volt_reference_REF30340_4.096V_sot23"
+	(symbol "ic_volt_reference_REF3040_4.096V_sot23"
 		(extends "ic_volt_reference_3p")
 		(property "Reference" "U"
 			(at 5.08 7.62 0)
