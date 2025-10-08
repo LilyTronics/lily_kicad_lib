@@ -137,11 +137,6 @@ class KiCadCli:
         cmd.append("--no-dnp")
         cmd.append("--drill-origin")
         cmd.append("--include-pads")
-        cmd.append("--include-tracks")
-        cmd.append("--include-zones")
-        cmd.append("--cut-vias-in-body")
-        cmd.append("--include-soldermask")
-        cmd.append("--include-silkscreen")
         cmd.append(input_file)
         return self._run_command(cmd)
 
