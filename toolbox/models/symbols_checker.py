@@ -4,6 +4,8 @@ Class that checks the symbols
 
 import os
 import re
+import threading
+import time
 import urllib.request
 
 from toolbox.app_data import AppData
@@ -41,6 +43,7 @@ class SymbolsChecker:
 
     @classmethod
     def run(cls):
+        threads = []
         LibParser.stdout = cls.stdout
         cls.stdout("Check library symbols")
         caller = f"({cls.__name__}.run)"
@@ -74,7 +77,11 @@ class SymbolsChecker:
                 cls._check_footprint(symbol, report_messages)
             if symbol["Extends"] != "":
                 # Datasheets only for parts
-                cls._check_datasheet(symbol, report_messages)
+                cls._check_datasheet(symbol, report_messages, threads)
+
+        while True in list(map(lambda x: x.is_alive(), threads)):
+            time.sleep(0.1)
+
         return report_messages
 
     @classmethod
@@ -198,9 +205,9 @@ class SymbolsChecker:
                         "item": symbol_data["Name"],
                         "message": f"footprint '{symbol_data["Footprint"]}' does not exist {caller}"
                     })
-                    
+
     @classmethod
-    def _check_datasheet(cls, symbol_data, report_messages):
+    def _check_datasheet(cls, symbol_data, report_messages, threads):
         caller = f"({cls.__name__}._check_datasheet)"
         datasheet = symbol_data["Datasheet"]
         if datasheet == "":
@@ -220,14 +227,23 @@ class SymbolsChecker:
                     "message": f"Invalid datasheet URI {datasheet} {caller}"
                 })
             else:
-                try:
-                    with urllib.request.urlopen(datasheet) as response:
-                        assert response.status == 200
-                except (Exception,):
-                    report_messages.append({
-                        "item": symbol_data["Name"],
-                        "message": f"Datasheet URI not available {datasheet} {caller}"
-                    })
+                t = threading.Thread(target=cls._check_datasheet_uri,
+                                     args=(symbol_data["Name"], datasheet, report_messages))
+                t.daemon = True
+                t.start()
+                threads.append(t)
+
+    @classmethod
+    def _check_datasheet_uri(cls, symbol_name, uri, report_messages):
+        caller = f"({cls.__name__}._check_datasheet)"
+        try:
+            with urllib.request.urlopen(uri) as response:
+                assert response.status == 200
+        except (Exception,):
+            report_messages.append({
+                "item": symbol_name,
+                "message": f"Datasheet URI not available {uri} {caller}"
+            })
 
 
 if __name__ == "__main__":
@@ -236,4 +252,3 @@ if __name__ == "__main__":
     print(f"{len(messages)} messages")
     for message in messages:
         print(message)
-
