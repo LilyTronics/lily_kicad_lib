@@ -4,6 +4,7 @@ Class that checks the symbols
 
 import os
 import re
+import urllib.request
 
 from toolbox.app_data import AppData
 from toolbox.models.lib_parser import LibParser
@@ -71,6 +72,9 @@ class SymbolsChecker:
             cls._check_value(symbol, report_messages)
             if symbol["Footprint"] != "":
                 cls._check_footprint(symbol, report_messages)
+            if symbol["Extends"] != "":
+                # Datasheets only for parts
+                cls._check_datasheet(symbol, report_messages)
         return report_messages
 
     @classmethod
@@ -194,6 +198,36 @@ class SymbolsChecker:
                         "item": symbol_data["Name"],
                         "message": f"footprint '{symbol_data["Footprint"]}' does not exist {caller}"
                     })
+                    
+    @classmethod
+    def _check_datasheet(cls, symbol_data, report_messages):
+        caller = f"({cls.__name__}._check_datasheet)"
+        datasheet = symbol_data["Datasheet"]
+        if datasheet == "":
+            if (not symbol_data["Name"].startswith("test_point_") and
+                    "_do_not_populate_" not in symbol_data["Name"] and
+                    not symbol_data["Name"].startswith("mec_hole_") and
+                    not symbol_data["Name"].startswith("mec_fiducial_") and
+                    "_cable_to_pcb_" not in symbol_data["Name"]):
+                report_messages.append({
+                    "item": symbol_data["Name"],
+                    "message": f"No datasheet linked {caller}"
+                })
+        else:
+            if not datasheet.startswith("https://lilytronics.github.io/lily_kicad_lib/datasheets/"):
+                report_messages.append({
+                    "item": symbol_data["Name"],
+                    "message": f"Invalid datasheet URI {datasheet} {caller}"
+                })
+            else:
+                try:
+                    with urllib.request.urlopen(datasheet) as response:
+                        assert response.status == 200
+                except (Exception,):
+                    report_messages.append({
+                        "item": symbol_data["Name"],
+                        "message": f"Datasheet URI not available {datasheet} {caller}"
+                    })
 
 
 if __name__ == "__main__":
@@ -202,3 +236,4 @@ if __name__ == "__main__":
     print(f"{len(messages)} messages")
     for message in messages:
         print(message)
+
