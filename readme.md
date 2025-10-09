@@ -40,12 +40,14 @@ The repo is set up as follows:
 ```
 lily_kicad_lib/
   |- 3d_models                  # 3D models for the footprints
-  |- documents                  # documentation (reports, naming conventions, etc)
+  |- docs                       # sources for the GitHub pages
+  |- documents                  # documentation
   |- lily_footprints.pretty     # footprint library
-  |- projects                   # example projects
-  |- scripts                    # script for generating reports, checking the library
+  |- projects                   # example and test projects
+  |- scripts                    # various scripts
   |- symbols                    # symbols library
-  |- templates                  # design templates, page borders, etc
+  |- templates                  # design templates, sheet templates, etc
+  |- toolbox                    # sources of the Lily KiCad toolbox, with build script for build an executable
 ```
 
 ### 3D models
