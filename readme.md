@@ -4,18 +4,34 @@ This is a free to use KiCad library.
 
 Compatible KiCad version: 9 (and higher)
 
-More than 300 symbols and 60 footprints.
+* More than 400 symbols and 95 footprints.
+* Datasheet for each part (if applicable)
+* 3D models for each footprint (if applicable)
+* Lily KiCad toolbox:
+  * Check library for consistency
+  * Generate part IDs for the Lily ERP system
+  * Generate manufacturing data for a design
+    * PDF files for documentation (schematics and component placement)
+    * Import for the Lily ERP
+    * Bill of materials (BOM) for Excell
+    * BOM for JLCPCB (with specific JLCPCB part IDs)
+    * Gerbers and drill files
+    * Position file for JLCPCB (can also be used for other manufacturers)
+    * ODB+ output
+    * 3D model of PCB
+    * Archive design after generating output for traceability
 
 Additional information:
 
 * [Overview of all symbols and footprints](https://lilytronics.github.io/lily_kicad_lib/library_report.html)
-* [Symbol naming convention](documents/symbol_naming.md)
 * [Setup KiCad using this repo](documents/setup_kicad.md)
 
 Do you have a request for a component? Submit a request using the [issue tracker](https://github.com/LilyTronics/lily_kicad_lib/issues).
-Please specify a specific manufacturer, manufacturer part ID and/or JLCPCB part ID if possible.
+Please specify a specific manufacturer, manufacturer part ID if possible.
 
 [![Generate report](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/generate_report.yml/badge.svg)](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/generate_report.yml)
+[![pages-build-deployment](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/pages/pages-build-deployment)
+
 
 ## Setup
 
