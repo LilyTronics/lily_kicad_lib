@@ -79,8 +79,15 @@ class SymbolsChecker:
                 # Datasheets only for parts
                 cls._check_datasheet(symbol, report_messages, threads)
 
+        n_print = 0
         while True in list(map(lambda x: x.is_alive(), threads)):
             time.sleep(0.1)
+            n_print += 1
+            if n_print == 5:
+                n_running = len(list(filter(lambda x: x.is_alive(), threads)))
+                cls.stdout(f"Checking {n_running} URIs")
+                n_print = 0
+        cls.stdout("Checking URIs done")
 
         return report_messages
 
@@ -221,11 +228,19 @@ class SymbolsChecker:
                     "message": f"No datasheet linked {caller}"
                 })
         else:
-            if not datasheet.startswith("https://lilytronics.github.io/lily_kicad_lib/datasheets/"):
+            base_uri = "https://lilytronics.github.io/lily_kicad_lib/datasheets/"
+            file_path = datasheet.replace(base_uri, f"{AppData.APP_PATH}/docs/datasheets/")
+            if not os.path.isfile(file_path):
+                report_messages.append({
+                    "item": symbol_data["Name"],
+                    "message": f"The datasheet file does not exist {file_path} {caller}"
+                })
+            elif not datasheet.startswith("https://lilytronics.github.io/lily_kicad_lib/datasheets/"):
                 report_messages.append({
                     "item": symbol_data["Name"],
                     "message": f"Invalid datasheet URI {datasheet} {caller}"
                 })
+
             else:
                 t = threading.Thread(target=cls._check_datasheet_uri,
                                      args=(symbol_data["Name"], datasheet, report_messages))

@@ -4,6 +4,7 @@ Check library controller.
 
 import wx
 
+from toolbox.app_data import AppData
 from toolbox.controllers.controller_base import ControllerBase
 from toolbox.models.id_manager import IdManager
 from toolbox.models.erp_checker import ErpChecker
