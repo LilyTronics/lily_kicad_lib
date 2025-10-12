@@ -46411,8 +46411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -10.16 90)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SMAJ_series.pdf"
+			(at 0 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46513,8 +46513,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -10.16 90)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SMBJ_series.pdf"
+			(at 0 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46586,108 +46586,6 @@
 			)
 		)
 	)
-	(symbol "dio_tvs_uni_2_channel_12V_sot23"
-		(extends "dio_tvs_uni_2_channel")
-		(property "Reference" "D"
-			(at 7.62 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V"
-			(at 7.62 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:sot23"
-			(at 2.54 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -7.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 2.54 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 2.54 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
-			(at 2.54 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "TODO"
-			(at 2.54 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 2.54 -30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 2.54 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol "dio_tvs_uni_4_channel_5V_SRV05-4_sot23-6"
 		(extends "dio_tvs_uni_4_channel")
 		(property "Reference" "D"
@@ -46717,8 +46615,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -15.24 15.24 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SRV05-4.pdf"
+			(at 10.16 -43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46753,7 +46651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SEMTECH"
+		(property "Manufacturer" "Littelfuse"
 			(at 10.16 -33.02 0)
 			(effects
 				(font
@@ -46762,7 +46660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "SRV05-4.TCT"
+		(property "Manufacturer_ID" "SRV05-4HTG-D"
 			(at 10.16 -35.56 0)
 			(effects
 				(font
@@ -46780,7 +46678,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C13612"
+		(property "JLCPCB_ID" "C1975211"
 			(at 10.16 -40.64 0)
 			(effects
 				(font
@@ -46819,8 +46717,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -7.62 90)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/nexperia/BZX384_series.pdf"
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46921,8 +46819,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -3.81 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf"
+			(at 3.81 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47023,8 +46921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -3.81 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf"
+			(at 3.81 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47125,8 +47023,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/LM393D.pdf"
+			(at 7.62 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47197,7 +47095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Extended: C67470, is much cheaper"
+		(property "Notes" ""
 			(at 7.62 -30.48 0)
 			(effects
 				(font
@@ -47236,8 +47134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/ZXCT1010.pdf"
+			(at 5.08 -48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47338,8 +47236,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/DAC7311.pdf"
+			(at 12.7 -45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -15,7 +15,8 @@ The datasheets should be arranged as follows:
        |- part_name.pdf
 ```
 
-For generic components the datasheet of the preferred manufacturer should be linked.
+The datasheet of the preferred manufacturer should be linked.
+For components with multiple value from the same series, use one datasheet (e.g.: resistors).
 
 In KiCad set the datasheet field of the part to:
 
