@@ -75,9 +75,7 @@ class SymbolsChecker:
             cls._check_value(symbol, report_messages)
             if symbol["Footprint"] != "":
                 cls._check_footprint(symbol, report_messages)
-            if symbol["Extends"] != "":
-                # Datasheets only for parts
-                cls._check_datasheet(symbol, report_messages, threads)
+            cls._check_datasheet(symbol, report_messages, threads)
 
         n_print = 0
         while True in list(map(lambda x: x.is_alive(), threads)):
@@ -218,16 +216,20 @@ class SymbolsChecker:
         caller = f"({cls.__name__}._check_datasheet)"
         datasheet = symbol_data["Datasheet"]
         if datasheet == "":
-            if (not symbol_data["Name"].startswith("test_point_") and
-                    "_do_not_populate_" not in symbol_data["Name"] and
-                    not symbol_data["Name"].startswith("mec_hole_") and
-                    not symbol_data["Name"].startswith("mec_fiducial_") and
-                    "_cable_to_pcb_" not in symbol_data["Name"]):
-                report_messages.append({
-                    "item": symbol_data["Name"],
-                    "message": f"No datasheet linked {caller}"
-                })
+            # Parts must have a datasheet
+            if symbol_data["Extends"] != "":
+                # Except test point, dnp, mechanical, specials
+                if (not symbol_data["Name"].startswith("test_point_") and
+                        "_do_not_populate_" not in symbol_data["Name"] and
+                        not symbol_data["Name"].startswith("mec_hole_") and
+                        not symbol_data["Name"].startswith("mec_fiducial_") and
+                        "_cable_to_pcb_" not in symbol_data["Name"]):
+                    report_messages.append({
+                        "item": symbol_data["Name"],
+                        "message": f"No datasheet linked {caller}"
+                    })
         else:
+            # Datasheet not empty, check file and URI
             base_uri = "https://lilytronics.github.io/lily_kicad_lib/datasheets/"
             file_path = datasheet.replace(base_uri, f"{AppData.APP_PATH}/docs/datasheets/")
             if not os.path.isfile(file_path):
@@ -240,7 +242,6 @@ class SymbolsChecker:
                     "item": symbol_data["Name"],
                     "message": f"Invalid datasheet URI {datasheet} {caller}"
                 })
-
             else:
                 t = threading.Thread(target=cls._check_datasheet_uri,
                                      args=(symbol_data["Name"], datasheet, report_messages))
