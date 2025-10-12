@@ -47338,8 +47338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/93LC56B.pdf"
+			(at 0 -58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47440,8 +47440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/macronix/MX25L3233F.pdf"
+			(at 5.08 -60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47476,7 +47476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MXIC(Macronix)"
+		(property "Manufacturer" "Macronix"
 			(at 5.08 -50.8 0)
 			(effects
 				(font
@@ -47534,7 +47534,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:bga324_pitch0.8_15.0x15.0mm"
-			(at -27.94 20.32 0)
+			(at -27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47542,8 +47542,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/amd_xilinx/XC7A_series.pdf"
+			(at -27.94 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47561,7 +47561,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at -27.94 25.4 0)
+			(at -27.94 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47570,7 +47570,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at -27.94 22.86 0)
+			(at -27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47579,7 +47579,7 @@
 			)
 		)
 		(property "Manufacturer" "AMD/XILINX"
-			(at -27.94 17.78 0)
+			(at -27.94 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47588,7 +47588,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "XC7A35T-2CSG325C"
-			(at -27.94 15.24 0)
+			(at -27.94 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47597,7 +47597,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at -27.94 12.7 0)
+			(at -27.94 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47606,7 +47606,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C1521720"
-			(at -27.94 10.16 0)
+			(at -27.94 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
