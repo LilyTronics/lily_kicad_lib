@@ -45264,108 +45264,6 @@
 			)
 		)
 	)
-	(symbol "con_terminal_screw_1x04_3.5mm_th"
-		(extends "con_1x04")
-		(property "Reference" "X"
-			(at -8.89 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "con_terminal_screw_1x04_3.5mm_th"
-			(at -8.89 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:con_terminal_screw_1x04p_3.5mm_th"
-			(at -5.08 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at -5.08 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at -5.08 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
-			(at -5.08 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "TODO"
-			(at -5.08 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at -5.08 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at -5.08 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol "con_terminal_socket_male_10p_3.81mm_right_angle_th"
 		(extends "con_1x10")
 		(property "Reference" "X"
@@ -45395,7 +45293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/phoenix_contact/MC_1,5_10-G-3,81.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45497,7 +45395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/USB-B-S-RA.pdf"
 			(at 7.62 13.335 0)
 			(effects
 				(font
@@ -45533,7 +45431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity"
+		(property "Manufacturer" "Multicomp"
 			(at -11.43 -30.48 0)
 			(effects
 				(font
@@ -45542,7 +45440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "292304-1"
+		(property "Manufacturer_ID" "USB-B-S-RA"
 			(at -11.43 -33.02 0)
 			(effects
 				(font
@@ -45560,7 +45458,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C86462"
+		(property "JLCPCB_ID" "NO_ID"
 			(at -11.43 -38.1 0)
 			(effects
 				(font
@@ -45599,7 +45497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/shouhan/TYPE-C_16PIN_2MD_073.pdf"
 			(at 7.62 13.335 0)
 			(effects
 				(font
@@ -45901,8 +45799,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/seiko_epson/SG3225CAN_X1G0059610010.pdf"
+			(at 10.16 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45937,7 +45835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Seiko Epson"
 			(at 10.16 -30.48 0)
 			(effects
 				(font
@@ -45946,7 +45844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "X1G0059610010"
 			(at 10.16 -33.02 0)
 			(effects
 				(font
@@ -45964,7 +45862,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C7472818"
 			(at 10.16 -38.1 0)
 			(effects
 				(font
@@ -45974,7 +45872,7 @@
 			)
 		)
 	)
-	(symbol "dio_led_green_KT-0805G_0805"
+	(symbol "dio_led_green_KP-2012CGCK_0805"
 		(extends "dio_led")
 		(property "Reference" "D"
 			(at 4.445 -2.54 0)
@@ -45985,7 +45883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KT-0805G"
+		(property "Value" "KP-2012CGCK"
 			(at 4.445 -5.08 0)
 			(effects
 				(font
@@ -46003,8 +45901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -3.81 90)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf"
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46039,7 +45937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Hubei KENTO Elec"
+		(property "Manufacturer" "Kingbright"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -46048,7 +45946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "KT-0805G"
+		(property "Manufacturer_ID" "KP-2012CGCK"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -46066,7 +45964,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C2297"
+		(property "JLCPCB_ID" "C598271"
 			(at 0 -30.48 0)
 			(effects
 				(font
@@ -46178,7 +46076,7 @@
 			)
 		)
 	)
-	(symbol "dio_led_red_KT-0805R_0805"
+	(symbol "dio_led_red_KP-2012EC_0805"
 		(extends "dio_led")
 		(property "Reference" "D"
 			(at 4.445 -2.54 0)
@@ -46189,7 +46087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KT-0805R"
+		(property "Value" "KP-2012EC"
 			(at 4.445 -5.08 0)
 			(effects
 				(font
@@ -46207,8 +46105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -3.81 90)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012EC.pdf"
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46243,7 +46141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Hubei KENTO Elec"
+		(property "Manufacturer" "Kingbright"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -46252,7 +46150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "KT-0805R"
+		(property "Manufacturer_ID" "KP-2012EC"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -46270,7 +46168,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C2295"
+		(property "JLCPCB_ID" "C598272"
 			(at 0 -30.48 0)
 			(effects
 				(font
