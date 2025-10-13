@@ -20,4 +20,6 @@ For components with multiple value from the same series, use one datasheet (e.g.
 
 In KiCad set the datasheet field of the part to:
 
+```
 https://lilytronics.github.io/lily_kicad_lib/datasheets/manufacturer/part_name.pdf
+```
