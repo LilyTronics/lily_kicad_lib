@@ -47644,8 +47644,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -15.24 15.24 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/TXB0104.pdf"
+			(at 10.16 -55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47746,8 +47746,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -11.43 11.43 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/ATMEGA48_88_168PB.pdf"
+			(at 15.24 -78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47848,8 +47848,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -11.43 11.43 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/ATMEGA328PB.pdf"
+			(at 15.24 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47950,7 +47950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/ATMEGA32A.pdf"
 			(at -11.43 11.43 0)
 			(effects
 				(font
@@ -48052,8 +48052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/TLV271_272_274.pdf"
+			(at 7.62 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48154,8 +48154,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -5.08 90)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/LM335.pdf"
+			(at 0 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48256,8 +48256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/NE555.pdf"
+			(at 12.7 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48329,7 +48329,7 @@
 			)
 		)
 	)
-	(symbol "ic_transceiver_rs485_half_duplex_SN75176_soic8"
+	(symbol "ic_transceiver_rs485_half_duplex_SN75176B_soic8"
 		(extends "ic_transceiver_rs485_half_duplex")
 		(property "Reference" "U"
 			(at 12.7 8.89 0)
@@ -48340,7 +48340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN75176"
+		(property "Value" "SN75176B"
 			(at 12.7 6.35 0)
 			(effects
 				(font
@@ -48358,8 +48358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/SN75176B.pdf"
+			(at 10.16 -53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48460,8 +48460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -11.43 11.43 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/TUSB4041I.pdf"
+			(at 27.94 -116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48560,8 +48560,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/ftdi/FT2232H.pdf"
+			(at 25.4 -137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48660,8 +48660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/ftdi/FT2232H.pdf"
+			(at 25.4 -137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48760,8 +48760,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/ftdi/FT231X.pdf"
+			(at 17.78 -73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48862,8 +48862,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/REF30_series.pdf"
+			(at 10.16 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48956,7 +48956,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:sot23-6_sc74"
-			(at 12.7 -43.18 0)
+			(at 12.7 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48964,8 +48964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/AP62200.pdf"
+			(at 12.7 -53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48983,7 +48983,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 12.7 -38.1 0)
+			(at 12.7 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48992,7 +48992,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 12.7 -40.64 0)
+			(at 12.7 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49001,7 +49001,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 12.7 -45.72 0)
+			(at 12.7 -43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49010,7 +49010,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "AP62200WU-7"
-			(at 12.7 -48.26 0)
+			(at 12.7 -45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49019,7 +49019,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 12.7 -50.8 0)
+			(at 12.7 -48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49028,7 +49028,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C1323282"
-			(at 12.7 -53.34 0)
+			(at 12.7 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49037,7 +49037,7 @@
 			)
 		)
 	)
-	(symbol "ic_volt_reg_AZ1117_sot223"
+	(symbol "ic_volt_reg_AZ1117C_sot223"
 		(extends "ic_volt_reg_linear_adjustable_3p")
 		(property "Reference" "U"
 			(at 5.08 7.62 0)
@@ -49048,7 +49048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AZ1117"
+		(property "Value" "AZ1117C"
 			(at 5.08 5.08 0)
 			(effects
 				(font
@@ -49066,8 +49066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/AZ1117C.pdf"
+			(at 10.16 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49111,7 +49111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "AZ1117H-ADJTRG1"
+		(property "Manufacturer_ID" "AZ1117CH-ADJTRG1"
 			(at 10.16 -27.94 0)
 			(effects
 				(font
@@ -49129,7 +49129,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C110475"
+		(property "JLCPCB_ID" "C95398"
 			(at 10.16 -33.02 0)
 			(effects
 				(font
@@ -49168,8 +49168,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/TPS5430.pdf"
+			(at 12.7 -55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49270,8 +49270,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/TPS82130.pdf"
+			(at 12.7 -60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49372,8 +49372,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
+			(at 3.81 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49529,8 +49529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/ACM90V-701-2PL.pdf"
+			(at 5.08 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49574,7 +49574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "ACM9070-701-2PL-TL01"
+		(property "Manufacturer_ID" "ACM90V-701-2PL-TL00"
 			(at 5.08 -15.24 0)
 			(effects
 				(font
@@ -49592,7 +49592,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C14594"
+		(property "JLCPCB_ID" "C87510"
 			(at 5.08 -20.32 0)
 			(effects
 				(font
@@ -49902,7 +49902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/DMG3406L.pdf"
 			(at -5.08 -2.54 0)
 			(effects
 				(font
@@ -49975,210 +49975,6 @@
 			)
 		)
 	)
-	(symbol "mosfet_n_VBZA4800_soic8"
-		(extends "mosfet_n_8p_soic8")
-		(property "Reference" "Q"
-			(at 8.89 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBZA4800"
-			(at 8.89 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:soic8"
-			(at 5.08 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -5.08 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 5.08 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 5.08 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
-			(at 5.08 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "TODO"
-			(at 5.08 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 5.08 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 5.08 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol "mosfet_p_CEM3083_soic8"
-		(extends "mosfet_p_8p_soic8")
-		(property "Reference" "Q"
-			(at 8.89 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CEM3083"
-			(at 8.89 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:soic8"
-			(at 5.08 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -5.08 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 5.08 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 5.08 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
-			(at 5.08 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "TODO"
-			(at 5.08 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 5.08 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 5.08 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol "mosfet_p_DMP3028LFDE_sot1220"
 		(extends "mosfet_p_8p")
 		(property "Reference" "Q"
@@ -50208,8 +50004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -2.54 -2.54 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/DMP3028LFDE.pdf"
+			(at 5.08 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50310,7 +50106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/3313.pdf"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -50412,8 +50208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 -3.81 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/PE2512FKE7W.pdf"
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
