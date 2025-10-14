@@ -219,7 +219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -255,6 +255,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c8d17c9-1db0-4d53-bf3a-a479dfc43bd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8800cd6-6b1d-4cba-a838-f4ae518f396b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "MPZ2012S601AT000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b387f50-3f5e-4557-acf3-b5aaf4674b8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c32874c6-e473-4bc1-b2d1-5664e917dda4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C21519"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb1650f8-6788-4465-85d5-88b6bc7dd0f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -433,7 +498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -469,6 +534,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "498c4b9b-0b50-4a16-9d55-1a40a27e8a2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b918fdc-7372-4ed6-83c5-67750a38d334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9a747df-6de5-4272-bf72-9f88e7ca60fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec4182c9-9e02-4bac-a458-cdc16dd25704")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C107118"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "449adc65-2afb-4a07-9533-8815d1a64006")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -647,7 +777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21B105KBFNNN.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -683,6 +813,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c2ccdca-05a1-4532-a752-d5e8ad8948ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf3cff94-4f1f-4c20-9de6-ddb2306ce4f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CL21B105KBFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b531bbbc-0323-43af-8809-dd4be15e03b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7196f126-3634-4750-81c4-15d0256caefa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C28323"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b02f6a4-e578-4e7d-b51b-6533a93500ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -861,7 +1056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -897,6 +1092,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05ceba0d-a8cb-4970-b4a3-6bed0e7cd689")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2434a717-6cf0-4fa2-870d-f7eca77e7fd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-07470RL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7deb587-a26b-47e7-b69c-e57e7a354894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40d861bc-69f1-4445-8c77-f8dd4edc9835")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C114564"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fe5703c-6c6b-4eca-80de-5f1ca4457941")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1077,7 +1337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/seiko_epson/TSX-3225_X1E0000210119.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1113,6 +1373,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "824b1561-7185-4836-8dc1-27186e4bd036")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Seiko Epson"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d14f1f5d-eaea-4d6c-b676-ff7dcea378e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "X1E0000210119"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "525a9b52-5d96-4f55-bc66-07811c74d0aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c5b8205-18be-44f4-8918-d6d8c76ccf67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C89371"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b5fac4f-07aa-43b0-8bba-345a106320b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1245,7 +1570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1281,6 +1606,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd3b9444-7c68-46d3-921e-a81599e1c2d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ff9be1d-c764-4ec5-86cc-9ff8f92d77c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-074K7L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c33bc4f-8388-421b-b1eb-a5e800cdc85c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de35f604-bf0b-419e-8aaf-a84281e558bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C60816"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b83400f2-fcdd-476f-af33-254bf4c54cd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1459,7 +1849,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1495,6 +1885,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce8bea67-5f5b-47e8-b51f-93e968b1d877")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a46aa495-efa9-4c88-8988-1a9808f23726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805JRNPO9BN220"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7aee21d7-76c3-4018-bde4-fe7502947ee7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32887393-0a24-40d7-832c-5c1fbc551ee6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C105623"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2107d7f0-ae8e-4e5b-95eb-3bfacf9c4bff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1673,7 +2128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1709,6 +2164,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a909fd47-1623-4485-b6ce-ac59cf02d8c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63b36ad5-9068-4c15-9418-f857c9635656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805JRNPO9BN220"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2fd89ee-4b64-4f3d-8cba-55b8ac7a8846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1e22547-317a-4faf-b216-25a17fbb59ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C105623"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02cafd8f-f0d9-43a7-844c-360815d7c320")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1887,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1923,6 +2443,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1373649-94e6-4ef6-8991-9feba18c9e97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae1e2991-e09a-4c9e-8952-1f2549d5b674")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20b09a58-4ed6-4934-add5-bff88ec5b022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5499f94b-8237-4c33-9b18-53e355980f8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8460d6da-1a55-4241-a039-e09b821ded6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2101,7 +2686,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2137,6 +2722,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f9b77ef-0572-4e40-8cfa-5d1286431b58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd267eb4-de91-42b5-9f8e-d6dc727e6d43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "KP-2012CGCK"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca65594f-ddc1-4268-bbee-8b4a381fbf87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a616d03d-a20a-4bb4-9cd8-6cc1101d98b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C598271"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56e5015f-138a-4487-89ac-7bf28d1bea51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2357,7 +3007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2393,6 +3043,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62ce0045-800f-4a25-ae25-7592650ac7fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66698260-a070-4aaa-82eb-a932d9bc2c96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbfca4d0-39bc-44dc-9469-659f86e3e85f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a87f897-2699-412d-af8f-a58e06a517c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C84375"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f2c8019-4718-435d-943f-25528fdef2df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2571,7 +3286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A475KAQNNN.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2607,6 +3322,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39c3e07e-a6ed-4294-adf8-e9184d517b89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a835c84-0c1f-4e84-9d14-747ef3b02bb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CL21A475KAQNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d77c0cc3-eaeb-4201-b02c-3f2709cd46a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1712330a-74e8-42a0-bf23-4e726350a272")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C1779"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "702e473d-1670-4aab-a40b-6be80e2feea5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2785,7 +3565,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2821,6 +3601,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a55a33b7-a6d5-4cd1-804f-ca1bed3f525c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06c229f6-cb5c-4bad-84cf-605323ab86c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-071KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bdefdfb-47a7-419f-94a9-654c93cea26b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f06a31e-e81a-46b4-8b10-be2f289cbc4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C95781"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75124c63-a883-4d5b-baee-a962f12674b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2999,7 +3844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SRV05-4.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3035,6 +3880,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e069fc0-5c5b-4c3b-9cc9-df9ef43146c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f3d5b37-754b-4d6a-9a25-f6da28dbfcee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "SRV05-4HTG-D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b0cdb63-e907-46fb-b421-8d2ca10c6589")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbde7a1e-cdeb-4e14-958b-e03f89b0bdfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C1975211"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62a887b7-a0bc-4611-a7df-8b837c8316ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3452,7 +4362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3488,6 +4398,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd8ec60b-73e5-498f-871e-a482b03ef0c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a012e4af-4337-4462-81b1-7fbea1581df0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-0727RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b5c41c6-505a-4c21-ace3-d70a545a1f00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89e69b08-c15e-4514-b453-a65b1017de12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C163408"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44464781-948e-4fc7-ae61-7f6f0b53261c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3666,7 +4641,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/shouhan/TYPE-C_16PIN_2MD_073.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3702,6 +4677,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a0890cb-2b4c-4216-befe-73346735e2b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c89e13c0-d7f3-4025-88ad-3a1295fee506")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "TYPE-C 16PIN 2MD(073)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ff72d95-6fa4-4aa9-a9cf-2b5e1d604212")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cacf75c4-c836-44ef-8bfd-060ac59d34c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C2765186"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a93b7a12-86f5-4180-972f-a1db59fdcef6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3793,7 +4833,7 @@
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin 0)
-			(uuid "0e791920-7dbc-49b4-acff-9422c13204ea")
+			(uuid "e04a54c9-c63b-4401-91e4-9f32f4cbd69c")
 		)
 		(pad "1" thru_hole oval
 			(at 4.32 -3.105 270)
@@ -3806,7 +4846,7 @@
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin 0)
-			(uuid "0e791920-7dbc-49b4-acff-9422c13204ea")
+			(uuid "c605d78b-a572-4baa-9d48-6340fe5ffe6d")
 		)
 		(pad "1" thru_hole oval
 			(at 4.32 1.075 270)
@@ -3819,7 +4859,7 @@
 			(pintype "passive")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin 0)
-			(uuid "0e791920-7dbc-49b4-acff-9422c13204ea")
+			(uuid "47fb705d-0a88-430f-b9b4-41d43dc5f82a")
 		)
 		(pad "A1" smd rect
 			(at -3.35 -3.8 270)
@@ -4037,7 +5077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21B105KBFNNN.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4073,6 +5113,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b835f0b8-5cfe-4f26-917c-1e5d33a55d9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a117d573-b2ba-46ea-a3e8-b1127dcdc42b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CL21B105KBFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf144a9b-d2b5-4610-9f81-2f64ec68bf35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37436e24-93ed-4dcf-8253-56e8c8359b00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C28323"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d588dff-55df-47db-9611-de4fa4ddb6dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4251,7 +5356,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4287,6 +5392,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fb8fbcd-583e-4ad2-a987-972d08fbaa8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "492a18b8-6601-49d3-bf46-8696894e2701")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-07470RL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14e4ee98-5f4f-406b-b46f-77c22034ad3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4f9071e-5084-41bf-874d-166c822a169e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C114564"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67fb04fe-2f7b-4f16-a6e7-6c9e8daf7634")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4465,7 +5635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4501,6 +5671,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20810628-a3be-4b09-80b0-f441088b3b4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5938163a-fe7c-480d-a41a-772d09040818")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-0727RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c30942d1-0cb8-4bc5-a1d0-c7c283b0f467")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9a5f91a-1b0c-40a6-bff4-588df5388f3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C163408"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ab0b026-5dd4-4e49-8ecb-f6676f87058a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4679,7 +5914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4715,6 +5950,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a14a6f14-6a3f-41fc-88ba-3687423fcfb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a3c0dc2-214f-42d0-b15d-f7f7f26beb7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e97abe4c-7283-4f4c-9f5d-4793c2256566")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e400bf7f-0426-4be1-baba-fcbf6e4dbef4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "141b9229-503f-4866-a000-c258e596c676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4893,7 +6193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4929,6 +6229,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63ef4c39-ceb7-4292-9cc8-5b74e07803a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d35a299-3f2e-46d5-9473-fce78b95be78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "MPZ2012S601AT000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b9817a-5892-4671-bbe8-8c10fe0d4e3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ecbed86-a277-438f-9f69-4d03c52f827e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C21519"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "691c0f7b-68b4-4275-b359-18abd93afbcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5107,7 +6472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5143,6 +6508,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4077cbf4-714c-4cb6-a9ee-b7222864029d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e1226d6-2b20-4125-9615-318d89a18204")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-071KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6801e8da-f3b7-41a0-9587-7f845df84f67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6559918-1d23-4679-890b-b72d8a289aaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C95781"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2147a35e-d8bd-49ec-b7d4-8be94b546a39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5323,7 +6753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/ATMEGA328PB.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5359,6 +6789,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a348bb66-5aed-4c4a-ab94-dbd81b5b8a86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Tech"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65818839-fe47-4ba9-9554-604c061bab64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "ATMEGA328PB-AU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca27b178-14d7-4c63-92be-18198dffb657")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7820b2c-672e-4f9d-895c-a1fe8c17869c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C132230"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aea3c04e-22c7-4f14-8331-bca020ee8998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6168,7 +7663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6204,6 +7699,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "704d0667-7d3b-4963-9d0d-ad4ac5c8959a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01625c76-5208-4bd4-96c1-d477bcbeb3bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd3ea072-25a0-4e3e-8fff-5b81d34a5cac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d31a64c0-580f-432e-904b-a54135cc7261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b071b502-ee09-4b5a-aca3-69af24acb923")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6382,7 +7942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6418,6 +7978,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ec6a102-8ead-4e31-b3eb-5e8501601ed9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8c990af-0da6-4445-91dd-45a4fc7084e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-071KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6912351f-eaea-43f6-85d4-062b65b1a03c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7993a5d2-624d-482f-9c1e-4efb2c8a6c60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C95781"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5c614ab-c811-4739-8deb-2966ac432300")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6596,7 +8221,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6632,6 +8257,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b358b46e-8174-4ad1-83e8-a51635317a5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ab70cf6-1c3d-443c-8d03-c2f3e22267c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a46cbc3-e73a-401d-acec-cc85a12f0002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "040fe35e-5de3-4c59-9272-566ef8909037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C83170"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa9ac2c0-7c3e-445f-b333-c68d9fe0cc5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6810,7 +8500,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6846,6 +8536,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddd15c3b-fa2c-4275-befc-9258343379b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a82e9431-559c-4ffe-b504-dc05f626f824")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-07220RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61d2d382-46e9-4279-a3fd-5165b687bd65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6c703a5-2eaf-4f3c-af6d-3f92967931f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C114519"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2522ca57-f256-44b7-8708-089e257993e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7024,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/ftdi/FT231X.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7060,6 +8815,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf119ddd-52c6-4d67-be63-a988d19299f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FTDI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2a81acc-590d-41f8-9ba4-6ca7b59d30b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "FT231XS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d55c3d68-f0a0-4e75-befa-49faac0291bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e357034-a4e8-4c9a-b115-2ccd24cdcbc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C132160"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e51e10d-db18-459e-8589-cb21289c0c42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8031,7 +9851,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8067,6 +9887,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ce4d939-6aaa-4395-b6a6-ce267fb9da79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e527cc93-76be-4d38-8e6e-80262f554369")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec15cc3f-8d56-42db-8c3b-6d6aae0a0e33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79e7d287-b661-4ace-9112-ecaf919fc97c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C107118"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5994dd7d-e1f5-4a9f-bdc5-b9d6c147bd89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8245,7 +10130,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8281,6 +10166,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c28a378-6230-4bd9-b5e2-25a54b147bcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87599879-d393-4a1d-a019-1138b30e4f70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-07220RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0c9a677-1a1a-49ff-8c3c-95991e3bf598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51c6524b-8ac3-4285-8da9-b38025480702")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C114519"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8d53364-dff6-48ec-a439-0b041327188c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8459,7 +10409,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8495,6 +10445,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d509067-dfff-4907-984f-d476bbc41f2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d561826f-df1f-47a1-a610-67124c085ce1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d9c3faa-d01b-40c7-a8f5-4b69513956bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "246f9742-10e0-41c2-9d93-827a6a349715")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee8f0ff0-5593-4dde-96bc-7c96ee24c863")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8673,7 +10688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8709,6 +10724,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "774640d6-1f13-4766-aaf7-efba807ef322")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a95712cd-610c-4f4e-a09a-25acd12b8281")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-07220RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "813f0ee2-8aa8-4a69-bf85-a14db111d4b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba070d26-ba7c-4718-874d-91726ce5257b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C114519"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c5ecf89-5b8b-4372-a18a-553a185f462e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8887,7 +10967,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MMBT2222.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8923,6 +11003,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8020662-2ef1-4b4e-a2f2-88bba01e5d28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b18de8f4-0132-454a-8444-b0683ba2e0d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "MMBT2222ALT1G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "845c2421-7c0d-4edc-81f3-b5f47d305dc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc6e2291-c20e-417e-bed6-ea54a8fe5ee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C82460"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "209c5944-f2ef-44a8-b48a-e7bd7a8b4170")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9163,7 +11308,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9199,6 +11344,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "711b3d79-a807-42da-9640-5910b0ede2fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b6b5ed4-7a12-4a24-aea8-491e5ab39752")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-07220RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41499c3c-0da9-43af-a584-34f74d06f5ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b0de723-383d-4cbb-8479-0d319fc485b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C114519"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "195f5241-80b3-4ee7-b88b-8c5fe8449268")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9377,7 +11587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9413,6 +11623,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90679281-8edf-4e47-b6d9-f775ea76b0a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de451f16-049b-4872-8599-45d239283709")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b2cddf-5c9d-4b3f-aeed-6972dd7a4e72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d385bcad-717a-4880-86f8-ee4d9f5c3293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdfbd613-d332-4b91-9233-216f00ebc9ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9591,7 +11866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9627,6 +11902,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f39efaa-adbf-4fcc-b9d7-524b76517698")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89928486-55cb-4921-b560-9cec5c3ece3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-074K7L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95fe0b05-dd5f-4c55-a218-e2d47edbd37f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75bef422-e2c9-4a18-87fe-f2eeeb83a04c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C60816"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5411759-1f51-4e3f-b444-dcc3744a2ea4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9805,7 +12145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/2213S-06G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9841,6 +12181,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb5100ac-b9a0-4e2d-9ab5-ceb928fd6746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Multicomp"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d50d60b-fba5-4af2-a9bb-0c34572a9927")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "2213S-06G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5302e9c8-61d2-4f4e-a11b-3ca9ecc078a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b98acdd-dcce-49df-bfa2-daf6210c21dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b61b70-71d6-4fe9-a613-07a274b040b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10271,7 +12676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10307,6 +12712,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ec398ec-a8ae-4617-ba8e-e3fa147c277c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c46ec8ba-152f-4b9f-b56c-528df7761e7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "KP-2012CGCK"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d31d4bd-806a-425e-96a9-3b9a52ec8816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d504ae6-cb46-4b91-971b-cc17c752a9f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C598271"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "274b24d6-4774-4ef2-98a3-04cdd4100f8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10527,7 +12997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/REF30_series.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10563,6 +13033,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "760a58bb-77b3-43ae-9cd6-07c10c2b8d45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3accbfd6-aea2-4497-a31a-b3a7ba85b30c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "REF3040AIDBZR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "900b3e3c-c534-42c6-9750-3ee63df0079a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5d7547d-3085-4151-a265-ff14e86b7abb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C19415"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7cabb33-c3f4-4c31-bc37-71d32f3411b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10806,7 +13341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10842,6 +13377,71 @@
 				(font
 					(size 0.5 0.5)
 					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7410b6f8-df2d-4fa9-acab-40012a54171f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ca7d11b-aee8-4362-8dc2-092aa28f1e64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "RC0805FR-075K1L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8678292c-0bfb-4acb-bf0a-c0c704fefd49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a98bb93-9a03-4dfd-865e-78b64890afba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C84375"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76d19c07-7e65-486d-8b5b-e3d683af098b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
