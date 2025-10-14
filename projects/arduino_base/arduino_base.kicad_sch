@@ -212,7 +212,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:bjt_npn_MMBT2222A_sot23"
+		(symbol "lily_symbols:bjt_npn_MMBT2222AL_sot23"
 			(pin_names
 				(hide yes)
 			)
@@ -228,7 +228,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT2222A"
+			(property "Value" "MMBT2222AL"
 				(at 6.35 -1.27 0)
 				(effects
 					(font
@@ -246,8 +246,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -5.08 -2.54 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MMBT2222.pdf"
+				(at 5.08 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -282,7 +282,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Jiangsu Changjing Electronics Technology"
+			(property "Manufacturer" "onsemi"
 				(at 5.08 -20.32 0)
 				(effects
 					(font
@@ -291,7 +291,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "MMBT2222A"
+			(property "Manufacturer_ID" "MMBT2222ALT1G"
 				(at 5.08 -22.86 0)
 				(effects
 					(font
@@ -309,7 +309,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C8512"
+			(property "JLCPCB_ID" "C82460"
 				(at 5.08 -27.94 0)
 				(effects
 					(font
@@ -318,16 +318,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 5.08 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "bjt_npn_MMBT2222A_sot23_0_1"
+			(symbol "bjt_npn_MMBT2222AL_sot23_0_1"
 				(polyline
 					(pts
 						(xy 2.54 2.54) (xy 2.54 -2.54)
@@ -389,7 +380,7 @@
 					)
 				)
 			)
-			(symbol "bjt_npn_MMBT2222A_sot23_1_1"
+			(symbol "bjt_npn_MMBT2222AL_sot23_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
@@ -477,7 +468,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -485,7 +476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -504,7 +495,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -513,15 +504,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TODO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -530,16 +512,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "NO_ID"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -548,8 +521,26 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C49678"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -653,7 +644,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -661,7 +652,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -680,7 +671,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -689,15 +680,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TODO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -706,16 +688,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "NO_ID"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -724,8 +697,26 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB103"
 				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C83170"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -829,7 +820,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -837,8 +828,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21B105KBFNNN.pdf"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -856,7 +847,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -865,15 +856,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TODO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -882,16 +864,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "NO_ID"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -900,8 +873,26 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "Manufacturer_ID" "CL21B105KBFNNNE"
 				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C28323"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1005,7 +996,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1013,7 +1004,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1032,7 +1023,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1041,15 +1032,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TODO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1058,16 +1040,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "NO_ID"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1076,8 +1049,26 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN220"
 				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C105623"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1189,7 +1180,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1225,7 +1216,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1234,7 +1225,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN470"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -1252,7 +1243,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C107118"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -1357,7 +1348,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1365,8 +1356,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A475KAQNNN.pdf"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1384,7 +1375,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1393,15 +1384,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TODO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1410,16 +1392,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "NO_ID"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1428,8 +1401,26 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "Manufacturer_ID" "CL21A475KAQNNNE"
 				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C1779"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1538,8 +1529,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/2213S-06G.pdf"
+				(at -5.08 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1574,8 +1565,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
-				(at -4.445 -22.86 0)
+			(property "Manufacturer" "Multicomp"
+				(at -5.08 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1583,7 +1574,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "2213S-06G"
 				(at -5.08 -25.4 0)
 				(effects
 					(font
@@ -1904,7 +1895,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/shouhan/TYPE-C_16PIN_2MD_073.pdf"
 				(at 7.62 13.335 0)
 				(effects
 					(font
@@ -1940,7 +1931,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "SHOU HAN"
 				(at -12.7 -68.58 0)
 				(effects
 					(font
@@ -1949,7 +1940,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "TYPE-C 16PIN 2MD(073)"
 				(at -12.7 -71.12 0)
 				(effects
 					(font
@@ -1967,7 +1958,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C2765186"
 				(at -12.7 -76.2 0)
 				(effects
 					(font
@@ -2383,7 +2374,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:crystal_16MHz_20ppm_8pF_3225"
+		(symbol "lily_symbols:crystal_16MHz_12pF_10ppm_20ppm_3225"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2412,8 +2403,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -5.08 7.62 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/seiko_epson/TSX-3225_X1E0000210119.pdf"
+				(at 3.81 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2448,7 +2439,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "Seiko Epson"
 				(at 3.81 -12.7 0)
 				(effects
 					(font
@@ -2457,7 +2448,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "X1E0000210119"
 				(at 3.81 -15.24 0)
 				(effects
 					(font
@@ -2467,7 +2458,7 @@
 				)
 			)
 			(property "Lily_ID" "NO_ID"
-				(at 3.175 -17.78 0)
+				(at 3.81 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2475,7 +2466,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C89371"
 				(at 3.81 -20.32 0)
 				(effects
 					(font
@@ -2484,7 +2475,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "crystal_16MHz_20ppm_8pF_3225_0_1"
+			(symbol "crystal_16MHz_12pF_10ppm_20ppm_3225_0_1"
 				(polyline
 					(pts
 						(xy 2.54 1.27) (xy 2.54 -1.27)
@@ -2521,7 +2512,7 @@
 					)
 				)
 			)
-			(symbol "crystal_16MHz_20ppm_8pF_3225_1_1"
+			(symbol "crystal_16MHz_12pF_10ppm_20ppm_3225_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
@@ -2599,7 +2590,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:dio_led_green_KT-0805G_0805"
+		(symbol "lily_symbols:dio_led_green_KP-2012CGCK_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2619,7 +2610,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "KT-0805G"
+			(property "Value" "KP-2012CGCK"
 				(at 4.445 -5.08 0)
 				(effects
 					(font
@@ -2637,8 +2628,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -3.81 90)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2673,7 +2664,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "Kingbright"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -2682,7 +2673,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "KP-2012CGCK"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -2700,7 +2691,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C598271"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -2709,7 +2700,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "dio_led_green_KT-0805G_0805_0_1"
+			(symbol "dio_led_green_KP-2012CGCK_0805_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy -1.27 -2.54) (xy 0 -5.08) (xy 1.27 -2.54)
@@ -2783,7 +2774,7 @@
 					)
 				)
 			)
-			(symbol "dio_led_green_KT-0805G_0805_1_1"
+			(symbol "dio_led_green_KP-2012CGCK_0805_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 2.54)
@@ -2854,8 +2845,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -15.24 15.24 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SRV05-4.pdf"
+				(at 10.16 -43.18 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2890,7 +2881,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "Littelfuse"
 				(at 10.16 -33.02 0)
 				(effects
 					(font
@@ -2899,7 +2890,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "SRV05-4HTG-D"
 				(at 10.16 -35.56 0)
 				(effects
 					(font
@@ -2917,7 +2908,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C1975211"
 				(at 10.16 -40.64 0)
 				(effects
 					(font
@@ -3051,7 +3042,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:ic_micro_controller_ATMEGA328P_tqfp32"
+		(symbol "lily_symbols:ic_micro_controller_ATMEGA328PB_tqfp32"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3064,7 +3055,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ATMEGA328P"
+			(property "Value" "ATMEGA328PB"
 				(at 20.32 8.89 0)
 				(effects
 					(font
@@ -3082,8 +3073,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -11.43 11.43 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/ATMEGA328PB.pdf"
+				(at 15.24 -81.28 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3118,7 +3109,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "Microchip Tech"
 				(at 15.24 -71.12 0)
 				(effects
 					(font
@@ -3127,7 +3118,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "ATMEGA328PB-AU"
 				(at 15.24 -73.66 0)
 				(effects
 					(font
@@ -3145,7 +3136,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C132230"
 				(at 14.605 -78.74 0)
 				(effects
 					(font
@@ -3154,7 +3145,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ic_micro_controller_ATMEGA328P_tqfp32_0_1"
+			(symbol "ic_micro_controller_ATMEGA328PB_tqfp32_0_1"
 				(rectangle
 					(start 3.81 6.35)
 					(end 26.67 -49.53)
@@ -3167,7 +3158,7 @@
 					)
 				)
 			)
-			(symbol "ic_micro_controller_ATMEGA328P_tqfp32_1_1"
+			(symbol "ic_micro_controller_ATMEGA328PB_tqfp32_1_1"
 				(pin bidirectional line
 					(at 0 0 0)
 					(length 3.81)
@@ -3438,42 +3429,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -40.64 0)
-					(length 3.81)
-					(name "ADC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -43.18 0)
-					(length 3.81)
-					(name "ADC7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 12.7 10.16 270)
 					(length 3.81)
@@ -3494,42 +3449,6 @@
 				)
 				(pin power_in line
 					(at 12.7 -53.34 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 10.16 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -53.34 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -3726,6 +3645,78 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 30.48 -22.86 180)
+					(length 3.81)
+					(name "PE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -25.4 180)
+					(length 3.81)
+					(name "PE1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -27.94 180)
+					(length 3.81)
+					(name "PE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -30.48 180)
+					(length 3.81)
+					(name "PE3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 30.48 -38.1 180)
 					(length 3.81)
@@ -3747,7 +3738,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:ic_usb_to_serial_FT231_ssop20"
+		(symbol "lily_symbols:ic_usb_to_serial_FT231XS_ssop20"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3762,7 +3753,7 @@
 					)
 				)
 			)
-			(property "Value" "FT231"
+			(property "Value" "FT231XS"
 				(at 17.78 -7.62 0)
 				(effects
 					(font
@@ -3779,8 +3770,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/ftdi/FT231X.pdf"
+				(at 17.78 -73.66 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3815,7 +3806,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "FTDI"
 				(at 17.78 -63.5 0)
 				(effects
 					(font
@@ -3824,7 +3815,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "FT231XS"
 				(at 17.78 -66.04 0)
 				(effects
 					(font
@@ -3842,7 +3833,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C132160"
 				(at 17.78 -71.12 0)
 				(effects
 					(font
@@ -3851,7 +3842,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ic_usb_to_serial_FT231_ssop20_0_1"
+			(symbol "ic_usb_to_serial_FT231XS_ssop20_0_1"
 				(rectangle
 					(start 3.81 8.89)
 					(end 31.75 -39.37)
@@ -3864,7 +3855,7 @@
 					)
 				)
 			)
-			(symbol "ic_usb_to_serial_FT231_ssop20_1_1"
+			(symbol "ic_usb_to_serial_FT231XS_ssop20_1_1"
 				(pin bidirectional line
 					(at 0 0 0)
 					(length 3.81)
@@ -4228,7 +4219,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:ic_volt_reference_RS3112-4.096X_sot23"
+		(symbol "lily_symbols:ic_volt_reference_REF3040_4.096V_sot23"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4236,7 +4227,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 2.54 7.62 0)
+				(at 5.08 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4244,8 +4235,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "RS3112-4.096X"
-				(at 2.54 5.08 0)
+			(property "Value" "REF3040"
+				(at 5.08 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4262,8 +4253,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/REF30_series.pdf"
+				(at 10.16 -38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4298,7 +4289,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "Texas Instruments"
 				(at 10.16 -27.94 0)
 				(effects
 					(font
@@ -4307,7 +4298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "REF3040AIDBZR"
 				(at 10.16 -30.48 0)
 				(effects
 					(font
@@ -4325,7 +4316,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C19415"
 				(at 10.16 -35.56 0)
 				(effects
 					(font
@@ -4334,7 +4325,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ic_volt_reference_RS3112-4.096X_sot23_0_1"
+			(symbol "ic_volt_reference_REF3040_4.096V_sot23_0_1"
 				(rectangle
 					(start 3.81 2.54)
 					(end 16.51 -6.35)
@@ -4347,7 +4338,7 @@
 					)
 				)
 			)
-			(symbol "ic_volt_reference_RS3112-4.096X_sot23_1_1"
+			(symbol "ic_volt_reference_REF3040_4.096V_sot23_1_1"
 				(pin input line
 					(at 0 0 0)
 					(length 3.81)
@@ -4405,7 +4396,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:ind_bead_600R@100MHz_1A5_0R25_0805"
+		(symbol "lily_symbols:ind_bead_600R@100MHz_2A_0R1_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4417,23 +4408,25 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at 3.81 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "600R/0R25"
-				(at 3.81 -2.54 0)
+			(property "Value" "600R/0R1"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "lily_footprints:ind_0805"
-				(at 3.81 -10.16 0)
+				(at 3.81 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4441,8 +4434,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
+				(at 3.81 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4460,7 +4453,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 3.81 -5.08 0)
+				(at 3.81 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4469,7 +4462,7 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 3.81 -7.62 0)
+				(at 3.81 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4477,7 +4470,16 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "TDK"
+				(at 3.81 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "MPZ2012S601AT000"
 				(at 3.81 -12.7 0)
 				(effects
 					(font
@@ -4486,7 +4488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Lily_ID" "NO_ID"
 				(at 3.81 -15.24 0)
 				(effects
 					(font
@@ -4495,7 +4497,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "JLCPCB_ID" "C21519"
 				(at 3.81 -17.78 0)
 				(effects
 					(font
@@ -4504,16 +4506,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
-				(at 3.81 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ind_bead_600R@100MHz_1A5_0R25_0805_0_1"
+			(symbol "ind_bead_600R@100MHz_2A_0R1_0805_0_1"
 				(polyline
 					(pts
 						(xy 2.54 0.635) (xy 5.08 0.635)
@@ -4551,7 +4544,7 @@
 					)
 				)
 			)
-			(symbol "ind_bead_600R@100MHz_1A5_0R25_0805_1_1"
+			(symbol "ind_bead_600R@100MHz_2A_0R1_0805_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
@@ -4621,7 +4614,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:res_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4629,8 +4622,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4648,7 +4641,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4657,15 +4650,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TODO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -4674,16 +4658,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "NO_ID"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -4692,8 +4667,26 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "Manufacturer_ID" "RC0805FR-071KL"
 				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C95781"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4784,7 +4777,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:res_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4792,7 +4785,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4811,7 +4804,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4820,15 +4813,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TODO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -4837,16 +4821,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "NO_ID"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -4855,8 +4830,26 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "Manufacturer_ID" "RC0805FR-07220RL"
 				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C114519"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4955,7 +4948,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4991,7 +4984,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -5000,7 +4993,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "RC0805FR-0727RL"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -5018,7 +5011,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C163408"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -5118,7 +5111,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -5154,7 +5147,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -5163,7 +5156,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "RC0805FR-07470RL"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -5181,7 +5174,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C114564"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -5281,7 +5274,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -5317,7 +5310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -5326,7 +5319,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "RC0805FR-074K7L"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -5344,7 +5337,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C60816"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -5444,7 +5437,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -5480,7 +5473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TODO"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -5489,7 +5482,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TODO"
+			(property "Manufacturer_ID" "RC0805FR-075K1L"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -5507,7 +5500,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "NO_ID"
+			(property "JLCPCB_ID" "C84375"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -5832,7 +5825,7 @@
 		(uuid "c39996e3-e485-47b3-bd20-f7241186deda")
 	)
 	(junction
-		(at 248.92 71.12)
+		(at 251.46 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d07ca503-8030-469a-9a49-474c9373bfa9")
@@ -5860,18 +5853,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d92e4fe7-d5b8-46bc-bd58-c78d1d42b328")
-	)
-	(junction
-		(at 81.28 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd4f8fb9-3812-4620-8d47-56f6088699dc")
-	)
-	(junction
-		(at 210.82 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e09770ab-624b-42d3-a87e-af7e8aee0e71")
 	)
 	(junction
 		(at 96.52 45.72)
@@ -5947,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 170.18) (xy 81.28 172.72)
+			(xy 81.28 170.18) (xy 81.28 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6219,16 +6200,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 172.72) (xy 96.52 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ddcffb2-f8b3-44a5-9b27-72dfc7205d61")
-	)
-	(wire
-		(pts
 			(xy 218.44 55.88) (xy 231.14 55.88)
 		)
 		(stroke
@@ -6277,16 +6248,6 @@
 			(type default)
 		)
 		(uuid "34d93f90-598c-4d3e-8d08-9dbe1193f644")
-	)
-	(wire
-		(pts
-			(xy 213.36 177.8) (xy 213.36 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3624da8d-523b-406c-98f8-334ae807d9a6")
 	)
 	(wire
 		(pts
@@ -6470,13 +6431,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 68.58) (xy 248.92 71.12)
+			(xy 251.46 68.58) (xy 251.46 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c8c3433-26d8-42eb-a677-d7767eb21e7e")
+	)
+	(wire
+		(pts
+			(xy 243.84 78.74) (xy 251.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb53437-aa3b-4294-ab0d-7c58fa96b445")
 	)
 	(wire
 		(pts
@@ -6530,16 +6501,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 78.74) (xy 248.92 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5292fbea-5ec4-4463-a568-575650fc6187")
-	)
-	(wire
-		(pts
 			(xy 96.52 38.1) (xy 93.98 38.1)
 		)
 		(stroke
@@ -6567,16 +6528,6 @@
 			(type default)
 		)
 		(uuid "5718ee0b-ef2b-43c2-9ace-1cd2567637ad")
-	)
-	(wire
-		(pts
-			(xy 213.36 111.76) (xy 213.36 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "594a2810-eed7-46ad-bf8f-47a08eab7291")
 	)
 	(polyline
 		(pts
@@ -6618,26 +6569,6 @@
 			(type default)
 		)
 		(uuid "6076859b-9eca-4528-894a-dcf63686e26e")
-	)
-	(wire
-		(pts
-			(xy 210.82 109.22) (xy 210.82 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60c1a115-b618-41c0-bcc9-46287ddb2ac6")
-	)
-	(wire
-		(pts
-			(xy 243.84 71.12) (xy 248.92 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "613e1cbd-eade-4fc7-af57-819ae90d9b8d")
 	)
 	(wire
 		(pts
@@ -6731,16 +6662,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 172.72) (xy 96.52 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73349ff8-3516-4e95-95d1-9e6f2040150d")
-	)
-	(wire
-		(pts
 			(xy 190.5 139.7) (xy 198.12 139.7)
 		)
 		(stroke
@@ -6781,7 +6702,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 78.74) (xy 248.92 71.12)
+			(xy 251.46 78.74) (xy 251.46 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6898,6 +6819,16 @@
 			(type default)
 		)
 		(uuid "90864438-0d53-4021-87dc-fbb70f13cd0c")
+	)
+	(wire
+		(pts
+			(xy 243.84 71.12) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f60cf3-5a51-4b7b-9700-095dbd97a0f1")
 	)
 	(wire
 		(pts
@@ -7162,16 +7093,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 109.22) (xy 210.82 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b63f003b-f917-4b42-889c-b0ab76fe5a1e")
-	)
-	(wire
-		(pts
 			(xy 25.4 160.02) (xy 48.26 160.02)
 		)
 		(stroke
@@ -7372,16 +7293,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 172.72) (xy 81.28 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4dcdc08-e1c4-41e6-9114-43df9550ccf1")
-	)
-	(wire
-		(pts
 			(xy 96.52 33.02) (xy 96.52 35.56)
 		)
 		(stroke
@@ -7442,7 +7353,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 106.68) (xy 210.82 109.22)
+			(xy 210.82 106.68) (xy 210.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8537,7 +8448,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 81.28 190.5 0)
+			(at 81.28 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 81.28 179.07 0)
 			(effects
 				(font
@@ -8564,7 +8475,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 81.28 185.42 0)
+			(at 81.28 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8573,15 +8484,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 81.28 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 81.28 193.04 0)
 			(effects
 				(font
@@ -8590,16 +8492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 81.28 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 81.28 198.12 0)
 			(effects
 				(font
@@ -8608,8 +8501,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 			(at 81.28 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 81.28 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 81.28 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +8544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_usb_to_serial_FT231_ssop20")
+		(lib_id "lily_symbols:ic_usb_to_serial_FT231XS_ssop20")
 		(at 182.88 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8649,7 +8560,7 @@
 				)
 			)
 		)
-		(property "Value" "FT231"
+		(property "Value" "FT231XS"
 			(at 200.66 53.34 0)
 			(effects
 				(font
@@ -8666,8 +8577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 45.72 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/ftdi/FT231X.pdf"
+			(at 200.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +8613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "FTDI"
 			(at 200.66 109.22 0)
 			(effects
 				(font
@@ -8711,7 +8622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "FT231XS"
 			(at 200.66 111.76 0)
 			(effects
 				(font
@@ -8729,7 +8640,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C132160"
 			(at 200.66 116.84 0)
 			(effects
 				(font
@@ -8835,7 +8746,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 134.62 48.26 0)
+			(at 134.62 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 134.62 36.83 0)
 			(effects
 				(font
@@ -8862,7 +8773,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 134.62 43.18 0)
+			(at 134.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,15 +8782,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 134.62 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -8888,16 +8790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 134.62 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 134.62 55.88 0)
 			(effects
 				(font
@@ -8906,8 +8799,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
 			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C83170"
+			(at 134.62 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +8842,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:dio_led_green_KT-0805G_0805")
+		(lib_id "lily_symbols:dio_led_green_KP-2012CGCK_0805")
 		(at 243.84 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8940,7 +8851,7 @@
 		(dnp no)
 		(uuid "10560f2e-1086-4091-bda1-a58176081c57")
 		(property "Reference" "D2"
-			(at 236.22 66.04 90)
+			(at 233.68 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,8 +8859,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KT-0805G"
-			(at 236.22 68.58 90)
+		(property "Value" "KP-2012CGCK"
+			(at 233.68 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,8 +8877,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 240.03 71.12 90)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf"
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +8913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Kingbright"
 			(at 220.98 71.12 0)
 			(effects
 				(font
@@ -9011,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "KP-2012CGCK"
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -9029,7 +8940,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C598271"
 			(at 213.36 71.12 0)
 			(effects
 				(font
@@ -9054,7 +8965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_micro_controller_ATMEGA328P_tqfp32")
+		(lib_id "lily_symbols:ic_micro_controller_ATMEGA328PB_tqfp32")
 		(at 198.12 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9071,7 +8982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ATMEGA328P"
+		(property "Value" "ATMEGA328PB"
 			(at 218.44 113.03 0)
 			(effects
 				(font
@@ -9089,8 +9000,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 186.69 110.49 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/ATMEGA328PB.pdf"
+			(at 213.36 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Microchip Tech"
 			(at 213.36 193.04 0)
 			(effects
 				(font
@@ -9134,7 +9045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "ATMEGA328PB-AU"
 			(at 213.36 195.58 0)
 			(effects
 				(font
@@ -9152,7 +9063,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C132230"
 			(at 212.725 200.66 0)
 			(effects
 				(font
@@ -9302,8 +9213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 104.14 45.72 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SRV05-4.pdf"
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Littelfuse"
 			(at 129.54 93.98 0)
 			(effects
 				(font
@@ -9347,7 +9258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "SRV05-4HTG-D"
 			(at 129.54 96.52 0)
 			(effects
 				(font
@@ -9365,7 +9276,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C1975211"
 			(at 129.54 101.6 0)
 			(effects
 				(font
@@ -9437,7 +9348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 147.32 54.61 0)
 			(effects
 				(font
@@ -9473,7 +9384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 147.32 68.58 0)
 			(effects
 				(font
@@ -9482,7 +9393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
 			(at 147.32 71.12 0)
 			(effects
 				(font
@@ -9500,7 +9411,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C107118"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -9560,7 +9471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 227.33 78.74 0)
 			(effects
 				(font
@@ -9596,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -9605,7 +9516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "RC0805FR-07470RL"
 			(at 210.82 78.74 0)
 			(effects
 				(font
@@ -9623,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C114564"
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -9666,7 +9577,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 171.45 43.18 90)
+			(at 171.45 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +9594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 171.45 45.72 0)
 			(effects
 				(font
@@ -9719,7 +9630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 157.48 45.72 0)
 			(effects
 				(font
@@ -9728,7 +9639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "RC0805FR-0727RL"
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -9746,7 +9657,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C163408"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -9788,7 +9699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB C"
+		(property "Value" "con_usb_c_receptacle_16p"
 			(at 74.93 24.13 0)
 			(effects
 				(font
@@ -9806,7 +9717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/shouhan/TYPE-C_16PIN_2MD_073.pdf"
 			(at 101.6 17.145 0)
 			(effects
 				(font
@@ -9842,7 +9753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "SHOU HAN"
 			(at 81.28 99.06 0)
 			(effects
 				(font
@@ -9851,7 +9762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "TYPE-C 16PIN 2MD(073)"
 			(at 81.28 101.6 0)
 			(effects
 				(font
@@ -9869,7 +9780,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C2765186"
 			(at 81.28 106.68 0)
 			(effects
 				(font
@@ -9956,7 +9867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Programming"
+		(property "Value" "ISP"
 			(at 17.78 110.49 0)
 			(effects
 				(font
@@ -9974,8 +9885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 25.4 114.3 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/2213S-06G.pdf"
+			(at 20.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,8 +9921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
-			(at 20.955 137.16 0)
+		(property "Manufacturer" "Multicomp"
+			(at 20.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +9930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "2213S-06G"
 			(at 20.32 139.7 0)
 			(effects
 				(font
@@ -10150,7 +10061,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:Vxx")
-		(at 248.92 68.58 0)
+		(at 251.46 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10158,7 +10069,7 @@
 		(dnp no)
 		(uuid "356bb650-2fff-4872-91de-e272a71b000c")
 		(property "Reference" "#PWR012"
-			(at 248.92 83.82 0)
+			(at 251.46 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,8 +10077,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 248.92 66.04 0)
+		(property "Value" "+3V3"
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 68.58 0)
+			(at 251.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10184,7 +10095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 68.58 0)
+			(at 251.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 68.58 0)
+			(at 251.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +10113,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 248.92 81.28 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10161,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 160.02 48.26 0)
+			(at 160.02 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,8 +10169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 36.83 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A475KAQNNN.pdf"
+			(at 160.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +10188,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 160.02 43.18 0)
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10286,15 +10197,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 160.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 160.02 50.8 0)
 			(effects
 				(font
@@ -10303,16 +10205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 160.02 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -10321,8 +10214,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CL21A475KAQNNNE"
 			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C1779"
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -10417,7 +10328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 160.02 68.58 0)
 			(effects
 				(font
@@ -10426,7 +10337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -10444,7 +10355,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C107118"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -10796,7 +10707,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 27.94 129.54 0)
+			(at 22.86 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,7 +10715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 39.37 129.54 0)
 			(effects
 				(font
@@ -10823,7 +10734,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 33.02 129.54 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,15 +10743,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 30.48 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 25.4 129.54 0)
 			(effects
 				(font
@@ -10849,16 +10751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 22.86 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 20.32 129.54 0)
 			(effects
 				(font
@@ -10867,8 +10760,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-07220RL"
 			(at 17.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 15.24 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C114519"
+			(at 12.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,7 +10820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 76.2 106.68 0)
 			(effects
 				(font
@@ -11068,7 +10979,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 25.4 187.96 0)
+			(at 25.4 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,7 +10987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 25.4 176.53 0)
 			(effects
 				(font
@@ -11095,7 +11006,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 25.4 182.88 0)
+			(at 25.4 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,15 +11015,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 25.4 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 25.4 190.5 0)
 			(effects
 				(font
@@ -11121,16 +11023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 25.4 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 25.4 195.58 0)
 			(effects
 				(font
@@ -11139,8 +11032,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN220"
 			(at 25.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 25.4 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C105623"
+			(at 25.4 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11191,7 +11102,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 241.3 55.88 0)
+			(at 236.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,7 +11110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 252.73 55.88 0)
 			(effects
 				(font
@@ -11218,7 +11129,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 246.38 55.88 0)
+			(at 241.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,15 +11138,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 243.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 238.76 55.88 0)
 			(effects
 				(font
@@ -11244,16 +11146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 236.22 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -11262,8 +11155,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +11233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 227.33 71.12 0)
 			(effects
 				(font
@@ -11358,7 +11269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 213.36 71.12 0)
 			(effects
 				(font
@@ -11367,7 +11278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "RC0805FR-07470RL"
 			(at 210.82 71.12 0)
 			(effects
 				(font
@@ -11385,7 +11296,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C114564"
 			(at 205.74 71.12 0)
 			(effects
 				(font
@@ -11410,7 +11321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:dio_led_green_KT-0805G_0805")
+		(lib_id "lily_symbols:dio_led_green_KP-2012CGCK_0805")
 		(at 243.84 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11419,7 +11330,7 @@
 		(dnp no)
 		(uuid "5084f600-5500-49f7-ae63-ffa131c509f6")
 		(property "Reference" "D3"
-			(at 236.22 83.82 90)
+			(at 233.68 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11427,8 +11338,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KT-0805G"
-			(at 236.22 86.36 90)
+		(property "Value" "KP-2012CGCK"
+			(at 233.68 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,8 +11356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 240.03 78.74 90)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf"
+			(at 210.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,7 +11392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Kingbright"
 			(at 220.98 78.74 0)
 			(effects
 				(font
@@ -11490,7 +11401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "KP-2012CGCK"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -11508,7 +11419,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C598271"
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -11608,81 +11519,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 96.52 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "57b46172-4be8-4779-8aae-500ac397b69d")
-		(property "Reference" "#PWR024"
-			(at 96.52 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 96.52 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a128802b-1f6c-44d3-b4b8-2178b7e8d5bb")
-		)
-		(instances
-			(project "arduino_base"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lily_symbols:cap_100n_50V_10%_X7R_0805")
 		(at 147.32 33.02 0)
 		(unit 1)
@@ -11710,7 +11546,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 147.32 48.26 0)
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11718,7 +11554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 147.32 36.83 0)
 			(effects
 				(font
@@ -11737,7 +11573,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 147.32 43.18 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,15 +11582,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 147.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 147.32 50.8 0)
 			(effects
 				(font
@@ -11763,16 +11590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 147.32 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 147.32 55.88 0)
 			(effects
 				(font
@@ -11781,8 +11599,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 			(at 147.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,7 +11809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 33.02 106.68 0)
 			(effects
 				(font
@@ -12065,7 +11901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -12101,7 +11937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -12110,7 +11946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "RC0805FR-075K1L"
 			(at 101.6 81.28 0)
 			(effects
 				(font
@@ -12128,7 +11964,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C84375"
 			(at 101.6 86.36 0)
 			(effects
 				(font
@@ -12228,7 +12064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:bjt_npn_MMBT2222A_sot23")
+		(lib_id "lily_symbols:bjt_npn_MMBT2222AL_sot23")
 		(at 236.22 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12263,8 +12099,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 233.68 45.72 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MMBT2222.pdf"
+			(at 205.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12299,7 +12135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Jiangsu Changjing Electronics Technology"
+		(property "Manufacturer" "onsemi"
 			(at 215.9 55.88 0)
 			(effects
 				(font
@@ -12308,7 +12144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "MMBT2222A"
+		(property "Manufacturer_ID" "MMBT2222ALT1G"
 			(at 213.36 55.88 0)
 			(effects
 				(font
@@ -12326,17 +12162,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C8512"
+		(property "JLCPCB_ID" "C82460"
 			(at 208.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 205.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12380,7 +12207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 167.64 25.4 0)
 			(effects
 				(font
@@ -12472,7 +12299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 246.38 39.37 0)
 			(effects
 				(font
@@ -12508,7 +12335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 246.38 53.34 0)
 			(effects
 				(font
@@ -12517,7 +12344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "RC0805FR-074K7L"
 			(at 246.38 55.88 0)
 			(effects
 				(font
@@ -12535,7 +12362,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C60816"
 			(at 246.38 60.96 0)
 			(effects
 				(font
@@ -12662,7 +12489,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 114.3 157.48 0)
+			(at 114.3 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,8 +12497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 114.3 146.05 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21B105KBFNNN.pdf"
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,7 +12516,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 114.3 152.4 0)
+			(at 114.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,15 +12525,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 114.3 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 114.3 160.02 0)
 			(effects
 				(font
@@ -12715,16 +12533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 114.3 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 114.3 165.1 0)
 			(effects
 				(font
@@ -12733,8 +12542,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CL21B105KBFNNNE"
 			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 114.3 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C28323"
+			(at 114.3 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +12612,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 215.9 45.72 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12793,8 +12620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 227.33 45.72 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12812,7 +12639,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 220.98 45.72 0)
+			(at 215.9 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,15 +12648,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 218.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 213.36 45.72 0)
 			(effects
 				(font
@@ -12838,16 +12656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 210.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 208.28 45.72 0)
 			(effects
 				(font
@@ -12856,8 +12665,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-071KL"
 			(at 205.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 203.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C95781"
+			(at 200.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12908,7 +12735,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 220.98 48.26 0)
+			(at 220.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12916,7 +12743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -12935,7 +12762,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 220.98 43.18 0)
+			(at 220.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12944,15 +12771,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 220.98 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 220.98 50.8 0)
 			(effects
 				(font
@@ -12961,16 +12779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 220.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 220.98 55.88 0)
 			(effects
 				(font
@@ -12979,8 +12788,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 220.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,7 +13233,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 38.1 187.96 0)
+			(at 38.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,7 +13241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 38.1 176.53 0)
 			(effects
 				(font
@@ -13433,7 +13260,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 38.1 182.88 0)
+			(at 38.1 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13442,15 +13269,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 38.1 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 38.1 190.5 0)
 			(effects
 				(font
@@ -13459,16 +13277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 38.1 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 38.1 195.58 0)
 			(effects
 				(font
@@ -13477,8 +13286,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN220"
 			(at 38.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 38.1 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C105623"
+			(at 38.1 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13502,7 +13329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_volt_reference_RS3112-4.096X_sot23")
+		(lib_id "lily_symbols:ic_volt_reference_REF3040_4.096V_sot23")
 		(at 88.9 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13511,7 +13338,7 @@
 		(dnp no)
 		(uuid "b63c88a5-d8b7-4998-8b1b-3579680b8046")
 		(property "Reference" "U3"
-			(at 91.44 132.08 0)
+			(at 93.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13519,8 +13346,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RS3112-4.096X"
-			(at 91.44 134.62 0)
+		(property "Value" "REF3040"
+			(at 93.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13537,8 +13364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 139.7 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/REF30_series.pdf"
+			(at 99.06 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13573,7 +13400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Texas Instruments"
 			(at 99.06 167.64 0)
 			(effects
 				(font
@@ -13582,7 +13409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "REF3040AIDBZR"
 			(at 99.06 170.18 0)
 			(effects
 				(font
@@ -13600,7 +13427,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C19415"
 			(at 99.06 175.26 0)
 			(effects
 				(font
@@ -13628,7 +13455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ind_bead_600R@100MHz_1A5_0R25_0805")
+		(lib_id "lily_symbols:ind_bead_600R@100MHz_2A_0R1_0805")
 		(at 137.16 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13637,7 +13464,7 @@
 		(dnp no)
 		(uuid "b6a0d12b-1cb1-4340-a99d-5b0c71024ec9")
 		(property "Reference" "L1"
-			(at 135.89 25.4 0)
+			(at 137.16 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13645,8 +13472,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600R/0R25"
-			(at 135.89 27.94 0)
+		(property "Value" "600R/0R1"
+			(at 137.16 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +13482,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:ind_0805"
-			(at 140.97 40.64 0)
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,8 +13490,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 137.16 30.48 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
+			(at 140.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,7 +13509,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 140.97 35.56 0)
+			(at 140.97 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13691,7 +13518,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 140.97 38.1 0)
+			(at 140.97 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13699,7 +13526,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "TDK"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "MPZ2012S601AT000"
 			(at 140.97 43.18 0)
 			(effects
 				(font
@@ -13708,7 +13544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Lily_ID" "NO_ID"
 			(at 140.97 45.72 0)
 			(effects
 				(font
@@ -13717,17 +13553,8 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "JLCPCB_ID" "C21519"
 			(at 140.97 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 140.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13844,7 +13671,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 171.45 50.8 90)
+			(at 171.45 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +13688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 171.45 48.26 0)
 			(effects
 				(font
@@ -13897,7 +13724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 157.48 48.26 0)
 			(effects
 				(font
@@ -13906,7 +13733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "RC0805FR-0727RL"
 			(at 154.94 48.26 0)
 			(effects
 				(font
@@ -13924,7 +13751,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C163408"
 			(at 149.86 48.26 0)
 			(effects
 				(font
@@ -13949,7 +13776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:crystal_16MHz_20ppm_8pF_3225")
+		(lib_id "lily_symbols:crystal_16MHz_12pF_10ppm_20ppm_3225")
 		(at 27.94 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13982,8 +13809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 22.86 162.56 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/seiko_epson/TSX-3225_X1E0000210119.pdf"
+			(at 31.75 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14018,7 +13845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "Seiko Epson"
 			(at 31.75 182.88 0)
 			(effects
 				(font
@@ -14027,7 +13854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "X1E0000210119"
 			(at 31.75 185.42 0)
 			(effects
 				(font
@@ -14037,7 +13864,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 31.115 187.96 0)
+			(at 31.75 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14045,7 +13872,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C89371"
 			(at 31.75 190.5 0)
 			(effects
 				(font
@@ -14093,7 +13920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 203.2 22.86 0)
 			(effects
 				(font
@@ -14144,129 +13971,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:cap_100n_50V_10%_X7R_0805")
-		(at 96.52 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6ffd035-d797-49fa-9484-69d8e384becc")
-		(property "Reference" "C13"
-			(at 99.695 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 99.695 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:cap_0805"
-			(at 96.52 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 96.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 96.52 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
-			(at 96.52 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "TODO"
-			(at 96.52 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 96.52 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 96.52 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74b470c2-4b2d-46ce-967a-cbb270a09bdf")
-		)
-		(pin "1"
-			(uuid "05843af1-17fc-432f-8276-2d6b392d1177")
-		)
-		(instances
-			(project "arduino_base"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -14365,7 +14069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 210.82 104.14 0)
 			(effects
 				(font
@@ -14457,7 +14161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -14493,7 +14197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -14502,7 +14206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "RC0805FR-075K1L"
 			(at 109.22 81.28 0)
 			(effects
 				(font
@@ -14520,7 +14224,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C84375"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -14572,7 +14276,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 27.94 114.3 0)
+			(at 22.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14580,7 +14284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 39.37 114.3 0)
 			(effects
 				(font
@@ -14599,7 +14303,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 33.02 114.3 0)
+			(at 27.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14608,15 +14312,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 30.48 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 25.4 114.3 0)
 			(effects
 				(font
@@ -14625,16 +14320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 22.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 20.32 114.3 0)
 			(effects
 				(font
@@ -14643,8 +14329,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-07220RL"
 			(at 17.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C114519"
+			(at 12.7 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14770,7 +14474,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 27.94 124.46 0)
+			(at 22.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +14482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 39.37 124.46 0)
 			(effects
 				(font
@@ -14797,7 +14501,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 33.02 124.46 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14806,15 +14510,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 30.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 25.4 124.46 0)
 			(effects
 				(font
@@ -14823,16 +14518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 22.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 20.32 124.46 0)
 			(effects
 				(font
@@ -14841,8 +14527,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-07220RL"
 			(at 17.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 15.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C114519"
+			(at 12.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14893,7 +14597,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 236.22 50.8 0)
+			(at 236.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14901,8 +14605,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 236.22 39.37 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
+			(at 236.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +14624,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 236.22 45.72 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14929,15 +14633,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 236.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 236.22 53.34 0)
 			(effects
 				(font
@@ -14946,16 +14641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 236.22 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 236.22 58.42 0)
 			(effects
 				(font
@@ -14964,8 +14650,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-071KL"
 			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 236.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C95781"
+			(at 236.22 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15099,7 +14803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 259.08 39.37 0)
 			(effects
 				(font
@@ -15135,7 +14839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "YAGEO"
 			(at 259.08 53.34 0)
 			(effects
 				(font
@@ -15144,7 +14848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Manufacturer_ID" "RC0805FR-074K7L"
 			(at 259.08 55.88 0)
 			(effects
 				(font
@@ -15162,7 +14866,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C60816"
 			(at 259.08 60.96 0)
 			(effects
 				(font
@@ -15204,7 +14908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 81.28 167.64 0)
 			(effects
 				(font
@@ -15288,7 +14992,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 81.28 157.48 0)
+			(at 81.28 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15296,8 +15000,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 81.28 146.05 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21B105KBFNNN.pdf"
+			(at 81.28 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15315,7 +15019,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 81.28 152.4 0)
+			(at 81.28 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15324,15 +15028,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 81.28 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 81.28 160.02 0)
 			(effects
 				(font
@@ -15341,16 +15036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 81.28 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 81.28 165.1 0)
 			(effects
 				(font
@@ -15359,8 +15045,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CL21B105KBFNNNE"
 			(at 81.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 81.28 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C28323"
+			(at 81.28 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15411,7 +15115,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 27.94 119.38 0)
+			(at 22.86 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15419,7 +15123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
 			(at 39.37 119.38 0)
 			(effects
 				(font
@@ -15438,7 +15142,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 33.02 119.38 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15447,15 +15151,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 25.4 119.38 0)
 			(effects
 				(font
@@ -15464,16 +15159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 22.86 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 20.32 119.38 0)
 			(effects
 				(font
@@ -15482,8 +15168,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-07220RL"
 			(at 17.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 15.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C114519"
+			(at 12.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15507,7 +15211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ind_bead_600R@100MHz_1A5_0R25_0805")
+		(lib_id "lily_symbols:ind_bead_600R@100MHz_2A_0R1_0805")
 		(at 81.28 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15524,8 +15228,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600R/0R25"
-			(at 80.01 111.76 0)
+		(property "Value" "600R/0R1"
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15534,7 +15238,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:ind_0805"
-			(at 85.09 124.46 0)
+			(at 85.09 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15542,8 +15246,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 81.28 114.3 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
+			(at 85.09 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15561,7 +15265,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 85.09 119.38 0)
+			(at 85.09 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15570,7 +15274,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 85.09 121.92 0)
+			(at 85.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15578,7 +15282,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TODO"
+		(property "Manufacturer" "TDK"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "MPZ2012S601AT000"
 			(at 85.09 127 0)
 			(effects
 				(font
@@ -15587,7 +15300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
+		(property "Lily_ID" "NO_ID"
 			(at 85.09 129.54 0)
 			(effects
 				(font
@@ -15596,17 +15309,8 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "JLCPCB_ID" "C21519"
 			(at 85.09 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 85.09 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15657,7 +15361,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 215.9 48.26 0)
+			(at 210.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15665,8 +15369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 227.33 48.26 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15684,7 +15388,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 220.98 48.26 0)
+			(at 215.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15693,15 +15397,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 218.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 213.36 48.26 0)
 			(effects
 				(font
@@ -15710,16 +15405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 210.82 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 208.28 48.26 0)
 			(effects
 				(font
@@ -15728,8 +15414,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "RC0805FR-071KL"
 			(at 205.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C95781"
+			(at 200.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15855,7 +15559,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 91.44 132.08 0)
+			(at 91.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15863,7 +15567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 91.44 120.65 0)
 			(effects
 				(font
@@ -15882,7 +15586,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 91.44 127 0)
+			(at 91.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15891,15 +15595,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 91.44 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TODO"
 			(at 91.44 134.62 0)
 			(effects
 				(font
@@ -15908,16 +15603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TODO"
-			(at 91.44 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
+		(property "Manufacturer" "YAGEO"
 			(at 91.44 139.7 0)
 			(effects
 				(font
@@ -15926,8 +15612,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 91.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 91.44 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
