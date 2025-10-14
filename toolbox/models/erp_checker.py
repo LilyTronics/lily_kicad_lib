@@ -18,7 +18,8 @@ class ErpChecker:
             comp["Extends"] != "" and
             comp["Value"] not in ["dnp", "test_point"] and
             "_cable_to_pcb_" not in comp["Value"] and
-            not comp["Value"].startswith("mec_hole_")
+            not comp["Value"].startswith("mec_hole_") and
+            not comp["Value"].startswith("mec_fiducial_")
         )
 
     @classmethod
