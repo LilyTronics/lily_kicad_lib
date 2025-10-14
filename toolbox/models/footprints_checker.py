@@ -171,36 +171,61 @@ class FootprintsChecker:
     def _check_footprint_attributes(cls, footprint_data, report_messages):
         caller = f"({cls.__name__}._check_footprint_attributes)"
         attributes = copy.deepcopy(cls.ATTRIBUTES)
-        if "through_hole" in footprint_data["Attributes"]:
-            attributes["exclude_from_pos_files"][0] = True
-        if footprint_data["Name"].endswith("_dnp"):
-            attributes["exclude_from_pos_files"][0] = True
-            attributes["exclude_from_bom"][0] = True
-            attributes["dnp"][0] = True
-        if footprint_data["Name"].startswith("doc_"):
+
+        # Not in position files
+        attributes["exclude_from_pos_files"][0] = (
+            # Do not populate
+            footprint_data["Name"].endswith("_dnp") or
+            # Through hole
+            "through_hole" in footprint_data["Attributes"] or
+            # Test points
+            footprint_data["Name"].startswith("test_point_") or
+            # Mechanical
+            footprint_data["Name"].startswith("mec_") or
+            # Documentation
+            footprint_data["Name"].startswith("doc_") or
+            # Specials
+            footprint_data["Name"].startswith("con_tc2030_")
+        )
+
+        # Not in BOM
+        attributes["exclude_from_bom"][0] = (
+            # Do not populate
+            footprint_data["Name"].endswith("_dnp") or
+            # Test points
+            footprint_data["Name"].startswith("test_point_") or
+            # Mechanical
+            footprint_data["Name"].startswith("mec_") or
+            # Fiducials
+            footprint_data["Name"].startswith("fiducial_") or
+            # Documentation
+            footprint_data["Name"].startswith("doc_") or
+            # Specials
+            footprint_data["Name"].startswith("con_tc2030_") or
+            (footprint_data["Name"].startswith("con_") and "_cable_to_pcb_" in footprint_data["Name"])
+        )
+
+        # Do not populate
+        attributes["dnp"][0] = (
+            # Do not populate
+            footprint_data["Name"].endswith("_dnp")
+        )
+
+        # Not in schematics
+        attributes["board_only"][0] = (
+            # Fiducials
+            footprint_data["Name"].startswith("fiducial_")
+        )
+
+        # Exempt from courtyard requirement
+        attributes["allow_missing_courtyard"][0] = (
+            footprint_data["Name"].startswith("doc_")
+        )
+
+        # Skip not in schematics check
+        if (footprint_data["Name"].startswith("mec_") or
+                footprint_data["Name"].startswith("doc_")):
             attributes["board_only"][0] = None
-            attributes["exclude_from_pos_files"][0] = True
-            attributes["exclude_from_bom"][0] = True
-            attributes["allow_missing_courtyard"][0] = True
-        if footprint_data["Name"].startswith("fiducial_"):
-            attributes["board_only"][0] = True
-            attributes["exclude_from_bom"][0] = True
-        if footprint_data["Name"].startswith("logo_"):
-            attributes["exclude_from_pos_files"][0] = True
-            attributes["exclude_from_bom"][0] = True
-            attributes["allow_missing_courtyard"][0] = True
-        if footprint_data["Name"].startswith("mec_"):
-            attributes["board_only"][0] = True
-            attributes["exclude_from_pos_files"][0] = True
-            attributes["exclude_from_bom"][0] = True
-        if footprint_data["Name"].startswith("test_point_"):
-            attributes["exclude_from_pos_files"][0] = True
-            attributes["exclude_from_bom"][0] = True
-        if footprint_data["Name"].startswith("con_") and "cable_to_pcb" in footprint_data["Name"]:
-            attributes["exclude_from_bom"][0] = True
-        if footprint_data["Name"] == "to_be_done":
-            attributes["exclude_from_pos_files"][0] = True
-            attributes["exclude_from_bom"][0] = True
 
         for attribute in attributes:
             if attributes[attribute][0] is not None:
