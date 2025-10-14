@@ -17,7 +17,7 @@ class ProjectsChecker:
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID"]
     SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
-    SKIP_LAYOUT_FIELDS = ["Name", "Reference", "Value", "Footprint"]
+    SKIP_LAYOUT_FIELDS = ["Name", "Reference", "Value", "Footprint", "Datasheet"]
 
     @classmethod
     def run(cls):
@@ -255,7 +255,6 @@ class ProjectsChecker:
                                 "message": f"footprint in project {design} has invalid property: "
                                            f"{key}: '{design_value}' expected '{lib_value}' {caller}"
                             })
-                break
 
     @classmethod
     def _check_symbols_vs_footprints(cls, designs, report_messages):
