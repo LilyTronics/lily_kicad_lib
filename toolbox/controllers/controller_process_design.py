@@ -2,6 +2,7 @@
 Process design for manufacturing.
 """
 
+import glob
 import os
 import shutil
 import wx
@@ -64,8 +65,10 @@ class ControllerProcessDesign(ControllerBase):
         self._main_view.add_to_console(f"Using design name: {design_name}")
 
         project_folder = os.path.dirname(design_filename)
-        output_folder = os.path.join(project_folder, "output")
         timestamp = datetime.now().strftime("%Y%m%d")
+        pca_folder = os.path.join(project_folder, f"PCA_{timestamp}")
+        output_folder = os.path.join(pca_folder, "output")
+
         process = None
         report = ""
 
@@ -78,10 +81,10 @@ class ControllerProcessDesign(ControllerBase):
             error = "The project checker reported errors"
 
         if error == "":
-            self._main_view.add_to_console(f"Create output folder: {output_folder}")
+            self._main_view.add_to_console(f"Create output folder: {pca_folder}")
             try:
-                if os.path.exists(output_folder):
-                    shutil.rmtree(output_folder)
+                if os.path.exists(pca_folder):
+                    shutil.rmtree(pca_folder)
                 os.makedirs(output_folder)
             except Exception as e:
                 error = str(e)
@@ -133,7 +136,53 @@ class ControllerProcessDesign(ControllerBase):
                     message = f"WARNING: {e}"
                 report += f"{message}\n"
 
-            report_filename = os.path.join(output_folder, f"{timestamp}_process_report.txt")
+            # Copy design
+            try:
+                self._main_view.add_to_console("Copy design files")
+                report += "\nCopy design files\n"
+                # Copy project file
+                target = os.path.join(pca_folder, os.path.basename(design_filename))
+                report += f"Copy: {design_filename}\n"
+                report += f"To  : {target}\n"
+                shutil.copy2(design_filename, target)
+                # Copy schematics
+                for item in glob.glob(os.path.join(project_folder, "*.kicad_sch")):
+                    target = os.path.join(pca_folder, os.path.basename(item))
+                    report += f"Copy: {item}\n"
+                    report += f"To  : {target}\n"
+                    shutil.copy2(item, target)
+                # Copy layout
+                for item in glob.glob(os.path.join(project_folder, "*.kicad_pcb")):
+                    target = os.path.join(pca_folder, os.path.basename(item))
+                    report += f"Copy: {item}\n"
+                    report += f"To  : {target}\n"
+                    shutil.copy2(item, target)
+                # Special files if they exist
+                # Design rules
+                item = design_filename.replace(".kicad_pro", ".kicad_dru")
+                if os.path.isfile(item):
+                    target = os.path.join(pca_folder, os.path.basename(item))
+                    report += f"Copy: {item}\n"
+                    report += f"To  : {target}\n"
+                    shutil.copy2(item, target)
+                # Custom symbol library table
+                item = os.path.join(project_folder, "sym-lib-table")
+                if os.path.isfile(item):
+                    target = os.path.join(pca_folder, os.path.basename(item))
+                    report += f"Copy: {item}\n"
+                    report += f"To  : {target}\n"
+                    shutil.copy2(item, target)
+                # Custom footprint library table
+                item = os.path.join(project_folder, "fp-lib-table")
+                if os.path.isfile(item):
+                    target = os.path.join(pca_folder, os.path.basename(item))
+                    report += f"Copy: {item}\n"
+                    report += f"To  : {target}\n"
+                    shutil.copy2(item, target)
+            except Exception as e:
+                self._main_view.add_to_console(f"Error: {e}")
+
+            report_filename = os.path.join(pca_folder, f"{timestamp}_process_report.txt")
             with open(report_filename, "w") as fp:
                 fp.write(report)
             self._main_view.add_to_console(f"Result are written to: {report_filename}")
