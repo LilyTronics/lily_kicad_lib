@@ -24,7 +24,7 @@ Compatible KiCad version: 9 (and higher)
 Additional information:
 
 * [Overview of all symbols and footprints](https://lilytronics.github.io/lily_kicad_lib/library_report.html)
-* [Setup KiCad using this repo](documents/setup_kicad.md)
+* [Setup KiCad using this repo](docs/setup_kicad.md)
 
 Do you have a request for a component? Submit a request using the [issue tracker](https://github.com/LilyTronics/lily_kicad_lib/issues).
 Please specify a specific manufacturer, manufacturer part ID if possible.
