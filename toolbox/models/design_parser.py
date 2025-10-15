@@ -173,6 +173,7 @@ class DesignParser:
             i += 1
         return properties
 
+
 if __name__ == "__main__":
 
     _test_project_folder = "..\\..\\projects\\arduino_base"

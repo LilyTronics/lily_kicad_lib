@@ -122,7 +122,7 @@ class ProcessDesign:
 
             else:
                 raise Exception(f"BOM option '{option}' is not defined")
-        return report
+        return report.strip()
 
     def create_gerbers_and_drill(self, pcb_filename, n_layers):
         gerber_output_folder = os.path.join(self._output_folder, f"{self._timestamp}_gerbers")

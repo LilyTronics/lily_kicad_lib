@@ -29,14 +29,6 @@ class ViewProcessDesign(wx.Panel):
         self._chk_outputs = wx.CheckListBox(self, size=wx.Size(175, 150))
         lbl_bom_options = wx.StaticText(self, wx.ID_ANY, "BOM options:")
         self._chk_bom_options = wx.CheckListBox(self, size=wx.Size(125, 75))
-        lbl_pca_id = wx.StaticText(self, wx.ID_ANY, "PCA ID:")
-        self._txt_pca_id = wx.TextCtrl(self)
-        lbl_layers = wx.StaticText(self, wx.ID_ANY, "Copper layers:")
-        self._cmb_layers = wx.ComboBox(self, style=wx.CB_READONLY)
-        self._cmb_layers.SetItems([str(i) for i in range(2, 33, 2)])
-        self._cmb_layers.SetValue("2")
-        lbl_options = wx.StaticText(self, wx.ID_ANY, "Misc. options:")
-        self._chk_comp_bot = wx.CheckBox(self, wx.ID_ANY, label="Components on bottom side")
         btn_process = wx.Button(self, IdManager.ID_BTN_PROCESS, "Process design")
 
         grid = wx.GridBagSizer(self._GAP, self._GAP)
@@ -46,13 +38,7 @@ class ViewProcessDesign(wx.Panel):
         grid.Add(self._chk_outputs, (1, 1), wx.DefaultSpan, wx.ALIGN_TOP)
         grid.Add(lbl_bom_options, (2, 0), wx.DefaultSpan, wx.ALIGN_TOP)
         grid.Add(self._chk_bom_options, (2, 1), wx.DefaultSpan, wx.ALIGN_TOP)
-        grid.Add(lbl_pca_id, (3, 0), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
-        grid.Add(self._txt_pca_id, (3, 1), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
-        grid.Add(lbl_layers, (4, 0), wx.DefaultSpan, wx.ALIGN_TOP)
-        grid.Add(self._cmb_layers, (4, 1), wx.DefaultSpan, wx.ALIGN_TOP)
-        grid.Add(lbl_options, (5, 0), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
-        grid.Add(self._chk_comp_bot, (5, 1), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
-        grid.Add(btn_process, (7, 0), (1, 2))
+        grid.Add(btn_process, (4, 0), (1, 2))
         grid.AddGrowableCol(1)
         return grid
 
@@ -76,15 +62,6 @@ class ViewProcessDesign(wx.Panel):
 
     def get_bom_options(self):
         return self._chk_bom_options.GetCheckedStrings()
-
-    def get_pca_id(self):
-        return self._txt_pca_id.GetValue().strip()
-
-    def get_layers(self):
-        return int(self._cmb_layers.GetValue())
-
-    def get_option_comp_bot(self):
-        return self._chk_comp_bot.IsChecked()
 
 
 if __name__ == "__main__":

@@ -4,12 +4,14 @@ Process design for manufacturing.
 
 import glob
 import os
+import traceback
 import shutil
 import wx
 
 from datetime import datetime
 
 from toolbox.controllers.controller_base import ControllerBase
+from toolbox.models.design_parser import DesignParser
 from toolbox.models.id_manager import IdManager
 from toolbox.models.process_design import ProcessDesign
 from toolbox.models.projects_checker import ProjectsChecker
@@ -47,153 +49,172 @@ class ControllerProcessDesign(ControllerBase):
     ###########
 
     def _process_design(self):
-        error = ""
-        design_filename = self._view.get_design_file()
-        sch_filename = design_filename.replace(".kicad_pro", ".kicad_sch")
-        pcb_filename = design_filename.replace(".kicad_pro", ".kicad_pcb")
-        if not os.path.isfile(design_filename):
-            error = f"The file '{design_filename}' does not exist"
-        if error == "" and not os.path.isfile(sch_filename):
-            error = f"The file '{sch_filename}' does not exist"
-        if error == "" and not os.path.isfile(pcb_filename):
-            error = f"The file '{pcb_filename}' does not exist"
-
-        design_name = os.path.basename(design_filename).replace(".kicad_pro", "")
-        self._main_view.add_to_console("Processing files:")
-        self._main_view.add_to_console(sch_filename)
-        self._main_view.add_to_console(pcb_filename)
-        self._main_view.add_to_console(f"Using design name: {design_name}")
-
-        project_folder = os.path.dirname(design_filename)
         timestamp = datetime.now().strftime("%Y%m%d")
-        pca_folder = os.path.join(project_folder, f"PCA_{timestamp}")
-        output_folder = os.path.join(pca_folder, "output")
+        report = []
+        pca_folder = ""
+        dialog_message = ""
+        try:
+            design_filename = self._view.get_design_file()
+            sch_filename = design_filename.replace(".kicad_pro", ".kicad_sch")
+            pcb_filename = design_filename.replace(".kicad_pro", ".kicad_pcb")
+            if not os.path.isfile(design_filename):
+                raise Exception(f"The file '{design_filename}' does not exist")
+            if not os.path.isfile(sch_filename):
+                raise Exception(f"The file '{sch_filename}' does not exist")
+            if not os.path.isfile(pcb_filename):
+                raise Exception(f"The file '{pcb_filename}' does not exist")
 
-        process = None
-        report = ""
+            project_folder = os.path.dirname(design_filename)
+            pca_folder = os.path.join(project_folder, f"PCA_{timestamp}")
+            output_folder = os.path.join(pca_folder, "output")
 
-        self._main_view.add_to_console("Check design to library:")
+            self._main_view.add_to_console(f"Create output folder: {pca_folder}")
+            if os.path.exists(pca_folder):
+                shutil.rmtree(pca_folder)
+            os.makedirs(output_folder)
+
+            report.append("{timestamp} Process design: {design_filename}")
+            report.append(f"Output folder: {pca_folder}")
+
+            design_name = os.path.basename(design_filename).replace(".kicad_pro", "")
+            self._main_view.add_to_console("Processing files:")
+            self._main_view.add_to_console(sch_filename)
+            self._main_view.add_to_console(pcb_filename)
+            self._main_view.add_to_console(f"Design name: {design_name}")
+
+            report.append(f"SCH: {sch_filename}")
+            report.append(f"PCB: {sch_filename}")
+            report.append(f"Design name: {design_name}")
+
+            process = ProcessDesign(timestamp, design_name, output_folder)
+            version = "KiCad version: %s" % process.get_kicad_version()
+            self._main_view.add_to_console(version)
+            report.append(f"{version}")
+
+            properties = self._check_design(project_folder, report)
+            self._generate_outputs(process, sch_filename, pcb_filename, properties, report)
+            self._copy_design(pca_folder, design_filename, project_folder, report)
+
+            report.append("\nProcess finished")
+        except Exception as e:
+            dialog_message = f"{str(e)}\n"
+            if len(report) == 0:
+                dialog_message += traceback.format_exc().strip()
+            else:
+                report.append(f"\n{dialog_message}")
+                report.append(traceback.format_exc().strip())
+
+        if dialog_message != "":
+            dlg = wx.MessageDialog(self._view, dialog_message, "Process design", style=wx.OK | wx.ICON_EXCLAMATION)
+            dlg.ShowModal()
+            dlg.Destroy()
+
+        if len(report) > 0:
+            report_filename = os.path.join(pca_folder, f"{timestamp}_process_report.txt")
+            with open(report_filename, "w") as fp:
+                fp.write("\n".join(report) + "\n")
+            self._main_view.add_to_console(f"Result are written to: {report_filename}")
+
+    def _check_design(self, project_folder, report):
+        self._main_view.add_to_console("Check design to library")
+        report.append("\nCheck design to library")
         ProjectsChecker.stdout = self._main_view.add_to_console
         messages = ProjectsChecker.check_project(project_folder)
         if len(messages) > 0:
             for message in messages:
-                self._main_view.add_to_console(f"{message["item"]}: {message["message"]}")
-            error = "The project checker reported errors"
+                report.append(f"ERROR: {message["item"]}: {message["message"]}")
+            self._main_view.add_to_console("The project checker reported errors")
+            raise Exception("The project checker reported errors")
 
-        if error == "":
-            self._main_view.add_to_console(f"Create output folder: {pca_folder}")
-            try:
-                if os.path.exists(pca_folder):
-                    shutil.rmtree(pca_folder)
-                os.makedirs(output_folder)
-            except Exception as e:
-                error = str(e)
+        self._main_view.add_to_console("Check design properties")
+        sch_props = DesignParser.get_schematics_properties(project_folder)
+        report.append("\nSchematics properties:")
+        for key in sch_props:
+            report.append(f"{key}: {sch_props[key]}")
+        pcb_props = DesignParser.get_pcb_properties(project_folder)
+        report.append("\nPCB properties:")
+        for key in pcb_props:
+            report.append(f"{key}: {pcb_props[key]}")
 
-        if error == "":
-            try:
-                process = ProcessDesign(timestamp, design_name, output_folder)
-                version = "KiCad version: %s" % process.get_kicad_version()
-                self._main_view.add_to_console(version)
-                report += f"{version}\n"
-            except Exception as e:
-                error = str(e)
+        # Test properties
+        for prop in ["design_name", "date", "revision", "pca_id", "pcb_id"]:
+            if sch_props[prop] != pcb_props[prop]:
+                raise Exception(f"The {prop.replace("_", " ")} is not equal between the schematics and the PCB")
 
-        if error == "":
-            for output in self._view.get_outputs():
-                message = f"Generate {output}"
-                self._main_view.add_to_console(f"Generate {output}")
-                report += f"\n{message}\n"
-                try:
-                    if output == "Schematics to PDF":
-                        message = process.schematics_to_pdf(sch_filename)
+        return pcb_props
 
-                    elif output == "Bill of materials (BOM)":
-                        options = self._view.get_bom_options()
-                        pca_id = self._view.get_pca_id()
-                        message = process.create_bom(sch_filename, options, pca_id)
+    def _generate_outputs(self, process, sch_filename, pcb_filename, properties, report):
+        for output in self._view.get_outputs():
+            self._main_view.add_to_console(f"Generate {output}")
+            report.append(f"\nGenerate {output}")
 
-                    elif output == "Gerbers and drill data":
-                        n_layers = self._view.get_layers()
-                        message = process.create_gerbers_and_drill(pcb_filename, n_layers)
+            if output == "Schematics to PDF":
+                report.append(process.schematics_to_pdf(sch_filename))
 
-                    elif output == "Position data":
-                        message = process.create_position_file(pcb_filename)
+            elif output == "Bill of materials (BOM)":
+                options = self._view.get_bom_options()
+                report.append(process.create_bom(sch_filename, options, properties["pca_id"]))
 
-                    elif output == "PCB placement to PDF":
-                        has_comp_bot = self._view.get_option_comp_bot()
-                        message = process.pcb_to_pdf(pcb_filename, has_comp_bot)
+            elif output == "Gerbers and drill data":
+                report.append(process.create_gerbers_and_drill(pcb_filename, properties["n_layers"]))
 
-                    elif output == "ODB+":
-                        message = process.create_odb(pcb_filename)
+            elif output == "Position data":
+                report.append(process.create_position_file(pcb_filename))
 
-                    elif output == "PCB 3D model (step)":
-                        message = process.create_3d_model(pcb_filename)
+            elif output == "PCB placement to PDF":
+                report.append(process.pcb_to_pdf(pcb_filename, properties["has_comp_bot"]))
 
-                    else:
-                        raise Exception(f"Output '{output}' is not defined")
+            elif output == "ODB+":
+                report.append(process.create_odb(pcb_filename))
 
-                except Exception as e:
-                    message = f"WARNING: {e}"
-                report += f"{message}\n"
+            elif output == "PCB 3D model (step)":
+                report.append(process.create_3d_model(pcb_filename))
 
-            # Copy design
-            try:
-                self._main_view.add_to_console("Copy design files")
-                report += "\nCopy design files\n"
-                # Copy project file
-                target = os.path.join(pca_folder, os.path.basename(design_filename))
-                report += f"Copy: {design_filename}\n"
-                report += f"To  : {target}\n"
-                shutil.copy2(design_filename, target)
-                # Copy schematics
-                for item in glob.glob(os.path.join(project_folder, "*.kicad_sch")):
-                    target = os.path.join(pca_folder, os.path.basename(item))
-                    report += f"Copy: {item}\n"
-                    report += f"To  : {target}\n"
-                    shutil.copy2(item, target)
-                # Copy layout
-                for item in glob.glob(os.path.join(project_folder, "*.kicad_pcb")):
-                    target = os.path.join(pca_folder, os.path.basename(item))
-                    report += f"Copy: {item}\n"
-                    report += f"To  : {target}\n"
-                    shutil.copy2(item, target)
-                # Special files if they exist
-                # Design rules
-                item = design_filename.replace(".kicad_pro", ".kicad_dru")
-                if os.path.isfile(item):
-                    target = os.path.join(pca_folder, os.path.basename(item))
-                    report += f"Copy: {item}\n"
-                    report += f"To  : {target}\n"
-                    shutil.copy2(item, target)
-                # Custom symbol library table
-                item = os.path.join(project_folder, "sym-lib-table")
-                if os.path.isfile(item):
-                    target = os.path.join(pca_folder, os.path.basename(item))
-                    report += f"Copy: {item}\n"
-                    report += f"To  : {target}\n"
-                    shutil.copy2(item, target)
-                # Custom footprint library table
-                item = os.path.join(project_folder, "fp-lib-table")
-                if os.path.isfile(item):
-                    target = os.path.join(pca_folder, os.path.basename(item))
-                    report += f"Copy: {item}\n"
-                    report += f"To  : {target}\n"
-                    shutil.copy2(item, target)
-            except Exception as e:
-                self._main_view.add_to_console(f"Error: {e}")
+            else:
+                raise Exception(f"Output '{output}' is not defined")
 
-            report_filename = os.path.join(pca_folder, f"{timestamp}_process_report.txt")
-            with open(report_filename, "w") as fp:
-                fp.write(report)
-            self._main_view.add_to_console(f"Result are written to: {report_filename}")
-
-        if error == "" and "WARNING" in report:
-            error = "The report contains warnings."
-
-        if error != "":
-            dlg = wx.MessageDialog(self._view, error, "Process design", style=wx.OK | wx.ICON_EXCLAMATION)
-            dlg.ShowModal()
-            dlg.Destroy()
+    def _copy_design(self, pca_folder, design_filename, project_folder, report):
+        self._main_view.add_to_console("Copy design files")
+        report.append("\nCopy design files")
+        # Copy project file
+        target = str(os.path.join(pca_folder, os.path.basename(design_filename)))
+        report.append(f"Copy: {design_filename}")
+        report.append(f"To  : {target}")
+        shutil.copy2(design_filename, target)
+        # Copy schematics
+        for item in glob.glob(os.path.join(project_folder, "*.kicad_sch")):
+            target = str(os.path.join(pca_folder, os.path.basename(item)))
+            report.append(f"Copy: {item}")
+            report.append(f"To  : {target}")
+            shutil.copy2(item, target)
+        # Copy layout
+        for item in glob.glob(os.path.join(project_folder, "*.kicad_pcb")):
+            target = str(os.path.join(pca_folder, os.path.basename(item)))
+            report.append(f"Copy: {item}")
+            report.append(f"To  : {target}")
+            shutil.copy2(item, target)
+        # Special files if they exist
+        # Design rules
+        item = design_filename.replace(".kicad_pro", ".kicad_dru")
+        if os.path.isfile(item):
+            target = str(os.path.join(pca_folder, os.path.basename(item)))
+            report.append(f"Copy: {item}")
+            report.append(f"To  : {target}")
+            shutil.copy2(item, target)
+        # Custom symbol library table
+        item = os.path.join(project_folder, "sym-lib-table")
+        if os.path.isfile(item):
+            target = str(os.path.join(pca_folder, os.path.basename(item)))
+            report.append(f"Copy: {item}")
+            report.append(f"To  : {target}")
+            shutil.copy2(item, target)
+        # Custom footprint library table
+        item = os.path.join(project_folder, "fp-lib-table")
+        if os.path.isfile(item):
+            target = str(os.path.join(pca_folder, os.path.basename(item)))
+            report.append(f"Copy: {item}")
+            report.append(f"To  : {target}")
+            shutil.copy2(item, target)
 
     ##################
     # Event handlers #
