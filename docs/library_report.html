@@ -92,6 +92,7 @@ const generic_symbols = [
     { Name: "dio_schottky", Extends: "", Reference: "D", Value: "dio_schottky", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "dio_tvs_bidi", Extends: "", Reference: "D", Value: "dio_tvs_bidi", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "dio_tvs_uni_2_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_2_channel", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
+    { Name: "dio_tvs_uni_2_channel_6p", Extends: "", Reference: "D", Value: "dio_tvs_uni_2_channel_6p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "dio_tvs_uni_4_channel", Extends: "", Reference: "D", Value: "dio_tvs_uni_4_channel", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "dio_zener", Extends: "", Reference: "D", Value: "dio_zener", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "doc_logo_lilytronics", Extends: "", Reference: "DOC", Value: "doc_logo_lilytronics", Description: "", Datasheet: "", Footprint: "lily_footprints:doc_logo_lilytronics", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
@@ -257,6 +258,7 @@ const parts = [
     { Name: "dio_schottky_SS14_do214ac_sma", Extends: "dio_schottky", Reference: "D", Value: "SS14", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/vishay/SS12_13_14_15_16_SMA.pdf", Footprint: "lily_footprints:dio_do214ac_sma", Revision: "1", Status: "Active", Manufacturer: "Vishay Intertech", Manufacturer_ID: "SS14-E3/61T", Lily_ID: "NO_ID", JLCPCB_ID: "C47460", Notes: "" },
     { Name: "dio_tvs_bidi_12V_do214ac_sma", Extends: "dio_tvs_bidi", Reference: "D", Value: "12V", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SMAJ_series.pdf", Footprint: "lily_footprints:dio_do214ac_sma", Revision: "1", Status: "Active", Manufacturer: "Littelfuse", Manufacturer_ID: "SMAJ12CA", Lily_ID: "NO_ID", JLCPCB_ID: "C83267", Notes: "" },
     { Name: "dio_tvs_bidi_15V_smb", Extends: "dio_tvs_bidi", Reference: "D", Value: "15V", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SMBJ_series.pdf", Footprint: "lily_footprints:dio_do214aa_smb", Revision: "1", Status: "Active", Manufacturer: "Littelfuse", Manufacturer_ID: "SMBJ15CA", Lily_ID: "NO_ID", JLCPCB_ID: "C78809", Notes: "" },
+    { Name: "dio_tvs_uni_2_channel_6V_USBLC6-2_sot23-6", Extends: "dio_tvs_uni_2_channel_6p", Reference: "D", Value: "USBLC6-2", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/USBLC6-2.pdf", Footprint: "lily_footprints:sot23-6_sc74", Revision: "1", Status: "Active", Manufacturer: "STMicroelectronics", Manufacturer_ID: "USBLC6-2SC6", Lily_ID: "NO_ID", JLCPCB_ID: "C7519", Notes: "" },
     { Name: "dio_tvs_uni_4_channel_5V_SRV05-4_sot23-6", Extends: "dio_tvs_uni_4_channel", Reference: "D", Value: "SRV05-4", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SRV05-4.pdf", Footprint: "lily_footprints:sot23-6_sc74", Revision: "1", Status: "Active", Manufacturer: "Littelfuse", Manufacturer_ID: "SRV05-4HTG-D", Lily_ID: "NO_ID", JLCPCB_ID: "C1975211", Notes: "" },
     { Name: "dio_zener_4V7_200mW_sod323", Extends: "dio_zener", Reference: "D", Value: "4V7", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/nexperia/BZX384_series.pdf", Footprint: "lily_footprints:dio_sod323", Revision: "1", Status: "Active", Manufacturer: "Nexperia", Manufacturer_ID: "BZX384-C4V7,115", Lily_ID: "NO_ID", JLCPCB_ID: "C454980", Notes: "" },
     { Name: "fuse_ptc_0.1A_0.3A_15V_1R0_0805", Extends: "fuse_ptc", Reference: "F", Value: "0.1A/0.3A", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf", Footprint: "lily_footprints:fuse_ptc_0805", Revision: "1", Status: "Active", Manufacturer: "Littelfuse", Manufacturer_ID: "0805L010YR", Lily_ID: "NO_ID", JLCPCB_ID: "C207020", Notes: "" },
@@ -626,8 +628,8 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-10-16 12:35</p>
-<p>Total symbols: 408</p>
+<p>Last updated: 2025-10-16 12:36</p>
+<p>Total symbols: 410</p>
 <p>Total footprints: 92</p>
 </div>
 
