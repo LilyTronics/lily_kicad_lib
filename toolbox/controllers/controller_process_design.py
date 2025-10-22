@@ -96,6 +96,11 @@ class ControllerProcessDesign(ControllerBase):
             self._copy_design(pca_folder, design_filename, project_folder, report)
 
             report.append("\nProcess finished")
+            for line in report:
+                if "warning" in line.lower():
+                    self._main_view.add_to_console("Warnings were reported in the report file")
+                    break
+
         except Exception as e:
             dialog_message = f"{str(e)}\n"
             if len(report) == 0:
@@ -122,9 +127,8 @@ class ControllerProcessDesign(ControllerBase):
         messages = ProjectsChecker.check_project(project_folder)
         if len(messages) > 0:
             for message in messages:
-                report.append(f"ERROR: {message["item"]}: {message["message"]}")
-            self._main_view.add_to_console("The project checker reported errors")
-            raise Exception("The project checker reported errors")
+                report.append(f"WARNING: {message["item"]}: {message["message"]}")
+            self._main_view.add_to_console("The project checker reported warnings")
 
         self._main_view.add_to_console("Check design properties")
         sch_props = DesignParser.get_schematics_properties(project_folder)
@@ -137,9 +141,14 @@ class ControllerProcessDesign(ControllerBase):
             report.append(f"{key}: {pcb_props[key]}")
 
         # Test properties
+        has_warning = False
         for prop in ["design_name", "date", "revision", "pca_id", "pcb_id"]:
             if sch_props[prop] != pcb_props[prop]:
-                raise Exception(f"The {prop.replace("_", " ")} is not equal between the schematics and the PCB")
+                report.append(f"Warning: the {prop.replace("_", " ")} is not equal between the schematics and the PCB")
+                has_warning = True
+
+        if has_warning:
+            self._main_view.add_to_console("The project properties check reported warnings")
 
         return pcb_props
 
