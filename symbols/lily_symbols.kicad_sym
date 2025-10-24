@@ -44652,7 +44652,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:con_header_1x06_2.54mm_th"
-			(at -5.08 -33.02 0)
+			(at -6.35 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44660,8 +44660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -5.08 -45.72 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/2213S-06G.pdf"
+			(at -5.08 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44679,7 +44679,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at -5.08 -27.94 0)
+			(at -5.08 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44688,7 +44688,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at -5.08 -30.48 0)
+			(at -5.08 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44697,7 +44697,7 @@
 			)
 		)
 		(property "Manufacturer" "Multicomp"
-			(at -5.08 -35.56 0)
+			(at -6.35 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44705,8 +44705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" ""
-			(at -5.08 -38.1 0)
+		(property "Manufacturer_ID" "2213S-06G"
+			(at -5.08 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44715,7 +44715,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at -5.08 -40.64 0)
+			(at -5.08 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44724,7 +44724,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "NO_ID"
-			(at -5.08 -43.18 0)
+			(at -5.08 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
