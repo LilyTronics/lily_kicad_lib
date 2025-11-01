@@ -51872,7 +51872,7 @@
 	(symbol "res_10R_1%_1W_2512"
 		(extends "res")
 		(property "Reference" "R"
-			(at 1.905 -2.54 0)
+			(at 1.905 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51881,7 +51881,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 1.905 -5.08 0)
+			(at 1.905 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51907,13 +51907,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "1W"
+			(at 1.905 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Revision" "1"
