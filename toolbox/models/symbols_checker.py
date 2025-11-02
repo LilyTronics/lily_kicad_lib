@@ -39,7 +39,8 @@ class SymbolsChecker:
     SKIP_FIELDS = ("Name", "Datasheet", "Description", "Reference", "Revision", "Notes", "Extends")
     VALUE_FIELDS = ("Footprint", "Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID")
     POWER_SYMBOLS = ("GND", "Earth", "GNDA", "Vxx")
-    VALUE_QUERY = ["bjt_", "cap_", "crystal_", "dio_", "fuse_", "ic_", "ind_", "mosfet_", "res_", "pot_", "mec_"]
+    VALUE_QUERY = ["bjt_", "cap_", "con_", "crystal_", "dio_", "fuse_", "ic_", "ind_", "mosfet_", "res_", "pot_",
+                   "mec_"]
 
     @classmethod
     def run(cls):
