@@ -63,6 +63,7 @@ const generic_symbols = [
     { Name: "bjt_npn_3p", Extends: "", Reference: "Q", Value: "bjt_npn_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "bjt_pnp_3p", Extends: "", Reference: "Q", Value: "bjt_pnp_3p", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "cap", Extends: "", Reference: "C", Value: "cap", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
+    { Name: "cap_elec", Extends: "", Reference: "C", Value: "cap_elec", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "cap_trimmer", Extends: "", Reference: "C", Value: "cap_trimmer", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "con_1x02", Extends: "", Reference: "X", Value: "con_1x02", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "con_1x03", Extends: "", Reference: "X", Value: "con_1x03", Description: "", Datasheet: "", Footprint: "", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
@@ -238,6 +239,7 @@ const parts = [
     { Name: "cap_do_not_populate_0805", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_0805_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "cap_do_not_populate_1206", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_1206_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "cap_do_not_populate_1210", Extends: "cap", Reference: "C", Value: "dnp", Description: "", Datasheet: "", Footprint: "lily_footprints:cap_1210_dnp", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
+    { Name: "cap_elec_15m_50V_20%_rad_35x52mm_th", Extends: "cap_elec", Reference: "C", Value: "15m", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/TDK/B41252.pdf", Footprint: "lily_footprints:cap_elec_rad_35x52mm_th", Revision: "1", Status: "Active", Manufacturer: "TDK", Manufacturer_ID: "B41252A6159M060", Lily_ID: "NO_ID", JLCPCB_ID: "NO_ID", Notes: "" },
     { Name: "cap_trimmer_20p_100V_500ppm_JZ", Extends: "cap_trimmer", Reference: "C", Value: "20p", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/knowles/JZ_series.pdf", Footprint: "lily_footprints:cap_trimmer_jz_series", Revision: "1", Status: "Active", Manufacturer: "Knowles", Manufacturer_ID: "JZ020", Lily_ID: "NO_ID", JLCPCB_ID: "NO_ID", Notes: "" },
     { Name: "con_coax_rg_174_cable_to_pcb_th", Extends: "con_coax_2_gnd", Reference: "X", Value: "con_coax_rg_174_cable_to_pcb_th", Description: "", Datasheet: "", Footprint: "lily_footprints:con_coax_rg_174_cable_to_pcb_th", Revision: "1", Status: "", Manufacturer: "", Manufacturer_ID: "", Lily_ID: "", JLCPCB_ID: "", Notes: "" },
     { Name: "con_dc_jack_dc_005_th", Extends: "con_dc_jack_3p", Reference: "X", Value: "con_dc_jack_dc_005_th", Description: "", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/xkb_connectivity/DC-005-5A-2.0.pdf", Footprint: "lily_footprints:con_dc_jack_dc_005_th", Revision: "1", Status: "Active", Manufacturer: "XKB Connection", Manufacturer_ID: "DC-005-5A-2.0", Lily_ID: "NO_ID", JLCPCB_ID: "C381116", Notes: "" },
@@ -495,6 +497,7 @@ const footprints = [
     { Name: "cap_1206_dnp", Revision: "1", Model: "" },
     { Name: "cap_1210", Revision: "1", Model: "../3d_models/cap_1210.step" },
     { Name: "cap_1210_dnp", Revision: "1", Model: "" },
+    { Name: "cap_elec_rad_35x52mm_th", Revision: "1", Model: "../3d_models/cap_elec_rad_35x52mm_th.step" },
     { Name: "cap_trimmer_jz_series", Revision: "1", Model: "../3d_models/cap_trimmer_jz_series.step" },
     { Name: "con_coax_rg_174_cable_to_pcb_th", Revision: "1", Model: "../3d_models/coax_rg_174_to_pcb.step" },
     { Name: "con_dc_jack_dc_005_th", Revision: "1", Model: "../3d_models/con_dc-005-5a-2_0.step" },
@@ -645,9 +648,9 @@ function escapeHtml(unsafe) {
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2025-11-02 14:20</p>
-<p>Total symbols: 425</p>
-<p>Total footprints: 94</p>
+<p>Last updated: 2025-11-02 15:21</p>
+<p>Total symbols: 427</p>
+<p>Total footprints: 95</p>
 </div>
 
 <div class="section">
