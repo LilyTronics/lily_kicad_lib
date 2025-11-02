@@ -1,0 +1,142 @@
+(footprint "to126"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.3 0 0)
+		(layer "F.SilkS")
+		(uuid "908b063e-338b-4529-ba42-4436b4b45e55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "to126"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7f95142-6520-48a8-aa2e-ab1b5cb9d4b2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c707a9ad-f9a0-424a-905f-a417d22930c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2105b930-a8f9-4a11-950b-94e834e94bd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Revision" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea6a6fb9-5007-4198-b072-5a8cc716609e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_rect
+		(start -1.91 -2.2)
+		(end 6.49 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8fefc3dc-c8c9-4ba2-97ed-9b80815ce725")
+	)
+	(fp_rect
+		(start -1.71 -2)
+		(end 6.29 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8f0e234d-3413-4624-ab73-fccd5e1de80c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.3 0 0)
+		(layer "F.Fab")
+		(uuid "ccd067bb-18c9-412f-8759-4b4262528cf7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 4.58 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "1388078a-23da-4ffa-8844-1a2108e7f2cf")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "dc6b91d4-c150-408d-92ee-6941655a493f")
+	)
+	(pad "3" thru_hole circle
+		(at 2.29 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "067a8447-08df-4670-99de-420fe4dc66aa")
+	)
+	(embedded_fonts no)
+	(model "../3d_models/to126.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
