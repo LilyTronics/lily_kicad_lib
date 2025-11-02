@@ -37,6 +37,6 @@ jobs:
         git config user.email "danny@lilytronics.nl"
         git config user.name "Danny"
         git config pull.rebase false
-        git commit --amend --no-edit
+        git commit -am "Updated library report"
         git pull
         git push
