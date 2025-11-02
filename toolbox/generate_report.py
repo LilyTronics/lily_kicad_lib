@@ -2,6 +2,7 @@
 Generates an HTML report with all symbols.
 """
 
+import base64
 import html
 import os
 
@@ -42,17 +43,25 @@ def generate_report():
             parts_data += f"    {symbol_data},\n"
 
     # Footprints
-    footprint_fields = ["Name", "Revision", "Model"]
+    footprint_fields = ["Name", "Revision", "Model", "Image"]
     footprints_data = ""
     footprints = LibParser.get_footprints()
     for footprint in sorted(footprints, key=lambda x: x["Name"]):
         footprint_data = "{ "
         for field in footprint_fields:
-            value = footprint[field]
+            value = footprint.get(field, "")
             if isinstance(value, dict):
                 value = value["Value"]
             footprint_data += f'{field}: "{html.escape(value)}", '
-        footprint_data = footprint_data[:-2] + " }"
+        footprint_data = footprint_data[:-2]
+        # Add image data if available
+        image_filename = os.path.join(LibParser.LIB_FOOTPRINT_PATH, f"{footprint["Name"]}.png")
+        if os.path.isfile(image_filename):
+            with open(image_filename, "rb") as img_file:
+                # Encode the image to Base64
+                base64_string = base64.b64encode(img_file.read()).decode('utf-8')
+                footprint_data += f", Image: \"{base64_string}\""
+        footprint_data += " }"
         footprints_data += f"    {footprint_data},\n"
 
     with open(template_filename, "r") as fp:

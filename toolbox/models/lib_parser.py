@@ -26,6 +26,8 @@ class LibParser:
         "ki_locked"
     ]
 
+    LIB_FOOTPRINT_PATH = os.path.join(AppData.APP_PATH, "lily_footprints.pretty")
+
     @classmethod
     def get_symbols(cls):
         lib_filename = os.path.join(AppData.APP_PATH, "symbols", "lily_symbols.kicad_sym")
@@ -67,11 +69,10 @@ class LibParser:
 
     @classmethod
     def get_footprints(cls):
-        lib_path = os.path.join(AppData.APP_PATH, "lily_footprints.pretty")
-        cls.stdout(f"Read footprints library: {lib_path}")
+        cls.stdout(f"Read footprints library: {cls.LIB_FOOTPRINT_PATH}")
         footprints = []
         fields = []
-        for item in glob.glob(os.path.join(lib_path, "*.kicad_mod")):
+        for item in glob.glob(os.path.join(cls.LIB_FOOTPRINT_PATH, "*.kicad_mod")):
             with open(item, "r") as fp:
                 lines = fp.readlines()
             i = 0

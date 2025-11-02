@@ -104,7 +104,16 @@ function generateTable(symbols, query, field_names) {
             output += "<tr>";
             output += "<td>" + i + "</td>";
             for (const field of field_names) {
-                output += "<td>" + escapeHtml(symbol[field]) + "</td>";
+                let value = symbol[field];
+                if (field == "Image" && value != "")
+                {
+                    value = '<img width="100px" src="data:image/jpeg;base64,' + value + '" />';
+                }
+                else
+                {
+                    value = escapeHtml(value);
+                }
+                output += "<td>" + value + "</td>";
             }
             output += "</tr>\n";
         }
@@ -165,7 +174,7 @@ a footprint must be connected manually in the schematics.</p>
 
 <script>
 let uri = window.location.href.replace(window.location.hash, "");
-    
+
 const index_links = `<a href="` + uri + `#generic-symbols">Generic symbols</a> |
 <a href="` + uri + `#parts">Parts</a> |
 <a href="` + uri + `#footprints">Footprints</a> |
