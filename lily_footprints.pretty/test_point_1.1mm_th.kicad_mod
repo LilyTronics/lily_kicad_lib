@@ -1,12 +1,13 @@
 (footprint "test_point_1.1mm_th"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "e7f220bc-c109-4b0a-a92c-91a4353cc42d")
 		(effects
 			(font
@@ -27,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8570ed82-373b-4c1c-8044-7703524f6c88")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -84,7 +75,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "44138775-f3c9-4166-bb4a-dc6c66ee81ad")
 	)
@@ -111,4 +102,5 @@
 		(thermal_bridge_angle 90)
 		(uuid "d28a4f9b-8ca6-48ad-a8aa-aa0e44fc8efe")
 	)
+	(embedded_fonts no)
 )

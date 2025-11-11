@@ -36841,21 +36841,20 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 5.08 1.27 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "test_point"
-			(at 5.08 -1.27 0)
+			(at 0 4.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -36886,7 +36885,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -2.54 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36896,7 +36895,7 @@
 		)
 		(symbol "test_point_0_1"
 			(circle
-				(center 1.905 0)
+				(center 0 1.905)
 				(radius 0.635)
 				(stroke
 					(width 0.254)
@@ -36909,7 +36908,7 @@
 		)
 		(symbol "test_point_1_1"
 			(pin passive line
-				(at 0 0 0)
+				(at 0 0 90)
 				(length 1.27)
 				(name ""
 					(effects
@@ -36940,16 +36939,16 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 1.27 -1.27 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "test_point"
-			(at 1.27 -3.81 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36985,7 +36984,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -12.7 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71024,25 +71023,24 @@
 	(symbol "test_point_1.1mm_th"
 		(extends "test_point")
 		(property "Reference" "TP"
-			(at 5.08 1.27 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "test_point"
-			(at 5.08 -1.27 0)
+			(at 0 4.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "lily_footprints:test_point_1.1mm_th"
-			(at 0 -5.08 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71069,7 +71067,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -2.54 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71081,25 +71079,24 @@
 	(symbol "test_point_1mm_smd"
 		(extends "test_point")
 		(property "Reference" "TP"
-			(at 5.08 1.27 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "test_point"
-			(at 5.08 -1.27 0)
+			(at 0 4.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "lily_footprints:test_point_1mm"
-			(at 0 -5.08 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71126,7 +71123,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -2.54 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71138,16 +71135,16 @@
 	(symbol "test_point_2p_1.1mm_th"
 		(extends "test_point_2p")
 		(property "Reference" "TP"
-			(at 1.27 -1.27 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "test_point"
-			(at 1.27 -3.81 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71156,7 +71153,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:test_point_2p_1.1mm_th"
-			(at 0 -15.24 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71183,7 +71180,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 0 -12.7 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

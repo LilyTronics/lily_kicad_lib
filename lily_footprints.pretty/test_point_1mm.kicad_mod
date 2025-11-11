@@ -1,12 +1,13 @@
 (footprint "test_point_1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "1b07da7b-9a9c-4f51-a43a-f76385c9cf76")
 		(effects
 			(font
@@ -27,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d0e5753b-7b3f-4737-aa92-f9d469635e1f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -84,7 +75,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "30e54bd0-87e4-48fa-9ee7-980ae800f25a")
 	)
@@ -108,4 +99,5 @@
 		(solder_mask_margin 0.1)
 		(uuid "ab48fb7a-fae4-4613-a365-24efc25c1f4e")
 	)
+	(embedded_fonts no)
 )
