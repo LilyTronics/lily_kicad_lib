@@ -66,9 +66,11 @@ const footprints = [
 $footprints_data
 ];
 
-function showData(e) {
+function showData(e)
+{
     let query = "";
-    if (e) {
+    if (e)
+    {
         query = e.target.value;
     }
     document.getElementById("generic_symbol_table").innerHTML = generateTable(generic_symbols, query, symbol_fields);
@@ -76,41 +78,53 @@ function showData(e) {
     document.getElementById("footprints_table").innerHTML = generateTable(footprints, query, footprint_fields);
 }
 
-function generateTable(symbols, query, field_names) {
+function generateTable(symbols, query, field_names)
+{
     let output = "<table>\n";
     // Create header
     output += "<tr>";
     output += "<th>#</th>";
-    for (const field of field_names) {
+    for (const field of field_names)
+    {
         output += "<th>" + escapeHtml(field) + "</th>";
     }
     output += "</tr>\n";
     // Add symbols
     let i = 0;
-    for (const symbol of symbols) {
+    for (const symbol of symbols)
+    {
         let add_symbol = true;
-        if (query != "") {
+        if (query != "")
+        {
             add_symbol = false;
-            for (const field of field_names) {
-                if (symbol[field].toLowerCase().includes(query.toLowerCase())) {
+            for (const field of field_names)
+            {
+                if (symbol[field].toLowerCase().includes(query.toLowerCase()))
+                {
                     add_symbol = true;
                     break;
                 }
             }
         }
-        if (add_symbol) {
+        if (add_symbol)
+        {
             i++;
             output += "<tr>";
             output += "<td>" + i + "</td>";
-            for (const field of field_names) {
+            for (const field of field_names)
+            {
                 let value = symbol[field];
-                if (field == "Image" && value != "")
+                if (typeof value === 'string' && value.startsWith('https://'))
+                {
+                    value = '<a href="' + escapeHtml(value) + '" target="_blank">' + escapeHtml(value) + '</a>';
+                }
+                else if (field === "Image" && value)
                 {
                     value = '<img width="100px" src="data:image/jpeg;base64,' + value + '" />';
                 }
                 else
                 {
-                    value = escapeHtml(value);
+                    value = escapeHtml(String(value));
                 }
                 output += "<td>" + value + "</td>";
             }
@@ -122,7 +136,8 @@ function generateTable(symbols, query, field_names) {
     return output;
 }
 
-function escapeHtml(unsafe) {
+function escapeHtml(unsafe)
+{
     return unsafe
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
@@ -180,7 +195,8 @@ const index_links = `<a href="` + uri + `#generic-symbols">Generic symbols</a> |
 <a href="` + uri + `#top">Top</a>`;
 
 let elms = document.getElementsByName("index-links")
-for (let i = 0; i < elms.length; i++) {
+for (let i = 0; i < elms.length; i++)
+{
     elms[i].innerHTML = index_links;
 }
 
