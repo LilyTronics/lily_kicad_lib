@@ -15,7 +15,7 @@ def generate_report():
     script_path = os.path.dirname(__file__)
     template_filename = os.path.abspath(os.path.join(script_path, "templates", "report_template.html"))
     output_filename = os.path.abspath(os.path.join(script_path, "..", "docs", "library_report.html"))
-    print("\nGenerate report")
+    print("Generate report")
 
     # Symbols
     generic_symbols_data = ""
