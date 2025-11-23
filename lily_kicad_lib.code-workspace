@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.rulers": [100, 120],
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+    	"files.trimFinalNewlines": true,
+		"terminal.integrated.env.windows": {
+			"PYTHONPATH": "${workspaceFolder}"
+		}
+	}
+}
