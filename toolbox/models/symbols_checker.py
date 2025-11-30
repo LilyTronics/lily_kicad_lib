@@ -171,7 +171,7 @@ class SymbolsChecker:
             for query in cls.VALUE_QUERY:
                 if symbol_data["Name"].startswith(query):
                     # Replace spaces and '/' by underscore
-                    value = f"_{re.sub(r'[ /]', '_', symbol_data["Value"])}_"
+                    value = f"_{re.sub(r'[ /]', '_', symbol_data["Value"])}"
                     if value in symbol_data["Name"]:
                         expected_value = symbol_data["Value"]
                     break
