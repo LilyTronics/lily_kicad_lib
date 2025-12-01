@@ -49034,7 +49034,7 @@
 	(symbol "con_jst_1x04_ph_2.00mm_straight_smd"
 		(extends "con_1x04")
 		(property "Reference" "X"
-			(at -8.89 6.35 0)
+			(at -7.62 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49042,8 +49042,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_jst_1x04_ph_2.00mm_straight_smd"
-			(at -8.89 3.81 0)
+		(property "Value" "jst_1x04"
+			(at -7.62 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
