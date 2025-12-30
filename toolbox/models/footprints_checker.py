@@ -300,7 +300,6 @@ class FootprintsChecker:
 
 if __name__ == "__main__":
 
-    messages = FootprintsChecker.run()
-    print(f"{len(messages)} messages")
-    for message in messages:
-        print(message)
+    from show_messages import show_messages
+
+    show_messages(FootprintsChecker.run())
