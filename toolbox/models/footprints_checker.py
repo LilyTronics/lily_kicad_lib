@@ -14,19 +14,20 @@ class FootprintsChecker:
     stdout = print
 
     SKIP_FIELDS = ("Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab",
-                   "Model")
+                   "Model", 'Pin_1_mark')
     VALUE_FIELDS = ("Reference", "Value")
     SKIP_FIELDS_VISIBLE = ("Name", "Model")
-    MUST_VISIBLE = ("Reference", "Reference_F.Fab")
+    MUST_VISIBLE = ("Reference", "Reference_F.Fab", "Pin_1_mark")
     FIELD_PROPERTIES = {
         # Field name: (layer, size, thickness)
-        "Reference": ("F.SilkS", "1 1", "0.16"),
+        "Reference": ("F.SilkS", "0.8 0.8", "0.16"),
         "Value": ("F.Fab", "0.5 0.5", "0.1"),
         "Footprint": ("F.Fab", "1.27 1.27", ""),
         "Datasheet": ("F.Fab", "1.27 1.27", ""),
         "Description": ("F.Fab", "1.27 1.27", ""),
         "Revision": ("F.Fab", "0.5 0.5", "0.1"),
         "Reference_F.Fab": ("F.Fab", "0.5 0.5", "0.1"),
+        "Pin_1_mark": ("F.SilkS", "0.8 0.8", "0.16")
     }
     ATTRIBUTES = {
         "board_only": [False, "not in schematic"],
@@ -123,8 +124,11 @@ class FootprintsChecker:
                         footprint_data["Name"].startswith("mec_") or
                         footprint_data["Name"].startswith("doc_")):
                     expect_visible = False
-                if footprint_data["Name"].startswith("test_point") and field_name == "Value":
-                    expect_visible = True
+                if footprint_data["Name"].startswith("test_point"):
+                    if field_name == "Value":
+                        expect_visible = True
+                    if field_name == "Reference":
+                        expect_visible = False
                 field_checked[0] = True
                 if not footprint_data[field_name]["Visible"] and expect_visible:
                     report_messages.append({
@@ -139,7 +143,7 @@ class FootprintsChecker:
 
                 properties = copy.deepcopy(cls.FIELD_PROPERTIES)
                 if footprint_data["Name"].startswith("test_point_"):
-                    properties["Value"] = ("F.SilkS", "1 1", "0.16")
+                    properties["Value"] = properties["Reference"]
                 if field_name in properties:
                     field_checked[1] = True
                     # Layer
