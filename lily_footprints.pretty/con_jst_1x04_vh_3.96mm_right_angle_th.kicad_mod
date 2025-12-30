@@ -225,6 +225,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "e0da24e6-8df1-43dc-bde0-f8656f70fd6b")
 	)
 	(pad "3" thru_hole circle
@@ -234,6 +235,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "6cf1d0dd-e250-410e-b2eb-7a62a7edbb51")
 	)
 	(pad "4" thru_hole circle
@@ -243,6 +245,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "045b7633-d990-4889-8d4b-9a200c6a80e2")
 	)
 	(embedded_fonts no)

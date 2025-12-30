@@ -115,6 +115,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
 		(uuid "328ca8fd-f7d9-4e58-a411-66bd81507384")
 	)
 	(embedded_fonts no)
