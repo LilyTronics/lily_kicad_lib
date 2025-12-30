@@ -65,6 +65,17 @@
 			)
 		)
 	)
+	(property "Pin_1_mark" "•"
+		(at 2 1.6 0)
+		(layer "F.SilkS")
+		(uuid "dbe253dd-7f80-40b5-ae7c-3763ff26f674")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+		)
+	)
 	(attr smd allow_soldermask_bridges)
 	(fp_rect
 		(start -1.85 -1.4)

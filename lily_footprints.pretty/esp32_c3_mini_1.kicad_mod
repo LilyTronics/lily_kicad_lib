@@ -65,6 +65,17 @@
 			)
 		)
 	)
+	(property "Pin_1_mark" "•"
+		(at -6.9 -4.1 0)
+		(layer "F.SilkS")
+		(uuid "639440dc-a359-40f2-bee8-dd3197939251")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+		)
+	)
 	(attr smd)
 	(fp_rect
 		(start -21.6 -26)
