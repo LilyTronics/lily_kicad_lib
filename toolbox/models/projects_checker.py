@@ -81,7 +81,7 @@ class ProjectsChecker:
             should_be_used = (
                 lib_symbol["Extends"] != "" or  # Parts should be used in designs
                 lib_symbol["Reference"] == "#PWR" or  # Power symbols should be used in designs
-                lib_symbol["Name"].startswith("logo_")  # Logos should be used in designs
+                lib_symbol["Name"].startswith("doc_")  # Doc symbols should be used in designs
             )
 
             is_used = False
@@ -314,14 +314,6 @@ class ProjectsChecker:
 
 if __name__ == "__main__":
 
-    _messages = ProjectsChecker.run()
-    print(f"{len(_messages)} messages")
-    for _message in _messages:
-        print(_message)
+    from show_messages import show_messages
 
-    _project = "../../projects/arduino_base"
-    print(f"\nCheck single project: {_project}")
-    _messages = ProjectsChecker.check_project(_project)
-    print(f"{len(_messages)} messages")
-    for _message in _messages:
-        print(_message)
+    show_messages(ProjectsChecker.run())

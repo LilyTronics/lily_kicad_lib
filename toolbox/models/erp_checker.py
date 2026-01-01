@@ -165,7 +165,6 @@ class ErpChecker:
 
 if __name__ == "__main__":
 
-    messages = ErpChecker.run()
-    print(f"{len(messages)} messages")
-    for message in messages:
-        print(message)
+    from show_messages import show_messages
+
+    show_messages(ErpChecker.run())
