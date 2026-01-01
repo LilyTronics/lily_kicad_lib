@@ -42,7 +42,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -69,7 +69,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -78,15 +78,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -95,16 +86,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CC0805KRX7R9BB104"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-11005"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -113,7 +95,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C49678"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -122,8 +104,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C49678"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -235,7 +226,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -271,7 +262,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics "
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -280,7 +271,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CL21C101JBANNNC"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN101"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -289,7 +280,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31002"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -298,17 +289,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1790"
+			(property "JLCPCB_ID" "C62768"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -412,7 +394,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -420,7 +402,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -439,7 +421,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -448,15 +430,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -465,16 +438,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CL21B103KBANNNC"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-11004"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -483,7 +447,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1710"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB103"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -492,8 +456,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C83170"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -605,7 +578,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -641,7 +614,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -650,7 +623,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG100J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN100"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -659,7 +632,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31001"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -668,17 +641,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C157608"
+			(property "JLCPCB_ID" "C107107"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -713,6 +677,182 @@
 				)
 			)
 			(symbol "cap_10p_50V_5%_C0G_0805_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lily_symbols:cap_10u_25V_10%_X5R_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.175 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 3.175 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:cap_0805"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A106KAYNNN.pdf"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "CL21A106KAYNNNE"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C15850"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap_10u_25V_10%_X5R_0805_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cap_10u_25V_10%_X5R_0805_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 3.175)
@@ -790,7 +930,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -826,7 +966,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "CCTC"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -835,7 +975,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TCC0805X7R124K500DT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB124"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -844,7 +984,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-11205"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -853,17 +993,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C376931"
+			(property "JLCPCB_ID" "C113854"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -975,7 +1106,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1011,7 +1142,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "CCTC"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1020,7 +1151,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TCC0805X7R121K500BT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN121"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -1029,7 +1160,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31202"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1038,17 +1169,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C376930"
+			(property "JLCPCB_ID" "C107109"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1160,7 +1282,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1205,7 +1327,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CC0805JRX7R9BB123"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB123"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -1214,7 +1336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-11204"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1223,17 +1345,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C520031"
+			(property "JLCPCB_ID" "C107141"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1345,7 +1458,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1381,7 +1494,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1390,7 +1503,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG120J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN120"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -1399,7 +1512,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31201"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1408,17 +1521,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1792"
+			(property "JLCPCB_ID" "C107108"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended preferred"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1522,7 +1626,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1530,7 +1634,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1549,7 +1653,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1558,15 +1662,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "CCTC"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -1575,16 +1670,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TCC0805X7R154K500DT"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-11505"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1593,7 +1679,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C376934"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB154"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -1602,8 +1688,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C107144"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1715,7 +1810,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1769,7 +1864,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31502"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1780,15 +1875,6 @@
 			)
 			(property "JLCPCB_ID" "C107111"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1900,7 +1986,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1954,7 +2040,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-11504"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1965,15 +2051,6 @@
 			)
 			(property "JLCPCB_ID" "C107143"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2085,7 +2162,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2139,7 +2216,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31501"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -2150,15 +2227,6 @@
 			)
 			(property "JLCPCB_ID" "C107110"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended preferred"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2262,7 +2330,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2270,7 +2338,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2289,7 +2357,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2298,15 +2366,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "CCTC"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -2315,16 +2374,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TCC0805X7R184K500DT"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-11805"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -2333,7 +2383,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C376938"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB184"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -2342,8 +2392,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C376938"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2455,7 +2514,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2500,7 +2559,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CC0805JRNPO0BN181"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN181"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -2509,7 +2568,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31802"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -2518,17 +2577,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C527205"
+			(property "JLCPCB_ID" "C113826"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2640,7 +2690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2676,7 +2726,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -2685,7 +2735,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B183K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB183"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -2694,7 +2744,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-11804"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -2703,17 +2753,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1723"
+			(property "JLCPCB_ID" "C113857"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2825,7 +2866,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2861,7 +2902,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -2870,7 +2911,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG180J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN180"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -2879,7 +2920,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31801"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -2888,17 +2929,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1797"
+			(property "JLCPCB_ID" "C113825"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended preferred"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3002,7 +3034,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3010,8 +3042,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3029,7 +3061,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3038,15 +3070,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -3055,16 +3078,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CL21B102KBCNNNC"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-11003"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -3073,7 +3087,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C46653"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB102"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -3082,8 +3096,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C94121"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3187,7 +3210,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3195,8 +3218,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3214,7 +3237,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3223,15 +3246,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Walsin Tech Corp "
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -3240,16 +3254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B122K500CT"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-11203"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -3258,7 +3263,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C152888"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB122"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -3267,8 +3272,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C326855"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3380,7 +3394,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -3416,7 +3430,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -3425,7 +3439,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B152K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB152"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -3434,7 +3448,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-11503"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -3443,17 +3457,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1717"
+			(property "JLCPCB_ID" "C107142"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended preferred"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3565,7 +3570,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -3619,7 +3624,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-11803"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -3630,15 +3635,6 @@
 			)
 			(property "JLCPCB_ID" "C277524"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3742,7 +3738,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3750,8 +3746,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3769,7 +3765,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3778,15 +3774,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -3795,16 +3782,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG1R0C500NT"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-31000"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -3813,7 +3791,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1786"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN1R0"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -3822,8 +3800,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C513668"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3935,7 +3922,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -3971,7 +3958,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -3980,7 +3967,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG1R2C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN1R2"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -3989,7 +3976,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31200"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -3998,17 +3985,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1787"
+			(property "JLCPCB_ID" "C327236"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4120,7 +4098,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4156,7 +4134,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -4165,7 +4143,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG1R5C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN1R5"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -4174,7 +4152,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31500"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -4183,17 +4161,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1788"
+			(property "JLCPCB_ID" "C519931"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4305,7 +4274,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4341,7 +4310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Prosperity Dielectrics"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -4350,7 +4319,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "FN21N1R8C500PAG"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN1R8"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -4359,7 +4328,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-31800"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -4368,17 +4337,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C565581"
+			(property "JLCPCB_ID" "C327235"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4490,7 +4450,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4526,7 +4486,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics "
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -4535,7 +4495,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CL21B224KBFNNNE"
+			(property "Manufacturer_ID" "CC0805KKX7R9BB224"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -4544,7 +4504,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-12205"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -4553,17 +4513,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C5378"
+			(property "JLCPCB_ID" "C107131"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4667,7 +4618,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4675,7 +4626,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4694,7 +4645,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4703,15 +4654,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -4720,16 +4662,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CC0805JRNPO9BN221"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-32202"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -4738,7 +4671,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C107112"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN221"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -4747,8 +4680,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C107112"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4852,7 +4794,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4860,7 +4802,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -4879,7 +4821,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4888,15 +4830,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics "
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -4905,16 +4838,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CL21B223KBANNNC"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-12204"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -4923,7 +4847,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1729"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB223"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -4932,8 +4856,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C107147"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5037,7 +4970,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5045,7 +4978,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -5064,7 +4997,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5073,15 +5006,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics "
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -5090,16 +5014,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CL21C220JBANNNC"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-32201"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -5108,7 +5023,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1804"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN220"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -5117,8 +5032,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C105623"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5153,6 +5077,182 @@
 				)
 			)
 			(symbol "cap_22p_50V_5%_C0G_0805_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lily_symbols:cap_22u_16V_10%_X5R_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.175 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22u"
+				(at 3.175 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:cap_0805"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A226KOQNNN.pdf"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "CL21A226KOQNNNE"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C296720"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap_22u_16V_10%_X5R_0805_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cap_22u_16V_10%_X5R_0805_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 3.175)
@@ -5230,7 +5330,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -5266,7 +5366,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "CCTC"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -5275,7 +5375,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TCC0805X7R274K500DT"
+			(property "Manufacturer_ID" "CC0805KKX7R9BB274"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -5284,7 +5384,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-12705"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -5293,17 +5393,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C376968"
+			(property "JLCPCB_ID" "C113845"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5415,7 +5506,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -5469,7 +5560,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-32702"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -5480,15 +5571,6 @@
 			)
 			(property "JLCPCB_ID" "C113828"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5600,7 +5682,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -5645,7 +5727,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CC0805JRX7R9BB273"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB273"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -5654,7 +5736,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-12704"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -5663,17 +5745,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C520042"
+			(property "JLCPCB_ID" "C113860"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5785,7 +5858,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -5821,7 +5894,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -5830,7 +5903,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG270J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN270"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -5839,7 +5912,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-32701"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -5848,17 +5921,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1808"
+			(property "JLCPCB_ID" "C107113"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5970,7 +6034,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6006,7 +6070,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -6015,7 +6079,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B222K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB222"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -6024,7 +6088,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-12203"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -6033,17 +6097,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C36576"
+			(property "JLCPCB_ID" "C107146"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6155,7 +6210,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6191,7 +6246,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -6200,7 +6255,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B272K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB272"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -6209,7 +6264,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-12703"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -6218,17 +6273,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1733"
+			(property "JLCPCB_ID" "C113859"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6340,7 +6386,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6376,7 +6422,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -6385,7 +6431,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG2R2C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN2R2"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -6394,7 +6440,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-32200"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -6403,17 +6449,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1801"
+			(property "JLCPCB_ID" "C519933"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6525,7 +6562,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6561,7 +6598,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -6570,7 +6607,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG2R7C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN2R7"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -6579,7 +6616,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-32700"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -6588,17 +6625,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1803"
+			(property "JLCPCB_ID" "C519936"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6710,7 +6738,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6746,7 +6774,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "CCTC"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -6755,7 +6783,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TCC0805X7R334K500DT"
+			(property "Manufacturer_ID" "CC0805KKX7R9BB334"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -6764,7 +6792,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-13305"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -6773,17 +6801,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C309049"
+			(property "JLCPCB_ID" "C107132"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6895,7 +6914,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -6931,7 +6950,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -6940,7 +6959,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG331J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN331"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -6949,7 +6968,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-33302"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -6958,17 +6977,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1815"
+			(property "JLCPCB_ID" "C107116"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7080,7 +7090,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -7116,7 +7126,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -7125,7 +7135,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B333K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB333"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -7134,7 +7144,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-13304"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -7143,17 +7153,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1739"
+			(property "JLCPCB_ID" "C107150"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7265,7 +7266,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -7301,7 +7302,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -7310,7 +7311,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG330J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN330"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -7319,7 +7320,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-33301"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -7328,17 +7329,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C157687"
+			(property "JLCPCB_ID" "C107115"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7412,7 +7404,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:cap_390n_16V_10%_X7R_0805"
+		(symbol "lily_symbols:cap_390n_50V_10%_X7R_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -7442,7 +7434,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7450,7 +7442,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -7469,7 +7461,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7478,15 +7470,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Walsin Tech Corp "
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -7495,16 +7478,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B394K160CT"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-13905"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -7513,7 +7487,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C152869"
+			(property "Manufacturer_ID" "CC0805KKX7R9BB394"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -7522,7 +7496,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -7531,8 +7505,8 @@
 					(hide yes)
 				)
 			)
-			(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-				(at 0 10.16 0)
+			(property "JLCPCB_ID" "C1854267"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7540,7 +7514,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "cap_390n_16V_10%_X7R_0805_0_1"
+			(symbol "cap_390n_50V_10%_X7R_0805_0_1"
 				(polyline
 					(pts
 						(xy -1.905 -3.175) (xy 1.905 -3.175)
@@ -7566,7 +7540,7 @@
 					)
 				)
 			)
-			(symbol "cap_390n_16V_10%_X7R_0805_1_1"
+			(symbol "cap_390n_50V_10%_X7R_0805_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 3.175)
@@ -7644,7 +7618,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -7698,7 +7672,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-33902"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -7709,15 +7683,6 @@
 			)
 			(property "JLCPCB_ID" "C519975"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7829,7 +7794,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -7865,7 +7830,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -7874,7 +7839,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B393K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB393"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -7883,7 +7848,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-13904"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -7892,17 +7857,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C39760"
+			(property "JLCPCB_ID" "C309493"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8014,7 +7970,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -8050,7 +8006,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -8059,7 +8015,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG390J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN390"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -8068,7 +8024,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-33901"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -8077,17 +8033,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1817"
+			(property "JLCPCB_ID" "C107117"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8199,7 +8146,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -8235,7 +8182,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -8244,7 +8191,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B332K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB332"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -8253,7 +8200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-13303"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -8262,17 +8209,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1738"
+			(property "JLCPCB_ID" "C107149"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8384,7 +8322,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -8420,7 +8358,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -8429,7 +8367,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B392K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB392"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -8438,7 +8376,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-13903"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -8447,17 +8385,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1742"
+			(property "JLCPCB_ID" "C113861"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8569,7 +8498,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -8605,7 +8534,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -8614,7 +8543,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG3R3C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN3R3"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -8623,7 +8552,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-33300"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -8632,17 +8561,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1811"
+			(property "JLCPCB_ID" "C327234"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8754,7 +8674,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -8790,7 +8710,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -8799,7 +8719,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG3R9C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN3R9"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -8808,7 +8728,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-33900"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -8817,17 +8737,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1813"
+			(property "JLCPCB_ID" "C519938"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8931,7 +8842,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8939,8 +8850,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8958,7 +8869,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8967,15 +8878,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -8984,16 +8886,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CL21B474KBFNNNE"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-14705"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -9002,7 +8895,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C13967"
+			(property "Manufacturer_ID" "CC0805KKX7R9BB474"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -9011,8 +8904,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C106843"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9124,7 +9026,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -9160,7 +9062,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -9169,7 +9071,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B471K500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN471"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -9178,7 +9080,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-34702"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -9187,17 +9089,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1743"
+			(property "JLCPCB_ID" "C62771"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9301,7 +9194,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9309,7 +9202,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -9328,7 +9221,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9337,15 +9230,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics "
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -9354,16 +9238,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CL21B473KBCNNNC"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-14704"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -9372,7 +9247,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C53134"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB473"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -9381,8 +9256,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C107154"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9494,7 +9378,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -9530,7 +9414,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -9539,7 +9423,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG470J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN470"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -9548,7 +9432,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-34701"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -9557,17 +9441,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C24659"
+			(property "JLCPCB_ID" "C107118"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9679,7 +9554,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -9715,7 +9590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -9724,7 +9599,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B472K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB472"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -9733,7 +9608,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-14703"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -9742,17 +9617,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1744"
+			(property "JLCPCB_ID" "C107153"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9864,7 +9730,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -9900,7 +9766,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -9909,7 +9775,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG4R7C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN4R7"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -9918,7 +9784,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-34700"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -9927,17 +9793,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1820"
+			(property "JLCPCB_ID" "C327159"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10011,7 +9868,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:cap_560n_25V_10%_X7R_0805"
+		(symbol "lily_symbols:cap_560n_50V_10%_X7R_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10041,7 +9898,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10049,7 +9906,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -10068,7 +9925,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10077,15 +9934,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -10094,16 +9942,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CC0805KKX7R8BB564"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-15605"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -10112,7 +9951,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C577006"
+			(property "Manufacturer_ID" "CC0805KKX7R9BB564"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -10121,7 +9960,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -10130,8 +9969,8 @@
 					(hide yes)
 				)
 			)
-			(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-				(at 0 10.16 0)
+			(property "JLCPCB_ID" "C577007"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10139,7 +9978,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "cap_560n_25V_10%_X7R_0805_0_1"
+			(symbol "cap_560n_50V_10%_X7R_0805_0_1"
 				(polyline
 					(pts
 						(xy -1.905 -3.175) (xy 1.905 -3.175)
@@ -10165,7 +10004,7 @@
 					)
 				)
 			)
-			(symbol "cap_560n_25V_10%_X7R_0805_1_1"
+			(symbol "cap_560n_50V_10%_X7R_0805_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 3.175)
@@ -10243,7 +10082,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -10279,7 +10118,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -10288,7 +10127,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG561J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN561"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -10297,7 +10136,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-35602"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -10306,17 +10145,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1829"
+			(property "JLCPCB_ID" "C107119"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10428,7 +10258,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -10464,7 +10294,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Walsin Tech Corp"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -10473,7 +10303,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B563K500CT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB563"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -10482,7 +10312,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-15604"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -10491,17 +10321,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C123626"
+			(property "JLCPCB_ID" "C107156"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10613,7 +10434,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -10649,7 +10470,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -10658,7 +10479,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG560J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN560"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -10667,7 +10488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-35601"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -10676,17 +10497,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1828"
+			(property "JLCPCB_ID" "C113831"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10798,7 +10610,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -10834,7 +10646,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -10843,7 +10655,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B562K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB562"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -10852,7 +10664,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-15603"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -10861,17 +10673,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1752"
+			(property "JLCPCB_ID" "C113862"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10983,7 +10786,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -11019,7 +10822,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -11028,7 +10831,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG5R6C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN5R6"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -11037,7 +10840,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-35600"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -11046,17 +10849,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1826"
+			(property "JLCPCB_ID" "C513555"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11160,7 +10954,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11168,7 +10962,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -11187,7 +10981,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11196,15 +10990,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "CCTC"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -11213,16 +10998,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TCC0805X7R684K500DT"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-16805"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -11231,7 +11007,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C282780"
+			(property "Manufacturer_ID" "CC0805KKX7R9BB684"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -11240,8 +11016,17 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C107133"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11353,7 +11138,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -11389,7 +11174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -11398,7 +11183,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B681K500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN681"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -11407,7 +11192,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-36802"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -11416,17 +11201,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1754"
+			(property "JLCPCB_ID" "C107121"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11538,7 +11314,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -11592,7 +11368,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-16804"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -11603,15 +11379,6 @@
 			)
 			(property "JLCPCB_ID" "C107159"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11723,7 +11490,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -11759,7 +11526,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -11768,7 +11535,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG680J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN680"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -11777,7 +11544,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-36801"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -11786,17 +11553,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1834"
+			(property "JLCPCB_ID" "C107120"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11908,7 +11666,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -11944,7 +11702,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -11953,7 +11711,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B682K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB682"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -11962,7 +11720,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-16803"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -11971,17 +11729,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1755"
+			(property "JLCPCB_ID" "C107158"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extende preferred"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12093,7 +11842,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -12129,7 +11878,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -12138,7 +11887,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG6R8C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN6R8"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -12147,7 +11896,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-36800"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -12156,17 +11905,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1832"
+			(property "JLCPCB_ID" "C519942"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12240,7 +11980,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:cap_820n_16V_10%_X7R_0805"
+		(symbol "lily_symbols:cap_820n_50V_10%_X7R_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -12270,7 +12010,7 @@
 				)
 			)
 			(property "Footprint" "lily_footprints:cap_0805"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12278,7 +12018,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -12297,7 +12037,7 @@
 				)
 			)
 			(property "Revision" "1"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12306,15 +12046,6 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -12323,16 +12054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "CC0805KKX7R7BB824"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1912-18205"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -12341,7 +12063,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C5185459"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB824"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -12350,7 +12072,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Extended"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -12359,8 +12081,8 @@
 					(hide yes)
 				)
 			)
-			(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-				(at 0 10.16 0)
+			(property "JLCPCB_ID" "C5375919"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12368,7 +12090,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "cap_820n_16V_10%_X7R_0805_0_1"
+			(symbol "cap_820n_50V_10%_X7R_0805_0_1"
 				(polyline
 					(pts
 						(xy -1.905 -3.175) (xy 1.905 -3.175)
@@ -12394,7 +12116,7 @@
 					)
 				)
 			)
-			(symbol "cap_820n_16V_10%_X7R_0805_1_1"
+			(symbol "cap_820n_50V_10%_X7R_0805_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 3.175)
@@ -12472,7 +12194,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -12526,7 +12248,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-38202"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -12537,15 +12259,6 @@
 			)
 			(property "JLCPCB_ID" "C113834"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12657,7 +12370,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -12711,7 +12424,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-18204"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -12722,15 +12435,6 @@
 			)
 			(property "JLCPCB_ID" "C327222"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12842,7 +12546,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -12878,7 +12582,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -12887,7 +12591,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG820J500NT"
+			(property "Manufacturer_ID" "CC0805JRNPO9BN820"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -12896,7 +12600,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-38201"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -12905,17 +12609,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1841"
+			(property "JLCPCB_ID" "C113833"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13027,7 +12722,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -13063,7 +12758,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -13072,7 +12767,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805B822K500NT"
+			(property "Manufacturer_ID" "CC0805KRX7R9BB821"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -13081,7 +12776,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-18203"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -13090,17 +12785,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1758"
+			(property "JLCPCB_ID" "C113863"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13212,7 +12898,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -13248,7 +12934,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(property "Manufacturer" "YAGEO"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -13257,7 +12943,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "0805CG8R2C500NT"
+			(property "Manufacturer_ID" "CC0805CRNPO9BN8R2"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -13266,7 +12952,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1912-38200"
+			(property "Lily_ID" "NO_ID"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -13275,17 +12961,8 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C1840"
+			(property "JLCPCB_ID" "C326837"
 				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13527,7 +13204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 88.9 80.01 0)
 			(effects
 				(font
@@ -13572,7 +13249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805JRX7R9BB273"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB273"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -13581,7 +13258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-12704"
+		(property "Lily_ID" "NO_ID"
 			(at 88.9 99.06 0)
 			(effects
 				(font
@@ -13590,17 +13267,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C520042"
+		(property "JLCPCB_ID" "C113860"
 			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 88.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13659,7 +13327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 25.4 54.61 0)
 			(effects
 				(font
@@ -13695,7 +13363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "YAGEO"
 			(at 25.4 68.58 0)
 			(effects
 				(font
@@ -13704,7 +13372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21C101JBANNNC"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN101"
 			(at 25.4 71.12 0)
 			(effects
 				(font
@@ -13713,7 +13381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31002"
+		(property "Lily_ID" "NO_ID"
 			(at 25.4 73.66 0)
 			(effects
 				(font
@@ -13722,17 +13390,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1790"
+		(property "JLCPCB_ID" "C62768"
 			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 25.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13791,7 +13450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 88.9 41.91 0)
 			(effects
 				(font
@@ -13827,7 +13486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 88.9 55.88 0)
 			(effects
 				(font
@@ -13836,7 +13495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG270J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN270"
 			(at 88.9 58.42 0)
 			(effects
 				(font
@@ -13845,7 +13504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-32701"
+		(property "Lily_ID" "NO_ID"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -13854,17 +13513,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1808"
+		(property "JLCPCB_ID" "C107113"
 			(at 88.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13915,7 +13565,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 127 104.14 0)
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13923,8 +13573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127 92.71 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
+			(at 127 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13942,7 +13592,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 127 99.06 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,15 +13601,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -13968,16 +13609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21B474KBFNNNE"
-			(at 127 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-14705"
+		(property "Manufacturer" "YAGEO"
 			(at 127 111.76 0)
 			(effects
 				(font
@@ -13986,7 +13618,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C13967"
+		(property "Manufacturer_ID" "CC0805KKX7R9BB474"
 			(at 127 114.3 0)
 			(effects
 				(font
@@ -13995,8 +13627,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Basic"
+		(property "Lily_ID" "NO_ID"
 			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C106843"
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14055,7 +13696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 152.4 41.91 0)
 			(effects
 				(font
@@ -14091,7 +13732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 152.4 55.88 0)
 			(effects
 				(font
@@ -14100,7 +13741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG680J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN680"
 			(at 152.4 58.42 0)
 			(effects
 				(font
@@ -14109,7 +13750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-36801"
+		(property "Lily_ID" "NO_ID"
 			(at 152.4 60.96 0)
 			(effects
 				(font
@@ -14118,17 +13759,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1834"
+		(property "JLCPCB_ID" "C107120"
 			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14187,7 +13819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 165.1 29.21 0)
 			(effects
 				(font
@@ -14223,7 +13855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 165.1 43.18 0)
 			(effects
 				(font
@@ -14232,7 +13864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG8R2C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN8R2"
 			(at 165.1 45.72 0)
 			(effects
 				(font
@@ -14241,7 +13873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-38200"
+		(property "Lily_ID" "NO_ID"
 			(at 165.1 48.26 0)
 			(effects
 				(font
@@ -14250,17 +13882,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1840"
+		(property "JLCPCB_ID" "C326837"
 			(at 165.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 165.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14319,7 +13942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 63.5 29.21 0)
 			(effects
 				(font
@@ -14355,7 +13978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Prosperity Dielectrics"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 43.18 0)
 			(effects
 				(font
@@ -14364,7 +13987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "FN21N1R8C500PAG"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN1R8"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -14373,7 +13996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31800"
+		(property "Lily_ID" "NO_ID"
 			(at 63.5 48.26 0)
 			(effects
 				(font
@@ -14382,17 +14005,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C565581"
+		(property "JLCPCB_ID" "C327235"
 			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 63.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14451,7 +14065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -14487,7 +14101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -14496,7 +14110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B393K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB393"
 			(at 114.3 96.52 0)
 			(effects
 				(font
@@ -14505,7 +14119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-13904"
+		(property "Lily_ID" "NO_ID"
 			(at 114.3 99.06 0)
 			(effects
 				(font
@@ -14514,17 +14128,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C39760"
+		(property "JLCPCB_ID" "C309493"
 			(at 114.3 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,7 +14188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 114.3 41.91 0)
 			(effects
 				(font
@@ -14619,7 +14224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -14628,7 +14233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG390J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN390"
 			(at 114.3 58.42 0)
 			(effects
 				(font
@@ -14637,7 +14242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-33901"
+		(property "Lily_ID" "NO_ID"
 			(at 114.3 60.96 0)
 			(effects
 				(font
@@ -14646,17 +14251,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1817"
+		(property "JLCPCB_ID" "C107117"
 			(at 114.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14715,7 +14311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 114.3 29.21 0)
 			(effects
 				(font
@@ -14751,7 +14347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 114.3 43.18 0)
 			(effects
 				(font
@@ -14760,7 +14356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG3R9C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN3R9"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -14769,7 +14365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-33900"
+		(property "Lily_ID" "NO_ID"
 			(at 114.3 48.26 0)
 			(effects
 				(font
@@ -14778,17 +14374,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1813"
+		(property "JLCPCB_ID" "C519938"
 			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 114.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +14434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -14883,7 +14470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 25.4 55.88 0)
 			(effects
 				(font
@@ -14892,7 +14479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG100J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN100"
 			(at 25.4 58.42 0)
 			(effects
 				(font
@@ -14901,7 +14488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31001"
+		(property "Lily_ID" "NO_ID"
 			(at 25.4 60.96 0)
 			(effects
 				(font
@@ -14910,17 +14497,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C157608"
+		(property "JLCPCB_ID" "C107107"
 			(at 25.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 25.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14979,7 +14557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 38.1 29.21 0)
 			(effects
 				(font
@@ -15015,7 +14593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -15024,7 +14602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG1R2C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN1R2"
 			(at 38.1 45.72 0)
 			(effects
 				(font
@@ -15033,7 +14611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31200"
+		(property "Lily_ID" "NO_ID"
 			(at 38.1 48.26 0)
 			(effects
 				(font
@@ -15042,17 +14620,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1787"
+		(property "JLCPCB_ID" "C327236"
 			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 38.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15111,7 +14680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 38.1 80.01 0)
 			(effects
 				(font
@@ -15156,7 +14725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805JRX7R9BB123"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB123"
 			(at 38.1 96.52 0)
 			(effects
 				(font
@@ -15165,7 +14734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-11204"
+		(property "Lily_ID" "NO_ID"
 			(at 38.1 99.06 0)
 			(effects
 				(font
@@ -15174,17 +14743,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C520031"
+		(property "JLCPCB_ID" "C107141"
 			(at 38.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 38.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15243,7 +14803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 76.2 29.21 0)
 			(effects
 				(font
@@ -15279,7 +14839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 76.2 43.18 0)
 			(effects
 				(font
@@ -15288,7 +14848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG2R2C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN2R2"
 			(at 76.2 45.72 0)
 			(effects
 				(font
@@ -15297,7 +14857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-32200"
+		(property "Lily_ID" "NO_ID"
 			(at 76.2 48.26 0)
 			(effects
 				(font
@@ -15306,17 +14866,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1801"
+		(property "JLCPCB_ID" "C519933"
 			(at 76.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15375,7 +14926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 			(at 76.2 92.71 0)
 			(effects
 				(font
@@ -15411,7 +14962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "YAGEO"
 			(at 76.2 106.68 0)
 			(effects
 				(font
@@ -15420,7 +14971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21B224KBFNNNE"
+		(property "Manufacturer_ID" "CC0805KKX7R9BB224"
 			(at 76.2 109.22 0)
 			(effects
 				(font
@@ -15429,7 +14980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-12205"
+		(property "Lily_ID" "NO_ID"
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -15438,17 +14989,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C5378"
+		(property "JLCPCB_ID" "C107131"
 			(at 76.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15507,7 +15049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 165.1 41.91 0)
 			(effects
 				(font
@@ -15543,7 +15085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 165.1 55.88 0)
 			(effects
 				(font
@@ -15552,7 +15094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG820J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN820"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -15561,7 +15103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-38201"
+		(property "Lily_ID" "NO_ID"
 			(at 165.1 60.96 0)
 			(effects
 				(font
@@ -15570,17 +15112,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1841"
+		(property "JLCPCB_ID" "C113833"
 			(at 165.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 165.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15631,7 +15164,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 25.4 78.74 0)
+			(at 25.4 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15639,8 +15172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 25.4 67.31 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
+			(at 25.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15658,7 +15191,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 25.4 73.66 0)
+			(at 25.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,15 +15200,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 25.4 81.28 0)
 			(effects
 				(font
@@ -15684,16 +15208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21B102KBCNNNC"
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-11003"
+		(property "Manufacturer" "YAGEO"
 			(at 25.4 86.36 0)
 			(effects
 				(font
@@ -15702,7 +15217,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C46653"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB102"
 			(at 25.4 88.9 0)
 			(effects
 				(font
@@ -15711,8 +15226,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Basic"
+		(property "Lily_ID" "NO_ID"
 			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C94121"
+			(at 25.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15771,7 +15295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -15825,7 +15349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-33902"
+		(property "Lily_ID" "NO_ID"
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -15836,15 +15360,6 @@
 		)
 		(property "JLCPCB_ID" "C519975"
 			(at 114.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15868,7 +15383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:cap_820n_16V_10%_X7R_0805")
+		(lib_id "lily_symbols:cap_820n_50V_10%_X7R_0805")
 		(at 165.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15895,7 +15410,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 165.1 104.14 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15903,7 +15418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -15922,7 +15437,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 165.1 99.06 0)
+			(at 165.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15931,15 +15446,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -15948,16 +15454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805KKX7R7BB824"
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-18205"
+		(property "Manufacturer" "YAGEO"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -15966,7 +15463,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C5185459"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB824"
 			(at 165.1 114.3 0)
 			(effects
 				(font
@@ -15975,7 +15472,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 165.1 116.84 0)
 			(effects
 				(font
@@ -15984,8 +15481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-			(at 165.1 78.74 0)
+		(property "JLCPCB_ID" "C5375919"
+			(at 165.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16036,7 +15533,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 25.4 40.64 0)
+			(at 25.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,8 +15541,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 25.4 29.21 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16063,7 +15560,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 25.4 35.56 0)
+			(at 25.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16072,15 +15569,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 25.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
 			(at 25.4 43.18 0)
 			(effects
 				(font
@@ -16089,16 +15577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG1R0C500NT"
-			(at 25.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-31000"
+		(property "Manufacturer" "YAGEO"
 			(at 25.4 48.26 0)
 			(effects
 				(font
@@ -16107,7 +15586,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1786"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN1R0"
 			(at 25.4 50.8 0)
 			(effects
 				(font
@@ -16116,8 +15595,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 25.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C513668"
+			(at 25.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16176,7 +15664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 63.5 54.61 0)
 			(effects
 				(font
@@ -16221,7 +15709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805JRNPO0BN181"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN181"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -16230,7 +15718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31802"
+		(property "Lily_ID" "NO_ID"
 			(at 63.5 73.66 0)
 			(effects
 				(font
@@ -16239,17 +15727,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C527205"
+		(property "JLCPCB_ID" "C113826"
 			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16308,7 +15787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 152.4 29.21 0)
 			(effects
 				(font
@@ -16344,7 +15823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 152.4 43.18 0)
 			(effects
 				(font
@@ -16353,7 +15832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG6R8C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN6R8"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -16362,7 +15841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-36800"
+		(property "Lily_ID" "NO_ID"
 			(at 152.4 48.26 0)
 			(effects
 				(font
@@ -16371,17 +15850,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1832"
+		(property "JLCPCB_ID" "C519942"
 			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16432,7 +15902,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 76.2 53.34 0)
+			(at 76.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16440,7 +15910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -16459,7 +15929,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 76.2 48.26 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16468,15 +15938,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 76.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -16485,16 +15946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21C220JBANNNC"
-			(at 76.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-32201"
+		(property "Manufacturer" "YAGEO"
 			(at 76.2 60.96 0)
 			(effects
 				(font
@@ -16503,7 +15955,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1804"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN220"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -16512,8 +15964,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Basic"
+		(property "Lily_ID" "NO_ID"
 			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C105623"
+			(at 76.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16572,7 +16033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 127 41.91 0)
 			(effects
 				(font
@@ -16608,7 +16069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 127 55.88 0)
 			(effects
 				(font
@@ -16617,7 +16078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG470J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
 			(at 127 58.42 0)
 			(effects
 				(font
@@ -16626,7 +16087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-34701"
+		(property "Lily_ID" "NO_ID"
 			(at 127 60.96 0)
 			(effects
 				(font
@@ -16635,17 +16096,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C24659"
+		(property "JLCPCB_ID" "C107118"
 			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16704,7 +16156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -16740,7 +16192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "YAGEO"
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -16749,7 +16201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TCC0805X7R274K500DT"
+		(property "Manufacturer_ID" "CC0805KKX7R9BB274"
 			(at 88.9 109.22 0)
 			(effects
 				(font
@@ -16758,7 +16210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-12705"
+		(property "Lily_ID" "NO_ID"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -16767,17 +16219,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C376968"
+		(property "JLCPCB_ID" "C113845"
 			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 88.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16836,7 +16279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -16872,7 +16315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Walsin Tech Corp"
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -16881,7 +16324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B563K500CT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB563"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -16890,7 +16333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-15604"
+		(property "Lily_ID" "NO_ID"
 			(at 139.7 99.06 0)
 			(effects
 				(font
@@ -16899,17 +16342,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C123626"
+		(property "JLCPCB_ID" "C107156"
 			(at 139.7 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16968,7 +16402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 88.9 29.21 0)
 			(effects
 				(font
@@ -17004,7 +16438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 88.9 43.18 0)
 			(effects
 				(font
@@ -17013,7 +16447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG2R7C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN2R7"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -17022,7 +16456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-32700"
+		(property "Lily_ID" "NO_ID"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -17031,17 +16465,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1803"
+		(property "JLCPCB_ID" "C519936"
 			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 88.9 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17100,7 +16525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -17136,7 +16561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "YAGEO"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -17145,7 +16570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TCC0805X7R334K500DT"
+		(property "Manufacturer_ID" "CC0805KKX7R9BB334"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -17154,7 +16579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-13305"
+		(property "Lily_ID" "NO_ID"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -17163,17 +16588,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C309049"
+		(property "JLCPCB_ID" "C107132"
 			(at 101.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17232,7 +16648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 50.8 29.21 0)
 			(effects
 				(font
@@ -17268,7 +16684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 50.8 43.18 0)
 			(effects
 				(font
@@ -17277,7 +16693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG1R5C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN1R5"
 			(at 50.8 45.72 0)
 			(effects
 				(font
@@ -17286,7 +16702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31500"
+		(property "Lily_ID" "NO_ID"
 			(at 50.8 48.26 0)
 			(effects
 				(font
@@ -17295,17 +16711,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1788"
+		(property "JLCPCB_ID" "C519931"
 			(at 50.8 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 50.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17364,7 +16771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 38.1 41.91 0)
 			(effects
 				(font
@@ -17400,7 +16807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 38.1 55.88 0)
 			(effects
 				(font
@@ -17409,7 +16816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG120J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN120"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -17418,7 +16825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31201"
+		(property "Lily_ID" "NO_ID"
 			(at 38.1 60.96 0)
 			(effects
 				(font
@@ -17427,17 +16834,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1792"
+		(property "JLCPCB_ID" "C107108"
 			(at 38.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended preferred"
-			(at 38.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17488,7 +16886,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 25.4 104.14 0)
+			(at 25.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17496,7 +16894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 25.4 92.71 0)
 			(effects
 				(font
@@ -17515,7 +16913,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 25.4 99.06 0)
+			(at 25.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17524,15 +16922,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 25.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 25.4 106.68 0)
 			(effects
 				(font
@@ -17541,16 +16930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
-			(at 25.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-11005"
+		(property "Manufacturer" "YAGEO"
 			(at 25.4 111.76 0)
 			(effects
 				(font
@@ -17559,7 +16939,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C49678"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 			(at 25.4 114.3 0)
 			(effects
 				(font
@@ -17568,8 +16948,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Basic"
+		(property "Lily_ID" "NO_ID"
 			(at 25.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C49678"
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17628,7 +17017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -17664,7 +17053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 88.9 81.28 0)
 			(effects
 				(font
@@ -17673,7 +17062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B272K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB272"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -17682,7 +17071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-12703"
+		(property "Lily_ID" "NO_ID"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -17691,17 +17080,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1733"
+		(property "JLCPCB_ID" "C113859"
 			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 88.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17760,7 +17140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 139.7 41.91 0)
 			(effects
 				(font
@@ -17796,7 +17176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 55.88 0)
 			(effects
 				(font
@@ -17805,7 +17185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG560J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN560"
 			(at 139.7 58.42 0)
 			(effects
 				(font
@@ -17814,7 +17194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-35601"
+		(property "Lily_ID" "NO_ID"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -17823,17 +17203,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1828"
+		(property "JLCPCB_ID" "C113831"
 			(at 139.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 139.7 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17892,7 +17263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -17946,7 +17317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31502"
+		(property "Lily_ID" "NO_ID"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -17957,15 +17328,6 @@
 		)
 		(property "JLCPCB_ID" "C107111"
 			(at 50.8 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 50.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18024,7 +17386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 63.5 41.91 0)
 			(effects
 				(font
@@ -18060,7 +17422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 55.88 0)
 			(effects
 				(font
@@ -18069,7 +17431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG180J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN180"
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -18078,7 +17440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31801"
+		(property "Lily_ID" "NO_ID"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -18087,17 +17449,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1797"
+		(property "JLCPCB_ID" "C113825"
 			(at 63.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended preferred"
-			(at 63.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18148,7 +17501,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 76.2 66.04 0)
+			(at 76.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18156,7 +17509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 76.2 54.61 0)
 			(effects
 				(font
@@ -18175,7 +17528,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 76.2 60.96 0)
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18184,15 +17537,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 76.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 76.2 68.58 0)
 			(effects
 				(font
@@ -18201,16 +17545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805JRNPO9BN221"
-			(at 76.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-32202"
+		(property "Manufacturer" "YAGEO"
 			(at 76.2 73.66 0)
 			(effects
 				(font
@@ -18219,7 +17554,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C107112"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN221"
 			(at 76.2 76.2 0)
 			(effects
 				(font
@@ -18228,8 +17563,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C107112"
+			(at 76.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18288,7 +17632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 50.8 41.91 0)
 			(effects
 				(font
@@ -18342,7 +17686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31501"
+		(property "Lily_ID" "NO_ID"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -18353,15 +17697,6 @@
 		)
 		(property "JLCPCB_ID" "C107110"
 			(at 50.8 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended preferred"
-			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18420,7 +17755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -18456,7 +17791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -18465,7 +17800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B681K500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN681"
 			(at 152.4 71.12 0)
 			(effects
 				(font
@@ -18474,7 +17809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-36802"
+		(property "Lily_ID" "NO_ID"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -18483,17 +17818,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1754"
+		(property "JLCPCB_ID" "C107121"
 			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18552,7 +17878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 127 29.21 0)
 			(effects
 				(font
@@ -18588,7 +17914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 127 43.18 0)
 			(effects
 				(font
@@ -18597,7 +17923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG4R7C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN4R7"
 			(at 127 45.72 0)
 			(effects
 				(font
@@ -18606,7 +17932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-34700"
+		(property "Lily_ID" "NO_ID"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -18615,17 +17941,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1820"
+		(property "JLCPCB_ID" "C327159"
 			(at 127 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18684,7 +18001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -18720,7 +18037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 101.6 55.88 0)
 			(effects
 				(font
@@ -18729,7 +18046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG330J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN330"
 			(at 101.6 58.42 0)
 			(effects
 				(font
@@ -18738,7 +18055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-33301"
+		(property "Lily_ID" "NO_ID"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -18747,17 +18064,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C157687"
+		(property "JLCPCB_ID" "C107115"
 			(at 101.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18816,7 +18124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -18870,7 +18178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-32702"
+		(property "Lily_ID" "NO_ID"
 			(at 88.9 73.66 0)
 			(effects
 				(font
@@ -18881,15 +18189,6 @@
 		)
 		(property "JLCPCB_ID" "C113828"
 			(at 88.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 88.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18948,7 +18247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 101.6 80.01 0)
 			(effects
 				(font
@@ -18984,7 +18283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 101.6 93.98 0)
 			(effects
 				(font
@@ -18993,7 +18292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B333K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB333"
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -19002,7 +18301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-13304"
+		(property "Lily_ID" "NO_ID"
 			(at 101.6 99.06 0)
 			(effects
 				(font
@@ -19011,17 +18310,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1739"
+		(property "JLCPCB_ID" "C107150"
 			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 101.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +18370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -19116,7 +18406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 101.6 43.18 0)
 			(effects
 				(font
@@ -19125,7 +18415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG3R3C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN3R3"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -19134,7 +18424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-33300"
+		(property "Lily_ID" "NO_ID"
 			(at 101.6 48.26 0)
 			(effects
 				(font
@@ -19143,17 +18433,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1811"
+		(property "JLCPCB_ID" "C327234"
 			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19212,7 +18493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -19248,7 +18529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -19257,7 +18538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG561J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN561"
 			(at 139.7 71.12 0)
 			(effects
 				(font
@@ -19266,7 +18547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-35602"
+		(property "Lily_ID" "NO_ID"
 			(at 139.7 73.66 0)
 			(effects
 				(font
@@ -19275,17 +18556,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1829"
+		(property "JLCPCB_ID" "C107119"
 			(at 139.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19344,7 +18616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -19380,7 +18652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 152.4 81.28 0)
 			(effects
 				(font
@@ -19389,7 +18661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B682K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB682"
 			(at 152.4 83.82 0)
 			(effects
 				(font
@@ -19398,7 +18670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-16803"
+		(property "Lily_ID" "NO_ID"
 			(at 152.4 86.36 0)
 			(effects
 				(font
@@ -19407,17 +18679,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1755"
+		(property "JLCPCB_ID" "C107158"
 			(at 152.4 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extende preferred"
-			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19476,7 +18739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 50.8 80.01 0)
 			(effects
 				(font
@@ -19530,7 +18793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-11504"
+		(property "Lily_ID" "NO_ID"
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -19541,15 +18804,6 @@
 		)
 		(property "JLCPCB_ID" "C107143"
 			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19600,7 +18854,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 38.1 78.74 0)
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19608,8 +18862,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 67.31 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
+			(at 38.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19627,7 +18881,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 38.1 73.66 0)
+			(at 38.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19636,15 +18890,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Walsin Tech Corp "
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -19653,16 +18898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B122K500CT"
-			(at 38.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-11203"
+		(property "Manufacturer" "YAGEO"
 			(at 38.1 86.36 0)
 			(effects
 				(font
@@ -19671,7 +18907,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C152888"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB122"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -19680,8 +18916,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C326855"
+			(at 38.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19818,7 +19063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -19854,7 +19099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 165.1 81.28 0)
 			(effects
 				(font
@@ -19863,7 +19108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B822K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB821"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -19872,7 +19117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-18203"
+		(property "Lily_ID" "NO_ID"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -19881,17 +19126,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1758"
+		(property "JLCPCB_ID" "C113863"
 			(at 165.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19950,7 +19186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 165.1 80.01 0)
 			(effects
 				(font
@@ -20004,7 +19240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-18204"
+		(property "Lily_ID" "NO_ID"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -20015,15 +19251,6 @@
 		)
 		(property "JLCPCB_ID" "C327222"
 			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 165.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20082,7 +19309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -20118,7 +19345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 101.6 81.28 0)
 			(effects
 				(font
@@ -20127,7 +19354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B332K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB332"
 			(at 101.6 83.82 0)
 			(effects
 				(font
@@ -20136,7 +19363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-13303"
+		(property "Lily_ID" "NO_ID"
 			(at 101.6 86.36 0)
 			(effects
 				(font
@@ -20145,17 +19372,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1738"
+		(property "JLCPCB_ID" "C107149"
 			(at 101.6 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20214,7 +19432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -20250,7 +19468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 81.28 0)
 			(effects
 				(font
@@ -20259,7 +19477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B562K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB562"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -20268,7 +19486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-15603"
+		(property "Lily_ID" "NO_ID"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -20277,17 +19495,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1752"
+		(property "JLCPCB_ID" "C113862"
 			(at 139.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 139.7 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20338,7 +19547,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 76.2 91.44 0)
+			(at 76.2 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20346,7 +19555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 76.2 80.01 0)
 			(effects
 				(font
@@ -20365,7 +19574,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 76.2 86.36 0)
+			(at 76.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20374,15 +19583,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 76.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 76.2 93.98 0)
 			(effects
 				(font
@@ -20391,16 +19591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21B223KBANNNC"
-			(at 76.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-12204"
+		(property "Manufacturer" "YAGEO"
 			(at 76.2 99.06 0)
 			(effects
 				(font
@@ -20409,7 +19600,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1729"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB223"
 			(at 76.2 101.6 0)
 			(effects
 				(font
@@ -20418,8 +19609,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Basic"
+		(property "Lily_ID" "NO_ID"
 			(at 76.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C107147"
+			(at 76.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20478,7 +19678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -20514,7 +19714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -20523,7 +19723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG331J500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN331"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -20532,7 +19732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-33302"
+		(property "Lily_ID" "NO_ID"
 			(at 101.6 73.66 0)
 			(effects
 				(font
@@ -20541,17 +19741,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1815"
+		(property "JLCPCB_ID" "C107116"
 			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 101.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +19801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 114.3 67.31 0)
 			(effects
 				(font
@@ -20646,7 +19837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -20655,7 +19846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B392K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB392"
 			(at 114.3 83.82 0)
 			(effects
 				(font
@@ -20664,7 +19855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-13903"
+		(property "Lily_ID" "NO_ID"
 			(at 114.3 86.36 0)
 			(effects
 				(font
@@ -20673,17 +19864,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1742"
+		(property "JLCPCB_ID" "C113861"
 			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20742,7 +19924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 38.1 54.61 0)
 			(effects
 				(font
@@ -20778,7 +19960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "YAGEO"
 			(at 38.1 68.58 0)
 			(effects
 				(font
@@ -20787,7 +19969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TCC0805X7R121K500BT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN121"
 			(at 38.1 71.12 0)
 			(effects
 				(font
@@ -20796,7 +19978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-31202"
+		(property "Lily_ID" "NO_ID"
 			(at 38.1 73.66 0)
 			(effects
 				(font
@@ -20805,17 +19987,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C376930"
+		(property "JLCPCB_ID" "C107109"
 			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 38.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20866,7 +20039,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 25.4 91.44 0)
+			(at 25.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20874,7 +20047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 25.4 80.01 0)
 			(effects
 				(font
@@ -20893,7 +20066,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 25.4 86.36 0)
+			(at 25.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20902,15 +20075,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 25.4 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 25.4 93.98 0)
 			(effects
 				(font
@@ -20919,16 +20083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21B103KBANNNC"
-			(at 25.4 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-11004"
+		(property "Manufacturer" "YAGEO"
 			(at 25.4 99.06 0)
 			(effects
 				(font
@@ -20937,7 +20092,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1710"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
 			(at 25.4 101.6 0)
 			(effects
 				(font
@@ -20946,8 +20101,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Basic"
+		(property "Lily_ID" "NO_ID"
 			(at 25.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C83170"
+			(at 25.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21006,7 +20170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 152.4 80.01 0)
 			(effects
 				(font
@@ -21060,7 +20224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-16804"
+		(property "Lily_ID" "NO_ID"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -21071,15 +20235,6 @@
 		)
 		(property "JLCPCB_ID" "C107159"
 			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21130,7 +20285,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 152.4 104.14 0)
+			(at 152.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21138,7 +20293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 			(at 152.4 92.71 0)
 			(effects
 				(font
@@ -21157,7 +20312,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 152.4 99.06 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21166,15 +20321,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
 			(at 152.4 106.68 0)
 			(effects
 				(font
@@ -21183,16 +20329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TCC0805X7R684K500DT"
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-16805"
+		(property "Manufacturer" "YAGEO"
 			(at 152.4 111.76 0)
 			(effects
 				(font
@@ -21201,7 +20338,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C282780"
+		(property "Manufacturer_ID" "CC0805KKX7R9BB684"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -21210,8 +20347,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C107133"
+			(at 152.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21229,6 +20375,129 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/402e1021-9edd-4e42-b618-3ac055d59a67"
 					(reference "C2071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:cap_22u_16V_10%_X5R_0805")
+		(at 38.1 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf7839dc-a47c-4410-8439-1025b3905dab")
+		(property "Reference" "C2075"
+			(at 41.275 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 41.275 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_0805"
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A226KOQNNN.pdf"
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 38.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "CL21A226KOQNNNE"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C296720"
+			(at 38.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a0813c2-f657-43ed-a6e8-21821d358716")
+		)
+		(pin "1"
+			(uuid "4311b61f-ecd8-4f5f-97f3-14555a6f21b2")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/402e1021-9edd-4e42-b618-3ac055d59a67"
+					(reference "C2075")
 					(unit 1)
 				)
 			)
@@ -21262,7 +20531,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 127 91.44 0)
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21270,7 +20539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -21289,7 +20558,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 127 86.36 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21298,15 +20567,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
 			(at 127 93.98 0)
 			(effects
 				(font
@@ -21315,16 +20575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CL21B473KBCNNNC"
-			(at 127 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-14704"
+		(property "Manufacturer" "YAGEO"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -21333,7 +20584,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C53134"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB473"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -21342,8 +20593,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Basic"
+		(property "Lily_ID" "NO_ID"
 			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C107154"
+			(at 127 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21402,7 +20662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -21438,7 +20698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -21447,7 +20707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B472K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB472"
 			(at 127 83.82 0)
 			(effects
 				(font
@@ -21456,7 +20716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-14703"
+		(property "Lily_ID" "NO_ID"
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -21465,17 +20725,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1744"
+		(property "JLCPCB_ID" "C107153"
 			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21534,7 +20785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 76.2 67.31 0)
 			(effects
 				(font
@@ -21570,7 +20821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 76.2 81.28 0)
 			(effects
 				(font
@@ -21579,7 +20830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B222K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB222"
 			(at 76.2 83.82 0)
 			(effects
 				(font
@@ -21588,7 +20839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-12203"
+		(property "Lily_ID" "NO_ID"
 			(at 76.2 86.36 0)
 			(effects
 				(font
@@ -21597,17 +20848,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C36576"
+		(property "JLCPCB_ID" "C107146"
 			(at 76.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 76.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21666,7 +20908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 38.1 92.71 0)
 			(effects
 				(font
@@ -21702,7 +20944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "YAGEO"
 			(at 38.1 106.68 0)
 			(effects
 				(font
@@ -21711,7 +20953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TCC0805X7R124K500DT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB124"
 			(at 38.1 109.22 0)
 			(effects
 				(font
@@ -21720,7 +20962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-11205"
+		(property "Lily_ID" "NO_ID"
 			(at 38.1 111.76 0)
 			(effects
 				(font
@@ -21729,17 +20971,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C376931"
+		(property "JLCPCB_ID" "C113854"
 			(at 38.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 38.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21763,7 +20996,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:cap_390n_16V_10%_X7R_0805")
+		(lib_id "lily_symbols:cap_390n_50V_10%_X7R_0805")
 		(at 114.3 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21790,7 +21023,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 114.3 104.14 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21798,7 +21031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -21817,7 +21050,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 114.3 99.06 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21826,15 +21059,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 114.3 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Walsin Tech Corp "
 			(at 114.3 106.68 0)
 			(effects
 				(font
@@ -21843,16 +21067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B394K160CT"
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-13905"
+		(property "Manufacturer" "YAGEO"
 			(at 114.3 111.76 0)
 			(effects
 				(font
@@ -21861,7 +21076,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C152869"
+		(property "Manufacturer_ID" "CC0805KKX7R9BB394"
 			(at 114.3 114.3 0)
 			(effects
 				(font
@@ -21870,7 +21085,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 114.3 116.84 0)
 			(effects
 				(font
@@ -21879,8 +21094,8 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-			(at 114.3 78.74 0)
+		(property "JLCPCB_ID" "C1854267"
+			(at 114.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21931,7 +21146,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 50.8 104.14 0)
+			(at 50.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21939,7 +21154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 50.8 92.71 0)
 			(effects
 				(font
@@ -21958,7 +21173,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 50.8 99.06 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21967,15 +21182,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
 			(at 50.8 106.68 0)
 			(effects
 				(font
@@ -21984,16 +21190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TCC0805X7R154K500DT"
-			(at 50.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-11505"
+		(property "Manufacturer" "YAGEO"
 			(at 50.8 111.76 0)
 			(effects
 				(font
@@ -22002,7 +21199,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C376934"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB154"
 			(at 50.8 114.3 0)
 			(effects
 				(font
@@ -22011,8 +21208,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C107144"
+			(at 50.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22071,7 +21277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 63.5 67.31 0)
 			(effects
 				(font
@@ -22125,7 +21331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-11803"
+		(property "Lily_ID" "NO_ID"
 			(at 63.5 86.36 0)
 			(effects
 				(font
@@ -22136,15 +21342,6 @@
 		)
 		(property "JLCPCB_ID" "C277524"
 			(at 63.5 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 63.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22203,7 +21400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 127 54.61 0)
 			(effects
 				(font
@@ -22239,7 +21436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 127 68.58 0)
 			(effects
 				(font
@@ -22248,7 +21445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B471K500NT"
+		(property "Manufacturer_ID" "CC0805JRNPO9BN471"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -22257,7 +21454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-34702"
+		(property "Lily_ID" "NO_ID"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -22266,17 +21463,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1743"
+		(property "JLCPCB_ID" "C62771"
 			(at 127 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22335,7 +21523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 63.5 80.01 0)
 			(effects
 				(font
@@ -22371,7 +21559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 93.98 0)
 			(effects
 				(font
@@ -22380,7 +21568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B183K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB183"
 			(at 63.5 96.52 0)
 			(effects
 				(font
@@ -22389,7 +21577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-11804"
+		(property "Lily_ID" "NO_ID"
 			(at 63.5 99.06 0)
 			(effects
 				(font
@@ -22398,17 +21586,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1723"
+		(property "JLCPCB_ID" "C113857"
 			(at 63.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 63.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22432,7 +21611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:cap_560n_25V_10%_X7R_0805")
+		(lib_id "lily_symbols:cap_560n_50V_10%_X7R_0805")
 		(at 139.7 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22459,7 +21638,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 139.7 104.14 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22467,7 +21646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KKX7R9BB.pdf"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -22486,7 +21665,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 139.7 99.06 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22495,15 +21674,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 139.7 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 139.7 106.68 0)
 			(effects
 				(font
@@ -22512,16 +21682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805KKX7R8BB564"
-			(at 139.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-15605"
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -22530,7 +21691,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C577006"
+		(property "Manufacturer_ID" "CC0805KKX7R9BB564"
 			(at 139.7 114.3 0)
 			(effects
 				(font
@@ -22539,7 +21700,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 139.7 116.84 0)
 			(effects
 				(font
@@ -22548,8 +21709,8 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "No 50V stock item available at JLCPCB (20240422)"
-			(at 139.7 78.74 0)
+		(property "JLCPCB_ID" "C577007"
+			(at 139.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22600,7 +21761,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 63.5 104.14 0)
+			(at 63.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22608,7 +21769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 63.5 92.71 0)
 			(effects
 				(font
@@ -22627,7 +21788,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 63.5 99.06 0)
+			(at 63.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22636,15 +21797,6 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 63.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -22653,16 +21805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TCC0805X7R184K500DT"
-			(at 63.5 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1912-11805"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 111.76 0)
 			(effects
 				(font
@@ -22671,7 +21814,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C376938"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB184"
 			(at 63.5 114.3 0)
 			(effects
 				(font
@@ -22680,8 +21823,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
+		(property "Lily_ID" "NO_ID"
 			(at 63.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C376938"
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22740,7 +21892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 165.1 54.61 0)
 			(effects
 				(font
@@ -22794,7 +21946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-38202"
+		(property "Lily_ID" "NO_ID"
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -22812,15 +21964,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 165.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "73298385-0cd4-4625-baf0-cc4a84bc52b3")
 		)
@@ -22831,6 +21974,129 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/402e1021-9edd-4e42-b618-3ac055d59a67"
 					(reference "C2036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:cap_10u_25V_10%_X5R_0805")
+		(at 25.4 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd596a89-1330-41c9-b7d6-963c4ae00932")
+		(property "Reference" "C2074"
+			(at 28.575 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 28.575 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_0805"
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A106KAYNNN.pdf"
+			(at 25.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 25.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 25.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "CL21A106KAYNNNE"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 25.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C15850"
+			(at 25.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74238e4f-fd7b-452b-a094-a35f53dd6fe6")
+		)
+		(pin "2"
+			(uuid "36199082-2075-4ef3-8878-6a0c4a4c1770")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/402e1021-9edd-4e42-b618-3ac055d59a67"
+					(reference "C2074")
 					(unit 1)
 				)
 			)
@@ -22872,7 +22138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
 			(at 50.8 67.31 0)
 			(effects
 				(font
@@ -22908,7 +22174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 50.8 81.28 0)
 			(effects
 				(font
@@ -22917,7 +22183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805B152K500NT"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB152"
 			(at 50.8 83.82 0)
 			(effects
 				(font
@@ -22926,7 +22192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-11503"
+		(property "Lily_ID" "NO_ID"
 			(at 50.8 86.36 0)
 			(effects
 				(font
@@ -22935,17 +22201,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1717"
+		(property "JLCPCB_ID" "C107142"
 			(at 50.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended preferred"
-			(at 50.8 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23004,7 +22261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
 			(at 139.7 29.21 0)
 			(effects
 				(font
@@ -23040,7 +22297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -23049,7 +22306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "0805CG5R6C500NT"
+		(property "Manufacturer_ID" "CC0805CRNPO9BN5R6"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -23058,7 +22315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1912-35600"
+		(property "Lily_ID" "NO_ID"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -23067,17 +22324,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C1826"
+		(property "JLCPCB_ID" "C513555"
 			(at 139.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 139.7 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

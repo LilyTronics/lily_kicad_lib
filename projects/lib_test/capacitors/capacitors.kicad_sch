@@ -98,6 +98,49 @@
 			)
 		)
 	)
+	(sheet
+		(at 127 25.4)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f105ba9-2a11-4b51-b85a-72617365978d")
+		(property "Sheetname" "various_through_hole"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "various_through_hole.kicad_sch"
+			(at 127 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "capacitors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
