@@ -120,27 +120,27 @@
 		)
 	)
 	(net 0 "")
-	(footprint "lily_footprints:logo_lilytronics"
+	(footprint "lily_footprints:doc_logo_lilytronics"
 		(layer "F.Cu")
-		(uuid "38768f1f-4bd9-4d4d-9b7a-e200b401a196")
-		(at 107 55)
+		(uuid "2e971900-140c-493b-865e-71d163f30050")
+		(at 106 55)
 		(property "Reference" "DOC1001"
 			(at 0 -0.000002 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f68b7f09-4c8c-4e62-805f-27ae44c82bc6")
+			(uuid "5da291f8-8883-4993-aa0c-1d76df18b07b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.16)
 				)
 			)
 		)
-		(property "Value" "logo_lilytronics"
+		(property "Value" "doc_logo_lilytronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a68fead-22f8-48be-b0c7-5092d2a7dad4")
+			(uuid "946b81b5-f16f-4d2b-a7ef-0158fb77fc44")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -153,7 +153,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "355f02fb-fe08-4083-847b-5fe88581eb7b")
+			(uuid "038af968-a366-4588-9059-097b740e777c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72e24914-93ea-4bfd-b0c0-d1428224cc4e")
+			(uuid "24fe390a-5752-4e24-96dd-2ade587dc625")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +179,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b9cc2ff-7414-4a4b-807f-5df7d979faa3")
+			(uuid "379f4da7-3f4a-4c1d-a1ab-9c7bf615ee8f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -187,7 +187,7 @@
 				)
 			)
 		)
-		(path "/66f7e488-8e6f-4711-b083-4635729e18a7")
+		(path "/0dd3a67c-288a-499b-897a-9d030c873dec")
 		(sheetname "/")
 		(sheetfile "documentation_symbols.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
@@ -196,60 +196,60 @@
 			(mid -0.585785 -1.414215)
 			(end 0.000001 -0.000001)
 			(stroke
-				(width 0.15)
+				(width 0.16)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1278189b-d1c3-46b9-9026-2cfed2f29167")
+			(uuid "ef834c53-c45a-479b-b31a-232cfb7d5977")
 		)
 		(fp_arc
 			(start 0 0)
-			(mid 0.585786 -1.414214)
+			(mid 0.585786 -1.414213)
 			(end 2 -2)
 			(stroke
-				(width 0.15)
+				(width 0.16)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3ef77190-c0ec-416c-a660-83adb0abe32b")
+			(uuid "0eddd0fb-8660-4ad9-ade2-8d2dbdfd3a66")
 		)
 		(fp_arc
 			(start 0.000001 -2.999999)
 			(mid 0.621321 -1.5)
 			(end 0.000001 -0.000001)
 			(stroke
-				(width 0.15)
+				(width 0.16)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "97d2b5e7-99ef-45fa-bdca-1d07ba220c64")
+			(uuid "a5bafb69-3ad4-4563-a2aa-4542add5f848")
 		)
 		(fp_arc
 			(start 0.000001 -0.000001)
 			(mid -0.621319 -1.5)
 			(end 0.000001 -2.999999)
 			(stroke
-				(width 0.15)
+				(width 0.16)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "730bff5c-b03d-4894-9bde-4ada236ae2b0")
+			(uuid "cce623ec-9ca7-474a-981b-4700f8890caf")
 		)
 		(fp_arc
 			(start 2 -2)
 			(mid 0 0)
 			(end -2 -2)
 			(stroke
-				(width 0.15)
+				(width 0.16)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fb9e8b47-42b5-40ff-b8e5-d9b382f5eaaa")
+			(uuid "966ea52e-2e31-4b83-a7df-c7d05172c3db")
 		)
 		(fp_text user "LilyTronics"
 			(at 0 1.5 0)
 			(layer "F.SilkS")
-			(uuid "66f1a317-e05e-446d-81e7-f2f7c791149d")
+			(uuid "4b080d5d-ad05-4fd3-b92c-bd8df49cb8fe")
 			(effects
 				(font
 					(size 1.2 1.2)

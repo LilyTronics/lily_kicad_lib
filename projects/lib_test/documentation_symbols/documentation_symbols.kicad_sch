@@ -12,7 +12,7 @@
 		(comment 2 "-")
 	)
 	(lib_symbols
-		(symbol "lily_symbols:logo_lilytronics"
+		(symbol "lily_symbols:doc_logo_lilytronics"
 			(pin_names
 				(offset 1.016)
 			)
@@ -28,7 +28,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "logo_lilytronics"
+			(property "Value" "doc_logo_lilytronics"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "lily_footprints:logo_lilytronics"
+			(property "Footprint" "lily_footprints:doc_logo_lilytronics"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -73,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "logo_lilytronics_0_0"
+			(symbol "doc_logo_lilytronics_0_0"
 				(arc
 					(start -4.318 4.318)
 					(mid -1.2647 3.0533)
@@ -134,37 +134,19 @@
 						(type none)
 					)
 				)
-				(text "LilyTronics"
-					(at 5.588 2.54 0)
-					(effects
-						(font
-							(size 2.286 2.286)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Electronics Engineering"
-					(at 5.842 0.254 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify left bottom)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:logo_lilytronics")
+		(lib_id "lily_symbols:doc_logo_lilytronics")
 		(at 25.4 25.4 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "66f7e488-8e6f-4711-b083-4635729e18a7")
+		(uuid "0dd3a67c-288a-499b-897a-9d030c873dec")
 		(property "Reference" "DOC1001"
 			(at 25.4 30.48 0)
 			(effects
@@ -174,7 +156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "logo_lilytronics"
+		(property "Value" "doc_logo_lilytronics"
 			(at 25.4 27.94 0)
 			(effects
 				(font
@@ -183,7 +165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lily_footprints:logo_lilytronics"
+		(property "Footprint" "lily_footprints:doc_logo_lilytronics"
 			(at 25.4 35.56 0)
 			(effects
 				(font
