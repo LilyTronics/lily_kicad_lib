@@ -3,7 +3,7 @@ Shows messages from the checkers in a table.
 """
 
 def show_messages(messages):
-    max_line_length = 150
+    max_line_length = 200
 
     print(f"{len(messages)} messages")
 
