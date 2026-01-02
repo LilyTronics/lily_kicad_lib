@@ -82,37 +82,6 @@ class SymbolsChecker:
     ############
 
     @classmethod
-    def _check_revision(cls, symbol_data, report_messages):
-        caller = f"({cls.__name__}._check_revision)"
-        try:
-            revision = int(symbol_data["Revision"])
-            if revision < 1:
-                report_messages.append({
-                    "item":    symbol_data["Name"],
-                    "message": f"the revision must be greater than zero {caller}"
-                })
-        except (TypeError, ValueError):
-            report_messages.append({
-                "item": symbol_data["Name"],
-                "message": "the revision must be numeric"
-            })
-
-    @classmethod
-    def _check_reference(cls, symbol_data, report_messages):
-        caller = f"({cls.__name__}._check_reference)"
-        is_correct = False
-        # Regular stuff
-        for check in cls.REFERENCES:
-            if ((symbol_data["Name"] == check or symbol_data["Name"].startswith(f"{check}_")) and
-                    symbol_data["Reference"] == cls.REFERENCES[check]):
-                is_correct = True
-        if not is_correct:
-            report_messages.append({
-                "item": symbol_data["Name"],
-                "message": f"incorrect reference '{symbol_data["Reference"]}' {caller}"
-            })
-
-    @classmethod
     def _check_symbol_field_empty(cls, symbol_data, field_name, report_messages):
         caller = f"({cls.__name__}._check_symbol_field_empty)"
         is_empty = symbol_data[field_name] == ""
@@ -138,6 +107,37 @@ class SymbolsChecker:
             report_messages.append({
                 "item": symbol_data["Name"],
                 "message": f"field '{field_name}' is not empty {caller}"
+            })
+
+    @classmethod
+    def _check_reference(cls, symbol_data, report_messages):
+        caller = f"({cls.__name__}._check_reference)"
+        is_correct = False
+        # Regular stuff
+        for check in cls.REFERENCES:
+            if ((symbol_data["Name"] == check or symbol_data["Name"].startswith(f"{check}_")) and
+                    symbol_data["Reference"] == cls.REFERENCES[check]):
+                is_correct = True
+        if not is_correct:
+            report_messages.append({
+                "item": symbol_data["Name"],
+                "message": f"incorrect reference '{symbol_data["Reference"]}' {caller}"
+            })
+
+    @classmethod
+    def _check_revision(cls, symbol_data, report_messages):
+        caller = f"({cls.__name__}._check_revision)"
+        try:
+            revision = int(symbol_data["Revision"])
+            if revision < 1:
+                report_messages.append({
+                    "item":    symbol_data["Name"],
+                    "message": f"the revision must be greater than zero {caller}"
+                })
+        except (TypeError, ValueError):
+            report_messages.append({
+                "item": symbol_data["Name"],
+                "message": "the revision must be numeric"
             })
 
     @classmethod
@@ -231,6 +231,6 @@ class SymbolsChecker:
 
 if __name__ == "__main__":
 
-    from show_messages import show_messages
+    from toolbox.models.show_messages import show_messages
 
     show_messages(SymbolsChecker.run())
