@@ -1,7 +1,7 @@
 (footprint "mec_pcb_mouting_bracket"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cd161e27-8444-4573-852b-0cd8f658218d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -78,7 +68,7 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
 	(fp_rect
 		(start -6.2 -3.8)
 		(end 5.3 3.8)
@@ -86,7 +76,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f9724e1b-3726-4248-80c6-8de1cea8d749")
 	)
@@ -97,7 +87,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "cff60eb3-c593-490c-a4bd-1a7ba54cec2c")
 	)
@@ -108,21 +98,18 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d56158c1-f907-417e-b588-1acac96b808e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "39375329-c9cf-4611-99fe-dd5c6de057c2")
+		(uuid "8f6c7cd8-14f0-463b-a6b4-0f6faf094ff3")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
-				(bold yes)
 			)
 		)
 	)
@@ -137,6 +124,7 @@
 		(solder_mask_margin 0.1)
 		(uuid "a5f569e9-93e2-4fc2-aa26-8db5df1fe6d8")
 	)
+	(embedded_fonts no)
 	(model "../3d_models/mec_pcb_mounting_bracket_with_screw.step"
 		(offset
 			(xyz 0 0 0)

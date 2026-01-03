@@ -419,6 +419,17 @@
 		(layer "Dwgs.User")
 		(uuid "25ac7d19-fc62-4018-9a63-e37694b262dc")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a207f305-20bc-4122-ac7d-6699b4f5e1a1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at -20.32 -7.62)
 		(size 1.65 1.65)

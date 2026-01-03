@@ -1,7 +1,7 @@
-(footprint "mec_lily_system_front_panel_7hp"
-	(version 20240108)
+(footprint "doc_lily_system_front_panel_7hp"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "mec_lily_system_front_panel_7hp"
+	(property "Value" "doc_lily_system_front_panel_7hp"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f86761cc-d4a9-43aa-b2dc-62bac14649fc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -86,24 +76,22 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4f9c38f2-05f7-4e58-8a75-69114b778f34")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "040aee95-cfaf-4acf-b005-38820b9cebfd")
+		(uuid "7186ae30-ba70-4d06-ab23-4919c979e49b")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
-				(bold yes)
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "../3d_models/mec_front_panel_7hp_with_accessories.step"
 		(offset
 			(xyz -6 -17.25 -6.61)

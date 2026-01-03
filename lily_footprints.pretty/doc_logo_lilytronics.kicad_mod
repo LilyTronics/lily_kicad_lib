@@ -133,5 +133,16 @@
 			)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at -0.000001 0 0)
+		(layer "F.Fab")
+		(uuid "22daf78c-3c06-4962-a520-fc4c95007225")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
 	(embedded_fonts no)
 )

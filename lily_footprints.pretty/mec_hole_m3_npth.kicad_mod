@@ -1,7 +1,7 @@
 (footprint "mec_hole_m3_npth"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "562c2b07-5b77-4fba-9b61-6cfa620b2569")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -78,7 +68,7 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
 		(end 3.5 0)
@@ -86,7 +76,7 @@
 			(width 0.001)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Cu")
 		(uuid "5d28e05b-3ce1-4926-a850-395b7d4086d8")
 	)
@@ -97,7 +87,7 @@
 			(width 0.001)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Cu")
 		(uuid "422503ce-0686-4bbf-a2d8-2c9324a6ff03")
 	)
@@ -108,7 +98,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b04cc5a6-11bd-447c-903f-9a2affd41e85")
 	)
@@ -119,21 +109,18 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d88de99d-4158-4aca-b5b4-ed05e126b645")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "ca41e97b-1665-47ff-a9b1-d8f329209b4e")
+		(uuid "d8b4197a-691d-40e4-ad6a-39c55fd6e6d2")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
-				(bold yes)
 			)
 		)
 	)
@@ -145,4 +132,5 @@
 		(solder_mask_margin 0.1)
 		(uuid "7c84ef6d-976c-4791-8a07-21a0c3f1d826")
 	)
+	(embedded_fonts no)
 )

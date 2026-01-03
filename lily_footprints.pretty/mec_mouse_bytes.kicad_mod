@@ -1,7 +1,7 @@
 (footprint "mec_mouse_bytes"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7e88e7fd-032e-4be1-ab68-cb4506f42e62")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -78,7 +68,7 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
 	(fp_arc
 		(start -3.5 -1)
 		(mid -2.5 0)
@@ -103,15 +93,12 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "3466cda7-8b6d-422c-92e4-d22bbe2d4a4d")
+		(uuid "d9fd2a7a-8613-41b5-8478-2c81dd2c40b8")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
-				(bold yes)
 			)
 		)
 	)
@@ -195,4 +182,5 @@
 		(solder_mask_margin 0.1)
 		(uuid "99f4f4aa-2f14-4bf9-b8a7-da1480e9e168")
 	)
+	(embedded_fonts no)
 )
