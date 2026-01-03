@@ -68,7 +68,7 @@
 			)
 		)
 	)
-	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(attr through_hole exclude_from_pos_files)
 	(fp_rect
 		(start -6.2 -3.8)
 		(end 5.3 3.8)

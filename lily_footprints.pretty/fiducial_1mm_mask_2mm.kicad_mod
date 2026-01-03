@@ -1,7 +1,7 @@
 (footprint "fiducial_1mm_mask_2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dc67c939-0cd9-4244-81e1-1363ba44a2e6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -76,7 +66,7 @@
 			)
 		)
 	)
-	(attr smd board_only exclude_from_bom)
+	(attr smd exclude_from_bom)
 	(fp_circle
 		(center 0 0)
 		(end 1.2 0)
@@ -84,15 +74,14 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "41c60444-80f4-4507-990f-f0cc01785f69")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "e9ec400c-9883-4370-b412-b39b51fc2530")
+		(uuid "d2bc90d4-cc5b-49b9-9dd9-6d7ea2d9e377")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -108,4 +97,5 @@
 		(clearance 0.5)
 		(uuid "3cbb3045-b829-4f2a-b0e2-de4915187da2")
 	)
+	(embedded_fonts no)
 )

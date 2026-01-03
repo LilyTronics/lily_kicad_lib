@@ -66,9 +66,7 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-		dnp
-	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_line
 		(start -3.54 -4.27)
 		(end 8.62 -4.27)
