@@ -8,7 +8,7 @@ from toolbox.app_data import AppData
 from toolbox.controllers.controller_base import ControllerBase
 from toolbox.models.id_manager import IdManager
 from toolbox.models.erp_checker import ErpChecker
-from toolbox.models.footprints_checker import FootprintsChecker
+from toolbox.models.checkers.footprints_checker import FootprintsChecker
 from toolbox.models.projects_checker import ProjectsChecker
 from toolbox.models.checkers.symbols_checker import SymbolsChecker
 from toolbox.views.view_check_library import ViewCheckLibrary
