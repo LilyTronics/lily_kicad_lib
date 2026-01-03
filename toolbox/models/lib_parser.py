@@ -12,27 +12,17 @@ class LibParser:
 
     stdout = print
 
-    SYMBOL_MANDATORY_FIELDS = [
-        "Name",
-        "Extends",
-        "Reference",
-        "Value",
-        "Description",
-        "Datasheet",
-        "Footprint",
-        "Revision"
-    ]
+    LIB_SYMBOLS_FILENAME = os.path.join(AppData.APP_PATH, "symbols", "lily_symbols.kicad_sym")
+    LIB_FOOTPRINT_PATH = os.path.join(AppData.APP_PATH, "lily_footprints.pretty")
+
     SYMBOL_IGNORE_FIELDS = [
         "ki_locked"
     ]
 
-    LIB_FOOTPRINT_PATH = os.path.join(AppData.APP_PATH, "lily_footprints.pretty")
-
     @classmethod
     def get_symbols(cls):
-        lib_filename = os.path.join(AppData.APP_PATH, "symbols", "lily_symbols.kicad_sym")
-        cls.stdout(f"Read symbols library: {lib_filename}")
-        with open(lib_filename, "r") as fp:
+        cls.stdout(f"Read symbols library: {cls.LIB_SYMBOLS_FILENAME}")
+        with open(cls.LIB_SYMBOLS_FILENAME, "r") as fp:
             lines = fp.readlines()
         symbols = []
         i = 0
@@ -105,7 +95,7 @@ class LibParser:
                     property_name = "Reference_F.Fab"
                     property_data["Value"] = lines[i].strip()[14:].strip('"')
                 # Get extra properties
-                if property_data["Value"] != "":
+                if property_name != "" and value == "":
                     while i < len(lines):
                         if lines[i].startswith("\t)"):
                             break
