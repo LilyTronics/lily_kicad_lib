@@ -13,22 +13,8 @@ class FootprintsChecker:
 
     stdout = print
 
-    SKIP_FIELDS = ("Name", "Datasheet", "Description", "Footprint", "Revision", "Attributes", "Reference_F.Fab",
-                   "Model", 'Pin_1_mark')
-    VALUE_FIELDS = ("Reference", "Value")
-    SKIP_FIELDS_VISIBLE = ("Name", "Model")
-    MUST_VISIBLE = ("Reference", "Reference_F.Fab", "Pin_1_mark")
-    FIELD_PROPERTIES = {
-        # Field name: (layer, size, thickness)
-        "Reference": ("F.SilkS", "0.8 0.8", "0.16"),
-        "Value": ("F.Fab", "0.5 0.5", "0.1"),
-        "Footprint": ("F.Fab", "1.27 1.27", ""),
-        "Datasheet": ("F.Fab", "1.27 1.27", ""),
-        "Description": ("F.Fab", "1.27 1.27", ""),
-        "Revision": ("F.Fab", "0.5 0.5", "0.1"),
-        "Reference_F.Fab": ("F.Fab", "0.5 0.5", "0.1"),
-        "Pin_1_mark": ("F.SilkS", "0.8 0.8", "0.16")
-    }
+    MANDATORY_FIELDS = ["Name", "Reference", "Reference_F.Fab", "Revision", "Value"]
+    OPTIONAL_FIELDS = ["Attributes", "Datasheet", "Description", "Footprint", "Model", "Pin_1_mark"]
     ATTRIBUTES = {
         "board_only": [False, "not in schematic"],
         "exclude_from_pos_files": [False, "exclude from position files"],
@@ -36,238 +22,263 @@ class FootprintsChecker:
         "allow_missing_courtyard": [False, "exempt from courtyard requirement"],
         "dnp": [False, "do not populate"]
     }
-    NO_3D_MODEL = ("_dnp", "fiducial_", "logo_", "mec_hole_", "mec_mouse_bytes", "test_point_",
-                   "0_new_footprint")
+    FIELD_PROPERTIES = {
+        # Field name: (layer, size, thickness)
+        "Reference":        {"Layer": "F.SilkS", "Size": "0.8 0.8",   "Thickness": "0.16", "Visible": True},
+        "Reference_F.Fab":  {"Layer": "F.Fab",   "Size": "0.5 0.5",   "Thickness": "0.1",  "Visible": True},
+        "Pin_1_mark":       {"Layer": "F.SilkS", "Size": "0.8 0.8",   "Thickness": "0.16", "Visible": True},
+        "Value":            {"Layer": "F.Fab",   "Size": "0.5 0.5",   "Thickness": "0.1",  "Visible": False},
+        "Datasheet":        {"Layer": "F.Fab",   "Size": "1.27 1.27", "Thickness": "0.15", "Visible": False},
+        "Description":      {"Layer": "F.Fab",   "Size": "1.27 1.27", "Thickness": "0.15", "Visible": False},
+        "Revision":         {"Layer": "F.Fab",   "Size": "0.5 0.5",   "Thickness": "0.1",  "Visible": False}
+    }
+    SKIP_PROPERTIES_FIELDS = ["Name", "Attributes", "Footprint", "Model"]
+    NO_3D_MODEL = ["0_new_footprint", "doc_idc_area_", "doc_logo_", "fiducial_", "mec_hole_", "mec_mouse_bytes",
+                   "test_point_"]
+    NO_IMAGE = ["0_new_footprint", "con_coax_rg_174_cable_to_pcb_", "con_spring_probe_pad", "doc_", "fiducial_",
+                "mec_hole", "mec_mouse_bytes", "test_point_"]
 
     @classmethod
     def run(cls):
         cls.stdout("Check library footprints")
-        caller = f"({cls.__name__}.run)"
         report_messages = []
         footprints = LibParser.get_footprints()
         cls.stdout(f"Checking {len(footprints)} footprints")
         for footprint in footprints:
-            try:
-                revision = int(footprint["Revision"]["Value"])
-                if revision < 1:
-                    report_messages.append({
-                        "item": footprint["Name"],
-                        "message": f"the revision must be greater than zero {caller}"
-                    })
-            except (TypeError, ValueError):
-                report_messages.append({
-                    "item": footprint["Name"],
-                    "message": f"the revision must be numeric {caller}"
-                })
             for field in footprint:
                 cls._check_footprint_field_empty(footprint, field, report_messages)
                 cls._check_footprint_field_properties(footprint, field, report_messages)
-
-            if footprint["Name"] != footprint["Value"]["Value"]:
-                report_messages.append({
-                    "item": footprint["Name"],
-                    "message": f"the name is not the same as the value{caller}"
-                })
-            if footprint["Reference"]["Value"] != "REF**":
-                report_messages.append({
-                    "item": footprint["Name"],
-                    "message": f"the reference value must be 'REF**' {caller}"
-                })
+            cls._check_footprint_reference(footprint, report_messages)
+            cls._check_footprint_value(footprint, report_messages)
+            cls._check_footprint_revision(footprint, show_messages)
             cls._check_footprint_attributes(footprint, report_messages)
             cls._check_3d_model(footprint, report_messages)
             cls._check_image(footprint, report_messages)
         return report_messages
 
+    ############
+    # Checkers #
+    ############
+
     @classmethod
     def _check_footprint_field_empty(cls, footprint_data, field_name, report_messages):
         caller = f"({cls.__name__}._check_footprint_field_empty)"
-        # Ignore fields that are allowed to be empty or have already been checked
-        if field_name not in cls.SKIP_FIELDS:
-            field_checked = False
-            is_empty = False
-            is_not_empty = False
-            value = footprint_data[field_name]
-            if isinstance(value, dict):
-                value = value["Value"]
-            # Always must contain a value
-            if field_name in cls.VALUE_FIELDS:
-                field_checked = True
-                is_empty = value == ""
-            if not field_checked:
-                report_messages.append({
-                    "item": footprint_data["Name"],
-                    "message": f"no empty check for this field '{field_name}' {caller}"
-                })
-            if is_empty:
-                report_messages.append({
-                    "item": footprint_data["Name"],
-                    "message": f"field '{field_name}' is empty {caller}"
-                })
-            if is_not_empty:
-                report_messages.append({
-                    "item": footprint_data["Name"],
-                    "message": f"field '{field_name}' is not empty {caller}"
-                })
+        value = footprint_data[field_name]
+        # Value can be string, dictionary or list
+        if isinstance(value, dict):
+            value = value["Value"]
+        elif isinstance(value, list):
+            value = "" if len(value) == 0 else str(value)
+        is_empty = value == ""
+
+        if field_name not in cls.MANDATORY_FIELDS and field_name not in cls.OPTIONAL_FIELDS:
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"field '{field_name}' has no empty check {caller}"
+            })
+
+        # Mandatory fields
+        should_have_value = (
+            (field_name in cls.MANDATORY_FIELDS)
+        )
+
+        if field_name in cls.OPTIONAL_FIELDS:
+            should_have_value = not is_empty
+
+        if is_empty and should_have_value:
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"field '{field_name}' is empty {caller}"
+            })
+        if not is_empty and not should_have_value:
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"field '{field_name}' is not empty {caller}"
+            })
 
     @classmethod
     def _check_footprint_field_properties(cls, footprint_data, field_name, report_messages):
         caller = f"({cls.__name__}._check_footprint_field_properties)"
-        # Check layer, size, thickness of the field
-        if field_name not in cls.SKIP_FIELDS_VISIBLE:
-            if isinstance(footprint_data[field_name], dict):
-                field_checked = [False, False]
+        if field_name not in cls.FIELD_PROPERTIES and field_name not in cls.SKIP_PROPERTIES_FIELDS:
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"no properties check for '{field_name}' {caller}"
+            })
 
-                # field_checked[0]: visibility
-                expect_visible = field_name in cls.MUST_VISIBLE
-                if (footprint_data["Name"].startswith("fiducial_") or
-                        footprint_data["Name"].startswith("logo_") or
-                        footprint_data["Name"].startswith("mec_") or
-                        footprint_data["Name"].startswith("doc_")):
-                    expect_visible = False
-                if footprint_data["Name"].startswith("test_point"):
-                    if field_name == "Value":
-                        expect_visible = True
-                    if field_name == "Reference":
-                        expect_visible = False
-                field_checked[0] = True
-                if not footprint_data[field_name]["Visible"] and expect_visible:
+        if field_name in cls.FIELD_PROPERTIES:
+            footprint_props = copy.deepcopy(footprint_data[field_name])
+            if isinstance(footprint_props, dict):
+                footprint_props.pop("Value")
+                expected_props = copy.deepcopy(cls.FIELD_PROPERTIES[field_name])
+
+                # Properties in the field, not in the expected properties
+                diff = list(set(footprint_props.keys()) - set(expected_props.keys()))
+                if len(diff) > 0:
                     report_messages.append({
                         "item": footprint_data["Name"],
-                        "message": f"field '{field_name}' is not visible {caller}"
+                        "message": f"field '{field_name}' has properties that are not in properties to check: {", ".join(diff)} {caller}"
                     })
-                if footprint_data[field_name]["Visible"] and not expect_visible:
+                # Properties in the expected properties, not in the field
+                diff = list(set(expected_props.keys()) - set(footprint_props.keys()))
+                if len(diff) > 0:
                     report_messages.append({
                         "item": footprint_data["Name"],
-                        "message": f"field '{field_name}' should not be visible {caller}"
+                        "message": f"field '{field_name}' is missing properties that are in properties to check: {", ".join(diff)} {caller}"
                     })
 
-                properties = copy.deepcopy(cls.FIELD_PROPERTIES)
-                if footprint_data["Name"].startswith("test_point_"):
-                    properties["Value"] = properties["Reference"]
-                if field_name in properties:
-                    field_checked[1] = True
-                    # Layer
-                    if footprint_data[field_name]["Layer"] != properties[field_name][0]:
-                        report_messages.append({
-                            "item": footprint_data["Name"],
-                            "message": f"field '{field_name}' should be on layer {properties[field_name][0]} {caller}"
-                        })
-                    # Size
-                    if footprint_data[field_name]["Size"] != properties[field_name][1]:
-                        report_messages.append({
-                            "item": footprint_data["Name"],
-                            "message": f"field '{field_name}' size should be {properties[field_name][1]} {caller}"
-                        })
-                    # Thickness
-                    if footprint_data[field_name]["Thickness"] != properties[field_name][2]:
-                        report_messages.append({
-                            "item": footprint_data["Name"],
-                            "message": f"field '{field_name}' thickness should be {properties[field_name][2]} {caller}"
-                        })
+                # Some values depend on field and or footprint
+                if field_name in ["Datasheet", "Description"]:
+                    # Thickness not always defined (using default value)
+                    if footprint_props["Thickness"] == "":
+                        footprint_props["Thickness"] = expected_props["Thickness"]
 
-                if False in field_checked:
-                    report_messages.append({
+                if field_name == "Reference" and (
+                    footprint_data["Name"].startswith("doc_") or
+                    footprint_data["Name"].startswith("fiducial_") or
+                    footprint_data["Name"].startswith("mec_") or
+                    footprint_data["Name"].startswith("test_point_")):
+                    # For some footprints the reference is not visible
+                    expected_props["Visible"] = False
+
+                if field_name == "Value" and footprint_data["Name"].startswith("test_point_"):
+                    # The value for test points have same properties as reference
+                    expected_props = copy.deepcopy(cls.FIELD_PROPERTIES["Reference"])
+
+                for prop in expected_props:
+                    expected = expected_props[prop]
+                    value = footprint_props[prop]
+                    if value != expected:
+                        report_messages.append({
                         "item": footprint_data["Name"],
-                        "message": f"not all checks implemented for this field '{field_name}' {caller}"
+                        "message": f"field '{field_name}' propert '{prop}' has invalid value '{value}' expected '{expected} {caller}"
                     })
+
+            # Pin 1 mark is not mandatory
+            elif (field_name != "Pin_1_mark"):
+                    report_messages.append({
+                    "item": footprint_data["Name"],
+                    "message": f"no properties for '{field_name}' {caller}"
+                })
+
+    @classmethod
+    def _check_footprint_reference(cls, footprint_data, report_messages):
+        caller = f"({cls.__name__}._check_footprint_reference)"
+        if footprint_data["Reference"]["Value"] != "REF**":
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"the reference value must be 'REF**' {caller}"
+            })
+
+    @classmethod
+    def _check_footprint_value(cls, footprint_data, report_messages):
+        caller = f"({cls.__name__}._check_footprint_value)"
+        if footprint_data["Name"] != footprint_data["Value"]["Value"]:
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"the name is not the same as the value{caller}"
+            })
+
+    @classmethod
+    def _check_footprint_revision(cls, footprint_data, report_messages):
+        caller = f"({cls.__name__}._check_footprint_revision)"
+        try:
+            revision = int(footprint_data["Revision"]["Value"])
+            if revision < 1:
+                report_messages.append({
+                    "item": footprint_data["Name"],
+                    "message": f"the revision must be greater than zero {caller}"
+                })
+        except (TypeError, ValueError):
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"the revision must be numeric {caller}"
+            })
 
     @classmethod
     def _check_footprint_attributes(cls, footprint_data, report_messages):
         caller = f"({cls.__name__}._check_footprint_attributes)"
+        if footprint_data["Name"].startswith("doc_"):
+            if "smd" in footprint_data["Attributes"] or "through_hole" in footprint_data["Attributes"]:
+                report_messages.append({
+                    "item": footprint_data["Name"],
+                    "message": f"footprint type must be unspecified {caller}"
+                })
+        else:
+            if "smd" not in footprint_data["Attributes"] and "through_hole" not in footprint_data["Attributes"]:
+                report_messages.append({
+                    "item": footprint_data["Name"],
+                    "message": f"footprint type must be SMD or through hole {caller}"
+                })
+        if footprint_data["Name"].endswith("_th") and "through_hole" not in footprint_data["Attributes"]:
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"footprint should be set to through hole {caller}"
+            })
+
         attributes = copy.deepcopy(cls.ATTRIBUTES)
 
-        # Not in position files
-        attributes["exclude_from_pos_files"][0] = (
-            # Do not populate
-            footprint_data["Name"].endswith("_dnp") or
-            # Through hole
-            "through_hole" in footprint_data["Attributes"] or
-            # Test points
-            footprint_data["Name"].startswith("test_point_") or
-            # Mechanical
-            footprint_data["Name"].startswith("mec_") or
-            # Documentation
-            footprint_data["Name"].startswith("doc_") or
-            # Specials
-            footprint_data["Name"].startswith("con_tc2030_")
-        )
-
-        # Not in BOM
-        attributes["exclude_from_bom"][0] = (
-            # Do not populate
-            footprint_data["Name"].endswith("_dnp") or
-            # Test points
-            footprint_data["Name"].startswith("test_point_") or
-            # Mechanical
-            footprint_data["Name"].startswith("mec_") or
-            # Fiducials
-            footprint_data["Name"].startswith("fiducial_") or
-            # Documentation
-            footprint_data["Name"].startswith("doc_") or
-            # Specials
-            footprint_data["Name"].startswith("con_tc2030_") or
-            (footprint_data["Name"].startswith("con_") and "_cable_to_pcb_" in footprint_data["Name"])
-        )
-
-        # Do not populate
-        attributes["dnp"][0] = (
-            # Do not populate
-            footprint_data["Name"].endswith("_dnp")
+        is_through_hole = "through_hole" in footprint_data["Attributes"]
+        is_test_point = footprint_data["Name"].startswith("test_point_")
+        is_mec_hole = footprint_data["Name"].startswith("mec_hole_")
+        is_fiducial = footprint_data["Name"].startswith("fiducial_")
+        is_mouse_bytes = footprint_data["Name"].startswith("mec_mouse_bytes")
+        is_doc_footprint = footprint_data["Name"].startswith("doc_")
+        is_footprint_only = (
+            (footprint_data["Name"].startswith("con_tc2030_")) or
+            ("cable_to_pcb" in footprint_data["Name"])
         )
 
         # Not in schematics
-        attributes["board_only"][0] = (
-            # Fiducials
-            footprint_data["Name"].startswith("fiducial_")
-        )
+        attributes["board_only"][0] = is_mouse_bytes
 
-        # Exempt from courtyard requirement
-        attributes["allow_missing_courtyard"][0] = (
-            footprint_data["Name"].startswith("doc_")
-        )
+        # Not in position files
+        attributes["exclude_from_pos_files"][0] = (is_through_hole or is_test_point or is_doc_footprint or
+                                                    is_footprint_only)
 
-        # Skip not in schematics check
-        if (footprint_data["Name"].startswith("mec_") or
-                footprint_data["Name"].startswith("doc_")):
-            attributes["board_only"][0] = None
+        # Not in BOM
+        attributes["exclude_from_bom"][0] = (is_test_point or is_mec_hole or is_fiducial or is_mouse_bytes or
+                                                is_doc_footprint or is_footprint_only)
+
+        # Excempt from courtyard requirement
+        attributes["allow_missing_courtyard"][0] = is_doc_footprint
+
+        # Do not populate, no footprints using this attribute
 
         for attribute in attributes:
-            if attributes[attribute][0] is not None:
-                if attribute in footprint_data["Attributes"] and not attributes[attribute][0]:
-                    report_messages.append({
-                        "item": footprint_data["Name"],
-                        "message": f"attribute {attributes[attribute][1]} should not be enabled {caller}"
-                    })
-                elif attribute not in footprint_data["Attributes"] and attributes[attribute][0]:
-                    report_messages.append({
-                        "item": footprint_data["Name"],
-                        "message": f"attribute {attributes[attribute][1]} should be enabled {caller}"
-                    })
+            if attribute in footprint_data["Attributes"] and not attributes[attribute][0]:
+                report_messages.append({
+                    "item": footprint_data["Name"],
+                    "message": f"attribute {attributes[attribute][1]} should not be enabled {caller}"
+                })
+            elif attribute not in footprint_data["Attributes"] and attributes[attribute][0]:
+                report_messages.append({
+                    "item": footprint_data["Name"],
+                    "message": f"attribute {attributes[attribute][1]} should be enabled {caller}"
+                })
 
     @classmethod
     def _check_3d_model(cls, footprint_data, report_messages):
         caller = f"({cls.__name__}._check_3d_model)"
-        expect_3d_model = True
-        for query in cls.NO_3D_MODEL:
-            if ((query.startswith("_") and footprint_data["Name"].endswith(query)) or
-                    footprint_data["Name"].startswith(query)):
-                expect_3d_model = False
-                break
-        # Doc footprints can have model (optional)
-        if footprint_data["Name"].startswith("doc_"):
-            expect_3d_model = footprint_data["Model"] != ""
+        should_have_model = True
+        has_model = footprint_data["Model"] != ""
 
-        if expect_3d_model and footprint_data["Model"] == "":
+        for query in cls.NO_3D_MODEL:
+            if footprint_data["Name"].startswith(query):
+                should_have_model = False
+
+        if not has_model and should_have_model:
             report_messages.append({
                 "item": footprint_data["Name"],
                 "message": f"no 3D model defined {caller}"
             })
-        if not expect_3d_model and footprint_data["Model"] != "":
+
+        if has_model and not should_have_model:
             report_messages.append({
                 "item": footprint_data["Name"],
                 "message": f"3D model should not be defined {caller}"
             })
-        if footprint_data["Model"] != "":
+
+        if has_model:
             if not footprint_data["Model"].startswith("../3d_models/"):
                 report_messages.append({
                     "item": footprint_data["Name"],
@@ -284,22 +295,25 @@ class FootprintsChecker:
     @classmethod
     def _check_image(cls, footprint_data, report_messages):
         caller = f"({cls.__name__}._check_image)"
-        if (not footprint_data["Name"].startswith("0_new_footprint") and
-                not footprint_data["Name"].endswith("_dnp") and
-                not footprint_data["Name"].startswith("con_coax") and
-                not footprint_data["Name"].startswith("con_spring_probe_") and
-                not footprint_data["Name"].startswith("doc_") and
-                not footprint_data["Name"].startswith("fiducial_") and
-                not footprint_data["Name"].startswith("logo_") and
-                not footprint_data["Name"].startswith("mec_hole_") and
-                not footprint_data["Name"].startswith("mec_mouse_") and
-                not footprint_data["Name"].startswith("test_point_")):
-            full_path = f"{os.path.join(AppData.APP_PATH, "lily_footprints.pretty", footprint_data["Name"])}.png"
-            if not os.path.isfile(full_path):
-                report_messages.append({
-                    "item": footprint_data["Name"],
-                    "message": f"Image file for footprint does not exists {os.path.basename(full_path)} {caller}"
-                })
+        should_have_image = True
+        full_path = f"{os.path.join(AppData.APP_PATH, "lily_footprints.pretty", footprint_data["Name"])}.png"
+        has_image = os.path.isfile(full_path)
+
+        for query in cls.NO_IMAGE:
+            if footprint_data["Name"].startswith(query):
+                should_have_image = False
+
+        if not has_image and should_have_image:
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"no image file found {caller}"
+            })
+
+        if has_image and not should_have_image:
+            report_messages.append({
+                "item": footprint_data["Name"],
+                "message": f"an image file is found while it should not be {caller}"
+            })
 
 
 if __name__ == "__main__":
