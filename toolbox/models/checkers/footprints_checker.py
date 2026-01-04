@@ -150,7 +150,18 @@ class FootprintsChecker:
                     if value != expected:
                         report_messages.append({
                         "item": footprint_data["Name"],
-                        "message": f"field '{field_name}' propert '{prop}' has invalid value '{value}' expected '{expected} {caller}"
+                        "message": f"field '{field_name}' property '{prop}' has invalid value '{value}' expected '{expected}' {caller}"
+                    })
+
+                if field_name == "Pin_1_mark":
+                    # Fied pin 1 mark requires a specific value
+                    value = footprint_data[field_name]["Value"]
+                    # The dot for pin 1 mark in UTF-8 (alt-<numeric 7>)
+                    expected = (b'\xc3\xa2\xe2\x82\xac\xc2\xa2').decode('utf-8')
+                    if value != expected:
+                        report_messages.append({
+                        "item": footprint_data["Name"],
+                        "message": f"field '{field_name}' has an invalid value '{value}' expected '{expected}' {caller}"
                     })
 
             # Pin 1 mark is not mandatory
