@@ -46,8 +46,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/LM393D.pdf"
+				(at 7.62 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -100,7 +100,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1914-10007"
+			(property "Lily_ID" "NO_ID"
 				(at 7.62 -22.86 0)
 				(effects
 					(font
@@ -118,16 +118,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 7.62 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Notes" "Extended: C67470, is much cheaper"
+			(property "Notes" ""
 				(at 7.62 -30.48 0)
 				(effects
 					(font
@@ -331,192 +322,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:ic_volt_reg_AZ1117_sot223"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AZ1117"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "lily_footprints:sot223"
-				(at 10.16 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Revision" "1"
-				(at 10.16 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 10.16 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Diodes Incorporated"
-				(at 10.16 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_ID" "AZ1117CH-ADJTRG1"
-				(at 10.16 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "1914-10010"
-				(at 10.16 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_ID" "C95398"
-				(at 10.16 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 10.16 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ic_volt_reg_AZ1117_sot223_0_1"
-				(rectangle
-					(start 3.81 2.54)
-					(end 16.51 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ic_volt_reg_AZ1117_sot223_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 3.81)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -10.16 90)
-					(length 3.81)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 0 180)
-					(length 3.81)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lily_symbols:ic_volt_reg_switching_TPS5430_hsoic8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -548,8 +353,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/TPS5430.pdf"
+				(at 12.7 -55.88 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -593,7 +398,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "TPS5430DDA"
+			(property "Manufacturer_ID" "TPS5430DDAR"
 				(at 12.7 -48.26 0)
 				(effects
 					(font
@@ -602,7 +407,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "xxxx-yyyyy"
+			(property "Lily_ID" "NO_ID"
 				(at 12.7 -50.8 0)
 				(effects
 					(font
@@ -613,15 +418,6 @@
 			)
 			(property "JLCPCB_ID" "C9864"
 				(at 12.7 -53.34 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 12.7 -55.88 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -845,8 +641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 38.1 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/LM393D.pdf"
+			(at 45.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1914-10007"
+		(property "Lily_ID" "NO_ID"
 			(at 45.72 60.96 0)
 			(effects
 				(font
@@ -910,24 +706,6 @@
 		)
 		(property "JLCPCB_ID" "C7955"
 			(at 45.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 45.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Extended: C67470, is much cheaper"
-			(at 45.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,141 +747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:ic_volt_reg_AZ1117_sot223")
-		(at 114.3 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bb9fc87-f20c-42b8-ad20-6f0533d16cfb")
-		(property "Reference" "U1002"
-			(at 119.38 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AZ1117"
-			(at 119.38 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:sot223"
-			(at 124.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 124.46 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 124.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "AZ1117CH-ADJTRG1"
-			(at 124.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1914-10010"
-			(at 124.46 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "C95398"
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 124.46 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e2c258e2-b20e-402f-ba3c-aec009a99e4b")
-		)
-		(pin "2"
-			(uuid "d3ad4efa-3457-465d-ae61-ac819717ac01")
-		)
-		(pin "1"
-			(uuid "40286a42-a570-4009-ab3b-80dbc29a2de9")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lily_symbols:ic_comparator_dual_LM393_soic8")
 		(at 91.44 30.48 0)
 		(unit 3)
@@ -1113,7 +756,7 @@
 		(dnp no)
 		(uuid "ccc9ac9a-6208-4fb1-93fa-9d54a520fa48")
 		(property "Reference" "U1001"
-			(at 95.25 39.37 0)
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +765,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 95.25 41.91 0)
+			(at 95.25 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,8 +782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 91.44 30.48 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/LM393D.pdf"
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1914-10007"
+		(property "Lily_ID" "NO_ID"
 			(at 99.06 53.34 0)
 			(effects
 				(font
@@ -1204,24 +847,6 @@
 		)
 		(property "JLCPCB_ID" "C7955"
 			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 99.06 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Extended: C67470, is much cheaper"
-			(at 99.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,15 +889,15 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:ic_volt_reg_switching_TPS5430_hsoic8")
-		(at 147.32 38.1 0)
+		(at 127 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e1508c4c-33e6-488b-8dff-a75369733ea3")
-		(property "Reference" "U1003"
-			(at 152.4 30.48 0)
+		(property "Reference" "U1002"
+			(at 132.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +906,7 @@
 			)
 		)
 		(property "Value" "TPS5430"
-			(at 152.4 33.02 0)
+			(at 132.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,7 +915,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:hsoic8"
-			(at 160.02 81.28 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,8 +923,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 38.1 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/TPS5430.pdf"
+			(at 139.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 38.1 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +942,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 160.02 76.2 0)
+			(at 139.7 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +951,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 160.02 78.74 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +960,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 160.02 83.82 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,8 +968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "TPS5430DDA"
-			(at 160.02 86.36 0)
+		(property "Manufacturer_ID" "TPS5430DDAR"
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,8 +977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "xxxx-yyyyy"
-			(at 160.02 88.9 0)
+		(property "Lily_ID" "NO_ID"
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,16 +987,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C9864"
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 160.02 93.98 0)
+			(at 139.7 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1025,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1003")
+					(reference "U1002")
 					(unit 1)
 				)
 			)
@@ -1451,8 +1067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 63.5 38.1 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/LM393D.pdf"
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "1914-10007"
+		(property "Lily_ID" "NO_ID"
 			(at 71.12 60.96 0)
 			(effects
 				(font
@@ -1516,24 +1132,6 @@
 		)
 		(property "JLCPCB_ID" "C7955"
 			(at 71.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 71.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Extended: C67470, is much cheaper"
-			(at 71.12 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
