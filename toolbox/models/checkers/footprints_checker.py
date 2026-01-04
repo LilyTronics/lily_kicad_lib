@@ -6,7 +6,7 @@ import copy
 import os
 
 from toolbox.app_data import AppData
-from toolbox.models.lib_parser import LibParser
+from toolbox.models.parsers.lib_parser import LibParser
 
 
 class FootprintsChecker:

@@ -8,8 +8,22 @@ import os
 
 from string import Template
 from datetime import datetime
-from models.lib_parser import LibParser
+from toolbox.models.parsers.lib_parser import LibParser
 
+
+SYMBOL_FIRST_FIELDS = [
+    "Name",
+    "Extends",
+    "Reference",
+    "Value",
+    "Description",
+    "Footprint",
+    "Revision"
+]
+
+SYMBOL_LAST_FIELDS = [
+    "Datasheet"
+]
 
 def generate_report():
     script_path = os.path.dirname(__file__)
@@ -20,22 +34,16 @@ def generate_report():
     # Symbols
     generic_symbols_data = ""
     parts_data = ""
-    symbol_fields = []
     symbols = LibParser.get_symbols()
+    symbol_fields = SYMBOL_FIRST_FIELDS[:]
+    symbol_fields.extend(filter(lambda x: x not in SYMBOL_FIRST_FIELDS and x not in SYMBOL_LAST_FIELDS, symbols[0]))
+    symbol_fields.extend(SYMBOL_LAST_FIELDS)
     for symbol in sorted(symbols, key=lambda x: x["Name"]):
         symbol_data = "{ "
         # Mandatory fields first
-        for property_name in LibParser.SYMBOL_MANDATORY_FIELDS:
+        for property_name in symbol_fields:
             value = html.escape(symbol[property_name])
             symbol_data += f'{property_name}: "{value}", '
-            if property_name not in symbol_fields:
-                symbol_fields.append(property_name)
-        # Add non-mandatory fields
-        for property_name in filter(lambda x: x not in LibParser.SYMBOL_MANDATORY_FIELDS, symbol):
-            value = html.escape(symbol[property_name])
-            symbol_data += f'{property_name}: "{value}", '
-            if property_name not in symbol_fields:
-                symbol_fields.append(property_name)
         symbol_data = symbol_data[:-2] + " }"
         if symbol["Extends"] == "":
             generic_symbols_data += f"    {symbol_data},\n"
