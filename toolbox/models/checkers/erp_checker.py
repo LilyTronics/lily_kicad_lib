@@ -165,6 +165,6 @@ class ErpChecker:
 
 if __name__ == "__main__":
 
-    from show_messages import show_messages
+    from toolbox.models.show_messages import show_messages
 
     show_messages(ErpChecker.run())
