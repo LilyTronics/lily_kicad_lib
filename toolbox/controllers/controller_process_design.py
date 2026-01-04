@@ -11,7 +11,7 @@ import wx
 from datetime import datetime
 
 from toolbox.controllers.controller_base import ControllerBase
-from toolbox.models.design_parser import DesignParser
+from toolbox.models.parsers.design_parser import DesignParser
 from toolbox.models.id_manager import IdManager
 from toolbox.models.process_design import ProcessDesign
 from toolbox.models.projects_checker import ProjectsChecker
