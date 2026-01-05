@@ -47706,7 +47706,7 @@
 	(symbol "con_dc_jack_dc_005_th"
 		(extends "con_dc_jack_3p")
 		(property "Reference" "X"
-			(at -10.16 6.35 0)
+			(at -5.08 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47714,8 +47714,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_dc_jack_dc_005_th"
-			(at -10.16 3.81 0)
+		(property "Value" "dc_005"
+			(at -5.08 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47816,7 +47816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_din41612_plug_64p_a+c_right_angle_th"
+		(property "Value" "din41612_plug"
 			(at 2.54 3.81 0)
 			(effects
 				(font
@@ -47918,7 +47918,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_din41612_receptacle_64p_a+c_right_angle_th"
+		(property "Value" "din41612_receptacle"
 			(at 2.54 3.81 0)
 			(effects
 				(font
@@ -48020,7 +48020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_din41612_receptacle_64p_a+c_straight_th"
+		(property "Value" "din41612_receptacle"
 			(at 2.54 3.81 0)
 			(effects
 				(font
@@ -48122,7 +48122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_header_1x06_2.54mm_th"
+		(property "Value" "1x06"
 			(at -7.62 3.81 0)
 			(effects
 				(font
@@ -48224,7 +48224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_header_1x10_2.54mm_th"
+		(property "Value" "1x10"
 			(at -7.62 3.81 0)
 			(effects
 				(font
@@ -48326,7 +48326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_header_2x03_2.54mm_th"
+		(property "Value" "2x03"
 			(at -7.62 3.81 0)
 			(effects
 				(font
@@ -49448,7 +49448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_socket_1x15_2.54mm_straight_th"
+		(property "Value" "1x15"
 			(at -7.62 3.81 0)
 			(effects
 				(font
@@ -49550,7 +49550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_sub_d_hd_plug_44p_th"
+		(property "Value" "sub_d_hd_plug"
 			(at 2.54 5.08 0)
 			(effects
 				(font
@@ -49569,7 +49569,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/amphenol_cs/dsub_highdensity.pdf"
-			(at 0 0 0)
+			(at 7.62 -86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49652,7 +49652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_sub_d_hd_receptacle_44p_th"
+		(property "Value" "sub_d_hd_receptacle"
 			(at 2.54 5.08 0)
 			(effects
 				(font
@@ -49671,7 +49671,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/amphenol_cs/dsub_highdensity.pdf"
-			(at 0 0 0)
+			(at 7.62 -86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49754,7 +49754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_terminal_block_2p_5.08_th"
+		(property "Value" "2p_5.08"
 			(at -7.62 3.81 0)
 			(effects
 				(font
@@ -49856,7 +49856,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_terminal_block_3p_5.08_th"
+		(property "Value" "3p_5.08"
 			(at -7.62 3.81 0)
 			(effects
 				(font
@@ -49958,7 +49958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_terminal_socket_male_10p_3.81mm_right_angle_th"
+		(property "Value" "socket_male"
 			(at -7.62 3.81 0)
 			(effects
 				(font
@@ -49977,7 +49977,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/phoenix_contact/MC_1,5_10-G-3,81.pdf"
-			(at 0 0 0)
+			(at -5.08 -45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50060,7 +50060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_usb_b_receptacle_th"
+		(property "Value" "usb_b"
 			(at -19.05 6.35 0)
 			(effects
 				(font
@@ -50079,7 +50079,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/USB-B-S-RA.pdf"
-			(at 7.62 13.335 0)
+			(at -11.43 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50162,7 +50162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_usb_c_receptacle_16p"
+		(property "Value" "usb_c"
 			(at -19.05 6.35 0)
 			(effects
 				(font
