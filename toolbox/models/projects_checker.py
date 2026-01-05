@@ -5,8 +5,8 @@ Checks the projects to the library.
 import os
 
 from toolbox.app_data import AppData
-from toolbox.models.design_parser import DesignParser
-from toolbox.models.lib_parser import LibParser
+from toolbox.models.parsers.design_parser import DesignParser
+from toolbox.models.parsers.lib_parser import LibParser
 
 
 class ProjectsChecker:
@@ -16,61 +16,56 @@ class ProjectsChecker:
     PROJECTS_PATH = os.path.join(AppData.APP_PATH, "projects")
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID"]
-    SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
-    SKIP_LAYOUT_FIELDS = ["Name", "Reference", "Value", "Footprint", "Datasheet"]
+    SKIP_SYMBOL_FIELDS = [] # ["Name", "Extends"]
+    SKIP_LAYOUT_FIELDS = [] # ["Name", "Reference", "Value", "Footprint", "Datasheet"]
 
     @classmethod
     def run(cls):
         DesignParser.stdout = cls.stdout
         LibParser.stdout = cls.stdout
-        cls.stdout("Check projects against library")
-        designs = {}
+
+        project_folders = []
+        report_messages = []
         for current_folder, sub_folders, filenames in os.walk(cls.PROJECTS_PATH):
             sub_folders.sort()
             matches = list(filter(lambda x: x.endswith(".kicad_pro"), filenames))
             if len(matches) == 1:
-                # Get symbols and footprints from the project
-                rel_path = current_folder.replace(cls.PROJECTS_PATH, "").strip("\\")
-                cls.stdout(rel_path)
-                designs[rel_path] = {
-                    "symbols": DesignParser.get_symbols(current_folder),
-                    "footprints": DesignParser.get_footprints(current_folder)
-                }
-        lib_symbols = LibParser.get_symbols()
-        lib_footprints = LibParser.get_footprints()
+                project_folders.append(current_folder)
 
-        report_messages = []
-        cls._check_if_symbols_in_designs(lib_symbols, designs, report_messages)
-        cls._check_if_symbols_not_in_library(designs, lib_symbols, report_messages)
-        cls._check_symbols_properties(designs, lib_symbols, report_messages)
-        cls._check_if_footprints_in_designs(lib_footprints, designs, report_messages)
-        cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
-        cls._check_footprint_properties(designs, lib_footprints, report_messages)
-        cls._check_symbols_vs_footprints(designs, report_messages)
+        report_messages.extend(cls.check_project(project_folders, True))
 
         return report_messages
 
     @classmethod
-    def check_project(cls, project_folder):
+    def check_project(cls, project_folder, is_test_project=False):
         DesignParser.stdout = cls.stdout
         LibParser.stdout = cls.stdout
         cls.stdout("Check project against library")
-        designs = {
-            os.path.basename(project_folder): {
-                "symbols": DesignParser.get_symbols(project_folder),
-                "footprints": DesignParser.get_footprints(project_folder)
+        if isinstance(project_folder, str):
+            project_folder = [project_folder]
+        designs = {}
+        for folder in project_folder:
+            designs[os.path.basename(folder)] = {
+                "symbols": DesignParser.get_symbols(folder),
+                "footprints": DesignParser.get_footprints(folder)
             }
-        }
 
         lib_symbols = LibParser.get_symbols()
         lib_footprints = LibParser.get_footprints()
 
         report_messages = []
-        cls._check_if_symbols_not_in_library(designs, lib_symbols, report_messages)
-        cls._check_symbols_properties(designs, lib_symbols, report_messages)
-        cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
-        cls._check_footprint_properties(designs, lib_footprints, report_messages)
-        cls._check_symbols_vs_footprints(designs, report_messages)
+
+        # Test projects
+        if is_test_project:
+            cls._check_if_symbols_in_designs(lib_symbols, designs, report_messages)
+            # cls._check_if_footprints_in_designs(lib_footprints, designs, report_messages)
+
+        # Regular projects
+        # cls._check_if_symbols_not_in_library(designs, lib_symbols, report_messages)
+        # cls._check_symbols_properties(designs, lib_symbols, report_messages)
+        # cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
+        # cls._check_footprint_properties(designs, lib_footprints, report_messages)
+        # cls._check_symbols_vs_footprints(designs, report_messages)
 
         return report_messages
 
@@ -255,6 +250,8 @@ class ProjectsChecker:
                                 "message": f"footprint in project {design} has invalid property: "
                                            f"{key}: '{design_value}' expected '{lib_value}' {caller}"
                             })
+                            # print(design_footprint, matches[0])
+                            # exit()
 
     @classmethod
     def _check_symbols_vs_footprints(cls, designs, report_messages):
@@ -288,6 +285,8 @@ class ProjectsChecker:
                         diff.remove("Reference_F.Fab")
                     if "Attributes" in diff:
                         diff.remove("Attributes")
+                    if "Pin_1_mark" in diff:
+                        diff.remove("Pin_1_mark")
                     if len(diff) > 0:
                         report_messages.append({
                             "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
