@@ -4412,6 +4412,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lily_symbols:cap_1u0_50V_10%_X7R_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.175 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u0"
+				(at 3.175 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:cap_0805"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21B105KBFNNN.pdf"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "CL21B105KBFNNNE"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C28323"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap_1u0_50V_10%_X7R_0805_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cap_1u0_50V_10%_X7R_0805_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lily_symbols:cap_220n_50V_10%_X7R_0805"
 			(pin_numbers
 				(hide yes)
@@ -10044,6 +10220,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lily_symbols:cap_4u7_25V_10%_X5R_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.175 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4u7"
+				(at 3.175 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:cap_0805"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A475KAQNNN.pdf"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "CL21A475KAQNNNE"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C1779"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap_4u7_25V_10%_X5R_0805_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cap_4u7_25V_10%_X5R_0805_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lily_symbols:cap_560n_50V_10%_X7R_0805"
 			(pin_numbers
 				(hide yes)
@@ -14187,6 +14539,129 @@
 		)
 	)
 	(symbol
+		(lib_id "lily_symbols:cap_1u0_50V_10%_X7R_0805")
+		(at 190.5 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e003118-837e-403a-8b46-0c0a69c6e277")
+		(property "Reference" "C1078"
+			(at 193.675 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u0"
+			(at 193.675 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_0805"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21B105KBFNNN.pdf"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "CL21B105KBFNNNE"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 190.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C28323"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a945597-40ef-4cdb-90de-22ce09479d29")
+		)
+		(pin "1"
+			(uuid "166315c4-d05e-46bc-8d31-675079a0303b")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C1078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lily_symbols:cap_68p_50V_5%_C0G_0805")
 		(at 147.32 33.02 0)
 		(unit 1)
@@ -16887,6 +17362,129 @@
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:cap_4u7_25V_10%_X5R_0805")
+		(at 203.2 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65029308-e233-49a8-abd3-22734735ae62")
+		(property "Reference" "C1079"
+			(at 206.375 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 206.375 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_0805"
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A475KAQNNN.pdf"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 203.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "CL21A475KAQNNNE"
+			(at 203.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C1779"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db52c1ad-748f-46a1-bbab-419478d2f041")
+		)
+		(pin "1"
+			(uuid "bc39c9e2-4255-417e-9f6f-061bb4624428")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C1079")
 					(unit 1)
 				)
 			)
@@ -21199,7 +21797,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_22u_16V_10%_X5R_0805")
-		(at 190.5 20.32 0)
+		(at 203.2 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21207,7 +21805,7 @@
 		(dnp no)
 		(uuid "bf7839dc-a47c-4410-8439-1025b3905dab")
 		(property "Reference" "C1014"
-			(at 193.675 22.86 0)
+			(at 206.375 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21216,7 +21814,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 193.675 25.4 0)
+			(at 206.375 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21225,7 +21823,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 190.5 40.64 0)
+			(at 203.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21234,7 +21832,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A226KOQNNN.pdf"
-			(at 190.5 53.34 0)
+			(at 203.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21243,7 +21841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 20.32 0)
+			(at 203.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21252,7 +21850,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 190.5 35.56 0)
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21261,7 +21859,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 190.5 38.1 0)
+			(at 203.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21270,7 +21868,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 190.5 43.18 0)
+			(at 203.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21279,7 +21877,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CL21A226KOQNNNE"
-			(at 190.5 45.72 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21288,7 +21886,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 190.5 48.26 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21297,7 +21895,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C296720"
-			(at 190.5 50.8 0)
+			(at 203.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22798,7 +23396,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_10u_25V_10%_X5R_0805")
-		(at 177.8 20.32 0)
+		(at 190.5 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22806,7 +23404,7 @@
 		(dnp no)
 		(uuid "fd596a89-1330-41c9-b7d6-963c4ae00932")
 		(property "Reference" "C1013"
-			(at 180.975 22.86 0)
+			(at 193.675 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22815,7 +23413,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 180.975 25.4 0)
+			(at 193.675 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22824,7 +23422,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 177.8 40.64 0)
+			(at 190.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22833,7 +23431,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A106KAYNNN.pdf"
-			(at 177.8 53.34 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22842,7 +23440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 20.32 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22851,7 +23449,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 177.8 35.56 0)
+			(at 190.5 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22860,7 +23458,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 177.8 38.1 0)
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22869,7 +23467,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 177.8 43.18 0)
+			(at 190.5 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22878,7 +23476,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CL21A106KAYNNNE"
-			(at 177.8 45.72 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22887,7 +23485,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 177.8 48.26 0)
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22896,7 +23494,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C15850"
-			(at 177.8 50.8 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

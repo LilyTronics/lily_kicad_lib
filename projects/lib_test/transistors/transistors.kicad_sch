@@ -690,7 +690,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:bjt_npn_MMBT2222A_sot23"
+		(symbol "lily_symbols:bjt_npn_MMBT2222AL_sot23"
 			(pin_names
 				(hide yes)
 			)
@@ -706,7 +706,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT2222A"
+			(property "Value" "MMBT2222AL"
 				(at 6.35 -1.27 0)
 				(effects
 					(font
@@ -724,8 +724,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -5.08 -2.54 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MMBT2222.pdf"
+				(at 5.08 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -760,7 +760,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Jiangsu Changjing Electronics Technology"
+			(property "Manufacturer" "onsemi"
 				(at 5.08 -20.32 0)
 				(effects
 					(font
@@ -769,7 +769,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "MMBT2222A"
+			(property "Manufacturer_ID" "MMBT2222ALT1G"
 				(at 5.08 -22.86 0)
 				(effects
 					(font
@@ -778,7 +778,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "xxxx-yyyyy"
+			(property "Lily_ID" "NO_ID"
 				(at 5.08 -25.4 0)
 				(effects
 					(font
@@ -787,7 +787,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C8512"
+			(property "JLCPCB_ID" "C82460"
 				(at 5.08 -27.94 0)
 				(effects
 					(font
@@ -796,16 +796,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 5.08 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "bjt_npn_MMBT2222A_sot23_0_1"
+			(symbol "bjt_npn_MMBT2222AL_sot23_0_1"
 				(polyline
 					(pts
 						(xy 2.54 2.54) (xy 2.54 -2.54)
@@ -867,7 +858,7 @@
 					)
 				)
 			)
-			(symbol "bjt_npn_MMBT2222A_sot23_1_1"
+			(symbol "bjt_npn_MMBT2222AL_sot23_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
@@ -1603,7 +1594,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lily_symbols:mosfet_n_AO3400A_sot23"
+		(symbol "lily_symbols:mosfet_n_DMG3406L_sot23"
 			(pin_names
 				(hide yes)
 			)
@@ -1619,7 +1610,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3400A"
+			(property "Value" "DMG3406L"
 				(at 7.62 1.27 0)
 				(effects
 					(font
@@ -1637,7 +1628,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/DMG3406L.pdf"
 				(at -5.08 -2.54 0)
 				(effects
 					(font
@@ -1673,7 +1664,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Alpha and Omega Semicon "
+			(property "Manufacturer" "Diodes Incorporated"
 				(at 5.08 -17.78 0)
 				(effects
 					(font
@@ -1682,7 +1673,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "AO3400A"
+			(property "Manufacturer_ID" "DMG3406L"
 				(at 5.08 -20.32 0)
 				(effects
 					(font
@@ -1691,7 +1682,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1918-10001"
+			(property "Lily_ID" "NO_ID"
 				(at 5.08 -22.86 0)
 				(effects
 					(font
@@ -1700,7 +1691,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_ID" "C20917"
+			(property "JLCPCB_ID" "C481695"
 				(at 5.08 -25.4 0)
 				(effects
 					(font
@@ -1709,16 +1700,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB_STATUS" "Basic"
-				(at 5.08 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "mosfet_n_AO3400A_sot23_0_1"
+			(symbol "mosfet_n_DMG3406L_sot23_0_1"
 				(polyline
 					(pts
 						(xy 3.048 4.318) (xy 3.048 0)
@@ -1888,7 +1870,7 @@
 					)
 				)
 			)
-			(symbol "mosfet_n_AO3400A_sot23_1_1"
+			(symbol "mosfet_n_DMG3406L_sot23_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
@@ -1936,484 +1918,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lily_symbols:mosfet_n_VBZA4800_soic8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 8.89 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "VBZA4800"
-				(at 8.89 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "lily_footprints:soic8"
-				(at 5.08 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Revision" "1"
-				(at 5.08 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "VBsemi"
-				(at 5.08 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_ID" "VBZA4800"
-				(at 5.08 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Lily_ID" "xxxx-yyyyy"
-				(at 5.08 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_ID" "C700593"
-				(at 5.08 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 5.08 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "mosfet_n_VBZA4800_soic8_0_1"
-				(polyline
-					(pts
-						(xy 3.048 4.318) (xy 3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 4.318) (xy 3.81 3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.159) (xy 5.08 2.159) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.778) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 5.08 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1402 2.159) (xy 4.7752 2.54) (xy 4.7752 1.778) (xy 4.1402 2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 4.318) (xy 6.35 4.318) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.81) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 5.842 1.778) (xy 6.858 1.778) (xy 6.35 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 7.62) (xy 2.54 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 7.62) (xy 10.16 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "mosfet_n_VBZA4800_soic8_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 3.048)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 10.16 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 10.16 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2933,8 +2437,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -5.08 -2.54 0)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/DMP3028LFDE.pdf"
+				(at 5.08 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2978,7 +2482,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_ID" "DMP3028LFDE"
+			(property "Manufacturer_ID" "DMP3028LFDE-13"
 				(at 5.08 -22.86 0)
 				(effects
 					(font
@@ -2987,7 +2491,7 @@
 					(hide yes)
 				)
 			)
-			(property "Lily_ID" "1918-10002"
+			(property "Lily_ID" "NO_ID"
 				(at 5.08 -25.4 0)
 				(effects
 					(font
@@ -2998,15 +2502,6 @@
 			)
 			(property "JLCPCB_ID" "C150441"
 				(at 5.08 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_STATUS" "Extended"
-				(at 5.08 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3382,151 +2877,16 @@
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:mosfet_n_AO3400A_sot23")
-		(at 50.8 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01bdc280-e93e-4f86-bed0-019ef37cb86a")
-		(property "Reference" "Q2"
-			(at 58.42 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 58.42 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:sot23"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 55.88 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Alpha and Omega Semicon "
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "AO3400A"
-			(at 55.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1918-10001"
-			(at 55.88 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "C20917"
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 55.88 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7b3545b-4517-40ee-b046-c3ce5d8273bb")
-		)
-		(pin "3"
-			(uuid "30ea51a1-8b34-4e3d-85f1-8caa10ce4683")
-		)
-		(pin "1"
-			(uuid "d2f30eb4-439a-40e5-9c9b-a38a13c08a21")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lily_symbols:bjt_npn_BD139_to126")
-		(at 76.2 50.8 0)
+		(at 76.2 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3e4e229c-478b-41e0-8325-2d6d61012f7c")
-		(property "Reference" "Q8"
-			(at 82.55 49.53 0)
+		(property "Reference" "Q1003"
+			(at 82.55 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +2895,7 @@
 			)
 		)
 		(property "Value" "BD139"
-			(at 82.55 52.07 0)
+			(at 82.55 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +2904,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:to126"
-			(at 81.28 68.58 0)
+			(at 81.28 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +2913,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/BD139_140.pdf"
-			(at 81.28 81.28 0)
+			(at 81.28 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +2922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 50.8 0)
+			(at 76.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +2931,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 81.28 63.5 0)
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +2940,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 81.28 66.04 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +2949,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 81.28 71.12 0)
+			(at 81.28 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +2958,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "BD139"
-			(at 81.28 73.66 0)
+			(at 81.28 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +2967,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 81.28 76.2 0)
+			(at 81.28 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +2976,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "NO_ID"
-			(at 81.28 78.74 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,23 +2996,23 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q8")
+					(reference "Q1003")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:bjt_npn_MJL3281A_to264")
-		(at 127 50.8 0)
+		(lib_id "lily_symbols:mosfet_n_DMG3406L_sot23")
+		(at 50.8 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "540efb7c-5737-421e-8fd8-8b216f5dd995")
-		(property "Reference" "Q10"
-			(at 133.35 49.53 0)
+		(uuid "41329bdc-2b7d-428f-a5d6-76cd7f0ba643")
+		(property "Reference" "Q1008"
+			(at 58.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,8 +3020,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MJL3281A"
-			(at 133.35 52.07 0)
+		(property "Value" "DMG3406L"
+			(at 58.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,8 +3029,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:to264"
-			(at 132.08 68.58 0)
+		(property "Footprint" "lily_footprints:sot23"
+			(at 55.88 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,8 +3038,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MJL3281A_MJL1302A.pdf"
-			(at 132.08 81.28 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/DMG3406L.pdf"
+			(at 45.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3048,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 50.8 0)
+			(at 50.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3057,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 132.08 63.5 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3066,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 132.08 66.04 0)
+			(at 55.88 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,8 +3074,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Onsemi"
-			(at 132.08 71.12 0)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 55.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,8 +3083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "MJL3281A"
-			(at 132.08 73.66 0)
+		(property "Manufacturer_ID" "DMG3406L"
+			(at 55.88 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3093,133 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 132.08 76.2 0)
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C481695"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d433ccb-eb1b-41ce-ba8f-07d034d10e63")
+		)
+		(pin "1"
+			(uuid "e403a260-c1f4-4d70-8701-60026e503a8c")
+		)
+		(pin "3"
+			(uuid "544c5615-9ccb-445f-836c-2eb82c703aa2")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q1008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:bjt_npn_MJL3281A_to264")
+		(at 127 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "540efb7c-5737-421e-8fd8-8b216f5dd995")
+		(property "Reference" "Q1005"
+			(at 133.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MJL3281A"
+			(at 133.35 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:to264"
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MJL3281A_MJL1302A.pdf"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 132.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "MJL3281A"
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 132.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3228,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "NO_ID"
-			(at 132.08 78.74 0)
+			(at 132.08 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,22 +3248,22 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q10")
+					(reference "Q1005")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:bjt_npn_BC850B_sot23")
+		(lib_id "lily_symbols:bjt_npn_MMBT2222AL_sot23")
 		(at 25.4 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "76a11b9b-8fec-4362-8d9e-443a4f9dedc1")
-		(property "Reference" "Q6"
+		(uuid "6c10473e-8a4f-457d-b195-dc8c795b49d9")
+		(property "Reference" "Q1007"
 			(at 31.75 49.53 0)
 			(effects
 				(font
@@ -3786,7 +3272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC850B"
+		(property "Value" "MMBT2222AL"
 			(at 31.75 52.07 0)
 			(effects
 				(font
@@ -3804,7 +3290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/nexperia/BC850B.pdf"
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MMBT2222.pdf"
 			(at 30.48 81.28 0)
 			(effects
 				(font
@@ -3840,7 +3326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "onsemi"
 			(at 30.48 71.12 0)
 			(effects
 				(font
@@ -3849,7 +3335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "BC850B"
+		(property "Manufacturer_ID" "MMBT2222ALT1G"
 			(at 30.48 73.66 0)
 			(effects
 				(font
@@ -3867,7 +3353,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "NO_ID"
+		(property "JLCPCB_ID" "C82460"
 			(at 30.48 78.74 0)
 			(effects
 				(font
@@ -3877,861 +3363,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "bec2be1b-831d-43bf-9f25-6724c0c32041")
+			(uuid "744a2838-342a-45c2-b511-e23316bf5e33")
 		)
 		(pin "2"
-			(uuid "a8247082-c6f9-4c08-bb64-9ef62c320bf2")
+			(uuid "79d610e9-3058-49c5-9b64-792d6045bae6")
 		)
 		(pin "3"
-			(uuid "780a9fa2-4be2-43fa-9f01-6892b09a8704")
+			(uuid "843ce8a0-fe44-4a72-b7a3-1a87abf74c68")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q6")
+					(reference "Q1007")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:bjt_pnp_MJL1302A_to264")
-		(at 152.4 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b04e93bd-57d1-4736-8b45-f67206a18a2b")
-		(property "Reference" "Q11"
-			(at 158.75 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MJL1302A"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:to264"
-			(at 157.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MJL3281A_MJL1302A.pdf"
-			(at 157.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 157.48 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 157.48 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Onsemi"
-			(at 157.48 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "MJL1302A"
-			(at 157.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 157.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 157.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3bd307fe-12a4-4894-88eb-5821443730c8")
-		)
-		(pin "3"
-			(uuid "65749228-e7ff-4346-8adc-e344baf22934")
-		)
-		(pin "1"
-			(uuid "03984e5c-0cd6-43ec-9f23-3540cb297fc7")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:mosfet_p_DMP3028LFDE_sot1220")
-		(at 76.2 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdd57d28-bc1e-4ab8-b8c3-383d5782f1d7")
-		(property "Reference" "Q3"
-			(at 85.09 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMP3028LFDE"
-			(at 85.09 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:sot1220_dnf2020md-6_type_e"
-			(at 81.28 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 81.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 81.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "DMP3028LFDE"
-			(at 81.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "1918-10002"
-			(at 81.28 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "C150441"
-			(at 81.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 81.28 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c32b49a-aed9-4318-bc52-1b376a1b4bbb")
-		)
-		(pin "3"
-			(uuid "8b8a32f9-72a6-48eb-988b-68a6bb702cce")
-		)
-		(pin "2"
-			(uuid "4582d5e1-7de7-4279-872d-9b6f352b0b0d")
-		)
-		(pin "8"
-			(uuid "c635b2cd-42e5-45f3-970c-d90c06f9383c")
-		)
-		(pin "6"
-			(uuid "4451697d-aec1-487c-9d06-2ed3c5084f0e")
-		)
-		(pin "7"
-			(uuid "b40bf4da-dfde-42c4-8a97-f434b0cdd435")
-		)
-		(pin "4"
-			(uuid "3cfd06d4-0707-40cd-b2cc-fb96b976aac0")
-		)
-		(pin "5"
-			(uuid "cc22c21c-9e7c-4952-853f-3e8e588764f1")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:bjt_pnp_BC860B_sot23")
-		(at 50.8 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c923eee9-fa4c-4221-876c-e689af10b950")
-		(property "Reference" "Q7"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC860B"
-			(at 57.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:sot23"
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/nexperia/BC860B.pdf"
-			(at 55.88 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 55.88 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 55.88 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 55.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "BC860B"
-			(at 55.88 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 55.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 55.88 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "26e4a860-11de-466f-ac1d-3080be1eeae2")
-		)
-		(pin "1"
-			(uuid "30c95486-8cdd-45b3-88e7-d48e3fad19fd")
-		)
-		(pin "2"
-			(uuid "5c1d4ff2-7803-41b6-99e4-7a253edbeaa6")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:bjt_pnp_BD140_to126")
-		(at 101.6 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e37ab667-3c61-47f7-b581-e10d796c3981")
-		(property "Reference" "Q9"
-			(at 107.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD140"
-			(at 107.95 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:to126"
-			(at 106.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/BD139_140.pdf"
-			(at 106.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 106.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 106.68 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "BD140"
-			(at 106.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 106.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "NO_ID"
-			(at 106.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33e854d6-d6ee-4445-a54c-c012d2dcaf9b")
-		)
-		(pin "3"
-			(uuid "891ce7fa-9c10-404e-8d9e-095698f72c33")
-		)
-		(pin "2"
-			(uuid "ca8dfc80-ec5d-42cd-90a6-5da07a53e9e8")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:mosfet_p_CEM3083_soic8")
-		(at 101.6 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb66202a-dd8e-4ae7-9287-a9a582795214")
-		(property "Reference" "Q4"
-			(at 110.49 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CEM3083"
-			(at 110.49 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:soic8"
-			(at 106.68 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 106.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CET"
-			(at 106.68 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "CEM3083"
-			(at 106.68 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "xxxx-yyyyy"
-			(at 106.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "C83039"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 106.68 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "d81591d2-3713-439d-ad0c-3b6954acaef2")
-		)
-		(pin "4"
-			(uuid "3275a188-1014-44d7-a8cd-4e5b7ab49f41")
-		)
-		(pin "6"
-			(uuid "3089e238-e8a4-4139-9b9f-c881828fb64d")
-		)
-		(pin "1"
-			(uuid "7cc694b2-669d-4a8c-89c8-2b489598e4cf")
-		)
-		(pin "2"
-			(uuid "2e700dad-2971-488d-a277-6b309dd1de0a")
-		)
-		(pin "7"
-			(uuid "fa3f35e9-d588-4f12-bdee-307090860f6c")
-		)
-		(pin "3"
-			(uuid "8f47d091-ce43-46af-8e3f-e4070d655c51")
-		)
-		(pin "8"
-			(uuid "9b6cbe21-43f4-4586-b3f4-63a29b6cba68")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:mosfet_n_VBZA4800_soic8")
-		(at 127 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc186d8d-a2cf-4c7b-99ff-4c948f5824e8")
-		(property "Reference" "Q5"
-			(at 135.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBZA4800"
-			(at 135.89 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:soic8"
-			(at 132.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Revision" "1"
-			(at 132.08 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "VBsemi"
-			(at 132.08 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_ID" "VBZA4800"
-			(at 132.08 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lily_ID" "xxxx-yyyyy"
-			(at 132.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_ID" "C700593"
-			(at 132.08 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_STATUS" "Extended"
-			(at 132.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10bb55c5-180f-4f8b-b596-0dc271636d4a")
-		)
-		(pin "4"
-			(uuid "d8dc7dbc-2e6a-48c4-a6ef-e4639b5cc544")
-		)
-		(pin "5"
-			(uuid "d9cab4b4-46c2-4d12-ab15-7a7c5ee5d4dc")
-		)
-		(pin "6"
-			(uuid "d64840ba-8af6-4baa-8675-f1916fc7e121")
-		)
-		(pin "2"
-			(uuid "fbb8a74f-95aa-4216-a008-0ac29c77a985")
-		)
-		(pin "7"
-			(uuid "d31190d8-9b9d-49c2-ad25-93b0bc3dba60")
-		)
-		(pin "8"
-			(uuid "048b52f3-4511-49ab-bb61-f3d7e1ce95d9")
-		)
-		(pin "3"
-			(uuid "319390fc-181a-4317-88bb-b677fcfc4ec3")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:bjt_npn_MMBT2222A_sot23")
+		(lib_id "lily_symbols:bjt_npn_BC850B_sot23")
 		(at 25.4 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fde79ab1-3222-48ed-a9d4-3bb831512bd3")
-		(property "Reference" "Q1"
+		(uuid "76a11b9b-8fec-4362-8d9e-443a4f9dedc1")
+		(property "Reference" "Q1001"
 			(at 31.75 24.13 0)
 			(effects
 				(font
@@ -4740,7 +3398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT2222A"
+		(property "Value" "BC850B"
 			(at 31.75 26.67 0)
 			(effects
 				(font
@@ -4758,8 +3416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 20.32 27.94 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/nexperia/BC850B.pdf"
+			(at 30.48 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +3452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Jiangsu Changjing Electronics Technology"
+		(property "Manufacturer" "Nexperia"
 			(at 30.48 45.72 0)
 			(effects
 				(font
@@ -4803,7 +3461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_ID" "MMBT2222A"
+		(property "Manufacturer_ID" "BC850B"
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -4812,7 +3470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Lily_ID" "xxxx-yyyyy"
+		(property "Lily_ID" "NO_ID"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -4821,7 +3479,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_ID" "C8512"
+		(property "JLCPCB_ID" "NO_ID"
 			(at 30.48 53.34 0)
 			(effects
 				(font
@@ -4830,8 +3488,251 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_STATUS" "Basic"
-			(at 30.48 55.88 0)
+		(pin "1"
+			(uuid "bec2be1b-831d-43bf-9f25-6724c0c32041")
+		)
+		(pin "2"
+			(uuid "a8247082-c6f9-4c08-bb64-9ef62c320bf2")
+		)
+		(pin "3"
+			(uuid "780a9fa2-4be2-43fa-9f01-6892b09a8704")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:bjt_pnp_MJL1302A_to264")
+		(at 152.4 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b04e93bd-57d1-4736-8b45-f67206a18a2b")
+		(property "Reference" "Q1006"
+			(at 158.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MJL1302A"
+			(at 158.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:to264"
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MJL3281A_MJL1302A.pdf"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 157.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "MJL1302A"
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 157.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bd307fe-12a4-4894-88eb-5821443730c8")
+		)
+		(pin "3"
+			(uuid "65749228-e7ff-4346-8adc-e344baf22934")
+		)
+		(pin "1"
+			(uuid "03984e5c-0cd6-43ec-9f23-3540cb297fc7")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q1006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:mosfet_p_DMP3028LFDE_sot1220")
+		(at 25.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdd57d28-bc1e-4ab8-b8c3-383d5782f1d7")
+		(property "Reference" "Q1009"
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3028LFDE"
+			(at 34.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:sot1220_dnf2020md-6_type_e"
+			(at 30.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/DMP3028LFDE.pdf"
+			(at 30.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 30.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 30.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 30.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "DMP3028LFDE-13"
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 30.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C150441"
+			(at 30.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,18 +3741,435 @@
 			)
 		)
 		(pin "1"
-			(uuid "12cc1603-5ae0-4b88-a7d4-1774b7fd2776")
-		)
-		(pin "2"
-			(uuid "de07f24d-7266-4d2d-9b2a-d722eb00261b")
+			(uuid "6c32b49a-aed9-4318-bc52-1b376a1b4bbb")
 		)
 		(pin "3"
-			(uuid "d0ca3fc6-0ae5-4033-bf07-d3cf62c05fa8")
+			(uuid "8b8a32f9-72a6-48eb-988b-68a6bb702cce")
+		)
+		(pin "2"
+			(uuid "4582d5e1-7de7-4279-872d-9b6f352b0b0d")
+		)
+		(pin "8"
+			(uuid "c635b2cd-42e5-45f3-970c-d90c06f9383c")
+		)
+		(pin "6"
+			(uuid "4451697d-aec1-487c-9d06-2ed3c5084f0e")
+		)
+		(pin "7"
+			(uuid "b40bf4da-dfde-42c4-8a97-f434b0cdd435")
+		)
+		(pin "4"
+			(uuid "3cfd06d4-0707-40cd-b2cc-fb96b976aac0")
+		)
+		(pin "5"
+			(uuid "cc22c21c-9e7c-4952-853f-3e8e588764f1")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q1")
+					(reference "Q1009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:bjt_pnp_BC860B_sot23")
+		(at 50.8 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c923eee9-fa4c-4221-876c-e689af10b950")
+		(property "Reference" "Q1002"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC860B"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:sot23"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/nexperia/BC860B.pdf"
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 55.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "BC860B"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 55.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26e4a860-11de-466f-ac1d-3080be1eeae2")
+		)
+		(pin "1"
+			(uuid "30c95486-8cdd-45b3-88e7-d48e3fad19fd")
+		)
+		(pin "2"
+			(uuid "5c1d4ff2-7803-41b6-99e4-7a253edbeaa6")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:bjt_pnp_BD140_to126")
+		(at 101.6 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e37ab667-3c61-47f7-b581-e10d796c3981")
+		(property "Reference" "Q1004"
+			(at 107.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD140"
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:to126"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/BD139_140.pdf"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "BD140"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 106.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e854d6-d6ee-4445-a54c-c012d2dcaf9b")
+		)
+		(pin "3"
+			(uuid "891ce7fa-9c10-404e-8d9e-095698f72c33")
+		)
+		(pin "2"
+			(uuid "ca8dfc80-ec5d-42cd-90a6-5da07a53e9e8")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:mosfet_p_CEM3083_soic8")
+		(at 50.8 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb66202a-dd8e-4ae7-9287-a9a582795214")
+		(property "Reference" "Q1010"
+			(at 59.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CEM3083"
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:soic8"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 55.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CET"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "CEM3083"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "xxxx-yyyyy"
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C83039"
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_STATUS" "Extended"
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d81591d2-3713-439d-ad0c-3b6954acaef2")
+		)
+		(pin "4"
+			(uuid "3275a188-1014-44d7-a8cd-4e5b7ab49f41")
+		)
+		(pin "6"
+			(uuid "3089e238-e8a4-4139-9b9f-c881828fb64d")
+		)
+		(pin "1"
+			(uuid "7cc694b2-669d-4a8c-89c8-2b489598e4cf")
+		)
+		(pin "2"
+			(uuid "2e700dad-2971-488d-a277-6b309dd1de0a")
+		)
+		(pin "7"
+			(uuid "fa3f35e9-d588-4f12-bdee-307090860f6c")
+		)
+		(pin "3"
+			(uuid "8f47d091-ce43-46af-8e3f-e4070d655c51")
+		)
+		(pin "8"
+			(uuid "9b6cbe21-43f4-4586-b3f4-63a29b6cba68")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q1010")
 					(unit 1)
 				)
 			)
