@@ -66,41 +66,41 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "warning",
+        "connection_width": "error",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
+        "copper_sliver": "error",
         "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "duplicate_footprints": "error",
+        "extra_footprint": "error",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_filters_mismatch": "error",
+        "footprint_symbol_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
-        "holes_co_located": "warning",
+        "holes_co_located": "error",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "error",
+        "lib_footprint_mismatch": "error",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "warning",
-        "missing_footprint": "warning",
-        "net_conflict": "warning",
-        "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "warning",
+        "mirrored_text_on_front_layer": "error",
+        "missing_courtyard": "error",
+        "missing_footprint": "error",
+        "net_conflict": "error",
+        "nonmirrored_text_on_back_layer": "error",
+        "npth_inside_courtyard": "error",
         "padstack": "error",
-        "pth_inside_courtyard": "warning",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -108,19 +108,19 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "error",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -474,7 +474,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "integrated_circuits.kicad_pro",
+    "filename": "various.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -634,50 +634,6 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
-    ],
-    [
-      "11447c1d-12bc-4b1f-be42-30d1ccb690a0",
-      "Sensors"
-    ],
-    [
-      "64ad515c-1917-4362-ba42-40f00b5a0d5c",
-      "Comparators"
-    ],
-    [
-      "55b71c63-df37-48d7-8aea-a12a2b7d7120",
-      "ADC and DAC"
-    ],
-    [
-      "3fcb8f78-9066-4e9f-9c65-4850623ce711",
-      "Memories"
-    ],
-    [
-      "48759d13-9ead-41ca-90be-0a5fd7c10c4f",
-      "FPGAs"
-    ],
-    [
-      "04e772ef-ae45-46b9-9a56-2a97463ecee5",
-      "Interfaces"
-    ],
-    [
-      "c1a43358-592e-40a0-89d7-4a7bc0b9e2e8",
-      "Microcontrollers"
-    ],
-    [
-      "0a3c8ba5-dccb-4ef6-8067-81c279456a3a",
-      "Modules"
-    ],
-    [
-      "aab8d68a-9445-4e01-a879-d4613f75fbd3",
-      "Voltage regulators"
-    ],
-    [
-      "bd7fe9ed-ddb9-415a-abb3-6877f614ff8c",
-      "Opamps"
-    ],
-    [
-      "da1ff43c-dafd-4fdb-b10c-4c2ad42bbb42",
-      "Timers"
     ]
   ],
   "text_variables": {}
