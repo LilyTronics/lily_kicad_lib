@@ -176,7 +176,13 @@ class DesignParser:
 
 if __name__ == "__main__":
 
-    _test_project_folder = "..\\..\\projects\\arduino_base"
+    _test_project_folder = os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            "..\\..\\..\\projects\\lib_test\\capacitors"
+        )
+    )
+
     _symbols = DesignParser.get_symbols(_test_project_folder)
     print("Symbols:", len(_symbols))
     if len(_symbols) > 0:
