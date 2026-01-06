@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Capacitors")
-		(date "2025-02-13")
+		(date "2026-01-06")
 		(rev "1")
 		(comment 1 "-")
 		(comment 2 "-")
@@ -14055,7 +14055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "013866f7-beec-4025-9cf1-91b0a78cbdd6")
-		(property "Reference" "C1056"
+		(property "Reference" "C1058"
 			(at 86.995 73.66 0)
 			(effects
 				(font
@@ -14163,7 +14163,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1056")
+					(reference "C1058")
 					(unit 1)
 				)
 			)
@@ -14178,7 +14178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0730ac04-812e-4f6b-b53e-cf64779f0b16")
-		(property "Reference" "C1027"
+		(property "Reference" "C1029"
 			(at 23.495 48.26 0)
 			(effects
 				(font
@@ -14286,7 +14286,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1027")
+					(reference "C1029")
 					(unit 1)
 				)
 			)
@@ -14424,7 +14424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11c502bb-59de-4cd4-8e82-5abf06a0c25f")
-		(property "Reference" "C1071"
+		(property "Reference" "C1073"
 			(at 125.095 86.36 0)
 			(effects
 				(font
@@ -14532,7 +14532,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1071")
+					(reference "C1073")
 					(unit 1)
 				)
 			)
@@ -14547,7 +14547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e003118-837e-403a-8b46-0c0a69c6e277")
-		(property "Reference" "C1078"
+		(property "Reference" "C1013"
 			(at 193.675 22.86 0)
 			(effects
 				(font
@@ -14655,7 +14655,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1078")
+					(reference "C1013")
 					(unit 1)
 				)
 			)
@@ -15039,7 +15039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "288c7897-8efd-441b-8673-41681bb5ebd1")
-		(property "Reference" "C1058"
+		(property "Reference" "C1060"
 			(at 112.395 73.66 0)
 			(effects
 				(font
@@ -15147,7 +15147,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1058")
+					(reference "C1060")
 					(unit 1)
 				)
 			)
@@ -15654,7 +15654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e8cb0b2-57b4-4b51-a8ac-cdd7bc6d8017")
-		(property "Reference" "C1052"
+		(property "Reference" "C1054"
 			(at 36.195 73.66 0)
 			(effects
 				(font
@@ -15762,7 +15762,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1052")
+					(reference "C1054")
 					(unit 1)
 				)
 			)
@@ -15900,7 +15900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4708caf0-9652-4962-a0bb-7d9595a680ab")
-		(property "Reference" "C1067"
+		(property "Reference" "C1069"
 			(at 74.295 86.36 0)
 			(effects
 				(font
@@ -16008,7 +16008,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1067")
+					(reference "C1069")
 					(unit 1)
 				)
 			)
@@ -16146,7 +16146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "525ce012-fabe-4899-8439-a9346197875b")
-		(property "Reference" "C1039"
+		(property "Reference" "C1041"
 			(at 23.495 60.96 0)
 			(effects
 				(font
@@ -16254,7 +16254,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1039")
+					(reference "C1041")
 					(unit 1)
 				)
 			)
@@ -16269,7 +16269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55831dd5-9176-4bb2-8fb1-94eded0553c9")
-		(property "Reference" "C1034"
+		(property "Reference" "C1036"
 			(at 112.395 48.26 0)
 			(effects
 				(font
@@ -16377,7 +16377,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1034")
+					(reference "C1036")
 					(unit 1)
 				)
 			)
@@ -16392,7 +16392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55c2d11c-4bfa-4956-861f-6e06c92f6a64")
-		(property "Reference" "C1074"
+		(property "Reference" "C1076"
 			(at 163.195 86.36 0)
 			(effects
 				(font
@@ -16500,7 +16500,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1074")
+					(reference "C1076")
 					(unit 1)
 				)
 			)
@@ -16638,7 +16638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "597324cd-8e75-4ba6-b14e-04811044860b")
-		(property "Reference" "C1030"
+		(property "Reference" "C1032"
 			(at 61.595 48.26 0)
 			(effects
 				(font
@@ -16746,7 +16746,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1030")
+					(reference "C1032")
 					(unit 1)
 				)
 			)
@@ -17130,7 +17130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6097e05a-5125-4eb6-95d7-1d244ef380eb")
-		(property "Reference" "C1068"
+		(property "Reference" "C1070"
 			(at 86.995 86.36 0)
 			(effects
 				(font
@@ -17238,7 +17238,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1068")
+					(reference "C1070")
 					(unit 1)
 				)
 			)
@@ -17253,7 +17253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6199c69d-b57b-407f-92bb-aa7e393bc20a")
-		(property "Reference" "C1060"
+		(property "Reference" "C1062"
 			(at 137.795 73.66 0)
 			(effects
 				(font
@@ -17361,7 +17361,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1060")
+					(reference "C1062")
 					(unit 1)
 				)
 			)
@@ -17376,7 +17376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65029308-e233-49a8-abd3-22734735ae62")
-		(property "Reference" "C1079"
+		(property "Reference" "C1014"
 			(at 206.375 22.86 0)
 			(effects
 				(font
@@ -17484,7 +17484,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1079")
+					(reference "C1014")
 					(unit 1)
 				)
 			)
@@ -17622,7 +17622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "691639f1-6d49-4455-8777-dc8fde201a57")
-		(property "Reference" "C1069"
+		(property "Reference" "C1071"
 			(at 99.695 86.36 0)
 			(effects
 				(font
@@ -17730,7 +17730,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1069")
+					(reference "C1071")
 					(unit 1)
 				)
 			)
@@ -17991,7 +17991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b0ff110-5d55-491c-81d0-3a476c0f0072")
-		(property "Reference" "C1063"
+		(property "Reference" "C1065"
 			(at 23.495 86.36 0)
 			(effects
 				(font
@@ -18099,7 +18099,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1063")
+					(reference "C1065")
 					(unit 1)
 				)
 			)
@@ -18114,7 +18114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c4051ff-5a31-4dfa-966b-db52e990ef08")
-		(property "Reference" "C1044"
+		(property "Reference" "C1046"
 			(at 86.995 60.96 0)
 			(effects
 				(font
@@ -18222,7 +18222,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1044")
+					(reference "C1046")
 					(unit 1)
 				)
 			)
@@ -18360,7 +18360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "717e2194-0018-4cfc-8667-7904c9517007")
-		(property "Reference" "C1029"
+		(property "Reference" "C1031"
 			(at 48.895 48.26 0)
 			(effects
 				(font
@@ -18468,7 +18468,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1029")
+					(reference "C1031")
 					(unit 1)
 				)
 			)
@@ -18606,7 +18606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72ace784-e48d-41e2-b7f7-8795f05300ff")
-		(property "Reference" "C1031"
+		(property "Reference" "C1033"
 			(at 74.295 48.26 0)
 			(effects
 				(font
@@ -18714,7 +18714,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1031")
+					(reference "C1033")
 					(unit 1)
 				)
 			)
@@ -18852,7 +18852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74d15c60-bf33-4e3f-b27e-8bfcada43e72")
-		(property "Reference" "C1037"
+		(property "Reference" "C1039"
 			(at 150.495 48.26 0)
 			(effects
 				(font
@@ -18960,7 +18960,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1037")
+					(reference "C1039")
 					(unit 1)
 				)
 			)
@@ -19221,7 +19221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b165ef7-dc11-4a18-b8c1-efc1e366569c")
-		(property "Reference" "C1075"
+		(property "Reference" "C1077"
 			(at 23.495 109.22 0)
 			(effects
 				(font
@@ -19329,7 +19329,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1075")
+					(reference "C1077")
 					(unit 1)
 				)
 			)
@@ -19344,7 +19344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c60c5f9-3468-4cb4-b896-d6c42625ea42")
-		(property "Reference" "C1032"
+		(property "Reference" "C1034"
 			(at 86.995 48.26 0)
 			(effects
 				(font
@@ -19452,7 +19452,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1032")
+					(reference "C1034")
 					(unit 1)
 				)
 			)
@@ -19467,7 +19467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ed61cae-2785-43af-8e0c-39c169947672")
-		(property "Reference" "C1057"
+		(property "Reference" "C1059"
 			(at 99.695 73.66 0)
 			(effects
 				(font
@@ -19575,7 +19575,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1057")
+					(reference "C1059")
 					(unit 1)
 				)
 			)
@@ -19713,7 +19713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff5a740-7bc1-477d-a532-8ce6323a8c8a")
-		(property "Reference" "C1036"
+		(property "Reference" "C1038"
 			(at 137.795 48.26 0)
 			(effects
 				(font
@@ -19821,7 +19821,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1036")
+					(reference "C1038")
 					(unit 1)
 				)
 			)
@@ -19836,7 +19836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "913e3904-45ab-4c55-b8bd-cea87a174d41")
-		(property "Reference" "C1049"
+		(property "Reference" "C1051"
 			(at 150.495 60.96 0)
 			(effects
 				(font
@@ -19944,7 +19944,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1049")
+					(reference "C1051")
 					(unit 1)
 				)
 			)
@@ -19959,7 +19959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9427a66e-2ac0-4cd6-b476-365dbb4b0ad5")
-		(property "Reference" "C1053"
+		(property "Reference" "C1055"
 			(at 48.895 73.66 0)
 			(effects
 				(font
@@ -20067,7 +20067,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1053")
+					(reference "C1055")
 					(unit 1)
 				)
 			)
@@ -20082,7 +20082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "960232b8-6843-4ef0-bd6a-1bc24197c8fb")
-		(property "Reference" "C1040"
+		(property "Reference" "C1042"
 			(at 36.195 60.96 0)
 			(effects
 				(font
@@ -20190,7 +20190,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1040")
+					(reference "C1042")
 					(unit 1)
 				)
 			)
@@ -20205,7 +20205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "991583b5-03e7-446e-8a39-eef7e63b5401")
-		(property "Reference" "C1050"
+		(property "Reference" "C1052"
 			(at 163.195 60.96 0)
 			(effects
 				(font
@@ -20313,7 +20313,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1050")
+					(reference "C1052")
 					(unit 1)
 				)
 			)
@@ -20328,7 +20328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b7ccd02-9261-4d60-844b-3f02832260ff")
-		(property "Reference" "C1062"
+		(property "Reference" "C1064"
 			(at 163.195 73.66 0)
 			(effects
 				(font
@@ -20436,7 +20436,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1062")
+					(reference "C1064")
 					(unit 1)
 				)
 			)
@@ -20451,7 +20451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9be2efe2-7fbd-498d-bf99-28ff5341237c")
-		(property "Reference" "C1045"
+		(property "Reference" "C1047"
 			(at 99.695 60.96 0)
 			(effects
 				(font
@@ -20559,7 +20559,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1045")
+					(reference "C1047")
 					(unit 1)
 				)
 			)
@@ -20574,7 +20574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d9c8b3d-2c43-4d02-9b26-5020cd555a4e")
-		(property "Reference" "C1076"
+		(property "Reference" "C1078"
 			(at 48.895 109.22 0)
 			(effects
 				(font
@@ -20682,7 +20682,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1076")
+					(reference "C1078")
 					(unit 1)
 				)
 			)
@@ -20697,7 +20697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6cac37e-b477-475d-a21d-55baaa496b46")
-		(property "Reference" "C1048"
+		(property "Reference" "C1050"
 			(at 137.795 60.96 0)
 			(effects
 				(font
@@ -20805,7 +20805,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1048")
+					(reference "C1050")
 					(unit 1)
 				)
 			)
@@ -20820,7 +20820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9b97719-4ced-41a9-a247-75358177a039")
-		(property "Reference" "C1055"
+		(property "Reference" "C1057"
 			(at 74.295 73.66 0)
 			(effects
 				(font
@@ -20928,7 +20928,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1055")
+					(reference "C1057")
 					(unit 1)
 				)
 			)
@@ -20943,7 +20943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa581cca-8abd-40e0-9970-4cc45807f67e")
-		(property "Reference" "C1033"
+		(property "Reference" "C1035"
 			(at 99.695 48.26 0)
 			(effects
 				(font
@@ -21051,7 +21051,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1033")
+					(reference "C1035")
 					(unit 1)
 				)
 			)
@@ -21066,7 +21066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acf27a9a-c825-4b63-b553-ea865230684a")
-		(property "Reference" "C1046"
+		(property "Reference" "C1048"
 			(at 112.395 60.96 0)
 			(effects
 				(font
@@ -21174,7 +21174,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1046")
+					(reference "C1048")
 					(unit 1)
 				)
 			)
@@ -21189,7 +21189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aec49b23-70b5-4076-aab2-d0cbecf57dd5")
-		(property "Reference" "C1028"
+		(property "Reference" "C1030"
 			(at 36.195 48.26 0)
 			(effects
 				(font
@@ -21297,7 +21297,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1028")
+					(reference "C1030")
 					(unit 1)
 				)
 			)
@@ -21312,7 +21312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2806cd0-f3d6-4eac-ac82-90989dec4909")
-		(property "Reference" "C1051"
+		(property "Reference" "C1053"
 			(at 23.495 73.66 0)
 			(effects
 				(font
@@ -21420,7 +21420,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1051")
+					(reference "C1053")
 					(unit 1)
 				)
 			)
@@ -21435,7 +21435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5d93444-77ff-4a46-9c24-ac69abcee017")
-		(property "Reference" "C1061"
+		(property "Reference" "C1063"
 			(at 150.495 73.66 0)
 			(effects
 				(font
@@ -21543,7 +21543,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1061")
+					(reference "C1063")
 					(unit 1)
 				)
 			)
@@ -21558,7 +21558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7be379a-cbd2-4d19-a768-ceaca1fa7a91")
-		(property "Reference" "C1077"
+		(property "Reference" "C1079"
 			(at 74.295 109.22 0)
 			(effects
 				(font
@@ -21666,7 +21666,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1077")
+					(reference "C1079")
 					(unit 1)
 				)
 			)
@@ -21681,7 +21681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baa24bc4-d009-4e48-b8f3-8cf4ebc043e5")
-		(property "Reference" "C1073"
+		(property "Reference" "C1075"
 			(at 150.495 86.36 0)
 			(effects
 				(font
@@ -21789,7 +21789,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1073")
+					(reference "C1075")
 					(unit 1)
 				)
 			)
@@ -21804,7 +21804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf7839dc-a47c-4410-8439-1025b3905dab")
-		(property "Reference" "C1014"
+		(property "Reference" "C1028"
 			(at 206.375 35.56 0)
 			(effects
 				(font
@@ -21912,7 +21912,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1014")
+					(reference "C1028")
 					(unit 1)
 				)
 			)
@@ -21927,7 +21927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5b4057c-0796-4f11-a856-9cddd91a5ba5")
-		(property "Reference" "C1059"
+		(property "Reference" "C1061"
 			(at 125.095 73.66 0)
 			(effects
 				(font
@@ -22035,7 +22035,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1059")
+					(reference "C1061")
 					(unit 1)
 				)
 			)
@@ -22050,7 +22050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8a99346-bcdd-4070-bc03-c6b5c1dfeeba")
-		(property "Reference" "C1047"
+		(property "Reference" "C1049"
 			(at 125.095 60.96 0)
 			(effects
 				(font
@@ -22158,7 +22158,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1047")
+					(reference "C1049")
 					(unit 1)
 				)
 			)
@@ -22173,7 +22173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd1db876-eaff-4ad4-8d57-3268762deb19")
-		(property "Reference" "C1043"
+		(property "Reference" "C1045"
 			(at 74.295 60.96 0)
 			(effects
 				(font
@@ -22281,7 +22281,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1043")
+					(reference "C1045")
 					(unit 1)
 				)
 			)
@@ -22296,7 +22296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d744df4a-d61e-4e47-aedc-d0285029bb27")
-		(property "Reference" "C1064"
+		(property "Reference" "C1066"
 			(at 36.195 86.36 0)
 			(effects
 				(font
@@ -22404,7 +22404,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1064")
+					(reference "C1066")
 					(unit 1)
 				)
 			)
@@ -22419,7 +22419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d793007f-b93a-41f1-a3ee-948262705839")
-		(property "Reference" "C1070"
+		(property "Reference" "C1072"
 			(at 112.395 86.36 0)
 			(effects
 				(font
@@ -22527,7 +22527,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1070")
+					(reference "C1072")
 					(unit 1)
 				)
 			)
@@ -22542,7 +22542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7930a78-9953-4ebe-aaa9-af5459d19979")
-		(property "Reference" "C1065"
+		(property "Reference" "C1067"
 			(at 48.895 86.36 0)
 			(effects
 				(font
@@ -22650,7 +22650,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1065")
+					(reference "C1067")
 					(unit 1)
 				)
 			)
@@ -22665,7 +22665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc899dfb-05a3-42e3-9ff2-db0ab0bc2318")
-		(property "Reference" "C1042"
+		(property "Reference" "C1044"
 			(at 61.595 60.96 0)
 			(effects
 				(font
@@ -22773,7 +22773,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1042")
+					(reference "C1044")
 					(unit 1)
 				)
 			)
@@ -22788,7 +22788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e01d7ae5-16ed-43b3-8889-8431b9193d7d")
-		(property "Reference" "C1035"
+		(property "Reference" "C1037"
 			(at 125.095 48.26 0)
 			(effects
 				(font
@@ -22896,7 +22896,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1035")
+					(reference "C1037")
 					(unit 1)
 				)
 			)
@@ -22911,7 +22911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e53ae025-affc-4d34-9b23-f1f03cae1f34")
-		(property "Reference" "C1054"
+		(property "Reference" "C1056"
 			(at 61.595 73.66 0)
 			(effects
 				(font
@@ -23019,7 +23019,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1054")
+					(reference "C1056")
 					(unit 1)
 				)
 			)
@@ -23034,7 +23034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e64f980f-fc13-48ee-af89-018e9f810c99")
-		(property "Reference" "C1072"
+		(property "Reference" "C1074"
 			(at 137.795 86.36 0)
 			(effects
 				(font
@@ -23142,7 +23142,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1072")
+					(reference "C1074")
 					(unit 1)
 				)
 			)
@@ -23157,7 +23157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e69baae9-6cef-4253-a972-d5cd736588f9")
-		(property "Reference" "C1066"
+		(property "Reference" "C1068"
 			(at 61.595 86.36 0)
 			(effects
 				(font
@@ -23265,7 +23265,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1066")
+					(reference "C1068")
 					(unit 1)
 				)
 			)
@@ -23280,7 +23280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebcc6950-1946-48ab-a9d8-cde2809d5235")
-		(property "Reference" "C1038"
+		(property "Reference" "C1040"
 			(at 163.195 48.26 0)
 			(effects
 				(font
@@ -23388,7 +23388,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1038")
+					(reference "C1040")
 					(unit 1)
 				)
 			)
@@ -23403,7 +23403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd596a89-1330-41c9-b7d6-963c4ae00932")
-		(property "Reference" "C1013"
+		(property "Reference" "C1027"
 			(at 193.675 35.56 0)
 			(effects
 				(font
@@ -23511,7 +23511,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1013")
+					(reference "C1027")
 					(unit 1)
 				)
 			)
@@ -23526,7 +23526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdca8fff-03c0-498f-bdc5-26c437318ed5")
-		(property "Reference" "C1041"
+		(property "Reference" "C1043"
 			(at 48.895 60.96 0)
 			(effects
 				(font
@@ -23634,7 +23634,7 @@
 		(instances
 			(project "capacitors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1041")
+					(reference "C1043")
 					(unit 1)
 				)
 			)
