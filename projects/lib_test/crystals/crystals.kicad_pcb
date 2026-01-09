@@ -8,11 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Project name")
-		(date "2025-05-26")
+		(title "Crystals")
+		(date "2026-01-09")
 		(rev "1")
-		(comment 1 "PCA number")
-		(comment 2 "PCB number")
+		(comment 1 "-")
+		(comment 2 "-")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -128,9 +128,752 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "unconnected-(X1001-Pad3)")
+	(net 2 "unconnected-(X1001-Pad4)")
+	(net 3 "unconnected-(X1001-Pad1)")
+	(net 4 "unconnected-(X1001-Pad2)")
+	(net 5 "unconnected-(X1002-Pad4)")
+	(net 6 "unconnected-(X1002-Pad3)")
+	(net 7 "unconnected-(X1002-Pad2)")
+	(net 8 "unconnected-(X1002-Pad1)")
+	(net 9 "unconnected-(X1003-GND-Pad2)")
+	(net 10 "unconnected-(X1003-VCC-Pad4)")
+	(net 11 "unconnected-(X1003-OUT-Pad3)")
+	(net 12 "unconnected-(X1003-EN-Pad1)")
+	(footprint "lily_footprints:crystal_3225"
+		(layer "F.Cu")
+		(uuid "6232aed9-0d6e-4fac-a253-93e86bdecc22")
+		(at 129 77)
+		(property "Reference" "X1003"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8229e66d-94c2-45da-80a1-90c03fc87752")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "50MHz"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c7b075f-4811-4736-a847-b9a746f18500")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/seiko_epson/SG3225CAN_X1G0059610010.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78c160b5-e307-40d6-ba6e-8f8b20417726")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9093ba32-7bb8-41e8-adc3-5a8393b6195c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a90256d-422b-4e34-a018-4a328a0647d2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d599f26-9f3a-4604-bbfd-aba7b562e321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Seiko Epson"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d8e137d-b2ba-456b-b8a4-ba78901bea05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "X1G0059610010"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e8f3cf5-271d-4a2a-bffe-218bfff77418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f660b4bb-b3ae-4090-bc9b-1de5772880f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C7472818"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6304434-3a2d-4f84-bf6a-da8c24994013")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2c4002eb-162e-4c66-b0ac-4975685255ea")
+		(sheetname "/")
+		(sheetfile "crystals.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2 -1.6)
+			(end 2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f704cb8c-490f-4719-896c-bcb1a3821ab9")
+		)
+		(fp_rect
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "fefd6d7f-7495-445b-b9f2-ec0b0e546126")
+		)
+		(fp_circle
+			(center -1.2 0.8)
+			(end -1.1 0.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e9a2c542-54d7-4edb-bc5f-d099085f6486")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f2cb3571-b946-475a-88d0-92554a0f8a40")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.1 0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 12 "unconnected-(X1003-EN-Pad1)")
+			(pinfunction "EN")
+			(pintype "input")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "fa95a700-bb3f-4f56-8798-85fc6b721f2e")
+		)
+		(pad "2" smd rect
+			(at 1.1 0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "unconnected-(X1003-GND-Pad2)")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "4bbd4542-0b74-4b58-bcd1-61adc69b8865")
+		)
+		(pad "3" smd rect
+			(at 1.1 -0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 11 "unconnected-(X1003-OUT-Pad3)")
+			(pinfunction "OUT")
+			(pintype "output")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "a0012a5d-aee8-460c-b92c-21a3564ac75a")
+		)
+		(pad "4" smd rect
+			(at -1.1 -0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "unconnected-(X1003-VCC-Pad4)")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "9c6376cd-adba-4447-b46d-f94d07d39fa4")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/crystal_3225.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:crystal_3225"
+		(layer "F.Cu")
+		(uuid "81a093ae-e6d8-472e-9fc0-0f5739117c51")
+		(at 115 77)
+		(property "Reference" "X1001"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bf40a805-3f35-4575-bbcf-6064ca6e3ba1")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "12MHz"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cc31630-3eb6-4d6e-bed0-e0f500ffb4a3")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/seiko_epson/FA-238.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3307f674-1ca0-4719-a9a2-c911aa0cd1e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93624adf-f18d-44b8-9270-07a33b70718c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "359856bb-3049-4da3-927e-770f97e4d95a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f498d92a-b9e6-46d8-84e0-4262ea3a3747")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Seiko Epson"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71763e6-b821-4da0-81d2-222d83c597fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "Q22FA23V00285"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30eb80db-ee8d-48ca-aab7-721f2c332a60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95cc8665-0343-464f-bbe3-7261b7dc62e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C255902"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f912cd52-7956-4a76-ad8b-35c7829c1469")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b1677745-fecf-41cd-9f44-d3c40c734ffc")
+		(sheetname "/")
+		(sheetfile "crystals.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2 -1.6)
+			(end 2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "45a6d461-f0de-48c8-b5aa-a5633244d24a")
+		)
+		(fp_rect
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "774767ea-5ed5-48ac-8542-f97225b6c41e")
+		)
+		(fp_circle
+			(center -1.2 0.8)
+			(end -1.1 0.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7a1210e5-3c3b-4505-a44a-330f39c0f9bd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3bffaab0-f289-4f7a-94e2-fbca0e2aa57a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.1 0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "unconnected-(X1001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "b7c1a3ff-7f36-4ef5-8e73-3a8396994377")
+		)
+		(pad "2" smd rect
+			(at 1.1 0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "unconnected-(X1001-Pad2)")
+			(pintype "no_connect")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "ffaa05d2-52eb-4aab-9253-1e73a922b0ef")
+		)
+		(pad "3" smd rect
+			(at 1.1 -0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "unconnected-(X1001-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "525088a8-5ac2-4e62-9abf-e97a165e7095")
+		)
+		(pad "4" smd rect
+			(at -1.1 -0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "unconnected-(X1001-Pad4)")
+			(pintype "no_connect")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "978a72bb-dc22-4cc4-9173-0d92ee9f2f5a")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/crystal_3225.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:crystal_3225"
+		(layer "F.Cu")
+		(uuid "d65de68d-e0d0-4011-822e-ae969fdd60e1")
+		(at 120 77)
+		(property "Reference" "X1002"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "82e3aaef-1eae-4b2a-8d37-a89e4fe9e254")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "16MHz"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d13717df-b390-4d62-a0ae-2af672432c5e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/seiko_epson/TSX-3225_X1E0000210119.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79bdccfc-def3-4e87-9d05-f04ce8a5f081")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef277852-f3a4-4745-977a-235e2f18a3f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "893c8368-a716-408f-9dbb-daf4041294ac")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cabd8c9-8fc9-45ba-b9f5-d4b6aa249065")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Seiko Epson"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a2754b6-f53f-4c38-88c8-bb003faba1e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "X1E0000210119"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cf15e71-e5e5-4529-abd4-72f2b01c3f82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aef9a03a-2437-42c5-a35d-e4dfc60050d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C89371"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6d9c5a8-1ed5-4e87-b888-059bf45ddee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/dea403fc-dd90-4e99-8ebe-b6b696e89e83")
+		(sheetname "/")
+		(sheetfile "crystals.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2 -1.6)
+			(end 2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2ddb1289-5019-497b-8232-c8132a3c50c5")
+		)
+		(fp_rect
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "5eecc763-fe4e-4ec7-87c9-2b8b9f0b4c12")
+		)
+		(fp_circle
+			(center -1.2 0.8)
+			(end -1.1 0.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "13bbf99c-c9f0-41b6-8a56-28c327750fe1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6ba93528-c15f-4a33-87aa-39a5ede4084d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.1 0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "unconnected-(X1002-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "c0308bd2-5843-4e2b-825d-8dfd326ccea8")
+		)
+		(pad "2" smd rect
+			(at 1.1 0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 7 "unconnected-(X1002-Pad2)")
+			(pintype "no_connect")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "acda0edd-89e1-423f-a46f-2a9d7da7a827")
+		)
+		(pad "3" smd rect
+			(at 1.1 -0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "unconnected-(X1002-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "157223e3-8cff-49bc-8362-1a90457f9a04")
+		)
+		(pad "4" smd rect
+			(at -1.1 -0.8)
+			(size 1.4 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "unconnected-(X1002-Pad4)")
+			(pintype "no_connect")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "11d51408-f1f6-4144-a4f0-ac4791b87703")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/crystal_3225.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_rect
+		(start 111 70.75)
+		(end 124 82.75)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "825038c9-1f27-41f6-85ca-f796ba5ea0eb")
+	)
+	(gr_rect
+		(start 125 70.75)
+		(end 138 82.75)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "99cb1239-adfe-48c4-a0f1-3865b39dade6")
+	)
 	(gr_rect
 		(start 110 70)
-		(end 190 130)
+		(end 139 84)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -138,6 +881,30 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "378d4ccf-c3c3-4b12-b957-5ae87f43d732")
+	)
+	(gr_text "OSCILLATORS"
+		(at 126 72 0)
+		(layer "F.SilkS")
+		(uuid "13c4f7ca-e70c-4f85-a3b6-85597d9448b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "CRYSTALS"
+		(at 112 72 0)
+		(layer "F.SilkS")
+		(uuid "435f8c9f-f587-4a31-a79a-79e96648acef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify left top)
+		)
 	)
 	(embedded_fonts no)
 )
