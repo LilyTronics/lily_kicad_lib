@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Diodes")
-		(date "2026-01-06")
+		(date "2026-01-09")
 		(rev "1")
 		(comment 1 "-")
 		(comment 2 "-")
@@ -2702,7 +2702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03558578-ef00-4342-ac56-a97adc667e16")
-		(property "Reference" "D1006"
+		(property "Reference" "D1003"
 			(at 78.74 27.94 0)
 			(effects
 				(font
@@ -2810,7 +2810,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1006")
+					(reference "D1003")
 					(unit 1)
 				)
 			)
@@ -2825,7 +2825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "200aacda-fa31-4658-bf89-2d4ad4028cae")
-		(property "Reference" "D1012"
+		(property "Reference" "D1004"
 			(at 104.14 27.94 0)
 			(effects
 				(font
@@ -2933,7 +2933,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1012")
+					(reference "D1004")
 					(unit 1)
 				)
 			)
@@ -2948,7 +2948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29170b63-9261-4b4a-973b-0286a3b3bb3e")
-		(property "Reference" "D1009"
+		(property "Reference" "D1010"
 			(at 53.34 105.41 0)
 			(effects
 				(font
@@ -3056,7 +3056,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1009")
+					(reference "D1010")
 					(unit 1)
 				)
 			)
@@ -3071,7 +3071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33e5d8cc-6dad-4632-8328-a206cc89d9e1")
-		(property "Reference" "D1002"
+		(property "Reference" "D1005"
 			(at 29.845 53.34 0)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1002")
+					(reference "D1005")
 					(unit 1)
 				)
 			)
@@ -3194,7 +3194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cbcf579-5bc7-41bc-9076-ef18132b1987")
-		(property "Reference" "D1005"
+		(property "Reference" "D1002"
 			(at 53.34 27.94 0)
 			(effects
 				(font
@@ -3302,7 +3302,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1005")
+					(reference "D1002")
 					(unit 1)
 				)
 			)
@@ -3440,7 +3440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99490ca0-550b-471c-99d7-8d0f5dcdee03")
-		(property "Reference" "D1008"
+		(property "Reference" "D1009"
 			(at 27.94 105.41 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1008")
+					(reference "D1009")
 					(unit 1)
 				)
 			)
@@ -3563,7 +3563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adf835ab-f108-4756-aaea-cc38c7e44857")
-		(property "Reference" "D1004"
+		(property "Reference" "D1007"
 			(at 80.645 53.34 0)
 			(effects
 				(font
@@ -3671,7 +3671,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1004")
+					(reference "D1007")
 					(unit 1)
 				)
 			)
@@ -3686,7 +3686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4f13564-7614-428d-bd4d-ffdce2567d37")
-		(property "Reference" "D1010"
+		(property "Reference" "D1011"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -3806,7 +3806,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1010")
+					(reference "D1011")
 					(unit 1)
 				)
 			)
@@ -3821,7 +3821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c125ce24-d433-4377-b4d7-e7fa7d49225d")
-		(property "Reference" "D1007"
+		(property "Reference" "D1008"
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -3932,7 +3932,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1007")
+					(reference "D1008")
 					(unit 1)
 				)
 			)
@@ -3947,7 +3947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed5bc78b-e25e-4adf-8a51-1dc25505a8c5")
-		(property "Reference" "D1011"
+		(property "Reference" "D1012"
 			(at 78.74 124.46 0)
 			(effects
 				(font
@@ -4067,7 +4067,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1011")
+					(reference "D1012")
 					(unit 1)
 				)
 			)
@@ -4082,7 +4082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f041cf5f-c2da-40dc-9f5e-20c2fe65671e")
-		(property "Reference" "D1003"
+		(property "Reference" "D1006"
 			(at 55.245 53.34 0)
 			(effects
 				(font
@@ -4190,7 +4190,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1003")
+					(reference "D1006")
 					(unit 1)
 				)
 			)
