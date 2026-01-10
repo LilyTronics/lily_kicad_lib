@@ -8,11 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Project name")
-		(date "2025-05-26")
+		(title "Various components")
+		(date "2026-01-10")
 		(rev "1")
-		(comment 1 "PCA number")
-		(comment 2 "PCB number")
+		(comment 1 "-")
+		(comment 2 "-")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -128,6 +128,462 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "unconnected-(M1001-Pad1)")
+	(net 2 "unconnected-(TP1001-Pad1)")
+	(net 3 "unconnected-(TP1002-Pad1)")
+	(footprint "lily_footprints:test_point_1mm"
+		(layer "F.Cu")
+		(uuid "8e2972ce-0394-40ee-bd83-892bbffe9a5f")
+		(at 127 76)
+		(property "Reference" "TP1002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "05407e1d-2a5f-47a2-84df-6efc6427e60a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "TP"
+			(at 0 2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6b4aa603-9b24-4628-8b14-60a66542af5d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57895581-9ffd-49ca-87fa-94d38856d55e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a899c60-5fb3-4278-afd1-fcb9e278e491")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44d12111-d49a-4ed0-978b-3b673d66a8e9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/dda14448-8e60-4f3c-9096-88e2f0bb8adf")
+		(sheetname "/")
+		(sheetfile "various.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b594e8a6-1eab-492e-a997-67b6a8eb52d1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "307aaa30-ba71-4e2a-aba5-81cb47d68bee")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 3 "unconnected-(TP1002-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(uuid "d96da8be-563a-4081-afb8-ecedae704d7c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lily_footprints:test_point_1.1mm_th"
+		(layer "F.Cu")
+		(uuid "b086f1a9-235c-4ae9-994a-fc5ed54a9552")
+		(at 123 76)
+		(property "Reference" "TP1001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d52f5804-a794-4b95-9bcb-18fe2f21d750")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "TP"
+			(at 0 2 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "95437e3c-92f1-44cd-93f0-feffdf20cc3f")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69dcd622-b4a7-4349-89be-ebc38149ca0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea9e8297-8a54-49ca-8d1d-c3b54694d8ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "323f2240-ee4d-4ff4-8857-49dce25f57ef")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/499dd689-4b43-4a97-bd9a-87d9adfbd743")
+		(sheetname "/")
+		(sheetfile "various.kicad_sch")
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3f2dae04-a234-477d-a4e0-5a65c5cc4474")
+		)
+		(fp_circle
+			(center 0 0)
+			(end -0.8 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "1e140d3c-81b7-4577-bb35-6011dd294183")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b8dc3ee1-957b-4ec3-8c82-42155017b6b6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "unconnected-(TP1001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(thermal_bridge_angle 90)
+			(uuid "43b0464c-5553-4660-933e-cbc71ec05f7f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lily_footprints:mec_hole_m3_pth"
+		(layer "F.Cu")
+		(uuid "e8d5ed5b-e7ec-4ccd-87ce-5bb19989e0fa")
+		(at 116 76)
+		(property "Reference" "M1001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ae4f5661-51d8-40ca-81bb-4941b408895c")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "mec_hole_m3_pth"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "288a6599-5992-4057-a92a-a34f873c9a98")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ececf7b2-f1ae-470f-a629-1e029e6361f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a49d414f-fbec-4f7c-8d13-509e4629d3a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50d216c2-b6a0-4644-b09c-2d7350a40156")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/176d7244-4970-41b1-8c10-f592b4fb6d44")
+		(sheetname "/")
+		(sheetfile "various.kicad_sch")
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.8 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1e1281b8-ca8c-4434-9d4e-5c3046c38552")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d7cc5bdb-dc69-4c63-80c1-b10202f1f064")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "262eff06-6085-4e3d-b427-79e1df84b68b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7 7)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "unconnected-(M1001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.1)
+			(zone_connect 2)
+			(thermal_bridge_angle 0)
+			(uuid "d44a3274-93e9-4c6a-9d4d-83418446f7ef")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lily_footprints:fiducial_1mm_mask_2mm"
+		(layer "F.Cu")
+		(uuid "f5a090ee-c25c-4124-a5ec-0ae6babf8999")
+		(at 131 76)
+		(property "Reference" "M1002"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b4f63f41-3c78-4e60-afa5-f9bd25e4729b")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "mec_fiducial_1mm_mask_2mm"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55a46c08-a6d8-4eb7-bcb4-c854e2634043")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77caed8e-b67b-4706-83c4-356274cab1ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad7b2d9f-04be-41da-b1a6-d708d728cb31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "087fc18d-6723-4be8-9873-cd4aba15b155")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/d6559c01-f643-46ea-9fb2-e5b19a1b796a")
+		(sheetname "/")
+		(sheetfile "various.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c695da22-9036-4109-bf8f-9dbe39dbad19")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5655d8ef-8409-4adc-8381-927c723bbd4c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "b9bd1238-fb0b-4e73-a69e-1815b84a7a53")
+		)
+		(embedded_fonts no)
+	)
 	(gr_rect
 		(start 110 70)
 		(end 190 130)
