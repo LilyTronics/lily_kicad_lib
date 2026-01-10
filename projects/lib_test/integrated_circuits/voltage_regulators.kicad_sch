@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Integrated circuits")
-		(date "2026-01-06")
+		(date "2026-01-10")
 		(rev "1")
 		(comment 1 "-")
 		(comment 2 "-")
@@ -1825,7 +1825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10dadbf4-e933-4abc-830b-79535bec58df")
-		(property "Reference" "U10004"
+		(property "Reference" "U10003"
 			(at 106.68 20.32 0)
 			(effects
 				(font
@@ -1936,7 +1936,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aab8d68a-9445-4e01-a879-d4613f75fbd3"
-					(reference "U10004")
+					(reference "U10003")
 					(unit 1)
 				)
 			)
@@ -1951,7 +1951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13289098-fab4-4bd0-89b1-ce7d31b358e0")
-		(property "Reference" "U10006"
+		(property "Reference" "U10008"
 			(at 69.85 63.5 0)
 			(effects
 				(font
@@ -2062,7 +2062,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aab8d68a-9445-4e01-a879-d4613f75fbd3"
-					(reference "U10006")
+					(reference "U10008")
 					(unit 1)
 				)
 			)
@@ -2077,7 +2077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b73fe6d-1f39-46de-8ebd-5c6d032e91cb")
-		(property "Reference" "U10003"
+		(property "Reference" "U10004"
 			(at 144.78 20.32 0)
 			(effects
 				(font
@@ -2197,7 +2197,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aab8d68a-9445-4e01-a879-d4613f75fbd3"
-					(reference "U10003")
+					(reference "U10004")
 					(unit 1)
 				)
 			)
@@ -2338,7 +2338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "984cacf1-7566-4217-a9a6-e15f0a9ea237")
-		(property "Reference" "U10005"
+		(property "Reference" "U10007"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -2449,7 +2449,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aab8d68a-9445-4e01-a879-d4613f75fbd3"
-					(reference "U10005")
+					(reference "U10007")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fa912d5-52b2-4538-8484-2ffb3d4cde67")
-		(property "Reference" "U10007"
+		(property "Reference" "U10005"
 			(at 195.58 20.32 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aab8d68a-9445-4e01-a879-d4613f75fbd3"
-					(reference "U10007")
+					(reference "U10005")
 					(unit 1)
 				)
 			)
@@ -2608,7 +2608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6b9b68c-5f80-4e66-a230-d0c20b5e74fc")
-		(property "Reference" "U10008"
+		(property "Reference" "U10006"
 			(at 246.38 20.32 0)
 			(effects
 				(font
@@ -2737,7 +2737,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/aab8d68a-9445-4e01-a879-d4613f75fbd3"
-					(reference "U10008")
+					(reference "U10006")
 					(unit 1)
 				)
 			)
