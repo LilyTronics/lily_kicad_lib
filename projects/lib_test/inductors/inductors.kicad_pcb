@@ -8,11 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Project name")
-		(date "2025-05-26")
+		(title "Inductors")
+		(date "2026-01-10")
 		(rev "1")
-		(comment 1 "PCA number")
-		(comment 2 "PCB number")
+		(comment 1 "-")
+		(comment 2 "-")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -128,6 +128,922 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "unconnected-(L1001-Pad2)")
+	(net 2 "unconnected-(L1001-Pad1)")
+	(net 3 "unconnected-(L1002-Pad1)")
+	(net 4 "unconnected-(L1002-Pad3)")
+	(net 5 "unconnected-(L1002-Pad2)")
+	(net 6 "unconnected-(L1002-Pad4)")
+	(net 7 "unconnected-(L1003-Pad1)")
+	(net 8 "unconnected-(L1003-Pad2)")
+	(net 9 "unconnected-(L1004-Pad1)")
+	(net 10 "unconnected-(L1004-Pad2)")
+	(footprint "lily_footprints:ind_srn4018"
+		(layer "F.Cu")
+		(uuid "82e5a600-cb0a-4d5e-abc2-a6a93a11d4bb")
+		(at 133 75)
+		(property "Reference" "L1003"
+			(at 0 3 0)
+			(layer "F.SilkS")
+			(uuid "4e361d1d-595a-451e-b707-748f7876e70d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "4u7/1.9A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e154ac9-953d-4320-90f5-7f931cf631b2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/SRN4018.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98af0930-e7a3-407c-bb40-16986d6771f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35973052-b23d-4711-a6e2-465e3b796797")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0d4847f-fc02-4372-b7d7-0bbc454b6f84")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efed4803-0bcd-41bd-a589-7548e80bd68c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4d40324-65b2-4b80-87a0-473880b706a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "SRN4018-4R7M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4915504b-8f9a-46ee-945e-0be5101a4f14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84072b9c-3929-4ac7-9a35-821b5e4fd46c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C780206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a427b3d7-033c-4110-b97d-2abdc455feeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5f0f32c2-0640-49b8-b39f-b937f83b920e")
+		(sheetname "/")
+		(sheetfile "inductors.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.55 -2.2)
+			(end 2.55 2.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e7eb33cc-cf1b-419d-8fb8-60b965be1146")
+		)
+		(fp_rect
+			(start -2 -2)
+			(end 2 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e80d5624-8eed-49c7-92b2-52dfd124d601")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "df55ee9e-7dc2-4cbe-8a8d-1739accc4b8d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.6 0)
+			(size 1.5 3.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 7 "unconnected-(L1003-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "4a7c1d86-551b-44ae-b04b-26db77045745")
+		)
+		(pad "2" smd rect
+			(at 1.6 0)
+			(size 1.5 3.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "unconnected-(L1003-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "c319c32d-d03d-4d5e-9adf-c47b1991ad6f")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/ind_srn4018.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:ind_0805"
+		(layer "F.Cu")
+		(uuid "b5ae142b-2434-4ee4-9a05-05b588955b5e")
+		(at 114 74)
+		(property "Reference" "L1001"
+			(at 0 2 0)
+			(layer "F.SilkS")
+			(uuid "4565fa2a-c6aa-4656-95f5-88a6965ff16e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "600R/2A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bc0ceca-a1fd-430c-a965-d0d051fa20f2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8ab111a-5663-4c56-a06b-ac57a5b7be96")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70a72e0f-b5d8-4467-83e0-290d6a9b1fd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e45b67-7928-4bd4-b8c3-07dda439826b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68f34b99-5f0e-49f6-9264-c3cc82adaf88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1078e8ed-878d-4454-83e5-92f23a9683a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "MPZ2012S601AT000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7f861c9-f975-4e30-9c81-4cc7274eb6c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99bd2c5b-2cdd-4994-b433-8d528b5ac13b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C21519"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbc780ec-84b6-4bd5-9268-d08fd33f78ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59712f76-1c70-481f-9bb1-a0e4cbd708c2")
+		(sheetname "/")
+		(sheetfile "inductors.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.6 -0.85)
+			(end 1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7658d3ab-faac-4c93-855a-51415ca7f248")
+		)
+		(fp_line
+			(start -1.6 0.85)
+			(end -1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8ea3545c-901e-4af9-8add-9399c0597c2f")
+		)
+		(fp_line
+			(start 1.6 -0.85)
+			(end 1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7810f367-0e07-4034-b075-67b45cfce400")
+		)
+		(fp_line
+			(start 1.6 0.85)
+			(end -1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "314b56dd-96b7-4e58-a6e3-17ba2787c973")
+		)
+		(fp_line
+			(start -1 -0.6)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "40762a10-a2f3-45c9-a4e4-f6208b8a2913")
+		)
+		(fp_line
+			(start -1 0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5745cdc1-8764-4632-b862-c16d40c0bd23")
+		)
+		(fp_line
+			(start -0.6 -0.6)
+			(end -0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8bcd4f7-45ba-4c44-b092-08e2ca5e0a0d")
+		)
+		(fp_line
+			(start 0.6 -0.6)
+			(end 0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02f99242-99a1-449c-aac4-07bc8fa3674d")
+		)
+		(fp_line
+			(start 1 -0.6)
+			(end -1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "249d5e2f-70d5-48c4-8264-c6a7524d59c5")
+		)
+		(fp_line
+			(start 1 0.6)
+			(end 1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cdcc6fc1-d36f-431f-94f0-8a4fc951a0d3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "78f38974-2ce8-4837-9d7d-79a78e06fb52")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "unconnected-(L1001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "aad0d6ac-883a-488e-9b2e-f8f3281a8092")
+		)
+		(pad "2" smd rect
+			(at 0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "unconnected-(L1001-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "4487d5bb-af65-4469-b67b-8d91ae14590b")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/ind_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:ind_common_mode_9x7mm"
+		(layer "F.Cu")
+		(uuid "bbef34f3-9957-4262-ae3f-3dab8ed563ff")
+		(at 123 77)
+		(property "Reference" "L1002"
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8ca034fb-c0c2-4e2f-8dcd-7d454247dfd2")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "700R/5A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37147ab1-db02-49b0-9219-534f86d6a349")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/ACM90V-701-2PL.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10a334e2-9342-4a00-a854-69a3463a69b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35cd37ad-cab1-45ab-9b68-4efaea6e23cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d861ba65-17bd-4aaa-9ac1-1d555330c1ca")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4bcd22-3e81-4039-b23b-d64b7ae981f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1db6f694-22c6-4f41-9747-224128dca5dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "ACM90V-701-2PL-TL00"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c67f1eeb-caf9-45e7-bf37-7381998502f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52dab88e-8b86-4eca-bcf1-8de968790294")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C87510"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed3a0a28-77b4-49ce-a91c-225e5e342c4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7e1adfbc-bca4-46e1-ad71-3d2ad35d6033")
+		(sheetname "/")
+		(sheetfile "inductors.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -5.45 -3.7)
+			(end 5.45 3.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9d0c6173-8ea6-4736-85d6-0cf08134d686")
+		)
+		(fp_rect
+			(start -4.5 -3.5)
+			(end 4.5 3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "11d79d23-b98c-4f02-a5cc-c692ee50530e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9c7ce123-e072-4670-85c6-886fb3484075")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -4 -1.75)
+			(size 2.5 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "unconnected-(L1002-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "4ac24476-1841-4f5b-917e-f6e61b3a203d")
+		)
+		(pad "2" smd rect
+			(at -4 1.75)
+			(size 2.5 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "unconnected-(L1002-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "d2863686-d962-48cf-95bb-dee40901f140")
+		)
+		(pad "3" smd rect
+			(at 4 1.75)
+			(size 2.5 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "unconnected-(L1002-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "51046bf6-c845-40fb-ba9a-7db7e19dc816")
+		)
+		(pad "4" smd rect
+			(at 4 -1.75)
+			(size 2.5 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "unconnected-(L1002-Pad4)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.1)
+			(uuid "e3225842-7298-4b15-a34a-9db6a47c93bb")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/ind_acm90v.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:ind_srp6030wa"
+		(layer "F.Cu")
+		(uuid "d5e63aaf-1d51-4b0f-8b57-9988bb60a522")
+		(at 142 76)
+		(property "Reference" "L1004"
+			(at 0 5 0)
+			(layer "F.SilkS")
+			(uuid "b1a5308a-aa78-4382-ba6e-179747d25987")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "4u7/6.4A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd8766d9-5339-469c-9a05-ee928267b62c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/SRP6030WA.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6312f6e1-58de-42cc-b8d0-40422457e29a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e463c72-5d26-44ee-afcb-f60bc6d36339")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5936255f-e168-4745-9d37-32bfea4b3952")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0260a5a1-7b33-4811-9dc0-b2b91954ee8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab3463ff-bd5b-4c94-8fc5-5be18de9a297")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "SRP6030WA-4R7M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "154ba16b-6fa7-4c28-80c6-97d613844428")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b499dfd-85fb-4efd-bb02-0e6cb912b128")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bfe4b13-8e81-4209-b787-38eeee0f707b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6be7d410-738b-4158-a284-9f5c22d584e1")
+		(sheetname "/")
+		(sheetfile "inductors.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -4.4 -3.4)
+			(end 4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "611a4202-1af4-407b-9a48-859d43864860")
+		)
+		(fp_rect
+			(start -3.3 -3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "992d1027-f94d-4b33-a80c-8e9da39b8652")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8c50c2bc-fd42-4287-87b7-cb551f743889")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.9 0)
+			(size 2.6 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "unconnected-(L1004-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "7ac8d91c-f09c-4816-b543-6abdff8a5418")
+		)
+		(pad "2" smd rect
+			(at 2.9 0)
+			(size 2.6 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "unconnected-(L1004-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "af12ba20-51f9-480e-9d6f-4f7fc0ff8b29")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/ind_srp6030wa.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(gr_rect
 		(start 110 70)
 		(end 190 130)
