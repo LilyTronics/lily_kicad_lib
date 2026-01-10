@@ -200,7 +200,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ef834c53-c45a-479b-b31a-232cfb7d5977")
+			(uuid "45fd5afe-ce1a-437f-9e1f-a78c1dec6089")
 		)
 		(fp_arc
 			(start 0 0)
@@ -211,7 +211,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0eddd0fb-8660-4ad9-ade2-8d2dbdfd3a66")
+			(uuid "0c032b21-011c-4eb7-a39c-8bd1a73f425b")
 		)
 		(fp_arc
 			(start 0.000001 -2.999999)
@@ -222,7 +222,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a5bafb69-3ad4-4563-a2aa-4542add5f848")
+			(uuid "96cfcbcb-8910-4acd-b6ed-6702f5945917")
 		)
 		(fp_arc
 			(start 0.000001 -0.000001)
@@ -233,7 +233,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cce623ec-9ca7-474a-981b-4700f8890caf")
+			(uuid "6711956e-8edf-442d-9448-c6f24653c897")
 		)
 		(fp_arc
 			(start 2 -2)
@@ -244,7 +244,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "966ea52e-2e31-4b83-a7df-c7d05172c3db")
+			(uuid "1d259ff4-6586-4064-aa87-eb398f3367ac")
 		)
 		(fp_text user "LilyTronics"
 			(at 0 1.5 0)
@@ -254,6 +254,17 @@
 				(font
 					(size 1.2 1.2)
 					(thickness 0.2)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.000001 0 0)
+			(layer "F.Fab")
+			(uuid "3fff92fa-82e9-4b87-86d5-725ccda48c2b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
