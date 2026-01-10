@@ -8,11 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Project name")
-		(date "2025-05-26")
+		(title "Potentiometers")
+		(date "2026-01-10")
 		(rev "1")
-		(comment 1 "PCA number")
-		(comment 2 "PCB number")
+		(comment 1 "-")
+		(comment 2 "-")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -128,6 +128,657 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "unconnected-(P1001-Pad3)")
+	(net 2 "unconnected-(P1001-Pad1)")
+	(net 3 "unconnected-(P1001-Pad2)")
+	(net 4 "unconnected-(P1002-Pad3)")
+	(net 5 "unconnected-(P1002-Pad1)")
+	(net 6 "unconnected-(P1002-Pad2)")
+	(net 7 "unconnected-(P1003-Pad1)")
+	(net 8 "unconnected-(P1003-Pad2)")
+	(net 9 "unconnected-(P1003-Pad3)")
+	(footprint "lily_footprints:pot_3313j"
+		(layer "F.Cu")
+		(uuid "02df1a90-1b5a-4cf6-a939-0dad44df08fe")
+		(at 115 74)
+		(property "Reference" "P1001"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0c8933f4-accb-4b18-b12b-b111cce8fd62")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "500R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29801001-c85e-44e9-9f04-4c63991cdddc")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/3313.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7b975a9-0be8-4312-9c69-80efeb72c6b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e788d0c-12d1-4892-a3f5-85b213588d28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09790e7b-6e82-45f9-9d14-9354d521dab2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a945a6b9-c549-460a-baf5-839e521e0fd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc2b09de-e3ee-4605-81a7-128d7ee1d527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "3313J-1-501E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e399ed3-9ae3-4df6-9d8c-ad582f50d983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d29e78f-c962-4241-a75b-f8405e2aa827")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "013981d3-84ed-445c-8241-7c9e677d359c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e3d408bc-2b7e-456f-bbc3-0d3aefed134d")
+		(sheetname "/")
+		(sheetfile "potentiometers.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.45 -1.9)
+			(end 2.4 1.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0e42ecd1-e87d-47ad-b126-4ba3135154fa")
+		)
+		(fp_rect
+			(start -1.75 -1.6)
+			(end 1.75 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2f82fc1c-6837-4377-8980-dc26acc6f6ac")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7cdb10a2-73d0-4f59-bdd0-c08f8add6ef6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.45 1.15)
+			(size 1.6 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "unconnected-(P1001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "91636772-316b-49f5-908b-77ae0268a979")
+		)
+		(pad "2" smd rect
+			(at 1.4 0)
+			(size 1.6 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "unconnected-(P1001-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "eca8b2e8-cf7c-4ef9-83f0-9253f1e90aa2")
+		)
+		(pad "3" smd rect
+			(at -1.45 -1.15)
+			(size 1.6 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "unconnected-(P1001-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "7c7819dc-eba8-43ce-abd9-3586f0869831")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/pot_bourns_3313j.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:pot_3313j"
+		(layer "F.Cu")
+		(uuid "dea08cf1-1e34-49f0-ba24-b3c5c2fa5031")
+		(at 121 74)
+		(property "Reference" "P1002"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "31dd4fbe-8b87-4f41-b08f-a8a4c5b9adbc")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "801ce9f2-072b-4f25-8239-70c1a2a5d065")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/3313.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d0dc590-da88-495d-b213-f7e8bf9eec46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26bf0c03-3a58-430b-8c30-9f632fe5e761")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "052cf9f4-a0c2-4f29-8779-f755bce75197")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99061779-c6b9-44ee-bc25-dcb3055901a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81bb17d1-4a2d-40ff-949f-b9eea27daeef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "3313J-1-202E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "902648d9-f01a-462a-8813-de57481f55e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c764ad6-052b-440e-98c8-d20ee13f7dba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C124620"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb1badd6-378d-4819-8ca8-81f5c508219b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ae61d889-144c-41b3-a5bc-87d84ac6575e")
+		(sheetname "/")
+		(sheetfile "potentiometers.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.45 -1.9)
+			(end 2.4 1.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "655047f2-7a57-4756-ad23-95d006bdfeb2")
+		)
+		(fp_rect
+			(start -1.75 -1.6)
+			(end 1.75 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "081d3d0a-531f-40d3-8043-eb8cd41dedfb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2bd8ee95-680b-4f7b-9d83-82803e511a75")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.45 1.15)
+			(size 1.6 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "unconnected-(P1002-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "d16e12f0-4850-4590-a6a9-38be7abb45f6")
+		)
+		(pad "2" smd rect
+			(at 1.4 0)
+			(size 1.6 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "unconnected-(P1002-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "da167235-6e77-43c6-bb6b-6a3a2e1d0b9f")
+		)
+		(pad "3" smd rect
+			(at -1.45 -1.15)
+			(size 1.6 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "unconnected-(P1002-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "a37b12fe-3d86-4fe3-8300-b000a6f82484")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/pot_bourns_3313j.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lily_footprints:pot_3313j"
+		(layer "F.Cu")
+		(uuid "f2d7d0f7-2bfa-470c-bf4f-13ea88fe8004")
+		(at 127 74)
+		(property "Reference" "P1003"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0b817074-de81-44a6-bc1b-190cdc3bd0b9")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a78591ff-b1b4-4e12-a51f-f34f8796261f")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/3313.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22ac0258-8725-4a1e-acc8-4d88365a32ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba0f1994-b22c-441a-a384-dc37bf3969da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04858cd7-5d60-4a54-b58c-e378679cf754")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff4d9821-7fde-48da-89a6-3f252dd347ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1c1de45-45c5-40f1-bc43-2451147e6f2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "3313J-1-502E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f5d585f-6f64-4c2f-9134-901306479a06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3bbf7e4-ec98-4965-b150-a80262b16762")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2b0cb60-ff0a-4d95-a668-f69b5375c0d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9a44223e-899b-4aea-b8b0-aac33af1a6b1")
+		(sheetname "/")
+		(sheetfile "potentiometers.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.45 -1.9)
+			(end 2.4 1.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "31c48a3a-1537-44b8-a239-c803da6abf84")
+		)
+		(fp_rect
+			(start -1.75 -1.6)
+			(end 1.75 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7cd7472b-4379-49e7-a9cc-1a9d2cdfdfb4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0ae68582-1fe7-4e06-b2fa-4c63db9d51cf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.45 1.15)
+			(size 1.6 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 7 "unconnected-(P1003-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "2806adcf-5751-4ec8-bd0a-01343a9f28c6")
+		)
+		(pad "2" smd rect
+			(at 1.4 0)
+			(size 1.6 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "unconnected-(P1003-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "32478345-c799-419e-8932-5434ba88e3e8")
+		)
+		(pad "3" smd rect
+			(at -1.45 -1.15)
+			(size 1.6 1.1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "unconnected-(P1003-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "4759a93f-98d2-4b3a-a34c-806500aff28c")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/pot_bourns_3313j.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(gr_rect
 		(start 110 70)
 		(end 190 130)
