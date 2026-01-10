@@ -8,11 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Project name")
-		(date "2025-05-26")
+		(title "Fuses")
+		(date "2026-01-10")
 		(rev "1")
-		(comment 1 "PCA number")
-		(comment 2 "PCB number")
+		(comment 1 "-")
+		(comment 2 "-")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -128,6 +128,568 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "unconnected-(F1001-Pad1)")
+	(net 2 "unconnected-(F1001-Pad2)")
+	(net 3 "unconnected-(F1002-Pad2)")
+	(net 4 "unconnected-(F1002-Pad1)")
+	(footprint "lily_footprints:fuse_ptc_0805"
+		(layer "F.Cu")
+		(uuid "485b1a46-3d38-4105-a99e-a58b75e12f69")
+		(at 114 73)
+		(property "Reference" "F1001"
+			(at 0 2 0)
+			(layer "F.SilkS")
+			(uuid "15a581fb-3ed1-4dc7-8744-43e22a37ad89")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "0.1A/0.3A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d56eb7e7-aaa6-4b2f-8a6b-729a15fecbac")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8c90b4e-afa6-4c8d-a539-93cbb0a2306d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df8e1dfa-f447-427d-8474-523ffc098e2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d8a8d34-ba2f-4f6e-a3c3-d906a9d8ba5e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb7bcbd4-3ac1-43d0-a0f4-506f45f32f82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "574d3456-c166-4b7f-bcc2-b6c721100bcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "0805L010YR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23a29b3d-130e-4161-aa13-7dc4798f2493")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbd7ad5c-bba6-41c6-a7b2-8c6fd1224203")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C207020"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be63c16d-7247-4179-9d7d-a3943fd87c06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c9405fbb-7d3f-4ac7-8f87-846c0449eab7")
+		(sheetname "/")
+		(sheetfile "fuses.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.6 -0.85)
+			(end 1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "51e58b58-1c6e-48f1-95c3-3551085c439a")
+		)
+		(fp_line
+			(start -1.6 0.85)
+			(end -1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aaac0972-c6c3-4524-97ae-8a5c9dd168e3")
+		)
+		(fp_line
+			(start 1.6 -0.85)
+			(end 1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c74f9024-3406-4cc0-9671-453c3a65ace6")
+		)
+		(fp_line
+			(start 1.6 0.85)
+			(end -1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3cc1c13b-5959-4822-af19-23d55eb3e59a")
+		)
+		(fp_line
+			(start -1 -0.6)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a306216-83a0-47ab-8e2d-739df3f5cec1")
+		)
+		(fp_line
+			(start -1 0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5c1f380c-e97f-4296-9309-85c9d2dbbf82")
+		)
+		(fp_line
+			(start -0.6 -0.6)
+			(end -0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "276c2351-6635-4f34-9e95-54cde1329021")
+		)
+		(fp_line
+			(start 0.6 -0.6)
+			(end 0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d2381b43-98cb-478b-aaec-2748261f6344")
+		)
+		(fp_line
+			(start 1 -0.6)
+			(end -1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6dc7c6af-1bad-4fcc-bd6b-0736ce46758b")
+		)
+		(fp_line
+			(start 1 0.6)
+			(end 1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "784fc423-bbbf-403b-b950-371ab555a0a7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "02a03e84-4783-423a-b3ed-9955f4fb1b6f")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "unconnected-(F1001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "99d204fb-85da-41f9-ae60-f8c1f12bf1c7")
+		)
+		(pad "2" smd rect
+			(at 0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "unconnected-(F1001-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "b3943bec-d784-4d76-8247-a549f062a001")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/fuse_ptc_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "lily_footprints:fuse_ptc_0805"
+		(layer "F.Cu")
+		(uuid "ba65cdd3-ae4d-42db-8434-708c5c2c5541")
+		(at 119 73)
+		(property "Reference" "F1002"
+			(at 0 2 0)
+			(layer "F.SilkS")
+			(uuid "8956ab7f-491d-4b51-9e92-cda1ed22ff61")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "0.35A/0.75A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73fef27e-756a-4ee8-bb6e-51c8b2b222a0")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8bd2174-31a2-4512-9ca6-0e0da643d20d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ef73a28-6d5b-4276-b5fd-fbf11d0c3bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54e86e81-af1c-4974-85fe-d83743091512")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "617b3613-8050-489b-9464-9aa28dcddc2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26f26972-f6a9-4214-b48f-a6f17c2fb8d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "0805L035YR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e452458b-055d-4c6a-b07c-f4b264266fd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30dcfd3d-2dfc-4cd4-a2d5-e5bad2226fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C207021"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b976d6d9-729d-4136-ab69-7a0257f7efe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/74ee5740-709e-4640-b4d0-e3c4d766654f")
+		(sheetname "/")
+		(sheetfile "fuses.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.6 -0.85)
+			(end 1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fa1124dd-cc3e-4146-ad38-fc784c42ca16")
+		)
+		(fp_line
+			(start -1.6 0.85)
+			(end -1.6 -0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50623fe5-984d-4328-8738-36d3ebaba598")
+		)
+		(fp_line
+			(start 1.6 -0.85)
+			(end 1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "463fe4d9-f01c-407c-a1d6-f488019f395c")
+		)
+		(fp_line
+			(start 1.6 0.85)
+			(end -1.6 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a4bf6421-c46b-4424-baff-0712df538097")
+		)
+		(fp_line
+			(start -1 -0.6)
+			(end -1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dc69f983-a4d1-4587-9117-2b93084f4773")
+		)
+		(fp_line
+			(start -1 0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c6d0b98-7235-44ad-b0ed-dd39e37b7b5d")
+		)
+		(fp_line
+			(start -0.6 -0.6)
+			(end -0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5fdde121-3271-4ad4-8ec3-2b88ea9915a7")
+		)
+		(fp_line
+			(start 0.6 -0.6)
+			(end 0.6 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "245bff25-c8cd-4cc0-a5d4-91634d57ab19")
+		)
+		(fp_line
+			(start 1 -0.6)
+			(end -1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "57ba43e4-17c9-422a-9688-0045bf879754")
+		)
+		(fp_line
+			(start 1 0.6)
+			(end 1 -0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f7d7bbf0-208a-4783-b3d2-067b08b4ca4a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "47bb0afe-d464-4835-8241-55e2ea365497")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "unconnected-(F1002-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "c167cbdc-e6a1-49a8-a4dd-e5d453c8c0a7")
+		)
+		(pad "2" smd rect
+			(at 0.95 0)
+			(size 0.9 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "unconnected-(F1002-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "07a53b78-f04d-4f31-b524-fef454dbeb10")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/fuse_ptc_0805.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(gr_rect
 		(start 110 70)
 		(end 190 130)
