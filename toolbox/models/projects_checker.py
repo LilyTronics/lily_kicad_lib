@@ -16,7 +16,7 @@ class ProjectsChecker:
     PROJECTS_PATH = os.path.join(AppData.APP_PATH, "projects")
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID"]
-    SKIP_SYMBOL_FIELDS = [] # ["Name", "Extends"]
+    SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
     SKIP_LAYOUT_FIELDS = [] # ["Name", "Reference", "Value", "Footprint", "Datasheet"]
 
     @classmethod
@@ -45,7 +45,7 @@ class ProjectsChecker:
             project_folder = [project_folder]
         designs = {}
         for folder in project_folder:
-            designs[os.path.basename(folder)] = {
+            designs[folder[len(cls.PROJECTS_PATH) + 1:]] = {
                 "symbols": DesignParser.get_symbols(folder),
                 "footprints": DesignParser.get_footprints(folder)
             }
@@ -58,11 +58,11 @@ class ProjectsChecker:
         # Test projects
         if is_test_project:
             cls._check_if_symbols_in_designs(lib_symbols, designs, report_messages)
-            # cls._check_if_footprints_in_designs(lib_footprints, designs, report_messages)
+            cls._check_if_footprints_in_designs(lib_footprints, designs, report_messages)
 
         # Regular projects
-        # cls._check_if_symbols_not_in_library(designs, lib_symbols, report_messages)
-        # cls._check_symbols_properties(designs, lib_symbols, report_messages)
+        cls._check_if_symbols_not_in_library(designs, lib_symbols, report_messages)
+        cls._check_symbols_properties(designs, lib_symbols, report_messages)
         # cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
         # cls._check_footprint_properties(designs, lib_footprints, report_messages)
         # cls._check_symbols_vs_footprints(designs, report_messages)
@@ -83,7 +83,9 @@ class ProjectsChecker:
             for design in designs:
                 matches = list(filter(lambda x: x["lib_id"] == f"lily_symbols:{lib_symbol["Name"]}",
                                       designs[design]["symbols"]))
-                if len(matches) > 0:
+
+                # Only count if it is used if it is in one of the test designs
+                if design.startswith("lib_test\\") and len(matches) > 0:
                     is_used = True
 
                 if len(matches) > 0 and not should_be_used:
@@ -135,7 +137,7 @@ class ProjectsChecker:
                     diff.remove("Extends")
                     if "Notes" in diff:
                         diff.remove("Notes")
-                    # Special parts
+                    # Special parts, no mandatory fields
                     # Do not populate
                     if ("_do_not_populate_" in lib_name or
                             # Logos
