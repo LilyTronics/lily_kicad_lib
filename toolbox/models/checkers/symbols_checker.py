@@ -17,6 +17,7 @@ class SymbolsChecker:
     stdout = print
 
     REFERENCES = {
+        "0_new":        "A",
         "bjt":          "Q",
         "cap":          "C",
         "con":          "X",
