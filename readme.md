@@ -4,7 +4,7 @@ This is a free to use KiCad library.
 
 Compatible KiCad version: 9 (and higher)
 
-* More than 400 symbols and 95 footprints.
+* More than 400 symbols and 100 footprints.
 * Datasheet for each part (if applicable)
 * 3D models for each footprint (if applicable)
 * Lily KiCad toolbox:
