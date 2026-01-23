@@ -15,14 +15,12 @@ class UnusedItemsChecker:
     @classmethod
     def run(cls):
         LibParser.stdout = cls.stdout
-        cls.stdout("Get library symbols")
         symbols = LibParser.get_symbols()
-
+        footprints = LibParser.get_footprints()
         report_messages = []
 
         cls._check_unused_datasheets(symbols,report_messages)
-
-        # cls._check_unused_footprints(report_messages)
+        cls._check_unused_footprints(symbols, footprints, report_messages)
 
         # cls._check_unused_
 
@@ -48,6 +46,16 @@ class UnusedItemsChecker:
                         "message": f"Datasheet file is not used in any symbol {caller}"
                     })
 
+    @classmethod
+    def _check_unused_footprints(cls, symbols, footprints, report_messages):
+        caller = f"({cls.__name__}._check_unused_footprints)"
+        for footprint in footprints:
+            matches = list(filter(lambda x: x["Footprint"] == f"lily_footprints:{footprint["Name"]}", symbols))
+            if len(matches) == 0:
+                report_messages.append({
+                    "item": footprint["Name"],
+                    "message": f"Footprint is not used in any symbol {caller}"
+                })
 
 if __name__ == "__main__":
 
