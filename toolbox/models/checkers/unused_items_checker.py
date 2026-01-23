@@ -21,8 +21,7 @@ class UnusedItemsChecker:
 
         cls._check_unused_datasheets(symbols,report_messages)
         cls._check_unused_footprints(symbols, footprints, report_messages)
-
-        # cls._check_unused_
+        cls._check_unused_3d_models(footprints, report_messages)
 
         return report_messages
 
@@ -56,6 +55,20 @@ class UnusedItemsChecker:
                     "item": footprint["Name"],
                     "message": f"Footprint is not used in any symbol {caller}"
                 })
+
+    @classmethod
+    def _check_unused_3d_models(cls, footprints, report_messages):
+        caller = f"({cls.__name__}._check_unused_3d_models)"
+        file_path = f"{AppData.APP_PATH}/3d_models"
+        for filename in filter(lambda f: os.path.isfile(os.path.join(file_path, f)), os.listdir(file_path)):
+            rel_path = f"../3d_models/{filename}"
+            matches = list(filter(lambda x: rel_path == x["Model"], footprints))
+            if len(matches) == 0:
+                report_messages.append({
+                    "item": filename,
+                    "message": f"3D model file is not used in any footprint {caller}"
+                })
+
 
 if __name__ == "__main__":
 
