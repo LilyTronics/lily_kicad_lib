@@ -19,9 +19,10 @@ class UnusedItemsChecker:
         footprints = LibParser.get_footprints()
         report_messages = []
 
-        cls._check_unused_datasheets(symbols,report_messages)
+        cls._check_unused_datasheets(symbols, report_messages)
         cls._check_unused_footprints(symbols, footprints, report_messages)
         cls._check_unused_3d_models(footprints, report_messages)
+        cls._check_unused_pictures(footprints, report_messages)
 
         return report_messages
 
@@ -67,6 +68,18 @@ class UnusedItemsChecker:
                 report_messages.append({
                     "item": filename,
                     "message": f"3D model file is not used in any footprint {caller}"
+                })
+
+    @classmethod
+    def _check_unused_pictures(cls, footprints, report_messages):
+        caller = f"({cls.__name__}._check_unused_pictures)"
+        file_path = f"{AppData.APP_PATH}/lily_footprints.pretty"
+        for filename in filter(lambda f: os.path.isfile(os.path.join(file_path, f)) and f.endswith(".png"), os.listdir(file_path)):
+            matches = list(filter(lambda x: filename == f"{x["Name"]}.png", footprints))
+            if len(matches) == 0:
+                report_messages.append({
+                    "item": filename,
+                    "message": f"picture is not matching any footprint {caller}"
                 })
 
 
