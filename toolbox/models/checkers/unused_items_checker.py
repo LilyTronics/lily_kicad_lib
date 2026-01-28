@@ -35,7 +35,6 @@ class UnusedItemsChecker:
     def _check_unused_symbols(cls, symbols, report_messages):
         caller = f"({cls.__name__}._check_unused_datasheets)"
         for symbol in filter(lambda s: s["Extends"] == "", symbols):
-            print(symbol["Name"])
             matches = list(filter(lambda x: x["Extends"] == symbol["Name"], symbols))
             if len(matches) == 0:
                 report_messages.append({
