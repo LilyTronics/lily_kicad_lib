@@ -19,6 +19,7 @@ class UnusedItemsChecker:
         footprints = LibParser.get_footprints()
         report_messages = []
 
+        cls._check_unused_symbols(symbols, report_messages)
         cls._check_unused_datasheets(symbols, report_messages)
         cls._check_unused_footprints(symbols, footprints, report_messages)
         cls._check_unused_3d_models(footprints, report_messages)
@@ -29,6 +30,18 @@ class UnusedItemsChecker:
     ############
     # Checkers #
     ############
+
+    @classmethod
+    def _check_unused_symbols(cls, symbols, report_messages):
+        caller = f"({cls.__name__}._check_unused_datasheets)"
+        for symbol in filter(lambda s: s["Extends"] == "", symbols):
+            print(symbol["Name"])
+            matches = list(filter(lambda x: x["Extends"] == symbol["Name"], symbols))
+            if len(matches) == 0:
+                report_messages.append({
+                    "item": symbol["Name"],
+                    "message": f"Symbol is not used in any part {caller}"
+                })
 
     @classmethod
     def _check_unused_datasheets(cls, symbols, report_messages):
