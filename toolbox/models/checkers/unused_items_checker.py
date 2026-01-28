@@ -12,6 +12,9 @@ class UnusedItemsChecker:
 
     stdout = print
 
+    _SKIP_SYMBOLS_UNUSED = ["0_new_symbol", "Earth", "GND", "GNDA", "Vxx", "con_TC2030-IDC_lock", "doc_logo_lilytronics"]
+    _SKIP_FOOTPRINTS_UNUSED = ["0_new_footprint", "mec_mouse_bytes"]
+
     @classmethod
     def run(cls):
         LibParser.stdout = cls.stdout
@@ -34,7 +37,7 @@ class UnusedItemsChecker:
     @classmethod
     def _check_unused_symbols(cls, symbols, report_messages):
         caller = f"({cls.__name__}._check_unused_datasheets)"
-        for symbol in filter(lambda s: s["Extends"] == "", symbols):
+        for symbol in filter(lambda s: s["Extends"] == "" and s["Name"] not in cls._SKIP_SYMBOLS_UNUSED, symbols):
             matches = list(filter(lambda x: x["Extends"] == symbol["Name"], symbols))
             if len(matches) == 0:
                 report_messages.append({
@@ -61,7 +64,7 @@ class UnusedItemsChecker:
     @classmethod
     def _check_unused_footprints(cls, symbols, footprints, report_messages):
         caller = f"({cls.__name__}._check_unused_footprints)"
-        for footprint in footprints:
+        for footprint in filter(lambda f: f["Name"] not in cls._SKIP_FOOTPRINTS_UNUSED, footprints):
             matches = list(filter(lambda x: x["Footprint"] == f"lily_footprints:{footprint["Name"]}", symbols))
             if len(matches) == 0:
                 report_messages.append({

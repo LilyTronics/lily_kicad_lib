@@ -40,6 +40,7 @@ class FootprintsChecker:
 
     @classmethod
     def run(cls):
+        LibParser.stdout = cls.stdout
         cls.stdout("Check library footprints")
         report_messages = []
         footprints = LibParser.get_footprints()
@@ -50,7 +51,7 @@ class FootprintsChecker:
                 cls._check_footprint_field_properties(footprint, field, report_messages)
             cls._check_footprint_reference(footprint, report_messages)
             cls._check_footprint_value(footprint, report_messages)
-            cls._check_footprint_revision(footprint, show_messages)
+            cls._check_footprint_revision(footprint, report_messages)
             cls._check_footprint_attributes(footprint, report_messages)
             cls._check_3d_model(footprint, report_messages)
             cls._check_image(footprint, report_messages)
