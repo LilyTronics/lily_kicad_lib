@@ -11,6 +11,7 @@ from toolbox.models.checkers.erp_checker import ErpChecker
 from toolbox.models.checkers.footprints_checker import FootprintsChecker
 from toolbox.models.projects_checker import ProjectsChecker
 from toolbox.models.checkers.symbols_checker import SymbolsChecker
+from toolbox.models.checkers.unused_items_checker import UnusedItemsChecker
 from toolbox.views.view_check_library import ViewCheckLibrary
 
 
@@ -21,6 +22,7 @@ class ControllerCheckLibrary(ControllerBase):
     _checkers = {
         "Check symbols": SymbolsChecker,
         "Check footprints": FootprintsChecker,
+        "Check unused items": UnusedItemsChecker,
         "Check ERP data": ErpChecker,
         "Check projects": ProjectsChecker
     }
