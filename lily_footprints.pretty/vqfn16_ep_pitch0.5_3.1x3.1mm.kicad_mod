@@ -246,6 +246,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
 		(uuid "bec7a495-262d-41ba-bb59-124aabeb1cbd")
 	)
 	(pad "17" thru_hole circle
@@ -256,6 +258,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
 		(uuid "c9bf6d24-ccf4-488d-9523-12f174cdc42d")
 	)
 	(pad "17" smd rect
@@ -274,6 +278,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
 		(uuid "4892930c-377b-4bf5-ab1b-8face8679a77")
 	)
 	(pad "17" thru_hole circle
@@ -284,6 +290,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
 		(uuid "20b840dd-82b2-4b51-a282-a05095e90386")
 	)
 	(embedded_fonts no)

@@ -128,6 +128,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(thermal_bridge_angle 90)
 		(uuid "d1a7ca29-c5ae-4317-a93b-e33515ecf957")
 	)
 	(pad "3" thru_hole circle
@@ -138,6 +139,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(thermal_bridge_angle 90)
 		(uuid "32300bbc-9551-480d-ba86-d2816d6b8512")
 	)
 	(pad "4" thru_hole circle
@@ -148,6 +150,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(thermal_bridge_angle 90)
 		(uuid "8e2289b5-82a0-4f3d-9c7d-c34a82ec7dec")
 	)
 	(pad "5" thru_hole circle
@@ -158,6 +161,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(thermal_bridge_angle 90)
 		(uuid "c35056ea-43fa-4bd4-ae0c-905b390ada87")
 	)
 	(embedded_fonts no)
