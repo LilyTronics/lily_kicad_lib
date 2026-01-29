@@ -1,0 +1,32 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "PCB only")
+		(date "2026-01-29")
+		(rev "1")
+		(comment 1 "-")
+		(comment 2 "-")
+	)
+	(lib_symbols)
+	(text "This project only contains footprints that are not linked to any schematics symbols"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "2cb67ecf-8084-4ed5-bc68-898bcbacd120")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
