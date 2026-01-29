@@ -74,9 +74,10 @@ class ProjectsChecker:
         caller = f"({cls.__name__}._check_if_symbols_in_designs)"
         for lib_symbol in lib_symbols:
             should_be_used = (
-                lib_symbol["Extends"] != "" or  # Parts should be used in designs
-                lib_symbol["Reference"] == "#PWR" or  # Power symbols should be used in designs
-                lib_symbol["Name"].startswith("doc_")  # Doc symbols should be used in designs
+                lib_symbol["Extends"] != "" or              # Parts should be used in designs
+                lib_symbol["Reference"] == "#PWR" or        # Power symbols should be used in designs
+                lib_symbol["Name"].startswith("doc_") or    # Doc symbols should be used in designs
+                lib_symbol["Name"] == "con_TC2030-IDC_lock" # Specific symbol
             )
 
             is_used = False
