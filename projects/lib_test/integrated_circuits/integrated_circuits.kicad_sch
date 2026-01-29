@@ -307,6 +307,48 @@
 		)
 	)
 	(sheet
+		(at 76.2 127)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7eb33e6c-6bec-4cda-a87b-a5ea475db2bd")
+		(property "Sheetname" "Battery chargers"
+			(at 76.2 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_chargers.kicad_sch"
+			(at 76.2 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "integrated_circuits"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 177.8 76.2)
 		(size 38.1 38.1)
 		(exclude_from_sim no)

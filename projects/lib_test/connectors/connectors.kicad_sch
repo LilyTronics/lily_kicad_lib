@@ -12,6 +12,331 @@
 		(comment 2 "-")
 	)
 	(lib_symbols
+		(symbol "lily_symbols:con_TC2030-IDC_lock"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TC2030-IDC"
+				(at -7.62 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:con_tc2030_idc_lock"
+				(at -5.08 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tag_connect/TC2030-IDC_lock.pdf"
+				(at -5.08 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at -5.08 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "con_TC2030-IDC_lock_0_1"
+				(circle
+					(center -5.08 0)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -4.318 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -4.318 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -4.318 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "con_TC2030-IDC_lock_1_1"
+				(rectangle
+					(start -6.35 1.27)
+					(end -3.81 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -12.7)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy -4.318 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -4.318 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -12.7) (xy -4.318 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lily_symbols:con_dc_jack_dc_005_th"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10383,6 +10708,253 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lily_symbols:con_jst_1x03_PH_2.00mm_right_angle_th"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1x03_PH"
+				(at -7.62 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:con_jst_1x03_ph_2.00mm_right_angle_th"
+				(at -5.08 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/PH_series.pdf"
+				(at -5.08 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at -5.08 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at -5.08 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at -5.08 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "S3B-PH-K-S"
+				(at -5.08 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at -5.08 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C157929"
+				(at -5.08 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "con_jst_1x03_PH_2.00mm_right_angle_th_0_1"
+				(rectangle
+					(start -6.35 1.27)
+					(end -3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -4.318 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -4.318 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -4.318 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "con_jst_1x03_PH_2.00mm_right_angle_th_1_1"
+				(pin passive line
+					(at 0 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lily_symbols:con_jst_1x03_PH_2.00mm_straight_smd"
 			(pin_names
 				(offset 1.016)
@@ -12717,6 +13289,267 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lily_symbols:con_rf_sma_right_angle_th"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMA"
+				(at -7.62 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:con_rf_sma_right_angle_th"
+				(at -5.08 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/te_connectivity/5-1814400-x.pdf"
+				(at -5.08 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Revision" "1"
+				(at -5.08 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at -5.08 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity"
+				(at -5.08 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_ID" "5-1814400-2"
+				(at -5.08 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lily_ID" "NO_ID"
+				(at -5.08 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_ID" "C3174972"
+				(at -5.08 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "con_rf_sma_right_angle_th_0_1"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -0.508)
+					(mid -7.6703 0)
+					(end -2.54 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -4.318 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "con_rf_sma_right_angle_th_1_1"
+				(pin passive line
+					(at -7.62 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19713,7 +20546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00a0df2a-586a-477a-abb1-86b54f6f5dce")
-		(property "Reference" "X1016"
+		(property "Reference" "X1013"
 			(at 195.58 31.75 0)
 			(effects
 				(font
@@ -19824,7 +20657,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1016")
+					(reference "X1013")
 					(unit 1)
 				)
 			)
@@ -19832,15 +20665,15 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:con_jst_1x03_PH_2.00mm_straight_smd")
-		(at 63.5 48.26 0)
+		(at 25.4 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00b7b658-3fae-4e46-bd2e-a03254e72e01")
-		(property "Reference" "X1017"
-			(at 55.88 41.91 0)
+		(property "Reference" "X1014"
+			(at 17.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19849,7 +20682,7 @@
 			)
 		)
 		(property "Value" "1x03_PH"
-			(at 55.88 44.45 0)
+			(at 17.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19858,7 +20691,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:con_jst_1x03_ph_2.00mm_straight_smd"
-			(at 58.42 60.96 0)
+			(at 20.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19867,7 +20700,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/PH_series.pdf"
-			(at 58.42 73.66 0)
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19876,7 +20709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 48.26 0)
+			(at 25.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19885,7 +20718,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 58.42 55.88 0)
+			(at 20.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19894,7 +20727,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 58.42 58.42 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19903,7 +20736,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 58.42 63.5 0)
+			(at 20.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19912,7 +20745,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "B3B-PH-SM4-TB"
-			(at 58.42 66.04 0)
+			(at 20.32 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19921,7 +20754,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 58.42 68.58 0)
+			(at 20.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19930,7 +20763,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "NO_ID"
-			(at 58.42 71.12 0)
+			(at 20.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19950,7 +20783,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1017")
+					(reference "X1014")
 					(unit 1)
 				)
 			)
@@ -20356,6 +21189,138 @@
 		)
 	)
 	(symbol
+		(lib_id "lily_symbols:con_rf_sma_right_angle_th")
+		(at 266.7 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d198c03-5093-4cf6-bdb3-54b58f9c6c57")
+		(property "Reference" "X1027"
+			(at 259.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 259.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:con_rf_sma_right_angle_th"
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/te_connectivity/5-1814400-x.pdf"
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 261.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "5-1814400-2"
+			(at 261.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C3174972"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "62500b40-b9d8-486e-90a8-2886ad57a2ec")
+		)
+		(pin "2"
+			(uuid "a794a2ee-511d-4df1-a878-006b20f729db")
+		)
+		(pin "1"
+			(uuid "807a8fb0-1209-4c1f-a1d4-e4b997cd99db")
+		)
+		(pin "5"
+			(uuid "0692a3d9-0735-4edd-848f-8dc81354d62b")
+		)
+		(pin "3"
+			(uuid "e7682bb5-880e-435f-80ad-2e85d715e8f7")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "X1027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lily_symbols:con_socket_1x15_2.54mm_straight_th")
 		(at 152.4 25.4 0)
 		(unit 1)
@@ -20519,15 +21484,15 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:con_jst_1x04_PH_2.00mm_straight_smd")
-		(at 50.8 38.1 0)
+		(at 50.8 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "36db67ec-1619-4f03-a4e6-40eb95319c27")
-		(property "Reference" "X1015"
-			(at 43.18 31.75 0)
+		(property "Reference" "X1018"
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20536,7 +21501,7 @@
 			)
 		)
 		(property "Value" "1x04_PH"
-			(at 43.18 34.29 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20545,7 +21510,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:con_jst_1x04_ph_2.00mm_straight_smd"
-			(at 45.72 53.34 0)
+			(at 45.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20554,7 +21519,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/PH_series.pdf"
-			(at 45.72 66.04 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20563,7 +21528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 38.1 0)
+			(at 50.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20572,7 +21537,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 45.72 48.26 0)
+			(at 45.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20581,7 +21546,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 45.72 50.8 0)
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20590,7 +21555,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 45.72 55.88 0)
+			(at 45.72 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20599,7 +21564,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "B4B-PH-SM4-TB"
-			(at 45.72 58.42 0)
+			(at 45.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20608,7 +21573,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 45.72 60.96 0)
+			(at 45.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +21582,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "NO_ID"
-			(at 45.72 63.5 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20640,7 +21605,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1015")
+					(reference "X1018")
 					(unit 1)
 				)
 			)
@@ -20655,7 +21620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49bc0abe-8bea-4715-82a1-cf9d6c891574")
-		(property "Reference" "X1018"
+		(property "Reference" "X1019"
 			(at 22.86 82.55 0)
 			(effects
 				(font
@@ -20949,7 +21914,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1018")
+					(reference "X1019")
 					(unit 1)
 				)
 			)
@@ -20964,7 +21929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dde6a46-c609-4bcb-89ad-582c94915a01")
-		(property "Reference" "X1026"
+		(property "Reference" "X1028"
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -21087,7 +22052,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1026")
+					(reference "X1028")
 					(unit 1)
 				)
 			)
@@ -21102,7 +22067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fc06e0e-d6c2-4df8-b5b1-75b9213575ae")
-		(property "Reference" "X1019"
+		(property "Reference" "X1020"
 			(at 48.26 82.55 0)
 			(effects
 				(font
@@ -21396,7 +22361,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1019")
+					(reference "X1020")
 					(unit 1)
 				)
 			)
@@ -21404,15 +22369,15 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:con_jst_1x04_PH_2.00mm_right_angle_th")
-		(at 25.4 38.1 0)
+		(at 25.4 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "55593e73-2998-45c3-a6a4-bbb58d8c0d8b")
-		(property "Reference" "X1013"
-			(at 17.78 31.75 0)
+		(property "Reference" "X1016"
+			(at 17.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21421,7 +22386,7 @@
 			)
 		)
 		(property "Value" "1x04_PH"
-			(at 17.78 34.29 0)
+			(at 17.78 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21430,7 +22395,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:con_jst_1x04_ph_2.00mm_right_angle_th"
-			(at 20.32 53.34 0)
+			(at 20.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21439,7 +22404,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/PH_series.pdf"
-			(at 20.32 66.04 0)
+			(at 20.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21448,7 +22413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 38.1 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21457,7 +22422,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 20.32 48.26 0)
+			(at 20.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21466,7 +22431,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 20.32 50.8 0)
+			(at 20.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21475,7 +22440,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 20.32 55.88 0)
+			(at 20.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21484,7 +22449,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "S4B-PH-K-S"
-			(at 20.32 58.42 0)
+			(at 20.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21493,7 +22458,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 20.32 60.96 0)
+			(at 20.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21502,7 +22467,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C157926"
-			(at 20.32 63.5 0)
+			(at 20.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21525,7 +22490,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1013")
+					(reference "X1016")
 					(unit 1)
 				)
 			)
@@ -21540,7 +22505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57ae343a-8022-4ead-8fbf-4ee052d546f6")
-		(property "Reference" "X1022"
+		(property "Reference" "X1023"
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -21777,7 +22742,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1022")
+					(reference "X1023")
 					(unit 1)
 				)
 			)
@@ -22066,6 +23031,96 @@
 		)
 	)
 	(symbol
+		(lib_id "lily_symbols:con_TC2030-IDC_lock")
+		(at 264.16 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "71d9475c-7fb3-4b8d-aae4-67c2c2a634f8")
+		(property "Reference" "X1029"
+			(at 256.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TC2030-IDC"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:con_tc2030_idc_lock"
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tag_connect/TC2030-IDC_lock.pdf"
+			(at 259.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0913f0f5-5fa2-453b-8d91-593857bd09b3")
+		)
+		(pin "2"
+			(uuid "1dfec310-baa7-42e1-b31e-8a9e36bb8948")
+		)
+		(pin "6"
+			(uuid "e9da86f2-bbda-44a0-9220-107bac6f5839")
+		)
+		(pin "4"
+			(uuid "653663eb-3e03-4dc2-964b-1d94f60ce361")
+		)
+		(pin "1"
+			(uuid "1659fc38-43a3-4805-be5c-832af4ce4a52")
+		)
+		(pin "5"
+			(uuid "49d18390-ede7-4918-9963-efb7a1d4da5c")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "X1029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lily_symbols:con_sub_d_hd_receptacle_44p_th")
 		(at 134.62 91.44 0)
 		(unit 1)
@@ -22074,7 +23129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71ef0511-1d1e-4aee-80cb-73b504fb9c0a")
-		(property "Reference" "X1023"
+		(property "Reference" "X1024"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -22311,7 +23366,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1023")
+					(reference "X1024")
 					(unit 1)
 				)
 			)
@@ -22596,7 +23651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b1409b3-fe5d-4a44-bf50-f151f30c6ef2")
-		(property "Reference" "X1021"
+		(property "Reference" "X1022"
 			(at 261.62 82.55 0)
 			(effects
 				(font
@@ -22707,7 +23762,133 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1021")
+					(reference "X1022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:con_jst_1x03_PH_2.00mm_right_angle_th")
+		(at 38.1 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3af7821-641f-43bf-badc-ab208c42e9fc")
+		(property "Reference" "X1015"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1x03_PH"
+			(at 30.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:con_jst_1x03_ph_2.00mm_right_angle_th"
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/PH_series.pdf"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Revision" "1"
+			(at 33.02 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_ID" "S3B-PH-K-S"
+			(at 33.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 33.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_ID" "C157929"
+			(at 33.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f06604d-cb2e-41b0-9786-ebbadc79261e")
+		)
+		(pin "2"
+			(uuid "106ac332-d375-4e93-bde6-c28dd6fcf3f2")
+		)
+		(pin "3"
+			(uuid "8cf30631-9fbd-4428-b689-161412d5adc1")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "X1015")
 					(unit 1)
 				)
 			)
@@ -22722,7 +23903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae89288e-64ac-4ff6-8a12-af081f6b38cb")
-		(property "Reference" "X1024"
+		(property "Reference" "X1025"
 			(at 199.39 85.09 0)
 			(effects
 				(font
@@ -22875,7 +24056,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1024")
+					(reference "X1025")
 					(unit 1)
 				)
 			)
@@ -23271,7 +24452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c942d92b-48e0-4832-a979-89fae4933aa9")
-		(property "Reference" "X1020"
+		(property "Reference" "X1021"
 			(at 73.66 82.55 0)
 			(effects
 				(font
@@ -23565,7 +24746,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1020")
+					(reference "X1021")
 					(unit 1)
 				)
 			)
@@ -23718,7 +24899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d64a954f-b5da-4e3a-8ede-40e1393000a5")
-		(property "Reference" "X1025"
+		(property "Reference" "X1026"
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -23838,7 +25019,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1025")
+					(reference "X1026")
 					(unit 1)
 				)
 			)
@@ -23846,15 +25027,15 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:con_jst_1x04_VH_3.96mm_right_angle_th")
-		(at 38.1 38.1 0)
+		(at 38.1 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e98a4abc-027b-488c-b62d-f034ba1710e0")
-		(property "Reference" "X1014"
-			(at 30.48 31.75 0)
+		(property "Reference" "X1017"
+			(at 30.48 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23863,7 +25044,7 @@
 			)
 		)
 		(property "Value" "1x04_VH"
-			(at 30.48 34.29 0)
+			(at 30.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23872,7 +25053,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:con_jst_1x04_vh_3.96mm_right_angle_th"
-			(at 33.02 53.34 0)
+			(at 33.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23881,7 +25062,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/VH_series.pdf"
-			(at 33.02 66.04 0)
+			(at 33.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23890,7 +25071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 38.1 0)
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23899,7 +25080,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 33.02 48.26 0)
+			(at 33.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23908,7 +25089,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 33.02 50.8 0)
+			(at 33.02 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23917,7 +25098,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 33.02 55.88 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23926,7 +25107,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "B4PS-VH"
-			(at 33.02 58.42 0)
+			(at 33.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23935,7 +25116,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 33.02 60.96 0)
+			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23944,7 +25125,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C157996"
-			(at 33.02 63.5 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23967,7 +25148,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1014")
+					(reference "X1017")
 					(unit 1)
 				)
 			)
