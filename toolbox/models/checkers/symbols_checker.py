@@ -212,7 +212,7 @@ class SymbolsChecker:
         # Is not a mechanical
         # Is not a test point
         return (
-            (symbol_data["Extends"] != "") and
+            (symbol_data.get("Extends", None) is not None) and
             (not symbol_data["Name"].startswith("mec_")) and
             (not symbol_data["Name"].startswith("test_point_"))
         )
