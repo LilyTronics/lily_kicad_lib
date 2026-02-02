@@ -272,7 +272,7 @@ class FootprintsChecker:
     def _check_3d_model(cls, footprint_data, report_messages):
         caller = f"({cls.__name__}._check_3d_model)"
         should_have_model = True
-        has_model = footprint_data["Model"] != ""
+        has_model = footprint_data.get("Model", None) is not None
 
         for query in cls.NO_3D_MODEL:
             if footprint_data["Name"].startswith(query):
