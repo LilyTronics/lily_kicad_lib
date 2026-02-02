@@ -50,11 +50,11 @@ class LibParser:
                         fields.append(property_name)
                 symbols.append(symbol)
             i += 1
-        # Make sure all symbols have the same fields
-        for symbol in symbols:
-            for field in fields:
-                if field not in symbol:
-                    symbol[field] = ""
+        # # Make sure all symbols have the same fields
+        # for symbol in symbols:
+        #     for field in fields:
+        #         if field not in symbol:
+        #             symbol[field] = ""
         return symbols
 
     @classmethod
