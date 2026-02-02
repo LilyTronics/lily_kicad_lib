@@ -17,7 +17,7 @@ class ProjectsChecker:
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID"]
     SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
-    SKIP_LAYOUT_FIELDS = [] # ["Name", "Reference", "Value", "Footprint", "Datasheet"]
+    # SKIP_LAYOUT_FIELDS = [] # ["Name", "Reference", "Value", "Footprint", "Datasheet"]
 
     @classmethod
     def run(cls):
@@ -63,8 +63,8 @@ class ProjectsChecker:
         # Regular projects
         cls._check_if_symbols_not_in_library(designs, lib_symbols, report_messages)
         cls._check_symbols_properties(designs, lib_symbols, report_messages)
-        # cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
-        # cls._check_footprint_properties(designs, lib_footprints, report_messages)
+        cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
+        cls._check_footprint_properties(designs, lib_footprints, report_messages)
         # cls._check_symbols_vs_footprints(designs, report_messages)
 
         return report_messages
@@ -74,10 +74,10 @@ class ProjectsChecker:
         caller = f"({cls.__name__}._check_if_symbols_in_designs)"
         for lib_symbol in lib_symbols:
             should_be_used = (
-                lib_symbol["Extends"] != "" or              # Parts should be used in designs
-                lib_symbol["Reference"] == "#PWR" or        # Power symbols should be used in designs
-                lib_symbol["Name"].startswith("doc_") or    # Doc symbols should be used in designs
-                lib_symbol["Name"] == "con_TC2030-IDC_lock" # Specific symbol
+                lib_symbol.get("Extends", None) is not None or      # Parts should be used in designs
+                lib_symbol["Reference"] == "#PWR" or                # Power symbols should be used in designs
+                lib_symbol["Name"].startswith("doc_") or            # Doc symbols should be used in designs
+                lib_symbol["Name"] == "con_TC2030-IDC_lock"         # Specific symbol
             )
 
             is_used = False
@@ -135,7 +135,8 @@ class ProjectsChecker:
                     # Fields missing in the design symbol
                     diff = list(set(lib_symbol.keys()) - set(design_symbol.keys()))
                     diff.remove("Name")
-                    diff.remove("Extends")
+                    if "Extends" in diff:
+                        diff.remove("Extends")
                     if "Notes" in diff:
                         diff.remove("Notes")
                     # Special parts, no mandatory fields
@@ -238,23 +239,51 @@ class ProjectsChecker:
                 lib_name = design_footprint["Footprint"].split(":")[1]
                 matches = list(filter(lambda x: x["Name"] == lib_name, lib_footprints))
                 if len(matches) > 0:
-                    for key in matches[0]:
-                        if key in cls.SKIP_LAYOUT_FIELDS:
-                            continue
-                        lib_value = matches[0].get(key, "invalid lib key")
-                        if isinstance(lib_value, dict):
-                            lib_value = lib_value.get("Value", "no value key")
-                        design_value = design_footprint.get(key, "invalid design key")
-                        if design_footprint["Value"].startswith("logo_") and key in ["Model", "Reference_F.Fab"]:
-                            design_value = lib_value
-                        if lib_value != design_value:
-                            report_messages.append({
-                                "item": lib_name,
-                                "message": f"footprint in project {design} has invalid property: "
-                                           f"{key}: '{design_value}' expected '{lib_value}' {caller}"
-                            })
-                            # print(design_footprint, matches[0])
-                            # exit()
+                    lib_footprint = matches[0]
+                    # Fields in the lib but not in the design
+                    diff = list(set(lib_footprint.keys()) - set(design_footprint.keys()))
+                    diff.remove("Name")
+                    if len(diff) > 0:
+                        report_messages.append({
+                            "item": f"{design_footprint["Reference"]} ({design}, {lib_name})",
+                            "message": f"footprint has missing fields: {", ".join(diff)} {caller}"
+                        })
+                    # Fields in the design but not in the lib
+                    diff = list(set(design_footprint.keys()) - set(lib_footprint.keys()))
+                    if "Footprint" in diff:
+                        diff.remove("Footprint")
+                    for field in cls.PART_MANDATORY_FIELDS:
+                        if field in diff:
+                            diff.remove(field)
+                    if len(diff) > 0:
+                        report_messages.append({
+                            "item": f"{design_footprint["Reference"]} ({design}, {lib_name})",
+                            "message": f"footprint has fields that are not in the library: {", ".join(diff)} {caller}"
+                        })
+
+                    print(design_footprint["Footprint"])
+                    print(matches[0]["Name"])
+                    print(lib_footprint.keys())
+                    print(design_footprint.keys())
+
+
+                    # for key in matches[0]:
+                    #     if key in cls.SKIP_LAYOUT_FIELDS:
+                    #         continue
+                    #     lib_value = matches[0].get(key, "invalid lib key")
+                    #     if isinstance(lib_value, dict):
+                    #         lib_value = lib_value.get("Value", "no value key")
+                    #     design_value = design_footprint.get(key, "invalid design key")
+                    #     if design_footprint["Value"].startswith("logo_") and key in ["Model", "Reference_F.Fab"]:
+                    #         design_value = lib_value
+                    #     if lib_value != design_value:
+                    #         report_messages.append({
+                    #             "item": lib_name,
+                    #             "message": f"footprint in project {design} has invalid property: "
+                    #                        f"{key}: '{design_value}' expected '{lib_value}' {caller}"
+                    #         })
+                    #         # print(design_footprint, matches[0])
+                    #         # exit()
 
     @classmethod
     def _check_symbols_vs_footprints(cls, designs, report_messages):
