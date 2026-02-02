@@ -116,11 +116,6 @@ class LibParser:
                         fields.append(property_name)
                 i += 1
             footprints.append(footprint)
-        # Make sure all footprints have the same fields
-        for footprint in footprints:
-            for field in fields:
-                if field not in footprint:
-                    footprint[field] = ""
         return footprints
 
 
