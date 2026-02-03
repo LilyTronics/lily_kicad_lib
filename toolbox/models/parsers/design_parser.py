@@ -113,16 +113,41 @@ class DesignParser:
                     i += 1
                     if lines[i].startswith("\t)"):
                         break
-                    if lines[i].startswith("\t\t(property "):
-                        parts = lines[i].strip()[10:].split('" "')
-                        if len(parts) == 2:
-                            footprint[parts[0].strip('"')] = parts[1].strip().strip('"')
+                    if lines[i].startswith("\t\t(property ") or lines[i].startswith('\t\t(fp_text user "${REFERENCE}"'):
+                        key = ""
+                        value = ""
+                        if "(property " in lines[i]:
+                            parts = lines[i].strip()[10:].split('" "')
+                            if len(parts) == 2:
+                                key = parts[0].strip('"')
+                                value = parts[1].strip().strip('"')
+                        else:
+                            key = "Reference_F.Fab"
+                            value = lines[i].strip()[14:].strip('"')
+                        if key != "":
+                            footprint[key] = {
+                                "Value" : value,
+                                "Layer": "",
+                                "Size": "",
+                                "Thickness": "",
+                                "Visible": True
+                            }
+                            while i < len(lines):
+                                i += 1
+                                if lines[i].startswith("\t\t\t(layer "):
+                                    footprint[key]["Layer"] = lines[i].strip()[7:].strip(")").strip('"')
+                                if lines[i].startswith("\t\t\t(hide yes)"):
+                                    footprint[key]["Visible"] = False
+                                if lines[i].startswith("\t\t\t\t\t(size "):
+                                    footprint[key]["Size"] = lines[i].strip()[6:].strip(")").strip('"')
+                                if lines[i].startswith("\t\t\t\t\t(thickness "):
+                                    footprint[key]["Thickness"] = lines[i].strip()[11:].strip(")").strip('"')
+                                if lines[i].startswith("\t\t)"):
+                                    break
                     if lines[i].startswith("\t\t(attr "):
                         footprint["Attributes"] = lines[i].strip()[6:].strip(")").split(" ")
                     if lines[i].startswith("\t\t(model "):
                         footprint["Model"] = lines[i].strip()[7:].strip(")").strip('"')
-                    if lines[i].startswith('\t\t(fp_text user "${REFERENCE}"'):
-                        footprint["Reference_F.Fab"] = lines[i].strip()[14:].strip('"')
                 footprints.append(footprint)
             i += 1
         return footprints
