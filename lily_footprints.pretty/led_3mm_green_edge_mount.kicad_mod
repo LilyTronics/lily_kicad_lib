@@ -1,7 +1,7 @@
 (footprint "led_3mm_green_edge_mount"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6177fcfd-c30e-4ebf-9da3-3eaa770da8ac")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -85,7 +75,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "940872c1-bfaf-4ddf-b2bd-982887d5b944")
 	)
@@ -116,7 +106,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5898a8e2-9a2f-40ab-8c8d-273770d4aef9")
 	)
@@ -127,7 +117,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "50e91de3-f1b8-4c63-b0a2-7305df7a33aa")
 	)
@@ -138,7 +128,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "375d4065-884f-4100-af20-4bf2bff91977")
 	)
@@ -198,6 +188,7 @@
 		(solder_mask_margin 0.1)
 		(uuid "53d52fc7-1687-415c-b550-1e984bec3a61")
 	)
+	(embedded_fonts no)
 	(model "../3d_models/led_3mm_green_edge_mount.step"
 		(offset
 			(xyz 0 0 0)

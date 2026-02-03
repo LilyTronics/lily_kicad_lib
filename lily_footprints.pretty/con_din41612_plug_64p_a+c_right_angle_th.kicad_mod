@@ -1,7 +1,7 @@
 (footprint "con_din41612_plug_64p_a+c_right_angle_th"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 39.37 2.54 0)
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1b5cbf0c-38a8-4ed7-b400-4f9f526588c1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -85,7 +75,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a4577db6-9080-401b-a350-02d0f1522bea")
 	)
@@ -1334,7 +1324,7 @@
 		(at -5.08 -2.54 90)
 		(size 2.8 2.8)
 		(drill 2.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(solder_mask_margin 0.1)
 		(uuid "ed5e43c2-1b85-442b-b823-35bf1b456dbf")
 	)
@@ -1342,7 +1332,7 @@
 		(at 83.82 -2.54 90)
 		(size 2.8 2.8)
 		(drill 2.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(solder_mask_margin 0.1)
 		(uuid "d57c0ffa-3d5d-4de8-a2cb-de72ea1cf372")
 	)
@@ -1922,6 +1912,7 @@
 		(solder_mask_margin 0.1)
 		(uuid "0449cd95-baa9-406d-8524-5c52044d8776")
 	)
+	(embedded_fonts no)
 	(model "../3d_models/con_din41612_plug_64p_a+c_right_angle_th.step"
 		(offset
 			(xyz 0 0 0)
