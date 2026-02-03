@@ -37,8 +37,8 @@ class UnusedItemsChecker:
     @classmethod
     def _check_unused_symbols(cls, symbols, report_messages):
         caller = f"({cls.__name__}._check_unused_datasheets)"
-        for symbol in filter(lambda s: s["Extends"] == "" and s["Name"] not in cls._SKIP_SYMBOLS_UNUSED, symbols):
-            matches = list(filter(lambda x: x["Extends"] == symbol["Name"], symbols))
+        for symbol in filter(lambda s: s.get("Extends", None) is None and s["Name"] not in cls._SKIP_SYMBOLS_UNUSED, symbols):
+            matches = list(filter(lambda x: x.get("Extends", None) == symbol["Name"], symbols))
             if len(matches) == 0:
                 report_messages.append({
                     "item": symbol["Name"],
@@ -78,7 +78,7 @@ class UnusedItemsChecker:
         file_path = f"{AppData.APP_PATH}/3d_models"
         for filename in filter(lambda f: os.path.isfile(os.path.join(file_path, f)), os.listdir(file_path)):
             rel_path = f"../3d_models/{filename}"
-            matches = list(filter(lambda x: rel_path == x["Model"], footprints))
+            matches = list(filter(lambda x: rel_path == x.get("Model", None), footprints))
             if len(matches) == 0:
                 report_messages.append({
                     "item": filename,
