@@ -65,7 +65,7 @@ class ProjectsChecker:
         cls._check_symbols_properties(designs, lib_symbols, report_messages)
         cls._check_if_footprints_not_in_library(designs, lib_footprints, report_messages)
         cls._check_footprint_properties(designs, lib_footprints, report_messages)
-        # cls._check_symbols_vs_footprints(designs, report_messages)
+        cls._check_symbols_vs_footprints(designs, report_messages)
 
         return report_messages
 
@@ -262,37 +262,33 @@ class ProjectsChecker:
                             "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
                             "message": f"footprint has fields that are not in the library: {", ".join(diff)} {caller}"
                         })
-                    if len(lib_keys) != len(design_keys):
-                        report_messages.append({
-                            "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
-                            "message": f"number of fields are not equal {caller}"
-                        })
-                    else:
-                        for property in lib_keys:
-                            lib_value = lib_footprint[property]
-                            design_value = design_footprint[property]
-                            lib_instance = type(lib_value)
-                            design_instance = type(design_value)
-                            if lib_instance != design_instance:
-                                report_messages.append({
-                                    "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
-                                    "message": f"values are not of the same type: {design_instance}, expected {lib_instance} {caller}"
-                                })
+
+                    # Check values
+                    for property in lib_keys:
+                        lib_value = lib_footprint[property]
+                        design_value = design_footprint[property]
+                        lib_instance = type(lib_value)
+                        design_instance = type(design_value)
+                        if lib_instance != design_instance:
+                            report_messages.append({
+                                "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
+                                "message": f"values are not of the same type: {design_instance}, expected {lib_instance} {caller}"
+                            })
+                        else:
+                            if isinstance(lib_value, dict):
+                                diff = {k: (lib_value[k], design_value[k]) for k in lib_value if lib_value[k] != design_value[k]}
+                                # Value field is always different from library
+                                for key in filter(lambda k: k not in ["Value"], diff):
+                                    report_messages.append({
+                                        "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
+                                        "message": f"value for {property} have a different value for {key}: {diff[key]} {caller}"
+                                    })
                             else:
-                                if isinstance(lib_value, dict):
-                                    diff = {k: (lib_value[k], design_value[k]) for k in lib_value if lib_value[k] != design_value[k]}
-                                    # Value field is always different from library
-                                    for key in filter(lambda k: k not in ["Value"], diff):
-                                        report_messages.append({
-                                            "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
-                                            "message": f"value for {property} have a different value for {key}: {diff[key]} {caller}"
-                                        })
-                                else:
-                                    if lib_value != design_value:
-                                        report_messages.append({
-                                            "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
-                                            "message": f"value for {property} have a different value: {design_value}, expected: {lib_value} {caller}"
-                                        })
+                                if lib_value != design_value:
+                                    report_messages.append({
+                                        "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
+                                        "message": f"value for {property} have a different value: {design_value}, expected: {lib_value} {caller}"
+                                    })
 
 
     @classmethod
@@ -302,7 +298,7 @@ class ProjectsChecker:
             for design_symbol in designs[design]["symbols"]:
                 if design_symbol["Reference"].startswith("#PWR"):
                     continue
-                matches = list(filter(lambda x: x["Reference"] == design_symbol["Reference"],
+                matches = list(filter(lambda x: x["Reference"]["Value"] == design_symbol["Reference"],
                                       designs[design]["footprints"]))
                 if len(matches) == 0:
                     report_messages.append({
@@ -311,44 +307,51 @@ class ProjectsChecker:
                     })
                 else:
                     design_footprint = matches[0]
+                    symbol_keys = list(design_symbol.keys())
+                    symbol_keys.remove("lib_id")
+                    footprint_keys = list(design_footprint.keys())
+                    footprint_keys.remove("Reference_F.Fab")
+                    footprint_keys.remove("Attributes")
+                    if "Model" in footprint_keys:
+                        footprint_keys.remove("Model")
+                    if "Pin_1_mark" in footprint_keys:
+                        footprint_keys.remove("Pin_1_mark")
+
                     # Fields in the symbol but not in the footprint
-                    diff = list(set(design_symbol.keys()) - set(design_footprint.keys()))
-                    diff.remove("lib_id")
+                    diff = list(set(symbol_keys) - set(footprint_keys))
                     if len(diff) > 0:
                         report_messages.append({
                             "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
                             "message": f"symbol has fields that are not in the footprint: {", ".join(diff)} {caller}"
                         })
                     # Fields in the footprint but not in the symbol
-                    diff = list(set(design_footprint.keys()) - set(design_symbol.keys()))
-                    if "Model" in diff:
-                        diff.remove("Model")
-                    if "Reference_F.Fab" in diff:
-                        diff.remove("Reference_F.Fab")
-                    if "Attributes" in diff:
-                        diff.remove("Attributes")
-                    if "Pin_1_mark" in diff:
-                        diff.remove("Pin_1_mark")
+                    diff = list(set(footprint_keys) - set(symbol_keys))
                     if len(diff) > 0:
                         report_messages.append({
                             "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
                             "message": f"footprint has fields that are not in the symbol: {", ".join(diff)} {caller}"
                         })
-                    for field in filter(lambda x: x != "lib_id", design_symbol):
-                        symbol_value = design_symbol[field]
-                        footprint_value = design_footprint.get(field, None)
+
+                    # Check values
+                    for property in symbol_keys:
+                        symbol_value = design_symbol[property]
+                        footprint_value = design_footprint[property]
+                        if isinstance(footprint_value, dict):
+                            footprint_value = footprint_value.get("Value", None)
                         if symbol_value != footprint_value:
                             report_messages.append({
                                 "item": f"{design_symbol["Reference"]} ({design_symbol["lib_id"]})",
-                                "message": f"value for field {field} in symbol is not matching with footprint {caller}"
+                                "message": f"value for field {property} in symbol is not matching with footprint: {footprint_value}, expected {symbol_value} {caller}"
                             })
 
             for design_footprint in designs[design]["footprints"]:
-                matches = list(filter(lambda x: x["Reference"] == design_footprint["Reference"],
+                if design_footprint["Reference"]["Value"] == "REF**":
+                    continue
+                matches = list(filter(lambda x: x["Reference"] == design_footprint["Reference"]["Value"],
                                       designs[design]["symbols"]))
                 if len(matches) == 0:
                     report_messages.append({
-                        "item": f"{design_footprint["Reference"]} ({design_footprint["Footprint"]})",
+                        "item": f"{design_footprint["Reference"]["Value"]} ({design_footprint["Footprint"]})",
                         "message": f"footprint has no matching symbol in the schematics design {caller}"
                     })
 
