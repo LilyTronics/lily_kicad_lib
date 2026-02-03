@@ -13,13 +13,12 @@ class ErpChecker:
     @staticmethod
     def lib_filter(comp):
         return (
-            comp["Lily_ID"] != "NO_ID" and
+            comp.get("Lily_ID", None) != "NO_ID" and
             comp["Reference"] != "#PWR" and
-            comp["Extends"] != "" and
-            comp["Value"] not in ["dnp", "test_point"] and
-            "_cable_to_pcb_" not in comp["Value"] and
-            not comp["Value"].startswith("mec_hole_") and
-            not comp["Value"].startswith("mec_fiducial_")
+            comp.get("Extends", None) is not None and
+            not comp["Name"].startswith("mec_hole_") and
+            not comp["Name"].startswith("mec_fiducial_") and
+            not comp["Name"].startswith("test_point_")
         )
 
     @classmethod
