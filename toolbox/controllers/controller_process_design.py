@@ -14,7 +14,7 @@ from toolbox.controllers.controller_base import ControllerBase
 from toolbox.models.parsers.design_parser import DesignParser
 from toolbox.models.id_manager import IdManager
 from toolbox.models.process_design import ProcessDesign
-from toolbox.models.projects_checker import ProjectsChecker
+from toolbox.models.checkers.projects_checker import ProjectsChecker
 from toolbox.views.view_process_design import ViewProcessDesign
 
 
