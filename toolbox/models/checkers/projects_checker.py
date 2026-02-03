@@ -281,13 +281,13 @@ class ProjectsChecker:
                                 for key in filter(lambda k: k not in ["Value"], diff):
                                     report_messages.append({
                                         "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
-                                        "message": f"value for {property} have a different value for {key}: {diff[key]} {caller}"
+                                        "message": f"property {property} has a different value for {key}: {diff[key]} {caller}"
                                     })
                             else:
                                 if lib_value != design_value:
                                     report_messages.append({
                                         "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
-                                        "message": f"value for {property} have a different value: {design_value}, expected: {lib_value} {caller}"
+                                        "message": f"property {property} has a different value: {design_value}, expected: {lib_value} {caller}"
                                     })
 
 
