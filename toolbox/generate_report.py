@@ -42,10 +42,10 @@ def generate_report():
         symbol_data = "{ "
         # Mandatory fields first
         for property_name in symbol_fields:
-            value = html.escape(symbol[property_name])
+            value = html.escape(symbol.get(property_name, ""))
             symbol_data += f'{property_name}: "{value}", '
         symbol_data = symbol_data[:-2] + " }"
-        if symbol["Extends"] == "":
+        if symbol.get("Extends", None) is None:
             generic_symbols_data += f"    {symbol_data},\n"
         else:
             parts_data += f"    {symbol_data},\n"
