@@ -152,8 +152,10 @@ class FootprintsChecker:
                     # For some footprints the reference is not visible
                     expected_props["Visible"] = False
 
-                if field_name == "Value" and footprint_data["Name"].startswith("test_point_"):
-                    # The value for test points have same properties as reference
+                if field_name == "Value" and (
+                    footprint_data["Name"].startswith("test_point_") or
+                    footprint_data["Name"].startswith("switch_")):
+                    # For some footprints the value has the same properties as reference
                     expected_props = copy.deepcopy(cls.FIELD_PROPERTIES["Reference"])
 
                 for prop in expected_props:
