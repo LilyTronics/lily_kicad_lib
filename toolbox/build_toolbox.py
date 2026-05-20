@@ -6,7 +6,7 @@ import os
 import PyInstaller.__main__
 import shutil
 
-from app_data import AppData
+from toolbox.app_data import AppData
 
 
 def _clean_output_folder(output_folder):
