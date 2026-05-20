@@ -266,13 +266,13 @@ class ProjectsChecker:
                     # Check values
                     for property in lib_keys:
                         lib_value = lib_footprint[property]
-                        design_value = design_footprint[property]
+                        design_value = design_footprint.get(property, None)
                         lib_instance = type(lib_value)
                         design_instance = type(design_value)
                         if lib_instance != design_instance:
                             report_messages.append({
                                 "item": f"{design_footprint["Reference"]["Value"]} ({design}, {lib_name})",
-                                "message": f"values are not of the same type: {design_instance}, expected {lib_instance} {caller}"
+                                "message": f"values of property '{property}' are not of the same type: {design_instance}, expected {lib_instance} {caller}"
                             })
                         else:
                             if isinstance(lib_value, dict):
@@ -310,8 +310,9 @@ class ProjectsChecker:
                     symbol_keys = list(design_symbol.keys())
                     symbol_keys.remove("lib_id")
                     footprint_keys = list(design_footprint.keys())
-                    footprint_keys.remove("Reference_F.Fab")
                     footprint_keys.remove("Attributes")
+                    if "Reference_F.Fab" in footprint_keys:
+                        footprint_keys.remove("Reference_F.Fab")
                     if "Model" in footprint_keys:
                         footprint_keys.remove("Model")
                     if "Pin_1_mark" in footprint_keys:
@@ -335,7 +336,7 @@ class ProjectsChecker:
                     # Check values
                     for property in symbol_keys:
                         symbol_value = design_symbol[property]
-                        footprint_value = design_footprint[property]
+                        footprint_value = design_footprint.get(property, None)
                         if isinstance(footprint_value, dict):
                             footprint_value = footprint_value.get("Value", None)
                         if symbol_value != footprint_value:
@@ -358,6 +359,10 @@ class ProjectsChecker:
 
 if __name__ == "__main__":
 
+    test_project = "C:\\OneDrive\\LilyTronics\\Projects\\C101_esp32_LED_controller_board\\design\\kicad"
+
     from toolbox.models.show_messages import show_messages
 
     show_messages(ProjectsChecker.run())
+
+    show_messages(ProjectsChecker.check_project(test_project))

@@ -46,6 +46,7 @@ class FootprintsChecker:
         footprints = LibParser.get_footprints()
         cls.stdout(f"Checking {len(footprints)} footprints")
         for footprint in footprints:
+            cls._check_mandatory_fields(footprint, report_messages)
             for field in footprint:
                 cls._check_footprint_field_empty(footprint, field, report_messages)
                 cls._check_footprint_field_properties(footprint, field, report_messages)
@@ -60,6 +61,16 @@ class FootprintsChecker:
     ############
     # Checkers #
     ############
+
+    @classmethod
+    def _check_mandatory_fields(cls, footprint_data, report_messages):
+        caller = f"({cls.__name__}._check_mandatory_fields)"
+        for field_name in cls.MANDATORY_FIELDS:
+            if field_name not in footprint_data:
+                report_messages.append({
+                    "item": footprint_data["Name"],
+                    "message": f"field '{field_name}' does not exist {caller}"
+                })
 
     @classmethod
     def _check_footprint_field_empty(cls, footprint_data, field_name, report_messages):
