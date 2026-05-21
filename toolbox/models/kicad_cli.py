@@ -47,6 +47,7 @@ class KiCadCli:
 
     def generate_bill_of_materials(self, input_file, output_file, option=""):
         cmd = ["sch", "export", "bom"]
+        cmd.append("--exclude-dnp")
         cmd.extend(["--output", output_file])
         if option == "lily_erp":
             cmd.extend(["--fields", "Lily_ID,${QUANTITY}"])
