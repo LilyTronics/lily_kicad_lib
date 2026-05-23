@@ -21,9 +21,6 @@ class ProjectsChecker:
 
     @classmethod
     def run(cls):
-        DesignParser.stdout = cls.stdout
-        LibParser.stdout = cls.stdout
-
         project_folders = []
         report_messages = []
         for current_folder, sub_folders, filenames in os.walk(cls.PROJECTS_PATH):
@@ -359,10 +356,10 @@ class ProjectsChecker:
 
 if __name__ == "__main__":
 
-    test_project = "C:\\OneDrive\\LilyTronics\\Projects\\C101_esp32_LED_controller_board\\design\\kicad"
-
     from toolbox.models.show_messages import show_messages
+
+    TEST_PROJECT = r"C:\Work\lily_kicad_lib\projects\lib_test\design_blocks\design_blocks.kicad_pro"
 
     show_messages(ProjectsChecker.run())
 
-    show_messages(ProjectsChecker.check_project(test_project))
+    show_messages(ProjectsChecker.check_project(TEST_PROJECT))
