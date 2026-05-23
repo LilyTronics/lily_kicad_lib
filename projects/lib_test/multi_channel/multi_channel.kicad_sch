@@ -1,0 +1,399 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "Multi channel")
+		(date "2026-05-23")
+		(rev "1")
+	)
+	(lib_symbols)
+	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ad2794-8c76-4f65-9d7c-b31d8200c8f3")
+	)
+	(junction
+		(at 114.3 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2203dd9-96d4-4ee5-b454-46cb335dcfee")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29197ec5-24f2-44a6-9eef-e8c9f247960d")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cf5995-094e-4441-a653-0b0dab11436b")
+	)
+	(wire
+		(pts
+			(xy 203.2 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5996fa-ee6d-4cf7-8fa1-2faa181b3f05")
+	)
+	(wire
+		(pts
+			(xy 190.5 71.12) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c5991d-0d9a-4e2e-aacf-934000f256a7")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779a255a-ffc4-4323-95a2-392247bc5241")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ce5db9-1374-4a3c-9a32-967ef8c1523c")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed178d49-7ed4-4186-82a5-d78f823f9caa")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5b5529-a350-4e19-8dfd-75b3c35a2297")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25f1e57-b37e-45a2-89cc-955212c5082a")
+	)
+	(wire
+		(pts
+			(xy 114.3 127) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f600c22e-87fe-42e0-8147-819d34f7b5c7")
+	)
+	(wire
+		(pts
+			(xy 165.1 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba0d606-5997-44d3-8c94-f072b7f57d16")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd4b8e6-7822-4bf0-8423-51e3e4fd49c0")
+	)
+	(sheet
+		(at 127 63.5)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40cec116-4bab-4502-b17c-4cc06982e7f7")
+		(property "Sheetname" "Channel 1"
+			(at 127 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "channel.kicad_sch"
+			(at 127 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 127 76.2 180)
+			(uuid "a02af297-80b7-494b-8603-b14f7469e735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 165.1 76.2 0)
+			(uuid "dd54b7c1-1f6b-49e2-a5ad-b8c35756c88e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "multi_channel"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 63.5)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d2e5fba-f797-48cf-aced-22f6c94a1f51")
+		(property "Sheetname" "Common"
+			(at 203.2 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "common.kicad_sch"
+			(at 203.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 203.2 71.12 180)
+			(uuid "57826465-ed63-479f-a66c-6c728a93e0a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC0" input
+			(at 203.2 76.2 180)
+			(uuid "6f936801-01ba-446e-b2b0-e862e89d8b62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC1" input
+			(at 203.2 78.74 180)
+			(uuid "2fe626fb-1358-46bc-8f76-ead309ca9f0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "multi_channel"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 38.1)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d04ff69f-87a0-4960-9430-c4c84944b18b")
+		(property "Sheetname" "Power supply"
+			(at 50.8 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 50.8 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" output
+			(at 88.9 50.8 0)
+			(uuid "f3a1406e-504c-4232-8dd0-5be1081f4a39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "multi_channel"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 114.3)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef9569c0-b972-47ac-8174-34405da6cbd7")
+		(property "Sheetname" "Channel 2"
+			(at 127 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "channel.kicad_sch"
+			(at 127 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 127 127 180)
+			(uuid "626ce541-8abb-4761-bae3-1209f076d228")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 165.1 127 0)
+			(uuid "40b0ac1e-3cc7-487f-8ac6-dd47a6b5de16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "multi_channel"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
