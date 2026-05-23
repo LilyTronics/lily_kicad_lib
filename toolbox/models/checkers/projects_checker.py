@@ -17,7 +17,6 @@ class ProjectsChecker:
 
     PART_MANDATORY_FIELDS = ["Status", "Manufacturer", "Manufacturer_ID", "Lily_ID", "JLCPCB_ID"]
     SKIP_SYMBOL_FIELDS = ["Name", "Extends"]
-    # SKIP_LAYOUT_FIELDS = [] # ["Name", "Reference", "Value", "Footprint", "Datasheet"]
 
     @classmethod
     def run(cls):
