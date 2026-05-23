@@ -11,6 +11,14 @@ class DesignParser:
     stdout = print
 
     @classmethod
+    def _get_project_name(cls, project_folder):
+        cls.stdout(f"Get project name from: {project_folder}")
+        items = glob.glob(os.path.join(project_folder, "*.kicad_pro"))
+        if len(items) != 1:
+            raise AssertionError("No KiCad project file found")
+        return os.path.basename(items[0]).replace(".kicad_pro", "")
+
+    @classmethod
     def _read_schematics(cls, project_folder):
         cls.stdout(f"Read schematics from: {project_folder}")
         lines = []
@@ -31,6 +39,8 @@ class DesignParser:
 
     @classmethod
     def get_symbols(cls, project_folder):
+        project_name = cls._get_project_name(project_folder)
+        cls.stdout(f"Project name: '{project_name}'")
         lines = cls._read_schematics(project_folder)
         symbols = []
         i = 0
@@ -49,22 +59,33 @@ class DesignParser:
                         if len(parts) == 2:
                             symbol[parts[0].strip('"')] = parts[1].strip().strip('"')
                     if lines[i] == "\t\t(instances\n":
-                        # Sheet is used multiple times.
+                        # Symbol is used multiple times.
                         while i < len(lines):
                             i += 1
-                            if lines[i].startswith("\t\t\t\t\t(reference "):
-                                references.append(lines[i].strip()[11:].strip(")").strip('"'))
+                            if lines[i].startswith("\t\t\t(project "):
+                                # Project found
+                                project = lines[i].strip()[9:].strip(")").strip('"')
+                                # Get references for the project
+                                while i < len(lines):
+                                    i += 1
+                                    if lines[i].startswith("\t\t\t\t\t(reference "):
+                                        reference = lines[i].strip()[11:].strip(")").strip('"')
+                                        # Add reference when project is "" or same as project_name
+                                        # And ref is not same as this symbol
+                                        if project in ["", project_name] and reference != symbol["Reference"]:
+                                            references.append(reference)
+                                    if lines[i] == "\t\t\t)\n":
+                                        break
                             if lines[i] == "\t\t)\n":
                                 break
 
                 symbols.append(symbol)
-                if len(references) > 1:
+                if len(references) > 0:
                     # Add extra symbols
                     for reference in references:
-                        if reference != symbol["Reference"]:
-                            extra_symbol = symbol.copy()
-                            extra_symbol["Reference"] = reference
-                            symbols.append(extra_symbol)
+                        extra_symbol = symbol.copy()
+                        extra_symbol["Reference"] = reference
+                        symbols.append(extra_symbol)
 
             i += 1
         return symbols
@@ -204,7 +225,7 @@ if __name__ == "__main__":
     _test_project_folder = os.path.abspath(
         os.path.join(
             os.path.dirname(__file__),
-            "..\\..\\..\\projects\\lib_test\\capacitors"
+            "..\\..\\..\\projects\\lib_test\\multi_channel"
         )
     )
 
