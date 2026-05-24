@@ -73,7 +73,7 @@ class ControllerProcessDesign(ControllerBase):
                 shutil.rmtree(pca_folder)
             os.makedirs(output_folder)
 
-            report.append("{timestamp} Process design: {design_filename}")
+            report.append(f"{timestamp} Process design: {design_filename}")
             report.append(f"Output folder: {pca_folder}")
 
             design_name = os.path.basename(design_filename).replace(".kicad_pro", "")
@@ -121,8 +121,8 @@ class ControllerProcessDesign(ControllerBase):
             self._main_view.add_to_console(f"Result are written to: {report_filename}")
 
     def _check_design(self, project_folder, report):
-        self._main_view.add_to_console("Check design to library")
-        report.append("\nCheck design to library")
+        self._main_view.add_to_console(f"Check design: {project_folder}")
+        report.append(f"\nCheck design: {project_folder}")
         ProjectsChecker.stdout = self._main_view.add_to_console
         messages = ProjectsChecker.check_project(project_folder)
         if len(messages) > 0:
