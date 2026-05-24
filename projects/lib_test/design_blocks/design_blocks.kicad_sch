@@ -1,0 +1,83 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e8589236-9418-4a81-bc72-f1cd45d55087")
+	(paper "A4")
+	(title_block
+		(title "Design blocks")
+		(date "2026-05-24")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e7223cd-0366-48a7-9860-b6499e2902de")
+		(property "Sheetname" "USB-C FT231XS interface"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_c_ft231xs.kicad_sch"
+			(at 25.4 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "design_blocks"
+				(path "/e8589236-9418-4a81-bc72-f1cd45d55087"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "lilytronics_page_layout_sch.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBxDB0XADZfYiDwWDfQMcnOQmlDrICnrVAC1V/+o+vtnvuQumgGPnRYaFkAVQBZAB9+0LNI
+				/Bc3I/E/nptnS3w9+RNpvuOhofY15ec51+T4hoZ6tfTUHf/kXwAAAoIR6X2cl7U01uW4JhxZMov/
+				ZcfuMdjuxuikEot3zF4qAAKCMWTScD7whgoBOUNlf+ygRHXujyRQpbIxBYpWObEN3WzobKwAeCx2
+				WlYqR3H0J/e4ttqSf/LffJ1YpXLWCNcij4+oUwbxpfI/H3nmYM+Oswh+OOXn70frQbdwbUkXBTe7
+				4+vBnQQ97Loz2RQL8TWCF4v5UeENE2IHX0TWtL2ue1yyplZaO7u9SSeRUBgZQqKYdBGIw8rNrrqI
+				B/FUhGx794+Vmqal7mXTNiszrXL+X4POljWrOcsBAYFB02hPKJALJNNZKuVKbtnoRjXNdp6ioekw
+				lwuEzs4Gh9WgWrqKojJ7tqS25YMOEvNGJ/XwOixCMW32jYiE5YJR2Ti5aV0vTTscuHH0/6kX3SRW
+				vYi9aJZ5cICkoLFgptzIUFBQkGQYA8BEpMQqHZoxAUuGn45uF4HjNx7AKkYT+RxFAq9bwMbDoSEA
+				WKFnPifYOaUM+mRk9iFiAYWQMs+MgXwfwPxkRq5KkdEeQQnfjJyyr3lpllUwd0b1gGMndVDCymNh
+				bPUulTy2JI1mkJ8WCMPWnEFSRZpPlRm0yZfZaHMxtAAY+skRQ34urRsX1LADAvI6EaOj+Y+Y4CJB
+				+bckCcqT2mWE8HkT0L6oFwJLND6vgpDPXOLvZ/V6IY83udLCufUggIH5cY+M/UTCgn8Nj0na94Ci
+				RE01nQGxvXDRkSMcfW01DytlWl5/qkJGqzBYeZkI2jnQGZyp3V6S46wCji5p2mKFPIaxt//k9mdY
+				QB568o+GA84yp/+BAcpAle/IEGQgE3rzcKKA7/CSw4pP0ts2I5sFGcx0Lpg306tZy9yHufQhxk3c
+				WUZ6QI3BqQI=|
+			)
+			(checksum "AA99E32D76E6281768E23AD2759012E5")
+		)
+	)
+)
