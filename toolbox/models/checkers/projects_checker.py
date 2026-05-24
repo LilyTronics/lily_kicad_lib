@@ -36,11 +36,11 @@ class ProjectsChecker:
     def check_project(cls, project_folder, is_test_project=False):
         DesignParser.stdout = cls.stdout
         LibParser.stdout = cls.stdout
-        cls.stdout("Check project against library")
         if isinstance(project_folder, str):
             project_folder = [project_folder]
         designs = {}
         for folder in project_folder:
+            cls.stdout(f"Check project: {folder}")
             designs[folder[len(cls.PROJECTS_PATH) + 1:]] = {
                 "symbols": DesignParser.get_symbols(folder),
                 "footprints": DesignParser.get_footprints(folder)
@@ -191,7 +191,7 @@ class ProjectsChecker:
                             design_value = lib_value
                         elif field == "Value":
                             # Values can be different in some cases
-                            if lib_value == "Vxx" or lib_value.startswith("con_"):
+                            if lib_value == "Vxx" or lib_name.startswith("con_") or lib_name.startswith("dio_led"):
                                 lib_value = design_value
                         if lib_value != design_value:
                             report_messages.append({
@@ -357,8 +357,13 @@ if __name__ == "__main__":
 
     from toolbox.models.show_messages import show_messages
 
-    TEST_PROJECT = r"C:\Work\lily_kicad_lib\projects\lib_test\design_blocks\design_blocks.kicad_pro"
+    _test_project_folder = os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            "..\\..\\..\\projects\\lib_test\\design_blocks"
+        )
+    )
 
     show_messages(ProjectsChecker.run())
 
-    show_messages(ProjectsChecker.check_project(TEST_PROJECT))
+    show_messages(ProjectsChecker.check_project(_test_project_folder))
