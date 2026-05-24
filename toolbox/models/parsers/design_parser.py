@@ -11,14 +11,6 @@ class DesignParser:
     stdout = print
 
     @classmethod
-    def _get_project_name(cls, project_folder):
-        cls.stdout(f"Get project name from: {project_folder}")
-        items = glob.glob(os.path.join(project_folder, "*.kicad_pro"))
-        if len(items) != 1:
-            raise AssertionError("No KiCad project file found")
-        return os.path.basename(items[0]).replace(".kicad_pro", "")
-
-    @classmethod
     def _read_schematics(cls, project_folder):
         cls.stdout(f"Read schematics from: {project_folder}")
         lines = []
@@ -38,10 +30,33 @@ class DesignParser:
         return lines
 
     @classmethod
+    def _get_sheets(cls, lines):
+        sheets = {}
+        i = 0
+        while i < len(lines):
+            if lines[i].startswith("\t(sheet") and not lines[i].startswith("\t(sheet_instances"):
+                sheet_id = ""
+                name = ""
+                while i < len(lines):
+                    i += 1
+                    if lines[i].startswith("\t\t(uuid "):
+                        sheet_id = lines[i].strip()[6:].strip(")").strip('"')
+                    if lines[i].startswith("\t\t(property \"Sheetname\" "):
+                        name = lines[i].strip()[22:].strip('"')
+                    if lines[i].startswith("\t)"):
+                        break
+                if name != "" and sheet_id != "":
+                    sheets[sheet_id] = name
+            i += 1
+        return sheets
+
+    @classmethod
     def get_symbols(cls, project_folder):
-        project_name = cls._get_project_name(project_folder)
-        cls.stdout(f"Project name: '{project_name}'")
         lines = cls._read_schematics(project_folder)
+        sheets = cls._get_sheets(lines)
+        print("Sheets:")
+        for key, value in sheets.items():
+            print("-", key, value)
         symbols = []
         i = 0
         while i < len(lines):
@@ -62,20 +77,20 @@ class DesignParser:
                         # Symbol is used multiple times.
                         while i < len(lines):
                             i += 1
-                            if lines[i].startswith("\t\t\t(project "):
-                                # Project found
-                                project = lines[i].strip()[9:].strip(")").strip('"')
-                                # Get references for the project
+                            path = ""
+                            ref = ""
+                            if lines[i].startswith("\t\t\t\t(path "):
+                                # We only need the last part of the path (sheet UUID)
+                                path = lines[i].strip()[6:].strip('"').split("/")[-1]
                                 while i < len(lines):
                                     i += 1
                                     if lines[i].startswith("\t\t\t\t\t(reference "):
-                                        reference = lines[i].strip()[11:].strip(")").strip('"')
-                                        # Add reference when project is "" or same as project_name
-                                        # And ref is not same as this symbol
-                                        if project in ["", project_name] and reference != symbol["Reference"]:
-                                            references.append(reference)
-                                    if lines[i] == "\t\t\t)\n":
+                                        ref = lines[i].strip()[11:].strip(")").strip('"')
+                                    if lines[i] == "\t\t\t\t)\n":
                                         break
+                            if path != "" and ref != "":
+                                if path in sheets and symbol["Reference"] != ref:
+                                    references.append(ref)
                             if lines[i] == "\t\t)\n":
                                 break
 
@@ -225,7 +240,7 @@ if __name__ == "__main__":
     _test_project_folder = os.path.abspath(
         os.path.join(
             os.path.dirname(__file__),
-            "..\\..\\..\\projects\\lib_test\\multi_channel"
+            "..\\..\\..\\projects\\lib_test\\design_blocks"
         )
     )
 
