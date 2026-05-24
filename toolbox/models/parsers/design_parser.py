@@ -15,6 +15,7 @@ class DesignParser:
         cls.stdout(f"Read schematics from: {project_folder}")
         lines = []
         for item in glob.glob(os.path.join(project_folder, "*.kicad_sch")):
+            cls.stdout(f"Read: {os.path.basename(item)}")
             with open(item, "r") as fp:
                 lines.extend(fp.readlines())
         return lines
@@ -54,9 +55,9 @@ class DesignParser:
     def get_symbols(cls, project_folder):
         lines = cls._read_schematics(project_folder)
         sheets = cls._get_sheets(lines)
-        print("Sheets:")
+        cls.stdout("Sheets:")
         for key, value in sheets.items():
-            print("-", key, value)
+            cls.stdout(f"* {key} {value}")
         symbols = []
         i = 0
         while i < len(lines):
