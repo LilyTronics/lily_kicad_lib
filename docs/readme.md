@@ -10,8 +10,8 @@ For parts datasheets are available in the folder `datasheets`.
 The datasheets should be arranged as follows:
 
 ```
- /datasheets
-   |- manufacturer
+ datasheets/
+   |- manufacturer/
        |- part_name.pdf
 ```
 
