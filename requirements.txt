@@ -1,3 +1,20 @@
-# Pyhton requirements, install with pip install -r requirements.txt
-wxpython
+# Setup the virtual environment and install the dependencies:
+#
+# On ubuntu make sure to install:
+# - sudo apt install python3 python3-venv pyhton3-pip
+#
+# Create a virtual environment:
+#   python -m venv .venv
+#
+# Activate the virtual environment:
+# On Windows:
+#   .venv\Scripts\activate
+# On Unix or MacOS:
+#   source .venv/bin/activate
+#
+# Upgrade pip and install the required packages:
+#   python.exe -m pip install --upgrade pip
+#   pip install -r requirements.txt
+#
 pyinstaller
+wxpython
