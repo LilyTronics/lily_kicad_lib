@@ -55,6 +55,7 @@ class SymbolsChecker:
         symbols = LibParser.get_symbols()
         cls.stdout(f"Checking {len(symbols)} symbols")
         for symbol in symbols:
+            cls._check_has_field(symbol, report_messages)
             for field in symbol:
                 if field not in cls.SKIP_EMPTY_CHECK:
                     cls._check_symbol_field_empty(symbol, field, report_messages)
@@ -81,6 +82,25 @@ class SymbolsChecker:
     ############
     # Checkers #
     ############
+
+    @classmethod
+    def _check_has_field(cls, symbol_data, report_messages):
+        caller = f"({cls.__name__}._check_has_field)"
+        is_part = cls._is_part(symbol_data)
+
+        # Mandatory fields
+        fields = cls.MANDATORY_FIELDS.copy()
+        if is_part:
+            # Add part fields
+            fields.extend(cls.PART_FIELDS)
+
+        for field in fields:
+            if field not in symbol_data:
+                report_messages.append({
+                    "item": symbol_data["Name"],
+                    "message": f"field '{field}' is missing {caller}"
+                })
+
 
     @classmethod
     def _check_symbol_field_empty(cls, symbol_data, field_name, report_messages):
@@ -135,6 +155,11 @@ class SymbolsChecker:
                     "item":    symbol_data["Name"],
                     "message": f"the revision must be greater than zero {caller}"
                 })
+        except (KeyError, ):
+            report_messages.append({
+                "item": symbol_data["Name"],
+                "message": "the revision is missing"
+            })
         except (TypeError, ValueError):
             report_messages.append({
                 "item": symbol_data["Name"],
