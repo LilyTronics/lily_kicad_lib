@@ -36,7 +36,7 @@ class UnusedItemsChecker:
 
     @classmethod
     def _check_unused_symbols(cls, symbols, report_messages):
-        caller = f"({cls.__name__}._check_unused_datasheets)"
+        caller = f"({cls.__name__}._check_unused_symbols)"
         for symbol in filter(lambda s: s.get("Extends", None) is None and s["Name"] not in cls._SKIP_SYMBOLS_UNUSED, symbols):
             matches = list(filter(lambda x: x.get("Extends", None) == symbol["Name"], symbols))
             if len(matches) == 0:
