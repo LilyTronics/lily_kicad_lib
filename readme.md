@@ -2,7 +2,7 @@
 
 This is a free to use KiCad library.
 
-Compatible KiCad version: 9 (and higher)
+Compatible with the latest release of KiCad (no backwards compatibility)
 
 * More than 400 symbols and 80 footprints.
 * Datasheet for each part (if applicable)
