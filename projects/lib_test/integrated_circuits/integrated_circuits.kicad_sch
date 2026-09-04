@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
@@ -25,11 +25,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "04e772ef-ae45-46b9-9a56-2a97463ecee5")
 		(property "Sheetname" "Interfaces"
 			(at 25.4 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,6 +41,8 @@
 		)
 		(property "Sheetfile" "interfaces.kicad_sch"
 			(at 25.4 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,11 +71,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0a3c8ba5-dccb-4ef6-8067-81c279456a3a")
 		(property "Sheetname" "Modules"
 			(at 127 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,6 +87,8 @@
 		)
 		(property "Sheetfile" "modules.kicad_sch"
 			(at 127 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,11 +117,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "11447c1d-12bc-4b1f-be42-30d1ccb690a0")
 		(property "Sheetname" "Sensors"
 			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,6 +133,8 @@
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
 			(at 25.4 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -151,11 +163,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3fcb8f78-9066-4e9f-9c65-4850623ce711")
 		(property "Sheetname" "Memories"
 			(at 177.8 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,6 +179,8 @@
 		)
 		(property "Sheetfile" "memories.kicad_sch"
 			(at 177.8 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,11 +209,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "48759d13-9ead-41ca-90be-0a5fd7c10c4f")
 		(property "Sheetname" "FPGAs"
 			(at 228.6 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,6 +225,8 @@
 		)
 		(property "Sheetfile" "fpgas.kicad_sch"
 			(at 228.6 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,11 +255,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "55b71c63-df37-48d7-8aea-a12a2b7d7120")
 		(property "Sheetname" "ADC and DAC"
 			(at 127 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,6 +271,8 @@
 		)
 		(property "Sheetfile" "adc_dac.kicad_sch"
 			(at 127 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,11 +301,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "64ad515c-1917-4362-ba42-40f00b5a0d5c")
 		(property "Sheetname" "Comparators"
 			(at 76.2 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,6 +317,8 @@
 		)
 		(property "Sheetfile" "comparators.kicad_sch"
 			(at 76.2 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,11 +347,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7eb33e6c-6bec-4cda-a87b-a5ea475db2bd")
 		(property "Sheetname" "Battery chargers"
 			(at 76.2 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,6 +363,8 @@
 		)
 		(property "Sheetfile" "battery_chargers.kicad_sch"
 			(at 76.2 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,11 +393,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "aab8d68a-9445-4e01-a879-d4613f75fbd3")
 		(property "Sheetname" "Voltage regulators"
 			(at 177.8 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,6 +409,8 @@
 		)
 		(property "Sheetfile" "voltage_regulators.kicad_sch"
 			(at 177.8 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,11 +439,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "bd7fe9ed-ddb9-415a-abb3-6877f614ff8c")
 		(property "Sheetname" "Opamps"
 			(at 228.6 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,6 +455,8 @@
 		)
 		(property "Sheetfile" "opamps.kicad_sch"
 			(at 228.6 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,11 +485,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c1a43358-592e-40a0-89d7-4a7bc0b9e2e8")
 		(property "Sheetname" "Microcontrollers"
 			(at 76.2 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,6 +501,8 @@
 		)
 		(property "Sheetfile" "microcontrollers.kicad_sch"
 			(at 76.2 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,11 +531,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "da1ff43c-dafd-4fdb-b10c-4c2ad42bbb42")
 		(property "Sheetname" "Timers"
 			(at 25.4 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -501,6 +547,8 @@
 		)
 		(property "Sheetfile" "timers.kicad_sch"
 			(at 25.4 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
