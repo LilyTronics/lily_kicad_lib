@@ -120,6 +120,7 @@ const generic_symbols = [
     { Name: "ic_usb_to_serial_FT231", Extends: "", Reference: "U", Value: "ic_usb_to_serial_FT231", Description: "", Footprint: "", Revision: "1", Datasheet: "" },
     { Name: "ic_volt_reference_3p", Extends: "", Reference: "U", Value: "ic_volt_reference_3p", Description: "", Footprint: "", Revision: "1", Datasheet: "" },
     { Name: "ic_volt_reg_linear_adjustable_3p", Extends: "", Reference: "U", Value: "ic_volt_reg_linear_adjustable_3p", Description: "", Footprint: "", Revision: "1", Datasheet: "" },
+    { Name: "ic_volt_reg_linear_adjustable_5p", Extends: "", Reference: "U", Value: "ic_volt_reg_linear_adjustable_5p", Description: "", Footprint: "", Revision: "1", Datasheet: "" },
     { Name: "ic_volt_reg_linear_adjustable_negative_3p", Extends: "", Reference: "U", Value: "ic_volt_reg_linear_adjustable_negative_3p", Description: "", Footprint: "", Revision: "1", Datasheet: "" },
     { Name: "ic_volt_reg_linear_fixed_3p", Extends: "", Reference: "U", Value: "ic_volt_reg_linear_fixed_3p", Description: "", Footprint: "", Revision: "1", Datasheet: "" },
     { Name: "ic_volt_reg_switching_6p", Extends: "", Reference: "U", Value: "ic_volt_reg_switching_6p", Description: "", Footprint: "", Revision: "1", Datasheet: "" },
@@ -300,6 +301,7 @@ const parts = [
     { Name: "ic_usb_to_serial_FT231XS_ssop20", Extends: "ic_usb_to_serial_FT231", Reference: "U", Value: "FT231XS", Description: "", Footprint: "lily_footprints:ssop20_pitch25_341x154mil", Revision: "1", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/ftdi/FT231X.pdf" },
     { Name: "ic_volt_reference_REF3040_4.096V_sot23", Extends: "ic_volt_reference_3p", Reference: "U", Value: "REF3040", Description: "", Footprint: "lily_footprints:sot23", Revision: "1", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/REF30_series.pdf" },
     { Name: "ic_volt_reg_AP2120N-3.3_sot23", Extends: "ic_volt_reg_linear_fixed_3p", Reference: "U", Value: "AP2120N-3.3", Description: "", Footprint: "lily_footprints:sot23", Revision: "1", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/AP2120.pdf" },
+    { Name: "ic_volt_reg_AP2205_sot23-5", Extends: "ic_volt_reg_linear_adjustable_5p", Reference: "U", Value: "AP2205", Description: "", Footprint: "lily_footprints:sot23-5", Revision: "1", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/AP2205.pdf" },
     { Name: "ic_volt_reg_AP62200_sot23-6", Extends: "ic_volt_reg_switching_6p", Reference: "U", Value: "AP62200", Description: "", Footprint: "lily_footprints:sot23-6_sc74", Revision: "1", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/AP62200.pdf" },
     { Name: "ic_volt_reg_AZ1117C_sot223", Extends: "ic_volt_reg_linear_adjustable_3p", Reference: "U", Value: "AZ1117C", Description: "", Footprint: "lily_footprints:sot223", Revision: "1", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/AZ1117C.pdf" },
     { Name: "ic_volt_reg_LM317_to263-2", Extends: "ic_volt_reg_linear_adjustable_3p", Reference: "U", Value: "LM317", Description: "", Footprint: "lily_footprints:to263-2", Revision: "1", Datasheet: "https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/LM317.pdf" },
@@ -670,8 +672,8 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-09-04 21:21</p>
-<p>Total symbols: 436</p>
+<p>Last updated: 2026-09-04 21:32</p>
+<p>Total symbols: 438</p>
 <p>Total footprints: 85</p>
 </div>
 
