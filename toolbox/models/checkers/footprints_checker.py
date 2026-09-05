@@ -33,8 +33,8 @@ class FootprintsChecker:
         "Revision":         {"Layer": "F.Fab",   "Size": "0.5 0.5",   "Thickness": "0.1",  "Visible": False}
     }
     SKIP_PROPERTIES_FIELDS = ["Name", "Attributes", "Footprint", "Model"]
-    NO_3D_MODEL = ["0_new_footprint", "doc_idc_area_", "doc_logo_", "fiducial_", "mec_hole_", "mec_mouse_bytes",
-                   "test_point_"]
+    NO_3D_MODEL = ["0_new_footprint", "doc_idc_area_", "doc_logo_", "doc_pot_meter_scale_", "fiducial_",
+                   "mec_hole_", "mec_mouse_bytes", "test_point_"]
     NO_IMAGE = ["0_new_footprint", "con_coax_rg_174_cable_to_pcb_", "con_spring_probe_pad", "doc_", "fiducial_",
                 "mec_hole", "mec_mouse_bytes", "test_point_"]
 

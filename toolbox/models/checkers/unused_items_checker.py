@@ -12,7 +12,8 @@ class UnusedItemsChecker:
 
     stdout = print
 
-    _SKIP_SYMBOLS_UNUSED = ["0_new_symbol", "Earth", "GND", "GNDA", "Vxx", "con_TC2030-IDC_lock", "doc_logo_lilytronics"]
+    _SKIP_SYMBOLS_UNUSED = ["0_new_symbol", "Earth", "GND", "Vxx", "con_TC2030-IDC_lock",
+                            "doc_logo_", "doc_pot_meter_scale_"]
     _SKIP_FOOTPRINTS_UNUSED = ["0_new_footprint", "mec_mouse_bytes"]
 
     @classmethod
@@ -37,7 +38,9 @@ class UnusedItemsChecker:
     @classmethod
     def _check_unused_symbols(cls, symbols, report_messages):
         caller = f"({cls.__name__}._check_unused_symbols)"
-        for symbol in filter(lambda s: s.get("Extends", None) is None and s["Name"] not in cls._SKIP_SYMBOLS_UNUSED, symbols):
+        for symbol in filter(lambda s: s.get("Extends", None) is None, symbols):
+            if symbol["Name"].startswith(tuple(cls._SKIP_SYMBOLS_UNUSED)):
+                continue
             matches = list(filter(lambda x: x.get("Extends", None) == symbol["Name"], symbols))
             if len(matches) == 0:
                 report_messages.append({
