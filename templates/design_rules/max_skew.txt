@@ -1,0 +1,14 @@
+(version 1) 
+(
+	rule "name of the rule"
+	(condition "A.hasNetclass('netclass name')")
+	(constraint skew (max 0.5mm))
+	(severity error)
+)
+ 
+(
+	rule "DIFF data max skew"
+	(condition "A.hasNetclass('netclass mame')")
+	(constraint skew (within_diff_pairs) (max 0.5mm))
+	(severity error)
+)
