@@ -12,14 +12,14 @@ from toolbox.tool_runner.src.logger import Logger
 
 def run_main():
     logger = Logger(AppData.LOG_FILENAME)
-    logger.write("Start application")
+    logger.write('Start application')
     app = wx.App(redirect=False)
     app.SetAppName(AppData.EXE_NAME)
-    ControllerMain(f"{AppData.APP_NAME} V{AppData.APP_VERSION}", logger)
+    ControllerMain(f'{AppData.APP_NAME} V{AppData.APP_VERSION}', logger)
     app.MainLoop()
-    logger.write("Application terminated")
+    logger.write('Application terminated')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
 
     run_main()
