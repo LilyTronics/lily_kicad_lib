@@ -4,6 +4,8 @@ Main view for the tool runner.
 
 import wx
 
+from datetime import datetime
+
 
 class ViewFrameMain(wx.Frame):
 
@@ -19,11 +21,15 @@ class ViewFrameMain(wx.Frame):
         self._image_list = wx.ImageList(32, 32)
         self._lbk_tools = wx.Listbook(panel, style=wx.BK_DEFAULT)
         self._lbk_tools.AssignImageList(self._image_list)
-        btn_reload = wx.Button(panel, self.ID_RELOAD, "Reload")
+        btn_reload = wx.Button(panel, self.ID_RELOAD, 'Reload')
+
+        self._txt_console = wx.TextCtrl(panel, style=wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_READONLY)
+        self._txt_console.SetFont(wx.Font(9, wx.FONTFAMILY_TELETYPE, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False))
 
         box = wx.BoxSizer(wx.VERTICAL)
-        box.Add(self._lbk_tools, 1, wx.EXPAND | wx.ALL, self._SPACING)
+        box.Add(self._lbk_tools, 2, wx.EXPAND | wx.ALL, self._SPACING)
         box.Add(btn_reload, 0, wx.LEFT | wx.RIGHT | wx.BOTTOM, self._SPACING)
+        box.Add(self._txt_console, 1, wx.EXPAND | wx.LEFT | wx.RIGHT | wx.BOTTOM, self._SPACING)
 
         panel.SetSizer(box)
         self.SetInitialSize(self._MIN_SIZE)
@@ -43,8 +49,20 @@ class ViewFrameMain(wx.Frame):
         i = self._image_list.Add(image)
         self._lbk_tools.AddPage(window, name, imageId=i)
 
+    def add_to_console(self, message):
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        for line in message.split('\n'):
+            if line.strip() != '':
+                line = f'{timestamp} - {line}'
+            self._txt_console.AppendText(f'{line}\n')
+        wx.YieldIfNeeded()
 
-if __name__ == "__main__":
+    def clear_console(self):
+        self._txt_console.Clear()
+        wx.YieldIfNeeded()
+
+
+if __name__ == '__main__':
 
     from toolbox.tool_runner.main import run_main
 
