@@ -51,7 +51,7 @@ class ControllerMain:
             image_path = os.path.join(tool.path, tool.image)
             window = tool.panel(lbk)
             self._view.add_tool(tool.name, window, wx.Bitmap(image_path))
-            self._controllers.append(tool.controller(window))
+            self._controllers.append(tool.controller(window, self._view))
 
     ##################
     # Event handlers #
