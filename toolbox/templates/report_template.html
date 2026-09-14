@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 32px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+}
+div {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 8px 0px 8px;
+    padding: 0px;
+}
+h1, h2 {
+    margin: 16px 0px 16px;
+    padding: 0px;
+}
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+th, td {
+    padding: 4px 8px;
+    border: 1px solid #666;
+    text-align: left;
+}
+th {
+    background-color: #666;
+    color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+input {
+    font-size: 14px;
+}
+.section {
+    margin: 32px 0px 32px;
+    padding-top: 8px;
+}
+</style>
+<script>
+
+const symbol_fields = $symbol_fields;
+const footprint_fields = $footprint_fields;
+
+const generic_symbols = [
+$generic_symbols_data
+];
+
+const parts = [
+$parts_data
+];
+
+const footprints = [
+$footprints_data
+];
+
+// Field not used for queries
+const query_skip_fields = ['Reference', 'Extends', 'Revision', 'Datasheet', 'Image'];
+
+
+function showData(e)
+{
+    let query = '';
+    if (e)
+    {
+        query = e.target.value;
+    }
+    document.getElementById('generic_symbol_table').innerHTML = generateTable(generic_symbols, query, symbol_fields);
+    document.getElementById('parts_table').innerHTML = generateTable(parts, query, symbol_fields);
+    document.getElementById('footprints_table').innerHTML = generateTable(footprints, query, footprint_fields);
+}
+
+function generateTable(items, query, field_names)
+{
+    let output = '<table>\n';
+    // Create header
+    output += '<tr>';
+    output += '<th>#</th>';
+    for (const field of field_names)
+    {
+        output += '<th>' + escapeHtml(field) + '</th>';
+    }
+    output += '</tr>\n';
+    // Add items
+    let i = 0;
+    for (const symbol of items)
+    {
+        let add_symbol = true;
+        if (query != '')
+        {
+            add_symbol = false;
+            for (const field of field_names)
+            {
+                if (query_skip_fields.includes(field))
+                {
+                    continue;
+                }
+                console.log(field);
+                if (symbol[field].toLowerCase().includes(query.toLowerCase()))
+                {
+                    add_symbol = true;
+                    break;
+                }
+            }
+        }
+        if (add_symbol)
+        {
+            i++;
+            output += '<tr>';
+            output += '<td>' + i + '</td>';
+            for (const field of field_names)
+            {
+                let value = symbol[field];
+                if (typeof value === 'string' && value.startsWith('https://'))
+                {
+                    value = '<a href="' + escapeHtml(value) + '" target="_blank">' + escapeHtml(value) + '</a>';
+                }
+                else if (field === 'Image' && value)
+                {
+                    value = '<img width="100px" src="data:image/jpeg;base64,' + value + '" />';
+                }
+                else
+                {
+                    value = escapeHtml(String(value));
+                }
+                output += '<td>' + value + '</td>';
+            }
+            output += '</tr>\n';
+        }
+    }
+    output += '</table>\n';
+    output = '<p>Total items: ' + i + '</p>\n' + output;
+    return output;
+}
+
+function escapeHtml(unsafe)
+{
+    return unsafe
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
+</script>
+</head>
+<body>
+<h1 id="top">Lily KiCad library</h1>
+
+<div class="section">
+<p>Last updated: $timestamp</p>
+<p>Total symbols: $total_symbols</p>
+<p>Total footprints: $total_footprints</p>
+</div>
+
+<div class="section">
+<p>The library contains generic symbols and parts (derived from generic symbols).</p>
+<p>It is preferred to use parts as much as possible.<p>
+<p>Generic symbols can be used if no part is available, but all properties must be added and
+a footprint must be connected manually in the schematics.</p>
+</div>
+
+<div class="section">
+<p>Filter: <input type="text" id="query" style="width:300px;"/></p>
+</div>
+
+<div id="generic-symbols" class="section">
+<p name="index-links"></p>
+<h2>Generic symbols</h2>
+<div id="generic_symbol_table"></div>
+</div>
+
+<div id="parts" class="section">
+<p name="index-links"></p>
+<h2>Parts</h2>
+<div id="parts_table"></div>
+</div>
+
+<div id="footprints" class="section">
+<p name="index-links"></p>
+<h2>Footprints</h2>
+<div id="footprints_table"></div>
+</div>
+
+<script>
+let uri = window.location.href.replace(window.location.hash, '');
+
+const index_links = `<a href="` + uri + `#generic-symbols">Generic symbols</a> |
+<a href="` + uri + `#parts">Parts</a> |
+<a href="` + uri + `#footprints">Footprints</a> |
+<a href="` + uri + `#top">Top</a>`;
+
+let elms = document.getElementsByName('index-links')
+for (let i = 0; i < elms.length; i++)
+{
+    elms[i].innerHTML = index_links;
+}
+
+showData();
+const input = document.getElementById('query');
+input.addEventListener('input', showData);
+</script>
+</body>
+</html>
