@@ -6,7 +6,11 @@ import wx
 
 
 class Panel(wx.Panel):
-    pass
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        lbl = wx.StaticText(self, wx.ID_ANY, "Tool template panel loaded")
+        lbl.SetPosition((10, 10))
 
 
 if __name__ == "__main__":

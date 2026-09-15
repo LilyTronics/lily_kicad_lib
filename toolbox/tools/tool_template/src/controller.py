@@ -7,7 +7,11 @@ from toolbox.tools.common.controller_base import ControllerBase
 
 
 class Controller(ControllerBase):
-    pass
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.logger.add_to_console("Tool template controller loaded")
+
 
 
 if __name__ == "__main__":
