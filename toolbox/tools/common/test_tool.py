@@ -4,7 +4,7 @@ Run the tool in a separate window for testing.
 
 import wx
 
-from toolbox.tool_runner.src.logger import Logger
+from toolbox.common.logger import Logger
 
 
 def run_tool(name, panel, controller):

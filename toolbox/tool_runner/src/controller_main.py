@@ -5,10 +5,10 @@ Main controller for the tool runner
 import os
 import wx
 
+from toolbox.common.logger import Logger
 from toolbox.tool_runner.src.application_settings import ApplicationSettings
 from toolbox.tool_runner.src.tools_registry import ToolsRegistry
 from toolbox.tool_runner.src.view_frame_main import ViewFrameMain
-from toolbox.tool_runner.src.logger import Logger
 
 
 class ControllerMain:
