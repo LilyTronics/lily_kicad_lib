@@ -2,15 +2,12 @@
 Controller for tool template.
 """
 
-import wx
 
 from toolbox.tools.common.controller_base import ControllerBase
 
 
 class Controller(ControllerBase):
-
-    def __init__(self, *args):
-        super().__init__(*args)
+    pass
 
 
 if __name__ == "__main__":

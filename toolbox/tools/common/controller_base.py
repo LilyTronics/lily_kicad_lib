@@ -2,17 +2,14 @@
 Base controller for the tools.
 """
 
-import time
-import traceback
-
 
 class ControllerBase:
 
     UPDATE_INTERVAL = 1
 
-    def __init__(self, tool_window, app_window):
+    def __init__(self, tool_window, logger):
         self.tool_view = tool_window
-        self.app_view = app_window
+        self.logger = logger
 
 
 if __name__ == '__main__':

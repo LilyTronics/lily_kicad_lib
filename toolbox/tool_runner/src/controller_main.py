@@ -8,16 +8,17 @@ import wx
 from toolbox.tool_runner.src.application_settings import ApplicationSettings
 from toolbox.tool_runner.src.tools_registry import ToolsRegistry
 from toolbox.tool_runner.src.view_frame_main import ViewFrameMain
+from toolbox.tool_runner.src.logger import Logger
 
 
 class ControllerMain:
 
-    def __init__(self, title, logger):
-        self._logger = logger
+    def __init__(self, title):
         self._controllers = []
         self._app_settings = ApplicationSettings()
         self._view = ViewFrameMain(title)
         self._view.Show()
+        self._logger = Logger(self._view.get_console())
         wx.CallAfter(self._prepare_view)
         wx.CallAfter(self._load_tools)
 
@@ -38,11 +39,9 @@ class ControllerMain:
         self._view.Bind(wx.EVT_BUTTON, self._on_reload, id=self._view.ID_RELOAD)
 
     def _load_callback(self, _, message):
-        self._logger.write(message)
+        self._logger.add_to_console(message)
 
     def _load_tools(self):
-        for c in self._controllers:
-            c.stop()
         del self._controllers[:]
         self._view.remove_tools()
         lbk = self._view.get_list_book()
@@ -51,14 +50,15 @@ class ControllerMain:
             image_path = os.path.join(tool.path, tool.image)
             window = tool.panel(lbk)
             self._view.add_tool(tool.name, window, wx.Bitmap(image_path))
-            self._controllers.append(tool.controller(window, self._view))
+            self._controllers.append(tool.controller(window, self._logger))
 
     ##################
     # Event handlers #
     ##################
 
     def _on_reload(self, event):
-        self._logger.write("Reload tools")
+        self._logger.clear_console()
+        self._logger.add_to_console("Reload tools")
         self._load_tools()
         event.Skip()
 
@@ -72,6 +72,6 @@ class ControllerMain:
 
 if __name__ == "__main__":
 
-    from tool_runner.main import run_main
+    from toolbox.tool_runner.main import run_main
 
     run_main()

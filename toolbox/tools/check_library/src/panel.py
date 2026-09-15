@@ -35,10 +35,10 @@ class Panel(wx.Panel):
     ##########
 
     def initialize_tree(self, checker_names):
-            self._tree.DeleteAllItems()
-            root = self._tree.GetRootItem()
-            for name in checker_names:
-                self._tree.AppendItem(root, name)
+        self._tree.DeleteAllItems()
+        root = self._tree.GetRootItem()
+        for name in checker_names:
+            self._tree.AppendItem(root, name)
 
     def add_messages(self, name, messages):
         # Find item with the given name

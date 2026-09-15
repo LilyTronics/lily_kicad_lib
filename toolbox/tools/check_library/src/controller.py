@@ -33,8 +33,8 @@ class Controller(ControllerBase):
     ###########
 
     def _run_checker(self, checker):
-        self.app_view.add_to_console(f'\nRun checker: {checker}')
-        self._checkers[checker].stdout = self.app_view.add_to_console
+        self.logger.add_to_console(f'\nRun checker: {checker}')
+        self._checkers[checker].stdout = self.logger.add_to_console
         messages = self._checkers[checker].run()
         self.tool_view.add_messages(checker, messages)
 
@@ -44,7 +44,7 @@ class Controller(ControllerBase):
 
     def _on_check_click(self, _event):
         self.tool_view.initialize_tree(list(self._checkers.keys()))
-        self.app_view.clear_console()
+        self.logger.clear_console()
         for checker in self._checkers:
             wx.CallAfter(self._run_checker, checker)
 

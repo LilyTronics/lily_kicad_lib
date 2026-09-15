@@ -4,13 +4,9 @@ Panel with controls for the power supply
 
 import wx
 
-import toolbox.tools.common.gui_sizes as GuiSizes
-
 
 class Panel(wx.Panel):
-
-    def __init__(self, parent):
-        super().__init__(parent)
+    pass
 
 
 if __name__ == "__main__":

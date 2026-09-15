@@ -23,8 +23,12 @@ class ViewFrameMain(wx.Frame):
         self._lbk_tools.AssignImageList(self._image_list)
         btn_reload = wx.Button(panel, self.ID_RELOAD, 'Reload')
 
-        self._txt_console = wx.TextCtrl(panel, style=wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_READONLY)
-        self._txt_console.SetFont(wx.Font(9, wx.FONTFAMILY_TELETYPE, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False))
+        self._txt_console = wx.TextCtrl(
+            panel, style=wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_READONLY
+        )
+        self._txt_console.SetFont(
+            wx.Font(9, wx.FONTFAMILY_TELETYPE, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False)
+        )
 
         box = wx.BoxSizer(wx.VERTICAL)
         box.Add(self._lbk_tools, 2, wx.EXPAND | wx.ALL, self._SPACING)
@@ -38,6 +42,9 @@ class ViewFrameMain(wx.Frame):
     # Public #
     ##########
 
+    def get_console(self):
+        return self._txt_console
+
     def get_list_book(self):
         return self._lbk_tools
 
@@ -48,18 +55,6 @@ class ViewFrameMain(wx.Frame):
     def add_tool(self, name, window, image):
         i = self._image_list.Add(image)
         self._lbk_tools.AddPage(window, name, imageId=i)
-
-    def add_to_console(self, message):
-        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        for line in message.split('\n'):
-            if line.strip() != '':
-                line = f'{timestamp} - {line}'
-            self._txt_console.AppendText(f'{line}\n')
-        wx.YieldIfNeeded()
-
-    def clear_console(self):
-        self._txt_console.Clear()
-        wx.YieldIfNeeded()
 
 
 if __name__ == '__main__':
