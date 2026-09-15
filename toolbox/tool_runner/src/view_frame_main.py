@@ -4,8 +4,6 @@ Main view for the tool runner.
 
 import wx
 
-from datetime import datetime
-
 
 class ViewFrameMain(wx.Frame):
 
