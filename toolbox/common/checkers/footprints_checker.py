@@ -25,19 +25,33 @@ class FootprintsChecker:
     }
     FIELD_PROPERTIES = {
         # Field name: (layer, size, thickness)
-        'Reference':        {'Layer': 'F.SilkS', 'Size': '0.8 0.8',   'Thickness': '0.16', 'Visible': True},
-        'Reference_F.Fab':  {'Layer': 'F.Fab',   'Size': '0.5 0.5',   'Thickness': '0.1',  'Visible': True},
-        'Pin_1_mark':       {'Layer': 'F.SilkS', 'Size': '0.8 0.8',   'Thickness': '0.16', 'Visible': True},
-        'Value':            {'Layer': 'F.Fab',   'Size': '0.5 0.5',   'Thickness': '0.1',  'Visible': False},
-        'Datasheet':        {'Layer': 'F.Fab',   'Size': '1.27 1.27', 'Thickness': '0.15', 'Visible': False},
-        'Description':      {'Layer': 'F.Fab',   'Size': '1.27 1.27', 'Thickness': '0.15', 'Visible': False},
-        'Revision':         {'Layer': 'F.Fab',   'Size': '0.5 0.5',   'Thickness': '0.1',  'Visible': False}
+        'Reference': {
+            'Layer': 'F.SilkS', 'Size': '0.8 0.8',   'Thickness': '0.16', 'Visible': True
+        },
+        'Reference_F.Fab': {
+            'Layer': 'F.Fab',   'Size': '0.5 0.5',   'Thickness': '0.1',  'Visible': True
+        },
+        'Pin_1_mark': {
+            'Layer': 'F.SilkS', 'Size': '0.8 0.8',   'Thickness': '0.16', 'Visible': True
+        },
+        'Value': {
+            'Layer': 'F.Fab',   'Size': '0.5 0.5',   'Thickness': '0.1',  'Visible': False
+        },
+        'Datasheet': {
+            'Layer': 'F.Fab',   'Size': '1.27 1.27', 'Thickness': '0.15', 'Visible': False
+        },
+        'Description': {
+            'Layer': 'F.Fab',   'Size': '1.27 1.27', 'Thickness': '0.15', 'Visible': False
+        },
+        'Revision': {
+            'Layer': 'F.Fab',   'Size': '0.5 0.5',   'Thickness': '0.1',  'Visible': False
+        }
     }
     SKIP_PROPERTIES_FIELDS = ['Name', 'Attributes', 'Footprint', 'Model']
-    NO_3D_MODEL = ['0_new_footprint', 'doc_idc_area_', 'doc_logo_', 'doc_pot_meter_scale_', 'fiducial_',
-                   'mec_hole_', 'mec_mouse_bytes', 'test_point_']
-    NO_IMAGE = ['0_new_footprint', 'con_coax_rg_174_cable_to_pcb_', 'con_spring_probe_pad', 'doc_', 'fiducial_',
-                'mec_hole', 'mec_mouse_bytes', 'test_point_']
+    NO_3D_MODEL = ['0_new_footprint', 'doc_idc_area_', 'doc_logo_', 'doc_pot_meter_scale_',
+                   'fiducial_', 'mec_hole_', 'mec_mouse_bytes', 'test_point_']
+    NO_IMAGE = ['0_new_footprint', 'con_coax_rg_174_cable_to_pcb_', 'con_spring_probe_pad', 'doc_',
+                'fiducial_', 'mec_hole', 'mec_mouse_bytes', 'test_point_']
 
     @classmethod
     def run(cls):
@@ -129,14 +143,16 @@ class FootprintsChecker:
                 if len(diff) > 0:
                     report_messages.append({
                         'item': footprint_data['Name'],
-                        'message': f"field '{field_name}' has properties that are not in properties to check: {', '.join(diff)} {caller}"
+                        'message': f"field '{field_name}' has properties that are not in "
+                                   f'properties to check: {', '.join(diff)} {caller}'
                     })
                 # Properties in the expected properties, not in the field
                 diff = list(set(expected_props.keys()) - set(footprint_props.keys()))
                 if len(diff) > 0:
                     report_messages.append({
                         'item': footprint_data['Name'],
-                        'message': f"field '{field_name}' is missing properties that are in properties to check: {', '.join(diff)} {caller}"
+                        'message': f"field '{field_name}' is missing properties that are in "
+                                   f'properties to check: {', '.join(diff)} {caller}'
                     })
 
                 # Some values depend on field and or footprint
@@ -165,7 +181,8 @@ class FootprintsChecker:
                     if value != expected:
                         report_messages.append({
                         'item': footprint_data['Name'],
-                        'message': f"field '{field_name}' property '{prop}' has invalid value '{value}' expected '{expected}' {caller}"
+                        'message': f"field '{field_name}' property '{prop}' has invalid value "
+                                   f"'{value}' expected '{expected}' {caller}"
                     })
 
                 if field_name == 'Pin_1_mark':
@@ -176,12 +193,13 @@ class FootprintsChecker:
                     if value != expected:
                         report_messages.append({
                         'item': footprint_data['Name'],
-                        'message': f"field '{field_name}' has an invalid value '{value}' expected '{expected}' {caller}"
+                        'message': f"field '{field_name}' has an invalid value '{value}' "
+                                   f"expected '{expected}' {caller}"
                     })
 
             # Pin 1 mark is not mandatory
-            elif (field_name != 'Pin_1_mark'):
-                    report_messages.append({
+            elif field_name != 'Pin_1_mark':
+                report_messages.append({
                     'item': footprint_data['Name'],
                     'message': f"no properties for '{field_name}' {caller}"
                 })
@@ -224,18 +242,21 @@ class FootprintsChecker:
     def _check_footprint_attributes(cls, footprint_data, report_messages):
         caller = f'({cls.__name__}._check_footprint_attributes)'
         if footprint_data['Name'].startswith('doc_'):
-            if 'smd' in footprint_data['Attributes'] or 'through_hole' in footprint_data['Attributes']:
+            if ('smd' in footprint_data['Attributes'] or
+                'through_hole' in footprint_data['Attributes']):
                 report_messages.append({
                     'item': footprint_data['Name'],
                     'message': f'footprint type must be unspecified {caller}'
                 })
         else:
-            if 'smd' not in footprint_data['Attributes'] and 'through_hole' not in footprint_data['Attributes']:
+            if ('smd' not in footprint_data['Attributes'] and
+                'through_hole' not in footprint_data['Attributes']):
                 report_messages.append({
                     'item': footprint_data['Name'],
                     'message': f'footprint type must be SMD or through hole {caller}'
                 })
-        if footprint_data['Name'].endswith('_th') and 'through_hole' not in footprint_data['Attributes']:
+        if (footprint_data['Name'].endswith('_th') and
+            'through_hole' not in footprint_data['Attributes']):
             report_messages.append({
                 'item': footprint_data['Name'],
                 'message': f'footprint should be set to through hole {caller}'
@@ -258,12 +279,15 @@ class FootprintsChecker:
         attributes['board_only'][0] = is_mouse_bytes
 
         # Not in position files
-        attributes['exclude_from_pos_files'][0] = (is_through_hole or is_test_point or is_doc_footprint or
-                                                    is_footprint_only)
+        attributes['exclude_from_pos_files'][0] = (
+            is_through_hole or is_test_point or is_doc_footprint or is_footprint_only
+        )
 
         # Not in BOM
-        attributes['exclude_from_bom'][0] = (is_test_point or is_mec_hole or is_fiducial or is_mouse_bytes or
-                                                is_doc_footprint or is_footprint_only)
+        attributes['exclude_from_bom'][0] = (
+            is_test_point or is_mec_hole or is_fiducial or is_mouse_bytes or
+            is_doc_footprint or is_footprint_only
+        )
 
         # Excempt from courtyard requirement
         attributes['allow_missing_courtyard'][0] = is_doc_footprint
@@ -274,7 +298,8 @@ class FootprintsChecker:
             if attribute in footprint_data['Attributes'] and not attributes[attribute][0]:
                 report_messages.append({
                     'item': footprint_data['Name'],
-                    'message': f'attribute {attributes[attribute][1]} should not be enabled {caller}'
+                    'message': f'attribute {attributes[attribute][1]} should not be enabled '
+                               f'{caller}'
                 })
             elif attribute not in footprint_data['Attributes'] and attributes[attribute][0]:
                 report_messages.append({
@@ -311,18 +336,23 @@ class FootprintsChecker:
                     'message': f"3D model folder must start with '../3d_models/' {caller}"
                 })
             else:
-                full_path = os.path.abspath(os.path.join(ToolboxData.ROOT_PATH, '3d_models', footprint_data['Model']))
+                full_path = os.path.abspath(os.path.join(
+                    ToolboxData.ROOT_PATH, '3d_models', footprint_data['Model']
+                ))
                 if not os.path.isfile(full_path):
                     report_messages.append({
                         'item': footprint_data['Name'],
-                        'message': f'3D model file does not exists {footprint_data['Model']} {caller}'
+                        'message': f'3D model file does not exists {footprint_data['Model']} '
+                                   f'{caller}'
                     })
 
     @classmethod
     def _check_image(cls, footprint_data, report_messages):
         caller = f'({cls.__name__}._check_image)'
         should_have_image = True
-        full_path = f'{os.path.join(ToolboxData.ROOT_PATH, 'lily_footprints.pretty', footprint_data['Name'])}.png'
+        full_path = f'{os.path.join(
+            ToolboxData.ROOT_PATH, 'lily_footprints.pretty', footprint_data['Name']
+        )}.png'
         has_image = os.path.isfile(full_path)
 
         for query in cls.NO_IMAGE:
@@ -344,6 +374,6 @@ class FootprintsChecker:
 
 if __name__ == '__main__':
 
-    from temp.toolbox.models.show_messages import show_messages
+    from toolbox.common.show_messages import show_messages
 
     show_messages(FootprintsChecker.run())

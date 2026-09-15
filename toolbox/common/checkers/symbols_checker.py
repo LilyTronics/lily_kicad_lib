@@ -3,7 +3,6 @@ Class that checks the symbols
 """
 
 import os
-import re
 import threading
 import time
 import urllib.request
@@ -42,7 +41,8 @@ class SymbolsChecker:
         'test_point':   'TP',
         'Vxx':          '#PWR'
     }
-    PART_FIELDS = ['Datasheet', 'Extends', 'Footprint', 'Manufacturer', 'Manufacturer_ID', 'JLCPCB_ID', 'Lily_ID', 'Status']
+    PART_FIELDS = ['Datasheet', 'Extends', 'Footprint', 'Manufacturer', 'Manufacturer_ID',
+                   'JLCPCB_ID', 'Lily_ID', 'Status']
     MANDATORY_FIELDS = ['Name', 'Reference', 'Revision', 'Value']
     OPTIONAL_FIELDS_NON_PARTS = ['Datasheet', 'Extends', 'Footprint']
     SKIP_EMPTY_CHECK = ['Description']
@@ -136,9 +136,9 @@ class SymbolsChecker:
         caller = f'({cls.__name__}._check_reference)'
         is_correct = False
         # Regular stuff
-        for check in cls.REFERENCES:
-            if ((symbol_data['Name'] == check or symbol_data['Name'].startswith(f'{check}_')) and
-                    symbol_data['Reference'] == cls.REFERENCES[check]):
+        for key, value in cls.REFERENCES.items():
+            if ((symbol_data['Name'] == key or symbol_data['Name'].startswith(f'{key}_')) and
+                    symbol_data['Reference'] == value):
                 is_correct = True
         if not is_correct:
             report_messages.append({
@@ -189,7 +189,7 @@ class SymbolsChecker:
         if len(parts) != 2:
             report_messages.append({
                 'item': symbol_data['Name'],
-                'message': f'footprint invalid'
+                'message': 'footprint invalid'
             })
         else:
             if parts[0] != 'lily_footprints':
@@ -198,7 +198,9 @@ class SymbolsChecker:
                     'message': f"invalid footprint library '{parts[0]}' {caller}"
                 })
             else:
-                footprint_file = os.path.join(ToolboxData.ROOT_PATH, f'{parts[0]}.pretty', f'{parts[1]}.kicad_mod')
+                footprint_file = os.path.join(
+                    ToolboxData.ROOT_PATH, f'{parts[0]}.pretty', f'{parts[1]}.kicad_mod'
+                )
                 if not os.path.isfile(footprint_file):
                     report_messages.append({
                         'item': symbol_data['Name'],
@@ -249,7 +251,7 @@ class SymbolsChecker:
         try:
             with urllib.request.urlopen(uri) as response:
                 assert response.status == 200
-        except (Exception,):
+        except (Exception, ):
             report_messages.append({
                 'item': symbol_name,
                 'message': f'Datasheet URI not available {uri} {caller}'
@@ -258,6 +260,6 @@ class SymbolsChecker:
 
 if __name__ == '__main__':
 
-    from temp.toolbox.models.show_messages import show_messages
+    from toolbox.common.show_messages import show_messages
 
     show_messages(SymbolsChecker.run())

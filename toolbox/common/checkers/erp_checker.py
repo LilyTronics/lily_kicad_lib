@@ -29,7 +29,7 @@ class ErpChecker:
         result = get_components_from_erp(cls.stdout)
         if result[0]:
             erp_components = result[1]
-        lib_components = list(filter(lambda c: cls.lib_filter(c), LibParser.get_symbols()))
+        lib_components = list(filter(cls.lib_filter, LibParser.get_symbols()))
         # Make name format in library components same as the name in the ERP database
         lib_components = [{**c, 'Name': c['Name'].replace('_', ' ')} for c in lib_components]
         cls.stdout(f'Checking {len(erp_components)} ERP components')
@@ -44,7 +44,9 @@ class ErpChecker:
         # Check if library component is available in the ERP database
         for lib_comp in lib_components:
             # Check by ID
-            matches = list(filter(lambda c: c['default_code'] == lib_comp['Lily_ID'], erp_components))
+            matches = list(filter(
+                lambda c: c['default_code'] == lib_comp['Lily_ID'], erp_components
+            ))
             if len(matches) > 1:
                 # Duplicate ID
                 report_messages.append({
@@ -113,7 +115,9 @@ class ErpChecker:
         # Check if ERP components are missing in the library
         for erp_comp in erp_components:
             # Check by ID
-            matches = list(filter(lambda c: c['Lily_ID'] == erp_comp['default_code'], lib_components))
+            matches = list(filter(
+                lambda c: c['Lily_ID'] == erp_comp['default_code'], lib_components
+            ))
             if len(matches) > 1:
                 # Duplicate ID
                 report_messages.append({
@@ -164,6 +168,6 @@ class ErpChecker:
 
 if __name__ == '__main__':
 
-    from temp.toolbox.models.show_messages import show_messages
+    from toolbox.common.show_messages import show_messages
 
     show_messages(ErpChecker.run())
