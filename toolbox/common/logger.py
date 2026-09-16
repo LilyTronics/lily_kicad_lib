@@ -28,6 +28,7 @@ class Logger:
             if line.strip() != '':
                 line = f'{timestamp} - {line}'
                 self._console.AppendText(f'{line}\n')
+                self._org_stdout.write(f'{line}\n')
         wx.YieldIfNeeded()
 
     def clear_console(self):
