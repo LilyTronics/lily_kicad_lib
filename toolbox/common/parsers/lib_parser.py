@@ -21,7 +21,7 @@ class LibParser:
     @classmethod
     def get_symbols(cls):
         cls.stdout(f'Read symbols library: {cls.LIB_SYMBOLS_FILENAME}')
-        with open(cls.LIB_SYMBOLS_FILENAME, 'r') as fp:
+        with open(cls.LIB_SYMBOLS_FILENAME, 'r', encoding='utf-8') as fp:
             lines = fp.readlines()
         symbols = []
         i = 0
@@ -57,7 +57,7 @@ class LibParser:
         footprints = []
         fields = []
         for item in glob.glob(os.path.join(cls.LIB_FOOTPRINT_PATH, '*.kicad_mod')):
-            with open(item, 'r') as fp:
+            with open(item, 'r', encoding='utf-8') as fp:
                 lines = fp.readlines()
             i = 0
             footprint = {}
