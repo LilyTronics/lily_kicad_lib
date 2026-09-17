@@ -16,7 +16,7 @@ class DesignParser:
         lines = []
         for item in glob.glob(os.path.join(project_folder, '*.kicad_sch')):
             cls.stdout(f'Read: {os.path.basename(item)}')
-            with open(item, 'r') as fp:
+            with open(item, 'r', encoding='utf-8') as fp:
                 lines.extend(fp.readlines())
         return lines
 
@@ -26,7 +26,7 @@ class DesignParser:
         items = glob.glob(os.path.join(project_folder, '*.kicad_pcb'))
         if len(items) == 1:
             cls.stdout(f'Read layout from: {items[0]}')
-            with open(items[0], 'r') as fp:
+            with open(items[0], 'r', encoding='utf-8') as fp:
                 lines = fp.readlines()
         return lines
 
