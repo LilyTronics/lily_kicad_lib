@@ -38,25 +38,25 @@ class Panel(wx.Panel):
     ###########
 
     def _create_form(self):
-        lbl_category = wx.StaticText(self, wx.ID_ANY, "Category:")
+        lbl_category = wx.StaticText(self, wx.ID_ANY, 'Category:')
         self._cmb_categories = wx.Choice(self, self.ID_CMB_CATEGORIES)
-        self._lbl_series = wx.StaticText(self, wx.ID_ANY, "Series:")
+        self._lbl_series = wx.StaticText(self, wx.ID_ANY, 'Series:')
         self._lbl_series.Disable()
         self._cmb_series = wx.Choice(self)
         self._cmb_series.Disable()
-        self._lbl_value = wx.StaticText(self, wx.ID_ANY, "Value:")
+        self._lbl_value = wx.StaticText(self, wx.ID_ANY, 'Value:')
         self._lbl_value.Disable()
         self._txt_value = wx.TextCtrl(self)
         self._txt_value.Disable()
-        btn_generate = wx.Button(self, self.ID_BTN_GENERATE, "Generate product ID")
+        btn_generate = wx.Button(self, self.ID_BTN_GENERATE, 'Generate product ID')
 
-        lbl_low = wx.StaticText(self, wx.ID_ANY, "Lowest existing ID:")
-        lbl_high = wx.StaticText(self, wx.ID_ANY, "Highest existing ID:")
-        lbl_next = wx.StaticText(self, wx.ID_ANY, "Next available ID:")
+        lbl_low = wx.StaticText(self, wx.ID_ANY, 'Lowest existing ID:')
+        lbl_high = wx.StaticText(self, wx.ID_ANY, 'Highest existing ID:')
+        lbl_next = wx.StaticText(self, wx.ID_ANY, 'Next available ID:')
         self._txt_low = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
         self._txt_high = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
         self._txt_next = wx.TextCtrl(self, wx.ID_ANY, style=wx.TE_READONLY)
-        btn_apply_code = wx.Button(self, self.ID_BTN_APPLY_CODE, "Apply to selected part")
+        btn_apply_code = wx.Button(self, self.ID_BTN_APPLY_CODE, 'Apply to selected part')
 
         grid = wx.GridBagSizer(*GuiSizes.GRID_SPACING)
         grid.Add(lbl_category, (0, 0), wx.DefaultSpan, wx.ALIGN_CENTER_VERTICAL)
@@ -104,7 +104,7 @@ class Panel(wx.Panel):
 
     def enable_controls(self, category):
         self._restore_controls()
-        if "value" in category.product_id:
+        if 'value' in category.product_id:
             self._lbl_value.Enable()
             self._txt_value.Enable()
         if len(category.series) > 0:
@@ -117,29 +117,29 @@ class Panel(wx.Panel):
         cat_index = self._cmb_categories.GetSelection()
         ser_index = self._cmb_series.GetSelection()
         return {
-            "category": "" if cat_index < 0 else self._cmb_categories.GetString(cat_index),
-            "series": "" if ser_index < 0 else self._cmb_series.GetString(ser_index),
-            "value": self._txt_value.GetValue().strip()
+            'category': '' if cat_index < 0 else self._cmb_categories.GetString(cat_index),
+            'series': '' if ser_index < 0 else self._cmb_series.GetString(ser_index),
+            'value': self._txt_value.GetValue().strip()
         }
 
     def set_product_ids(self, product_ids):
-        self._txt_low.SetValue(product_ids["low"])
-        self._txt_high.SetValue(product_ids["high"])
-        self._txt_next.SetValue(product_ids["next"])
+        self._txt_low.SetValue(product_ids['low'])
+        self._txt_high.SetValue(product_ids['high'])
+        self._txt_next.SetValue(product_ids['next'])
         self.Layout()
 
     def get_new_code(self):
         return self._txt_next.GetValue().strip()
 
     def get_selected_part(self):
-        name = ""
+        name = ''
         item = self._lst_parts.GetSelection()
         if item.IsOk():
             name = self._lst_parts.GetItemText(item, 1)
         return name
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
 
     from toolbox.tools.common.test_tool import run_tool
     from toolbox.tools.lily_erp.tool_info import ToolInfo

@@ -13,7 +13,7 @@ def get_erp_parts():
         if 'Lily_ID' in symbol:
             parts.append(symbol)
     # Firts sort by ID, then by name
-    return sorted(parts, key=lambda x: (x["Lily_ID"], x["Name"]))
+    return sorted(parts, key=lambda x: (x['Lily_ID'], x['Name']))
 
 
 if __name__ == '__main__':
