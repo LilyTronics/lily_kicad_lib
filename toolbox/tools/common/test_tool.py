@@ -37,14 +37,14 @@ if __name__ == '__main__':
 
         def __init__(self, *args, **kwargs):
             super().__init__(*args, **kwargs)
-            lbl = wx.StaticText(self, wx.ID_ANY, "Test panel loaded")
+            lbl = wx.StaticText(self, wx.ID_ANY, 'Test panel loaded')
             lbl.SetPosition((10, 10))
 
     class TestController(ControllerBase):
 
         def __init__(self, *args, **kwargs):
             super().__init__(*args, **kwargs)
-            self.logger.add_to_console("Test controller loaded")
+            self.logger.add_to_console('Test controller loaded')
 
 
     run_tool('Test', TestPanel, TestController)
