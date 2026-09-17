@@ -26,7 +26,7 @@ class ApplicationSettings:
     def _read_settings(self):
         d = {}
         try:
-            with open(self._filename, "r", encoding="utf-8") as fp:
+            with open(self._filename, 'r', encoding='utf-8') as fp:
                 d = json.load(fp)
         except (FileNotFoundError, json.decoder.JSONDecodeError):
             pass
@@ -34,7 +34,7 @@ class ApplicationSettings:
         return d
 
     def _write_settings(self, settings):
-        with open(self._filename, "w", encoding="utf-8") as fp:
+        with open(self._filename, 'w', encoding='utf-8') as fp:
             json.dump(settings, fp, indent=2)
 
     def _get_property(self, main_key, sub_key, default=None):
@@ -53,23 +53,23 @@ class ApplicationSettings:
     ########################
 
     def get_main_window_size(self):
-        return (self._get_property("main_window", "width", -1),
-                self._get_property("main_window", "height", -1))
+        return (self._get_property('main_window', 'width', -1),
+                self._get_property('main_window', 'height', -1))
 
     def store_main_window_size(self, width, height):
-        self._store_property("main_window", "width", width)
-        self._store_property("main_window", "height", height)
+        self._store_property('main_window', 'width', width)
+        self._store_property('main_window', 'height', height)
 
     def get_main_window_position(self):
-        return (self._get_property("main_window", "left", -1),
-                self._get_property("main_window", "top", -1))
+        return (self._get_property('main_window', 'left', -1),
+                self._get_property('main_window', 'top', -1))
 
     def store_main_window_position(self, left, top):
-        self._store_property("main_window", "left", left)
-        self._store_property("main_window", "top", top)
+        self._store_property('main_window', 'left', left)
+        self._store_property('main_window', 'top', top)
 
     def get_main_window_maximized(self):
-        return self._get_property("main_window", "maximized", False)
+        return self._get_property('main_window', 'maximized', False)
 
     def store_main_window_maximized(self, is_maximized):
-        self._store_property("main_window", "maximized", is_maximized)
+        self._store_property('main_window', 'maximized', is_maximized)
