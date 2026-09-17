@@ -1,5 +1,6 @@
 [MESSAGES CONTROL]
 disable = broad-exception-caught,
+          broad-exception-raised,
           cell-var-from-loop,
           missing-class-docstring,
           missing-function-docstring,
