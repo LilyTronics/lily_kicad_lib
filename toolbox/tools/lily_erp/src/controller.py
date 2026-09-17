@@ -5,6 +5,7 @@ Controller for tool template.
 import wx
 
 from toolbox.tools.common.controller_base import ControllerBase
+from toolbox.tools.lily_erp.src.create_erp_import import create_erp_import_file
 from toolbox.tools.lily_erp.src.symbol_data import get_erp_parts
 from toolbox.common.erp_connect import get_components_from_erp
 from toolbox.common.product_categories import ProductCategories
@@ -101,14 +102,23 @@ class Controller(ControllerBase):
                 message = 'Generate a code.'
             elif selected_part == '':
                 message = 'Select a part.'
-            dlg = wx.MessageDialog(
-                self.tool_view, message, 'Generate product ID', style=wx.OK | wx.ICON_EXCLAMATION
-            )
-            dlg.ShowModal()
-            dlg.Destroy()
+            with wx.MessageDialog(
+                    self.tool_view, message, 'Generate product ID',
+                    style=wx.OK | wx.ICON_EXCLAMATION
+                ) as dlg:
+                dlg.ShowModal()
         else:
             self.logger.add_to_console(f"Apply '{new_code}' to '{selected_part}'")
-            update_symbol_property(selected_part, 'Lily_ID', new_code)
+            try:
+                update_symbol_property(selected_part, 'Lily_ID', new_code)
+                create_erp_import_file(selected_part, new_code, self.tool_view)
+            except Exception as e:
+                message = f'Error applying new code to selected part:\n{e}'
+                with wx.MessageDialog(
+                        self.tool_view, message, 'Generate product ID',
+                        style=wx.OK | wx.ICON_EXCLAMATION
+                    ) as dlg:
+                    dlg.ShowModal()
             self._load_parts()
         event.Skip()
 
