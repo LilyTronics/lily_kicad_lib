@@ -5,6 +5,8 @@ Main controller for the tool runner
 import os
 import wx
 
+import toolbox.tool_runner.app_data as AppData
+
 from toolbox.common.logger import Logger
 from toolbox.tool_runner.src.application_settings import ApplicationSettings
 from toolbox.tool_runner.src.tools_registry import ToolsRegistry
@@ -18,7 +20,7 @@ class ControllerMain:
         self._app_settings = ApplicationSettings()
         self._view = ViewFrameMain(title)
         self._view.Show()
-        self._logger = Logger(self._view.get_console())
+        self._logger = Logger(self._view.get_console(), AppData.DEBUG)
         wx.CallAfter(self._prepare_view)
         wx.CallAfter(self._load_tools)
 
@@ -38,7 +40,7 @@ class ControllerMain:
         self._view.Bind(wx.EVT_CLOSE, self._on_view_close)
         self._view.Bind(wx.EVT_BUTTON, self._on_reload, id=self._view.ID_RELOAD)
 
-    def _load_callback(self, _, message):
+    def _load_callback(self,message):
         self._logger.add_to_console(message)
 
     def _load_tools(self):

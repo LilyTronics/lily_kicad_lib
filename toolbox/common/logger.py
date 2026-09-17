@@ -12,8 +12,9 @@ class Logger:
 
     _TIME_STAMP_FORMAT = '%Y-%m-%d %H:%M:%S.%f'
 
-    def __init__(self, console_window):
+    def __init__(self, console_window, write_to_stdout):
         self._console = console_window
+        self._write_to_stdout = write_to_stdout
         self._org_stdout = sys.stdout
         sys.stdout = self
         sys.stderr = self
@@ -28,7 +29,8 @@ class Logger:
             if line.strip() != '':
                 line = f'{timestamp} - {line}'
                 self._console.AppendText(f'{line}\n')
-                self._org_stdout.write(f'{line}\n')
+                if self._write_to_stdout:
+                    self._org_stdout.write(f'{line}\n')
         wx.YieldIfNeeded()
 
     def clear_console(self):
@@ -66,7 +68,7 @@ if __name__ == '__main__':
     f.SetInitialSize((800, 400))
     f.Show()
 
-    logger = Logger(console)
+    logger = Logger(console, True)
     logger.add_to_console('Console message')
 
     print('Stdout message')

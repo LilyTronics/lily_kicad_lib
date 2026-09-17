@@ -24,7 +24,7 @@ def run_tool(name, panel, controller):
     f.SetInitialSize((900, 700))
     f.SetPosition((100, 50))
     f.Show()
-    controller(win, Logger(console))
+    controller(win, Logger(console, True))
     app.MainLoop()
 
 
