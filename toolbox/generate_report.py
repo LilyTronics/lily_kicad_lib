@@ -75,10 +75,10 @@ def generate_report():
         footprint_data += ' }'
         footprints_data += f'    {footprint_data},\n'
 
-    with open(template_filename, 'r') as fp:
+    with open(template_filename, 'r', encoding='utf-8') as fp:
         template = Template(fp.read())
 
-    with open(output_filename, 'w') as fp:
+    with open(output_filename, 'w', encoding='utf-8') as fp:
         fp.write(template.substitute(
             timestamp=datetime.now().strftime('%Y-%m-%d %H:%M'),
             total_symbols=len(symbols),

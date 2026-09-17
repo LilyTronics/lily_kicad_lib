@@ -10,7 +10,7 @@ from datetime import datetime
 
 class Logger:
 
-    _TIME_STAMP_FORMAT = "%Y-%m-%d %H:%M:%S.%f"
+    _TIME_STAMP_FORMAT = '%Y-%m-%d %H:%M:%S.%f'
 
     def __init__(self, console_window):
         self._console = console_window
@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
 
     app = wx.App()
-    f = wx.Frame(None, title="Logger test")
+    f = wx.Frame(None, title='Logger test')
     console = wx.TextCtrl(f, style=wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_READONLY)
     console.SetFont(
         wx.Font(9, wx.FONTFAMILY_TELETYPE, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False)
@@ -67,9 +67,9 @@ if __name__ == '__main__':
     f.Show()
 
     logger = Logger(console)
-    logger.add_to_console("Console message")
+    logger.add_to_console('Console message')
 
-    print("Stdout message")
+    print('Stdout message')
 
     threading.Thread(target=_generate_error).start()
 
