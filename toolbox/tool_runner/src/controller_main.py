@@ -58,7 +58,7 @@ class ControllerMain:
 
     def _on_reload(self, event):
         self._logger.clear_console()
-        self._logger.add_to_console("Reload tools")
+        self._logger.add_to_console('Reload tools')
         self._load_tools()
         event.Skip()
 
@@ -70,7 +70,7 @@ class ControllerMain:
         event.Skip()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
 
     from toolbox.tool_runner.main import run_main
 
