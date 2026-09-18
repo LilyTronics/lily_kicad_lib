@@ -2,12 +2,15 @@
 ERP product categories
 """
 
+import re
+
 
 class Category():
 
-    def __init__(self, name, product_id, series=None):
+    def __init__(self, name, product_id, part_name_matches, series=None):
         self.name = name
         self.product_id = product_id
+        self.part_name_matches = part_name_matches
         self.series = [] if series is None else series
 
 
@@ -16,7 +19,7 @@ class ProductCategories:
     _CAPACITOR_SERIES = [
         '1, 0805 X7R 10%',
         '2, 1206 X7R 10%',
-        '3, 0805 C0G/NP0 5%'
+        '3, 0805 C0G 5%'
     ]
 
     _RESISTOR_SERIES = [
@@ -26,19 +29,21 @@ class ProductCategories:
     ]
 
     _PRODUCT_CATEGORIES = [
-        Category( 'connectors',             '1910-1xxxx'                    ),
-        Category( 'diodes',                 '1911-1xxxx'                    ),
-        Category( 'capacitors',             '1912-value', _CAPACITOR_SERIES ),
-        Category( 'resistors',              '1913-value', _RESISTOR_SERIES  ),
-        Category( 'integrated circuits',    '1914-1xxxx'                    ),
-        Category( 'LEDs',                   '1915-1xxxx'                    ),
-        Category( 'inductors',              '1916-1xxxx'                    ),
-        Category( 'crystals / resonators',  '1917-1xxxx'                    ),
-        Category( 'transistors',            '1918-1xxxx'                    ),
-        Category( 'potmeters',              '1919-1xxxx'                    ),
-        Category( 'switches',               '1920-1xxxx'                    )
+        Category( 'connectors',             '1910-1xxxx', ( 'con_', )                    ),
+        Category( 'diodes',                 '1911-1xxxx', ( 'dio_', )                    ),
+        Category( 'capacitors',             '1912-value', ( 'cap_', ), _CAPACITOR_SERIES ),
+        Category( 'resistors',              '1913-value', ( 'res_', ), _RESISTOR_SERIES  ),
+        Category( 'integrated circuits',    '1914-1xxxx', ( 'ic_',  ),                   ),
+        Category( 'LEDs',                   '1915-1xxxx', ( 'dio_led_', )                ),
+        Category( 'inductors',              '1916-1xxxx', ( 'ind_', )                    ),
+        Category( 'crystals / resonators',  '1917-1xxxx', ( 'crystal_', )                ),
+        Category( 'transistors',            '1918-1xxxx', ( 'bjt', 'mosfet' )            ),
+        Category( 'potmeters',              '1919-1xxxx', ( 'pot_', )                    ),
+        Category( 'switches',               '1920-1xxxx', ( 'switch_', )                 ),
+        Category( 'fuses',                  '1921-1xxxx', ( 'fuse_', )                   ),
     ]
 
+    _VALUE_PATTERN = re.compile(r'_([0-9]+(?:[RkMunp][0-9]*)?)_')
 
     @classmethod
     def get_categories(cls):
@@ -113,6 +118,34 @@ class ProductCategories:
             next_code = f'{category.product_id[:dash_index]}{series}{value}'
         return next_code if next_code not in existing_codes else 'already exist'
 
+    @classmethod
+    def get_category_for_part(cls, part_name):
+        series_name = ''
+        value = ''
+        matches = [
+            (c, p)
+            for c in cls._PRODUCT_CATEGORIES
+            for p in c.part_name_matches
+            if part_name.startswith(p)
+        ]
+        category = max(matches, key=lambda m: len(m[1]))[0] if matches else None
+        if category is not None:
+            for serie in category.series:
+                parts = serie.split(', ')[-1].split(' ')
+                found = 0
+                for part in parts:
+                    if part in part_name:
+                        found += 1
+                if found == len(parts):
+                    series_name = serie
+                    break
+            if len(category.series) > 0:
+                # We need a value
+                m = cls._VALUE_PATTERN.search(part_name)
+                if m:
+                    value = m.group(1)
+        return category, series_name, value
+
 
 if __name__ == '__main__':
 
@@ -138,3 +171,14 @@ if __name__ == '__main__':
     for _key, _value in _test_codes.items():
         _category = ProductCategories.get_category(_categories[_key])
         print(f'{_key}:', ProductCategories.generate_next_code(_category, _value, _SERIES, _VALUE))
+
+    _test_names = [
+        'cap_100n_50V_10%_X7R_0805',
+        'dio_1N4148W_sod123',
+        'dio_led_blue_KP-2012QBC-D_0805',
+        'bjt_npn_BC850B_sot23',
+        'mosfet_n_DMG3406L_sot23'
+    ]
+    for _part in _test_names:
+        c, s, v = ProductCategories.get_category_for_part(_part)
+        print(f'{_part}:', c.name, s, v)

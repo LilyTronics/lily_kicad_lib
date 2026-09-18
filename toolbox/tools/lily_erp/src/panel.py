@@ -82,6 +82,8 @@ class Panel(wx.Panel):
         self._cmb_series.Disable()
         self._lbl_value.Disable()
         self._txt_value.Disable()
+        self._cmb_series.Clear()
+        self._txt_value.Clear()
         self._txt_low.Clear()
         self._txt_high.Clear()
         self._txt_next.Clear()
@@ -101,6 +103,13 @@ class Panel(wx.Panel):
         self._cmb_categories.Set(categories)
         self._restore_controls()
         self.Layout()
+
+    def set_category_for_part(self, category, series, value):
+        self._restore_controls()
+        self._cmb_categories.SetStringSelection(category.name)
+        self.enable_controls(category)
+        self._cmb_series.SetStringSelection(series)
+        self._txt_value.SetValue(value)
 
     def enable_controls(self, category):
         self._restore_controls()

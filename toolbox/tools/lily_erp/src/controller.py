@@ -3,6 +3,7 @@ Controller for tool template.
 """
 
 import wx
+import wx.dataview
 
 from toolbox.tools.common.controller_base import ControllerBase
 from toolbox.tools.lily_erp.src.create_erp_import import create_erp_import_file
@@ -19,6 +20,8 @@ class Controller(ControllerBase):
         super().__init__(*args, **kwargs)
 
         self.tool_view.Bind(wx.EVT_BUTTON, self._on_reload, id=self.tool_view.ID_BTN_RELOAD_LIST)
+        self.tool_view.Bind(wx.dataview.EVT_TREELIST_SELECTION_CHANGED, self._on_item_select,
+                            id=self.tool_view.ID_LIST)
         self.tool_view.Bind(wx.EVT_CHOICE, self._on_category_select,
                             self.tool_view.ID_CMB_CATEGORIES)
         self.tool_view.Bind(wx.EVT_BUTTON, self._on_generate_click, self.tool_view.ID_BTN_GENERATE)
@@ -35,6 +38,7 @@ class Controller(ControllerBase):
     def _load_parts(self):
         self.logger.add_to_console('Load parts')
         parts = get_erp_parts()
+        parts.sort(key=lambda p: (p['Lily_ID'] != 'NO_ID', p['Lily_ID']))
         self.tool_view.show_parts(parts)
         self.logger.add_to_console(f'Loaded {len(parts)} parts')
 
@@ -48,6 +52,13 @@ class Controller(ControllerBase):
     def _on_reload(self, event):
         self.logger.clear_console()
         self._load_parts()
+        event.Skip()
+
+    def _on_item_select(self, event):
+        selected_part = self.tool_view.get_selected_part()
+        category, series, value = ProductCategories.get_category_for_part(selected_part)
+        if category is not None:
+            self.tool_view.set_category_for_part(category, series, value)
         event.Skip()
 
     def _on_category_select(self, event):

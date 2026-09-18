@@ -8,6 +8,7 @@ disable = broad-exception-caught,
           too-many-branches,
           too-many-locals,
           too-many-nested-blocks,
+          too-many-statements,
           wrong-import-order
 
 [TYPECHECK]
