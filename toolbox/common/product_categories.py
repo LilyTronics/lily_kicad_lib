@@ -19,7 +19,10 @@ class ProductCategories:
     _CAPACITOR_SERIES = [
         '1, 0805 X7R 10%',
         '2, 1206 X7R 10%',
-        '3, 0805 C0G 5%'
+        '3, 0805 C0G 5%',
+        '4, 1210 X7R 10%',
+        '8, trimmer',
+        '9, specials'
     ]
 
     _RESISTOR_SERIES = [
@@ -43,7 +46,7 @@ class ProductCategories:
         Category( 'fuses',                  '1921-1xxxx', ( 'fuse_', )                   ),
     ]
 
-    _VALUE_PATTERN = re.compile(r'_([0-9]+(?:[RkMunp][0-9]*)?)_')
+    _VALUE_PATTERN = re.compile(r'_([0-9]+(?:[RkMmunp][0-9]*)?)_')
 
     @classmethod
     def get_categories(cls):
@@ -57,27 +60,30 @@ class ProductCategories:
     @staticmethod
     def generate_next_code(category, existing_codes, series, value):
         next_code = ''
-        dash_index = category.product_id.index('-') + 1
-        if category.product_id.endswith('1xxxx'):
+        # Get index of series
+        if ',' in series:
+            series = series.split(',')[0]
+        else:
+            series = '0'
+        product_id = category.product_id
+        if series == '9':
+            product_id = product_id.split('-')[0] + '-9xxxx'
+        dash_index = product_id.index('-') + 1
+        if product_id.endswith(('1xxxx', '9xxxx')):
             # Simple sequence
-            for i in range(10001, 100000):
-                next_id = f'{category.product_id[:dash_index]}{i:05d}'
+            for i in range(1, 10000):
+                next_id = f'{product_id[:dash_index + 1]}{i:04d}'
                 if next_id not in existing_codes:
                     next_code = next_id
                     break
-        if category.product_id.endswith('1xxyy'):
+        if product_id.endswith('1xxyy'):
             # Sequence with version number
             for i in range(101, 1000):
-                next_id = f'{category.product_id[:dash_index]}{i:03d}01'
+                next_id = f'{product_id[:dash_index]}{i:03d}01'
                 if next_id not in existing_codes:
                     next_code = next_id
                     break
-        if 'value' in category.product_id:
-            # Generate product code based on series and value
-            if ',' in series:
-                series = series.split(',')[0]
-            else:
-                series = '0'
+        if 'value' in product_id:
             # Convert value to code
             power = '-1'
             if 'p' in value or 'R' in value:
@@ -115,7 +121,7 @@ class ProductCategories:
                 value = f'0{value}'
             else:
                 value = f'{value}{power}'
-            next_code = f'{category.product_id[:dash_index]}{series}{value}'
+            next_code = f'{product_id[:dash_index]}{series}{value}'
         return next_code if next_code not in existing_codes else 'already exist'
 
     @classmethod
@@ -161,8 +167,8 @@ if __name__ == '__main__':
             print(f'{_name}:', _category)
 
     print('\nNext product code')
-    _SERIES = '1,0805 X7R 10%'
-    _VALUE = '1n'
+    _SERIES = '9, 0805 X7R 10%'
+    _VALUE = '12n'
     _test_codes = {
         1: ['1911-10001', '1911-10002', '1911-10004'],
         2: ['1912-11003', '1912-11004', '1912-11005', '1912-11203'],
