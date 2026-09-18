@@ -33,7 +33,6 @@ class ErpChecker:
         cls.stdout(f'Checking {len(erp_components)} ERP components')
         cls.stdout(f'Checking {len(lib_components)} library components')
         cls._check_lib_to_erp(lib_components, erp_components, report_messages)
-        cls._check_erp_to_lib(erp_components, lib_components, report_messages)
         return report_messages
 
     @classmethod
@@ -41,127 +40,77 @@ class ErpChecker:
         caller = f'({cls.__name__}._check_lib_to_erp)'
         # Check if library component is available in the ERP database
         for lib_comp in lib_components:
-            # Check by ID
-            matches = list(filter(
-                lambda c: c['default_code'] == lib_comp['Lily_ID'], erp_components
-            ))
-            if len(matches) > 1:
-                # Duplicate ID
-                report_messages.append({
-                    'item': lib_comp['Lily_ID'],
-                    'message': f'multiple components in the ERP database for this ID {caller}'
-                })
-                for match in matches:
-                    report_messages.append({
-                        'item': '',
-                        'message': f' - {match}'
-                    })
-            elif len(matches) == 1:
-                # Check if name is correct
-                if lib_comp['Name'] != matches[0]['name']:
+            # Check for matching ERP component by ID on if there is an ID
+            if lib_comp['Lily_ID'] != 'NO_ID':
+                matches = [c for c in erp_components if c['default_code'] == lib_comp['Lily_ID'] ]
+                if len(matches) == 1:
+                    # Found ERP component
+                    # Check if name is correct
+                    if lib_comp['Name'] != matches[0]['name']:
+                        report_messages.append({
+                            'item': lib_comp['Lily_ID'],
+                            'message': f'the name of component is not matching {caller}'
+                        })
+                        report_messages.append({
+                            'item': '',
+                            'message': f' - name in lib: {lib_comp['Name']}'
+                        })
+                        report_messages.append({
+                            'item': '',
+                            'message': f' - name in ERP: {matches[0]['name']}'
+                        })
+                elif len(matches) > 1:
+                    # Duplicate ID
                     report_messages.append({
                         'item': lib_comp['Lily_ID'],
-                        'message': f'the name of component is not matching {caller}'
-                    })
-                    report_messages.append({
-                        'item': '',
-                        'message': f' - name in lib: {lib_comp['Name']}'
-                    })
-                    report_messages.append({
-                        'item': '',
-                        'message': f' - name in ERP: {matches[0]['name']}'
-                    })
-            else:
-                # ID not found, try to find by name
-                matches = list(filter(lambda c: c['name'] == lib_comp['Name'], erp_components))
-                if len(matches) > 1:
-                    # Multiple components with the same name found
-                    report_messages.append({
-                        'item': lib_comp['Name'],
-                        'message': f'multiple components in the ERP database for this name {caller}'
+                        'message': f'multiple components in the ERP database for this ID {caller}'
                     })
                     for match in matches:
                         report_messages.append({
                             'item': '',
                             'message': f' - {match}'
                         })
-                elif len(matches) == 1:
-                    # Check ID
-                    if lib_comp['Lily_ID'] != matches[0]['default_code']:
-                        report_messages.append({
-                            'item': lib_comp['Name'],
-                            'message': f'the ID of the component is not matching {caller}'
-                        })
-                        report_messages.append({
-                            'item': '',
-                            'message': f' - ID in lib: {lib_comp['Lily_ID']}'
-                        })
-                        report_messages.append({
-                            'item': '',
-                            'message': f' - ID in ERP: {matches[0]['default_code']}'
-                        })
                 else:
                     # No match
                     report_messages.append({
-                        'item': lib_comp['Name'],
-                        'message': f'no match for this component {caller}'
+                        'item': f'{lib_comp['Name']} ({lib_comp['Lily_ID']})',
+                        'message': f'no match for this ID {caller}'
                     })
 
-    @classmethod
-    def _check_erp_to_lib(cls, erp_components, lib_components, report_messages):
-        caller = f'({cls.__name__}._check_erp_to_lib)'
-        # Check if ERP components are missing in the library
-        for erp_comp in erp_components:
-            # Check by ID
-            matches = list(filter(
-                lambda c: c['Lily_ID'] == erp_comp['default_code'], lib_components
-            ))
+            # Check for matching ERP component by name
+            matches = [ c for c in erp_components if c['name'] == lib_comp['Name'] ]
+            if len(matches) == 1:
+                # Check ID
+                if lib_comp['Lily_ID'] != matches[0]['default_code']:
+                    report_messages.append({
+                        'item': lib_comp['Name'],
+                        'message': f'the ID of the component is not matching {caller}'
+                    })
+                    report_messages.append({
+                        'item': '',
+                        'message': f' - ID in lib: {lib_comp['Lily_ID']}'
+                    })
+                    report_messages.append({
+                        'item': '',
+                        'message': f' - ID in ERP: {matches[0]['default_code']}'
+                    })
             if len(matches) > 1:
-                # Duplicate ID
+                # Multiple components with the same name found
                 report_messages.append({
-                    'item': erp_comp['default_code'],
-                    'message': f'multiple components in the library for this ID {caller}'
+                    'item': lib_comp['Name'],
+                    'message': f'multiple components in the ERP database for this name {caller}'
                 })
                 for match in matches:
                     report_messages.append({
                         'item': '',
                         'message': f' - {match}'
                     })
-            elif len(matches) < 1:
-                # ID not found, try to find by name
-                matches = list(filter(lambda c: c['Name'] == erp_comp['name'], lib_components))
-                if len(matches) > 1:
-                    # Multiple components with the same name found
-                    report_messages.append({
-                        'item': erp_comp['name'],
-                        'message': f'multiple components in the library for this name {caller}'
-                    })
-                    for match in matches:
-                        report_messages.append({
-                            'item': '',
-                            'message': f' - {match}'
-                        })
-                elif len(matches) == 1:
-                    # Check ID
-                    if erp_comp['default_code'] != matches[0]['Lily_ID']:
-                        report_messages.append({
-                            'item': erp_comp['name'],
-                            'message': f'the ID of the component is not matching {caller}'
-                        })
-                        report_messages.append({
-                            'item': '',
-                            'message': f' - ID in ERP: {erp_comp['default_code']}'
-                        })
-                        report_messages.append({
-                            'item': '',
-                            'message': f' - ID in lib: {matches[0]['Lily_ID']}'
-                        })
-                else:
-                    # No match
-                    report_messages.append({
-                        'item': erp_comp['name'],
-                        'message': f'no match for this component {caller}'
-                    })
+            else:
+                # No match
+                report_messages.append({
+                    'item': f'{lib_comp['Name']}',
+                    'message': f'no match for this component {caller}'
+                })
 
 
 if __name__ == '__main__':
