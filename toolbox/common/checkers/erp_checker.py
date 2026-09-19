@@ -94,7 +94,7 @@ class ErpChecker:
                         'item': '',
                         'message': f' - ID in ERP: {matches[0]['default_code']}'
                     })
-            if len(matches) > 1:
+            elif len(matches) > 1:
                 # Multiple components with the same name found
                 report_messages.append({
                     'item': lib_comp['Name'],
