@@ -52,6 +52,8 @@ class FootprintsChecker:
                    'fiducial_', 'mec_hole_', 'mec_mouse_bytes', 'test_point_']
     NO_IMAGE = ['0_new_footprint', 'con_coax_rg_174_cable_to_pcb_', 'con_spring_probe_pad', 'doc_',
                 'fiducial_', 'mec_hole', 'mec_mouse_bytes', 'test_point_']
+    # UTF-8 encoded value for the pin 1 mark (alt-<numeric 7>)
+    PIN_1_MARK_VALUE = b'\xe2\x80\xa2'
 
     @classmethod
     def run(cls):
@@ -187,10 +189,8 @@ class FootprintsChecker:
 
                 if field_name == 'Pin_1_mark':
                     # Fied pin 1 mark requires a specific value
-                    value = footprint_data[field_name]['Value']
-                    # The dot for pin 1 mark in UTF-8 (alt-<numeric 7>)
-                    expected = (b'\xc3\xa2\xe2\x82\xac\xc2\xa2').decode('utf-8')
-                    if value != expected:
+                    value = footprint_data[field_name]['Value'].encode('utf-8')
+                    if value != cls.PIN_1_MARK_VALUE:
                         report_messages.append({
                         'item': footprint_data['Name'],
                         'message': f"field '{field_name}' has an invalid value '{value}' "
