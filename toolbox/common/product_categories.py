@@ -37,13 +37,12 @@ class ProductCategories:
         Category( 'capacitors',             '1912-value', ( 'cap_', ), _CAPACITOR_SERIES ),
         Category( 'resistors',              '1913-value', ( 'res_', ), _RESISTOR_SERIES  ),
         Category( 'integrated circuits',    '1914-1xxxx', ( 'ic_',  ),                   ),
-        Category( 'LEDs',                   '1915-1xxxx', ( 'dio_led_', )                ),
+        Category( 'fuses',                  '1915-1xxxx', ( 'fuse_', )                   ),
         Category( 'inductors',              '1916-1xxxx', ( 'ind_', )                    ),
         Category( 'crystals / resonators',  '1917-1xxxx', ( 'crystal_', )                ),
         Category( 'transistors',            '1918-1xxxx', ( 'bjt', 'mosfet' )            ),
         Category( 'potmeters',              '1919-1xxxx', ( 'pot_', )                    ),
-        Category( 'switches',               '1920-1xxxx', ( 'switch_', )                 ),
-        Category( 'fuses',                  '1921-1xxxx', ( 'fuse_', )                   ),
+        Category( 'switches',               '1920-1xxxx', ( 'switch_', )                 )
     ]
 
     _VALUE_PATTERN = re.compile(r'_([0-9]+(?:[RkMmunp][0-9]*)?)_')
