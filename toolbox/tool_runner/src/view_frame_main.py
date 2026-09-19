@@ -7,10 +7,9 @@ import wx
 
 class ViewFrameMain(wx.Frame):
 
-    ID_RELOAD = wx.NewIdRef()
-
     _MIN_SIZE = (900, 700)
     _SPACING = 5
+
 
     def __init__(self, title):
         super().__init__(None, title=title)
@@ -19,7 +18,6 @@ class ViewFrameMain(wx.Frame):
         self._image_list = wx.ImageList(32, 32)
         self._lbk_tools = wx.Listbook(panel, style=wx.BK_DEFAULT)
         self._lbk_tools.AssignImageList(self._image_list)
-        btn_reload = wx.Button(panel, self.ID_RELOAD, 'Reload')
 
         self._txt_console = wx.TextCtrl(
             panel, style=wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_READONLY
@@ -30,8 +28,7 @@ class ViewFrameMain(wx.Frame):
 
         box = wx.BoxSizer(wx.VERTICAL)
         box.Add(self._lbk_tools, 2, wx.EXPAND | wx.ALL, self._SPACING)
-        box.Add(btn_reload, 0, wx.LEFT | wx.RIGHT | wx.BOTTOM, self._SPACING)
-        box.Add(self._txt_console, 1, wx.EXPAND | wx.LEFT | wx.RIGHT | wx.BOTTOM, self._SPACING)
+        box.Add(self._txt_console, 1, wx.EXPAND | wx.ALL, self._SPACING)
 
         panel.SetSizer(box)
         self.SetInitialSize(self._MIN_SIZE)

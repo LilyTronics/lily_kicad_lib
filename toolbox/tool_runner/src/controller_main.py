@@ -38,7 +38,6 @@ class ControllerMain:
         self._view.Maximize(self._app_settings.get_main_window_maximized())
 
         self._view.Bind(wx.EVT_CLOSE, self._on_view_close)
-        self._view.Bind(wx.EVT_BUTTON, self._on_reload, id=self._view.ID_RELOAD)
 
     def _load_callback(self,message):
         self._logger.add_to_console(message)
@@ -57,12 +56,6 @@ class ControllerMain:
     ##################
     # Event handlers #
     ##################
-
-    def _on_reload(self, event):
-        self._logger.clear_console()
-        self._logger.add_to_console('Reload tools')
-        self._load_tools()
-        event.Skip()
 
     def _on_view_close(self, event):
         self._app_settings.store_main_window_maximized(self._view.IsMaximized())
