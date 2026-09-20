@@ -9,7 +9,7 @@ from toolbox.tool_runner.src.os_specifics import get_user_data_dir
 
 
 APP_NAME = 'Lily KiCad Toolbox'
-APP_VERSION = '4.01'
+APP_VERSION = '4.02'
 EXE_NAME = 'LilyKiCadToolbox'
 COMPANY  = 'LilyTronics'
 DEBUG = False
