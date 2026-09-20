@@ -11,6 +11,7 @@ class ToolInfo:
     image = 'check_design.png'
     panel = Panel
     controller = Controller
+    order = 2
 
 
 if __name__ == '__main__':

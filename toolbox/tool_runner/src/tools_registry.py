@@ -65,6 +65,7 @@ class ToolsRegistry:
                     tool_info = getattr(module, 'ToolInfo')
                     tool_info.path = os.path.dirname(filename)
                     cls._tools.append(tool_info)
+                    cls._tools.sort(key=lambda x: (x.order, x.name))
                 except Exception as e:
                     exceptions.append((rel_path, str(e)))
             progress_callback(f'Tools loaded ({i + 1}/{total})')
@@ -83,4 +84,4 @@ if __name__ == '__main__':
 
     ToolsRegistry.load(progress_callback=print)
     for tool in ToolsRegistry.get_tools():
-        print(tool.name, tool.image, tool.path)
+        print(tool.order, tool.name, tool.image, tool.path)

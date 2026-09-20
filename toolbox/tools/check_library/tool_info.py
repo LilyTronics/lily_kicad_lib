@@ -11,7 +11,7 @@ class ToolInfo:
     image = 'check_library.png'
     panel = Panel
     controller = Controller
-
+    order = 1
 
 if __name__ == '__main__':
 
