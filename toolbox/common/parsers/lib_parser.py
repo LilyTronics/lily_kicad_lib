@@ -11,8 +11,8 @@ class LibParser:
 
     stdout = print
 
-    LIB_SYMBOLS_FILENAME = os.path.join(ToolboxData.ROOT_PATH, 'symbols', 'lily_symbols.kicad_sym')
-    LIB_FOOTPRINT_PATH = os.path.join(ToolboxData.ROOT_PATH, 'lily_footprints.pretty')
+    LIB_SYMBOLS_FILENAME = os.path.join(ToolboxData.SYMBOLS_LIB_PATH)
+    LIB_FOOTPRINT_PATH = os.path.join(ToolboxData.FOOTPRINTS_LIB_PATH)
 
     SYMBOL_IGNORE_FIELDS = [
         'ki_locked'

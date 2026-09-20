@@ -83,9 +83,11 @@ class UnusedItemsChecker:
     @classmethod
     def _check_unused_3d_models(cls, footprints, report_messages):
         caller = f'({cls.__name__}._check_unused_3d_models)'
-        file_path = f'{ToolboxData.ROOT_PATH}/3d_models'
-        for filename in filter(
-            lambda f: os.path.isfile(os.path.join(file_path, f)), os.listdir(file_path)):
+        model_files = [
+            f for f in os.listdir(ToolboxData.MODELS_3D_PATH)
+            if os.path.isfile(os.path.join(ToolboxData.MODELS_3D_PATH, f))
+        ]
+        for filename in model_files:
             rel_path = f'../3d_models/{filename}'
             matches = list(filter(lambda x: rel_path == x.get('Model', None), footprints))
             if len(matches) == 0:
@@ -97,10 +99,12 @@ class UnusedItemsChecker:
     @classmethod
     def _check_unused_pictures(cls, footprints, report_messages):
         caller = f'({cls.__name__}._check_unused_pictures)'
-        file_path = f'{ToolboxData.ROOT_PATH}/lily_footprints.pretty'
-        for filename in filter(
-            lambda f: os.path.isfile(os.path.join(file_path, f)) and f.endswith('.png'),
-            os.listdir(file_path)):
+        image_files = [
+            f for f in os.listdir(ToolboxData.FOOTPRINTS_LIB_PATH)
+            if (os.path.isfile(os.path.join(ToolboxData.FOOTPRINTS_LIB_PATH, f)) and
+                f.endswith('.png'))
+        ]
+        for filename in image_files:
             matches = list(filter(lambda x: filename == f'{x['Name']}.png', footprints))
             if len(matches) == 0:
                 report_messages.append({

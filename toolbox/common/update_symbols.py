@@ -9,7 +9,7 @@ import toolbox.common.toolbox_data as ToolboxData
 
 
 def update_symbol_property(name, param, value):
-    filename = os.path.join(ToolboxData.ROOT_PATH, 'symbols', 'lily_symbols.kicad_sym')
+    filename = os.path.join(ToolboxData.SYMBOLS_LIB_PATH)
     with open(filename, 'r', encoding='utf-8') as fp:
         lines = fp.readlines()
     i = 0

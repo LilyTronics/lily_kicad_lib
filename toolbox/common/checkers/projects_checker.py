@@ -14,8 +14,6 @@ class ProjectsChecker:
 
     stdout = print
 
-    PROJECTS_PATH = os.path.join(ToolboxData.ROOT_PATH, 'projects')
-
     PART_MANDATORY_FIELDS = ['Status', 'Manufacturer', 'Manufacturer_ID', 'Lily_ID', 'JLCPCB_ID']
     SKIP_SYMBOL_FIELDS = ['Name', 'Extends']
 
@@ -23,7 +21,7 @@ class ProjectsChecker:
     def run(cls):
         project_folders = []
         report_messages = []
-        for current_folder, sub_folders, filenames in os.walk(cls.PROJECTS_PATH):
+        for current_folder, sub_folders, filenames in os.walk(ToolboxData.TEST_PROJECTS_PATH):
             sub_folders.sort()
             matches = list(filter(lambda x: x.endswith('.kicad_pro'), filenames))
             if len(matches) == 1:
@@ -42,7 +40,7 @@ class ProjectsChecker:
         designs = {}
         for folder in project_folder:
             cls.stdout(f'Check project: {folder}')
-            designs[folder[len(cls.PROJECTS_PATH) + 1:]] = {
+            designs[folder[len(ToolboxData.TEST_PROJECTS_PATH) + 1:]] = {
                 'symbols': DesignParser.get_symbols(folder),
                 'footprints': DesignParser.get_footprints(folder)
             }

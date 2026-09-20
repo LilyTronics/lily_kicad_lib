@@ -337,7 +337,7 @@ class FootprintsChecker:
                 })
             else:
                 full_path = os.path.abspath(os.path.join(
-                    ToolboxData.ROOT_PATH, '3d_models', footprint_data['Model']
+                    ToolboxData.MODELS_3D_PATH, footprint_data['Model']
                 ))
                 if not os.path.isfile(full_path):
                     report_messages.append({
@@ -351,7 +351,7 @@ class FootprintsChecker:
         caller = f'({cls.__name__}._check_image)'
         should_have_image = True
         full_path = f'{os.path.join(
-            ToolboxData.ROOT_PATH, 'lily_footprints.pretty', footprint_data['Name']
+            ToolboxData.FOOTPRINTS_LIB_PATH, footprint_data['Name']
         )}.png'
         has_image = os.path.isfile(full_path)
 
