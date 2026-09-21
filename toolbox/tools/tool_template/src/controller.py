@@ -13,7 +13,6 @@ class Controller(ControllerBase):
         self.logger.add_to_console("Tool template controller loaded")
 
 
-
 if __name__ == "__main__":
 
     from toolbox.tools.common.test_tool import run_tool

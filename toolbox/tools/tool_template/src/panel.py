@@ -1,5 +1,5 @@
 """
-Panel with controls for the power supply
+Panel with controls for tool template
 """
 
 import wx
