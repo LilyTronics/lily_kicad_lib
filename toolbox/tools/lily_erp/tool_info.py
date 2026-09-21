@@ -11,7 +11,7 @@ class ToolInfo:
     image = 'lily_erp.png'
     panel = Panel
     controller = Controller
-    order = 3
+    order = 4
 
 
 if __name__ == '__main__':
