@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e8589236-9418-4a81-bc72-f1cd45d55087")
 	(paper "A4")
 	(title_block
@@ -23,11 +23,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "1e7223cd-0366-48a7-9860-b6499e2902de")
 		(property "Sheetname" "USB-C FT231XS interface"
 			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,6 +39,8 @@
 		)
 		(property "Sheetfile" "usb_c_ft231xs.kicad_sch"
 			(at 25.4 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
