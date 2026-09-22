@@ -5,8 +5,7 @@ Controller for tool template.
 import os
 import wx
 
-from toolbox.common.checkers.projects_checker import ProjectsChecker
-from toolbox.common.parsers.design_parser import DesignParser
+from toolbox.common.checkers.design_checker import DesignChecker
 from toolbox.tools.common.controller_base import ControllerBase
 
 
@@ -24,33 +23,14 @@ class Controller(ControllerBase):
         self.tool_view.clear_messages()
         project_folder = os.path.dirname(project_file)
         self.logger.add_to_console(f'Check design in folder: {project_folder}')
-        ProjectsChecker.stdout = self.logger.add_to_console
-        messages = ProjectsChecker.check_project(project_folder)
+        DesignChecker.stdout = self.logger.add_to_console
+        messages = DesignChecker.run(project_folder)
         if len(messages) > 0:
             for message in messages:
                 self.tool_view.add_message(message['item'])
                 self.tool_view.add_message(f' - {message['message']}')
         else:
-            self.tool_view.add_message('No messages from the project checker')
-
-        self.logger.add_to_console("Check design properties")
-        DesignParser.stdout = self.logger.add_to_console
-        sch_props = DesignParser.get_schematics_properties(project_folder)
-        self.tool_view.add_message("\nSchematics properties:")
-        for key, value in sch_props.items():
-            self.tool_view.add_message(f" - {key}: {value}")
-        pcb_props = DesignParser.get_pcb_properties(project_folder)
-        self.tool_view.add_message("PCB properties:")
-        for key, value in pcb_props.items():
-            self.tool_view.add_message(f" - {key}: {value}")
-
-        # Test properties
-        self.tool_view.add_message('\n')
-        for prop in ["design_name", "date", "revision", "pca_id", "pcb_id"]:
-            if sch_props[prop] != pcb_props[prop]:
-                self.tool_view.add_message(
-                    f'The {prop.replace('_', ' ')} is not equal between the schematics and the PCB'
-                )
+            self.tool_view.add_message('No messages from the design checker')
 
     ##################
     # Event handlers #
