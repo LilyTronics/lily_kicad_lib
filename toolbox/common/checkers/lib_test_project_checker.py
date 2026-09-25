@@ -32,7 +32,7 @@ class LibTestProjectsChecker:
         designs = {}
         for folder in project_folders:
             cls.stdout(f'Check project: {folder}')
-            designs[folder[len(ToolboxData.TEST_PROJECTS_PATH) + 1:]] = {
+            designs[folder[len(ToolboxData.LIB_TEST_PROJECTS_PATH) + 1:]] = {
                 'symbols': DesignParser.get_symbols(folder),
                 'footprints': DesignParser.get_footprints(folder)
             }
