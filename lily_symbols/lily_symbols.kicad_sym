@@ -28610,7 +28610,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ic_sensor_temperature_3p"
+	(symbol "ic_sensor_temperature_3p_th"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -28618,7 +28618,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -10.16 -3.81 0)
@@ -28631,7 +28631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ic_sensor_temperature_3p"
+		(property "Value" "ic_sensor_temperature_3p_th"
 			(at -10.16 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28686,7 +28686,7 @@
 				)
 			)
 		)
-		(symbol "ic_sensor_temperature_3p_0_1"
+		(symbol "ic_sensor_temperature_3p_th_0_1"
 			(polyline
 				(pts
 					(xy -1.27 -3.81) (xy -1.905 -3.175)
@@ -28772,7 +28772,7 @@
 				)
 			)
 		)
-		(symbol "ic_sensor_temperature_3p_1_1"
+		(symbol "ic_sensor_temperature_3p_th_1_1"
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 2.54)
@@ -57139,7 +57139,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "ic_sensor_temperature_LM335_to92"
-		(extends "ic_sensor_temperature_3p")
+		(extends "ic_sensor_temperature_3p_th")
 		(property "Reference" "U"
 			(at -10.16 -3.81 0)
 			(show_name no)
