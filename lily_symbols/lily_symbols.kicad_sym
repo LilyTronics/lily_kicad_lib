@@ -1126,7 +1126,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "cap_elec"
+	(symbol "cap_elec_th"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1137,7 +1137,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
 			(at 3.175 -2.54 0)
@@ -1205,7 +1205,7 @@
 				)
 			)
 		)
-		(symbol "cap_elec_0_1"
+		(symbol "cap_elec_th_0_1"
 			(rectangle
 				(start -2.032 -2.794)
 				(end 2.032 -3.556)
@@ -1218,7 +1218,7 @@
 				)
 			)
 		)
-		(symbol "cap_elec_1_1"
+		(symbol "cap_elec_th_1_1"
 			(rectangle
 				(start -2.032 -4.064)
 				(end 2.032 -4.826)
@@ -47338,7 +47338,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "cap_elec_15m_50V_20%_rad_35x52mm_th"
-		(extends "cap_elec")
+		(extends "cap_elec_th")
 		(property "Reference" "C"
 			(at 3.175 -2.54 0)
 			(show_name no)
