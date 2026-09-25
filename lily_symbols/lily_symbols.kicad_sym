@@ -37434,7 +37434,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "switch_dpdt_6p"
+	(symbol "switch_dpdt_6p_th"
 		(pin_numbers
 			(hide yes)
 		)
@@ -37444,7 +37444,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
 			(at 0 3.81 0)
@@ -37457,7 +37457,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "switch_dpdt_6p"
+		(property "Value" "switch_dpdt_6p_th"
 			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37512,7 +37512,7 @@
 				)
 			)
 		)
-		(symbol "switch_dpdt_6p_0_1"
+		(symbol "switch_dpdt_6p_th_0_1"
 			(polyline
 				(pts
 					(xy 1.27 0) (xy 1.27 -0.508)
@@ -37550,7 +37550,7 @@
 				)
 			)
 		)
-		(symbol "switch_dpdt_6p_1_1"
+		(symbol "switch_dpdt_6p_th_1_1"
 			(pin passive line
 				(at 0 0 0)
 				(length 1.27)
@@ -37606,7 +37606,7 @@
 				)
 			)
 		)
-		(symbol "switch_dpdt_6p_2_1"
+		(symbol "switch_dpdt_6p_th_2_1"
 			(pin passive line
 				(at 0 0 0)
 				(length 1.27)
@@ -82148,7 +82148,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "switch_dpdt_slide_6p_js202011cqn"
-		(extends "switch_dpdt_6p")
+		(extends "switch_dpdt_6p_th")
 		(property "Reference" "S"
 			(at 0 3.81 0)
 			(show_name no)

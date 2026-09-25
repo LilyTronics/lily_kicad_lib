@@ -22,7 +22,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "S"
 				(at 0 3.81 0)
@@ -602,7 +602,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5a550e1e-28ad-4a02-8cf7-99410e872b1e")
 		(property "Reference" "S1002"
@@ -761,7 +761,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d11f2249-4952-406f-b57a-437e1f616b41")
 		(property "Reference" "S1002"
