@@ -117,7 +117,7 @@ const generic_symbols = [
     { Name: 'ic_module_esp32_c6_mini', Extends: '', Reference: 'U', Value: 'ic_module_esp32_c6_mini', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'ic_module_rfm95w', Extends: '', Reference: 'U', Value: 'ic_module_rfm95w', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'ic_opamp_dual', Extends: '', Reference: 'U', Value: 'ic_opamp_dual', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
-    { Name: 'ic_sensor_temperature_3p', Extends: '', Reference: 'U', Value: 'ic_sensor_temperature_3p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'ic_sensor_temperature_3p_th', Extends: '', Reference: 'U', Value: 'ic_sensor_temperature_3p_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'ic_timer_NE555', Extends: '', Reference: 'U', Value: 'ic_timer_NE555', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'ic_touch_6p', Extends: '', Reference: 'U', Value: 'ic_touch_6p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'ic_transceiver_rs485_half_duplex', Extends: '', Reference: 'U', Value: 'ic_transceiver_rs485_half_duplex', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
@@ -302,7 +302,7 @@ const parts = [
     { Name: 'ic_module_RFM95W-868S2', Extends: 'ic_module_rfm95w', Reference: 'U', Value: 'RFM95W-868S2', Description: '', Footprint: 'lily_footprints:rfm95w-868s2', Revision: '1', Manufacturer: 'HopeRF', Manufacturer_ID: 'RFM95W-868S2', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/hoperf/RFM95W.pdf' },
     { Name: 'ic_opamp_dual_MCP6022_soic8', Extends: 'ic_opamp_dual', Reference: 'U', Value: 'MCP6022', Description: '', Footprint: 'lily_footprints:soic8', Revision: '1', Manufacturer: 'Microchip', Manufacturer_ID: 'MCP6022T-I/SN', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/MCP6021_2_3_4.pdf' },
     { Name: 'ic_opamp_dual_TLV272_soic8', Extends: 'ic_opamp_dual', Reference: 'U', Value: 'TLV272', Description: '', Footprint: 'lily_footprints:soic8', Revision: '1', Manufacturer: 'Texas Instruments', Manufacturer_ID: 'TLV272IDR', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/TLV271_272_274.pdf' },
-    { Name: 'ic_sensor_temperature_LM335_to92', Extends: 'ic_sensor_temperature_3p', Reference: 'U', Value: 'LM335', Description: '', Footprint: 'lily_footprints:to92', Revision: '1', Manufacturer: 'STMicroelectronics', Manufacturer_ID: 'LM335Z', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/LM335.pdf' },
+    { Name: 'ic_sensor_temperature_LM335_to92', Extends: 'ic_sensor_temperature_3p_th', Reference: 'U', Value: 'LM335', Description: '', Footprint: 'lily_footprints:to92', Revision: '1', Manufacturer: 'STMicroelectronics', Manufacturer_ID: 'LM335Z', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/LM335.pdf' },
     { Name: 'ic_timer_NE555_soic8', Extends: 'ic_timer_NE555', Reference: 'U', Value: 'NE555', Description: '', Footprint: 'lily_footprints:soic8', Revision: '1', Manufacturer: 'Texas Instruments', Manufacturer_ID: 'NE555DR', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/NE555.pdf' },
     { Name: 'ic_touch_AT24QT1010_sot23-6', Extends: 'ic_touch_6p', Reference: 'U', Value: 'AT24QT1010', Description: '', Footprint: 'lily_footprints:sot23-6_sc74', Revision: '1', Manufacturer: 'Microchip Tech', Manufacturer_ID: 'AT42QT1010-TSH', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/microchip/AT42QT1010.pdf' },
     { Name: 'ic_transceiver_rs485_half_duplex_SN75176B_soic8', Extends: 'ic_transceiver_rs485_half_duplex', Reference: 'U', Value: 'SN75176B', Description: '', Footprint: 'lily_footprints:soic8', Revision: '1', Manufacturer: 'Texas Instruments', Manufacturer_ID: 'SN75176BDR', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/texas_instruments/SN75176B.pdf' },
@@ -695,7 +695,7 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-09-25 23:34</p>
+<p>Last updated: 2026-09-25 23:37</p>
 <p>Total symbols: 449</p>
 <p>Total footprints: 88</p>
 </div>
