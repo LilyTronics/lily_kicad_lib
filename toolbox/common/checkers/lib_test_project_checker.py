@@ -69,7 +69,7 @@ class LibTestProjectsChecker:
                                         designs[design]['symbols']))
 
                 # Only count if it is used if it is in one of the test designs
-                if design.startswith('lib_test\\') and len(matches) > 0:
+                if len(matches) > 0:
                     is_used = True
 
                 if len(matches) > 0 and not should_be_used:
