@@ -218,16 +218,16 @@ class DesignChecker:
                     })
 
                 # Check values
-                for key in lib_keys:
-                    lib_value = lib_footprint[key]
-                    design_value = design_footprint.get(key, None)
+                for lib_key in lib_keys:
+                    lib_value = lib_footprint[lib_key]
+                    design_value = design_footprint.get(lib_key, None)
                     lib_instance = type(lib_value)
                     design_instance = type(design_value)
                     if lib_instance != design_instance:
                         report_messages.append({
                             'item': f'{design_footprint['Reference']['Value']} '
                                     f'({design['name']}, {lib_name})',
-                            'message': f"values of property '{key}' are not of the same type: "
+                            'message': f"values of property '{lib_key}' are not of the same type: "
                                         f'{design_instance}, expected {lib_instance} {caller}'
                         })
                     else:
@@ -241,15 +241,15 @@ class DesignChecker:
                                 report_messages.append({
                                     'item': f'{design_footprint['Reference']['Value']} '
                                             f'({design['name']}, {lib_name})',
-                                    'message': f'property {property} has a different value for '
-                                                f'{key}: {diff[key]} {caller}'
+                                    'message': f"property '{lib_key}' has a different value for "
+                                               f'{key}: {diff[key]} {caller}'
                                 })
                         else:
                             if lib_value != design_value:
                                 report_messages.append({
                                     'item': f'{design_footprint['Reference']['Value']} '
                                             f'({design['name']}, {lib_name})',
-                                    'message': f'property {property} has a different value: '
+                                    'message': f"property '{lib_key}' has a different value: "
                                                 f'{design_value}, expected: {lib_value} {caller}'
                                 })
 
@@ -340,6 +340,6 @@ if __name__ == '__main__':
     from toolbox.common.show_messages import show_messages
 
 
-    _test_project_folder = os.path.join(ToolboxData.TEST_PROJECTS_PATH, 'lib_test', 'design_blocks')
+    _test_project_folder = os.path.join(ToolboxData.TEST_PROJECTS_PATH, 'lib_test', 'capacitors')
 
     show_messages(DesignChecker.run(_test_project_folder))
