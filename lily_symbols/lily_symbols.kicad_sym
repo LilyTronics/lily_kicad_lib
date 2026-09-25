@@ -1632,6 +1632,181 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "con_1x02_th"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "con_1x02_th"
+			(at -7.62 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at -5.08 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "con_1x02_th_0_1"
+			(rectangle
+				(start -6.35 1.27)
+				(end -3.81 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 0)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -4.318 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -4.318 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "con_1x02_th_1_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "con_1x03"
 		(pin_names
 			(offset 1.016)
@@ -1791,6 +1966,222 @@
 			)
 		)
 		(symbol "con_1x03_1_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "con_1x03_th"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "con_1x03_th"
+			(at -7.62 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at -5.08 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "con_1x03_th_0_1"
+			(rectangle
+				(start -6.35 1.27)
+				(end -3.81 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 0)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -5.08)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -4.318 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -4.318 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -5.08) (xy -4.318 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "con_1x03_th_1_1"
 			(pin passive line
 				(at 0 0 180)
 				(length 3.81)
@@ -2105,6 +2496,263 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "con_1x04_th"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -8.89 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "con_1x04_th"
+			(at -8.89 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at -5.08 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "con_1x04_th_0_1"
+			(rectangle
+				(start -6.35 1.27)
+				(end -3.81 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 0)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -5.08)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -7.62)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -4.318 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -4.318 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -5.08) (xy -4.318 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -7.62) (xy -4.318 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "con_1x04_th_1_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "con_1x06"
 		(pin_names
 			(offset 1.016)
@@ -2253,6 +2901,345 @@
 			)
 		)
 		(symbol "con_1x06_1_1"
+			(rectangle
+				(start -6.35 1.27)
+				(end -3.81 -13.97)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -7.62)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -10.16)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -12.7)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -7.62) (xy -4.318 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -10.16) (xy -4.318 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -12.7) (xy -4.318 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "con_1x06_th"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "con_1x06_th"
+			(at -7.62 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at -5.08 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "con_1x06_th_0_1"
+			(circle
+				(center -5.08 0)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 -5.08)
+				(radius 0.762)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -4.318 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -4.318 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -5.08) (xy -4.318 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "con_1x06_th_1_1"
 			(rectangle
 				(start -6.35 1.27)
 				(end -3.81 -13.97)
@@ -3245,7 +4232,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_1x10"
+	(symbol "con_1x10_th"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -3253,7 +4240,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
@@ -3266,7 +4253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_1x10"
+		(property "Value" "con_1x10_th"
 			(at -7.62 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +4308,7 @@
 				)
 			)
 		)
-		(symbol "con_1x10_0_1"
+		(symbol "con_1x10_th_0_1"
 			(circle
 				(center -5.08 0)
 				(radius 0.762)
@@ -3392,7 +4379,7 @@
 				)
 			)
 		)
-		(symbol "con_1x10_1_1"
+		(symbol "con_1x10_th_1_1"
 			(rectangle
 				(start -6.35 1.27)
 				(end -3.81 -24.13)
@@ -3748,7 +4735,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_1x15"
+	(symbol "con_1x15_th"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -3756,7 +4743,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
@@ -3769,7 +4756,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_1x15"
+		(property "Value" "con_1x15_th"
 			(at -7.62 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3824,7 +4811,7 @@
 				)
 			)
 		)
-		(symbol "con_1x15_0_1"
+		(symbol "con_1x15_th_0_1"
 			(circle
 				(center -5.08 0)
 				(radius 0.762)
@@ -3895,7 +4882,7 @@
 				)
 			)
 		)
-		(symbol "con_1x15_1_1"
+		(symbol "con_1x15_th_1_1"
 			(rectangle
 				(start -6.35 1.27)
 				(end -3.81 -36.83)
@@ -4456,11 +5443,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_64p_a+c"
+	(symbol "con_64p_a+c_th"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at 2.54 6.35 0)
@@ -4473,7 +5460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_64p_a+c"
+		(property "Value" "con_64p_a+c_th"
 			(at 2.54 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +5515,7 @@
 				)
 			)
 		)
-		(symbol "con_64p_a+c_0_0"
+		(symbol "con_64p_a+c_th_0_0"
 			(rectangle
 				(start 5.08 1.27)
 				(end 10.16 -80.01)
@@ -6013,7 +7000,7 @@
 				)
 			)
 		)
-		(symbol "con_64p_a+c_1_1"
+		(symbol "con_64p_a+c_th_1_1"
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
@@ -7177,7 +8164,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
@@ -7508,14 +8495,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_coax_5p"
+	(symbol "con_coax_5p_th"
 		(pin_names
 			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
@@ -7528,7 +8515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_coax_5p"
+		(property "Value" "con_coax_5p_th"
 			(at -7.62 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7583,7 +8570,7 @@
 				)
 			)
 		)
-		(symbol "con_coax_5p_0_1"
+		(symbol "con_coax_5p_th_0_1"
 			(polyline
 				(pts
 					(xy -7.62 -5.08) (xy 0 -5.08)
@@ -7644,7 +8631,7 @@
 				)
 			)
 		)
-		(symbol "con_coax_5p_1_1"
+		(symbol "con_coax_5p_th_1_1"
 			(pin passive line
 				(at 0 0 180)
 				(length 2.54)
@@ -7738,11 +8725,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_dc_jack_3p"
+	(symbol "con_dc_jack_3p_th"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at -10.16 6.35 0)
@@ -7755,7 +8742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_dc_jack_3p"
+		(property "Value" "con_dc_jack_3p_th"
 			(at -10.16 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +8797,7 @@
 				)
 			)
 		)
-		(symbol "con_dc_jack_3p_0_1"
+		(symbol "con_dc_jack_3p_th_0_1"
 			(polyline
 				(pts
 					(xy -11.43 0.635) (xy -3.81 0.635)
@@ -7896,7 +8883,7 @@
 				)
 			)
 		)
-		(symbol "con_dc_jack_3p_1_1"
+		(symbol "con_dc_jack_3p_th_1_1"
 			(pin passive line
 				(at 0 0 180)
 				(length 3.81)
@@ -7954,7 +8941,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_jumper_1x02"
+	(symbol "con_jumper_1x02_th"
 		(pin_numbers
 			(hide yes)
 		)
@@ -7965,7 +8952,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at 1.27 5.08 0)
@@ -7978,7 +8965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_jumper_1x02"
+		(property "Value" "con_jumper_1x02_th"
 			(at 1.27 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8033,7 +9020,7 @@
 				)
 			)
 		)
-		(symbol "con_jumper_1x02_0_1"
+		(symbol "con_jumper_1x02_th_0_1"
 			(polyline
 				(pts
 					(xy 3.81 1.27) (xy 6.35 1.27)
@@ -8093,7 +9080,7 @@
 				)
 			)
 		)
-		(symbol "con_jumper_1x02_1_1"
+		(symbol "con_jumper_1x02_th_1_1"
 			(arc
 				(start 3.81 -1.27)
 				(mid 2.54 0)
@@ -8145,7 +9132,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_sub_d_hd_44p"
+	(symbol "con_sub_d_hd_44p_th"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -8153,7 +9140,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at 2.54 7.62 0)
@@ -8166,7 +9153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_sub_d_hd_44p"
+		(property "Value" "con_sub_d_hd_44p_th"
 			(at 2.54 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8221,7 +9208,7 @@
 				)
 			)
 		)
-		(symbol "con_sub_d_hd_44p_0_1"
+		(symbol "con_sub_d_hd_44p_th_0_1"
 			(polyline
 				(pts
 					(xy 3.81 0) (xy 5.6896 -0.9398)
@@ -9235,7 +10222,7 @@
 				)
 			)
 		)
-		(symbol "con_sub_d_hd_44p_1_1"
+		(symbol "con_sub_d_hd_44p_th_1_1"
 			(rectangle
 				(start 3.81 2.54)
 				(end 13.97 -57.15)
@@ -10060,14 +11047,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_usb_b"
+	(symbol "con_usb_b_th"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
-			(at -7.62 8.89 0)
+			(at -19.05 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10077,8 +11064,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_usb_b"
-			(at -7.62 6.35 0)
+		(property "Value" "con_usb_b_th"
+			(at -19.05 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10132,7 +11119,7 @@
 				)
 			)
 		)
-		(symbol "con_usb_b_0_0"
+		(symbol "con_usb_b_th_0_0"
 			(text "SHIELD"
 				(at -11.43 -10.16 0)
 				(effects
@@ -10142,7 +11129,7 @@
 				)
 			)
 		)
-		(symbol "con_usb_b_0_1"
+		(symbol "con_usb_b_th_0_1"
 			(rectangle
 				(start -17.78 -0.635)
 				(end -16.51 -1.905)
@@ -10201,7 +11188,7 @@
 				)
 			)
 		)
-		(symbol "con_usb_b_1_1"
+		(symbol "con_usb_b_th_1_1"
 			(pin power_out line
 				(at 0 0 180)
 				(length 3.81)
@@ -10792,11 +11779,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "con_xlr_jack_7p"
+	(symbol "con_xlr_jack_7p_th"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "X"
 			(at -17.78 7.62 0)
@@ -10809,7 +11796,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "con_xlr_jack_7p"
+		(property "Value" "con_xlr_jack_7p_th"
 			(at -17.78 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10864,7 +11851,7 @@
 				)
 			)
 		)
-		(symbol "con_xlr_jack_7p_0_1"
+		(symbol "con_xlr_jack_7p_th_0_1"
 			(polyline
 				(pts
 					(xy -16.51 -6.35) (xy -17.78 -6.35)
@@ -11067,7 +12054,7 @@
 				)
 			)
 		)
-		(symbol "con_xlr_jack_7p_1_1"
+		(symbol "con_xlr_jack_7p_th_1_1"
 			(rectangle
 				(start -17.78 2.54)
 				(end -3.81 -17.78)
@@ -47588,7 +48575,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_dc_jack_dc_005_th"
-		(extends "con_dc_jack_3p")
+		(extends "con_dc_jack_3p_th")
 		(property "Reference" "X"
 			(at -5.08 6.35 0)
 			(show_name no)
@@ -47713,7 +48700,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_din41612_plug_64p_a+c_right_angle_th"
-		(extends "con_64p_a+c")
+		(extends "con_64p_a+c_th")
 		(property "Reference" "X"
 			(at 2.54 6.35 0)
 			(show_name no)
@@ -47838,7 +48825,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_din41612_receptacle_64p_a+c_right_angle_th"
-		(extends "con_64p_a+c")
+		(extends "con_64p_a+c_th")
 		(property "Reference" "X"
 			(at 2.54 6.35 0)
 			(show_name no)
@@ -47963,7 +48950,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_din41612_receptacle_64p_a+c_straight_th"
-		(extends "con_64p_a+c")
+		(extends "con_64p_a+c_th")
 		(property "Reference" "X"
 			(at 2.54 6.35 0)
 			(show_name no)
@@ -48088,7 +49075,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_header_1x02_5.08mm_th"
-		(extends "con_1x02")
+		(extends "con_1x02_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -48213,7 +49200,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_header_1x06_2.54mm_th"
-		(extends "con_1x06")
+		(extends "con_1x06_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -48338,7 +49325,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_header_1x10_2.54mm_th"
-		(extends "con_1x10")
+		(extends "con_1x10_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -48463,7 +49450,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_header_2x03_2.54mm_th"
-		(extends "con_1x06")
+		(extends "con_1x06_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -48588,7 +49575,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_jst_1x02_PH_2.00mm_right_angle_th"
-		(extends "con_1x02")
+		(extends "con_1x02_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -48838,7 +49825,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_jst_1x02_VH_3.96mm_right_angle_th"
-		(extends "con_1x02")
+		(extends "con_1x02_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -48963,7 +49950,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_jst_1x03_PH_2.00mm_right_angle_th"
-		(extends "con_1x03")
+		(extends "con_1x03_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -49213,7 +50200,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_jst_1x04_PH_2.00mm_right_angle_th"
-		(extends "con_1x04")
+		(extends "con_1x04_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -49463,7 +50450,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_jst_1x04_VH_3.96mm_right_angle_th"
-		(extends "con_1x04")
+		(extends "con_1x04_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -49963,7 +50950,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_jumper_1x02_2.54mm_th"
-		(extends "con_jumper_1x02")
+		(extends "con_jumper_1x02_th")
 		(property "Reference" "X"
 			(at 2.54 6.35 0)
 			(show_name no)
@@ -50088,7 +51075,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_rf_sma_right_angle_th"
-		(extends "con_coax_5p")
+		(extends "con_coax_5p_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -50213,7 +51200,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_socket_1x15_2.54mm_straight_th"
-		(extends "con_1x15")
+		(extends "con_1x15_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -50338,7 +51325,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_sub_d_hd_plug_44p_th"
-		(extends "con_sub_d_hd_44p")
+		(extends "con_sub_d_hd_44p_th")
 		(property "Reference" "X"
 			(at 2.54 7.62 0)
 			(show_name no)
@@ -50463,7 +51450,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_sub_d_hd_receptacle_44p_th"
-		(extends "con_sub_d_hd_44p")
+		(extends "con_sub_d_hd_44p_th")
 		(property "Reference" "X"
 			(at 2.54 7.62 0)
 			(show_name no)
@@ -50588,7 +51575,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_terminal_block_2p_5.08_th"
-		(extends "con_1x02")
+		(extends "con_1x02_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -50713,7 +51700,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_terminal_block_3p_5.08_th"
-		(extends "con_1x03")
+		(extends "con_1x03_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -50838,7 +51825,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_terminal_socket_male_10p_3.81mm_right_angle_th"
-		(extends "con_1x10")
+		(extends "con_1x10_th")
 		(property "Reference" "X"
 			(at -7.62 6.35 0)
 			(show_name no)
@@ -50963,7 +51950,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_usb_b_receptacle_th"
-		(extends "con_usb_b")
+		(extends "con_usb_b_th")
 		(property "Reference" "X"
 			(at -19.05 8.89 0)
 			(show_name no)
@@ -51213,7 +52200,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "con_xlr_jack_7p_RCJ6A-H_th"
-		(extends "con_xlr_jack_7p")
+		(extends "con_xlr_jack_7p_th")
 		(property "Reference" "X"
 			(at -17.78 7.62 0)
 			(show_name no)
