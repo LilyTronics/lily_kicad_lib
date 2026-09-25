@@ -60,7 +60,16 @@ class DesignChecker:
                     'message': f'The {prop} is not equal between the schematics and the PCB '
                                f'{caller}'
                 })
-
+        if not design['sch_props']['worksheet'].startswith('lilytronics_page_layout_sch'):
+            report_messages.append({
+                'item': f'{design['name']}',
+                'message': f'The schematic does not have the LilyTronics worksheet {caller}'
+            })
+        if not design['pcb_props']['worksheet'].startswith('lilytronics_page_layout_pcb'):
+            report_messages.append({
+                'item': f'{design['name']}',
+                'message': f'The PCB does not have the LilyTronics worksheet {caller}'
+            })
 
     @classmethod
     def _check_if_symbols_not_in_library(cls, design, lib_symbols, report_messages):
