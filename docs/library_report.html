@@ -61,7 +61,9 @@ const generic_symbols = [
     { Name: 'GNDA', Extends: '', Reference: '#PWR', Value: 'GNDA', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'Vxx', Extends: '', Reference: '#PWR', Value: 'Vxx', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'bjt_npn_3p', Extends: '', Reference: 'Q', Value: 'bjt_npn_3p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'bjt_npn_3p_th', Extends: '', Reference: 'Q', Value: 'bjt_npn_3p_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'bjt_pnp_3p', Extends: '', Reference: 'Q', Value: 'bjt_pnp_3p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'bjt_pnp_3p_th', Extends: '', Reference: 'Q', Value: 'bjt_pnp_3p_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'cap', Extends: '', Reference: 'C', Value: 'cap', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'cap_elec_th', Extends: '', Reference: 'C', Value: 'cap_elec', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'cap_trimmer', Extends: '', Reference: 'C', Value: 'cap_trimmer', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
@@ -150,12 +152,12 @@ const generic_symbols = [
 
 const parts = [
     { Name: 'bjt_npn_BC850B_sot23', Extends: 'bjt_npn_3p', Reference: 'Q', Value: 'BC850B', Description: '', Footprint: 'lily_footprints:sot23', Revision: '1', Manufacturer: 'Nexperia', Manufacturer_ID: 'BC850B', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/nexperia/BC850B.pdf' },
-    { Name: 'bjt_npn_BD139_to126', Extends: 'bjt_npn_3p', Reference: 'Q', Value: 'BD139', Description: '', Footprint: 'lily_footprints:to126', Revision: '1', Manufacturer: 'STMicroelectronics', Manufacturer_ID: 'BD139', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/BD139_140.pdf' },
-    { Name: 'bjt_npn_MJL3281A_to264', Extends: 'bjt_npn_3p', Reference: 'Q', Value: 'MJL3281A', Description: '', Footprint: 'lily_footprints:to264', Revision: '1', Manufacturer: 'Onsemi', Manufacturer_ID: 'MJL3281A', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MJL3281A_MJL1302A.pdf' },
+    { Name: 'bjt_npn_BD139_to126', Extends: 'bjt_npn_3p_th', Reference: 'Q', Value: 'BD139', Description: '', Footprint: 'lily_footprints:to126', Revision: '1', Manufacturer: 'STMicroelectronics', Manufacturer_ID: 'BD139', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/BD139_140.pdf' },
+    { Name: 'bjt_npn_MJL3281A_to264', Extends: 'bjt_npn_3p_th', Reference: 'Q', Value: 'MJL3281A', Description: '', Footprint: 'lily_footprints:to264', Revision: '1', Manufacturer: 'Onsemi', Manufacturer_ID: 'MJL3281A', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MJL3281A_MJL1302A.pdf' },
     { Name: 'bjt_npn_MMBT2222AL_sot23', Extends: 'bjt_npn_3p', Reference: 'Q', Value: 'MMBT2222AL', Description: '', Footprint: 'lily_footprints:sot23', Revision: '1', Manufacturer: 'onsemi', Manufacturer_ID: 'MMBT2222ALT1G', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MMBT2222.pdf' },
     { Name: 'bjt_pnp_BC860B_sot23', Extends: 'bjt_pnp_3p', Reference: 'Q', Value: 'BC860B', Description: '', Footprint: 'lily_footprints:sot23', Revision: '1', Manufacturer: 'Nexperia', Manufacturer_ID: 'BC860B', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/nexperia/BC860B.pdf' },
-    { Name: 'bjt_pnp_BD140_to126', Extends: 'bjt_pnp_3p', Reference: 'Q', Value: 'BD140', Description: '', Footprint: 'lily_footprints:to126', Revision: '1', Manufacturer: 'STMicroelectronics', Manufacturer_ID: 'BD140', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/BD139_140.pdf' },
-    { Name: 'bjt_pnp_MJL1302A_to264', Extends: 'bjt_pnp_3p', Reference: 'Q', Value: 'MJL1302A', Description: '', Footprint: 'lily_footprints:to264', Revision: '1', Manufacturer: 'Onsemi', Manufacturer_ID: 'MJL1302A', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MJL3281A_MJL1302A.pdf' },
+    { Name: 'bjt_pnp_BD140_to126', Extends: 'bjt_pnp_3p_th', Reference: 'Q', Value: 'BD140', Description: '', Footprint: 'lily_footprints:to126', Revision: '1', Manufacturer: 'STMicroelectronics', Manufacturer_ID: 'BD140', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/stmicroelectronics/BD139_140.pdf' },
+    { Name: 'bjt_pnp_MJL1302A_to264', Extends: 'bjt_pnp_3p_th', Reference: 'Q', Value: 'MJL1302A', Description: '', Footprint: 'lily_footprints:to264', Revision: '1', Manufacturer: 'Onsemi', Manufacturer_ID: 'MJL1302A', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/onsemi/MJL3281A_MJL1302A.pdf' },
     { Name: 'cap_100n_50V_10%_X7R_0805', Extends: 'cap', Reference: 'C', Value: '100n', Description: '', Footprint: 'lily_footprints:cap_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'CC0805KRX7R9BB104', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf' },
     { Name: 'cap_100p_50V_5%_C0G_0805', Extends: 'cap', Reference: 'C', Value: '100p', Description: '', Footprint: 'lily_footprints:cap_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'CC0805JRNPO9BN101', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf' },
     { Name: 'cap_10n_50V_10%_X7R_0805', Extends: 'cap', Reference: 'C', Value: '10n', Description: '', Footprint: 'lily_footprints:cap_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'CC0805KRX7R9BB103', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf' },
@@ -695,8 +697,8 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-09-25 23:51</p>
-<p>Total symbols: 449</p>
+<p>Last updated: 2026-09-25 23:55</p>
+<p>Total symbols: 451</p>
 <p>Total footprints: 88</p>
 </div>
 
