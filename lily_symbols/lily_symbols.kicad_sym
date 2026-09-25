@@ -37086,7 +37086,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "pot_schielded"
+	(symbol "pot_schielded_th"
 		(pin_numbers
 			(hide yes)
 		)
@@ -37097,7 +37097,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "P"
 			(at 2.54 -5.08 0)
@@ -37110,7 +37110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "pot"
+		(property "Value" "pot_schielded_th"
 			(at 2.54 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37165,7 +37165,7 @@
 				)
 			)
 		)
-		(symbol "pot_schielded_0_1"
+		(symbol "pot_schielded_th_0_1"
 			(rectangle
 				(start -1.016 -6.35)
 				(end 1.016 -1.27)
@@ -37202,7 +37202,7 @@
 				)
 			)
 		)
-		(symbol "pot_schielded_1_1"
+		(symbol "pot_schielded_th_1_1"
 			(polyline
 				(pts
 					(xy -2.54 -6.35) (xy -1.524 -6.35)
@@ -60148,7 +60148,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "pot_lin_1k_20%_50mW_ptv09a-4025f"
-		(extends "pot_schielded")
+		(extends "pot_schielded_th")
 		(property "Reference" "P"
 			(at 2.54 -5.08 0)
 			(show_name no)

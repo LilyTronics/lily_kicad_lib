@@ -232,7 +232,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "P"
 				(at 2.54 -5.08 0)
@@ -1724,7 +1724,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f7682fdf-1968-46fe-94bc-6e69439f738d")
 		(property "Reference" "P1004"
