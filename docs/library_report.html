@@ -90,6 +90,7 @@ const generic_symbols = [
     { Name: 'crystal_osc_4p', Extends: '', Reference: 'X', Value: 'crystal_osc_4p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'dio', Extends: '', Reference: 'D', Value: 'dio', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'dio_led', Extends: '', Reference: 'D', Value: 'dio_led', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'dio_led_th', Extends: '', Reference: 'D', Value: 'dio_led_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'dio_schottky', Extends: '', Reference: 'D', Value: 'dio_schottky', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'dio_schottky_dual_s', Extends: '', Reference: 'D', Value: 'dio_schottky_dual_s', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'dio_tvs_bidi', Extends: '', Reference: 'D', Value: 'dio_tvs_bidi', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
@@ -270,7 +271,7 @@ const parts = [
     { Name: 'dio_1N4148W_sod123', Extends: 'dio', Reference: 'D', Value: '1N4148W', Description: '', Footprint: 'lily_footprints:dio_sod123', Revision: '1', Manufacturer: 'Diotec Semiconductor', Manufacturer_ID: '1N4148W', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/diotec/1N4148W.pdf' },
     { Name: 'dio_led_blue_KP-2012QBC-D_0805', Extends: 'dio_led', Reference: 'D', Value: 'blue', Description: '', Footprint: 'lily_footprints:led_0805', Revision: '1', Manufacturer: 'Kingbright', Manufacturer_ID: 'KP-2012CGCK', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012QBC-D.pdf' },
     { Name: 'dio_led_green_KP-2012CGCK_0805', Extends: 'dio_led', Reference: 'D', Value: 'green', Description: '', Footprint: 'lily_footprints:led_0805', Revision: '1', Manufacturer: 'Kingbright', Manufacturer_ID: 'KP-2012CGCK', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf' },
-    { Name: 'dio_led_green_MCL034GD_3mm_edge_mount', Extends: 'dio_led', Reference: 'D', Value: 'green', Description: '', Footprint: 'lily_footprints:led_3mm_green_edge_mount', Revision: '1', Manufacturer: 'MULTICOMP PRO', Manufacturer_ID: 'MCL034GD', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/MCL034GD.pdf' },
+    { Name: 'dio_led_green_MCL034GD_3mm_edge_mount', Extends: 'dio_led_th', Reference: 'D', Value: 'green', Description: '', Footprint: 'lily_footprints:led_3mm_green_edge_mount', Revision: '1', Manufacturer: 'MULTICOMP PRO', Manufacturer_ID: 'MCL034GD', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/MCL034GD.pdf' },
     { Name: 'dio_led_red_KP-2012SURCK_0805', Extends: 'dio_led', Reference: 'D', Value: 'red', Description: '', Footprint: 'lily_footprints:led_0805', Revision: '1', Manufacturer: 'Kingbright', Manufacturer_ID: 'KP-2012SURCK', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012SURCK.pdf' },
     { Name: 'dio_led_yellow_KP-2012SYCK_0805', Extends: 'dio_led', Reference: 'D', Value: 'yellow', Description: '', Footprint: 'lily_footprints:led_0805', Revision: '1', Manufacturer: 'Kingbright', Manufacturer_ID: 'KP-2012CGCK', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012SYCK.pdf' },
     { Name: 'dio_schottky_1N5819HW_sod123', Extends: 'dio_schottky', Reference: 'D', Value: '1N5819HW', Description: '', Footprint: 'lily_footprints:dio_sod123', Revision: '1', Manufacturer: 'Diodes Incorporated', Manufacturer_ID: '1N5819HW-7-F', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/1N5819HW.pdf' },
@@ -694,8 +695,8 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-09-25 23:20</p>
-<p>Total symbols: 448</p>
+<p>Last updated: 2026-09-25 23:24</p>
+<p>Total symbols: 449</p>
 <p>Total footprints: 88</p>
 </div>
 
