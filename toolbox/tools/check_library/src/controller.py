@@ -6,7 +6,7 @@ import wx
 
 from toolbox.common.checkers.erp_checker import ErpChecker
 from toolbox.common.checkers.footprints_checker import FootprintsChecker
-from toolbox.common.checkers.projects_checker import ProjectsChecker
+from toolbox.common.checkers.lib_test_project_checker import LibTestProjectsChecker
 from toolbox.common.checkers.symbols_checker import SymbolsChecker
 from toolbox.common.checkers.unused_items_checker import UnusedItemsChecker
 
@@ -20,7 +20,7 @@ class Controller(ControllerBase):
         'Check footprints': FootprintsChecker,
         'Check unused items': UnusedItemsChecker,
         'Check ERP data': ErpChecker,
-        'Check projects': ProjectsChecker
+        'Check lib test projects': LibTestProjectsChecker
     }
 
     def __init__(self, *args):
