@@ -143,7 +143,7 @@ const generic_symbols = [
     { Name: 'pot', Extends: '', Reference: 'P', Value: 'pot', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'pot_schielded_th', Extends: '', Reference: 'P', Value: 'pot_schielded_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'res', Extends: '', Reference: 'R', Value: 'res', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
-    { Name: 'switch_dpdt_6p', Extends: '', Reference: 'S', Value: 'switch_dpdt_6p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'switch_dpdt_6p_th', Extends: '', Reference: 'S', Value: 'switch_dpdt_6p_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'switch_spst_button_4p', Extends: '', Reference: 'S', Value: 'switch_spst_button_4p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'test_point', Extends: '', Reference: 'TP', Value: 'TP', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' }
 ];
@@ -503,7 +503,7 @@ const parts = [
     { Name: 'res_9M1_1%_125mW_0805', Extends: 'res', Reference: 'R', Value: '9M1', Description: '', Footprint: 'lily_footprints:res_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'RC0805FR-079M1L', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf' },
     { Name: 'res_9R1_1%_125mW_0805', Extends: 'res', Reference: 'R', Value: '9R1', Description: '', Footprint: 'lily_footprints:res_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'RC0805FR-079R1L', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf' },
     { Name: 'res_9k1_1%_125mW_0805', Extends: 'res', Reference: 'R', Value: '9k1', Description: '', Footprint: 'lily_footprints:res_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'RC0805FR-079K1L', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf' },
-    { Name: 'switch_dpdt_slide_6p_js202011cqn', Extends: 'switch_dpdt_6p', Reference: 'S', Value: 'dpdt', Description: '', Footprint: 'lily_footprints:switch_slide_dpdt_js202011cqn', Revision: '1', Manufacturer: 'Littlefuse', Manufacturer_ID: 'JS202011CQN', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/slide_switch_JS_series.pdf' },
+    { Name: 'switch_dpdt_slide_6p_js202011cqn', Extends: 'switch_dpdt_6p_th', Reference: 'S', Value: 'dpdt', Description: '', Footprint: 'lily_footprints:switch_slide_dpdt_js202011cqn', Revision: '1', Manufacturer: 'Littlefuse', Manufacturer_ID: 'JS202011CQN', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/slide_switch_JS_series.pdf' },
     { Name: 'switch_spst_button_4p_4.2x3.2mm', Extends: 'switch_spst_button_4p', Reference: 'S', Value: 'spst', Description: '', Footprint: 'lily_footprints:switch_spst_4p_4.2x3.2mm', Revision: '1', Manufacturer: 'APLSALPINE', Manufacturer_ID: 'SKRPABE010', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/alps/SKRP_series.pdf' },
     { Name: 'test_point_1.1mm_th', Extends: 'test_point', Reference: 'TP', Value: 'TP', Description: '', Footprint: 'lily_footprints:test_point_1.1mm_th', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'test_point_1mm_smd', Extends: 'test_point', Reference: 'TP', Value: 'TP', Description: '', Footprint: 'lily_footprints:test_point_1mm', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' }
@@ -695,7 +695,7 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-09-25 23:47</p>
+<p>Last updated: 2026-09-25 23:49</p>
 <p>Total symbols: 449</p>
 <p>Total footprints: 88</p>
 </div>
