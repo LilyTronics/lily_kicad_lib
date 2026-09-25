@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -78,7 +78,20 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -87,15 +100,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 6)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -119,165 +129,6 @@
 			(outputdirectory "")
 		)
 	)
-	(net 0 "")
-	(net 1 "unconnected-(C1001-Pad2)")
-	(net 2 "unconnected-(C1001-Pad1)")
-	(net 3 "unconnected-(C1002-Pad2)")
-	(net 4 "unconnected-(C1002-Pad1)")
-	(net 5 "unconnected-(C1003-Pad2)")
-	(net 6 "unconnected-(C1003-Pad1)")
-	(net 7 "unconnected-(C1004-Pad2)")
-	(net 8 "unconnected-(C1004-Pad1)")
-	(net 9 "unconnected-(C1005-Pad1)")
-	(net 10 "unconnected-(C1005-Pad2)")
-	(net 11 "unconnected-(C1006-Pad1)")
-	(net 12 "unconnected-(C1006-Pad2)")
-	(net 13 "unconnected-(C1007-Pad1)")
-	(net 14 "unconnected-(C1007-Pad2)")
-	(net 15 "unconnected-(C1008-Pad2)")
-	(net 16 "unconnected-(C1008-Pad1)")
-	(net 17 "unconnected-(C1009-Pad2)")
-	(net 18 "unconnected-(C1009-Pad1)")
-	(net 19 "unconnected-(C1010-Pad1)")
-	(net 20 "unconnected-(C1010-Pad2)")
-	(net 21 "unconnected-(C1011-Pad1)")
-	(net 22 "unconnected-(C1011-Pad2)")
-	(net 23 "unconnected-(C1012-Pad1)")
-	(net 24 "unconnected-(C1012-Pad2)")
-	(net 25 "unconnected-(C1013-Pad1)")
-	(net 26 "unconnected-(C1013-Pad2)")
-	(net 27 "unconnected-(C1014-Pad2)")
-	(net 28 "unconnected-(C1014-Pad1)")
-	(net 29 "unconnected-(C1015-Pad2)")
-	(net 30 "unconnected-(C1015-Pad1)")
-	(net 31 "unconnected-(C1016-Pad2)")
-	(net 32 "unconnected-(C1016-Pad1)")
-	(net 33 "unconnected-(C1017-Pad2)")
-	(net 34 "unconnected-(C1017-Pad1)")
-	(net 35 "unconnected-(C1018-Pad2)")
-	(net 36 "unconnected-(C1018-Pad1)")
-	(net 37 "unconnected-(C1019-Pad2)")
-	(net 38 "unconnected-(C1019-Pad1)")
-	(net 39 "unconnected-(C1020-Pad2)")
-	(net 40 "unconnected-(C1020-Pad1)")
-	(net 41 "unconnected-(C1021-Pad1)")
-	(net 42 "unconnected-(C1021-Pad2)")
-	(net 43 "unconnected-(C1022-Pad2)")
-	(net 44 "unconnected-(C1022-Pad1)")
-	(net 45 "unconnected-(C1023-Pad1)")
-	(net 46 "unconnected-(C1023-Pad2)")
-	(net 47 "unconnected-(C1024-Pad1)")
-	(net 48 "unconnected-(C1024-Pad2)")
-	(net 49 "unconnected-(C1025-Pad1)")
-	(net 50 "unconnected-(C1025-Pad2)")
-	(net 51 "unconnected-(C1026-Pad1)")
-	(net 52 "unconnected-(C1026-Pad2)")
-	(net 53 "unconnected-(C1027-Pad2)")
-	(net 54 "unconnected-(C1027-Pad1)")
-	(net 55 "unconnected-(C1028-Pad1)")
-	(net 56 "unconnected-(C1028-Pad2)")
-	(net 57 "unconnected-(C1029-Pad1)")
-	(net 58 "unconnected-(C1029-Pad2)")
-	(net 59 "unconnected-(C1030-Pad1)")
-	(net 60 "unconnected-(C1030-Pad2)")
-	(net 61 "unconnected-(C1031-Pad2)")
-	(net 62 "unconnected-(C1031-Pad1)")
-	(net 63 "unconnected-(C1032-Pad1)")
-	(net 64 "unconnected-(C1032-Pad2)")
-	(net 65 "unconnected-(C1033-Pad1)")
-	(net 66 "unconnected-(C1033-Pad2)")
-	(net 67 "unconnected-(C1034-Pad2)")
-	(net 68 "unconnected-(C1034-Pad1)")
-	(net 69 "unconnected-(C1035-Pad1)")
-	(net 70 "unconnected-(C1035-Pad2)")
-	(net 71 "unconnected-(C1036-Pad1)")
-	(net 72 "unconnected-(C1036-Pad2)")
-	(net 73 "unconnected-(C1037-Pad2)")
-	(net 74 "unconnected-(C1037-Pad1)")
-	(net 75 "unconnected-(C1038-Pad2)")
-	(net 76 "unconnected-(C1038-Pad1)")
-	(net 77 "unconnected-(C1039-Pad1)")
-	(net 78 "unconnected-(C1039-Pad2)")
-	(net 79 "unconnected-(C1040-Pad2)")
-	(net 80 "unconnected-(C1040-Pad1)")
-	(net 81 "unconnected-(C1041-Pad2)")
-	(net 82 "unconnected-(C1041-Pad1)")
-	(net 83 "unconnected-(C1042-Pad1)")
-	(net 84 "unconnected-(C1042-Pad2)")
-	(net 85 "unconnected-(C1043-Pad2)")
-	(net 86 "unconnected-(C1043-Pad1)")
-	(net 87 "unconnected-(C1044-Pad1)")
-	(net 88 "unconnected-(C1044-Pad2)")
-	(net 89 "unconnected-(C1045-Pad1)")
-	(net 90 "unconnected-(C1045-Pad2)")
-	(net 91 "unconnected-(C1046-Pad2)")
-	(net 92 "unconnected-(C1046-Pad1)")
-	(net 93 "unconnected-(C1047-Pad1)")
-	(net 94 "unconnected-(C1047-Pad2)")
-	(net 95 "unconnected-(C1048-Pad1)")
-	(net 96 "unconnected-(C1048-Pad2)")
-	(net 97 "unconnected-(C1049-Pad2)")
-	(net 98 "unconnected-(C1049-Pad1)")
-	(net 99 "unconnected-(C1050-Pad1)")
-	(net 100 "unconnected-(C1050-Pad2)")
-	(net 101 "unconnected-(C1051-Pad1)")
-	(net 102 "unconnected-(C1051-Pad2)")
-	(net 103 "unconnected-(C1052-Pad1)")
-	(net 104 "unconnected-(C1052-Pad2)")
-	(net 105 "unconnected-(C1053-Pad1)")
-	(net 106 "unconnected-(C1053-Pad2)")
-	(net 107 "unconnected-(C1054-Pad2)")
-	(net 108 "unconnected-(C1054-Pad1)")
-	(net 109 "unconnected-(C1055-Pad1)")
-	(net 110 "unconnected-(C1055-Pad2)")
-	(net 111 "unconnected-(C1056-Pad2)")
-	(net 112 "unconnected-(C1056-Pad1)")
-	(net 113 "unconnected-(C1057-Pad2)")
-	(net 114 "unconnected-(C1057-Pad1)")
-	(net 115 "unconnected-(C1058-Pad1)")
-	(net 116 "unconnected-(C1058-Pad2)")
-	(net 117 "unconnected-(C1059-Pad2)")
-	(net 118 "unconnected-(C1059-Pad1)")
-	(net 119 "unconnected-(C1060-Pad1)")
-	(net 120 "unconnected-(C1060-Pad2)")
-	(net 121 "unconnected-(C1061-Pad2)")
-	(net 122 "unconnected-(C1061-Pad1)")
-	(net 123 "unconnected-(C1062-Pad2)")
-	(net 124 "unconnected-(C1062-Pad1)")
-	(net 125 "unconnected-(C1063-Pad1)")
-	(net 126 "unconnected-(C1063-Pad2)")
-	(net 127 "unconnected-(C1064-Pad2)")
-	(net 128 "unconnected-(C1064-Pad1)")
-	(net 129 "unconnected-(C1065-Pad2)")
-	(net 130 "unconnected-(C1065-Pad1)")
-	(net 131 "unconnected-(C1066-Pad2)")
-	(net 132 "unconnected-(C1066-Pad1)")
-	(net 133 "unconnected-(C1067-Pad2)")
-	(net 134 "unconnected-(C1067-Pad1)")
-	(net 135 "unconnected-(C1068-Pad2)")
-	(net 136 "unconnected-(C1068-Pad1)")
-	(net 137 "unconnected-(C1069-Pad1)")
-	(net 138 "unconnected-(C1069-Pad2)")
-	(net 139 "unconnected-(C1070-Pad1)")
-	(net 140 "unconnected-(C1070-Pad2)")
-	(net 141 "unconnected-(C1071-Pad1)")
-	(net 142 "unconnected-(C1071-Pad2)")
-	(net 143 "unconnected-(C1072-Pad1)")
-	(net 144 "unconnected-(C1072-Pad2)")
-	(net 145 "unconnected-(C1073-Pad1)")
-	(net 146 "unconnected-(C1073-Pad2)")
-	(net 147 "unconnected-(C1074-Pad1)")
-	(net 148 "unconnected-(C1074-Pad2)")
-	(net 149 "unconnected-(C1075-Pad1)")
-	(net 150 "unconnected-(C1075-Pad2)")
-	(net 151 "unconnected-(C1076-Pad2)")
-	(net 152 "unconnected-(C1076-Pad1)")
-	(net 153 "unconnected-(C1077-Pad2)")
-	(net 154 "unconnected-(C1077-Pad1)")
-	(net 155 "unconnected-(C1078-Pad1)")
-	(net 156 "unconnected-(C1078-Pad2)")
-	(net 157 "unconnected-(C1079-Pad1)")
-	(net 158 "unconnected-(C1079-Pad2)")
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "0286d75d-0aee-4ebd-8e23-059c82ca23c1")
@@ -383,7 +234,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-15604"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -412,7 +263,14 @@
 		(path "/6199c69d-b57b-407f-92bb-aa7e393bc20a")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -528,7 +386,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 124 "unconnected-(C1062-Pad1)")
+			(net "unconnected-(C1062-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -538,7 +396,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 123 "unconnected-(C1062-Pad2)")
+			(net "unconnected-(C1062-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -662,7 +520,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-33902"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -691,7 +549,14 @@
 		(path "/55831dd5-9176-4bb2-8fb1-94eded0553c9")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -807,7 +672,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 71 "unconnected-(C1036-Pad1)")
+			(net "unconnected-(C1036-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -817,7 +682,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 72 "unconnected-(C1036-Pad2)")
+			(net "unconnected-(C1036-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -941,7 +806,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31800"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -970,7 +835,14 @@
 		(path "/257d8dd8-2b82-46d9-8934-6674f9abdb6f")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -1086,7 +958,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "unconnected-(C1004-Pad1)")
+			(net "unconnected-(C1004-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -1096,7 +968,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 7 "unconnected-(C1004-Pad2)")
+			(net "unconnected-(C1004-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -1220,7 +1092,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31502"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1249,7 +1121,14 @@
 		(path "/717e2194-0018-4cfc-8667-7904c9517007")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -1365,7 +1244,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 62 "unconnected-(C1031-Pad1)")
+			(net "unconnected-(C1031-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -1375,7 +1254,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 61 "unconnected-(C1031-Pad2)")
+			(net "unconnected-(C1031-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -1499,7 +1378,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31002"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1528,7 +1407,14 @@
 		(path "/0730ac04-812e-4f6b-b53e-cf64779f0b16")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -1644,7 +1530,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 57 "unconnected-(C1029-Pad1)")
+			(net "unconnected-(C1029-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -1654,7 +1540,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 58 "unconnected-(C1029-Pad2)")
+			(net "unconnected-(C1029-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -1778,7 +1664,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-12207"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1807,7 +1693,14 @@
 		(path "/bf7839dc-a47c-4410-8439-1025b3905dab")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -1923,7 +1816,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 55 "unconnected-(C1028-Pad1)")
+			(net "unconnected-(C1028-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -1933,7 +1826,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 56 "unconnected-(C1028-Pad2)")
+			(net "unconnected-(C1028-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -2057,7 +1950,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-32702"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2086,7 +1979,14 @@
 		(path "/8c60c5f9-3468-4cb4-b896-d6c42625ea42")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -2202,7 +2102,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 68 "unconnected-(C1034-Pad1)")
+			(net "unconnected-(C1034-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -2212,7 +2112,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 67 "unconnected-(C1034-Pad2)")
+			(net "unconnected-(C1034-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -2336,7 +2236,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11203"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2365,7 +2265,14 @@
 		(path "/960232b8-6843-4ef0-bd6a-1bc24197c8fb")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -2481,7 +2388,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 83 "unconnected-(C1042-Pad1)")
+			(net "unconnected-(C1042-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -2491,7 +2398,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 84 "unconnected-(C1042-Pad2)")
+			(net "unconnected-(C1042-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -2615,7 +2522,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-35602"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2644,7 +2551,14 @@
 		(path "/8ff5a740-7bc1-477d-a532-8ce6323a8c8a")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -2760,7 +2674,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 76 "unconnected-(C1038-Pad1)")
+			(net "unconnected-(C1038-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -2770,7 +2684,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 75 "unconnected-(C1038-Pad2)")
+			(net "unconnected-(C1038-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -2894,7 +2808,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-33302"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2923,7 +2837,14 @@
 		(path "/aa581cca-8abd-40e0-9970-4cc45807f67e")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -3039,7 +2960,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 69 "unconnected-(C1035-Pad1)")
+			(net "unconnected-(C1035-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -3049,7 +2970,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 70 "unconnected-(C1035-Pad2)")
+			(net "unconnected-(C1035-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -3173,7 +3094,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3202,7 +3123,14 @@
 		(path "/e53ae025-affc-4d34-9b23-f1f03cae1f34")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -3318,7 +3246,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 112 "unconnected-(C1056-Pad1)")
+			(net "unconnected-(C1056-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -3328,7 +3256,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 111 "unconnected-(C1056-Pad2)")
+			(net "unconnected-(C1056-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -3452,7 +3380,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-44707"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3481,7 +3409,14 @@
 		(path "/8b165ef7-dc11-4a18-b8c1-efc1e366569c")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.2 -1.6)
 			(end 2.2 -1.6)
@@ -3597,7 +3532,7 @@
 			(at -1.55 0)
 			(size 0.9 2.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 154 "unconnected-(C1077-Pad1)")
+			(net "unconnected-(C1077-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -3607,7 +3542,7 @@
 			(at 1.55 0)
 			(size 0.9 2.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 153 "unconnected-(C1077-Pad2)")
+			(net "unconnected-(C1077-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -3731,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-34702"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3760,7 +3695,14 @@
 		(path "/e01d7ae5-16ed-43b3-8889-8431b9193d7d")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -3876,7 +3818,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 74 "unconnected-(C1037-Pad1)")
+			(net "unconnected-(C1037-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -3886,7 +3828,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 73 "unconnected-(C1037-Pad2)")
+			(net "unconnected-(C1037-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -4010,7 +3952,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-32201"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4039,7 +3981,14 @@
 		(path "/5fb37d87-c3b7-48d1-8b09-aa194bb10919")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -4155,7 +4104,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 38 "unconnected-(C1019-Pad1)")
+			(net "unconnected-(C1019-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -4165,7 +4114,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 37 "unconnected-(C1019-Pad2)")
+			(net "unconnected-(C1019-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -4289,7 +4238,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-15605"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4318,7 +4267,14 @@
 		(path "/e64f980f-fc13-48ee-af89-018e9f810c99")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -4434,7 +4390,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 147 "unconnected-(C1074-Pad1)")
+			(net "unconnected-(C1074-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -4444,7 +4400,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 148 "unconnected-(C1074-Pad2)")
+			(net "unconnected-(C1074-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -4568,7 +4524,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-34700"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4597,7 +4553,14 @@
 		(path "/798ed5e7-f5b1-4862-a712-7d424471043b")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -4713,7 +4676,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 18 "unconnected-(C1009-Pad1)")
+			(net "unconnected-(C1009-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -4723,7 +4686,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 17 "unconnected-(C1009-Pad2)")
+			(net "unconnected-(C1009-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -4847,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-13905"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4876,7 +4839,14 @@
 		(path "/d793007f-b93a-41f1-a3ee-948262705839")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -4992,7 +4962,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 143 "unconnected-(C1072-Pad1)")
+			(net "unconnected-(C1072-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -5002,7 +4972,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 144 "unconnected-(C1072-Pad2)")
+			(net "unconnected-(C1072-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -5126,7 +5096,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5155,7 +5125,14 @@
 		(path "/e69baae9-6cef-4253-a972-d5cd736588f9")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -5271,7 +5248,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 136 "unconnected-(C1068-Pad1)")
+			(net "unconnected-(C1068-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -5281,7 +5258,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 135 "unconnected-(C1068-Pad2)")
+			(net "unconnected-(C1068-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -5405,7 +5382,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-14704"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5434,7 +5411,14 @@
 		(path "/c5b4057c-0796-4f11-a856-9cddd91a5ba5")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -5550,7 +5534,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 122 "unconnected-(C1061-Pad1)")
+			(net "unconnected-(C1061-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -5560,7 +5544,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 121 "unconnected-(C1061-Pad2)")
+			(net "unconnected-(C1061-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -5684,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31000"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5713,7 +5697,14 @@
 		(path "/5800d898-1490-4e14-827a-355692dbb4e3")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -5829,7 +5820,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "unconnected-(C1001-Pad1)")
+			(net "unconnected-(C1001-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -5839,7 +5830,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 1 "unconnected-(C1001-Pad2)")
+			(net "unconnected-(C1001-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -5963,7 +5954,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-33901"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5992,7 +5983,14 @@
 		(path "/33c69df5-9184-4632-ad70-08209602fc17")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -6108,7 +6106,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 44 "unconnected-(C1022-Pad1)")
+			(net "unconnected-(C1022-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -6118,7 +6116,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 43 "unconnected-(C1022-Pad2)")
+			(net "unconnected-(C1022-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -6242,7 +6240,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-14705"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6271,7 +6269,14 @@
 		(path "/11c502bb-59de-4cd4-8e82-5abf06a0c25f")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -6387,7 +6392,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 145 "unconnected-(C1073-Pad1)")
+			(net "unconnected-(C1073-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -6397,7 +6402,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 146 "unconnected-(C1073-Pad2)")
+			(net "unconnected-(C1073-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -6521,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-12705"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6550,7 +6555,14 @@
 		(path "/6097e05a-5125-4eb6-95d7-1d244ef380eb")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -6666,7 +6678,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 139 "unconnected-(C1070-Pad1)")
+			(net "unconnected-(C1070-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -6676,7 +6688,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 140 "unconnected-(C1070-Pad2)")
+			(net "unconnected-(C1070-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -6800,7 +6812,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-32200"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6829,7 +6841,14 @@
 		(path "/4476163d-8e0b-4da9-9ba7-8ea371844889")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -6945,7 +6964,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 9 "unconnected-(C1005-Pad1)")
+			(net "unconnected-(C1005-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -6955,7 +6974,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 10 "unconnected-(C1005-Pad2)")
+			(net "unconnected-(C1005-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -7079,7 +7098,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-33900"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7108,7 +7127,14 @@
 		(path "/364a28dc-8699-4273-b5df-0641c710b67e")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -7224,7 +7250,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 16 "unconnected-(C1008-Pad1)")
+			(net "unconnected-(C1008-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -7234,7 +7260,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 15 "unconnected-(C1008-Pad2)")
+			(net "unconnected-(C1008-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -7358,7 +7384,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-38201"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7387,7 +7413,14 @@
 		(path "/48450981-42aa-493b-af7c-9386feb35f24")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -7503,7 +7536,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 51 "unconnected-(C1026-Pad1)")
+			(net "unconnected-(C1026-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -7513,7 +7546,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 52 "unconnected-(C1026-Pad2)")
+			(net "unconnected-(C1026-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -7637,7 +7670,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-90001"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7666,7 +7699,14 @@
 		(path "/b7be379a-cbd2-4d19-a768-ceaca1fa7a91")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 5 0)
 			(end 22.7 0)
@@ -7706,7 +7746,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 157 "unconnected-(C1079-Pad1)")
+			(net "unconnected-(C1079-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -7718,7 +7758,7 @@
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 158 "unconnected-(C1079-Pad2)")
+			(net "unconnected-(C1079-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -7842,7 +7882,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-18204"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7871,7 +7911,14 @@
 		(path "/9b7ccd02-9261-4d60-844b-3f02832260ff")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -7987,7 +8034,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 128 "unconnected-(C1064-Pad1)")
+			(net "unconnected-(C1064-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -7997,7 +8044,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 127 "unconnected-(C1064-Pad2)")
+			(net "unconnected-(C1064-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -8121,7 +8168,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11006"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8150,7 +8197,14 @@
 		(path "/1e003118-837e-403a-8b46-0c0a69c6e277")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -8266,7 +8320,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 25 "unconnected-(C1013-Pad1)")
+			(net "unconnected-(C1013-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -8276,7 +8330,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 26 "unconnected-(C1013-Pad2)")
+			(net "unconnected-(C1013-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -8400,7 +8454,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11005"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8429,7 +8483,14 @@
 		(path "/6b0ff110-5d55-491c-81d0-3a476c0f0072")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -8545,7 +8606,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 130 "unconnected-(C1065-Pad1)")
+			(net "unconnected-(C1065-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -8555,7 +8616,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 129 "unconnected-(C1065-Pad2)")
+			(net "unconnected-(C1065-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -8679,7 +8740,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8708,7 +8769,14 @@
 		(path "/dc899dfb-05a3-42e3-9ff2-db0ab0bc2318")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -8824,7 +8892,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 87 "unconnected-(C1044-Pad1)")
+			(net "unconnected-(C1044-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -8834,7 +8902,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 88 "unconnected-(C1044-Pad2)")
+			(net "unconnected-(C1044-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -8958,7 +9026,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-12205"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8987,7 +9055,14 @@
 		(path "/4708caf0-9652-4962-a0bb-7d9595a680ab")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -9103,7 +9178,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 137 "unconnected-(C1069-Pad1)")
+			(net "unconnected-(C1069-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -9113,7 +9188,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 138 "unconnected-(C1069-Pad2)")
+			(net "unconnected-(C1069-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -9237,7 +9312,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-13305"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9266,7 +9341,14 @@
 		(path "/691639f1-6d49-4455-8777-dc8fde201a57")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -9382,7 +9464,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 141 "unconnected-(C1071-Pad1)")
+			(net "unconnected-(C1071-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -9392,7 +9474,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 142 "unconnected-(C1071-Pad2)")
+			(net "unconnected-(C1071-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -9516,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-35600"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9545,7 +9627,14 @@
 		(path "/fe1c6900-00ed-4cff-b343-e1c987944261")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -9661,7 +9750,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 19 "unconnected-(C1010-Pad1)")
+			(net "unconnected-(C1010-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -9671,7 +9760,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 20 "unconnected-(C1010-Pad2)")
+			(net "unconnected-(C1010-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -9795,7 +9884,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11004"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9824,7 +9913,14 @@
 		(path "/b2806cd0-f3d6-4eac-ac82-90989dec4909")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -9940,7 +10036,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 105 "unconnected-(C1053-Pad1)")
+			(net "unconnected-(C1053-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -9950,7 +10046,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 106 "unconnected-(C1053-Pad2)")
+			(net "unconnected-(C1053-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -10074,7 +10170,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11503"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10103,7 +10199,14 @@
 		(path "/fdca8fff-03c0-498f-bdc5-26c437318ed5")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -10219,7 +10322,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 86 "unconnected-(C1043-Pad1)")
+			(net "unconnected-(C1043-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -10229,7 +10332,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 85 "unconnected-(C1043-Pad2)")
+			(net "unconnected-(C1043-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -10353,7 +10456,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11205"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10382,7 +10485,14 @@
 		(path "/d744df4a-d61e-4e47-aedc-d0285029bb27")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -10498,7 +10608,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 132 "unconnected-(C1066-Pad1)")
+			(net "unconnected-(C1066-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -10508,7 +10618,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 131 "unconnected-(C1066-Pad2)")
+			(net "unconnected-(C1066-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -10632,7 +10742,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-33301"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10661,7 +10771,14 @@
 		(path "/872bf685-23eb-4b8e-98b9-47969f296819")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -10777,7 +10894,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 41 "unconnected-(C1021-Pad1)")
+			(net "unconnected-(C1021-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -10787,7 +10904,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 42 "unconnected-(C1021-Pad2)")
+			(net "unconnected-(C1021-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -10911,7 +11028,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-36801"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10940,7 +11057,14 @@
 		(path "/1f8b4114-e771-495c-96be-248dafaab816")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -11056,7 +11180,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 49 "unconnected-(C1025-Pad1)")
+			(net "unconnected-(C1025-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -11066,7 +11190,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 50 "unconnected-(C1025-Pad2)")
+			(net "unconnected-(C1025-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -11190,7 +11314,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-13303"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11219,7 +11343,14 @@
 		(path "/9be2efe2-7fbd-498d-bf99-28ff5341237c")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -11335,7 +11466,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 93 "unconnected-(C1047-Pad1)")
+			(net "unconnected-(C1047-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -11345,7 +11476,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 94 "unconnected-(C1047-Pad2)")
+			(net "unconnected-(C1047-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -11469,7 +11600,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-16805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11498,7 +11629,14 @@
 		(path "/baa24bc4-d009-4e48-b8f3-8cf4ebc043e5")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -11614,7 +11752,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 149 "unconnected-(C1075-Pad1)")
+			(net "unconnected-(C1075-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -11624,7 +11762,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 150 "unconnected-(C1075-Pad2)")
+			(net "unconnected-(C1075-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -11748,7 +11886,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-12704"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11777,7 +11915,14 @@
 		(path "/013866f7-beec-4025-9cf1-91b0a78cbdd6")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -11893,7 +12038,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 115 "unconnected-(C1058-Pad1)")
+			(net "unconnected-(C1058-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -11903,7 +12048,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 116 "unconnected-(C1058-Pad2)")
+			(net "unconnected-(C1058-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -12027,7 +12172,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-33300"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12056,7 +12201,14 @@
 		(path "/8f50a022-d40b-40dd-ad88-d060eb8c31e0")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -12172,7 +12324,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 13 "unconnected-(C1007-Pad1)")
+			(net "unconnected-(C1007-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -12182,7 +12334,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 14 "unconnected-(C1007-Pad2)")
+			(net "unconnected-(C1007-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -12306,7 +12458,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11003"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12335,7 +12487,14 @@
 		(path "/525ce012-fabe-4899-8439-a9346197875b")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -12451,7 +12610,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 82 "unconnected-(C1041-Pad1)")
+			(net "unconnected-(C1041-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -12461,7 +12620,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 81 "unconnected-(C1041-Pad2)")
+			(net "unconnected-(C1041-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -12585,7 +12744,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-13904"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12614,7 +12773,14 @@
 		(path "/288c7897-8efd-441b-8673-41681bb5ebd1")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -12730,7 +12896,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 119 "unconnected-(C1060-Pad1)")
+			(net "unconnected-(C1060-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -12740,7 +12906,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 120 "unconnected-(C1060-Pad2)")
+			(net "unconnected-(C1060-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -12864,7 +13030,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11204"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12893,7 +13059,14 @@
 		(path "/3e8cb0b2-57b4-4b51-a8ac-cdd7bc6d8017")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -13009,7 +13182,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 108 "unconnected-(C1054-Pad1)")
+			(net "unconnected-(C1054-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -13019,7 +13192,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 107 "unconnected-(C1054-Pad2)")
+			(net "unconnected-(C1054-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -13143,7 +13316,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11504"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13172,7 +13345,14 @@
 		(path "/9427a66e-2ac0-4cd6-b476-365dbb4b0ad5")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -13288,7 +13468,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 109 "unconnected-(C1055-Pad1)")
+			(net "unconnected-(C1055-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -13298,7 +13478,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 110 "unconnected-(C1055-Pad2)")
+			(net "unconnected-(C1055-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -13422,7 +13602,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31500"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13451,7 +13631,14 @@
 		(path "/6959b037-0578-4b61-ab61-b9fddfe5eca2")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -13567,7 +13754,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "unconnected-(C1003-Pad1)")
+			(net "unconnected-(C1003-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -13577,7 +13764,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 5 "unconnected-(C1003-Pad2)")
+			(net "unconnected-(C1003-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -13701,7 +13888,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-14706"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13730,7 +13917,14 @@
 		(path "/65029308-e233-49a8-abd3-22734735ae62")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -13846,7 +14040,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 28 "unconnected-(C1014-Pad1)")
+			(net "unconnected-(C1014-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -13856,7 +14050,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 27 "unconnected-(C1014-Pad2)")
+			(net "unconnected-(C1014-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -13980,7 +14174,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-12703"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14009,7 +14203,14 @@
 		(path "/6c4051ff-5a31-4dfa-966b-db52e990ef08")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -14125,7 +14326,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 92 "unconnected-(C1046-Pad1)")
+			(net "unconnected-(C1046-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -14135,7 +14336,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 91 "unconnected-(C1046-Pad2)")
+			(net "unconnected-(C1046-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -14259,7 +14460,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31501"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14288,7 +14489,14 @@
 		(path "/740a9751-9981-4dd4-a85e-7220d587668f")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -14404,7 +14612,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 34 "unconnected-(C1017-Pad1)")
+			(net "unconnected-(C1017-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -14414,7 +14622,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 33 "unconnected-(C1017-Pad2)")
+			(net "unconnected-(C1017-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -14538,7 +14746,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31802"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14567,7 +14775,14 @@
 		(path "/597324cd-8e75-4ba6-b14e-04811044860b")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -14683,7 +14898,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 63 "unconnected-(C1032-Pad1)")
+			(net "unconnected-(C1032-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -14693,7 +14908,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 64 "unconnected-(C1032-Pad2)")
+			(net "unconnected-(C1032-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -14817,7 +15032,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-16803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14846,7 +15061,14 @@
 		(path "/913e3904-45ab-4c55-b8bd-cea87a174d41")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -14962,7 +15184,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 101 "unconnected-(C1051-Pad1)")
+			(net "unconnected-(C1051-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -14972,7 +15194,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 102 "unconnected-(C1051-Pad2)")
+			(net "unconnected-(C1051-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -15096,7 +15318,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-15603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15125,7 +15347,14 @@
 		(path "/a6cac37e-b477-475d-a21d-55baaa496b46")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -15241,7 +15470,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 99 "unconnected-(C1050-Pad1)")
+			(net "unconnected-(C1050-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -15251,7 +15480,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 100 "unconnected-(C1050-Pad2)")
+			(net "unconnected-(C1050-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -15375,7 +15604,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31200"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15404,7 +15633,14 @@
 		(path "/3dedd89f-ba58-4285-9a26-7e69bfebd2b9")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -15520,7 +15756,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 4 "unconnected-(C1002-Pad1)")
+			(net "unconnected-(C1002-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -15530,7 +15766,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 3 "unconnected-(C1002-Pad2)")
+			(net "unconnected-(C1002-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -15654,7 +15890,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-36800"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15683,7 +15919,14 @@
 		(path "/5db680aa-8ab1-4df8-8763-20bfa617c169")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -15799,7 +16042,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 21 "unconnected-(C1011-Pad1)")
+			(net "unconnected-(C1011-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -15809,7 +16052,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 22 "unconnected-(C1011-Pad2)")
+			(net "unconnected-(C1011-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -15933,7 +16176,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-18203"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15962,7 +16205,14 @@
 		(path "/991583b5-03e7-446e-8a39-eef7e63b5401")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -16078,7 +16328,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 103 "unconnected-(C1052-Pad1)")
+			(net "unconnected-(C1052-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -16088,7 +16338,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 104 "unconnected-(C1052-Pad2)")
+			(net "unconnected-(C1052-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -16212,7 +16462,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-32700"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16241,7 +16491,14 @@
 		(path "/672ddf4d-b888-4f80-9f7e-cbaf2af476e7")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -16357,7 +16614,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 11 "unconnected-(C1006-Pad1)")
+			(net "unconnected-(C1006-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -16367,7 +16624,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 12 "unconnected-(C1006-Pad2)")
+			(net "unconnected-(C1006-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -16491,7 +16748,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-12204"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16520,7 +16777,14 @@
 		(path "/a9b97719-4ced-41a9-a247-75358177a039")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -16636,7 +16900,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 114 "unconnected-(C1057-Pad1)")
+			(net "unconnected-(C1057-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -16646,7 +16910,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 113 "unconnected-(C1057-Pad2)")
+			(net "unconnected-(C1057-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -16770,7 +17034,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-14703"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16799,7 +17063,14 @@
 		(path "/c8a99346-bcdd-4070-bc03-c6b5c1dfeeba")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -16915,7 +17186,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 98 "unconnected-(C1049-Pad1)")
+			(net "unconnected-(C1049-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -16925,7 +17196,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 97 "unconnected-(C1049-Pad2)")
+			(net "unconnected-(C1049-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -17049,7 +17320,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-13903"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17078,7 +17349,14 @@
 		(path "/acf27a9a-c825-4b63-b553-ea865230684a")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -17194,7 +17472,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 95 "unconnected-(C1048-Pad1)")
+			(net "unconnected-(C1048-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -17204,7 +17482,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 96 "unconnected-(C1048-Pad2)")
+			(net "unconnected-(C1048-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -17328,7 +17606,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-32202"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17357,7 +17635,14 @@
 		(path "/72ace784-e48d-41e2-b7f7-8795f05300ff")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -17473,7 +17758,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 65 "unconnected-(C1033-Pad1)")
+			(net "unconnected-(C1033-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -17483,7 +17768,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 66 "unconnected-(C1033-Pad2)")
+			(net "unconnected-(C1033-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -17607,7 +17892,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31001"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17636,7 +17921,14 @@
 		(path "/3c98ef84-9bfa-4f4c-9d84-46a7951c3225")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -17752,7 +18044,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 30 "unconnected-(C1015-Pad1)")
+			(net "unconnected-(C1015-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -17762,7 +18054,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 29 "unconnected-(C1015-Pad2)")
+			(net "unconnected-(C1015-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -17886,7 +18178,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-34701"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17915,7 +18207,14 @@
 		(path "/5fe90755-662d-4ce6-a55d-8df5ce81c6f4")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -18031,7 +18330,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 45 "unconnected-(C1023-Pad1)")
+			(net "unconnected-(C1023-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -18041,7 +18340,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 46 "unconnected-(C1023-Pad2)")
+			(net "unconnected-(C1023-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -18165,7 +18464,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-82001"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18194,7 +18493,14 @@
 		(path "/9d9c8b3d-2c43-4d02-9b26-5020cd555a4e")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.8 -1.8)
 			(end 2.8 -1.8)
@@ -18385,7 +18691,7 @@
 			(at -2 0)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 155 "unconnected-(C1078-Pad1)")
+			(net "unconnected-(C1078-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.1)
@@ -18395,7 +18701,7 @@
 			(at 2 0)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 156 "unconnected-(C1078-Pad2)")
+			(net "unconnected-(C1078-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.1)
@@ -18519,7 +18825,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-32701"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18548,7 +18854,14 @@
 		(path "/0fe1f1ca-aa5e-4a4c-9b88-4dc317e06ef4")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -18664,7 +18977,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 40 "unconnected-(C1020-Pad1)")
+			(net "unconnected-(C1020-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -18674,7 +18987,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 39 "unconnected-(C1020-Pad2)")
+			(net "unconnected-(C1020-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -18798,7 +19111,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31801"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18827,7 +19140,14 @@
 		(path "/728f70cd-af28-4564-87c2-5f7d6813a22c")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -18943,7 +19263,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 36 "unconnected-(C1018-Pad1)")
+			(net "unconnected-(C1018-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -18953,7 +19273,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 35 "unconnected-(C1018-Pad2)")
+			(net "unconnected-(C1018-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -19077,7 +19397,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-36802"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19106,7 +19426,14 @@
 		(path "/74d15c60-bf33-4e3f-b27e-8bfcada43e72")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -19222,7 +19549,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 77 "unconnected-(C1039-Pad1)")
+			(net "unconnected-(C1039-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -19232,7 +19559,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 78 "unconnected-(C1039-Pad2)")
+			(net "unconnected-(C1039-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -19356,7 +19683,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-35601"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19385,7 +19712,14 @@
 		(path "/6dcc7f29-d940-4ca7-a887-d8742635d984")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -19501,7 +19835,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 47 "unconnected-(C1024-Pad1)")
+			(net "unconnected-(C1024-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -19511,7 +19845,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 48 "unconnected-(C1024-Pad2)")
+			(net "unconnected-(C1024-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -19635,7 +19969,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-16804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19664,7 +19998,14 @@
 		(path "/b5d93444-77ff-4a46-9c24-ac69abcee017")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -19780,7 +20121,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 125 "unconnected-(C1063-Pad1)")
+			(net "unconnected-(C1063-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -19790,7 +20131,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 126 "unconnected-(C1063-Pad2)")
+			(net "unconnected-(C1063-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -19914,7 +20255,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-38202"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19943,7 +20284,14 @@
 		(path "/ebcc6950-1946-48ab-a9d8-cde2809d5235")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -20059,7 +20407,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 80 "unconnected-(C1040-Pad1)")
+			(net "unconnected-(C1040-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -20069,7 +20417,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 79 "unconnected-(C1040-Pad2)")
+			(net "unconnected-(C1040-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -20193,7 +20541,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31201"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20222,7 +20570,14 @@
 		(path "/69e43b5d-12b3-447b-9c50-fec54b95802e")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -20338,7 +20693,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 32 "unconnected-(C1016-Pad1)")
+			(net "unconnected-(C1016-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -20348,7 +20703,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 31 "unconnected-(C1016-Pad2)")
+			(net "unconnected-(C1016-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -20472,7 +20827,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11007"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20501,7 +20856,14 @@
 		(path "/fd596a89-1330-41c9-b7d6-963c4ae00932")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -20617,7 +20979,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 54 "unconnected-(C1027-Pad1)")
+			(net "unconnected-(C1027-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -20627,7 +20989,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 53 "unconnected-(C1027-Pad2)")
+			(net "unconnected-(C1027-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -20751,7 +21113,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-18205"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20780,7 +21142,14 @@
 		(path "/55c2d11c-4bfa-4956-861f-6e06c92f6a64")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -20896,7 +21265,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 152 "unconnected-(C1076-Pad1)")
+			(net "unconnected-(C1076-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -20906,7 +21275,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 151 "unconnected-(C1076-Pad2)")
+			(net "unconnected-(C1076-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -21030,7 +21399,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-31202"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21059,7 +21428,14 @@
 		(path "/aec49b23-70b5-4076-aab2-d0cbecf57dd5")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -21175,7 +21551,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 59 "unconnected-(C1030-Pad1)")
+			(net "unconnected-(C1030-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -21185,7 +21561,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 60 "unconnected-(C1030-Pad2)")
+			(net "unconnected-(C1030-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -21309,7 +21685,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11505"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21338,7 +21714,14 @@
 		(path "/d7930a78-9953-4ebe-aaa9-af5459d19979")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -21454,7 +21837,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 134 "unconnected-(C1067-Pad1)")
+			(net "unconnected-(C1067-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -21464,7 +21847,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 133 "unconnected-(C1067-Pad2)")
+			(net "unconnected-(C1067-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -21588,7 +21971,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-12203"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21617,7 +22000,14 @@
 		(path "/cd1db876-eaff-4ad4-8d57-3268762deb19")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -21733,7 +22123,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 89 "unconnected-(C1045-Pad1)")
+			(net "unconnected-(C1045-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -21743,7 +22133,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 90 "unconnected-(C1045-Pad2)")
+			(net "unconnected-(C1045-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -21867,7 +22257,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-13304"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21896,7 +22286,14 @@
 		(path "/8ed61cae-2785-43af-8e0c-39c169947672")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -22012,7 +22409,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 118 "unconnected-(C1059-Pad1)")
+			(net "unconnected-(C1059-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -22022,7 +22419,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 117 "unconnected-(C1059-Pad2)")
+			(net "unconnected-(C1059-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -22146,7 +22543,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-38200"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22175,7 +22572,14 @@
 		(path "/22151447-1f93-44b6-b2a3-7797f2f71322")
 		(sheetname "/")
 		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -0.85)
 			(end 1.6 -0.85)
@@ -22291,7 +22695,7 @@
 			(at -0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 23 "unconnected-(C1012-Pad1)")
+			(net "unconnected-(C1012-Pad1)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -22301,7 +22705,7 @@
 			(at 0.95 0)
 			(size 0.9 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 24 "unconnected-(C1012-Pad2)")
+			(net "unconnected-(C1012-Pad2)")
 			(pintype "passive")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.05)
@@ -22319,17 +22723,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_rect
-		(start 163 51)
-		(end 201 99)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "888dbadc-e13e-4317-a3b3-6be56b61d159")
 	)
 	(gr_rect
 		(start 101 51)
@@ -22365,6 +22758,17 @@
 		(uuid "f13cf984-2208-4bbb-87f0-508bed3e665f")
 	)
 	(gr_rect
+		(start 163 51)
+		(end 201 99)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "888dbadc-e13e-4317-a3b3-6be56b61d159")
+	)
+	(gr_rect
 		(start 100 50)
 		(end 202 100)
 		(stroke
@@ -22375,10 +22779,10 @@
 		(layer "Edge.Cuts")
 		(uuid "e5721756-c6a6-4053-bf82-5d43a253e434")
 	)
-	(gr_text "CAPACITORS THROUGH HOLE"
-		(at 163.5 51.5 0)
+	(gr_text "CAPACITORS 0805"
+		(at 101.5 51.5 0)
 		(layer "F.SilkS")
-		(uuid "136967a7-d023-4126-9fdb-64f7352d7826")
+		(uuid "1aea119b-d5c8-49f6-94b7-ae74e9f393d3")
 		(effects
 			(font
 				(size 1 1)
@@ -22387,10 +22791,10 @@
 			(justify left top)
 		)
 	)
-	(gr_text "CAPACITORS 0805"
-		(at 101.5 51.5 0)
+	(gr_text "CAPACITORS 1210"
+		(at 101.5 90.5 0)
 		(layer "F.SilkS")
-		(uuid "1aea119b-d5c8-49f6-94b7-ae74e9f393d3")
+		(uuid "f27eba6f-7ac0-4eb5-b4a7-5d87504d5bd2")
 		(effects
 			(font
 				(size 1 1)
@@ -22411,10 +22815,10 @@
 			(justify left top)
 		)
 	)
-	(gr_text "CAPACITORS 1210"
-		(at 101.5 90.5 0)
+	(gr_text "CAPACITORS THROUGH HOLE"
+		(at 163.5 51.5 0)
 		(layer "F.SilkS")
-		(uuid "f27eba6f-7ac0-4eb5-b4a7-5d87504d5bd2")
+		(uuid "136967a7-d023-4126-9fdb-64f7352d7826")
 		(effects
 			(font
 				(size 1 1)

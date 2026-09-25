@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -86,7 +86,20 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -95,15 +108,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 6)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -127,7 +137,6 @@
 			(outputdirectory "")
 		)
 	)
-	(net 0 "")
 	(footprint "lily_footprints:mec_mouse_bytes"
 		(layer "F.Cu")
 		(uuid "10cc4abc-38d8-49b3-98c5-afee5d0627e0")
@@ -198,6 +207,7 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -3.5 -1)
 			(mid -2.5 0)
@@ -383,6 +393,7 @@
 			)
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -3.5 -1)
 			(mid -2.5 0)
@@ -576,6 +587,7 @@
 			)
 		)
 		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.9 -0.9)
 			(end 0.9 0.9)
@@ -620,14 +632,64 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 170 110)
-		(end 130 110)
+		(start 130 90)
+		(end 170 90)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0a27e88e-5d80-477f-9e35-07e8b90474c2")
+		(uuid "c490fe3b-8ada-4142-be7b-21252f061021")
+	)
+	(gr_line
+		(start 130 99)
+		(end 130 90)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c91fe6d1-3222-4c85-8ab7-65306c3ffcf3")
+	)
+	(gr_line
+		(start 130 101)
+		(end 136.5 101)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a21c6178-bc7e-4846-aa06-623df1038b51")
+	)
+	(gr_line
+		(start 130 110)
+		(end 130 101)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dacafa76-a342-4eb9-9799-b8a388e8a9a3")
+	)
+	(gr_line
+		(start 136.5 99)
+		(end 130 99)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4937a125-d7d4-4f86-b371-eae4eeb8c358")
+	)
+	(gr_line
+		(start 143.5 101)
+		(end 156.5 101)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4e8d615d-ec86-4712-aa58-31be3922c956")
 	)
 	(gr_line
 		(start 156.5 99)
@@ -650,16 +712,6 @@
 		(uuid "39a083d0-bab9-4361-aff0-2ab60062d1e3")
 	)
 	(gr_line
-		(start 136.5 99)
-		(end 130 99)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4937a125-d7d4-4f86-b371-eae4eeb8c358")
-	)
-	(gr_line
 		(start 170 90)
 		(end 170 99)
 		(stroke
@@ -668,46 +720,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "4b49103b-46f8-4ce8-b7bd-c6ee46c374c1")
-	)
-	(gr_line
-		(start 143.5 101)
-		(end 156.5 101)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4e8d615d-ec86-4712-aa58-31be3922c956")
-	)
-	(gr_line
-		(start 130 101)
-		(end 136.5 101)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "a21c6178-bc7e-4846-aa06-623df1038b51")
-	)
-	(gr_line
-		(start 130 90)
-		(end 170 90)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c490fe3b-8ada-4142-be7b-21252f061021")
-	)
-	(gr_line
-		(start 130 99)
-		(end 130 90)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c91fe6d1-3222-4c85-8ab7-65306c3ffcf3")
 	)
 	(gr_line
 		(start 170 99)
@@ -730,14 +742,14 @@
 		(uuid "d2587444-544f-4ce8-bac5-b765ff8e370e")
 	)
 	(gr_line
-		(start 130 110)
-		(end 130 101)
+		(start 170 110)
+		(end 130 110)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "dacafa76-a342-4eb9-9799-b8a388e8a9a3")
+		(uuid "0a27e88e-5d80-477f-9e35-07e8b90474c2")
 	)
 	(embedded_fonts no)
 )

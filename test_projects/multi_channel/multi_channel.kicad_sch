@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
@@ -155,11 +155,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "40cec116-4bab-4502-b17c-4cc06982e7f7")
 		(property "Sheetname" "Channel 1"
 			(at 127 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,6 +171,8 @@
 		)
 		(property "Sheetfile" "channel.kicad_sch"
 			(at 127 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,11 +221,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7d2e5fba-f797-48cf-aced-22f6c94a1f51")
 		(property "Sheetname" "Common"
 			(at 203.2 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -231,6 +237,8 @@
 		)
 		(property "Sheetfile" "common.kicad_sch"
 			(at 203.2 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -289,11 +297,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d04ff69f-87a0-4960-9430-c4c84944b18b")
 		(property "Sheetname" "Power supply"
 			(at 50.8 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,6 +313,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 50.8 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,11 +353,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ef9569c0-b972-47ac-8174-34405da6cbd7")
 		(property "Sheetname" "Channel 2"
 			(at 127 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,6 +369,8 @@
 		)
 		(property "Sheetfile" "channel.kicad_sch"
 			(at 127 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
