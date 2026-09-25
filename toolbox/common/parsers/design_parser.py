@@ -10,6 +10,11 @@ class DesignParser:
 
     stdout = print
 
+
+    ###########
+    # Private #
+    ###########
+
     @classmethod
     def _read_schematics(cls, project_folder):
         cls.stdout(f'Read schematics from: {project_folder}')
@@ -50,6 +55,37 @@ class DesignParser:
                     sheets[sheet_id] = name
             i += 1
         return sheets
+
+    @classmethod
+    def _get_worksheet_file(cls, lines):
+        worksheet = ''
+        i = 0
+        while i < len(lines):
+            if lines[i].startswith('\t(embedded_files'):
+                while i < len(lines):
+                    name = ''
+                    is_worksheet = False
+                    if lines[i].startswith('\t\t(file'):
+                        while i < len(lines):
+                            if lines[i].startswith('\t\t\t(name '):
+                                name = lines[i].strip()[6:].strip(')').strip('"')
+                            if lines[i].startswith('\t\t\t(type '):
+                                is_worksheet = lines[i].strip() == '(type worksheet)'
+                            if lines[i].startswith('\t\t)'):
+                                break
+                            i += 1
+                    if is_worksheet:
+                        worksheet = name
+                        break
+                    if lines[i].startswith('\t)'):
+                        break
+                    i += 1
+            i += 1
+        return worksheet
+
+    ##########
+    # Public #
+    ##########
 
     @classmethod
     def get_symbols(cls, project_folder):
@@ -113,7 +149,8 @@ class DesignParser:
             'date': '',
             'revision': '',
             'pca_id': '',
-            'pcb_id': ''
+            'pcb_id': '',
+            'worksheet': ''
         }
         lines = cls._read_schematics(project_folder)
         i = 0
@@ -134,6 +171,9 @@ class DesignParser:
                         break
                     i += 1
             i += 1
+
+        properties['worksheet'] = cls._get_worksheet_file(lines)
+
         return properties
 
     @classmethod
@@ -150,7 +190,8 @@ class DesignParser:
                     i += 1
                     if lines[i].startswith('\t)'):
                         break
-                    if lines[i].startswith('\t\t(property ') or lines[i].startswith('\t\t(fp_text user "${REFERENCE}"'):
+                    if (lines[i].startswith('\t\t(property ') or
+                        lines[i].startswith('\t\t(fp_text user "${REFERENCE}"')):
                         key = ''
                         value = ''
                         if '(property ' in lines[i]:
@@ -172,13 +213,19 @@ class DesignParser:
                             while i < len(lines):
                                 i += 1
                                 if lines[i].startswith('\t\t\t(layer '):
-                                    footprint[key]['Layer'] = lines[i].strip()[7:].strip(')').strip('"')
+                                    footprint[key]['Layer'] = (
+                                        lines[i].strip()[7:].strip(')').strip('"')
+                                    )
                                 if lines[i].startswith('\t\t\t(hide yes)'):
                                     footprint[key]['Visible'] = False
                                 if lines[i].startswith('\t\t\t\t\t(size '):
-                                    footprint[key]['Size'] = lines[i].strip()[6:].strip(')').strip('"')
+                                    footprint[key]['Size'] = (
+                                        lines[i].strip()[6:].strip(')').strip('"')
+                                    )
                                 if lines[i].startswith('\t\t\t\t\t(thickness '):
-                                    footprint[key]['Thickness'] = lines[i].strip()[11:].strip(')').strip('"')
+                                    footprint[key]['Thickness'] = (
+                                        lines[i].strip()[11:].strip(')').strip('"')
+                                    )
                                 if lines[i].startswith('\t\t)'):
                                     break
                     if lines[i].startswith('\t\t(attr '):
@@ -198,7 +245,8 @@ class DesignParser:
             'pca_id': '',
             'pcb_id': '',
             'n_layers': 0,
-            'has_comp_bot': False
+            'has_comp_bot': False,
+            'worksheet': ''
         }
         lines = cls._read_pcb(project_folder)
         i = 0
@@ -233,17 +281,17 @@ class DesignParser:
                         break
                     i += 1
             i += 1
+
+        properties['worksheet'] = cls._get_worksheet_file(lines)
+
         return properties
 
 
 if __name__ == '__main__':
 
-    _test_project_folder = os.path.abspath(
-        os.path.join(
-            os.path.dirname(__file__),
-            '..\\..\\..\\projects\\lib_test\\design_blocks'
-        )
-    )
+    import toolbox.common.toolbox_data as ToolboxData
+
+    _test_project_folder = os.path.join(ToolboxData.LIB_TEST_PROJECTS_PATH , 'capacitors')
 
     _symbols = DesignParser.get_symbols(_test_project_folder)
     print('Symbols:', len(_symbols))
