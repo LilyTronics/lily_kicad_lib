@@ -141,7 +141,7 @@ const generic_symbols = [
     { Name: 'mosfet_n_3p', Extends: '', Reference: 'Q', Value: 'mosfet_n_3p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'mosfet_p_8p', Extends: '', Reference: 'Q', Value: 'mosfet_p_8p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'pot', Extends: '', Reference: 'P', Value: 'pot', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
-    { Name: 'pot_schielded', Extends: '', Reference: 'P', Value: 'pot', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'pot_schielded_th', Extends: '', Reference: 'P', Value: 'pot_schielded_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'res', Extends: '', Reference: 'R', Value: 'res', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'switch_dpdt_6p', Extends: '', Reference: 'S', Value: 'switch_dpdt_6p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'switch_spst_button_4p', Extends: '', Reference: 'S', Value: 'switch_spst_button_4p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
@@ -327,7 +327,7 @@ const parts = [
     { Name: 'mec_hole_m3_pth', Extends: 'mec_hole_pth', Reference: 'M', Value: 'mec_hole_m3_pth', Description: '', Footprint: 'lily_footprints:mec_hole_m3_pth', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'mosfet_n_DMG3406L_sot23', Extends: 'mosfet_n_3p', Reference: 'Q', Value: 'DMG3406L', Description: '', Footprint: 'lily_footprints:sot23', Revision: '1', Manufacturer: 'Diodes Incorporated', Manufacturer_ID: 'DMG3406L', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/DMG3406L.pdf' },
     { Name: 'mosfet_p_DMP3028LFDE_sot1220', Extends: 'mosfet_p_8p', Reference: 'Q', Value: 'DMP3028LFDE', Description: '', Footprint: 'lily_footprints:sot1220_dnf2020md-6_type_e', Revision: '1', Manufacturer: 'Diodes Incorporated', Manufacturer_ID: 'DMP3028LFDE-13', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/diodes_incorporated/DMP3028LFDE.pdf' },
-    { Name: 'pot_lin_1k_20%_50mW_ptv09a-4025f', Extends: 'pot_schielded', Reference: 'P', Value: '1k', Description: '', Footprint: 'lily_footprints:pot_ptv09a_4025f', Revision: '1', Manufacturer: 'BOURNS', Manufacturer_ID: 'PTV09A-4025F-B102', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/PTV09.pdf' },
+    { Name: 'pot_lin_1k_20%_50mW_ptv09a-4025f', Extends: 'pot_schielded_th', Reference: 'P', Value: '1k', Description: '', Footprint: 'lily_footprints:pot_ptv09a_4025f', Revision: '1', Manufacturer: 'BOURNS', Manufacturer_ID: 'PTV09A-4025F-B102', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/PTV09.pdf' },
     { Name: 'pot_trim_2k_20%_125mW_3313j', Extends: 'pot', Reference: 'P', Value: '2k', Description: '', Footprint: 'lily_footprints:pot_3313j', Revision: '1', Manufacturer: 'BOURNS', Manufacturer_ID: '3313J-1-202E', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/3313.pdf' },
     { Name: 'pot_trim_500R_20%_125mW_3313j', Extends: 'pot', Reference: 'P', Value: '500R', Description: '', Footprint: 'lily_footprints:pot_3313j', Revision: '1', Manufacturer: 'BOURNS', Manufacturer_ID: '3313J-1-501E', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/3313.pdf' },
     { Name: 'pot_trim_5k_20%_125mW_3313j', Extends: 'pot', Reference: 'P', Value: '5k', Description: '', Footprint: 'lily_footprints:pot_3313j', Revision: '1', Manufacturer: 'BOURNS', Manufacturer_ID: '3313J-1-502E', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/3313.pdf' },
@@ -695,7 +695,7 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-09-25 23:39</p>
+<p>Last updated: 2026-09-25 23:43</p>
 <p>Total symbols: 449</p>
 <p>Total footprints: 88</p>
 </div>
