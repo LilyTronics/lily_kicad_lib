@@ -63,7 +63,7 @@ const generic_symbols = [
     { Name: 'bjt_npn_3p', Extends: '', Reference: 'Q', Value: 'bjt_npn_3p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'bjt_pnp_3p', Extends: '', Reference: 'Q', Value: 'bjt_pnp_3p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'cap', Extends: '', Reference: 'C', Value: 'cap', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
-    { Name: 'cap_elec', Extends: '', Reference: 'C', Value: 'cap_elec', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'cap_elec_th', Extends: '', Reference: 'C', Value: 'cap_elec', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'cap_trimmer', Extends: '', Reference: 'C', Value: 'cap_trimmer', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'con_1x02', Extends: '', Reference: 'X', Value: 'con_1x02', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'con_1x03', Extends: '', Reference: 'X', Value: 'con_1x03', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
@@ -228,7 +228,7 @@ const parts = [
     { Name: 'cap_82p_50V_5%_C0G_0805', Extends: 'cap', Reference: 'C', Value: '82p', Description: '', Footprint: 'lily_footprints:cap_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'CC0805JRNPO9BN820', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf' },
     { Name: 'cap_8n2_50V_10%_X7R_0805', Extends: 'cap', Reference: 'C', Value: '8n2', Description: '', Footprint: 'lily_footprints:cap_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'CC0805KRX7R9BB821', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf' },
     { Name: 'cap_8p2_50V_5%_C0G_0805', Extends: 'cap', Reference: 'C', Value: '8p2', Description: '', Footprint: 'lily_footprints:cap_0805', Revision: '1', Manufacturer: 'YAGEO', Manufacturer_ID: 'CC0805CRNPO9BN8R2', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf' },
-    { Name: 'cap_elec_15m_50V_20%_rad_35x52mm_th', Extends: 'cap_elec', Reference: 'C', Value: '15m', Description: '', Footprint: 'lily_footprints:cap_elec_rad_35x52mm_th', Revision: '1', Manufacturer: 'TDK', Manufacturer_ID: 'B41252A6159M060', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/B41252.pdf' },
+    { Name: 'cap_elec_15m_50V_20%_rad_35x52mm_th', Extends: 'cap_elec_th', Reference: 'C', Value: '15m', Description: '', Footprint: 'lily_footprints:cap_elec_rad_35x52mm_th', Revision: '1', Manufacturer: 'TDK', Manufacturer_ID: 'B41252A6159M060', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/B41252.pdf' },
     { Name: 'cap_trimmer_20p_100V_500ppm_JZ', Extends: 'cap_trimmer', Reference: 'C', Value: '20p', Description: '', Footprint: 'lily_footprints:cap_trimmer_jz_series', Revision: '1', Manufacturer: 'Knowles', Manufacturer_ID: 'JZ020', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/knowles/JZ_series.pdf' },
     { Name: 'con_dc_jack_dc_005_th', Extends: 'con_dc_jack_3p', Reference: 'X', Value: 'dc_005', Description: '', Footprint: 'lily_footprints:con_dc_jack_dc_005_th', Revision: '1', Manufacturer: 'XKB Connection', Manufacturer_ID: 'DC-005-5A-2.0', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/xkb_connectivity/DC-005-5A-2.0.pdf' },
     { Name: 'con_din41612_plug_64p_a+c_right_angle_th', Extends: 'con_64p_a+c', Reference: 'X', Value: 'din41612_plug', Description: '', Footprint: 'lily_footprints:con_din41612_plug_64p_a+c_right_angle_th', Revision: '1', Manufacturer: 'Amphenol FCI', Manufacturer_ID: '86094647113755ELF', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/amphenol_fci/86094647113755ELF.pdf' },
@@ -690,7 +690,7 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-09-25 21:29</p>
+<p>Last updated: 2026-09-25 21:34</p>
 <p>Total symbols: 444</p>
 <p>Total footprints: 88</p>
 </div>
