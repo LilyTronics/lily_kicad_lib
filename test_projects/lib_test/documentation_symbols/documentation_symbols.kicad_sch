@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
 		(title "Documentation symbols")
-		(date "2026-01-10")
+		(date "2026-09-26")
 		(rev "1")
 		(comment 1 "-")
 		(comment 2 "-")
@@ -19,58 +19,72 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "DOC"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "doc_logo_lilytronics"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "lily_footprints:doc_logo_lilytronics"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Revision" "1"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "doc_logo_lilytronics_0_0"
@@ -142,67 +156,81 @@
 		(lib_id "lily_symbols:doc_logo_lilytronics")
 		(at 25.4 25.4 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0dd3a67c-288a-499b-897a-9d030c873dec")
 		(property "Reference" "DOC1001"
 			(at 25.4 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "doc_logo_lilytronics"
 			(at 25.4 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "lily_footprints:doc_logo_lilytronics"
 			(at 25.4 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 25.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 25.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Revision" "1"
 			(at 25.4 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "documentation_symbols"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "DOC1001")
 					(unit 1)
@@ -216,4 +244,26 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "lilytronics_page_layout_sch.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBxDB0XADZfYiDwWDfQMcnOQmlDrICnrVAC1V/+o+vtnvuQumgGPnRYaFkAVQBZAB9+0LNI
+				/Bc3I/E/nptnS3w9+RNpvuOhofY15ec51+T4hoZ6tfTUHf/kXwAAAoIR6X2cl7U01uW4JhxZMov/
+				ZcfuMdjuxuikEot3zF4qAAKCMWTScD7whgoBOUNlf+ygRHXujyRQpbIxBYpWObEN3WzobKwAeCx2
+				WlYqR3H0J/e4ttqSf/LffJ1YpXLWCNcij4+oUwbxpfI/H3nmYM+Oswh+OOXn70frQbdwbUkXBTe7
+				4+vBnQQ97Loz2RQL8TWCF4v5UeENE2IHX0TWtL2ue1yyplZaO7u9SSeRUBgZQqKYdBGIw8rNrrqI
+				B/FUhGx794+Vmqal7mXTNiszrXL+X4POljWrOcsBAYFB02hPKJALJNNZKuVKbtnoRjXNdp6ioekw
+				lwuEzs4Gh9WgWrqKojJ7tqS25YMOEvNGJ/XwOixCMW32jYiE5YJR2Ti5aV0vTTscuHH0/6kX3SRW
+				vYi9aJZ5cICkoLFgptzIUFBQkGQYA8BEpMQqHZoxAUuGn45uF4HjNx7AKkYT+RxFAq9bwMbDoSEA
+				WKFnPifYOaUM+mRk9iFiAYWQMs+MgXwfwPxkRq5KkdEeQQnfjJyyr3lpllUwd0b1gGMndVDCymNh
+				bPUulTy2JI1mkJ8WCMPWnEFSRZpPlRm0yZfZaHMxtAAY+skRQ34urRsX1LADAvI6EaOj+Y+Y4CJB
+				+bckCcqT2mWE8HkT0L6oFwJLND6vgpDPXOLvZ/V6IY83udLCufUggIH5cY+M/UTCgn8Nj0na94Ci
+				RE01nQGxvXDRkSMcfW01DytlWl5/qkJGqzBYeZkI2jnQGZyp3V6S46wCji5p2mKFPIaxt//k9mdY
+				QB568o+GA84yp/+BAcpAle/IEGQgE3rzcKKA7/CSw4pP0ts2I5sFGcx0Lpg306tZy9yHufQhxk3c
+				WUZ6QI3BqQI=|
+			)
+			(checksum "AA99E32D76E6281768E23AD2759012E5")
+		)
+	)
 )
