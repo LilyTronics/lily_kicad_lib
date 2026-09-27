@@ -39,6 +39,7 @@ class SymbolsChecker:
         'res':          'R',
         'switch':       'S',
         'test_point':   'TP',
+        'transformer':  'T',
         'Vxx':          '#PWR'
     }
     PART_FIELDS = ['Datasheet', 'Extends', 'Footprint', 'Manufacturer', 'Manufacturer_ID',
