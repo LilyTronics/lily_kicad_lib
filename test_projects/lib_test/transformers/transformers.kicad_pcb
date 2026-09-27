@@ -1,0 +1,433 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "Transformers")
+		(date "2026-09-27")
+		(rev "1")
+		(comment 1 "-")
+		(comment 2 "-")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+				(material "Liquid Photo")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Green")
+				(thickness 0.01)
+				(material "Liquid Ink")
+				(epsilon_r 3.3)
+				(loss_tangent 0)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Green")
+				(thickness 0.01)
+				(material "Liquid Ink")
+				(epsilon_r 3.3)
+				(loss_tangent 0)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+				(material "Liquid Photo")
+			)
+			(copper_finish "HAL lead-free")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 6)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "lily_footprints:transformer_5va_1p_2s"
+		(layer "F.Cu")
+		(uuid "0e713691-a582-465c-9e81-e3882fef0593")
+		(at 123 104)
+		(property "Reference" "T1001"
+			(at 12.5 9 0)
+			(layer "F.SilkS")
+			(uuid "5c4c6b0a-1961-4f1f-840a-a0b0dd98f562")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "5VA"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c94df313-6e01-429f-8dac-0d59469c0071")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/myrra/transformers_5VA_pcb.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0474a5b3-dc8a-446a-bc54-7adbc8d0850f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc461e7b-21dc-4fc4-8bc2-4b763196413e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39a4966f-eea7-4f14-b443-ba4eb934d479")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc28aedc-d1a7-48eb-9df6-57ad574c300f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Myrra"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ff238f2-73a0-41aa-842c-91cbac8024e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "44235"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a5c9124-1b04-4d07-bcce-9fe1d3b14c19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1921-10001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d88d5bfe-6942-426f-b96a-719f345daaa9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d835aaa-e5d1-4ac2-9afe-20d5687d7bcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a3320ba9-bb53-43d0-b005-addccdfc6264")
+		(sheetname "/")
+		(sheetfile "transformers.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "10" "9" "7" "6")
+			)
+		)
+		(attr through_hole exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -10.75 -32.25)
+			(end 35.75 7.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c3654bde-7ff8-44f4-8733-25f733632ffc")
+		)
+		(fp_rect
+			(start -9.75 -31.25)
+			(end 34.75 6.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "02d0305d-0fb5-4d73-a157-79882fa0a3a1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 12.5 -12.5 0)
+			(layer "F.Fab")
+			(uuid "642231c2-b770-48af-ae66-0d791d29f4d3")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(T1001-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "2fb9fe58-ff02-48f2-881e-eb640e5e1125")
+		)
+		(pad "5" thru_hole circle
+			(at 25 0)
+			(size 2.2 2.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(T1001-Pad5)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "5f8ecf3e-cbad-435c-bdac-f4013dda1e62")
+		)
+		(pad "6" thru_hole circle
+			(at 25 -25)
+			(size 2.2 2.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(T1001-Pad6)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "a34142f3-b55e-4cde-849f-158845c65598")
+		)
+		(pad "7" thru_hole circle
+			(at 20 -25)
+			(size 2.2 2.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(T1001-Pad7)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "a16ae02b-68db-43e2-b4ae-2030d45edcbd")
+		)
+		(pad "9" thru_hole circle
+			(at 5 -25)
+			(size 2.2 2.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(T1001-Pad9)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "c53c2ab2-ebb7-4d6b-a1b9-394fb5a4c967")
+		)
+		(pad "10" thru_hole circle
+			(at 0 -25)
+			(size 2.2 2.2)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(T1001-Pad10)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "7c8f16d6-ad4b-4935-9aa8-f423dcc824d3")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/transformer_5va_1p_2s_th.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_rect
+		(start 110 70)
+		(end 190 130)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "378d4ccf-c3c3-4b12-b957-5ae87f43d732")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "lilytronics_page_layout_pcb.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCmC0UWAKYeYCDwWDfQMcnOQmlDrICnC4xApS08iSIr5z6kdorDMhwtKlcAUgBXAA/6FYn/
+				4mYk/sdTr2y21XM/keY7HhpoX5I/z6kmtzU00KvZU3X8k38BAAgIRqT3UV6cpbEqxzXhyOIr/nfd
+				usfAdTc25WQr1vF6qQAICMaQScP5wBoqBP7WQUZ16o8kEJ3cmAI1KUtsMzebKRsrAN6KnWY6eRRH
+				f/JL11Zb/Cf/zVOJ0cmSQroWeXxEnS5o6+T/fOSXY/26vSL4oeS/34/Wg17p2mIXfTbXzDKPrdfd
+				Vo/1GPTQ6+6JhfYawWrF+6iwhgmxY2vWk2OOk90XiReJTBgZIqKQeJCHg+ONW3mQy+OiImTbu384
+				1jQtVS2btnHcGO38v8aUzTSjN7s3Q90BgSGTTB6WR8arNNaVvEK3OSfGcTbbuygaGg9jsTym7Gxw
+				WA1oxaMoKLJl8+SaH3SQeLcpp4fVwSEUGWeyue76RkSyvGBQNq3ppWmHQzeO/j/0mhtj9ALhAoCc
+				oMFYppyRoSApSDKMAcBExMSqA8iITphTKx95BVksE5w5OY4nC32sAowgAGC9kgMDsJfkaCtFcw0f
+				C3i3lHhkAMLygMMmCzJJHZGGiBQ7/FGIiTHLsZ9P36KMEkHoFZmhSGAwnWR4L79LH0asOUEii240
+				2jM40wfmoUzA0gI4tOcih6y5lG7cyAcAODcTDhk5NuefkXDeq20DxJqZBK2LeCGgROPyLoDMzCTw
+				63yfRwT3yilZwnXvAZk7Hy4RWIZiNvxreExSfQd0CupVoxhs2ws/CnmkQqcNhUNJkd7TnaIU0SkM
+				Xl5GgnYJdIF7atm7MzjLwdFPzRmslcM07sb/fD/GC8uhJcQREKAZpvQ2OOAyEOUQGITH0kEsHGQU
+				xJ1IYGzpTXLL5vKaEUTM58a8nlqtWp5OzKV/MF7iPnLWA2oMRBU=|
+			)
+			(checksum "2798151C2286A2E2C074947F2B0CEEAC")
+		)
+	)
+)

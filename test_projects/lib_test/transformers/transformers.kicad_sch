@@ -1,0 +1,708 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "Transformers")
+		(date "2026-09-27")
+		(rev "1")
+		(comment 1 "-")
+		(comment 2 "-")
+	)
+	(lib_symbols
+		(symbol "lily_symbols:transformer_5VA_2x6V_th"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at 1.27 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "5VA"
+				(at 1.27 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:transformer_5va_1p_2s"
+				(at 6.35 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/myrra/transformers_5VA_pcb.pdf"
+				(at 6.35 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Revision" "1"
+				(at 6.35 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" "Active"
+				(at 6.35 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Myrra"
+				(at 6.35 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_ID" "44235"
+				(at 6.35 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Lily_ID" "1921-10001"
+				(at 6.35 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB_ID" "NO_ID"
+				(at 6.35 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "transformer_5VA_2x6V_th_0_1"
+				(arc
+					(start 3.81 0)
+					(mid 4.708 -0.372)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -1.27)
+					(mid 4.708 -2.168)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -2.54)
+					(mid 4.708 -2.912)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -3.81)
+					(mid 4.708 -4.708)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -5.08)
+					(mid 4.708 -5.452)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -6.35)
+					(mid 4.708 -7.248)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -7.62)
+					(mid 4.708 -7.992)
+					(end 5.08 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -8.89)
+					(mid 4.708 -9.788)
+					(end 3.81 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 5.08) (xy 6.096 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 5.08) (xy 6.604 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 3.81)
+					(mid 7.992 4.708)
+					(end 8.89 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 2.54)
+					(mid 7.992 2.912)
+					(end 7.62 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 1.27)
+					(mid 7.992 2.168)
+					(end 8.89 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 0)
+					(mid 7.992 0.372)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -1.27)
+					(mid 7.992 -0.372)
+					(end 8.89 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -2.54)
+					(mid 7.992 -2.168)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -8.89)
+					(mid 7.992 -7.992)
+					(end 8.89 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -10.16)
+					(mid 7.992 -9.788)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -11.43)
+					(mid 7.992 -10.532)
+					(end 8.89 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -12.7)
+					(mid 7.992 -12.328)
+					(end 7.62 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -13.97)
+					(mid 7.992 -13.072)
+					(end 8.89 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -15.24)
+					(mid 7.992 -14.868)
+					(end 7.62 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "transformer_5VA_2x6V_th_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:transformer_5VA_2x6V_th")
+		(at 38.1 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "a3320ba9-bb53-43d0-b005-addccdfc6264")
+		(property "Reference" "T1001"
+			(at 39.37 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5VA"
+			(at 39.37 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:transformer_5va_1p_2s"
+			(at 44.45 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/myrra/transformers_5VA_pcb.pdf"
+			(at 44.45 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 44.45 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 44.45 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Myrra"
+			(at 44.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "44235"
+			(at 44.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Lily_ID" "1921-10001"
+			(at 44.45 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 44.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "e2ff543d-ebe3-4518-97a0-c1ad645d93fb")
+		)
+		(pin "1"
+			(uuid "c253882b-660b-4d99-bf99-7762d6911530")
+		)
+		(pin "5"
+			(uuid "13eb74b5-25a4-45d1-beeb-e64af3b9f353")
+		)
+		(pin "9"
+			(uuid "ccf66f89-96e8-4292-99f5-961abc8f51da")
+		)
+		(pin "6"
+			(uuid "a6622c83-a86d-4169-9014-195a6f27a660")
+		)
+		(pin "10"
+			(uuid "a7a8cf66-370f-47a7-bfce-f175968a1d20")
+		)
+		(instances
+			(project "transformers"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "T1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "lilytronics_page_layout_sch.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBxDB0XADZfYiDwWDfQMcnOQmlDrICnrVAC1V/+o+vtnvuQumgGPnRYaFkAVQBZAB9+0LNI
+				/Bc3I/E/nptnS3w9+RNpvuOhofY15ec51+T4hoZ6tfTUHf/kXwAAAoIR6X2cl7U01uW4JhxZMov/
+				ZcfuMdjuxuikEot3zF4qAAKCMWTScD7whgoBOUNlf+ygRHXujyRQpbIxBYpWObEN3WzobKwAeCx2
+				WlYqR3H0J/e4ttqSf/LffJ1YpXLWCNcij4+oUwbxpfI/H3nmYM+Oswh+OOXn70frQbdwbUkXBTe7
+				4+vBnQQ97Loz2RQL8TWCF4v5UeENE2IHX0TWtL2ue1yyplZaO7u9SSeRUBgZQqKYdBGIw8rNrrqI
+				B/FUhGx794+Vmqal7mXTNiszrXL+X4POljWrOcsBAYFB02hPKJALJNNZKuVKbtnoRjXNdp6ioekw
+				lwuEzs4Gh9WgWrqKojJ7tqS25YMOEvNGJ/XwOixCMW32jYiE5YJR2Ti5aV0vTTscuHH0/6kX3SRW
+				vYi9aJZ5cICkoLFgptzIUFBQkGQYA8BEpMQqHZoxAUuGn45uF4HjNx7AKkYT+RxFAq9bwMbDoSEA
+				WKFnPifYOaUM+mRk9iFiAYWQMs+MgXwfwPxkRq5KkdEeQQnfjJyyr3lpllUwd0b1gGMndVDCymNh
+				bPUulTy2JI1mkJ8WCMPWnEFSRZpPlRm0yZfZaHMxtAAY+skRQ34urRsX1LADAvI6EaOj+Y+Y4CJB
+				+bckCcqT2mWE8HkT0L6oFwJLND6vgpDPXOLvZ/V6IY83udLCufUggIH5cY+M/UTCgn8Nj0na94Ci
+				RE01nQGxvXDRkSMcfW01DytlWl5/qkJGqzBYeZkI2jnQGZyp3V6S46wCji5p2mKFPIaxt//k9mdY
+				QB568o+GA84yp/+BAcpAle/IEGQgE3rzcKKA7/CSw4pP0ts2I5sFGcx0Lpg306tZy9yHufQhxk3c
+				WUZ6QI3BqQI=|
+			)
+			(checksum "AA99E32D76E6281768E23AD2759012E5")
+		)
+	)
+)

@@ -42,7 +42,8 @@ class ProductCategories:
         Category( 'crystals / resonators',  '1917-1xxxx', ( 'crystal_', )                ),
         Category( 'transistors',            '1918-1xxxx', ( 'bjt', 'mosfet' )            ),
         Category( 'potmeters',              '1919-1xxxx', ( 'pot_', )                    ),
-        Category( 'switches',               '1920-1xxxx', ( 'switch_', )                 )
+        Category( 'switches',               '1920-1xxxx', ( 'switch_', )                 ),
+        Category( 'transformers',           '1921-1xxxx', ( 'transformer_', )            )
     ]
 
     _VALUE_PATTERN = re.compile(r'_([0-9]+(?:[RkMmunp][0-9]*)?)_')
