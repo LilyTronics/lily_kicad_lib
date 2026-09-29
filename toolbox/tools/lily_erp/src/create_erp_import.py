@@ -13,12 +13,12 @@ def create_erp_import_file(part_name, lily_id, parent_view=None):
     with open(import_template, 'r', encoding='utf-8') as fp:
         content = fp.read()
 
-    name = part_name.replace('_', ' ')
+    name = part_name.replace('mec_', '').replace('_', ' ')
     content = content.replace('KICAD_NAME', name).replace('LILY_ID', lily_id)
     filename = None
     with wx.FileDialog(
             parent_view, 'Save file', style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT,
-            wildcard="CSV files (*.csv)|*.csv", defaultFile=f'{part_name}.csv'
+            wildcard="CSV files (*.csv)|*.csv", defaultFile='erp_import.csv'
         ) as dlg:
         if dlg.ShowModal() == wx.ID_OK:
             filename = dlg.GetPath()
