@@ -29,7 +29,10 @@ class ErpChecker:
             erp_components = result[1]
         lib_components = list(filter(cls.lib_filter, LibParser.get_symbols()))
         # Make name format in library components same as the name in the ERP database
-        lib_components = [{**c, 'Name': c['Name'].replace('_', ' ')} for c in lib_components]
+        lib_components = [
+            { **c, 'Name': c['Name'].replace('mec_', '').replace('_', ' ') }
+            for c in lib_components
+        ]
         cls.stdout(f'Checking {len(erp_components)} ERP components')
         cls.stdout(f'Checking {len(lib_components)} library components')
         cls._check_lib_to_erp(lib_components, erp_components, report_messages)
