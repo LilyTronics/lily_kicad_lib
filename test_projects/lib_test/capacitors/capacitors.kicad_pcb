@@ -11495,6 +11495,218 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:cap_elec_rad_16x32mm_th"
+		(layer "F.Cu")
+		(uuid "900f3a62-5c1c-42f9-b0a8-2b295bed0b77")
+		(at 170 100)
+		(property "Reference" "C1080"
+			(at 3.75 10 0)
+			(layer "F.SilkS")
+			(uuid "c99d90cc-90e2-4867-8adf-7fd94d2eb62a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "4700u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "073b50de-694b-43aa-9295-7dd0fd320c55")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/ESK478M025AM2AA.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bed0a30-b1c8-4633-b655-de0ca52c68ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed731b9b-afed-43f1-bea9-9ba346651f22")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87e37f02-cd9f-4c41-b2de-8650a7fb9933")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f847a082-780d-4e18-820b-8dcc780694ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19e69912-6cb3-4346-adc3-7a241ac7ccbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "ESK478M025AM2AA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e44810fc-73c5-4ab6-823b-9bec00295ead")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1912-90002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb714dc8-f318-4fcd-b4f7-0bca37d2c293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f0b7aa9-330c-43ca-89d9-95c99774b00c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5025dddd-4bd2-43e3-b256-cb5b99916aed")
+		(sheetname "/")
+		(sheetfile "capacitors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 3.75 0)
+			(end 12.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c8741f19-d7a7-47ad-ab79-8301092ea703")
+		)
+		(fp_circle
+			(center 3.75 0)
+			(end 11.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c014b595-ed83-4c2e-b55e-e0149c4bdb8f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.75 0 0)
+			(layer "F.Fab")
+			(uuid "4c65d681-5941-4721-a83e-235e4424091c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(C1080-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "6717e2bc-0caa-4b17-9668-3c5ba2a5f9bf")
+		)
+		(pad "2" thru_hole circle
+			(at 7.5 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(C1080-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "2808d161-5185-400b-a46d-f57b26167fb5")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/cap_elec_rad_16x32mm_th.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lily_footprints:cap_0805"
 		(layer "F.Cu")
 		(uuid "914783f4-fcfa-48ea-9e5e-a4f67aa7b7e0")
@@ -22737,7 +22949,7 @@
 	)
 	(gr_rect
 		(start 101 90)
-		(end 131 99)
+		(end 131 113)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22748,7 +22960,7 @@
 	)
 	(gr_rect
 		(start 132 90)
-		(end 162 99)
+		(end 162 113)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22758,8 +22970,8 @@
 		(uuid "f13cf984-2208-4bbb-87f0-508bed3e665f")
 	)
 	(gr_rect
-		(start 163 51)
-		(end 201 99)
+		(start 163 50)
+		(end 201 113)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22770,7 +22982,7 @@
 	)
 	(gr_rect
 		(start 100 50)
-		(end 202 100)
+		(end 202 114)
 		(stroke
 			(width 0.1)
 			(type default)
