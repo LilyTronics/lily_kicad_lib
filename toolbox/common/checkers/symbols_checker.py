@@ -242,7 +242,8 @@ class SymbolsChecker:
         # Is not a test point
         return (
             (symbol_data.get('Extends', None) is not None) and
-            (not symbol_data['Name'].startswith('mec_')) and
+            (not symbol_data['Name'].startswith('mec_fiducial_')) and
+            (not symbol_data['Name'].startswith('mec_hole_')) and
             (not symbol_data['Name'].startswith('test_point_'))
         )
 
