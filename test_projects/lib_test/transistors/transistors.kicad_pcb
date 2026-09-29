@@ -140,7 +140,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "09be85e9-76ee-4ca5-b2f9-a272bd741912")
-		(at 114 74)
+		(at 114 89)
 		(property "Reference" "Q1001"
 			(at 0 3 180)
 			(layer "F.SilkS")
@@ -499,7 +499,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "16939e7a-c741-4755-8403-1793d2548958")
-		(at 114 81)
+		(at 124 89)
 		(property "Reference" "Q1007"
 			(at 0 3 0)
 			(layer "F.SilkS")
@@ -858,7 +858,7 @@
 	(footprint "lily_footprints:to264"
 		(layer "F.Cu")
 		(uuid "6606eaf1-00aa-4226-b468-8b7072f0a9fc")
-		(at 147.55 75)
+		(at 154 76)
 		(property "Reference" "Q1005"
 			(at 5.45 3 0)
 			(layer "F.SilkS")
@@ -1080,7 +1080,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "9a85b0a0-c6e7-4006-97e7-a58afb2717e9")
-		(at 119 81)
+		(at 129 89)
 		(property "Reference" "Q1008"
 			(at 0 3 0)
 			(layer "F.SilkS")
@@ -1439,7 +1439,7 @@
 	(footprint "lily_footprints:sot1220_dnf2020md-6_type_e"
 		(layer "F.Cu")
 		(uuid "a38db383-8c84-4b71-8905-2928178e43db")
-		(at 125 81)
+		(at 135 89)
 		(property "Reference" "Q1009"
 			(at 0 3 0)
 			(unlocked yes)
@@ -1734,7 +1734,7 @@
 	(footprint "lily_footprints:to126"
 		(layer "F.Cu")
 		(uuid "ada71716-a3c5-4192-a721-0ad712c7ebfc")
-		(at 124.71 74)
+		(at 126.71 81)
 		(property "Reference" "Q1003"
 			(at 2.29 3 0)
 			(layer "F.SilkS")
@@ -1956,7 +1956,7 @@
 	(footprint "lily_footprints:to264"
 		(layer "F.Cu")
 		(uuid "ba260e4a-4c22-4a74-9301-b809c5d4d2a8")
-		(at 169.55 75)
+		(at 176 76)
 		(property "Reference" "Q1006"
 			(at 5.45 3 0)
 			(layer "F.SilkS")
@@ -2175,10 +2175,227 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:mec_heatsink_sk104_12.7x34.9x38.1mm"
+		(layer "F.Cu")
+		(uuid "c572f2f5-556a-4d72-88fe-10bdce4a2156")
+		(at 129 78)
+		(property "Reference" "M1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "39207286-2f89-4e5f-b89f-5722adbe551f")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "mec_heatsink_sk104_12.7x34.9x38.1mm"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96c8e517-18fe-4ada-8770-a66aad592f72")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/fisher/heatsink_SK_104_38,1_STC.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6251d4a7-fd37-4ef4-b636-b83ed0717924")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "386d1c98-e34c-400d-8030-abca78c48330")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "242d664d-373a-448a-a05d-98a26cdb8e58")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2baa598-0b66-4e4d-a6ed-6129582c069f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Fisher"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "614340f1-c5e0-4609-89df-87c5c63cf200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "SK 104 38,1 STS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e95efd6c-1a44-4718-a648-b82db6f0df5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1718-10001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9caa2d0-1d15-41cd-896e-f72c5271206f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec67529e-97cc-4d81-9ac8-9cd2e6bcd1d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0baa4047-49cd-4ea3-9801-1c198ad800fc")
+		(sheetname "/")
+		(sheetfile "transistors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -7.4 -6.9) (xy -7.4 -0.75) (xy 7.4 -0.75) (xy 7.4 -6.9) (xy 18 -6.9) (xy 18 6.9) (xy 7.4 6.9)
+				(xy 7.4 0.75) (xy -7.4 0.75) (xy -7.4 6.9) (xy -18 6.9) (xy -18 -6.9)
+			)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cfc08a65-01f4-4dec-a997-22b1f2e62c71")
+		)
+		(fp_poly
+			(pts
+				(xy -7.95 -0.75) (xy 7.95 -0.75) (xy 7.95 -6.35) (xy 17.45 -6.35) (xy 17.45 6.35) (xy 7.95 6.35)
+				(xy 7.95 0.75) (xy -7.95 0.75) (xy -7.95 6.35) (xy -17.45 6.35) (xy -17.45 -6.35) (xy -7.95 -6.35)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "bf0b0ba6-e6d5-41ae-8001-6a9050efe34f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e2c45c25-a4a0-49a9-a8c3-921fd67795f6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -12.7 0)
+			(size 5 5)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(M1-Pad1)")
+			(pintype "no_connect")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "64b9fa94-f1f7-4e91-a1ee-36f6138abc6c")
+		)
+		(pad "1" thru_hole circle
+			(at 12.7 0)
+			(size 5 5)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(M1-Pad1)_1")
+			(pintype "no_connect")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "a8176871-21ec-42f0-9359-f27cbe779414")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/mec_heatsink_sk104_12.7x34.9x38.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lily_footprints:to126"
 		(layer "F.Cu")
 		(uuid "e122b6ee-d629-4c85-95ad-8a4f0a32494b")
-		(at 134.71 74)
+		(at 157.42 85)
 		(property "Reference" "Q1004"
 			(at 2.3 3 0)
 			(layer "F.SilkS")
@@ -2400,7 +2617,7 @@
 	(footprint "lily_footprints:sot23"
 		(layer "F.Cu")
 		(uuid "e9d67dbf-7a6c-484b-9097-12244aad0802")
-		(at 119 74)
+		(at 119 89)
 		(property "Reference" "Q1002"
 			(at 0 3 0)
 			(layer "F.SilkS")
@@ -2758,7 +2975,7 @@
 	)
 	(gr_rect
 		(start 110 70)
-		(end 188 87)
+		(end 194 95)
 		(stroke
 			(width 0.1)
 			(type default)
