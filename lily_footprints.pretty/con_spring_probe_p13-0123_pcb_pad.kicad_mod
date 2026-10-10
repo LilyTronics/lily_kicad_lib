@@ -1,0 +1,135 @@
+(footprint "con_spring_probe_p13-0123_pcb_pad"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.8 0)
+		(layer "F.SilkS")
+		(uuid "555d4c70-e9d3-4c7b-a638-45c63db6a826")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "con_spring_probe_p13-0123_pcb_pad"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5f811b5-b717-485b-9c3a-2fb7ae1bed96")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6802de8f-6411-44bb-8a4c-1d74541e572d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05e749ae-3d8e-4a64-b444-120150e9f6b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Revision" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "480200c2-8be0-4743-ba85-d09e69593f6b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.2 -5.2)
+		(end 1.2 11.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ce20c287-92b8-4c74-b7da-2c398f75389f")
+	)
+	(fp_rect
+		(start -0.35 -5)
+		(end 0.35 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0b21b85c-755d-4fd7-bdb9-6caebe405a19")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 8) (xy -0.25 10.75) (xy 0 11.35) (xy 0.25 10.75) (xy 0.25 8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "162d3929-a9d2-43b9-89a7-e863fb03759c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.8 0)
+		(layer "F.Fab")
+		(uuid "93eeeb7a-47b2-4528-8b36-3b461950609f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2 10)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "2593d263-0a7b-4f4f-bac0-abc04003e069")
+	)
+	(embedded_fonts no)
+	(model "../3d_models/con_spring_probe_p13-0123_pcb_pad.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

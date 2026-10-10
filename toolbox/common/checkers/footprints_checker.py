@@ -270,6 +270,7 @@ class FootprintsChecker:
         is_fiducial = footprint_data['Name'].startswith('fiducial_')
         is_mouse_bytes = footprint_data['Name'].startswith('mec_mouse_bytes')
         is_doc_footprint = footprint_data['Name'].startswith('doc_')
+        is_spring_probe = footprint_data['Name'].startswith('con_spring_probe_')
         is_footprint_only = (
             (footprint_data['Name'].startswith('con_tc2030_')) or
             ('cable_to_pcb' in footprint_data['Name'])
@@ -280,7 +281,8 @@ class FootprintsChecker:
 
         # Not in position files
         attributes['exclude_from_pos_files'][0] = (
-            is_through_hole or is_test_point or is_doc_footprint or is_footprint_only
+            is_through_hole or is_test_point or is_doc_footprint or is_footprint_only or
+            is_spring_probe
         )
 
         # Not in BOM

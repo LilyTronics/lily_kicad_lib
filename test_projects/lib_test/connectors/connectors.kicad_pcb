@@ -10110,6 +10110,216 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:con_spring_probe_p13-0123_pcb_pad"
+		(layer "F.Cu")
+		(uuid "6a9cb107-9e16-4bb8-931d-d4125aa25eda")
+		(at 246 126 90)
+		(property "Reference" "X1032"
+			(at -2 0 180)
+			(layer "F.SilkS")
+			(uuid "b590e496-3ecc-4d6b-a9df-73d5f0335085")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "P13-0123"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32c9c57b-b0df-498a-850f-74a8bb7f7642")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/harwin/spring_probe_P13-XX23.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9230fa1-6e42-43a5-addb-0610dcbc2c82")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c18f3d75-5f96-4966-87d6-3593e4708278")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d4ff653-253d-4223-ade2-fcfe370c69a8")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "083b227f-5117-4ebd-a18e-14332a760510")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a923fc4-e99e-41f3-8a44-84623ee4b7f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "P13-0123"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d67730e1-0b9b-40ba-a742-f203fada897e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1910-10031"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3027331e-2974-4818-867f-61600514d5c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e97f676b-bea2-4de9-a120-8d6d5fda9702")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5396d0e1-2c16-4e20-ab62-53a36d9edcf1")
+		(sheetname "/")
+		(sheetfile "connectors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.2 -5.2)
+			(end 1.2 11.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0b48454c-8d7c-4a03-837a-823d0a11c331")
+		)
+		(fp_rect
+			(start -0.35 -5)
+			(end 0.35 8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e68d2a50-114e-40e1-98d4-61b39410b497")
+		)
+		(fp_poly
+			(pts
+				(xy -0.25 8) (xy -0.25 10.75) (xy 0 11.35) (xy 0.25 10.75) (xy 0.25 8)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ac6c6d61-a92e-42e3-a966-d61f836ad0d9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.8 90)
+			(layer "F.Fab")
+			(uuid "153f5fe0-211f-465a-b76a-dc1993a3efa9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0 90)
+			(size 2 10)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(X1032-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "8c920238-4045-400f-bc18-9acad2b76a7a")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/con_spring_probe_p13-0123_pcb_pad.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lily_footprints:con_terminal_block_2p_5.08mm_th"
 		(layer "F.Cu")
 		(uuid "7789c3f4-c517-4551-a4e5-424dc9498f56")
