@@ -45,6 +45,8 @@ class ProductCategories:
         Category( 'switches',               '1920-1xxxx', ( 'switch_', )                 ),
         Category( 'transformers',           '1921-1xxxx', ( 'transformer_', )            ),
         Category( 'heatsinks',              '1718-1xxxx', ( 'mec_heatsink_', )           ),
+        Category( 'PCB',                    '2910-1xxyy', ()                             ),
+        Category( 'PCA',                    '2920-1xxyy', ()                             )
     ]
 
     _VALUE_PATTERN = re.compile(r'_([0-9]+(?:[RkMmunp][0-9]*)?)_')
@@ -127,6 +129,7 @@ class ProductCategories:
 
     @classmethod
     def get_category_for_part(cls, part_name):
+        category = ''
         series_name = ''
         value = ''
         matches = [
