@@ -6,6 +6,7 @@ import csv
 import os
 import re
 
+from toolbox.common.create_erp_import import create_erp_import_file
 from toolbox.common.parsers.design_parser import DesignParser
 from toolbox.tools.process_design.src.kicad_cli import KiCadCli
 from toolbox.tools.process_design.src.process_context import ProcessContext
@@ -64,6 +65,9 @@ class OutputGenerator:
             elif option == 'LilyTronics ERP':
                 props = DesignParser.get_schematics_properties(context.project_folder)
                 pca_id = props.get('pca_id', '')
+                pcb_id = props.get('pcb_id', '')
+                design_name = props.get('design_name', '')
+                revision = props.get('revision', '')
                 report += f'Generate BOM: {option}\n'
                 output_filename = f'{context.timestamp}_{context.design_name}_bom_lily_erp.csv'
                 output_filename = os.path.join(context.output_folder, output_filename)
@@ -71,6 +75,27 @@ class OutputGenerator:
                     context.sch_filename, output_filename, 'lily_erp')
                 if pca_id == '':
                     message += '\nWARNING: PCA ID is empty'
+                if pcb_id == '':
+                    message += '\nWARNING: PCB ID is empty'
+                if design_name == '':
+                    message += '\nWARNING: design name is empty'
+                if revision == '':
+                    message += '\nWARNING: revision is empty'
+
+                # Generate import for PCA
+                name = f'PCA {design_name} R{revision}'
+                filename = f'{context.timestamp}_{name.lower().replace(' ', '_')}'
+                create_erp_import_file(
+                    name, pca_id, filename=os.path.join(context.output_folder, filename)
+                )
+
+                # Generate import for PCB
+                name = f'PCB {design_name} R{revision}'
+                filename = f'{context.timestamp}_{name.lower().replace(' ', '_')}'
+                create_erp_import_file(
+                    name, pcb_id, filename=os.path.join(context.output_folder, filename)
+                )
+
                 convert_message = ''
                 if os.path.isfile(output_filename):
                     data_in = cls._read_csv(output_filename)
