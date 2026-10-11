@@ -244,7 +244,8 @@ class SymbolsChecker:
             (symbol_data.get('Extends', None) is not None) and
             (not symbol_data['Name'].startswith('mec_fiducial_')) and
             (not symbol_data['Name'].startswith('mec_hole_')) and
-            (not symbol_data['Name'].startswith('test_point_'))
+            (not symbol_data['Name'].startswith('test_point_')) and
+            (not symbol_data['Name'].startswith('con_coax_'))
         )
 
     @classmethod
