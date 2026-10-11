@@ -6,7 +6,7 @@ import wx
 import wx.dataview
 
 from toolbox.tools.common.controller_base import ControllerBase
-from toolbox.tools.lily_erp.src.create_erp_import import create_erp_import_file
+from toolbox.common.create_erp_import import create_erp_import_file
 from toolbox.tools.lily_erp.src.symbol_data import get_erp_parts
 from toolbox.common.erp_connect import get_components_from_erp
 from toolbox.common.product_categories import ProductCategories
