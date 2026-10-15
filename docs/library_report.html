@@ -152,7 +152,8 @@ const generic_symbols = [
     { Name: 'switch_dpdt_6p_th', Extends: '', Reference: 'S', Value: 'switch_dpdt_6p_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'switch_spst_button_4p', Extends: '', Reference: 'S', Value: 'switch_spst_button_4p', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'test_point', Extends: '', Reference: 'TP', Value: 'TP', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
-    { Name: 'transformer_1p_2s_th', Extends: '', Reference: 'T', Value: 'transformer_1p_2s_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' }
+    { Name: 'transformer_1p_2s_th', Extends: '', Reference: 'T', Value: 'transformer_1p_2s_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'triac_3p_th', Extends: '', Reference: 'Q', Value: 'triac_3p_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' }
 ];
 
 const parts = [
@@ -519,7 +520,8 @@ const parts = [
     { Name: 'switch_spst_button_4p_4.2x3.2mm', Extends: 'switch_spst_button_4p', Reference: 'S', Value: 'spst', Description: '', Footprint: 'lily_footprints:switch_spst_4p_4.2x3.2mm', Revision: '1', Manufacturer: 'APLSALPINE', Manufacturer_ID: 'SKRPABE010', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/alps/SKRP_series.pdf' },
     { Name: 'test_point_1.1mm_th', Extends: 'test_point', Reference: 'TP', Value: 'TP', Description: '', Footprint: 'lily_footprints:test_point_1.1mm_th', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'test_point_1mm_smd', Extends: 'test_point', Reference: 'TP', Value: 'TP', Description: '', Footprint: 'lily_footprints:test_point_1mm', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
-    { Name: 'transformer_5VA_2x6V_th', Extends: 'transformer_1p_2s_th', Reference: 'T', Value: '5VA', Description: '', Footprint: 'lily_footprints:transformer_5va_1p_2s', Revision: '1', Manufacturer: 'Myrra', Manufacturer_ID: '44235', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/myrra/transformers_5VA_pcb.pdf' }
+    { Name: 'transformer_5VA_2x6V_th', Extends: 'transformer_1p_2s_th', Reference: 'T', Value: '5VA', Description: '', Footprint: 'lily_footprints:transformer_5va_1p_2s', Revision: '1', Manufacturer: 'Myrra', Manufacturer_ID: '44235', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/myrra/transformers_5VA_pcb.pdf' },
+    { Name: 'triac_BTA206X-800CT_to220f', Extends: 'triac_3p_th', Reference: 'Q', Value: 'BTA206X-800CT', Description: '', Footprint: 'lily_footprints:to220f', Revision: '1', Manufacturer: 'WeEn', Manufacturer_ID: 'BTA206X-800CT', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/ween/BTA206X-800CT.pdf' }
 ];
 
 const footprints = [
@@ -715,8 +717,8 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-10-14 19:27</p>
-<p>Total symbols: 462</p>
+<p>Last updated: 2026-10-15 18:33</p>
+<p>Total symbols: 464</p>
 <p>Total footprints: 95</p>
 </div>
 
