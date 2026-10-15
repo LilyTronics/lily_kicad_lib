@@ -40,7 +40,7 @@ class ProductCategories:
         Category( 'fuses',                  '1915-1xxxx', ( 'fuse_', )                   ),
         Category( 'inductors',              '1916-1xxxx', ( 'ind_', )                    ),
         Category( 'crystals / resonators',  '1917-1xxxx', ( 'crystal_', )                ),
-        Category( 'transistors',            '1918-1xxxx', ( 'bjt', 'mosfet' )            ),
+        Category( 'transistors',            '1918-1xxxx', ( 'bjt', 'mosfet', 'triac' )   ),
         Category( 'potmeters',              '1919-1xxxx', ( 'pot_', )                    ),
         Category( 'switches',               '1920-1xxxx', ( 'switch_', )                 ),
         Category( 'transformers',           '1921-1xxxx', ( 'transformer_', )            ),

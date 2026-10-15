@@ -40,6 +40,7 @@ class SymbolsChecker:
         'switch':       'S',
         'test_point':   'TP',
         'transformer':  'T',
+        'triac':        'Q',
         'Vxx':          '#PWR'
     }
     PART_FIELDS = ['Datasheet', 'Extends', 'Footprint', 'Manufacturer', 'Manufacturer_ID',
