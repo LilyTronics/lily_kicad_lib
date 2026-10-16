@@ -137,6 +137,162 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "lily_footprints:mec_hole_m3_npth"
+		(layer "F.Cu")
+		(uuid "1a29c740-b8f0-48b0-bf2c-c6babc2cff5c")
+		(at 116 86)
+		(property "Reference" "M1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9bec84fa-9059-4f9b-b6ec-e49fab56fc50")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "mec_hole_m3_npth"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faed1d82-8289-4416-b778-e4d78639ab80")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f44f65b-2099-4ca5-a0ea-d6f982ff078e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d105e00d-ac90-4f77-86be-3d7df2685c76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ec35743-7e95-4e62-a5c4-e9a5b68bc992")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/6d3617fb-03b9-44d0-9942-19df3a1ee532")
+		(sheetname "/")
+		(sheetfile "various.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.001)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Cu")
+			(uuid "2bae97b1-1065-4a14-b89a-ef755aad3e73")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.001)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Cu")
+			(uuid "53f16ac7-9a49-4c07-b203-721229755001")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "766d811c-1b98-4ac2-9321-0d44266aecb0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.6 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e9c0f3f2-3e15-42c4-8585-ca9af499abee")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "89e35c82-18c7-42c1-873a-3fe3da16ec7d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ae833fc6-450d-43d0-bb1a-da39ca35104a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 7 7)
+			(drill 3.2)
+			(layers "*.Mask")
+			(solder_mask_margin 0.1)
+			(uuid "bdf740fe-0bfe-4426-94a1-69069e0dabd0")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "lily_footprints:test_point_1mm"
 		(layer "F.Cu")
 		(uuid "8e2972ce-0394-40ee-bd83-892bbffe9a5f")
@@ -208,7 +364,13 @@
 		(path "/dda14448-8e60-4f3c-9096-88e2f0bb8adf")
 		(sheetname "/")
 		(sheetfile "various.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -316,7 +478,13 @@
 		(path "/499dd689-4b43-4a97-bd9a-87d9adfbd743")
 		(sheetname "/")
 		(sheetfile "various.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -444,7 +612,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 3.8 0)
+			(end 4.5 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -455,7 +623,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3 0)
+			(end 1.6 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -463,6 +631,17 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "d7cc5bdb-dc69-4c63-80c1-b10202f1f064")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "46188510-ffa5-401c-a223-443863d9baa3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -560,6 +739,12 @@
 		(path "/d6559c01-f643-46ea-9fb2-e5b19a1b796a")
 		(sheetname "/")
 		(sheetfile "various.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
