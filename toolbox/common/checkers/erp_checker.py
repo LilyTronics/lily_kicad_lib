@@ -16,6 +16,7 @@ class ErpChecker:
             comp.get('Extends', None) is not None and
             not comp['Name'].startswith('mec_hole_') and
             not comp['Name'].startswith('mec_fiducial_') and
+            not comp['Name'].startswith('con_coax_') and
             not comp['Name'].startswith('test_point_')
         )
 
@@ -43,8 +44,7 @@ class ErpChecker:
         caller = f'({cls.__name__}._check_lib_to_erp)'
         # Check if library component is available in the ERP database
         for lib_comp in lib_components:
-            # Check for matching ERP component by ID on if there is an ID
-            if lib_comp['Lily_ID'] != 'NO_ID':
+            if 'Lily_ID' in lib_comp:
                 matches = [c for c in erp_components if c['default_code'] == lib_comp['Lily_ID'] ]
                 if len(matches) == 1:
                     # Found ERP component
