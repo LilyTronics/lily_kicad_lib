@@ -1,12 +1,12 @@
 (footprint "cap_elec_rad_35x52mm_th"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 5 0 0)
 		(layer "F.SilkS")
-		(uuid "c19428c6-11da-4ace-a0e8-49746d4e161f")
+		(uuid "7170da5c-ea21-4742-b5bc-4e587766b9c0")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -18,7 +18,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "edd79b6f-3cb9-4618-83e7-5404a9cab624")
+		(uuid "fe78c5fd-fafb-4315-b5f9-77fb2bb5b921")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -31,7 +31,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2bd36ab-4d3c-4137-86c3-55e9423b661e")
+		(uuid "6364c390-fcc8-401c-8970-127e2fde4242")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "db18eef4-d7d4-4486-9986-b8f4233b289e")
+		(uuid "e5a574ed-09fa-4a74-b0d0-b54259ff3362")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "07e876a7-1ebb-4b10-ac14-a2e0b1b3b932")
+		(uuid "b2518c34-60dd-4095-9036-e5c215ceea18")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -66,6 +66,7 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 5 0)
 		(end 22.7 0)
@@ -75,7 +76,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9582b47e-edd3-40d5-9e1f-de917cc3c49d")
+		(uuid "dccd569f-69c4-44f8-ba79-187ecaba6c89")
 	)
 	(fp_circle
 		(center 5 0)
@@ -86,12 +87,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "8fdf85a6-a1e8-4bfd-9979-983f62ebb911")
+		(uuid "0a4a2666-0a42-408a-b5d7-ff53024f6476")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 5 0 0)
 		(layer "F.Fab")
-		(uuid "d7d11d6d-ae22-4a72-bb53-dbb44c673afb")
+		(uuid "17a22215-92a1-4fcb-840c-57a0bce3857a")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -107,7 +108,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "5816c565-f345-4a7a-8396-14b2982819c2")
+		(uuid "117c1af1-fe2c-436c-83b8-c3927e3d17d1")
 	)
 	(pad "2" thru_hole circle
 		(at 10 0)
@@ -117,7 +118,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "47776bb0-1932-46c1-8f7a-ae6521a79333")
+		(thermal_bridge_angle 90)
+		(uuid "494a6a6a-233c-417f-92a0-c666e3e194f2")
 	)
 	(embedded_fonts no)
 	(model "../3d_models/cap_elec_rad_35x52mm_th.step"

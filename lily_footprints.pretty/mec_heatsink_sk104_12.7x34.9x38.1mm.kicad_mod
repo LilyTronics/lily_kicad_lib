@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8bf288d8-7fd5-4808-9dac-ca8f2983d3c6")
+		(uuid "749ce319-52fd-40c6-bfc4-4c635a33456a")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "617d61e5-593b-4ba0-b34e-47ef1f8f4a10")
+		(uuid "62f5b60a-24fe-4bf4-87d5-9a6adc454a7b")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "89d7dcbc-9d41-40f1-b125-f7f0524d3c38")
+		(uuid "28985428-66b4-4acb-becb-72dd6b0950aa")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "81d817f9-fd6e-4eb2-8b7b-b5a4be0387ee")
+		(uuid "74039b20-172a-4777-a9a5-9f092c67ffcb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "99514b28-6899-4cd1-8d73-04e954d86ec8")
+		(uuid "88283fe3-e211-409a-9592-985e462d6fc6")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -79,7 +79,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "97bbce75-f2b6-47bd-b672-4272496857da")
+		(uuid "f9d94d7d-1597-4914-83ca-e272048c2117")
 	)
 	(fp_poly
 		(pts
@@ -92,12 +92,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "80947c0a-9a1c-46df-8f63-5c32362eb970")
+		(uuid "66ccd920-c92f-4884-a02d-1d093ea394e9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "1902cd63-81cb-40fb-a447-41497b81f574")
+		(uuid "396732c9-c0a2-4d1c-9fe1-2bea889039e3")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -113,9 +113,9 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "c86eb9c9-32ab-49ca-88a8-8e7c9b1787ca")
+		(uuid "bbab2e03-3f56-496f-9965-55e6e9b73d48")
 	)
-	(pad "1" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 12.7 0)
 		(size 5 5)
 		(drill 3)
@@ -123,7 +123,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "6e66a881-db04-4fbb-8e7f-06c9ee7f22b5")
+		(uuid "bb187847-91c2-40a9-9a20-b6c0352e9ada")
 	)
 	(embedded_fonts no)
 	(model "../3d_models/mec_heatsink_sk104_12.7x34.9x38.1mm.step"

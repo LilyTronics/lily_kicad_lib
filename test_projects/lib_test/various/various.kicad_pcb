@@ -370,7 +370,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -484,7 +484,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -608,6 +608,12 @@
 		(path "/176d7244-4970-41b1-8c10-f592b4fb6d44")
 		(sheetname "/")
 		(sheetfile "various.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -669,7 +675,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "lily_footprints:fiducial_1mm_mask_2mm"
+	(footprint "lily_footprints:mec_fiducial_1mm_mask_2mm"
 		(layer "F.Cu")
 		(uuid "f5a090ee-c25c-4124-a5ec-0ae6babf8999")
 		(at 131 76)
@@ -745,7 +751,7 @@
 				(pins)
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)

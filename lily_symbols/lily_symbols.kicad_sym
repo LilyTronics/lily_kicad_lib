@@ -36869,7 +36869,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "M"
 			(at 0 2.54 0)
@@ -36965,7 +36965,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "mec_heatsink"
+	(symbol "mec_heatsink_2p_th"
 		(pin_numbers
 			(hide yes)
 		)
@@ -36988,7 +36988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "mec_heatsink"
+		(property "Value" "mec_heatsink_2p_th"
 			(at 3.81 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37033,7 +37033,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 5.08 -12.7 0)
+			(at 1.27 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -37043,7 +37043,7 @@
 				)
 			)
 		)
-		(symbol "mec_heatsink_0_1"
+		(symbol "mec_heatsink_2p_th_0_1"
 			(polyline
 				(pts
 					(xy 0 3.302) (xy 2.794 3.302)
@@ -37453,9 +37453,9 @@
 				)
 			)
 		)
-		(symbol "mec_heatsink_1_1"
+		(symbol "mec_heatsink_2p_th_1_1"
 			(pin no_connect line
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(length 0)
 				(hide yes)
 				(name ""
@@ -37466,6 +37466,25 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -2.54 0)
+				(length 0)
+				(hide yes)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -39424,7 +39443,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "TP"
 			(at 0 -7.62 0)
@@ -62416,7 +62435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lily_footprints:fiducial_1mm_mask_2mm"
+		(property "Footprint" "lily_footprints:mec_fiducial_1mm_mask_2mm"
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62463,7 +62482,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "mec_heatsink_sk104_12.7x34.9x38.1mm"
-		(extends "mec_heatsink")
+		(extends "mec_heatsink_2p_th")
 		(property "Reference" "M"
 			(at 3.81 1.27 0)
 			(show_name no)

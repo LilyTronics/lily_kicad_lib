@@ -49,9 +49,9 @@ class FootprintsChecker:
     }
     SKIP_PROPERTIES_FIELDS = ['Name', 'Attributes', 'Footprint', 'Model']
     NO_3D_MODEL = ['0_new_footprint', 'doc_idc_area_', 'doc_logo_', 'doc_pot_meter_scale_',
-                   'fiducial_', 'mec_hole_', 'mec_mouse_bytes', 'test_point_']
+                   'mec_fiducial_', 'mec_hole_', 'mec_mouse_bytes', 'test_point_']
     NO_IMAGE = ['0_new_footprint', 'con_coax_rg_174_cable_to_pcb_', 'con_spring_probe_pad', 'doc_',
-                'fiducial_', 'mec_hole', 'mec_mouse_bytes', 'test_point_']
+                'mec_fiducial_', 'mec_hole', 'mec_mouse_bytes', 'test_point_']
     # UTF-8 encoded value for the pin 1 mark (alt-<numeric 7>)
     PIN_1_MARK_VALUE = b'\xe2\x80\xa2'
 
@@ -165,7 +165,6 @@ class FootprintsChecker:
 
                 if field_name == 'Reference' and (
                     footprint_data['Name'].startswith('doc_') or
-                    footprint_data['Name'].startswith('fiducial_') or
                     footprint_data['Name'].startswith('mec_') or
                     footprint_data['Name'].startswith('test_point_')):
                     # For some footprints the reference is not visible
@@ -267,7 +266,7 @@ class FootprintsChecker:
         is_through_hole = 'through_hole' in footprint_data['Attributes']
         is_test_point = footprint_data['Name'].startswith('test_point_')
         is_mec_hole = footprint_data['Name'].startswith('mec_hole_')
-        is_fiducial = footprint_data['Name'].startswith('fiducial_')
+        is_fiducial = footprint_data['Name'].startswith('mec_fiducial_')
         is_mouse_bytes = footprint_data['Name'].startswith('mec_mouse_bytes')
         is_doc_footprint = footprint_data['Name'].startswith('doc_')
         is_spring_probe = footprint_data['Name'].startswith('con_spring_probe_')
@@ -282,7 +281,7 @@ class FootprintsChecker:
         # Not in position files
         attributes['exclude_from_pos_files'][0] = (
             is_through_hole or is_test_point or is_doc_footprint or is_footprint_only or
-            is_spring_probe
+            is_spring_probe or is_mec_hole or is_fiducial
         )
 
         # Not in BOM

@@ -22,7 +22,7 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "M"
 				(at 0 2.54 0)
@@ -46,7 +46,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lily_footprints:fiducial_1mm_mask_2mm"
+			(property "Footprint" "lily_footprints:mec_fiducial_1mm_mask_2mm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -221,7 +221,7 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "M"
 				(at 0 5.08 0)
@@ -332,7 +332,7 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 -7.62 0)
@@ -444,7 +444,7 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 -7.62 0)
@@ -621,7 +621,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "176d7244-4970-41b1-8c10-f592b4fb6d44")
 		(property "Reference" "M1001"
@@ -710,7 +710,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "499dd689-4b43-4a97-bd9a-87d9adfbd743")
 		(property "Reference" "TP1001"
@@ -884,7 +884,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d6559c01-f643-46ea-9fb2-e5b19a1b796a")
 		(property "Reference" "M1002"
@@ -909,7 +909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lily_footprints:fiducial_1mm_mask_2mm"
+		(property "Footprint" "lily_footprints:mec_fiducial_1mm_mask_2mm"
 			(at 25.4 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -970,7 +970,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "dda14448-8e60-4f3c-9096-88e2f0bb8adf")
 		(property "Reference" "TP1002"

@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 3.75 0 0)
 		(layer "F.SilkS")
-		(uuid "60c48a04-f484-4bb7-900f-b2aa88b98b02")
+		(uuid "fd86058e-7768-4174-af86-33330945985f")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -18,7 +18,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9f50f77b-1651-4cd3-af7c-764736019fae")
+		(uuid "6a392786-d420-40d3-839a-fab2f469f017")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -31,7 +31,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e4baee70-53d5-4790-baea-4d3c5d881134")
+		(uuid "b57c18d5-3fe6-426a-9afe-501bb477fb3b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b9f53644-ecdc-4a6e-9d00-cc2d48ef6c47")
+		(uuid "0c63c028-2cb2-49c2-91b1-c9e322ce188c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9b8aaa89-3ce3-47d1-91c7-95c1c196539d")
+		(uuid "4e4de85e-1e93-4cdb-b1c1-43c8d227a844")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -76,7 +76,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "558aa430-6f9e-4328-8219-4a844184c474")
+		(uuid "abf4c508-5f04-423e-b727-8d717c3fd5e1")
 	)
 	(fp_circle
 		(center 3.75 0)
@@ -87,12 +87,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "ba2b6b60-a06a-4e9b-80e3-af0bfede3818")
+		(uuid "62f38f6e-46f6-4ecf-8cb4-e82fb29c0ebf")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 3.75 0 0)
 		(layer "F.Fab")
-		(uuid "b4b7d8cf-daf1-4d0d-acef-de89b2795bee")
+		(uuid "d2efad1b-ea0e-4efe-a21c-d3528c193615")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -108,7 +108,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "e7088d45-051f-4092-bd2e-dc6256fcb346")
+		(thermal_bridge_angle 90)
+		(uuid "f7036693-63d9-4e24-a284-d33857326368")
 	)
 	(pad "2" thru_hole circle
 		(at 7.5 0)
@@ -118,7 +119,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "3b66b215-f1b4-4fd9-894d-3ad3469e5dd1")
+		(thermal_bridge_angle 90)
+		(uuid "aade808a-6b49-4ddd-9938-874ad1b1142a")
 	)
 	(embedded_fonts no)
 	(model "../3d_models/cap_elec_rad_16x32mm_th.step"
