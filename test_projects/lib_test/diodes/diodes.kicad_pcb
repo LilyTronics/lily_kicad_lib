@@ -1306,6 +1306,249 @@
 			)
 		)
 	)
+	(footprint "lily_footprints:led_plcc4_3.5x3.5mm"
+		(layer "F.Cu")
+		(uuid "1b5dcd1d-0408-473a-8163-bbf0379c11b3")
+		(at 151 92)
+		(property "Reference" "D1015"
+			(at 0 3 0)
+			(layer "F.SilkS")
+			(uuid "e66cd761-3463-44e5-b998-6f4caa63cff1")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Value" "WS2812B-MINI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cb6dda7-4fe1-4d81-86b3-038c0999fe85")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/worldsemi/WS2812B-mini-v3.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01b61bb9-fcce-495e-8fc3-6247679aa14e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42ac6abe-0652-4a98-8a54-f2e0e20ac9cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64fb50cd-430c-47a3-bf71-38f6999a3a5c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Pin_1_mark" "•"
+			(at -2.1 -1.9 0)
+			(layer "F.SilkS")
+			(uuid "011df8e9-9a03-40df-839a-21465cfbce37")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.16)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7336d98-92af-4bef-8af9-d242cbce68eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c212c1d-b6fc-43d0-8f37-89648e477438")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "WS2812B-MINI-V3/W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84370d3e-742a-44f2-9211-0a32f098ad49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Lily_ID" "1911-10015"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c2bf4ad-3c74-41a5-9989-b367f47d5b36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C527089"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55e474ed-e3c7-4443-9cdf-cbefae28240a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8d652332-9de0-40ea-80d2-d0eb5596c4d5")
+		(sheetname "/")
+		(sheetfile "diodes.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.95 -1.95)
+			(end 1.95 1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ff4499e8-48ed-445f-8ed8-3a22291b0604")
+		)
+		(fp_rect
+			(start -1.75 -1.75)
+			(end 1.75 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "de2aedd1-0763-4d83-9364-8b8e22a17f27")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e9cb316a-9a2f-47b0-9833-38bda52ba7b3")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.89)
+			(size 1.8 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(D1015-VDD-Pad1)")
+			(pinfunction "VDD_1")
+			(pintype "power_in")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "5c7f3b89-7035-426b-a461-2e5188497b79")
+		)
+		(pad "2" smd rect
+			(at -1.5 0.89)
+			(size 1.8 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(D1015-DO-Pad2)")
+			(pinfunction "DO_2")
+			(pintype "output")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "7bdd7cf7-86e0-4973-a32f-d99ff7b90365")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.89)
+			(size 1.8 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(D1015-GND-Pad3)")
+			(pinfunction "GND_3")
+			(pintype "power_in")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "6f1ba356-89b2-4988-ab0e-bea81ddc5406")
+		)
+		(pad "4" smd rect
+			(at 1.5 -0.89)
+			(size 1.8 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(D1015-DI-Pad4)")
+			(pinfunction "DI_4")
+			(pintype "input")
+			(solder_mask_margin 0.05)
+			(solder_paste_margin -0.05)
+			(uuid "d95455c1-b75c-4eca-adf7-a5b215c24ff7")
+		)
+		(embedded_fonts no)
+		(model "../3d_models/led_plcc4_3.5x3.5mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lily_footprints:sot23-6_sc74"
 		(layer "F.Cu")
 		(uuid "33057512-8eb9-482d-809b-67ed6ebfd766")
