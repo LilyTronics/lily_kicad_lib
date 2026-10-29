@@ -11386,6 +11386,236 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lily_symbols:con_jst_1x02_XH_2.50mm_straight_th"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1x02_XH"
+				(at -7.62 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:con_jst_1x02_xh_2.50mm_straight_th"
+				(at -5.08 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/XH_series.pdf"
+				(at -5.08 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Revision" "1"
+				(at -5.08 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" "Active"
+				(at -5.08 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at -5.08 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_ID" "B2B-XH-A"
+				(at -5.08 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Lily_ID" "1910-10032"
+				(at -5.08 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB_ID" "NO_ID"
+				(at -5.08 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "con_jst_1x02_XH_2.50mm_straight_th_0_1"
+				(rectangle
+					(start -6.35 1.27)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -4.318 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -4.318 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "con_jst_1x02_XH_2.50mm_straight_th_1_1"
+				(pin passive line
+					(at 0 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lily_symbols:con_jst_1x03_PH_2.00mm_right_angle_th"
 			(pin_names
 				(offset 1.016)
@@ -22085,7 +22315,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "00a0df2a-586a-477a-abb1-86b54f6f5dce")
-		(property "Reference" "X1023"
+		(property "Reference" "X1014"
 			(at 195.58 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22218,7 +22448,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1023")
+					(reference "X1014")
 					(unit 1)
 				)
 			)
@@ -22235,7 +22465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00b7b658-3fae-4e46-bd2e-a03254e72e01")
-		(property "Reference" "X1003"
+		(property "Reference" "X1015"
 			(at 17.78 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22368,7 +22598,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1003")
+					(reference "X1015")
 					(unit 1)
 				)
 			)
@@ -22385,7 +22615,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "075a81c5-4cc7-48d5-917b-09946f2387d9")
-		(property "Reference" "X1016"
+		(property "Reference" "X1007"
 			(at 106.68 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22527,7 +22757,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1016")
+					(reference "X1007")
 					(unit 1)
 				)
 			)
@@ -22544,7 +22774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "131b72b8-3b0c-4a1e-8426-1ed4b637dd4a")
-		(property "Reference" "X1014"
+		(property "Reference" "X1006"
 			(at 81.28 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22692,7 +22922,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1014")
+					(reference "X1006")
 					(unit 1)
 				)
 			)
@@ -22709,7 +22939,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "1e598f41-0dcc-432e-9d6c-93a022852ebe")
-		(property "Reference" "X1005"
+		(property "Reference" "X1002"
 			(at 30.48 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22839,7 +23069,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1005")
+					(reference "X1002")
 					(unit 1)
 				)
 			)
@@ -23012,7 +23242,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "30864449-fb5a-41d1-b738-69cf574de3b8")
-		(property "Reference" "X1033"
+		(property "Reference" "X1034"
 			(at 200.66 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23090,7 +23320,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1033")
+					(reference "X1034")
 					(unit 1)
 				)
 			)
@@ -23107,7 +23337,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "348015fd-eb2d-4705-831e-3e712f546697")
-		(property "Reference" "X1021"
+		(property "Reference" "X1010"
 			(at 144.78 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23276,7 +23506,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1021")
+					(reference "X1010")
 					(unit 1)
 				)
 			)
@@ -23293,7 +23523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36db67ec-1619-4f03-a4e6-40eb95319c27")
-		(property "Reference" "X1010"
+		(property "Reference" "X1021"
 			(at 43.18 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23429,7 +23659,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1010")
+					(reference "X1021")
 					(unit 1)
 				)
 			)
@@ -23446,7 +23676,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "49bc0abe-8bea-4715-82a1-cf9d6c891574")
-		(property "Reference" "X1001"
+		(property "Reference" "X1022"
 			(at 22.86 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23762,7 +23992,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1001")
+					(reference "X1022")
 					(unit 1)
 				)
 			)
@@ -23779,7 +24009,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4dde6a46-c609-4bcb-89ad-582c94915a01")
-		(property "Reference" "X1027"
+		(property "Reference" "X1031"
 			(at 228.6 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23924,7 +24154,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1027")
+					(reference "X1031")
 					(unit 1)
 				)
 			)
@@ -23941,7 +24171,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4fc06e0e-d6c2-4df8-b5b1-75b9213575ae")
-		(property "Reference" "X1008"
+		(property "Reference" "X1023"
 			(at 48.26 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24257,7 +24487,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1008")
+					(reference "X1023")
 					(unit 1)
 				)
 			)
@@ -24274,7 +24504,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "5396d0e1-2c16-4e20-ab62-53a36d9edcf1")
-		(property "Reference" "X1032"
+		(property "Reference" "X1033"
 			(at 256.54 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24401,7 +24631,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1032")
+					(reference "X1033")
 					(unit 1)
 				)
 			)
@@ -24418,7 +24648,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "55593e73-2998-45c3-a6a4-bbb58d8c0d8b")
-		(property "Reference" "X1004"
+		(property "Reference" "X1019"
 			(at 17.78 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24554,7 +24784,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1004")
+					(reference "X1019")
 					(unit 1)
 				)
 			)
@@ -24571,7 +24801,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "57ae343a-8022-4ead-8fbf-4ee052d546f6")
-		(property "Reference" "X1015"
+		(property "Reference" "X1026"
 			(at 111.76 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24830,7 +25060,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1015")
+					(reference "X1026")
 					(unit 1)
 				)
 			)
@@ -24847,7 +25077,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "5eabb2e0-af6d-4926-a86c-49e1dd56c9b5")
-		(property "Reference" "X1018"
+		(property "Reference" "X1008"
 			(at 119.38 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25001,7 +25231,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1018")
+					(reference "X1008")
 					(unit 1)
 				)
 			)
@@ -25018,7 +25248,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "5ff3f9ab-8def-4da6-b756-b1aa370b1327")
-		(property "Reference" "X1020"
+		(property "Reference" "X1009"
 			(at 132.08 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25160,7 +25390,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1020")
+					(reference "X1009")
 					(unit 1)
 				)
 			)
@@ -25177,7 +25407,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "70124149-1978-48ec-ac14-5822cbc4317f")
-		(property "Reference" "X1031"
+		(property "Reference" "X1011"
 			(at 167.64 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25307,7 +25537,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1031")
+					(reference "X1011")
 					(unit 1)
 				)
 			)
@@ -25324,7 +25554,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "71d9475c-7fb3-4b8d-aae4-67c2c2a634f8")
-		(property "Reference" "X1028"
+		(property "Reference" "X1032"
 			(at 256.54 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25411,7 +25641,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1028")
+					(reference "X1032")
 					(unit 1)
 				)
 			)
@@ -25428,7 +25658,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "71ef0511-1d1e-4aee-80cb-73b504fb9c0a")
-		(property "Reference" "X1019"
+		(property "Reference" "X1027"
 			(at 137.16 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25687,7 +25917,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1019")
+					(reference "X1027")
 					(unit 1)
 				)
 			)
@@ -25704,7 +25934,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "7913f005-99e3-4db8-8204-2f6577a86152")
-		(property "Reference" "X1024"
+		(property "Reference" "X1013"
 			(at 208.28 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25858,7 +26088,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1024")
+					(reference "X1013")
 					(unit 1)
 				)
 			)
@@ -25875,7 +26105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f0f9bf3-9ff9-45a2-9864-b1f1fd421274")
-		(property "Reference" "X1009"
+		(property "Reference" "X1003"
 			(at 43.18 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26005,7 +26235,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1009")
+					(reference "X1003")
 					(unit 1)
 				)
 			)
@@ -26022,7 +26252,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "8ab5298a-a77e-4f49-8daf-4689dccfd252")
-		(property "Reference" "X1017"
+		(property "Reference" "X1018"
 			(at 106.68 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26152,7 +26382,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1017")
+					(reference "X1018")
 					(unit 1)
 				)
 			)
@@ -26169,7 +26399,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "9b1409b3-fe5d-4a44-bf50-f151f30c6ef2")
-		(property "Reference" "X1029"
+		(property "Reference" "X1025"
 			(at 261.62 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26302,7 +26532,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1029")
+					(reference "X1025")
 					(unit 1)
 				)
 			)
@@ -26319,7 +26549,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "a3af7821-641f-43bf-badc-ab208c42e9fc")
-		(property "Reference" "X1006"
+		(property "Reference" "X1016"
 			(at 30.48 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26452,7 +26682,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1006")
+					(reference "X1016")
 					(unit 1)
 				)
 			)
@@ -26469,7 +26699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae89288e-64ac-4ff6-8a12-af081f6b38cb")
-		(property "Reference" "X1025"
+		(property "Reference" "X1028"
 			(at 199.39 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26644,7 +26874,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1025")
+					(reference "X1028")
 					(unit 1)
 				)
 			)
@@ -26661,7 +26891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c115f8a1-8425-42cc-97b4-93d4a37df892")
-		(property "Reference" "X1011"
+		(property "Reference" "X1004"
 			(at 55.88 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26803,7 +27033,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1011")
+					(reference "X1004")
 					(unit 1)
 				)
 			)
@@ -26820,7 +27050,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "c5cacc35-36c6-4eb5-834c-d2643990d956")
-		(property "Reference" "X1002"
+		(property "Reference" "X1001"
 			(at 17.78 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26950,7 +27180,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1002")
+					(reference "X1001")
 					(unit 1)
 				)
 			)
@@ -26967,7 +27197,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "c5d23b9c-cc9a-4f1c-8d5f-cbdc93a08bb1")
-		(property "Reference" "X1022"
+		(property "Reference" "X1012"
 			(at 195.58 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27097,7 +27327,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1022")
+					(reference "X1012")
 					(unit 1)
 				)
 			)
@@ -27114,7 +27344,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "c942d92b-48e0-4832-a979-89fae4933aa9")
-		(property "Reference" "X1012"
+		(property "Reference" "X1024"
 			(at 73.66 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27430,7 +27660,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1012")
+					(reference "X1024")
 					(unit 1)
 				)
 			)
@@ -27447,7 +27677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfb2f830-bc64-4fd9-8580-2d472d646347")
-		(property "Reference" "X1013"
+		(property "Reference" "X1005"
 			(at 68.58 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27592,7 +27822,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1013")
+					(reference "X1005")
 					(unit 1)
 				)
 			)
@@ -27609,7 +27839,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "d64a954f-b5da-4e3a-8ede-40e1393000a5")
-		(property "Reference" "X1026"
+		(property "Reference" "X1029"
 			(at 227.33 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27751,7 +27981,7 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1026")
+					(reference "X1029")
 					(unit 1)
 				)
 			)
@@ -27768,7 +27998,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "e98a4abc-027b-488c-b62d-f034ba1710e0")
-		(property "Reference" "X1007"
+		(property "Reference" "X1020"
 			(at 30.48 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27904,7 +28134,154 @@
 		(instances
 			(project "connectors"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1007")
+					(reference "X1020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:con_jst_1x02_XH_2.50mm_straight_th")
+		(at 50.8 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "fe263dae-1227-4b04-9f16-3ddb822833fa")
+		(property "Reference" "X1017"
+			(at 43.18 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1x02_XH"
+			(at 43.18 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:con_jst_1x02_xh_2.50mm_straight_th"
+			(at 45.72 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/XH_series.pdf"
+			(at 45.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 45.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 45.72 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 45.72 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "B2B-XH-A"
+			(at 45.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Lily_ID" "1910-10032"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 45.72 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b24c1c1-5f0c-44c7-9f71-fab0f006e3ed")
+		)
+		(pin "1"
+			(uuid "a1588177-096d-48f3-898d-828e6f905184")
+		)
+		(instances
+			(project "connectors"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "X1017")
 					(unit 1)
 				)
 			)
