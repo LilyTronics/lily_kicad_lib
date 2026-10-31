@@ -44,6 +44,7 @@ class ProductCategories:
         Category( 'potmeters',              '1919-1xxxx', ( 'pot_', )                    ),
         Category( 'switches',               '1920-1xxxx', ( 'switch_', )                 ),
         Category( 'transformers',           '1921-1xxxx', ( 'transformer_', )            ),
+        Category( 'displays',               '1922-1xxxx', ( 'disp_', 'display_' )        ),
         Category( 'heatsinks',              '1718-1xxxx', ( 'mec_heatsink_', )           ),
         Category( 'PCB',                    '2910-1xxyy', ()                             ),
         Category( 'PCA',                    '2920-1xxyy', ()                             )
