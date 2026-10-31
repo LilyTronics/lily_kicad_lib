@@ -23,6 +23,8 @@ class SymbolsChecker:
         'con':          'X',
         'crystal':      'X',
         'dio':          'D',
+        'disp':         'X',
+        'display':      'X',
         'doc':          'DOC',
         'Earth':        '#PWR',
         'fuse':         'F',
@@ -177,6 +179,8 @@ class SymbolsChecker:
             value = 'test_point'
         if '/' in value:
             value = value.replace('/', '_')
+        if ' assy' in value:
+            value = value.replace(' assy', '_assy')
 
         if value not in symbol_data['Name'].lower():
             report_messages.append({
