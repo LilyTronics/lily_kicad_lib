@@ -39875,7 +39875,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 8.89 -10.16 0)
+			(at 8.89 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -39994,6 +39994,14 @@
 					(type none)
 				)
 			)
+			(text "SHIELD"
+				(at 8.89 -6.858 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
 			(pin passive line
 				(at 0 0 0)
 				(length 3.81)
@@ -40077,6 +40085,42 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -10.16 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -10.16 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58336,7 +58380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:oled_midas_MDOB127064BV-YS_assy"
+		(property "Footprint" "lily_footprints:oled_midas_mdob127064bv-ys_assy"
 			(at 15.24 -25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86541,8 +86585,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 5.08 -12.7 0)
+		(property "Footprint" "lily_footprints:switch_encoder_pec12r_4225f"
+			(at 8.89 -22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -86552,8 +86596,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at -5.08 -2.54 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/bourns/PEC12R_series.pdf"
+			(at 8.89 -35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -86575,28 +86619,6 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 8.89 -10.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" "Active"
-			(at 8.89 -12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
 			(at 8.89 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86607,7 +86629,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_ID" "PEC12R-4225F-S0024"
+		(property "Status" "Active"
 			(at 8.89 -20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86618,8 +86640,30 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Bourns"
+			(at 8.89 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "PEC12R-4225F-S0024"
+			(at 8.89 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Lily_ID" "NO_ID"
-			(at 8.89 -22.86 0)
+			(at 8.89 -30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -86630,7 +86674,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "NO_ID"
-			(at 8.89 -25.4 0)
+			(at 8.89 -33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
