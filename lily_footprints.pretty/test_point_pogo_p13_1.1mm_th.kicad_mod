@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e0d0f4ef-dc47-4ec7-abc6-895c4ce917e4")
+		(uuid "34deb33b-cdfc-4ee3-ae50-e9b0a95ffa1c")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d1b44f81-1043-406e-bb10-e84edad92795")
+		(uuid "e814ffa3-8749-4856-ad69-95ac239a04b0")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "83fbd8b5-56f8-4cd1-a344-e522d824bc5c")
+		(uuid "e9709699-57ad-4245-8862-0593c2c6bff2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0b299320-97f9-4e86-add8-9b234f37f72b")
+		(uuid "5baa2924-ccfe-4193-a7e3-90e5b5dac016")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "63975da4-bc1c-42d8-b803-1e4bafcd56ee")
+		(uuid "ae022b0f-ec29-4979-a7c3-d12e41dbe091")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -75,17 +75,17 @@
 		(end 0.8 0)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "F.CrtYd")
-		(uuid "646433bb-7a9a-43c5-a817-b35b7eb9496d")
+		(layer "B.CrtYd")
+		(uuid "3ce8c5bd-cb60-49ba-83d0-66866e26d5cf")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9834957d-173b-4667-881d-a302d43c20b1")
+		(uuid "73dfd1ea-46d6-4e2b-969d-a1b72d115f48")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -96,14 +96,14 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 1.1 1.1)
+		(size 0.7 0.7)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1)
 		(zone_connect 2)
 		(thermal_bridge_angle 90)
-		(uuid "b9f6a8a8-23cd-44c4-beb8-2910581f93ba")
+		(uuid "5c8d9aa3-b037-4a4a-a985-a4b20a461575")
 		(padstack
 			(mode front_inner_back)
 			(layer "Inner"
@@ -113,7 +113,7 @@
 			)
 			(layer "B.Cu"
 				(shape circle)
-				(size 0.7 0.7)
+				(size 1.1 1.1)
 				(zone_connect -1)
 			)
 		)
