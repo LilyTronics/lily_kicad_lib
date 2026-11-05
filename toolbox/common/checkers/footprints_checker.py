@@ -49,9 +49,9 @@ class FootprintsChecker:
     }
     SKIP_PROPERTIES_FIELDS = ['Name', 'Attributes', 'Footprint', 'Model']
     NO_3D_MODEL = ['0_new_footprint', 'doc_idc_area_', 'doc_logo_', 'doc_pot_meter_scale_',
-                   'mec_fiducial_', 'mec_hole_', 'mec_mouse_bytes', 'test_point_']
+                   'mec_fiducial_', 'mec_hole_', 'mec_mouse_bites_', 'test_point_']
     NO_IMAGE = ['0_new_footprint', 'con_coax_rg_174_cable_to_pcb_', 'con_spring_probe_pad', 'doc_',
-                'mec_fiducial_', 'mec_hole', 'mec_mouse_bytes', 'test_point_']
+                'mec_fiducial_', 'mec_hole_', 'mec_mouse_bites_', 'test_point_']
     # UTF-8 encoded value for the pin 1 mark (alt-<numeric 7>)
     PIN_1_MARK_VALUE = b'\xe2\x80\xa2'
 
@@ -164,15 +164,18 @@ class FootprintsChecker:
                         footprint_props['Thickness'] = expected_props['Thickness']
 
                 if field_name == 'Reference' and (
-                    footprint_data['Name'].startswith('doc_') or
-                    footprint_data['Name'].startswith('mec_') or
-                    footprint_data['Name'].startswith('test_point_')):
+                        footprint_data['Name'].startswith('doc_') or
+                        footprint_data['Name'].startswith('mec_') or
+                        footprint_data['Name'].startswith('test_point_')
+                    ):
                     # For some footprints the reference is not visible
                     expected_props['Visible'] = False
 
                 if field_name == 'Value' and (
-                    footprint_data['Name'].startswith('test_point_') or
-                    footprint_data['Name'].startswith('switch_')):
+                        footprint_data['Name'].startswith('pogo_pin_') or
+                        footprint_data['Name'].startswith('test_point_') or
+                        footprint_data['Name'].startswith('switch_')
+                    ):
                     # For some footprints the value has the same properties as reference
                     expected_props = copy.deepcopy(cls.FIELD_PROPERTIES['Reference'])
 
@@ -267,7 +270,7 @@ class FootprintsChecker:
         is_test_point = footprint_data['Name'].startswith('test_point_')
         is_mec_hole = footprint_data['Name'].startswith('mec_hole_')
         is_fiducial = footprint_data['Name'].startswith('mec_fiducial_')
-        is_mouse_bytes = footprint_data['Name'].startswith('mec_mouse_bytes')
+        is_mouse_bites = footprint_data['Name'].startswith('mec_mouse_bites_')
         is_doc_footprint = footprint_data['Name'].startswith('doc_')
         is_spring_probe = footprint_data['Name'].startswith('con_spring_probe_')
         is_footprint_only = (
@@ -276,7 +279,7 @@ class FootprintsChecker:
         )
 
         # Not in schematics
-        attributes['board_only'][0] = is_mouse_bytes
+        attributes['board_only'][0] = is_mouse_bites
 
         # Not in position files
         attributes['exclude_from_pos_files'][0] = (
@@ -286,12 +289,12 @@ class FootprintsChecker:
 
         # Not in BOM
         attributes['exclude_from_bom'][0] = (
-            is_test_point or is_mec_hole or is_fiducial or is_mouse_bytes or
+            is_test_point or is_mec_hole or is_fiducial or is_mouse_bites or
             is_doc_footprint or is_footprint_only
         )
 
         # Excempt from courtyard requirement
-        attributes['allow_missing_courtyard'][0] = is_doc_footprint
+        attributes['allow_missing_courtyard'][0] = is_doc_footprint or is_mouse_bites
 
         # Do not populate, no footprints using this attribute
 

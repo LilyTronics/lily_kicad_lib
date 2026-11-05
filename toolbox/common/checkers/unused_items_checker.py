@@ -15,7 +15,7 @@ class UnusedItemsChecker:
 
     _SKIP_SYMBOLS_UNUSED = ['0_new_symbol', 'Earth', 'GND', 'Vxx', 'con_TC2030-IDC_lock',
                             'doc_logo_', 'doc_pot_meter_scale_']
-    _SKIP_FOOTPRINTS_UNUSED = ['0_new_footprint', 'mec_mouse_bytes']
+    _SKIP_FOOTPRINTS_UNUSED = ('0_new_footprint', 'mec_mouse_bites_')
 
     @classmethod
     def run(cls):
@@ -70,7 +70,8 @@ class UnusedItemsChecker:
     @classmethod
     def _check_unused_footprints(cls, symbols, footprints, report_messages):
         caller = f'({cls.__name__}._check_unused_footprints)'
-        for footprint in filter(lambda f: f['Name'] not in cls._SKIP_FOOTPRINTS_UNUSED, footprints):
+        for footprint in filter(lambda f: not f['Name'].startswith(cls._SKIP_FOOTPRINTS_UNUSED),
+                                footprints):
             matches = list(filter(
                 lambda x: x['Footprint'] == f'lily_footprints:{footprint['Name']}', symbols
             ))

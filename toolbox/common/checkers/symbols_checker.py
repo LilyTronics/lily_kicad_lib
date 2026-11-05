@@ -35,6 +35,7 @@ class SymbolsChecker:
         'logo':         'DOC',
         'mec':          'M',
         'mosfet':       'Q',
+        'pogo_pin':     'X',
         'pot':          'P',
         'pptc':         'F',
         'relay':        'K',
