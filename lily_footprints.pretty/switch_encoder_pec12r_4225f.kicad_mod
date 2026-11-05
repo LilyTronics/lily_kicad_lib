@@ -4,9 +4,9 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 2.5 1.7 0)
+		(at 2.5 1.8 0)
 		(layer "F.SilkS")
-		(uuid "3373b53e-9bbe-43da-8138-a70d281bda61")
+		(uuid "039b60a8-201c-4857-a096-6cb90719834c")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -15,14 +15,13 @@
 		)
 	)
 	(property "Value" "switch_encoder_pec12r_4225f"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e980765d-5dff-4c62-8ce1-e52ac820dc61")
+		(at 2.5 3.4 0)
+		(layer "F.SilkS")
+		(uuid "7020f6c7-9dc3-452c-97da-2a318e33cdcf")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 0.8 0.8)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -31,7 +30,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "01e51a31-8e53-4e49-9000-a66d03b3ae6d")
+		(uuid "22aacd24-dafa-4ff4-83ff-adf9284ad8af")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +43,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "db50592c-60dc-4ce3-9e44-5337fdf65f9f")
+		(uuid "ab9a28ad-e173-4a58-9c6d-3a5df0cf40b0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3635e7db-3833-4c08-beee-17a0d8ff2e98")
+		(uuid "d80de453-5c91-43f6-a657-6db7b6078053")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -68,7 +67,7 @@
 	(property "Pin_1_mark" "•"
 		(at 0 1.2 0)
 		(layer "F.SilkS")
-		(uuid "206d1a53-2bfc-40cf-8900-a776348c12bf")
+		(uuid "e2356ef1-e68c-4ccd-b426-096d1bf71169")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -87,7 +86,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cd4385dc-3310-4e50-ae38-48935e2b55d3")
+		(uuid "05eaf8d2-684d-4852-8269-bdbbd10b67e6")
 	)
 	(fp_rect
 		(start -3.7 -14.2)
@@ -98,7 +97,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "8683cc73-b5c1-4198-a688-5918ac324167")
+		(uuid "b00d1e6e-82c7-47c5-a747-93550125f127")
 	)
 	(fp_circle
 		(center 2.5 -7.5)
@@ -109,7 +108,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b2fc9aab-5ae4-4b0b-9581-ead4bb5e090a")
+		(uuid "922a8e57-f1ec-4517-bc8c-556c573865f7")
 	)
 	(fp_circle
 		(center 2.5 -7.5)
@@ -120,12 +119,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "00e82402-596a-4588-acb3-4c416ebb1ff1")
+		(uuid "3bc358e1-1e14-44cb-a64a-9f17328842e3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.5 -7.5 0)
 		(layer "F.Fab")
-		(uuid "5c037564-b162-478b-9342-d7ed2d6fdb76")
+		(uuid "35f6f066-2fc6-4fab-8185-272c45df6d8a")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -141,7 +140,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "07cf9659-07e7-4e39-b0e6-2eec3e4f76ce")
+		(uuid "778d7a59-9480-4381-866a-edff330327f5")
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 0)
@@ -151,7 +150,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "b96ec0d8-964c-48af-9440-97be6c935cad")
+		(uuid "d2a1c478-575b-4e20-948b-dcc6df5b8d1f")
 	)
 	(pad "3" thru_hole circle
 		(at 5 0)
@@ -161,7 +160,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "2a1b86f9-02ec-4e5a-8622-867e6c93cc58")
+		(uuid "904537ec-d96a-44da-b8ff-3bec2afb77c3")
 	)
 	(pad "4" thru_hole circle
 		(at 0 -14.5)
@@ -171,7 +170,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "2c75e06c-07ae-4327-b738-019afe1022d3")
+		(uuid "84cc9312-ed72-48a5-93f8-add21fd88535")
 	)
 	(pad "5" thru_hole circle
 		(at 5 -14.5)
@@ -181,7 +180,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "1f23b8df-d202-47e2-aa65-e5db1da9c80e")
+		(uuid "fe93ea6b-1b60-4e98-8673-4968b6add3d9")
 	)
 	(pad "6" thru_hole oval
 		(at -3.5 -7.5)
@@ -191,7 +190,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "c4e491ab-5edd-4914-ad31-fefaa8c44e3d")
+		(uuid "20cad475-c9d5-43d8-9864-80ea8c5b6714")
 	)
 	(pad "7" thru_hole oval
 		(at 8.5 -7.5)
@@ -201,7 +200,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "2d6be002-ede7-4eab-b1e0-ecc4a5446689")
+		(uuid "3c084802-908f-4bd3-a251-04515c0d22a4")
 	)
 	(embedded_fonts no)
 	(model "../3d_models/switch_encoder_pec12r_4225f.step"
