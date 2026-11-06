@@ -32,7 +32,7 @@ class ProductCategories:
     ]
 
     _PRODUCT_CATEGORIES = [
-        Category( 'connectors',             '1910-1xxxx', ( 'con_', )                    ),
+        Category( 'connectors',             '1910-1xxxx', ( 'con_', 'pogo_pin_')         ),
         Category( 'diodes',                 '1911-1xxxx', ( 'dio_', )                    ),
         Category( 'capacitors',             '1912-value', ( 'cap_', ), _CAPACITOR_SERIES ),
         Category( 'resistors',              '1913-value', ( 'res_', ), _RESISTOR_SERIES  ),
@@ -46,6 +46,7 @@ class ProductCategories:
         Category( 'transformers',           '1921-1xxxx', ( 'transformer_', )            ),
         Category( 'displays',               '1922-1xxxx', ( 'disp_', 'display_' )        ),
         Category( 'heatsinks',              '1718-1xxxx', ( 'mec_heatsink_', )           ),
+        Category( 'guide pins',             '1719-1xxxx', ( 'mec_guide_pin_', )          ),
         Category( 'PCB',                    '2910-1xxyy', ()                             ),
         Category( 'PCA',                    '2920-1xxyy', ()                             )
     ]
