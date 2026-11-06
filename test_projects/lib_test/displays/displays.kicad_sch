@@ -1,0 +1,487 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "Displays")
+		(date "2026-11-06")
+		(rev "1")
+		(comment 1 "-")
+		(comment 2 "-")
+	)
+	(lib_symbols
+		(symbol "lily_symbols:disp_oled_MDOB127064BV-YS_assy"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at 3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MDOB127064BV-YS assy"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lily_footprints:oled_midas_mdob127064bv-ys_assy"
+				(at 15.24 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/midas/MDOB128064BV-YS.pdf"
+				(at 15.24 -38.1 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Revision" "1"
+				(at 15.24 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" "Active"
+				(at 15.24 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Midas"
+				(at 15.24 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_ID" "MDOB127064BV-YS"
+				(at 15.24 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Lily_ID" "1922-10001"
+				(at 15.24 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB_ID" "NO_ID"
+				(at 15.24 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "disp_oled_MDOB127064BV-YS_assy_0_1"
+				(rectangle
+					(start 8.89 1.27)
+					(end 26.67 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "disp_oled_MDOB127064BV-YS_assy_1_1"
+				(rectangle
+					(start 3.81 2.54)
+					(end 27.94 -17.78)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 3.81)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 3.81)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 3.81)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 3.81)
+					(name "D/~{C}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 3.81)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:disp_oled_MDOB127064BV-YS_assy")
+		(at 25.4 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3a071451-baa6-4099-8598-9f5b94906a76")
+		(property "Reference" "X1"
+			(at 29.21 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MDOB127064BV-YS assy"
+			(at 29.21 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:oled_midas_mdob127064bv-ys_assy"
+			(at 40.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/midas/MDOB128064BV-YS.pdf"
+			(at 40.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 40.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 40.64 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Midas"
+			(at 40.64 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "MDOB127064BV-YS"
+			(at 40.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Lily_ID" "1922-10001"
+			(at 40.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "NO_ID"
+			(at 40.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "29183063-e69a-4716-9f3e-44c878e1844b")
+		)
+		(pin "6"
+			(uuid "d9a74cfe-46cf-4e23-958c-5ebdc63f7e5c")
+		)
+		(pin "1"
+			(uuid "951c8f8a-f9d7-4d15-a398-29d4cdd0b258")
+		)
+		(pin "3"
+			(uuid "0d4cb392-4fef-4262-b2c4-b75bdffa52ba")
+		)
+		(pin "7"
+			(uuid "c8ff0d5a-8624-46c8-8497-0a144d66b5ad")
+		)
+		(pin "4"
+			(uuid "6e09432a-fcdc-420a-b44b-b78b4c934a48")
+		)
+		(pin "2"
+			(uuid "66c49a55-2165-4bd8-8e79-34cd4309b6a7")
+		)
+		(instances
+			(project "displays"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "lilytronics_page_layout_sch.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBxDB0XADZfYiDwWDfQMcnOQmlDrICnrVAC1V/+o+vtnvuQumgGPnRYaFkAVQBZAB9+0LNI
+				/Bc3I/E/nptnS3w9+RNpvuOhofY15ec51+T4hoZ6tfTUHf/kXwAAAoIR6X2cl7U01uW4JhxZMov/
+				ZcfuMdjuxuikEot3zF4qAAKCMWTScD7whgoBOUNlf+ygRHXujyRQpbIxBYpWObEN3WzobKwAeCx2
+				WlYqR3H0J/e4ttqSf/LffJ1YpXLWCNcij4+oUwbxpfI/H3nmYM+Oswh+OOXn70frQbdwbUkXBTe7
+				4+vBnQQ97Loz2RQL8TWCF4v5UeENE2IHX0TWtL2ue1yyplZaO7u9SSeRUBgZQqKYdBGIw8rNrrqI
+				B/FUhGx794+Vmqal7mXTNiszrXL+X4POljWrOcsBAYFB02hPKJALJNNZKuVKbtnoRjXNdp6ioekw
+				lwuEzs4Gh9WgWrqKojJ7tqS25YMOEvNGJ/XwOixCMW32jYiE5YJR2Ti5aV0vTTscuHH0/6kX3SRW
+				vYi9aJZ5cICkoLFgptzIUFBQkGQYA8BEpMQqHZoxAUuGn45uF4HjNx7AKkYT+RxFAq9bwMbDoSEA
+				WKFnPifYOaUM+mRk9iFiAYWQMs+MgXwfwPxkRq5KkdEeQQnfjJyyr3lpllUwd0b1gGMndVDCymNh
+				bPUulTy2JI1mkJ8WCMPWnEFSRZpPlRm0yZfZaHMxtAAY+skRQ34urRsX1LADAvI6EaOj+Y+Y4CJB
+				+bckCcqT2mWE8HkT0L6oFwJLND6vgpDPXOLvZ/V6IY83udLCufUggIH5cY+M/UTCgn8Nj0na94Ci
+				RE01nQGxvXDRkSMcfW01DytlWl5/qkJGqzBYeZkI2jnQGZyp3V6S46wCji5p2mKFPIaxt//k9mdY
+				QB568o+GA84yp/+BAcpAle/IEGQgE3rzcKKA7/CSw4pP0ts2I5sFGcx0Lpg306tZy9yHufQhxk3c
+				WUZ6QI3BqQI=|
+			)
+			(checksum "AA99E32D76E6281768E23AD2759012E5")
+		)
+	)
+)
