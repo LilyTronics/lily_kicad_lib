@@ -79,6 +79,8 @@ const generic_symbols = [
     { Name: 'con_1x08', Extends: '', Reference: 'X', Value: 'con_1x08', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'con_1x10_th', Extends: '', Reference: 'X', Value: 'con_1x10_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'con_1x15_th', Extends: '', Reference: 'X', Value: 'con_1x15_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'con_2x25_th', Extends: '', Reference: 'X', Value: 'con_2x25_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
+    { Name: 'con_2x50_th', Extends: '', Reference: 'X', Value: 'con_2x50_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'con_64p_a+c_th', Extends: '', Reference: 'X', Value: 'con_64p_a+c_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
     { Name: 'con_TC2030-IDC_lock', Extends: '', Reference: 'X', Value: 'TC2030-IDC', Description: '', Footprint: 'lily_footprints:con_tc2030_idc_lock', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/tag_connect/TC2030-IDC_lock.pdf' },
     { Name: 'con_coax_5p_th', Extends: '', Reference: 'X', Value: 'con_coax_5p_th', Description: '', Footprint: '', Revision: '1', Manufacturer: '', Manufacturer_ID: '', Datasheet: '' },
@@ -263,6 +265,7 @@ const parts = [
     { Name: 'con_header_1x06_2.54mm_th', Extends: 'con_1x06_th', Reference: 'X', Value: '1x06', Description: '', Footprint: 'lily_footprints:con_header_1x06_2.54mm_th', Revision: '1', Manufacturer: 'Multicomp', Manufacturer_ID: '2213S-06G', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/2213S-06G.pdf' },
     { Name: 'con_header_1x10_2.54mm_th', Extends: 'con_1x10_th', Reference: 'X', Value: '1x10', Description: '', Footprint: 'lily_footprints:con_header_1x10_2.54mm_th', Revision: '1', Manufacturer: 'Multicomp', Manufacturer_ID: '2211S-10G', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/2211S-MC347.pdf' },
     { Name: 'con_header_2x03_2.54mm_th', Extends: 'con_1x06_th', Reference: 'X', Value: '2x03', Description: '', Footprint: 'lily_footprints:con_header_2x03_2.54mm_th', Revision: '1', Manufacturer: 'Multicomp', Manufacturer_ID: '2213S-06G', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/2213S-06G.pdf' },
+    { Name: 'con_header_2x25_1.27mm_EHF_th', Extends: 'con_2x25_th', Reference: 'X', Value: 'EHF', Description: '', Footprint: 'lily_footprints:con_header_2x25_ehf_th', Revision: '1', Manufacturer: 'Samtec', Manufacturer_ID: 'EHF-125-01-L-D', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/samtec/ehf-1xx-01-x-d-xx-xx-xx-x-xx-mkt.pdf' },
     { Name: 'con_jst_1x02_PH_2.00mm_right_angle_th', Extends: 'con_1x02_th', Reference: 'X', Value: '1x02_PH', Description: '', Footprint: 'lily_footprints:con_jst_1x02_ph_2.00mm_right_angle_th', Revision: '1', Manufacturer: 'JST', Manufacturer_ID: 'S2B-PH-K-S', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/PH_series.pdf' },
     { Name: 'con_jst_1x02_PH_2.00mm_straight_smd', Extends: 'con_1x02', Reference: 'X', Value: '1x02_PH', Description: '', Footprint: 'lily_footprints:con_jst_1x02_ph_2.00mm_straight_smd', Revision: '1', Manufacturer: 'JST', Manufacturer_ID: 'B2B-PH-SM4-TB', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/PH_series.pdf' },
     { Name: 'con_jst_1x02_VH_3.96mm_right_angle_th', Extends: 'con_1x02_th', Reference: 'X', Value: '1x02_VH', Description: '', Footprint: 'lily_footprints:con_jst_1x02_vh_3.96mm_right_angle_th', Revision: '1', Manufacturer: 'JST', Manufacturer_ID: 'B2PS-VH', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/jst/VH_series.pdf' },
@@ -278,6 +281,7 @@ const parts = [
     { Name: 'con_jumper_1x02_2.54mm_th', Extends: 'con_jumper_1x02_th', Reference: 'X', Value: '1x02', Description: '', Footprint: 'lily_footprints:con_header_1x02_2.54mm_th', Revision: '1', Manufacturer: 'Multicomp', Manufacturer_ID: '2211S-02G', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/multicomp/2211S-MC347.pdf' },
     { Name: 'con_rf_sma_right_angle_th', Extends: 'con_coax_5p_th', Reference: 'X', Value: 'SMA', Description: '', Footprint: 'lily_footprints:con_rf_sma_right_angle_th', Revision: '1', Manufacturer: 'TE Connectivity', Manufacturer_ID: '5-1814400-2', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/te_connectivity/5-1814400-x.pdf' },
     { Name: 'con_socket_1x15_2.54mm_straight_th', Extends: 'con_1x15_th', Reference: 'X', Value: '1x15', Description: '', Footprint: 'lily_footprints:con_socket_1x15_2.54mm_straight_th', Revision: '1', Manufacturer: 'Econ Connect', Manufacturer_ID: 'BLG1X15', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/econ_connect/BLG1X15.pdf' },
+    { Name: 'con_socket_2x50_1.27mm_sfm_th', Extends: 'con_2x50_th', Reference: 'X', Value: 'SFM', Description: '', Footprint: 'lily_footprints:con_socket_2x50_sfm_th', Revision: '1', Manufacturer: 'Samtec', Manufacturer_ID: 'SFM-150-01-L-D-A', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/samtec/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf' },
     { Name: 'con_spring_probe_P13-0123_pcb_pad', Extends: 'con_spring_probe', Reference: 'X', Value: 'P13-0123', Description: '', Footprint: 'lily_footprints:con_spring_probe_p13-0123_pcb_pad', Revision: '1', Manufacturer: 'Harwin', Manufacturer_ID: 'P13-0123', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/harwin/spring_probe_P13-XX23.pdf' },
     { Name: 'con_sub_d_hd_plug_44p_th', Extends: 'con_sub_d_hd_44p_th', Reference: 'X', Value: 'sub_d_hd_plug', Description: '', Footprint: 'lily_footprints:con_sub_d_hd_plug_44p_right_angle_th', Revision: '1', Manufacturer: 'Amphenol CS', Manufacturer_ID: 'L717HDB44PD1CH4F', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/amphenol_cs/dsub_highdensity.pdf' },
     { Name: 'con_sub_d_hd_receptacle_44p_th', Extends: 'con_sub_d_hd_44p_th', Reference: 'X', Value: 'sub_d_hd_receptacle', Description: '', Footprint: 'lily_footprints:con_sub_d_hd_receptacle_44p_right_angle_th', Revision: '1', Manufacturer: 'Amphenol CS', Manufacturer_ID: 'L77HDB44SD1CH4F', Datasheet: 'https://lilytronics.github.io/lily_kicad_lib/datasheets/amphenol_cs/dsub_highdensity.pdf' },
@@ -767,8 +771,8 @@ function escapeHtml(unsafe)
 <h1 id="top">Lily KiCad library</h1>
 
 <div class="section">
-<p>Last updated: 2026-11-09 21:22</p>
-<p>Total symbols: 493</p>
+<p>Last updated: 2026-11-10 19:40</p>
+<p>Total symbols: 497</p>
 <p>Total footprints: 116</p>
 </div>
 
