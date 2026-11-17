@@ -30,8 +30,7 @@ Do you have a request for a component? Submit a request using the [issue tracker
 Please specify a specific manufacturer, manufacturer part ID if possible.
 
 [![Generate report](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/generate_report.yml/badge.svg)](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/generate_report.yml)
-[![pages-build-deployment](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/pages/pages-build-deployment)
-
+[![Deploy static content to Pages](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/deploy_pages.yml/badge.svg)](https://github.com/LilyTronics/lily_kicad_lib/actions/workflows/deploy_pages.yml)
 
 ## Setup
 
