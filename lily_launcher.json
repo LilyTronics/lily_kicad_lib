@@ -1,0 +1,43 @@
+{
+	"Development projects": {
+		"name": "Lily KiCad Library",
+		"icon": "folder.png",
+		"items": [
+			{
+				"name": "Project folder",
+				"icon": "folder.png",
+				"command": "C:\\Workspace\\git_projects\\lily_kicad_lib"
+			},
+			{
+				"name": "Datasheets",
+				"icon": "Folder.png",
+				"command": "list_files:C:\\Workspace\\git_projects\\lily_kicad_lib\\docs\\datasheets"
+			},
+			{
+				"name": "3D Models",
+				"icon": "Folder.png",
+				"command": "list_files:C:\\Workspace\\git_projects\\lily_kicad_lib\\3d_models"
+			},
+			{
+				"name": "Test Projects",
+				"icon": "kicad.png",
+				"command": "list_files:C:\\Workspace\\git_projects\\lily_kicad_lib\\test_projects;*.kicad_pro"
+			},
+			{
+				"name": "Templates",
+				"icon": "folder.png",
+				"command": "list_files:C:\\Workspace\\git_projects\\lily_kicad_lib\\lily_templates"
+			},
+			{
+				"name": "Design blocks",
+				"icon": "folder.png",
+				"command": "list_files:C:\\Workspace\\git_projects\\lily_kicad_lib\\lily_design_blocks.kicad_blocks"
+			},
+			{
+				"name": "Code",
+				"icon": "code.png",
+				"command": "C:\\Workspace\\git_projects\\lily_kicad_lib\\lily_kicad_lib.code-workspace"
+			}
+		]
+	}
+}
