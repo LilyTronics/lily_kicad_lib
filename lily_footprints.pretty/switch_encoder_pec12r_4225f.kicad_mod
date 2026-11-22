@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 2.5 1.8 0)
 		(layer "F.SilkS")
-		(uuid "039b60a8-201c-4857-a096-6cb90719834c")
+		(uuid "60bb9425-68f1-4fee-997f-06b64d9e9963")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -17,7 +17,7 @@
 	(property "Value" "switch_encoder_pec12r_4225f"
 		(at 2.5 3.4 0)
 		(layer "F.SilkS")
-		(uuid "7020f6c7-9dc3-452c-97da-2a318e33cdcf")
+		(uuid "26d059c1-10e0-46b0-8392-d8259ac5c8e2")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -30,7 +30,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "22aacd24-dafa-4ff4-83ff-adf9284ad8af")
+		(uuid "5b3bbf0d-7301-4437-99b6-ec9164898de8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ab9a28ad-e173-4a58-9c6d-3a5df0cf40b0")
+		(uuid "77bdaaf0-a00a-4a27-ab02-200c52ea1b27")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d80de453-5c91-43f6-a657-6db7b6078053")
+		(uuid "4a696c18-ee07-48b2-b68f-c466f032efb6")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -67,7 +67,7 @@
 	(property "Pin_1_mark" "•"
 		(at 0 1.2 0)
 		(layer "F.SilkS")
-		(uuid "e2356ef1-e68c-4ccd-b426-096d1bf71169")
+		(uuid "43937e81-3ba3-4634-9f85-660757d0e505")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -86,7 +86,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "05eaf8d2-684d-4852-8269-bdbbd10b67e6")
+		(uuid "82fab6a6-60d9-4a81-b655-73a21240cc29")
 	)
 	(fp_rect
 		(start -3.7 -14.2)
@@ -97,7 +97,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b00d1e6e-82c7-47c5-a747-93550125f127")
+		(uuid "a0609321-6c93-491a-a7b6-af96f943043e")
 	)
 	(fp_circle
 		(center 2.5 -7.5)
@@ -108,7 +108,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "922a8e57-f1ec-4517-bc8c-556c573865f7")
+		(uuid "2bfbb298-edeb-4bd9-ae7b-d0f6839aed2b")
 	)
 	(fp_circle
 		(center 2.5 -7.5)
@@ -119,12 +119,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "3bc358e1-1e14-44cb-a64a-9f17328842e3")
+		(uuid "839f4668-e10f-4af5-88f0-eccee4823cef")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.5 -7.5 0)
 		(layer "F.Fab")
-		(uuid "35f6f066-2fc6-4fab-8185-272c45df6d8a")
+		(uuid "1253dfcc-3726-416e-8b36-a19058992237")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -140,7 +140,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "778d7a59-9480-4381-866a-edff330327f5")
+		(thermal_bridge_angle 90)
+		(uuid "5c876e70-c8d8-405e-b6a8-c23f2362b1c1")
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 0)
@@ -150,7 +151,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "d2a1c478-575b-4e20-948b-dcc6df5b8d1f")
+		(thermal_bridge_angle 90)
+		(uuid "0cb229f3-35ef-41b2-86cb-5a11c0b1d8ae")
 	)
 	(pad "3" thru_hole circle
 		(at 5 0)
@@ -160,7 +162,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "904537ec-d96a-44da-b8ff-3bec2afb77c3")
+		(thermal_bridge_angle 90)
+		(uuid "a01a6f41-8458-4f74-b7d7-5020f348edc2")
 	)
 	(pad "4" thru_hole circle
 		(at 0 -14.5)
@@ -170,7 +173,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "84cc9312-ed72-48a5-93f8-add21fd88535")
+		(thermal_bridge_angle 90)
+		(uuid "68494899-f8f8-41e9-ad97-6a8f33878f0b")
 	)
 	(pad "5" thru_hole circle
 		(at 5 -14.5)
@@ -180,7 +184,8 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "fe93ea6b-1b60-4e98-8673-4968b6add3d9")
+		(thermal_bridge_angle 90)
+		(uuid "634d83f8-030b-4e07-b080-afca747f13db")
 	)
 	(pad "6" thru_hole oval
 		(at -3.5 -7.5)
@@ -190,7 +195,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "20cad475-c9d5-43d8-9864-80ea8c5b6714")
+		(uuid "1997272c-aa1b-4a07-9a96-0b2c37c657dd")
 	)
 	(pad "7" thru_hole oval
 		(at 8.5 -7.5)
@@ -200,7 +205,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "3c084802-908f-4bd3-a251-04515c0d22a4")
+		(uuid "b507704f-3f38-489a-a5ee-adeb616fcdfd")
 	)
 	(embedded_fonts no)
 	(model "../3d_models/switch_encoder_pec12r_4225f.step"
