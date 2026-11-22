@@ -362,7 +362,5 @@ if __name__ == '__main__':
     from toolbox.common.show_messages import show_messages
 
 
-    # _test_project_folder = os.path.join(ToolboxData.TEST_PROJECTS_PATH, 'lib_test', 'capacitors')
-    _test_project_folder = r'C:\Workspace\git_projects\lily_hot_plate_controller\10_design\electronics'
-    DesignChecker.run(_test_project_folder)
+    _test_project_folder = os.path.join(ToolboxData.TEST_PROJECTS_PATH, 'lib_test', 'capacitors')
     show_messages(DesignChecker.run(_test_project_folder))
