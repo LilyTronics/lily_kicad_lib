@@ -205,6 +205,8 @@ class DesignChecker:
                 design_keys = list(design_footprint.keys())
                 if 'Footprint' in design_keys:
                     design_keys.remove('Footprint')
+                if 'Side' in design_keys:
+                    design_keys.remove('Side')
                 for field in cls.PART_MANDATORY_FIELDS:
                     if field in design_keys:
                         design_keys.remove(field)
@@ -247,6 +249,15 @@ class DesignChecker:
                             }
                             # Value field is always different from library
                             for key in filter(lambda k: k not in ['Value'], diff):
+                                # Library value is always from front side, while the footprint can
+                                # be placed on the bottom side. The library reports 'F.Layer' while
+                                # the design reports 'B.Layer'. If that is the case, ignore warning.
+                                if ( key == 'Layer' and
+                                     design_footprint['Side'] == 'B' and
+                                     diff[key][0].startswith('F.') and
+                                     diff[key][1].startswith('B.') ):
+                                    continue
+
                                 report_messages.append({
                                     'item': f'{design_footprint['Reference']['Value']} '
                                             f'({design['name']}, {lib_name})',
@@ -290,6 +301,8 @@ class DesignChecker:
                     footprint_keys.remove('Model')
                 if 'Pin_1_mark' in footprint_keys:
                     footprint_keys.remove('Pin_1_mark')
+                if 'Side' in footprint_keys:
+                    footprint_keys.remove('Side')
 
                 # Fields in the symbol but not in the footprint
                 diff = list(set(symbol_keys) - set(footprint_keys))
@@ -349,6 +362,7 @@ if __name__ == '__main__':
     from toolbox.common.show_messages import show_messages
 
 
-    _test_project_folder = os.path.join(ToolboxData.TEST_PROJECTS_PATH, 'lib_test', 'capacitors')
-
+    # _test_project_folder = os.path.join(ToolboxData.TEST_PROJECTS_PATH, 'lib_test', 'capacitors')
+    _test_project_folder = r'C:\Workspace\git_projects\lily_hot_plate_controller\10_design\electronics'
+    DesignChecker.run(_test_project_folder)
     show_messages(DesignChecker.run(_test_project_folder))
