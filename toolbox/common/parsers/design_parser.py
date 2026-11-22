@@ -233,7 +233,7 @@ class DesignParser:
                     if lines[i].startswith('\t\t(model '):
                         footprint['Model'] = lines[i].strip()[7:].strip(')').strip('"')
                     if lines[i].startswith('\t\t(layer '):
-                        footprint['side'] = (
+                        footprint['Side'] = (
                             lines[i].strip()[7:].strip(')').strip('"').split('.')[0]
                         )
                 footprints.append(footprint)
