@@ -121,8 +121,12 @@ class Controller(ControllerBase):
         else:
             self.logger.add_to_console(f"Apply '{new_code}' to '{selected_part}'")
             try:
-                update_symbol_property(selected_part, 'Lily_ID', new_code)
-                create_erp_import_file(selected_part, new_code, self.tool_view)
+                # Get part data for purchase info
+                matches = [ p for p in get_erp_parts() if p['Name'] == selected_part ]
+                if len(matches) != 1:
+                    raise Exception('No matches for part: {selected_part}')
+                purchase_info = f'{matches[0]['Manufacturer']} - {matches[0]['Manufacturer_ID']}'
+                create_erp_import_file(selected_part, new_code, purchase_info, self.tool_view)
             except Exception as e:
                 message = f'Error applying new code to selected part:\n{e}'
                 with wx.MessageDialog(

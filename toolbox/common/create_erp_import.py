@@ -8,13 +8,17 @@ import wx
 import toolbox.common.toolbox_data as ToolboxData
 
 
-def create_erp_import_file(part_name, lily_id, parent_view=None, filename=None):
+def create_erp_import_file(part_name, lily_id, purchase_info='', parent_view=None, filename=None):
     import_template = os.path.join(ToolboxData.TEMPLATES_PATH, 'erp_import_product.csv')
     with open(import_template, 'r', encoding='utf-8') as fp:
         content = fp.read()
 
     name = part_name.replace('mec_', '').replace('_', ' ')
-    content = content.replace('KICAD_NAME', name).replace('LILY_ID', lily_id)
+    content = (
+        content.replace('KICAD_NAME', name)
+        .replace('LILY_ID', lily_id)
+        .replace('PURCHASE_DESCRIPTION', purchase_info)
+    )
     if filename is None:
         with wx.FileDialog(
                 parent_view, 'Save file', style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT,
@@ -34,4 +38,4 @@ if __name__ == '__main__':
 
     app = wx.App()
 
-    create_erp_import_file('bjt_npn_BC850B_sot23', '1234-12345')
+    create_erp_import_file('bjt_npn_BC850B_sot23', '1234-12345', 'NXP - BC850B')
