@@ -23,7 +23,8 @@ _FIELDS = [
     'id',
     'name',
     'default_code',
-    'categ_id'
+    'categ_id',
+    'description_purchase'
 ]
 
 
@@ -56,6 +57,33 @@ def get_components_from_erp(stdout, filter_value=''):
         return False, []
 
     return True, records
+
+def update_record_in_erp(stdout, product_id: int, data: dict):
+    stdout('Update record')
+    json_filename = os.path.join(ToolboxData.ROOT_PATH, 'erp_connect.json')
+    if not os.path.isfile(json_filename):
+        stdout('No configuration file present')
+        return False
+
+    try:
+        config = json.load(open(json_filename, 'r', encoding='utf-8'))
+    except Exception as e:
+        stdout('Error reading configuration file')
+        stdout(str(e))
+        return False
+
+    try:
+        common = xmlrpc.client.ServerProxy(f'{config['url']}/xmlrpc/2/common')
+        uid = common.authenticate(config['database'], config['username'], config['password'], {})
+        models = xmlrpc.client.ServerProxy(f'{config['url']}/xmlrpc/2/object')
+        success = models.execute_kw(config['database'], uid, config['password'], 'product.template',
+                                    'write', [[product_id], data])
+    except Exception as e:
+        stdout('Error reading records')
+        stdout(str(e))
+        return False
+
+    return success
 
 
 if __name__ == '__main__':
