@@ -4,6 +4,7 @@ Controller for tool template.
 
 import wx
 
+from toolbox.common.checkers.design_blocks_checker import DesignBlocksChecker
 from toolbox.common.checkers.erp_checker import ErpChecker
 from toolbox.common.checkers.footprints_checker import FootprintsChecker
 from toolbox.common.checkers.lib_test_project_checker import LibTestProjectsChecker
@@ -19,8 +20,9 @@ class Controller(ControllerBase):
         'Check symbols': SymbolsChecker,
         'Check footprints': FootprintsChecker,
         'Check unused items': UnusedItemsChecker,
-        'Check ERP data': ErpChecker,
-        'Check lib test projects': LibTestProjectsChecker
+        'Check design blocks': DesignBlocksChecker,
+        'Check lib test projects': LibTestProjectsChecker,
+        'Check ERP data': ErpChecker
     }
 
     def __init__(self, *args):

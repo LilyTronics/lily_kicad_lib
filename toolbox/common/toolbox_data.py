@@ -13,6 +13,7 @@ MODELS_3D_PATH = os.path.join(ROOT_PATH, '3d_models')
 TEST_PROJECTS_PATH = os.path.join(ROOT_PATH, 'test_projects')
 LIB_TEST_PROJECTS_PATH = os.path.join(TEST_PROJECTS_PATH, 'lib_test')
 TEMPLATES_PATH = os.path.join(ROOT_PATH, 'toolbox', 'templates')
+DESIGN_BLOCKS_PATH = os.path.join(ROOT_PATH, 'lily_design_blocks.kicad_blocks')
 
 
 if __name__ == '__main__':
@@ -24,3 +25,4 @@ if __name__ == '__main__':
     print('Test projects path    :', TEST_PROJECTS_PATH)
     print('Lib test projects path:', LIB_TEST_PROJECTS_PATH)
     print('Templates path        :', TEMPLATES_PATH)
+    print('Design blocks path    :', DESIGN_BLOCKS_PATH)
