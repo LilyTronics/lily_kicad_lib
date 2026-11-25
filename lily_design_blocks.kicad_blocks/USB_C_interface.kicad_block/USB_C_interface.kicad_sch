@@ -2,10 +2,14 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "93c8f70b-4723-44f5-9ad8-586a27f04241")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(date "2025-10-06")
+		(title "Project name")
+		(date "2026-09-27")
+		(rev "1")
+		(comment 1 "PCA number")
+		(comment 2 "PCB number")
 	)
 	(lib_symbols
 		(symbol "lily_symbols:GND"
@@ -2127,594 +2131,572 @@
 		)
 	)
 	(junction
-		(at 91.44 81.28)
+		(at 129.54 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16cfc2c0-aba3-43b5-8bf1-5b552c22e914")
+		(uuid "0da7b3da-7229-4357-ba3b-eaf4f170d516")
 	)
 	(junction
-		(at 116.84 78.74)
+		(at 124.46 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20d66317-3b6d-4768-a144-6f4018729737")
+		(uuid "5841c21e-3cf4-4577-90c3-290a89b09ea5")
 	)
 	(junction
-		(at 116.84 93.98)
+		(at 116.84 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "236c210f-fd24-4ced-b1dd-03dbd6144c4e")
+		(uuid "655d35ba-d9e6-4e77-be7d-d8796a483a67")
 	)
 	(junction
-		(at 66.04 109.22)
+		(at 129.54 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "380f3597-1d76-4829-83b9-67ca386a5dbe")
+		(uuid "68a14088-cc3e-49fe-9fa3-54aaf9e3b8ee")
 	)
 	(junction
-		(at 66.04 106.68)
+		(at 78.74 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4d1f8994-8743-4c1b-b730-4dff108f75fa")
+		(uuid "81adc293-ef45-4ff3-82c6-9bf42282a9a1")
 	)
 	(junction
-		(at 91.44 93.98)
+		(at 78.74 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6cdc3473-8696-4722-8475-1ad3da13084b")
+		(uuid "99953a4f-9cc5-4ce2-afc1-86fb494dee8b")
 	)
 	(junction
-		(at 66.04 81.28)
+		(at 78.74 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8343c123-57b6-4e9b-afd0-5c75c68e989c")
+		(uuid "a06d2a3d-dc90-4bb5-bf44-fc94913b4808")
 	)
 	(junction
-		(at 66.04 66.04)
+		(at 78.74 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "838524ef-347f-4e2a-ad04-fceb34c3a52b")
+		(uuid "a113413c-e20b-4016-b575-5b4ab9966aae")
 	)
 	(junction
-		(at 66.04 104.14)
+		(at 104.14 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9204efdf-2080-45cf-b033-df3deb638d65")
+		(uuid "a56b71ea-b31c-4b7e-a6f5-8b05f2ae125c")
 	)
 	(junction
-		(at 104.14 63.5)
+		(at 78.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f7b44f9-b05b-4e75-aaf4-fc3d0c2f3f87")
+		(uuid "a6de8b0b-180e-476b-a76b-7e20e963defd")
 	)
 	(junction
-		(at 66.04 68.58)
+		(at 78.74 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad37471b-ea6d-4446-b69c-962a67dd55fa")
+		(uuid "a8283f2b-d6b3-438f-bb33-a046235e1d42")
 	)
 	(junction
-		(at 66.04 78.74)
+		(at 104.14 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c82786cb-22e1-4999-9532-a62413605f39")
+		(uuid "c37f6078-db78-4a75-bde3-f9fec6b805a0")
 	)
 	(junction
-		(at 66.04 63.5)
+		(at 78.74 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7dd913a-9eb2-4d01-89a8-ed4e42d248c2")
+		(uuid "d45d7562-d2d2-4143-b65e-0487b91471d8")
 	)
 	(junction
-		(at 111.76 63.5)
+		(at 78.74 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da656a12-1e2a-4576-9325-597b1e1ac5e3")
+		(uuid "f7f5fa8e-7dc2-4f15-b6b9-c9a7ee8ec730")
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 91.44 93.98)
+			(xy 76.2 91.44) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "063a1b0d-9d55-4bbe-bd76-a5781a176258")
+		(uuid "01b37d34-0334-4f7a-bfbe-9ce77304ed4e")
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 114.3 93.98)
+			(xy 124.46 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19e96f54-27c2-4e5c-87ad-2c4cd713739f")
+		(uuid "04bc1754-146f-427a-8433-8892c9c0c7d9")
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 124.46 78.74)
+			(xy 78.74 76.2) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b0f5e21-ebae-419c-86a0-89772d49fa57")
+		(uuid "064c37c5-57ed-4ad2-a8fc-20c50cc87408")
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 104.14 63.5)
+			(xy 76.2 76.2) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c116857-9b2a-47f7-b47f-7210d66ba147")
+		(uuid "074331e9-fe96-4f6a-afb4-53a49201d915")
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 66.04 78.74)
+			(xy 116.84 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "292c2636-3d87-4987-8493-e3eb87071daa")
+		(uuid "114d0f39-7468-4941-b9df-60a073d600fc")
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 137.16 81.28)
+			(xy 129.54 111.76) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ba13d8d-95c3-4107-a0e2-fedefc17b99b")
+		(uuid "1524fd71-9820-41c2-aff5-3791f7db74c3")
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 137.16 83.82)
+			(xy 78.74 78.74) (xy 78.74 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ffdf87e-9d56-41fa-b95c-1160ce2b0ae3")
+		(uuid "19de0d3d-bb32-441c-b31a-ca5032cdb42a")
 	)
 	(wire
 		(pts
-			(xy 63.5 68.58) (xy 66.04 68.58)
+			(xy 76.2 101.6) (xy 93.98 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d08e5f3-8bab-467f-ab7e-213eb8555bcd")
+		(uuid "1a175011-c423-4fe6-8f69-149b8198a1a2")
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 91.44 99.06)
+			(xy 129.54 91.44) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "493bd6c9-c5ee-4ac7-9ff4-92831cc6c17c")
+		(uuid "1f192dc1-82b3-4ca2-a06b-244b870f0e33")
 	)
 	(wire
 		(pts
-			(xy 66.04 101.6) (xy 66.04 104.14)
+			(xy 93.98 101.6) (xy 93.98 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a987d0d-d04f-4073-98a8-cc6c55ad5689")
+		(uuid "20da3fe6-5658-4c7d-8007-1201739def76")
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 63.5 71.12)
+			(xy 78.74 93.98) (xy 104.14 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c88541e-44ab-4abf-ab09-331473a6e07b")
+		(uuid "2337f4fd-c225-4bc8-92b2-1f901ea65a78")
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 91.44 93.98)
+			(xy 78.74 121.92) (xy 78.74 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e11362c-004d-4ba0-9071-0b306edd936d")
+		(uuid "253cfe2a-5154-462f-8809-90477c8bc163")
 	)
 	(wire
 		(pts
-			(xy 63.5 109.22) (xy 66.04 109.22)
+			(xy 129.54 91.44) (xy 137.16 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f58872d-a437-4cf0-924f-1d14892918d2")
+		(uuid "2c52c4db-160c-4fcf-b284-3f014215ae36")
 	)
 	(wire
 		(pts
-			(xy 66.04 104.14) (xy 66.04 106.68)
+			(xy 78.74 114.3) (xy 78.74 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56e69709-9170-4caa-9361-577b9ca86773")
+		(uuid "2e812c36-4670-472d-9e55-b924c3d48b2a")
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 66.04 83.82)
+			(xy 76.2 119.38) (xy 78.74 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57667cc4-c245-45f8-ac66-80b801a50690")
+		(uuid "34cc00d4-5185-4728-9be7-b487173a54a7")
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 116.84 99.06)
+			(xy 106.68 111.76) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63b17b6e-dced-4fb1-b961-a299ee57f4cd")
+		(uuid "36e59105-444e-4380-981a-72f29c906126")
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 116.84 93.98)
+			(xy 137.16 76.2) (xy 137.16 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6af5d554-7cda-452d-bf35-49355114076b")
+		(uuid "376e2540-4873-499a-a902-94af82982d81")
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 111.76 63.5)
+			(xy 127 111.76) (xy 129.54 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c7cc4a2-e3d0-4323-8844-b4f3d9ae331d")
+		(uuid "3f1146f3-66ca-4b09-8592-380a845a104f")
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 99.06 63.5)
+			(xy 78.74 88.9) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7468176c-9b66-46cd-82ad-f6f1ec360809")
+		(uuid "3f1b163f-59eb-4a35-bfaf-b3675c115ffb")
 	)
 	(wire
 		(pts
-			(xy 66.04 63.5) (xy 66.04 66.04)
+			(xy 78.74 119.38) (xy 78.74 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7651a5b2-fd68-4125-ae09-43853a1801d2")
+		(uuid "4986d4b9-364a-4d82-9899-cc79202ef346")
 	)
 	(wire
 		(pts
-			(xy 121.92 63.5) (xy 124.46 63.5)
+			(xy 116.84 76.2) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "830ab414-bd80-4bd0-8750-48350d5792c0")
+		(uuid "50373683-03a1-46dd-82f4-dee7c03fd9b5")
 	)
 	(wire
 		(pts
-			(xy 63.5 66.04) (xy 66.04 66.04)
+			(xy 78.74 93.98) (xy 78.74 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84423a60-a257-4545-8163-cae7b3b64360")
+		(uuid "5492853b-eee2-4283-86c9-93a309a4709b")
 	)
 	(wire
 		(pts
-			(xy 66.04 78.74) (xy 116.84 78.74)
+			(xy 83.82 104.14) (xy 83.82 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86ded371-a964-4cd3-8603-d7a8f0f3204c")
+		(uuid "600d17e0-ae73-4cfb-b0b7-2a2d4d052c4f")
 	)
 	(wire
 		(pts
-			(xy 63.5 76.2) (xy 66.04 76.2)
+			(xy 104.14 106.68) (xy 106.68 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8932f27a-7947-4030-99ad-1621a57b939b")
+		(uuid "66c7d5f1-bed8-44ac-8e4e-7e12fcc97079")
 	)
 	(wire
 		(pts
-			(xy 63.5 91.44) (xy 71.12 91.44)
+			(xy 76.2 78.74) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "983a7b8f-2f74-4c98-8933-e01273a5a556")
+		(uuid "6f85ffbb-d604-4b72-8946-f71c567de13e")
 	)
 	(wire
 		(pts
-			(xy 63.5 106.68) (xy 66.04 106.68)
+			(xy 78.74 116.84) (xy 78.74 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99fcb67e-7518-4407-bf8d-06a36d247cbf")
+		(uuid "6fbe1181-a16c-4a8b-a1b8-bedb15f3519b")
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 66.04 83.82)
+			(xy 104.14 93.98) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bacacdf-5c14-4b71-84ea-121bfcce6e2b")
+		(uuid "7061cfd7-8302-45b1-a176-0b9da3706789")
 	)
 	(wire
 		(pts
-			(xy 63.5 88.9) (xy 81.28 88.9)
+			(xy 76.2 81.28) (xy 78.74 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa2d9374-e474-4782-a2e3-2be84720f551")
+		(uuid "71b97b1f-89a3-4a1a-8245-56c6f5ba8a9a")
 	)
 	(wire
 		(pts
-			(xy 66.04 66.04) (xy 66.04 68.58)
+			(xy 116.84 99.06) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad9c27df-4b8a-4ba9-b9ba-453ea9e990fa")
+		(uuid "72a7f66b-36e4-47c6-867a-a984ec17835f")
 	)
 	(wire
 		(pts
-			(xy 63.5 78.74) (xy 66.04 78.74)
+			(xy 76.2 93.98) (xy 78.74 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adf4fd92-157c-4e27-aaff-3ac9eb6c4f8f")
+		(uuid "755244f7-cfe7-4523-b68f-dfab504eaf0e")
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 91.44 81.28)
+			(xy 76.2 104.14) (xy 83.82 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4d16008-af62-4372-bd4e-67f40186974b")
+		(uuid "80d37cce-5f00-4d1d-874a-b39da0e9f8c6")
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 66.04 63.5)
+			(xy 76.2 88.9) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b715a9a2-fe2d-42bd-b052-ccd61d55be32")
+		(uuid "86dcca46-86c9-4e36-bc30-f24942a80c60")
 	)
 	(wire
 		(pts
-			(xy 91.44 93.98) (xy 93.98 93.98)
+			(xy 104.14 111.76) (xy 104.14 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd19d2bc-d62d-4c3f-b6da-79a8c3aabda1")
+		(uuid "92589c7d-09d8-47f0-be4c-166772969abe")
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 124.46 83.82)
+			(xy 76.2 121.92) (xy 78.74 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf4afbd2-3cf6-446e-9361-d650f88dea26")
+		(uuid "9895e25d-d1ee-402a-ab4c-3bfd09374495")
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 81.28 93.98)
+			(xy 76.2 114.3) (xy 78.74 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c123a0c3-1384-4309-91f7-13914b5771b6")
+		(uuid "ac7cad5a-508d-4806-bcae-8e70124fe014")
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 66.04 81.28)
+			(xy 149.86 93.98) (xy 149.86 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2baee61-2d39-4b96-b957-e263f5d8233b")
+		(uuid "acfe6d74-909a-4618-a838-083d6f531854")
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 66.04 101.6)
+			(xy 76.2 96.52) (xy 78.74 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9eeb22f-acb9-4a59-8f0c-de1912bd29b0")
+		(uuid "b2222572-6998-402d-bb0d-301355b8db31")
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 66.04 104.14)
+			(xy 104.14 76.2) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd6323f4-eccd-4fbb-b24c-752c48f918b5")
+		(uuid "bd3697d8-ef27-4db5-b10f-728d792f3861")
 	)
 	(wire
 		(pts
-			(xy 66.04 68.58) (xy 66.04 71.12)
+			(xy 78.74 81.28) (xy 78.74 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d44b179b-2ce9-4993-8c5e-45c5a973d93a")
+		(uuid "c9d4aff3-fae1-4232-9fcd-b7ffbab606b3")
 	)
 	(wire
 		(pts
-			(xy 66.04 109.22) (xy 66.04 111.76)
+			(xy 134.62 76.2) (xy 137.16 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6224e7c-2a2d-4025-a0f6-0e236f58d8cb")
+		(uuid "cad684d0-dd7f-4c76-9686-11e6f80c00e9")
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 116.84 93.98)
+			(xy 124.46 76.2) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2fa0ad4-6172-4936-ab2e-3de9b62edc39")
+		(uuid "d0c71604-c267-46a6-9697-ffe0d49989fb")
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 111.76 66.04)
+			(xy 78.74 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e75197bc-eceb-4bbc-bf1b-474275fa5d4a")
+		(uuid "d18cbb9e-4203-48e0-b4e9-5c5f7ef3c080")
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 66.04 63.5)
+			(xy 129.54 106.68) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7f318e1-f42b-4d46-8782-526038e7aadb")
+		(uuid "d56e1691-5f7c-4674-9877-d5090fc30949")
 	)
 	(wire
 		(pts
-			(xy 71.12 91.44) (xy 71.12 93.98)
+			(xy 76.2 116.84) (xy 78.74 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efe7d670-c19d-4c8a-94cb-602f3be49c72")
+		(uuid "d8f2d42b-3525-427d-84c5-02204610782c")
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 124.46 66.04)
+			(xy 137.16 91.44) (xy 137.16 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0cdac7e-5ebe-4878-bb94-6fe370f68fbd")
+		(uuid "dc5bce20-137c-477d-bb3a-c998cfb01142")
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 114.3 63.5)
+			(xy 104.14 93.98) (xy 104.14 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f80fddb5-aee5-4f68-a322-9e64885c8891")
+		(uuid "e7ddb9e5-751c-4fe9-a076-c0809293fabc")
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 66.04 109.22)
+			(xy 78.74 83.82) (xy 76.2 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fab2da6c-2aa4-45f0-9740-9687cbb2d03e")
+		(uuid "f54b0906-45d5-4ca6-b05f-3429c1263da7")
 	)
 	(symbol
-		(lib_id "lily_symbols:cap_10n_50V_10%_X7R_0805")
-		(at 111.76 66.04 0)
+		(lib_id "lily_symbols:GND")
+		(at 124.46 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0a6d94c1-3457-410d-b30a-7e0f2ada617b")
-		(property "Reference" "C?"
-			(at 114.935 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 114.935 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:cap_0805"
-			(at 111.76 86.36 0)
+		(uuid "02ec1a52-b999-4378-a771-6c34ca2007d1")
+		(property "Reference" "#PWR06"
+			(at 124.46 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2724,8 +2706,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
-			(at 111.76 69.85 0)
+		(property "Value" "GND"
+			(at 124.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,7 +2740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 66.04 0)
+			(at 124.46 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,7 +2751,274 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 111.76 81.28 0)
+			(at 124.46 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d679a32d-5727-4be8-9e7e-da4690e39da1")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:GND")
+		(at 93.98 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04518fa7-988a-475f-a0cd-2f5ad1ff55e1")
+		(property "Reference" "#PWR04"
+			(at 93.98 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 93.98 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "957b6b90-1135-4e7c-a401-92d0d0e43867")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:GND")
+		(at 137.16 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10234e9b-a3b8-4342-8f07-ed6dae522ded")
+		(property "Reference" "#PWR08"
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 137.16 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a251f7d-90f6-4286-a66d-e7ecdd91becc")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:ind_bead_600R_2A_0R1_0805")
+		(at 127 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14793239-f0ee-4145-8d27-abcc3ac29f2b")
+		(property "Reference" "L1"
+			(at 127 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600R/2A"
+			(at 127 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:ind_0805"
+			(at 130.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2758,7 +3029,154 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 111.76 83.82 0)
+			(at 130.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 130.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "MPZ2012S601AT000"
+			(at 130.81 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 130.81 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C21519"
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "de8e92f4-6743-4143-afb7-0956e4c64893")
+		)
+		(pin "1"
+			(uuid "6ceddc08-fe61-467a-94df-2e410da5f079")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:res_5k1_1%_125mW_0805")
+		(at 83.82 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dac0167-0682-4e30-9184-25d6a3a865fe")
+		(property "Reference" "R1"
+			(at 85.725 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 85.725 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:res_0805"
+			(at 83.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
+			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 83.82 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 83.82 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +3187,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 111.76 88.9 0)
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2779,8 +3197,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
-			(at 111.76 91.44 0)
+		(property "Manufacturer_ID" "RC0805FR-075K1L"
+			(at 83.82 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2791,7 +3209,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 111.76 93.98 0)
+			(at 83.82 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,8 +3219,8 @@
 				)
 			)
 		)
-		(property "JLCPCB_ID" "C83170"
-			(at 111.76 96.52 0)
+		(property "JLCPCB_ID" "C84375"
+			(at 83.82 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,55 +3231,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "06925fcc-5adb-4a36-bded-8b9a0a1f7409")
+			(uuid "16b63abd-bfdd-40ae-817e-ba07aa0432ed")
 		)
 		(pin "2"
-			(uuid "6f76bd0e-4a34-4912-b4b8-5146f2f6fe0e")
+			(uuid "7efe13cc-4114-4c5f-b0e0-17ea4bc5acf3")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "C?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:dio_tvs_uni_4_channel_5V_SRV05-4_sot23-6")
-		(at 93.98 93.98 0)
+		(lib_id "lily_symbols:GND")
+		(at 83.82 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "17d91534-b9c3-45d8-83ee-7e645ee13708")
-		(property "Reference" "D?"
-			(at 106.68 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SRV05-4"
-			(at 106.68 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:sot23-6_sc74"
-			(at 104.14 124.46 0)
+		(uuid "226b8e2a-b1ae-42a8-8608-29ad4965b148")
+		(property "Reference" "#PWR03"
+			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,8 +3267,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SRV05-4.pdf"
-			(at 104.14 137.16 0)
+		(property "Value" "GND"
+			(at 83.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +3301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 93.98 0)
+			(at 83.82 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +3312,96 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 104.14 119.38 0)
+			(at 83.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8d07477-3e46-421c-9068-6efc703661e6")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:con_usb_c_receptacle_16p")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23af663e-f8e0-4d98-ad30-61827c76eacb")
+		(property "Reference" "X1"
+			(at 57.15 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "usb_c"
+			(at 57.15 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:con_usb_c_receptacle_16p"
+			(at 63.5 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/gct/USB4105.pdf"
+			(at 63.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 63.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,7 +3412,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 104.14 121.92 0)
+			(at 63.5 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2915,8 +3422,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
-			(at 104.14 127 0)
+		(property "Manufacturer" "GCT"
+			(at 63.5 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2926,8 +3433,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_ID" "SRV05-4HTG-D"
-			(at 104.14 129.54 0)
+		(property "Manufacturer_ID" "USB4105-GF-A-060"
+			(at 63.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2938,7 +3445,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 104.14 132.08 0)
+			(at 63.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2948,8 +3455,8 @@
 				)
 			)
 		)
-		(property "JLCPCB_ID" "C1975211"
-			(at 104.14 134.62 0)
+		(property "JLCPCB_ID" "C3025063"
+			(at 63.5 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2959,36 +3466,158 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "5008d927-cbae-458d-a265-9156120093b3")
+		(pin "B7"
+			(uuid "fa304e91-51e2-4723-a1ec-f850c7549079")
+		)
+		(pin "A4"
+			(uuid "346183df-75f6-4317-a71a-79c34a5499b7")
+		)
+		(pin "B9"
+			(uuid "2b0cd3d2-b14a-4dbb-accd-bb6dbb863ed3")
+		)
+		(pin "A5"
+			(uuid "7c7792e4-ec7b-467d-b88d-23938345fbd6")
+		)
+		(pin "B12"
+			(uuid "f99e5141-b29c-4232-8c41-9c77880a2ec3")
+		)
+		(pin "A6"
+			(uuid "2b2d5758-d372-4074-943c-6aa5d1a1f96c")
+		)
+		(pin "B6"
+			(uuid "945706bd-e42c-4811-a416-581a47e41d02")
 		)
 		(pin "1"
-			(uuid "213616b0-a0e1-4d31-86b2-61bfdd7e3ab6")
+			(uuid "913382e0-3769-40a1-bd30-70eea8265cf1")
 		)
-		(pin "3"
-			(uuid "fbf3e562-661c-49d6-b42b-03c24c4cbb1e")
+		(pin "A1"
+			(uuid "10622170-5cf4-48d7-831c-bb90f9c4c228")
 		)
-		(pin "5"
-			(uuid "b67f5c34-45eb-49cd-8c85-ffdd31157c78")
+		(pin "B4"
+			(uuid "5d44a2a0-667b-4314-b26b-7481acbedd8e")
 		)
-		(pin "6"
-			(uuid "2dc2b1b3-ca21-45a9-81ce-6448c1377a8f")
+		(pin "A7"
+			(uuid "66d76924-613d-4bd9-892b-fde2e3f22957")
 		)
-		(pin "4"
-			(uuid "4fb6e52c-0594-4af3-8c79-4ec38037c363")
+		(pin "A9"
+			(uuid "6c780f51-7bf1-4cdc-9c22-8b419eaccb2a")
+		)
+		(pin "A12"
+			(uuid "db94ded5-1bb8-461d-a6d0-1cbe5ac14084")
+		)
+		(pin "B5"
+			(uuid "7092177d-b229-435b-9892-ea8791dcaf1f")
+		)
+		(pin "A8"
+			(uuid "6c946c64-0b2e-460f-a947-7c736cd6f9d0")
+		)
+		(pin "B8"
+			(uuid "94fc3152-6b17-4b16-b439-971705270500")
+		)
+		(pin "B1"
+			(uuid "5316296c-e796-4744-9ec8-766a70dbc5d1")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "D?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "X1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:cap_47p_50V_5%_C0G_0805")
-		(at 124.46 83.82 0)
+		(lib_id "lily_symbols:GND")
+		(at 149.86 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4694f2ea-8cb2-438c-9848-12fb8d27663c")
+		(property "Reference" "#PWR09"
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 149.86 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e6e8615-8f82-40a8-ac54-81eddf418dc4")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:cap_10n_50V_10%_X7R_0805")
+		(at 124.46 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2996,9 +3625,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1838c0d9-d004-4a21-84b8-35a136d67025")
-		(property "Reference" "C?"
-			(at 127.635 86.36 0)
+		(uuid "5fbef51a-5ef8-4f2d-a896-fc6af30fd062")
+		(property "Reference" "C1"
+			(at 127.635 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3008,8 +3637,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
-			(at 127.635 88.9 0)
+		(property "Value" "10n"
+			(at 127.635 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3030,8 +3659,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
-			(at 124.46 87.63 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
+			(at 124.46 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3042,7 +3671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 83.82 0)
+			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3107,7 +3736,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_ID" "C107118"
+		(property "JLCPCB_ID" "C83170"
 			(at 124.46 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3119,23 +3748,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "d23c1630-4367-4207-b75e-46af0556c91b")
+			(uuid "ab07b2db-0f21-4d76-8a91-0555e98748c4")
 		)
 		(pin "2"
-			(uuid "38c224c0-c3e1-4e3f-bc9d-be1a64cbff67")
+			(uuid "36485bfa-f0d3-4ee9-83d0-0f430ee0677f")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "C?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:con_usb_c_receptacle_16p")
-		(at 63.5 63.5 0)
+		(lib_id "lily_symbols:res_5k1_1%_125mW_0805")
+		(at 93.98 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3143,9 +3772,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2c4c5f09-98e1-4449-b61d-b2dc3976c6a2")
-		(property "Reference" "X?"
-			(at 44.45 54.61 0)
+		(uuid "8d75cd2d-8113-4998-a3a2-da23e68c40a6")
+		(property "Reference" "R2"
+			(at 95.885 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3155,8 +3784,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "usb_c"
-			(at 44.45 57.15 0)
+		(property "Value" "5k1"
+			(at 95.885 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3166,8 +3795,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:con_usb_c_receptacle_16p"
-			(at 50.8 129.54 0)
+		(property "Footprint" "lily_footprints:res_0805"
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3177,8 +3806,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/gct/USB4105.pdf"
-			(at 50.8 142.24 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
+			(at 93.98 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,7 +3818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 63.5 0)
+			(at 93.98 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3200,7 +3829,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 50.8 124.46 0)
+			(at 93.98 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3211,7 +3840,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 50.8 127 0)
+			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,8 +3850,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "GCT"
-			(at 50.8 132.08 0)
+		(property "Manufacturer" "YAGEO"
+			(at 93.98 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,8 +3861,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_ID" "USB4105-GF-A-060"
-			(at 50.8 134.62 0)
+		(property "Manufacturer_ID" "RC0805FR-075K1L"
+			(at 93.98 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3244,7 +3873,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 50.8 137.16 0)
+			(at 93.98 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3254,8 +3883,8 @@
 				)
 			)
 		)
-		(property "JLCPCB_ID" "C3025063"
-			(at 50.8 139.7 0)
+		(property "JLCPCB_ID" "C84375"
+			(at 93.98 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,102 +3893,35 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "B7"
-			(uuid "46dc6bed-9986-4554-abc9-f2af45c5b04a")
-		)
-		(pin "A4"
-			(uuid "5cac53f2-cff1-4d5d-8c3e-c11cd771bb87")
-		)
-		(pin "B9"
-			(uuid "1dcdc7f3-eb6a-4ab1-b43d-3291ad88a303")
-		)
-		(pin "A5"
-			(uuid "dbb96a39-212d-40c8-9a73-047618df60ad")
-		)
-		(pin "B12"
-			(uuid "7ff97bd8-ca84-416e-8501-382da15711a1")
-		)
-		(pin "A6"
-			(uuid "021d9b81-79b2-4944-b4e5-7fa9383f98ed")
-		)
-		(pin "B6"
-			(uuid "4f6fefcf-737e-4efc-8333-27db4eab274f")
 		)
 		(pin "1"
-			(uuid "854ed272-ea97-421d-8247-4bf365d17720")
+			(uuid "d29f08b6-cabf-4293-bdfb-95eb6e450d4c")
 		)
-		(pin "A1"
-			(uuid "83519726-371c-445b-bbb6-ce292f56d154")
-		)
-		(pin "B4"
-			(uuid "e9a7a108-a28f-4d13-af09-d0c169c27e52")
-		)
-		(pin "A7"
-			(uuid "f3126ee2-2b85-4c8a-b399-eea91736ac2d")
-		)
-		(pin "A9"
-			(uuid "ed7f80aa-2b1f-411a-9d40-8e89d837a06f")
-		)
-		(pin "A12"
-			(uuid "a072c1fc-aa58-4b9b-ad2e-44fe4ab86db2")
-		)
-		(pin "B5"
-			(uuid "94295155-78ab-4a1c-9d3b-04306b74f99b")
-		)
-		(pin "A8"
-			(uuid "00378e94-3488-4fce-a42c-1e739136d706")
-		)
-		(pin "B8"
-			(uuid "1d61b9ae-71c0-4a9c-9cfd-42923361fce8")
-		)
-		(pin "B1"
-			(uuid "58f8648b-3ed0-4a26-bbaf-22b6ab678e64")
+		(pin "2"
+			(uuid "113e825e-6e3b-44c6-a0d8-00192554145f")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "X?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:fuse_ptc_0.35A_0.75A_6V_0R25_0805")
-		(at 91.44 63.5 0)
+		(lib_id "lily_symbols:GND")
+		(at 78.74 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "363373aa-1efa-4ec6-8cf9-62bb3dc23476")
-		(property "Reference" "F?"
-			(at 90.17 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.35A/0.75A"
-			(at 90.17 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:fuse_ptc_0805"
-			(at 95.25 71.12 0)
+		(uuid "9252ff46-7d09-4dda-9585-bb4a1933c4c9")
+		(property "Reference" "#PWR02"
+			(at 78.74 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3369,8 +3931,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf"
-			(at 95.25 83.82 0)
+		(property "Value" "GND"
+			(at 78.74 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 63.5 0)
+			(at 78.74 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3392,7 +3976,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 95.25 66.04 0)
+			(at 78.74 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,72 +3985,103 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Status" "Active"
-			(at 95.25 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 95.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_ID" "0805L035YR"
-			(at 95.25 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 95.25 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_ID" "C207021"
-			(at 95.25 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "99c86b51-b046-486a-8799-ce6cec6f9308")
 		)
 		(pin "1"
-			(uuid "d7b5c855-430e-451a-868c-fe8aa32e5e55")
+			(uuid "74342bf9-a6e7-452c-9736-709880e37238")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "F?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:GND")
+		(at 116.84 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92c1c59d-9938-431b-b6c6-c767fc9ba59b")
+		(property "Reference" "#PWR05"
+			(at 116.84 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 116.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3f29b7f-6695-4428-90d5-3722ab6a11d9")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3474,7 +4089,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_47p_50V_5%_C0G_0805")
-		(at 137.16 83.82 0)
+		(at 149.86 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3482,9 +4097,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "39cb7d94-5b6b-49b8-a6b8-13fcc8ab9865")
-		(property "Reference" "C?"
-			(at 140.335 86.36 0)
+		(uuid "9424559c-b9e0-4f0d-a59e-24a99ecc6807")
+		(property "Reference" "C4"
+			(at 153.035 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3495,7 +4110,154 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 140.335 88.9 0)
+			(at 153.035 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_0805"
+			(at 149.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
+			(at 149.86 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 149.86 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 149.86 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
+			(at 149.86 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 149.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C107118"
+			(at 149.86 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85a8361d-7bcf-4fc4-a85e-95513dfdc2ff")
+		)
+		(pin "2"
+			(uuid "e89c0daa-4a3d-436d-9c78-5f04cf4b5a73")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:cap_100n_50V_10%_X7R_0805")
+		(at 137.16 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ab89fe2-7baf-4b18-985f-e5dc3f375f3f")
+		(property "Reference" "C2"
+			(at 140.335 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 140.335 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3516,8 +4278,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
-			(at 137.16 87.63 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
+			(at 137.16 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +4290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 83.82 0)
+			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3571,7 +4333,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
+		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
 			(at 137.16 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3593,7 +4355,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_ID" "C107118"
+		(property "JLCPCB_ID" "C49678"
 			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3604,24 +4366,24 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "e83ef791-86c7-4d3d-88c6-4c1ea656c574")
-		)
 		(pin "2"
-			(uuid "5b007421-d153-4890-a967-ddec309102ab")
+			(uuid "0b806274-e98b-435c-8cc8-a7f60f549be5")
+		)
+		(pin "1"
+			(uuid "f2f7fa3b-b09c-423c-bd26-03480e79ac2f")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "C?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:cap_100n_50V_10%_X7R_0805")
-		(at 124.46 66.04 0)
+		(lib_id "lily_symbols:dio_tvs_uni_4_channel_5V_SRV05-4_sot23-6")
+		(at 106.68 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3629,9 +4391,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5f0ee4cc-0525-4d17-b283-84bc5bff5b79")
-		(property "Reference" "C?"
-			(at 127.635 68.58 0)
+		(uuid "a7e78b74-aa08-417f-b7bb-d1da33dad3d2")
+		(property "Reference" "D1"
+			(at 119.38 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3641,8 +4403,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 127.635 71.12 0)
+		(property "Value" "SRV05-4"
+			(at 119.38 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3652,8 +4414,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:cap_0805"
-			(at 124.46 86.36 0)
+		(property "Footprint" "lily_footprints:sot23-6_sc74"
+			(at 116.84 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3663,8 +4425,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
-			(at 124.46 69.85 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SRV05-4.pdf"
+			(at 116.84 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3675,7 +4437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 66.04 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3686,7 +4448,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 124.46 81.28 0)
+			(at 116.84 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,7 +4459,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 124.46 83.82 0)
+			(at 116.84 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3707,8 +4469,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 124.46 88.9 0)
+		(property "Manufacturer" "Littelfuse"
+			(at 116.84 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,8 +4480,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
-			(at 124.46 91.44 0)
+		(property "Manufacturer_ID" "SRV05-4HTG-D"
+			(at 116.84 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +4492,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 124.46 93.98 0)
+			(at 116.84 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3740,8 +4502,8 @@
 				)
 			)
 		)
-		(property "JLCPCB_ID" "C49678"
-			(at 124.46 96.52 0)
+		(property "JLCPCB_ID" "C1975211"
+			(at 116.84 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3752,201 +4514,35 @@
 			)
 		)
 		(pin "2"
-			(uuid "5efe539e-41f7-4cca-b243-b95ca66681b4")
+			(uuid "6f0c0e48-d221-4248-bb70-eec241e1e728")
 		)
 		(pin "1"
-			(uuid "a7b2da28-9fa5-4ba5-b8c5-15f45b40b604")
+			(uuid "5c8adeb0-cbc6-4c0a-976b-05662ead9383")
+		)
+		(pin "3"
+			(uuid "141551f9-20ba-43a1-98f5-6a119d169495")
+		)
+		(pin "5"
+			(uuid "f280f854-e2fa-4a65-b530-7f1447e6fd82")
+		)
+		(pin "6"
+			(uuid "49026758-2a81-4781-8165-8763bec120cf")
+		)
+		(pin "4"
+			(uuid "27be6a55-f74c-4170-843c-860bb58406f8")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "C?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 111.76 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73d0074c-fb13-4848-abde-aae64c906066")
-		(property "Reference" "#PWR?"
-			(at 111.76 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 111.76 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a97f41b-7b02-47f3-8c14-e90ed90fa15c")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 124.46 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "77214ab0-47f4-44d8-9cfb-979fc81c388f")
-		(property "Reference" "#PWR?"
-			(at 124.46 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4c188ea-a55c-4ec9-8a2e-2061c0ee8d69")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:res_5k1_1%_125mW_0805")
-		(at 71.12 93.98 0)
+		(lib_id "lily_symbols:fuse_ptc_0.35A_0.75A_6V_0R25_0805")
+		(at 104.14 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3954,9 +4550,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "79158253-450d-403e-be64-5572a5d7391d")
-		(property "Reference" "R?"
-			(at 73.025 96.52 0)
+		(uuid "be9cc0bd-b124-434e-989d-ef820db526b5")
+		(property "Reference" "F1"
+			(at 102.87 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3966,8 +4562,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
-			(at 73.025 99.06 0)
+		(property "Value" "0.35A/0.75A"
+			(at 102.87 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3977,8 +4573,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 71.12 109.22 0)
+		(property "Footprint" "lily_footprints:fuse_ptc_0805"
+			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,8 +4584,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
-			(at 71.12 97.79 0)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf"
+			(at 107.95 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +4596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 93.98 0)
+			(at 104.14 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4011,7 +4607,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 71.12 104.14 0)
+			(at 107.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,7 +4618,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 71.12 106.68 0)
+			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4032,8 +4628,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 71.12 111.76 0)
+		(property "Manufacturer" "Littelfuse"
+			(at 107.95 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,422 +4639,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_ID" "RC0805FR-075K1L"
-			(at 71.12 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 71.12 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_ID" "C84375"
-			(at 71.12 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d47504f-be0c-4b3e-b74a-70508a77eab7")
-		)
-		(pin "2"
-			(uuid "f533112f-b4cd-426e-9d1d-a72f60defa33")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 71.12 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7be54baf-b487-4524-8f1c-19783052fc3e")
-		(property "Reference" "#PWR?"
-			(at 71.12 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 71.12 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e73d829-656e-413a-a4ff-2931234ea542")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 124.46 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "871cc0de-4bdd-4cbf-bea3-bbad8fddc7d4")
-		(property "Reference" "#PWR?"
-			(at 124.46 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 124.46 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c7c6371-7183-4079-a633-b7145e7c7be6")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 104.14 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "92bce1b7-b8fd-42ed-ade6-4666efd1c7b8")
-		(property "Reference" "#PWR?"
-			(at 104.14 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 104.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4981638f-9d45-4c65-834f-368318635ffe")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:ind_bead_600R_2A_0R1_0805")
-		(at 114.3 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6a0d12b-1cb1-4340-a99d-5b0c71024ec9")
-		(property "Reference" "L?"
-			(at 114.3 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "600R/2A"
-			(at 114.3 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:ind_0805"
-			(at 118.11 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
-			(at 118.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 118.11 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" "Active"
-			(at 118.11 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 118.11 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_ID" "MPZ2012S601AT000"
-			(at 118.11 76.2 0)
+		(property "Manufacturer_ID" "0805L035YR"
+			(at 107.95 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,7 +4651,7 @@
 			)
 		)
 		(property "Lily_ID" "NO_ID"
-			(at 118.11 78.74 0)
+			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,8 +4661,8 @@
 				)
 			)
 		)
-		(property "JLCPCB_ID" "C21519"
-			(at 118.11 81.28 0)
+		(property "JLCPCB_ID" "C207021"
+			(at 107.95 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,15 +4673,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "451e1ec6-0a38-4680-ab82-fe68cdc50eba")
+			(uuid "2900e47c-9275-4214-9052-5bddd0eabb86")
 		)
 		(pin "1"
-			(uuid "46a576ba-ffff-4e4a-a8dd-74353b663f4a")
+			(uuid "f44b4cc9-3325-4370-a072-abfdefe273b6")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "L?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -4507,7 +4689,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 81.28 101.6 0)
+		(at 137.16 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4515,388 +4697,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b700f593-342a-46eb-9249-e9efeb7f1c1f")
-		(property "Reference" "#PWR?"
-			(at 81.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1bd1281-0156-4eb5-a710-9323c5c26b41")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 66.04 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc6f891a-83ce-4d66-8d76-d4fa003b1512")
-		(property "Reference" "#PWR?"
-			(at 66.04 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 66.04 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "588d88d2-6647-4c30-bb49-97c4cf769a58")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:res_5k1_1%_125mW_0805")
-		(at 81.28 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8b695d0-1f0b-4970-a1b7-2b2abab2fa73")
-		(property "Reference" "R?"
-			(at 83.185 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 83.185 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lily_footprints:res_0805"
-			(at 81.28 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
-			(at 81.28 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
-			(at 81.28 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" "Active"
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 81.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_ID" "RC0805FR-075K1L"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Lily_ID" "NO_ID"
-			(at 81.28 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_ID" "C84375"
-			(at 81.28 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10f93a26-1d32-4326-bd96-bee0466db711")
-		)
-		(pin "2"
-			(uuid "0091c79a-d427-454c-8e47-91ecfdda52a6")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 137.16 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3f38df1-0a92-472f-9d29-11fbf94b90f4")
-		(property "Reference" "#PWR?"
-			(at 137.16 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Revision" "1"
+		(uuid "c58f30ab-8158-42ce-b864-4629622cdfe5")
+		(property "Reference" "#PWR07"
 			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4907,42 +4709,8 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "039a7986-6302-4c0a-8212-46a8457cda61")
-		)
-		(instances
-			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lily_symbols:GND")
-		(at 50.8 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f40ac0cc-4a94-41bf-816d-b295206481fe")
-		(property "Reference" "#PWR?"
-			(at 50.8 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "GND"
-			(at 50.8 124.46 0)
+			(at 137.16 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4953,7 +4721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 116.84 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4964,7 +4732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 116.84 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4975,7 +4743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 116.84 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4986,7 +4754,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 50.8 121.92 0)
+			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4997,12 +4765,248 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5558fed-3e2a-4bbe-91ff-38f2acfe8f11")
+			(uuid "76870c04-7f79-41c8-9213-c9b6ed9acff3")
 		)
 		(instances
 			(project "USB_C_interface"
-				(path "/93c8f70b-4723-44f5-9ad8-586a27f04241"
-					(reference "#PWR?")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:GND")
+		(at 63.5 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed4e45b2-3564-4228-ba31-836a81783c2b")
+		(property "Reference" "#PWR01"
+			(at 63.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 63.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23d7de2c-f338-48ee-80d2-d3d81b4d9089")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lily_symbols:cap_47p_50V_5%_C0G_0805")
+		(at 137.16 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eef333b5-6937-4db2-90d9-41743daa79f4")
+		(property "Reference" "C3"
+			(at 140.335 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47p"
+			(at 140.335 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lily_footprints:cap_0805"
+			(at 137.16 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
+			(at 137.16 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Revision" "1"
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 137.16 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
+			(at 137.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Lily_ID" "NO_ID"
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_ID" "C107118"
+			(at 137.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82410edd-4a5b-4f34-904b-fc955be14314")
+		)
+		(pin "2"
+			(uuid "1c67e264-9e83-4a73-8f29-503be7f84344")
+		)
+		(instances
+			(project "USB_C_interface"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5014,4 +5018,26 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "lilytronics_page_layout_sch.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBxDB0XADZfYiDwWDfQMcnOQmlDrICnrVAC1V/+o+vtnvuQumgGPnRYaFkAVQBZAB9+0LNI
+				/Bc3I/E/nptnS3w9+RNpvuOhofY15ec51+T4hoZ6tfTUHf/kXwAAAoIR6X2cl7U01uW4JhxZMov/
+				ZcfuMdjuxuikEot3zF4qAAKCMWTScD7whgoBOUNlf+ygRHXujyRQpbIxBYpWObEN3WzobKwAeCx2
+				WlYqR3H0J/e4ttqSf/LffJ1YpXLWCNcij4+oUwbxpfI/H3nmYM+Oswh+OOXn70frQbdwbUkXBTe7
+				4+vBnQQ97Loz2RQL8TWCF4v5UeENE2IHX0TWtL2ue1yyplZaO7u9SSeRUBgZQqKYdBGIw8rNrrqI
+				B/FUhGx794+Vmqal7mXTNiszrXL+X4POljWrOcsBAYFB02hPKJALJNNZKuVKbtnoRjXNdp6ioekw
+				lwuEzs4Gh9WgWrqKojJ7tqS25YMOEvNGJ/XwOixCMW32jYiE5YJR2Ti5aV0vTTscuHH0/6kX3SRW
+				vYi9aJZ5cICkoLFgptzIUFBQkGQYA8BEpMQqHZoxAUuGn45uF4HjNx7AKkYT+RxFAq9bwMbDoSEA
+				WKFnPifYOaUM+mRk9iFiAYWQMs+MgXwfwPxkRq5KkdEeQQnfjJyyr3lpllUwd0b1gGMndVDCymNh
+				bPUulTy2JI1mkJ8WCMPWnEFSRZpPlRm0yZfZaHMxtAAY+skRQ34urRsX1LADAvI6EaOj+Y+Y4CJB
+				+bckCcqT2mWE8HkT0L6oFwJLND6vgpDPXOLvZ/V6IY83udLCufUggIH5cY+M/UTCgn8Nj0na94Ci
+				RE01nQGxvXDRkSMcfW01DytlWl5/qkJGqzBYeZkI2jnQGZyp3V6S46wCji5p2mKFPIaxt//k9mdY
+				QB568o+GA84yp/+BAcpAle/IEGQgE3rzcKKA7/CSw4pP0ts2I5sFGcx0Lpg306tZy9yHufQhxk3c
+				WUZ6QI3BqQI=|
+			)
+			(checksum "AA99E32D76E6281768E23AD2759012E5")
+		)
+	)
 )
