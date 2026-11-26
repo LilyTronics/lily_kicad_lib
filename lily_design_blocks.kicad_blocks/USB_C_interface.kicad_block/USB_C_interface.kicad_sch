@@ -5,11 +5,11 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "Project name")
-		(date "2026-09-27")
+		(title "USB C interface")
+		(date "2026-11-26")
 		(rev "1")
-		(comment 1 "PCA number")
-		(comment 2 "PCB number")
+		(comment 1 "-")
+		(comment 2 "-")
 	)
 	(lib_symbols
 		(symbol "lily_symbols:GND"
@@ -237,7 +237,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1912-11005"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -437,7 +437,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1912-11004"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -637,7 +637,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1912-34701"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -830,7 +830,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1910-10029"
 				(at -12.7 -73.66 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1364,7 +1364,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1911-10013"
 				(at 10.16 -38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1623,7 +1623,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1915-10002"
 				(at 3.81 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1842,7 +1842,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1916-10001"
 				(at 3.81 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2054,7 +2054,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1913-15103"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2131,92 +2131,92 @@
 		)
 	)
 	(junction
-		(at 129.54 91.44)
+		(at 129.54 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0da7b3da-7229-4357-ba3b-eaf4f170d516")
 	)
 	(junction
-		(at 124.46 76.2)
+		(at 124.46 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5841c21e-3cf4-4577-90c3-290a89b09ea5")
 	)
 	(junction
-		(at 116.84 76.2)
+		(at 116.84 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "655d35ba-d9e6-4e77-be7d-d8796a483a67")
 	)
 	(junction
-		(at 129.54 106.68)
+		(at 129.54 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a14088-cc3e-49fe-9fa3-54aaf9e3b8ee")
 	)
 	(junction
-		(at 78.74 78.74)
+		(at 78.74 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81adc293-ef45-4ff3-82c6-9bf42282a9a1")
 	)
 	(junction
-		(at 78.74 93.98)
+		(at 78.74 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99953a4f-9cc5-4ce2-afc1-86fb494dee8b")
 	)
 	(junction
-		(at 78.74 116.84)
+		(at 78.74 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a06d2a3d-dc90-4bb5-bf44-fc94913b4808")
 	)
 	(junction
-		(at 78.74 119.38)
+		(at 78.74 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a113413c-e20b-4016-b575-5b4ab9966aae")
 	)
 	(junction
-		(at 104.14 106.68)
+		(at 104.14 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a56b71ea-b31c-4b7e-a6f5-8b05f2ae125c")
 	)
 	(junction
-		(at 78.74 76.2)
+		(at 78.74 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6de8b0b-180e-476b-a76b-7e20e963defd")
 	)
 	(junction
-		(at 78.74 121.92)
+		(at 78.74 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8283f2b-d6b3-438f-bb33-a046235e1d42")
 	)
 	(junction
-		(at 104.14 93.98)
+		(at 104.14 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c37f6078-db78-4a75-bde3-f9fec6b805a0")
 	)
 	(junction
-		(at 78.74 91.44)
+		(at 78.74 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d45d7562-d2d2-4143-b65e-0487b91471d8")
 	)
 	(junction
-		(at 78.74 81.28)
+		(at 78.74 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7f5fa8e-7dc2-4f15-b6b9-c9a7ee8ec730")
 	)
 	(wire
 		(pts
-			(xy 76.2 91.44) (xy 78.74 91.44)
+			(xy 76.2 66.04) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2226,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 127 76.2)
+			(xy 124.46 50.8) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2236,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 78.74 78.74)
+			(xy 78.74 50.8) (xy 78.74 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2246,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 78.74 76.2)
+			(xy 76.2 50.8) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 124.46 76.2)
+			(xy 116.84 50.8) (xy 124.46 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 129.54 106.68)
+			(xy 129.54 86.36) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 78.74 81.28)
+			(xy 78.74 53.34) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 93.98 101.6)
+			(xy 76.2 76.2) (xy 93.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 129.54 106.68)
+			(xy 129.54 66.04) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 93.98 106.68)
+			(xy 93.98 76.2) (xy 93.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2316,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 93.98) (xy 104.14 93.98)
+			(xy 78.74 68.58) (xy 104.14 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2326,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 78.74 124.46)
+			(xy 78.74 96.52) (xy 78.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 137.16 91.44)
+			(xy 129.54 66.04) (xy 137.16 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2346,7 +2346,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 114.3) (xy 78.74 116.84)
+			(xy 78.74 88.9) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2356,7 +2356,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 78.74 119.38)
+			(xy 76.2 93.98) (xy 78.74 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2366,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 104.14 111.76)
+			(xy 106.68 86.36) (xy 104.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2376,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 137.16 78.74)
+			(xy 137.16 50.8) (xy 137.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2386,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 111.76) (xy 129.54 111.76)
+			(xy 127 86.36) (xy 129.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2396,7 +2396,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 78.74 91.44)
+			(xy 78.74 63.5) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2406,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 119.38) (xy 78.74 121.92)
+			(xy 78.74 93.98) (xy 78.74 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2416,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 111.76 76.2)
+			(xy 116.84 50.8) (xy 111.76 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 93.98) (xy 78.74 96.52)
+			(xy 78.74 68.58) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 104.14) (xy 83.82 106.68)
+			(xy 83.82 78.74) (xy 83.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +2446,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 106.68) (xy 106.68 106.68)
+			(xy 104.14 81.28) (xy 106.68 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 78.74) (xy 78.74 78.74)
+			(xy 76.2 53.34) (xy 78.74 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 116.84) (xy 78.74 119.38)
+			(xy 78.74 91.44) (xy 78.74 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 93.98) (xy 149.86 93.98)
+			(xy 104.14 68.58) (xy 149.86 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 78.74 81.28)
+			(xy 76.2 55.88) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2496,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 116.84 76.2)
+			(xy 116.84 73.66) (xy 116.84 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 93.98) (xy 78.74 93.98)
+			(xy 76.2 68.58) (xy 78.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +2516,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 104.14) (xy 83.82 104.14)
+			(xy 76.2 78.74) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 78.74 88.9)
+			(xy 76.2 63.5) (xy 78.74 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 111.76) (xy 104.14 106.68)
+			(xy 104.14 86.36) (xy 104.14 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 121.92) (xy 78.74 121.92)
+			(xy 76.2 96.52) (xy 78.74 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 78.74 114.3)
+			(xy 76.2 88.9) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 149.86 96.52)
+			(xy 149.86 68.58) (xy 149.86 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 96.52) (xy 78.74 96.52)
+			(xy 76.2 71.12) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2586,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 78.74 76.2)
+			(xy 104.14 50.8) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2596,7 +2596,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 78.74 83.82)
+			(xy 78.74 55.88) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 76.2) (xy 137.16 76.2)
+			(xy 134.62 50.8) (xy 137.16 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 124.46 78.74)
+			(xy 124.46 50.8) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2626,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 91.44) (xy 129.54 91.44)
+			(xy 78.74 66.04) (xy 129.54 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2636,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 127 106.68)
+			(xy 129.54 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 116.84) (xy 78.74 116.84)
+			(xy 76.2 91.44) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2656,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 91.44) (xy 137.16 96.52)
+			(xy 137.16 66.04) (xy 137.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2666,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 93.98) (xy 104.14 106.68)
+			(xy 104.14 68.58) (xy 104.14 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 76.2 83.82)
+			(xy 78.74 58.42) (xy 76.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2686,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 124.46 86.36 0)
+		(at 124.46 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2696,7 +2696,7 @@
 		(dnp no)
 		(uuid "02ec1a52-b999-4378-a771-6c34ca2007d1")
 		(property "Reference" "#PWR06"
-			(at 124.46 96.52 0)
+			(at 124.46 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2707,7 +2707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 93.98 0)
+			(at 124.46 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,7 +2718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 86.36 0)
+			(at 124.46 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2729,7 +2729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 86.36 0)
+			(at 124.46 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2740,7 +2740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 86.36 0)
+			(at 124.46 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,7 +2751,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 124.46 91.44 0)
+			(at 124.46 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +2775,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 93.98 114.3 0)
+		(at 93.98 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2785,7 +2785,7 @@
 		(dnp no)
 		(uuid "04518fa7-988a-475f-a0cd-2f5ad1ff55e1")
 		(property "Reference" "#PWR04"
-			(at 93.98 124.46 0)
+			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 121.92 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2807,7 +2807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 114.3 0)
+			(at 93.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2818,7 +2818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 114.3 0)
+			(at 93.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2829,7 +2829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 114.3 0)
+			(at 93.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2840,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 93.98 119.38 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +2864,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 137.16 104.14 0)
+		(at 137.16 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2874,7 +2874,7 @@
 		(dnp no)
 		(uuid "10234e9b-a3b8-4342-8f07-ed6dae522ded")
 		(property "Reference" "#PWR08"
-			(at 137.16 114.3 0)
+			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2885,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 111.76 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +2896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 104.14 0)
+			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,7 +2907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 104.14 0)
+			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2918,7 +2918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 104.14 0)
+			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2929,7 +2929,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 137.16 109.22 0)
+			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2953,7 +2953,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:ind_bead_600R_2A_0R1_0805")
-		(at 127 76.2 0)
+		(at 127 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2963,7 +2963,7 @@
 		(dnp no)
 		(uuid "14793239-f0ee-4145-8d27-abcc3ac29f2b")
 		(property "Reference" "L1"
-			(at 127 71.12 0)
+			(at 127 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2974,7 +2974,7 @@
 			)
 		)
 		(property "Value" "600R/2A"
-			(at 127 73.66 0)
+			(at 127 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2985,7 +2985,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:ind_0805"
-			(at 130.81 83.82 0)
+			(at 130.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2996,7 +2996,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
-			(at 130.81 96.52 0)
+			(at 130.81 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3007,7 +3007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 76.2 0)
+			(at 127 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3018,7 +3018,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 130.81 78.74 0)
+			(at 130.81 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,7 +3029,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 130.81 81.28 0)
+			(at 130.81 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,7 +3040,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 130.81 86.36 0)
+			(at 130.81 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,7 +3051,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "MPZ2012S601AT000"
-			(at 130.81 88.9 0)
+			(at 130.81 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,8 +3061,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 130.81 91.44 0)
+		(property "Lily_ID" "1916-10001"
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +3073,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C21519"
-			(at 130.81 93.98 0)
+			(at 130.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,7 +3100,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:res_5k1_1%_125mW_0805")
-		(at 83.82 106.68 0)
+		(at 83.82 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3110,7 +3110,7 @@
 		(dnp no)
 		(uuid "1dac0167-0682-4e30-9184-25d6a3a865fe")
 		(property "Reference" "R1"
-			(at 85.725 109.22 0)
+			(at 85.725 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3121,7 +3121,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 85.725 111.76 0)
+			(at 85.725 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3132,7 +3132,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 83.82 121.92 0)
+			(at 83.82 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
-			(at 83.82 110.49 0)
+			(at 83.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3154,7 +3154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 106.68 0)
+			(at 83.82 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,7 +3165,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 83.82 116.84 0)
+			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,7 +3176,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 83.82 119.38 0)
+			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3187,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 83.82 124.46 0)
+			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3198,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "RC0805FR-075K1L"
-			(at 83.82 127 0)
+			(at 83.82 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,8 +3208,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 83.82 129.54 0)
+		(property "Lily_ID" "1913-15103"
+			(at 83.82 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3220,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C84375"
-			(at 83.82 132.08 0)
+			(at 83.82 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3247,7 +3247,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 83.82 114.3 0)
+		(at 83.82 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3257,7 +3257,7 @@
 		(dnp no)
 		(uuid "226b8e2a-b1ae-42a8-8608-29ad4965b148")
 		(property "Reference" "#PWR03"
-			(at 83.82 124.46 0)
+			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3268,7 +3268,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 121.92 0)
+			(at 83.82 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3279,7 +3279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 114.3 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3290,7 +3290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 114.3 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3301,7 +3301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 114.3 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3312,7 +3312,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 83.82 119.38 0)
+			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3336,7 +3336,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:con_usb_c_receptacle_16p")
-		(at 76.2 76.2 0)
+		(at 76.2 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3346,7 +3346,7 @@
 		(dnp no)
 		(uuid "23af663e-f8e0-4d98-ad30-61827c76eacb")
 		(property "Reference" "X1"
-			(at 57.15 67.31 0)
+			(at 57.15 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3357,7 +3357,7 @@
 			)
 		)
 		(property "Value" "usb_c"
-			(at 57.15 69.85 0)
+			(at 57.15 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3368,7 +3368,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:con_usb_c_receptacle_16p"
-			(at 63.5 142.24 0)
+			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3379,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/gct/USB4105.pdf"
-			(at 63.5 154.94 0)
+			(at 63.5 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +3390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 76.2 0)
+			(at 76.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,7 +3401,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 63.5 137.16 0)
+			(at 63.5 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3412,7 +3412,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 63.5 139.7 0)
+			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3423,7 @@
 			)
 		)
 		(property "Manufacturer" "GCT"
-			(at 63.5 144.78 0)
+			(at 63.5 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3434,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "USB4105-GF-A-060"
-			(at 63.5 147.32 0)
+			(at 63.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3444,8 +3444,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 63.5 149.86 0)
+		(property "Lily_ID" "1910-10029"
+			(at 63.5 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3456,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C3025063"
-			(at 63.5 152.4 0)
+			(at 63.5 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3528,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 149.86 104.14 0)
+		(at 149.86 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3538,7 +3538,7 @@
 		(dnp no)
 		(uuid "4694f2ea-8cb2-438c-9848-12fb8d27663c")
 		(property "Reference" "#PWR09"
-			(at 149.86 114.3 0)
+			(at 149.86 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3549,7 +3549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 111.76 0)
+			(at 149.86 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3560,7 +3560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 104.14 0)
+			(at 149.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3571,7 +3571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 104.14 0)
+			(at 149.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3582,7 +3582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 104.14 0)
+			(at 149.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3593,7 +3593,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 149.86 109.22 0)
+			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3617,7 +3617,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_10n_50V_10%_X7R_0805")
-		(at 124.46 78.74 0)
+		(at 124.46 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3627,7 +3627,7 @@
 		(dnp no)
 		(uuid "5fbef51a-5ef8-4f2d-a896-fc6af30fd062")
 		(property "Reference" "C1"
-			(at 127.635 81.28 0)
+			(at 127.635 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3638,7 +3638,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 127.635 83.82 0)
+			(at 127.635 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3649,7 +3649,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 124.46 99.06 0)
+			(at 124.46 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3660,7 +3660,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
-			(at 124.46 82.55 0)
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3671,7 +3671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 78.74 0)
+			(at 124.46 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,7 +3682,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 124.46 93.98 0)
+			(at 124.46 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3693,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 124.46 96.52 0)
+			(at 124.46 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3704,7 +3704,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 124.46 101.6 0)
+			(at 124.46 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3715,7 +3715,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
-			(at 124.46 104.14 0)
+			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,8 +3725,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 124.46 106.68 0)
+		(property "Lily_ID" "1912-11004"
+			(at 124.46 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3737,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C83170"
-			(at 124.46 109.22 0)
+			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3764,7 +3764,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:res_5k1_1%_125mW_0805")
-		(at 93.98 106.68 0)
+		(at 93.98 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3774,7 +3774,7 @@
 		(dnp no)
 		(uuid "8d75cd2d-8113-4998-a3a2-da23e68c40a6")
 		(property "Reference" "R2"
-			(at 95.885 109.22 0)
+			(at 95.885 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3785,7 +3785,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 95.885 111.76 0)
+			(at 95.885 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3796,7 +3796,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 93.98 121.92 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3807,7 +3807,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
-			(at 93.98 110.49 0)
+			(at 93.98 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,7 +3818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 106.68 0)
+			(at 93.98 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3829,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 93.98 116.84 0)
+			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3840,7 +3840,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 93.98 119.38 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,7 +3851,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 93.98 124.46 0)
+			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3862,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "RC0805FR-075K1L"
-			(at 93.98 127 0)
+			(at 93.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,8 +3872,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 93.98 129.54 0)
+		(property "Lily_ID" "1913-15103"
+			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C84375"
-			(at 93.98 132.08 0)
+			(at 93.98 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,7 +3911,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 78.74 124.46 0)
+		(at 78.74 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3921,7 +3921,7 @@
 		(dnp no)
 		(uuid "9252ff46-7d09-4dda-9585-bb4a1933c4c9")
 		(property "Reference" "#PWR02"
-			(at 78.74 134.62 0)
+			(at 78.74 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3932,7 +3932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 132.08 0)
+			(at 78.74 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3943,7 +3943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 124.46 0)
+			(at 78.74 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,7 +3954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 124.46 0)
+			(at 78.74 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3965,7 +3965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 124.46 0)
+			(at 78.74 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3976,7 +3976,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 78.74 129.54 0)
+			(at 78.74 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +4000,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 116.84 119.38 0)
+		(at 116.84 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4010,7 +4010,7 @@
 		(dnp no)
 		(uuid "92c1c59d-9938-431b-b6c6-c767fc9ba59b")
 		(property "Reference" "#PWR05"
-			(at 116.84 129.54 0)
+			(at 116.84 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4021,7 +4021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 127 0)
+			(at 116.84 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4032,7 +4032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 119.38 0)
+			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,7 +4043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 119.38 0)
+			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,7 +4054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 119.38 0)
+			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4065,7 +4065,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 116.84 124.46 0)
+			(at 116.84 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4089,7 +4089,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_47p_50V_5%_C0G_0805")
-		(at 149.86 96.52 0)
+		(at 149.86 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4099,7 +4099,7 @@
 		(dnp no)
 		(uuid "9424559c-b9e0-4f0d-a59e-24a99ecc6807")
 		(property "Reference" "C4"
-			(at 153.035 99.06 0)
+			(at 153.035 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4110,7 +4110,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 153.035 101.6 0)
+			(at 153.035 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4121,7 +4121,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 149.86 111.76 0)
+			(at 149.86 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4132,7 +4132,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
-			(at 149.86 100.33 0)
+			(at 149.86 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4143,7 +4143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 96.52 0)
+			(at 149.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +4154,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 149.86 106.68 0)
+			(at 149.86 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4165,7 +4165,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 149.86 109.22 0)
+			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4176,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 149.86 114.3 0)
+			(at 149.86 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4187,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
-			(at 149.86 116.84 0)
+			(at 149.86 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,8 +4197,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 149.86 119.38 0)
+		(property "Lily_ID" "1912-34701"
+			(at 149.86 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4209,7 +4209,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C107118"
-			(at 149.86 121.92 0)
+			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,7 +4236,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_100n_50V_10%_X7R_0805")
-		(at 137.16 78.74 0)
+		(at 137.16 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4246,7 +4246,7 @@
 		(dnp no)
 		(uuid "9ab89fe2-7baf-4b18-985f-e5dc3f375f3f")
 		(property "Reference" "C2"
-			(at 140.335 81.28 0)
+			(at 140.335 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4257,7 +4257,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 140.335 83.82 0)
+			(at 140.335 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4268,7 +4268,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 137.16 99.06 0)
+			(at 137.16 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +4279,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
-			(at 137.16 82.55 0)
+			(at 137.16 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +4290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 78.74 0)
+			(at 137.16 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,7 +4301,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 137.16 93.98 0)
+			(at 137.16 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,7 +4312,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 137.16 96.52 0)
+			(at 137.16 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,7 +4323,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 137.16 101.6 0)
+			(at 137.16 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4334,7 +4334,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
-			(at 137.16 104.14 0)
+			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4344,8 +4344,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 137.16 106.68 0)
+		(property "Lily_ID" "1912-11005"
+			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,7 +4356,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C49678"
-			(at 137.16 109.22 0)
+			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +4383,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:dio_tvs_uni_4_channel_5V_SRV05-4_sot23-6")
-		(at 106.68 106.68 0)
+		(at 106.68 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4393,7 +4393,7 @@
 		(dnp no)
 		(uuid "a7e78b74-aa08-417f-b7bb-d1da33dad3d2")
 		(property "Reference" "D1"
-			(at 119.38 96.52 0)
+			(at 119.38 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4404,7 +4404,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 119.38 99.06 0)
+			(at 119.38 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4415,7 +4415,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:sot23-6_sc74"
-			(at 116.84 137.16 0)
+			(at 116.84 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,7 +4426,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/SRV05-4.pdf"
-			(at 116.84 149.86 0)
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4437,7 +4437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 106.68 0)
+			(at 106.68 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4448,7 +4448,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 116.84 132.08 0)
+			(at 116.84 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4459,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 116.84 134.62 0)
+			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4470,7 +4470,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 116.84 139.7 0)
+			(at 116.84 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +4481,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "SRV05-4HTG-D"
-			(at 116.84 142.24 0)
+			(at 116.84 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,8 +4491,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 116.84 144.78 0)
+		(property "Lily_ID" "1911-10013"
+			(at 116.84 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +4503,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C1975211"
-			(at 116.84 147.32 0)
+			(at 116.84 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4542,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:fuse_ptc_0.35A_0.75A_6V_0R25_0805")
-		(at 104.14 76.2 0)
+		(at 104.14 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4552,7 +4552,7 @@
 		(dnp no)
 		(uuid "be9cc0bd-b124-434e-989d-ef820db526b5")
 		(property "Reference" "F1"
-			(at 102.87 69.85 0)
+			(at 102.87 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4563,7 +4563,7 @@
 			)
 		)
 		(property "Value" "0.35A/0.75A"
-			(at 102.87 72.39 0)
+			(at 102.87 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4574,7 +4574,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:fuse_ptc_0805"
-			(at 107.95 83.82 0)
+			(at 107.95 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,7 +4585,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf"
-			(at 107.95 96.52 0)
+			(at 107.95 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +4596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 76.2 0)
+			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4607,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 107.95 78.74 0)
+			(at 107.95 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +4618,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 107.95 81.28 0)
+			(at 107.95 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,7 +4629,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 107.95 86.36 0)
+			(at 107.95 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "0805L035YR"
-			(at 107.95 88.9 0)
+			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,8 +4650,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 107.95 91.44 0)
+		(property "Lily_ID" "1915-10002"
+			(at 107.95 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4662,7 +4662,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C207021"
-			(at 107.95 93.98 0)
+			(at 107.95 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,7 +4689,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 137.16 86.36 0)
+		(at 137.16 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4699,7 +4699,7 @@
 		(dnp no)
 		(uuid "c58f30ab-8158-42ce-b864-4629622cdfe5")
 		(property "Reference" "#PWR07"
-			(at 137.16 96.52 0)
+			(at 137.16 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +4710,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 93.98 0)
+			(at 137.16 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 86.36 0)
+			(at 137.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +4732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 86.36 0)
+			(at 137.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,7 +4743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 86.36 0)
+			(at 137.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,7 +4754,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 137.16 91.44 0)
+			(at 137.16 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4778,7 +4778,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 63.5 129.54 0)
+		(at 63.5 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4788,7 +4788,7 @@
 		(dnp no)
 		(uuid "ed4e45b2-3564-4228-ba31-836a81783c2b")
 		(property "Reference" "#PWR01"
-			(at 63.5 139.7 0)
+			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,7 +4799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 137.16 0)
+			(at 63.5 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +4810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 129.54 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +4821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 129.54 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4832,7 +4832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 129.54 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,7 +4843,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 63.5 134.62 0)
+			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4867,7 +4867,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_47p_50V_5%_C0G_0805")
-		(at 137.16 96.52 0)
+		(at 137.16 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4877,7 +4877,7 @@
 		(dnp no)
 		(uuid "eef333b5-6937-4db2-90d9-41743daa79f4")
 		(property "Reference" "C3"
-			(at 140.335 99.06 0)
+			(at 140.335 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4888,7 +4888,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 140.335 101.6 0)
+			(at 140.335 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4899,7 +4899,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 137.16 111.76 0)
+			(at 137.16 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4910,7 +4910,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
-			(at 137.16 100.33 0)
+			(at 137.16 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4921,7 +4921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 96.52 0)
+			(at 137.16 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4932,7 +4932,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 137.16 106.68 0)
+			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4943,7 +4943,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 137.16 109.22 0)
+			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4954,7 +4954,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 137.16 114.3 0)
+			(at 137.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,7 +4965,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
-			(at 137.16 116.84 0)
+			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4975,8 +4975,8 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
-			(at 137.16 119.38 0)
+		(property "Lily_ID" "1912-34701"
+			(at 137.16 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4987,7 +4987,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C107118"
-			(at 137.16 121.92 0)
+			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

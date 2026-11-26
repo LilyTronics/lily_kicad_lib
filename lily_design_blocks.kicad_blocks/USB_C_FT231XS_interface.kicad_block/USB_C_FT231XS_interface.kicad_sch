@@ -5,11 +5,11 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "Project name")
-		(date "2026-09-27")
+		(title "USB C FT231XS interface")
+		(date "2026-11-26")
 		(rev "1")
-		(comment 1 "PCA number")
-		(comment 2 "PCB number")
+		(comment 1 "-")
+		(comment 2 "-")
 	)
 	(lib_symbols
 		(symbol "lily_symbols:GND"
@@ -237,7 +237,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1912-11005"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -437,7 +437,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1912-11004"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -637,7 +637,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1912-34701"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -837,7 +837,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1912-14706"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1030,7 +1030,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1910-10029"
 				(at -12.7 -73.66 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1483,7 +1483,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "KP-2012CGCK"
+			(property "Value" "green"
 				(at 4.445 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1571,7 +1571,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1911-10003"
 				(at 0.508 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1812,7 +1812,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1911-10013"
 				(at 10.16 -38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2071,7 +2071,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1915-10002"
 				(at 3.81 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2284,7 +2284,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1914-10026"
 				(at 17.78 -68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2795,7 +2795,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1916-10001"
 				(at 3.81 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3007,7 +3007,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1913-12701"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3194,7 +3194,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1913-14702"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3381,7 +3381,7 @@
 					)
 				)
 			)
-			(property "Lily_ID" "NO_ID"
+			(property "Lily_ID" "1913-15103"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4394,7 +4394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03b33244-6ed0-498c-8d44-e3dd5a59f85a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 104.14 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4466,7 +4466,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -4483,7 +4483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fd222c4-1beb-4b72-a00e-78bb7de48489")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4555,7 +4555,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -4671,7 +4671,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1911-10013"
 			(at 104.14 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4731,7 +4731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1251ff5d-0c8b-415b-8c87-e6b5cf7a8344")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4803,7 +4803,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -4919,7 +4919,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11004"
 			(at 111.76 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5066,7 +5066,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1916-10001"
 			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5213,7 +5213,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11005"
 			(at 124.46 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5262,7 +5262,7 @@
 		(dnp no)
 		(uuid "2372aeaf-d4b3-4096-bfa7-c91f106c0f2c")
 		(property "Reference" "R3"
-			(at 144.78 76.2 90)
+			(at 147.32 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5273,7 +5273,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 152.4 76.2 90)
+			(at 151.13 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5360,7 +5360,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1913-12701"
 			(at 132.08 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5507,7 +5507,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1915-10002"
 			(at 95.25 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5555,7 +5555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "403f6bb8-da01-4a8e-92e1-f60767cfd799")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +5627,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -5743,7 +5743,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1913-15103"
 			(at 81.28 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5791,7 +5791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f85dce9-560b-44cc-8588-717f82a5d97a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 185.42 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5863,7 +5863,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5979,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1913-14702"
 			(at 215.9 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6027,7 +6027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ce4a8ae-0560-4712-a1b7-5bb311bacf33")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6099,7 +6099,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -6116,7 +6116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "618fcb5a-1739-4ad5-b7b6-7c4e612ddb92")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 180.34 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6188,7 +6188,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -6304,7 +6304,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-34701"
 			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6352,7 +6352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c42e53a-917d-4f1e-b963-ac3e815777ad")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 71.12 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6424,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -6441,7 +6441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "831927a2-efb9-4d6c-a7fd-c5897763f561")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6513,7 +6513,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -6629,7 +6629,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-34701"
 			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6776,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-14706"
 			(at 137.16 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6923,7 +6923,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1910-10029"
 			(at 50.8 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1236363-1ff6-478c-868b-0d06a3f51962")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7088,7 +7088,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -7116,7 +7116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TX"
+		(property "Value" "green"
 			(at 233.045 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7204,7 +7204,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1911-10003"
 			(at 229.108 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +7252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c80fb77a-3e03-4b4e-87b5-7ed708056649")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 203.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7324,7 +7324,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7342,7 @@
 		(dnp no)
 		(uuid "c995c6b5-4c76-4d42-9823-8010819735e6")
 		(property "Reference" "R4"
-			(at 144.78 83.82 90)
+			(at 147.32 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7353,7 +7353,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 152.4 83.82 90)
+			(at 151.13 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7440,7 +7440,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1913-12701"
 			(at 132.08 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7587,7 +7587,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1912-11005"
 			(at 203.2 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7734,7 +7734,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1913-15103"
 			(at 71.12 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7782,7 +7782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d56f14e3-1db3-4f4c-9c12-c8643309fd1b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 66.04 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7854,7 +7854,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -7968,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1914-10026"
 			(at 182.88 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8070,7 +8070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2aa06e2-8000-4426-96a3-8af1d92bd8c9")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -8142,7 +8142,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -8170,7 +8170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RX"
+		(property "Value" "green"
 			(at 220.345 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8258,7 +8258,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1911-10003"
 			(at 216.408 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8405,7 +8405,7 @@
 				)
 			)
 		)
-		(property "Lily_ID" "NO_ID"
+		(property "Lily_ID" "1913-14702"
 			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
