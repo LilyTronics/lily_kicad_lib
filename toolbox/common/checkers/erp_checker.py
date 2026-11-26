@@ -24,19 +24,25 @@ class ErpChecker:
     def run(cls):
         cls.stdout('Check ERP components against library components')
         report_messages = []
-        erp_components = []
         result = get_components_from_erp(cls.stdout)
-        if result[0]:
+        print(result)
+        if not result[0]:
+            report_messages.append({
+                'item': 'get components',
+                'message': 'Failed to retrieve components from the ERP system'
+            })
+        else:
             erp_components = result[1]
-        lib_components = list(filter(cls.lib_filter, LibParser.get_symbols()))
-        # Make name format in library components same as the name in the ERP database
-        lib_components = [
-            { **c, 'Name': c['Name'].replace('mec_', '').replace('_', ' ') }
-            for c in lib_components
-        ]
-        cls.stdout(f'Checking {len(erp_components)} ERP components')
-        cls.stdout(f'Checking {len(lib_components)} library components')
-        cls._check_lib_to_erp(lib_components, erp_components, report_messages)
+            lib_components = list(filter(cls.lib_filter, LibParser.get_symbols()))
+            # Make name format in library components same as the name in the ERP database
+            lib_components = [
+                { **c, 'Name': c['Name'].replace('mec_', '').replace('_', ' ') }
+                for c in lib_components
+            ]
+            cls.stdout(f'Checking {len(erp_components)} ERP components')
+            cls.stdout(f'Checking {len(lib_components)} library components')
+            cls._check_lib_to_erp(lib_components, erp_components, report_messages)
+
         return report_messages
 
     @classmethod
