@@ -3459,7 +3459,7 @@
 	)
 	(text "TX LED"
 		(exclude_from_sim no)
-		(at 201.93 106.68 0)
+		(at 209.55 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3470,7 +3470,7 @@
 	)
 	(text "RX LED"
 		(exclude_from_sim no)
-		(at 201.93 104.14 0)
+		(at 209.55 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3478,12 +3478,6 @@
 			(justify left bottom)
 		)
 		(uuid "a829df4c-aaed-4d11-90ba-08ab746b318c")
-	)
-	(junction
-		(at 104.14 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08c2d26c-e0a4-4a6f-91dd-6f7a27dde051")
 	)
 	(junction
 		(at 66.04 68.58)
@@ -3504,7 +3498,7 @@
 		(uuid "189f7fc3-a0e1-42ba-a86e-b4d5caeece02")
 	)
 	(junction
-		(at 137.16 63.5)
+		(at 160.02 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ff96fd9-dd5f-4045-b40a-ce587efbf46b")
@@ -3522,19 +3516,19 @@
 		(uuid "556dd32e-f086-49da-b5b3-14691958ca2d")
 	)
 	(junction
-		(at 111.76 63.5)
+		(at 121.92 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c751724-caa4-4017-a1d2-d0bdd0e20ebe")
 	)
 	(junction
-		(at 182.88 60.96)
+		(at 190.5 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "705af8bd-c1a4-48cb-a439-66933b4e7c75")
 	)
 	(junction
-		(at 215.9 60.96)
+		(at 223.52 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79adc017-11aa-4913-90bb-10a7d3c8f8fc")
@@ -3552,7 +3546,7 @@
 		(uuid "816e7162-2197-4752-a6f6-5ee4bf6ee692")
 	)
 	(junction
-		(at 124.46 63.5)
+		(at 134.62 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94f6f76a-e5b9-4c08-95c1-fd16cb3b51e1")
@@ -3576,13 +3570,19 @@
 		(uuid "c724e2d4-1726-4499-9ae6-45b02b772e9c")
 	)
 	(junction
-		(at 187.96 60.96)
+		(at 195.58 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9437707-10d0-4fef-ad35-6735c3b4ef2d")
 	)
 	(junction
-		(at 203.2 60.96)
+		(at 104.14 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce97bd65-f12d-44bd-8694-7444823f805a")
+	)
+	(junction
+		(at 210.82 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcc37360-7382-4964-9fcf-437e79d25574")
@@ -3594,7 +3594,7 @@
 		(uuid "ee18a31f-b850-43b8-84b0-4d20fe4a1c11")
 	)
 	(junction
-		(at 137.16 81.28)
+		(at 134.62 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbd3a61b-4296-4e7b-a65d-d7a09f8ca5b8")
@@ -3606,14 +3606,14 @@
 		(uuid "fc687f6c-6751-43d4-a58c-cc324322d07e")
 	)
 	(junction
-		(at 124.46 78.74)
+		(at 121.92 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff1ccb31-bb91-4ee2-b79a-4cc635e3e793")
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 111.76 63.5)
+			(xy 116.84 63.5) (xy 124.46 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3633,7 +3633,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 124.46 83.82)
+			(xy 121.92 78.74) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3653,7 +3653,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 228.6 106.68)
+			(xy 208.28 106.68) (xy 236.22 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3663,7 +3663,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 177.8 63.5)
+			(xy 185.42 66.04) (xy 185.42 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3683,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 60.96) (xy 215.9 83.82)
+			(xy 223.52 60.96) (xy 223.52 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3703,7 +3703,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 187.96 60.96)
+			(xy 190.5 60.96) (xy 195.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3720,6 +3720,16 @@
 			(type default)
 		)
 		(uuid "2506e70d-f16a-4293-9035-2b9636ef30d3")
+	)
+	(wire
+		(pts
+			(xy 104.14 63.5) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a5a1ca-0d91-4bfa-a437-fd669f35a703")
 	)
 	(wire
 		(pts
@@ -3743,7 +3753,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 81.28) (xy 241.3 81.28)
+			(xy 208.28 81.28) (xy 248.92 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3773,7 +3783,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 60.96) (xy 228.6 83.82)
+			(xy 236.22 60.96) (xy 236.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3793,16 +3803,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 114.3 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af6c348-a170-4035-a9e2-0827121f75e0")
-	)
-	(wire
-		(pts
 			(xy 63.5 101.6) (xy 66.04 101.6)
 		)
 		(stroke
@@ -3813,7 +3813,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 104.14) (xy 215.9 101.6)
+			(xy 223.52 104.14) (xy 223.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3823,7 +3823,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 106.68) (xy 228.6 101.6)
+			(xy 236.22 106.68) (xy 236.22 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3833,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 60.96) (xy 228.6 60.96)
+			(xy 223.52 60.96) (xy 236.22 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3863,17 +3863,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 63.5) (xy 177.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d69366b-cc13-4ab3-b3dc-d81f64a4a998")
-	)
-	(wire
-		(pts
-			(xy 154.94 78.74) (xy 165.1 78.74)
+			(xy 154.94 78.74) (xy 172.72 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3893,7 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 165.1 81.28)
+			(xy 154.94 81.28) (xy 172.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3903,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 241.3 78.74)
+			(xy 208.28 78.74) (xy 248.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3923,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 215.9 93.98)
+			(xy 223.52 91.44) (xy 223.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3933,7 +3923,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 60.96) (xy 187.96 66.04)
+			(xy 195.58 60.96) (xy 195.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3953,33 +3943,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 147.32 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6978f5d6-1e60-4daa-ad7a-9d7575a19965")
-	)
-	(wire
-		(pts
-			(xy 121.92 63.5) (xy 124.46 63.5)
+			(xy 132.08 63.5) (xy 185.42 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69d30ebf-937d-4d92-95dc-0edf3d286732")
-	)
-	(wire
-		(pts
-			(xy 104.14 63.5) (xy 99.06 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a1b4160-27bd-44d0-bd48-f4a89fb71f97")
 	)
 	(wire
 		(pts
@@ -3993,6 +3963,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 63.5) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e08766-e1d8-427b-83e6-b0511856e639")
+	)
+	(wire
+		(pts
 			(xy 66.04 68.58) (xy 66.04 71.12)
 		)
 		(stroke
@@ -4003,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 60.96) (xy 203.2 60.96)
+			(xy 195.58 60.96) (xy 210.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4033,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 66.04) (xy 137.16 63.5)
+			(xy 160.02 66.04) (xy 160.02 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4043,17 +4023,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 147.32 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b77f4a9-2fda-4f01-832f-60b94af4a8ca")
-	)
-	(wire
-		(pts
-			(xy 228.6 91.44) (xy 228.6 93.98)
+			(xy 236.22 91.44) (xy 236.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4073,7 +4043,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 60.96) (xy 203.2 66.04)
+			(xy 210.82 60.96) (xy 210.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4083,7 +4053,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 124.46 66.04)
+			(xy 134.62 63.5) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4113,7 +4083,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 137.16 83.82)
+			(xy 134.62 81.28) (xy 134.62 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4123,17 +4093,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 104.14 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac042c8d-4670-4d98-9e59-a371a40c4aa3")
-	)
-	(wire
-		(pts
-			(xy 116.84 78.74) (xy 124.46 78.74)
+			(xy 116.84 78.74) (xy 147.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4143,7 +4103,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 101.6) (xy 165.1 101.6)
+			(xy 170.18 101.6) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4153,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 60.96) (xy 162.56 101.6)
+			(xy 170.18 60.96) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 111.76 66.04)
+			(xy 121.92 63.5) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4183,7 +4143,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 60.96) (xy 182.88 60.96)
+			(xy 170.18 60.96) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4203,7 +4163,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 182.88 66.04)
+			(xy 190.5 60.96) (xy 190.5 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4220,16 +4180,6 @@
 			(type default)
 		)
 		(uuid "c6b544af-5589-41ab-9913-79cb4eac0a69")
-	)
-	(wire
-		(pts
-			(xy 91.44 63.5) (xy 66.04 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a950b9-3bc2-460f-93d7-3db95f134fb6")
 	)
 	(wire
 		(pts
@@ -4283,7 +4233,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 104.14) (xy 215.9 104.14)
+			(xy 208.28 104.14) (xy 223.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4303,7 +4253,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 137.16 81.28)
+			(xy 91.44 81.28) (xy 147.32 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4343,17 +4293,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 63.5) (xy 124.46 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6f791c-a37a-4d69-a667-2f66fec8eb9a")
-	)
-	(wire
-		(pts
-			(xy 203.2 60.96) (xy 215.9 60.96)
+			(xy 210.82 60.96) (xy 223.52 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4361,9 +4301,69 @@
 		)
 		(uuid "fc7f6725-09ff-4f86-a966-bbd01660cb60")
 	)
+	(label "USB_DP"
+		(at 68.58 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dc9ceec-f2bf-420a-ab9d-8c4f3c7ae101")
+	)
+	(label "V_USB"
+		(at 137.16 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5263ea77-9a1b-46fd-8074-0c3af6e8f896")
+	)
+	(label "USB_3V3"
+		(at 198.12 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "834d6c2b-d405-4b52-86ed-86080a55e111")
+	)
+	(label "FT_DN"
+		(at 162.56 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cef94c95-2d8a-4632-87df-58a4ae9233c6")
+	)
+	(label "FT_DP"
+		(at 162.56 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfacd547-5eab-42a2-875e-bfda2775260a")
+	)
+	(label "USB_DN"
+		(at 68.58 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc5ed3fc-6508-4678-9a95-5d62c67f4dcf")
+	)
 	(hierarchical_label "TXD"
 		(shape output)
-		(at 241.3 78.74 0)
+		(at 248.92 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4374,7 +4374,7 @@
 	)
 	(hierarchical_label "RXD"
 		(shape input)
-		(at 241.3 81.28 0)
+		(at 248.92 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4394,7 +4394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03b33244-6ed0-498c-8d44-e3dd5a59f85a")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR01005"
 			(at 104.14 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4466,7 +4466,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR5")
+					(reference "#PWR01005")
 					(unit 1)
 				)
 			)
@@ -4474,7 +4474,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 111.76 73.66 0)
+		(at 121.92 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4483,8 +4483,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fd222c4-1beb-4b72-a00e-78bb7de48489")
-		(property "Reference" "#PWR6"
-			(at 111.76 83.82 0)
+		(property "Reference" "#PWR01006"
+			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,7 +4495,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 81.28 0)
+			(at 121.92 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4506,7 +4506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 73.66 0)
+			(at 121.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4517,7 +4517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 73.66 0)
+			(at 121.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +4528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 73.66 0)
+			(at 121.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4539,7 +4539,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 111.76 78.74 0)
+			(at 121.92 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4555,7 +4555,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR6")
+					(reference "#PWR01006")
 					(unit 1)
 				)
 			)
@@ -4572,7 +4572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11879877-76bb-46b6-9cc0-9cbc5c5e25cf")
-		(property "Reference" "D1"
+		(property "Reference" "D1001"
 			(at 106.68 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4714,7 +4714,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1")
+					(reference "D1001")
 					(unit 1)
 				)
 			)
@@ -4722,7 +4722,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 137.16 91.44 0)
+		(at 134.62 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4731,8 +4731,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1251ff5d-0c8b-415b-8c87-e6b5cf7a8344")
-		(property "Reference" "#PWR10"
-			(at 137.16 101.6 0)
+		(property "Reference" "#PWR01010"
+			(at 134.62 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,7 +4743,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 99.06 0)
+			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,7 +4754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 91.44 0)
+			(at 134.62 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4765,7 +4765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 91.44 0)
+			(at 134.62 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4776,7 +4776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 91.44 0)
+			(at 134.62 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +4787,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 137.16 96.52 0)
+			(at 134.62 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4803,7 +4803,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR10")
+					(reference "#PWR01010")
 					(unit 1)
 				)
 			)
@@ -4811,7 +4811,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_10n_50V_10%_X7R_0805")
-		(at 111.76 66.04 0)
+		(at 121.92 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4820,8 +4820,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c2fab11-fdd1-4611-ae1f-3bbae0d8257c")
-		(property "Reference" "C1"
-			(at 114.935 68.58 0)
+		(property "Reference" "C1001"
+			(at 125.095 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4832,7 +4832,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 114.935 71.12 0)
+			(at 125.095 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4843,7 +4843,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 111.76 86.36 0)
+			(at 121.92 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4854,7 +4854,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
-			(at 111.76 69.85 0)
+			(at 121.92 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4865,7 +4865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 66.04 0)
+			(at 121.92 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4876,7 +4876,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 111.76 81.28 0)
+			(at 121.92 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4887,7 +4887,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 111.76 83.82 0)
+			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4898,7 +4898,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 111.76 88.9 0)
+			(at 121.92 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4909,7 +4909,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805KRX7R9BB103"
-			(at 111.76 91.44 0)
+			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4920,7 +4920,7 @@
 			)
 		)
 		(property "Lily_ID" "1912-11004"
-			(at 111.76 93.98 0)
+			(at 121.92 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4931,7 +4931,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C83170"
-			(at 111.76 96.52 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +4950,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1")
+					(reference "C1001")
 					(unit 1)
 				)
 			)
@@ -4958,7 +4958,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:ind_bead_600R_2A_0R1_0805")
-		(at 114.3 63.5 0)
+		(at 124.46 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4967,8 +4967,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ca02121-5d63-4966-ba02-507ec6c0b8e0")
-		(property "Reference" "L1"
-			(at 114.3 58.42 0)
+		(property "Reference" "L1001"
+			(at 124.46 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4979,7 +4979,7 @@
 			)
 		)
 		(property "Value" "600R/2A"
-			(at 114.3 60.96 0)
+			(at 124.46 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:ind_0805"
-			(at 118.11 71.12 0)
+			(at 128.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5001,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/tdk/MPZ2012S601AT000.pdf"
-			(at 118.11 83.82 0)
+			(at 128.27 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5012,7 +5012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 63.5 0)
+			(at 124.46 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 118.11 66.04 0)
+			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5034,7 +5034,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 118.11 68.58 0)
+			(at 128.27 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5045,7 +5045,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 118.11 73.66 0)
+			(at 128.27 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5056,7 +5056,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "MPZ2012S601AT000"
-			(at 118.11 76.2 0)
+			(at 128.27 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5067,7 +5067,7 @@
 			)
 		)
 		(property "Lily_ID" "1916-10001"
-			(at 118.11 78.74 0)
+			(at 128.27 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,7 +5078,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C21519"
-			(at 118.11 81.28 0)
+			(at 128.27 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5097,7 +5097,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "L1")
+					(reference "L1001")
 					(unit 1)
 				)
 			)
@@ -5105,7 +5105,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_100n_50V_10%_X7R_0805")
-		(at 124.46 66.04 0)
+		(at 134.62 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5114,8 +5114,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21ac8d4b-ab0d-4394-8cac-094d760d8ba5")
-		(property "Reference" "C2"
-			(at 127.635 68.58 0)
+		(property "Reference" "C1002"
+			(at 137.795 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5126,7 +5126,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 127.635 71.12 0)
+			(at 137.795 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5137,7 +5137,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 124.46 86.36 0)
+			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5148,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
-			(at 124.46 69.85 0)
+			(at 134.62 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 66.04 0)
+			(at 134.62 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5170,7 +5170,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 124.46 81.28 0)
+			(at 134.62 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5181,7 +5181,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 124.46 83.82 0)
+			(at 134.62 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5192,7 +5192,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 124.46 88.9 0)
+			(at 134.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5203,7 +5203,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
-			(at 124.46 91.44 0)
+			(at 134.62 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Lily_ID" "1912-11005"
-			(at 124.46 93.98 0)
+			(at 134.62 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5225,7 +5225,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C49678"
-			(at 124.46 96.52 0)
+			(at 134.62 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,7 +5244,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C2")
+					(reference "C1002")
 					(unit 1)
 				)
 			)
@@ -5261,8 +5261,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2372aeaf-d4b3-4096-bfa7-c91f106c0f2c")
-		(property "Reference" "R3"
-			(at 147.32 76.2 90)
+		(property "Reference" "R1003"
+			(at 144.78 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5273,7 +5273,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 151.13 76.2 90)
+			(at 152.4 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5391,7 +5391,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
+					(reference "R1003")
 					(unit 1)
 				)
 			)
@@ -5399,7 +5399,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:fuse_ptc_0.35A_0.75A_6V_0R25_0805")
-		(at 91.44 63.5 0)
+		(at 109.22 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5408,8 +5408,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30208551-85b9-4c93-acd8-efc7baa30611")
-		(property "Reference" "F1"
-			(at 90.17 57.15 0)
+		(property "Reference" "F1001"
+			(at 107.95 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5420,7 +5420,7 @@
 			)
 		)
 		(property "Value" "0.35A/0.75A"
-			(at 90.17 59.69 0)
+			(at 107.95 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5431,7 +5431,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:fuse_ptc_0805"
-			(at 95.25 71.12 0)
+			(at 113.03 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +5442,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/littelfuse/ptc_0805L_series.pdf"
-			(at 95.25 83.82 0)
+			(at 113.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,7 +5453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 63.5 0)
+			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5464,7 +5464,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 95.25 66.04 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5475,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 95.25 68.58 0)
+			(at 113.03 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5486,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 95.25 73.66 0)
+			(at 113.03 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5497,7 +5497,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "0805L035YR"
-			(at 95.25 76.2 0)
+			(at 113.03 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5508,7 @@
 			)
 		)
 		(property "Lily_ID" "1915-10002"
-			(at 95.25 78.74 0)
+			(at 113.03 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5519,7 +5519,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C207021"
-			(at 95.25 81.28 0)
+			(at 113.03 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5538,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "F1")
+					(reference "F1001")
 					(unit 1)
 				)
 			)
@@ -5546,7 +5546,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 124.46 73.66 0)
+		(at 134.62 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5555,8 +5555,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "403f6bb8-da01-4a8e-92e1-f60767cfd799")
-		(property "Reference" "#PWR7"
-			(at 124.46 83.82 0)
+		(property "Reference" "#PWR01007"
+			(at 134.62 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5567,7 +5567,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 81.28 0)
+			(at 134.62 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5578,7 +5578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 73.66 0)
+			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5589,7 +5589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 73.66 0)
+			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,7 +5600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 73.66 0)
+			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5611,7 +5611,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 124.46 78.74 0)
+			(at 134.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5627,7 +5627,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR7")
+					(reference "#PWR01007")
 					(unit 1)
 				)
 			)
@@ -5644,7 +5644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4360397a-f920-48cf-9313-046ac706688f")
-		(property "Reference" "R2"
+		(property "Reference" "R1002"
 			(at 83.185 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +5774,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R2")
+					(reference "R1002")
 					(unit 1)
 				)
 			)
@@ -5782,7 +5782,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 185.42 121.92 0)
+		(at 193.04 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5791,8 +5791,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f85dce9-560b-44cc-8588-717f82a5d97a")
-		(property "Reference" "#PWR12"
-			(at 185.42 132.08 0)
+		(property "Reference" "#PWR01012"
+			(at 193.04 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,7 +5803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 129.54 0)
+			(at 193.04 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5814,7 +5814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 121.92 0)
+			(at 193.04 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5825,7 +5825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 121.92 0)
+			(at 193.04 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5836,7 +5836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 121.92 0)
+			(at 193.04 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5847,7 +5847,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 185.42 127 0)
+			(at 193.04 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5863,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR12")
+					(reference "#PWR01012")
 					(unit 1)
 				)
 			)
@@ -5871,7 +5871,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:res_470R_1%_125mW_0805")
-		(at 215.9 93.98 0)
+		(at 223.52 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5880,8 +5880,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55f27977-90a9-4c32-a86e-e83cb738ff5b")
-		(property "Reference" "R5"
-			(at 217.805 96.52 0)
+		(property "Reference" "R1005"
+			(at 225.425 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5892,7 +5892,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 217.805 99.06 0)
+			(at 225.425 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5903,7 +5903,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 215.9 109.22 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5914,7 +5914,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
-			(at 215.9 97.79 0)
+			(at 223.52 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5925,7 +5925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 93.98 0)
+			(at 223.52 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5936,7 +5936,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 215.9 104.14 0)
+			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5947,7 +5947,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 215.9 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5958,7 +5958,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 215.9 111.76 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5969,7 +5969,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "RC0805FR-07470RL"
-			(at 215.9 114.3 0)
+			(at 223.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5980,7 +5980,7 @@
 			)
 		)
 		(property "Lily_ID" "1913-14702"
-			(at 215.9 116.84 0)
+			(at 223.52 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5991,7 +5991,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C114564"
-			(at 215.9 119.38 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6010,7 +6010,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R5")
+					(reference "R1005")
 					(unit 1)
 				)
 			)
@@ -6018,7 +6018,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 137.16 73.66 0)
+		(at 160.02 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6027,8 +6027,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ce4a8ae-0560-4712-a1b7-5bb311bacf33")
-		(property "Reference" "#PWR9"
-			(at 137.16 83.82 0)
+		(property "Reference" "#PWR01009"
+			(at 160.02 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +6039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 81.28 0)
+			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 73.66 0)
+			(at 160.02 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 73.66 0)
+			(at 160.02 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,7 +6072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 73.66 0)
+			(at 160.02 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6083,7 +6083,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 137.16 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6099,7 +6099,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR9")
+					(reference "#PWR01009")
 					(unit 1)
 				)
 			)
@@ -6107,7 +6107,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 180.34 121.92 0)
+		(at 187.96 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6116,8 +6116,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "618fcb5a-1739-4ad5-b7b6-7c4e612ddb92")
-		(property "Reference" "#PWR11"
-			(at 180.34 132.08 0)
+		(property "Reference" "#PWR01011"
+			(at 187.96 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6128,7 +6128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 129.54 0)
+			(at 187.96 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6139,7 +6139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 121.92 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6150,7 +6150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 121.92 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +6161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 121.92 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +6172,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 180.34 127 0)
+			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6188,7 +6188,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR11")
+					(reference "#PWR01011")
 					(unit 1)
 				)
 			)
@@ -6196,7 +6196,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_47p_50V_5%_C0G_0805")
-		(at 124.46 83.82 0)
+		(at 121.92 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6205,8 +6205,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c3e7180-1bbf-4a5d-bc73-d1a13f1eb0ba")
-		(property "Reference" "C3"
-			(at 127.635 86.36 0)
+		(property "Reference" "C1003"
+			(at 125.095 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6217,7 +6217,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 127.635 88.9 0)
+			(at 125.095 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6228,7 +6228,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 124.46 99.06 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6239,7 +6239,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
-			(at 124.46 87.63 0)
+			(at 121.92 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,7 +6250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 83.82 0)
+			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6261,7 +6261,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 124.46 93.98 0)
+			(at 121.92 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +6272,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 124.46 96.52 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6283,7 +6283,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 124.46 101.6 0)
+			(at 121.92 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6294,7 +6294,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
-			(at 124.46 104.14 0)
+			(at 121.92 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,7 +6305,7 @@
 			)
 		)
 		(property "Lily_ID" "1912-34701"
-			(at 124.46 106.68 0)
+			(at 121.92 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6316,7 +6316,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C107118"
-			(at 124.46 109.22 0)
+			(at 121.92 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6335,7 +6335,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C3")
+					(reference "C1003")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c42e53a-917d-4f1e-b963-ac3e815777ad")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR01003"
 			(at 71.12 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6424,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR3")
+					(reference "#PWR01003")
 					(unit 1)
 				)
 			)
@@ -6441,7 +6441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "831927a2-efb9-4d6c-a7fd-c5897763f561")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR01004"
 			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6513,7 +6513,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR4")
+					(reference "#PWR01004")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6521,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_47p_50V_5%_C0G_0805")
-		(at 137.16 83.82 0)
+		(at 134.62 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6530,8 +6530,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f7e7eb6-7fa6-4074-ba03-f55a092a7388")
-		(property "Reference" "C5"
-			(at 140.335 86.36 0)
+		(property "Reference" "C1005"
+			(at 137.795 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6542,7 +6542,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 140.335 88.9 0)
+			(at 137.795 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6553,7 +6553,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 137.16 99.06 0)
+			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6564,7 +6564,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805CRNPO9BN.pdf"
-			(at 137.16 87.63 0)
+			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,7 +6575,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 83.82 0)
+			(at 134.62 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6586,7 +6586,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 137.16 93.98 0)
+			(at 134.62 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 137.16 96.52 0)
+			(at 134.62 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6608,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 137.16 101.6 0)
+			(at 134.62 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6619,7 +6619,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805JRNPO9BN470"
-			(at 137.16 104.14 0)
+			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6630,7 +6630,7 @@
 			)
 		)
 		(property "Lily_ID" "1912-34701"
-			(at 137.16 106.68 0)
+			(at 134.62 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6641,7 +6641,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C107118"
-			(at 137.16 109.22 0)
+			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6660,7 +6660,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C5")
+					(reference "C1005")
 					(unit 1)
 				)
 			)
@@ -6668,7 +6668,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_4u7_25V_10%_X5R_0805")
-		(at 137.16 66.04 0)
+		(at 160.02 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6677,8 +6677,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b187da9c-d4e4-48c9-919c-19d844b17cb0")
-		(property "Reference" "C4"
-			(at 140.335 68.58 0)
+		(property "Reference" "C1004"
+			(at 163.195 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6689,7 +6689,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 140.335 71.12 0)
+			(at 163.195 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6700,7 +6700,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 137.16 86.36 0)
+			(at 160.02 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6711,7 +6711,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/samsung/CL21A475KAQNNN.pdf"
-			(at 137.16 99.06 0)
+			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6722,7 +6722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 66.04 0)
+			(at 160.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6733,7 +6733,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 137.16 81.28 0)
+			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6744,7 +6744,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 137.16 83.82 0)
+			(at 160.02 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6755,7 +6755,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 137.16 88.9 0)
+			(at 160.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6766,7 +6766,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CL21A475KAQNNNE"
-			(at 137.16 91.44 0)
+			(at 160.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6777,7 +6777,7 @@
 			)
 		)
 		(property "Lily_ID" "1912-14706"
-			(at 137.16 93.98 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6788,7 +6788,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C1779"
-			(at 137.16 96.52 0)
+			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,7 +6807,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C4")
+					(reference "C1004")
 					(unit 1)
 				)
 			)
@@ -6824,7 +6824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd88c2bf-2eff-4e20-add0-ef04dce866a7")
-		(property "Reference" "X1"
+		(property "Reference" "X1001"
 			(at 44.45 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6999,7 +6999,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1")
+					(reference "X1001")
 					(unit 1)
 				)
 			)
@@ -7007,7 +7007,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 124.46 91.44 0)
+		(at 121.92 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7016,8 +7016,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1236363-1ff6-478c-868b-0d06a3f51962")
-		(property "Reference" "#PWR8"
-			(at 124.46 101.6 0)
+		(property "Reference" "#PWR01008"
+			(at 121.92 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7028,7 +7028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 99.06 0)
+			(at 121.92 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7039,7 +7039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 91.44 0)
+			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7050,7 +7050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 91.44 0)
+			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7061,7 +7061,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 91.44 0)
+			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,7 +7072,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 124.46 96.52 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,7 +7088,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR8")
+					(reference "#PWR01008")
 					(unit 1)
 				)
 			)
@@ -7096,7 +7096,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:dio_led_green_KP-2012CGCK_0805")
-		(at 228.6 83.82 0)
+		(at 236.22 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7105,8 +7105,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c33c5531-79f8-44c9-9770-c5a1d2fb1f80")
-		(property "Reference" "D3"
-			(at 233.045 86.36 0)
+		(property "Reference" "D1003"
+			(at 240.665 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7117,7 +7117,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 233.045 88.9 0)
+			(at 240.665 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7128,7 +7128,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:led_0805"
-			(at 228.6 104.14 0)
+			(at 236.22 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,7 +7139,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf"
-			(at 228.6 116.84 0)
+			(at 236.22 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7150,7 +7150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 83.82 0)
+			(at 236.22 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7161,7 +7161,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 228.6 99.06 0)
+			(at 236.22 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7172,7 +7172,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 228.6 101.6 0)
+			(at 236.22 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7183,7 +7183,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 228.6 106.68 0)
+			(at 236.22 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7194,7 +7194,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "KP-2012CGCK"
-			(at 228.6 109.22 0)
+			(at 236.22 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,7 +7205,7 @@
 			)
 		)
 		(property "Lily_ID" "1911-10003"
-			(at 229.108 111.76 0)
+			(at 236.728 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7216,7 +7216,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C598271"
-			(at 228.6 114.3 0)
+			(at 236.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7235,7 +7235,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D3")
+					(reference "D1003")
 					(unit 1)
 				)
 			)
@@ -7243,7 +7243,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:GND")
-		(at 203.2 73.66 0)
+		(at 210.82 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7252,8 +7252,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c80fb77a-3e03-4b4e-87b5-7ed708056649")
-		(property "Reference" "#PWR13"
-			(at 203.2 83.82 0)
+		(property "Reference" "#PWR01013"
+			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +7264,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 81.28 0)
+			(at 210.82 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7275,7 +7275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 73.66 0)
+			(at 210.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7286,7 +7286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 73.66 0)
+			(at 210.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,7 +7297,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 73.66 0)
+			(at 210.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7308,7 +7308,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 203.2 78.74 0)
+			(at 210.82 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,7 +7324,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR13")
+					(reference "#PWR01013")
 					(unit 1)
 				)
 			)
@@ -7341,8 +7341,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c995c6b5-4c76-4d42-9823-8010819735e6")
-		(property "Reference" "R4"
-			(at 147.32 83.82 90)
+		(property "Reference" "R1004"
+			(at 144.78 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7353,7 +7353,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 151.13 83.82 90)
+			(at 152.4 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7471,7 +7471,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R4")
+					(reference "R1004")
 					(unit 1)
 				)
 			)
@@ -7479,7 +7479,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:cap_100n_50V_10%_X7R_0805")
-		(at 203.2 66.04 0)
+		(at 210.82 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7488,8 +7488,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca760091-999b-475b-9f3b-e0e047c73e70")
-		(property "Reference" "C6"
-			(at 206.375 68.58 0)
+		(property "Reference" "C1006"
+			(at 213.995 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7500,7 +7500,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 206.375 71.12 0)
+			(at 213.995 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7511,7 +7511,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:cap_0805"
-			(at 203.2 86.36 0)
+			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7522,7 +7522,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/CC0805KRX7R9BB.pdf"
-			(at 203.2 69.85 0)
+			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,7 +7533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 66.04 0)
+			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +7544,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 203.2 81.28 0)
+			(at 210.82 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +7555,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 203.2 83.82 0)
+			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +7566,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 203.2 88.9 0)
+			(at 210.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7577,7 +7577,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "CC0805KRX7R9BB104"
-			(at 203.2 91.44 0)
+			(at 210.82 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7588,7 +7588,7 @@
 			)
 		)
 		(property "Lily_ID" "1912-11005"
-			(at 203.2 93.98 0)
+			(at 210.82 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7599,7 +7599,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C49678"
-			(at 203.2 96.52 0)
+			(at 210.82 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7618,7 +7618,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C6")
+					(reference "C1006")
 					(unit 1)
 				)
 			)
@@ -7635,7 +7635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d201132b-2029-4a8e-8d74-8aa551429999")
-		(property "Reference" "R1"
+		(property "Reference" "R1001"
 			(at 73.025 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,7 +7765,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R1")
+					(reference "R1001")
 					(unit 1)
 				)
 			)
@@ -7782,7 +7782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d56f14e3-1db3-4f4c-9c12-c8643309fd1b")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR01002"
 			(at 66.04 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7854,7 +7854,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR2")
+					(reference "#PWR01002")
 					(unit 1)
 				)
 			)
@@ -7862,7 +7862,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:ic_usb_to_serial_FT231XS_ssop20")
-		(at 165.1 78.74 0)
+		(at 172.72 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7871,8 +7871,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1a1efaf-60c0-4d0b-a27e-f41435e445f8")
-		(property "Reference" "U1"
-			(at 182.88 83.82 0)
+		(property "Reference" "U1001"
+			(at 190.5 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7882,7 +7882,7 @@
 			)
 		)
 		(property "Value" "FT231XS"
-			(at 182.88 86.36 0)
+			(at 190.5 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7892,7 +7892,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:ssop20_pitch25_341x154mil"
-			(at 182.88 139.7 0)
+			(at 190.5 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7903,7 +7903,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/ftdi/FT231X.pdf"
-			(at 182.88 152.4 0)
+			(at 190.5 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7914,7 +7914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 78.74 0)
+			(at 172.72 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7925,7 +7925,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 182.88 134.62 0)
+			(at 190.5 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7936,7 +7936,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 182.88 137.16 0)
+			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7947,7 +7947,7 @@
 			)
 		)
 		(property "Manufacturer" "FTDI"
-			(at 182.88 142.24 0)
+			(at 190.5 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7958,7 +7958,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "FT231XS"
-			(at 182.88 144.78 0)
+			(at 190.5 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7969,7 +7969,7 @@
 			)
 		)
 		(property "Lily_ID" "1914-10026"
-			(at 182.88 147.32 0)
+			(at 190.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7980,7 +7980,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C132160"
-			(at 182.88 149.86 0)
+			(at 190.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,7 +8053,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1")
+					(reference "U1001")
 					(unit 1)
 				)
 			)
@@ -8070,7 +8070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2aa06e2-8000-4426-96a3-8af1d92bd8c9")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR01001"
 			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -8142,7 +8142,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR1")
+					(reference "#PWR01001")
 					(unit 1)
 				)
 			)
@@ -8150,7 +8150,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:dio_led_green_KP-2012CGCK_0805")
-		(at 215.9 83.82 0)
+		(at 223.52 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8159,8 +8159,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e81510ab-2896-4aa5-9137-cde2e618e5db")
-		(property "Reference" "D2"
-			(at 220.345 86.36 0)
+		(property "Reference" "D1002"
+			(at 227.965 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8171,7 +8171,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 220.345 88.9 0)
+			(at 227.965 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8182,7 +8182,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:led_0805"
-			(at 215.9 104.14 0)
+			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8193,7 +8193,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/kingbright/KP-2012CGCK.pdf"
-			(at 215.9 116.84 0)
+			(at 223.52 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8204,7 +8204,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 83.82 0)
+			(at 223.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8215,7 +8215,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 215.9 99.06 0)
+			(at 223.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +8226,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 215.9 101.6 0)
+			(at 223.52 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8237,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 215.9 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8248,7 +8248,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "KP-2012CGCK"
-			(at 215.9 109.22 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8259,7 +8259,7 @@
 			)
 		)
 		(property "Lily_ID" "1911-10003"
-			(at 216.408 111.76 0)
+			(at 224.028 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8270,7 +8270,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C598271"
-			(at 215.9 114.3 0)
+			(at 223.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8289,7 +8289,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D2")
+					(reference "D1002")
 					(unit 1)
 				)
 			)
@@ -8297,7 +8297,7 @@
 	)
 	(symbol
 		(lib_id "lily_symbols:res_470R_1%_125mW_0805")
-		(at 228.6 93.98 0)
+		(at 236.22 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8306,8 +8306,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc978131-2e5b-4d80-bebc-6239bcecf016")
-		(property "Reference" "R6"
-			(at 230.505 96.52 0)
+		(property "Reference" "R1006"
+			(at 238.125 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8318,7 +8318,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 230.505 99.06 0)
+			(at 238.125 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8329,7 +8329,7 @@
 			)
 		)
 		(property "Footprint" "lily_footprints:res_0805"
-			(at 228.6 109.22 0)
+			(at 236.22 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8340,7 +8340,7 @@
 			)
 		)
 		(property "Datasheet" "https://lilytronics.github.io/lily_kicad_lib/datasheets/yageo/RC0805FR-07.pdf"
-			(at 228.6 97.79 0)
+			(at 236.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8351,7 +8351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 93.98 0)
+			(at 236.22 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,7 +8362,7 @@
 			)
 		)
 		(property "Revision" "1"
-			(at 228.6 104.14 0)
+			(at 236.22 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8373,7 +8373,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 228.6 106.68 0)
+			(at 236.22 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8384,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 228.6 111.76 0)
+			(at 236.22 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8395,7 @@
 			)
 		)
 		(property "Manufacturer_ID" "RC0805FR-07470RL"
-			(at 228.6 114.3 0)
+			(at 236.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +8406,7 @@
 			)
 		)
 		(property "Lily_ID" "1913-14702"
-			(at 228.6 116.84 0)
+			(at 236.22 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8417,7 +8417,7 @@
 			)
 		)
 		(property "JLCPCB_ID" "C114564"
-			(at 228.6 119.38 0)
+			(at 236.22 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8436,7 +8436,7 @@
 		(instances
 			(project "USB_C_FT231XS_interface"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R6")
+					(reference "R1006")
 					(unit 1)
 				)
 			)

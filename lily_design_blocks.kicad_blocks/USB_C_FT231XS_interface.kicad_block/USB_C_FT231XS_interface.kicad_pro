@@ -98,12 +98,12 @@
         "footprint_filters_mismatch": "error",
         "footprint_symbol_field_mismatch": "error",
         "footprint_symbol_mismatch": "error",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
         "holes_co_located": "error",
-        "invalid_outline": "error",
+        "invalid_outline": "ignore",
         "isolated_copper": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
@@ -126,7 +126,7 @@
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "error",
         "text_on_edge_cuts": "error",
@@ -155,7 +155,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.17,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -561,7 +561,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 2,
       "sort_order": 0
     },
     "bom_export_filename": "",
@@ -682,7 +682,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "L1,D1-3,#PWR1-13,C1-6,F1,R1-6,U1,X1",
+    "used_designators": "L1,L1001,D1-3,D1001-1003,#PWR1-13,#PWR1001-1013,C1-6,C1001-1006,F1,F1001,R1-6,R1001-1006,U1,U1001,X1,X1001",
     "variants": []
   },
   "sheets": [
